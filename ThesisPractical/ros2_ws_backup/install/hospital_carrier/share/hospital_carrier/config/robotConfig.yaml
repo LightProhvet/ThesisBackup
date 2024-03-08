@@ -1,0 +1,64 @@
+/hospital_carrier:
+  CoordinateNavigator:
+    ros__parameters:
+      allowed_distance_difference: 0.05 # in m
+      allowed_rotation_difference: 0.017 #in rad
+
+  EncoderSim:
+    ros__parameters:
+      ventral_wheel_distance: 0.2325 #0.2225 # relative to COM in [m]
+      lateral_wheel_distance: 0.225 #0.2045 # relative to COM in [m]
+      wheel_radius:           0.0762 # in [m]
+      encoder_rate: 0.1 # encoder update rate in [s]
+
+  Follower:
+    ros__parameters:
+      max_x_vel: 0.25 # in [m/s]
+      space_for_max_x_vel: 1 # in m
+      gain_type: "Omni" #  "Omni" or "Diff" gain type for PID controlelr
+      vel_x_const: 0.0
+
+  LineAndObstacleDetector:
+    ros__parameters:
+      camera_params:
+        camera_vert_FOV: 41 # vertical field of view of depth camera, 41 deg if subscribed to aligned_depth_to_color topic.
+        camera_hor_FOV: 64 # horizontal field of view of depth camera, 64 deg if subscribed to aligned_depth_to_color topic.
+        max_measurable_dist: 5000 # in mm, the hardware maximum is 10-12m, but if camera is aimed down then floor is limit
+        # NOTE camera_mounting_angle and camera_mounting_height params are in launch file.
+
+      lineDetector_params:
+        line_width:  0.15 # in [m]
+        line_color_lower_hsv: [5, 90, 100]
+        line_color_higher_hsv: [40, 255, 255]
+        needed_road_width: 800 # the width of empty floor the robot needs for moving, in mm
+
+  Localizer:
+    ros__parameters:
+      # tag params
+      last_tag_ID:      10 # integer
+      elevator_tag_IDs: [2, 5] # list of integers
+      max_tag_distance: 10 # in [m]
+
+      # robot params
+      ventral_wheel_distance: 0.2325 #0.2225 # relative to COM in [m]
+      lateral_wheel_distance: 0.225 #0.2045 # relative to COM in [m]
+      wheel_radius:           0.0762  # in [m]
+      encoder_resolution:     8192  # counts/rev
+
+      encoder_rate: 0.1 # encoder update rate in [s]    
+
+  Odrives:
+    ros__parameters:
+      ventral_wheel_distance: 0.2325 #0.2225 # relative to COM in [m]
+      lateral_wheel_distance: 0.225 #0.2045 # relative to COM in [m]
+      wheel_radius:           0.0762 # in [m]
+      encoder_resolution:     8192  # counts/rev
+
+  OperationModeControl:
+    ros__parameters:
+      voltage_needed: 34.0
+
+  PS4Controller:
+    ros__parameters:
+      vel_x_const_remote_control: 0.5 # in [m/s]
+      voltage_warning: 35.0

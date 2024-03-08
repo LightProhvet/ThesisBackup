@@ -1,0 +1,35 @@
+[2.639s] Invoking command in '/home/mihkel/School/ThesisPractical/ros2_ws/src/robot_ros2': PYTHONPATH=/home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/prefix_override:/home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/hospital_carrier build --build-base /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build install --record /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/install.log --single-version-externally-managed
+[3.456s] running egg_info
+[3.459s] writing ../../build/hospital_carrier/hospital_carrier.egg-info/PKG-INFO
+[3.459s] writing dependency_links to ../../build/hospital_carrier/hospital_carrier.egg-info/dependency_links.txt
+[3.460s] writing entry points to ../../build/hospital_carrier/hospital_carrier.egg-info/entry_points.txt
+[3.461s] writing requirements to ../../build/hospital_carrier/hospital_carrier.egg-info/requires.txt
+[3.461s] writing top-level names to ../../build/hospital_carrier/hospital_carrier.egg-info/top_level.txt
+[3.469s] reading manifest file '../../build/hospital_carrier/hospital_carrier.egg-info/SOURCES.txt'
+[3.476s] writing manifest file '../../build/hospital_carrier/hospital_carrier.egg-info/SOURCES.txt'
+[3.477s] running build
+[3.477s] running build_py
+[3.485s] running install
+[3.486s] running install_lib
+[3.497s] running install_data
+[3.502s] running install_egg_info
+[3.509s] removing '/home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier-0.0.0-py3.10.egg-info' (and everything under it)
+[3.515s] Copying ../../build/hospital_carrier/hospital_carrier.egg-info to /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier-0.0.0-py3.10.egg-info
+[3.518s] running install_scripts
+[3.591s] Installing CoordinateNavigator script to /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/hospital_carrier
+[3.591s] Installing DebugDisplay script to /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/hospital_carrier
+[3.591s] Installing EncoderSim script to /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/hospital_carrier
+[3.592s] Installing Follower script to /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/hospital_carrier
+[3.592s] Installing Localizer script to /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/hospital_carrier
+[3.592s] Installing MqttListener script to /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/hospital_carrier
+[3.592s] Installing MqttOdomAndStatus script to /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/hospital_carrier
+[3.593s] Installing MqttRemoteControl script to /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/hospital_carrier
+[3.593s] Installing MqttVideoStreamer script to /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/hospital_carrier
+[3.593s] Installing OdomCalculator script to /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/hospital_carrier
+[3.594s] Installing Odrives script to /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/hospital_carrier
+[3.594s] Installing OperationModeControl script to /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/hospital_carrier
+[3.594s] Installing PS4Controller script to /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/hospital_carrier
+[3.595s] Installing PointcloudToPly script to /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/hospital_carrier
+[3.595s] Installing ReadAruco script to /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/hospital_carrier
+[3.598s] writing list of installed files to '/home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/install.log'
+[3.662s] Invoked command in '/home/mihkel/School/ThesisPractical/ros2_ws/src/robot_ros2' returned '0': PYTHONPATH=/home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/prefix_override:/home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/hospital_carrier build --build-base /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build install --record /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/install.log --single-version-externally-managed

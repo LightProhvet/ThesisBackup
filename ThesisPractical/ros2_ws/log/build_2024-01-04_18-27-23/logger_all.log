@@ -1,0 +1,663 @@
+[4.601s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[4.601s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f7b2c6b7880>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f7b2c6b4520>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f7b2c6b4520>>)
+[4.794s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.794s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.794s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.795s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.795s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.795s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.795s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mihkel/School/ThesisPractical/ros2_ws'
+[4.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.796s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.796s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.796s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.796s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.796s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.796s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.796s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.797s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.830s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.831s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.831s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.831s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.831s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.832s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.832s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.832s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.833s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.833s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.833s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.833s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.834s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.834s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.834s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.834s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.835s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.835s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.835s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.835s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.835s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.835s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.836s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.836s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.836s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.836s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.836s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.836s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS) by extensions ['ignore', 'ignore_ament_install']
+[4.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS) by extension 'ignore'
+[4.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS) by extension 'ignore_ament_install'
+[4.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS) by extensions ['colcon_pkg']
+[4.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS) by extension 'colcon_pkg'
+[4.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS) by extensions ['colcon_meta']
+[4.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS) by extension 'colcon_meta'
+[4.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS) by extensions ['ros']
+[4.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS) by extension 'ros'
+[4.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS) by extensions ['cmake', 'python']
+[4.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS) by extension 'cmake'
+[4.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS) by extension 'python'
+[4.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS) by extensions ['python_setup_py']
+[4.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS) by extension 'python_setup_py'
+[4.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build) by extensions ['ignore', 'ignore_ament_install']
+[4.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build) by extension 'ignore'
+[4.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build) by extension 'ignore_ament_install'
+[4.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build) by extensions ['colcon_pkg']
+[4.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build) by extension 'colcon_pkg'
+[4.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build) by extensions ['colcon_meta']
+[4.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build) by extension 'colcon_meta'
+[4.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build) by extensions ['ros']
+[4.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build) by extension 'ros'
+[4.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build) by extensions ['cmake', 'python']
+[4.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build) by extension 'cmake'
+[4.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build) by extension 'python'
+[4.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build) by extensions ['python_setup_py']
+[4.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build) by extension 'python_setup_py'
+[4.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles) by extensions ['ignore', 'ignore_ament_install']
+[4.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles) by extension 'ignore'
+[4.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles) by extension 'ignore_ament_install'
+[4.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles) by extensions ['colcon_pkg']
+[4.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles) by extension 'colcon_pkg'
+[4.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles) by extensions ['colcon_meta']
+[4.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles) by extension 'colcon_meta'
+[4.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles) by extensions ['ros']
+[4.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles) by extension 'ros'
+[4.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles) by extensions ['cmake', 'python']
+[4.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles) by extension 'cmake'
+[4.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles) by extension 'python'
+[4.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles) by extensions ['python_setup_py']
+[4.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles) by extension 'python_setup_py'
+[4.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1) by extensions ['ignore', 'ignore_ament_install']
+[4.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1) by extension 'ignore'
+[4.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1) by extension 'ignore_ament_install'
+[4.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1) by extensions ['colcon_pkg']
+[4.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1) by extension 'colcon_pkg'
+[4.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1) by extensions ['colcon_meta']
+[4.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1) by extension 'colcon_meta'
+[4.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1) by extensions ['ros']
+[4.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1) by extension 'ros'
+[4.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1) by extensions ['cmake', 'python']
+[4.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1) by extension 'cmake'
+[4.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1) by extension 'python'
+[4.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1) by extensions ['python_setup_py']
+[4.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1) by extension 'python_setup_py'
+[4.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdC) by extensions ['ignore', 'ignore_ament_install']
+[4.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdC) by extension 'ignore'
+[4.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdC) by extension 'ignore_ament_install'
+[4.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdC) by extensions ['colcon_pkg']
+[4.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdC) by extension 'colcon_pkg'
+[4.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdC) by extensions ['colcon_meta']
+[4.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdC) by extension 'colcon_meta'
+[4.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdC) by extensions ['ros']
+[4.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdC) by extension 'ros'
+[4.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdC) by extensions ['cmake', 'python']
+[4.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdC) by extension 'cmake'
+[4.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdC) by extension 'python'
+[4.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdC) by extensions ['python_setup_py']
+[4.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdC) by extension 'python_setup_py'
+[4.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdC/tmp) by extensions ['ignore', 'ignore_ament_install']
+[4.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdC/tmp) by extension 'ignore'
+[4.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdC/tmp) by extension 'ignore_ament_install'
+[4.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdC/tmp) by extensions ['colcon_pkg']
+[4.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdC/tmp) by extension 'colcon_pkg'
+[4.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdC/tmp) by extensions ['colcon_meta']
+[4.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdC/tmp) by extension 'colcon_meta'
+[4.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdC/tmp) by extensions ['ros']
+[4.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdC/tmp) by extension 'ros'
+[4.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdC/tmp) by extensions ['cmake', 'python']
+[4.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdC/tmp) by extension 'cmake'
+[4.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdC/tmp) by extension 'python'
+[4.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdC/tmp) by extensions ['python_setup_py']
+[4.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdC/tmp) by extension 'python_setup_py'
+[4.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdCXX) by extensions ['ignore', 'ignore_ament_install']
+[4.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdCXX) by extension 'ignore'
+[4.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdCXX) by extension 'ignore_ament_install'
+[4.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdCXX) by extensions ['colcon_pkg']
+[4.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdCXX) by extension 'colcon_pkg'
+[4.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdCXX) by extensions ['colcon_meta']
+[4.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdCXX) by extension 'colcon_meta'
+[4.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdCXX) by extensions ['ros']
+[4.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdCXX) by extension 'ros'
+[4.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdCXX) by extensions ['cmake', 'python']
+[4.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdCXX) by extension 'cmake'
+[4.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdCXX) by extension 'python'
+[4.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdCXX) by extensions ['python_setup_py']
+[4.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdCXX) by extension 'python_setup_py'
+[4.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdCXX/tmp) by extensions ['ignore', 'ignore_ament_install']
+[4.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdCXX/tmp) by extension 'ignore'
+[4.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdCXX/tmp) by extension 'ignore_ament_install'
+[4.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdCXX/tmp) by extensions ['colcon_pkg']
+[4.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdCXX/tmp) by extension 'colcon_pkg'
+[4.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdCXX/tmp) by extensions ['colcon_meta']
+[4.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdCXX/tmp) by extension 'colcon_meta'
+[4.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdCXX/tmp) by extensions ['ros']
+[4.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdCXX/tmp) by extension 'ros'
+[4.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdCXX/tmp) by extensions ['cmake', 'python']
+[4.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdCXX/tmp) by extension 'cmake'
+[4.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdCXX/tmp) by extension 'python'
+[4.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdCXX/tmp) by extensions ['python_setup_py']
+[4.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/3.28.1/CompilerIdCXX/tmp) by extension 'python_setup_py'
+[4.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/CMakeScratch) by extensions ['ignore', 'ignore_ament_install']
+[4.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/CMakeScratch) by extension 'ignore'
+[4.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/CMakeScratch) by extension 'ignore_ament_install'
+[4.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/CMakeScratch) by extensions ['colcon_pkg']
+[4.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/CMakeScratch) by extension 'colcon_pkg'
+[4.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/CMakeScratch) by extensions ['colcon_meta']
+[4.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/CMakeScratch) by extension 'colcon_meta'
+[4.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/CMakeScratch) by extensions ['ros']
+[4.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/CMakeScratch) by extension 'ros'
+[4.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/CMakeScratch) by extensions ['cmake', 'python']
+[4.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/CMakeScratch) by extension 'cmake'
+[4.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/CMakeScratch) by extension 'python'
+[4.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/CMakeScratch) by extensions ['python_setup_py']
+[4.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/CMakeScratch) by extension 'python_setup_py'
+[4.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/mapmos_pybind.dir) by extensions ['ignore', 'ignore_ament_install']
+[4.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/mapmos_pybind.dir) by extension 'ignore'
+[4.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/mapmos_pybind.dir) by extension 'ignore_ament_install'
+[4.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/mapmos_pybind.dir) by extensions ['colcon_pkg']
+[4.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/mapmos_pybind.dir) by extension 'colcon_pkg'
+[4.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/mapmos_pybind.dir) by extensions ['colcon_meta']
+[4.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/mapmos_pybind.dir) by extension 'colcon_meta'
+[4.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/mapmos_pybind.dir) by extensions ['ros']
+[4.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/mapmos_pybind.dir) by extension 'ros'
+[4.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/mapmos_pybind.dir) by extensions ['cmake', 'python']
+[4.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/mapmos_pybind.dir) by extension 'cmake'
+[4.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/mapmos_pybind.dir) by extension 'python'
+[4.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/mapmos_pybind.dir) by extensions ['python_setup_py']
+[4.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/mapmos_pybind.dir) by extension 'python_setup_py'
+[4.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/pkgRedirects) by extensions ['ignore', 'ignore_ament_install']
+[4.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/pkgRedirects) by extension 'ignore'
+[4.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/pkgRedirects) by extension 'ignore_ament_install'
+[4.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/pkgRedirects) by extensions ['colcon_pkg']
+[4.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/pkgRedirects) by extension 'colcon_pkg'
+[4.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/pkgRedirects) by extensions ['colcon_meta']
+[4.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/pkgRedirects) by extension 'colcon_meta'
+[4.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/pkgRedirects) by extensions ['ros']
+[4.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/pkgRedirects) by extension 'ros'
+[4.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/pkgRedirects) by extensions ['cmake', 'python']
+[4.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/pkgRedirects) by extension 'cmake'
+[4.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/pkgRedirects) by extension 'python'
+[4.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/pkgRedirects) by extensions ['python_setup_py']
+[4.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/CMakeFiles/pkgRedirects) by extension 'python_setup_py'
+[4.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps) by extensions ['ignore', 'ignore_ament_install']
+[4.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps) by extension 'ignore'
+[4.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps) by extension 'ignore_ament_install'
+[4.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps) by extensions ['colcon_pkg']
+[4.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps) by extension 'colcon_pkg'
+[4.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps) by extensions ['colcon_meta']
+[4.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps) by extension 'colcon_meta'
+[4.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps) by extensions ['ros']
+[4.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps) by extension 'ros'
+[4.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps) by extensions ['cmake', 'python']
+[4.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps) by extension 'cmake'
+[4.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps) by extension 'python'
+[4.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps) by extensions ['python_setup_py']
+[4.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps) by extension 'python_setup_py'
+[4.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-build) by extensions ['ignore', 'ignore_ament_install']
+[4.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-build) by extension 'ignore'
+[4.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-build) by extension 'ignore_ament_install'
+[4.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-build) by extensions ['colcon_pkg']
+[4.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-build) by extension 'colcon_pkg'
+[4.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-build) by extensions ['colcon_meta']
+[4.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-build) by extension 'colcon_meta'
+[4.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-build) by extensions ['ros']
+[4.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-build) by extension 'ros'
+[4.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-build) by extensions ['cmake', 'python']
+[4.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-build) by extension 'cmake'
+[4.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-build) by extension 'python'
+[4.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-build) by extensions ['python_setup_py']
+[4.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-build) by extension 'python_setup_py'
+[4.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-build/CMakeFiles) by extensions ['ignore', 'ignore_ament_install']
+[4.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-build/CMakeFiles) by extension 'ignore'
+[4.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-build/CMakeFiles) by extension 'ignore_ament_install'
+[4.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-build/CMakeFiles) by extensions ['colcon_pkg']
+[4.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-build/CMakeFiles) by extension 'colcon_pkg'
+[4.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-build/CMakeFiles) by extensions ['colcon_meta']
+[4.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-build/CMakeFiles) by extension 'colcon_meta'
+[4.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-build/CMakeFiles) by extensions ['ros']
+[4.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-build/CMakeFiles) by extension 'ros'
+[4.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-build/CMakeFiles) by extensions ['cmake', 'python']
+[4.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-build/CMakeFiles) by extension 'cmake'
+[4.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-build/CMakeFiles) by extension 'python'
+[4.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-build/CMakeFiles) by extensions ['python_setup_py']
+[4.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-build/CMakeFiles) by extension 'python_setup_py'
+[4.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-src) by extensions ['ignore', 'ignore_ament_install']
+[4.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-src) by extension 'ignore'
+[4.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-src) by extension 'ignore_ament_install'
+[4.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-src) by extensions ['colcon_pkg']
+[4.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-src) by extension 'colcon_pkg'
+[4.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-src) by extensions ['colcon_meta']
+[4.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-src) by extension 'colcon_meta'
+[4.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-src) by extensions ['ros']
+[4.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-src) by extension 'ros'
+[4.881s] DEBUG:colcon.colcon_core.package_identification:Package 'src/MapMOS/build/_deps/sophus-src' with type 'ros.cmake' and name 'sophus'
+[4.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-subbuild) by extensions ['ignore', 'ignore_ament_install']
+[4.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-subbuild) by extension 'ignore'
+[4.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-subbuild) by extension 'ignore_ament_install'
+[4.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-subbuild) by extensions ['colcon_pkg']
+[4.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-subbuild) by extension 'colcon_pkg'
+[4.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-subbuild) by extensions ['colcon_meta']
+[4.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-subbuild) by extension 'colcon_meta'
+[4.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-subbuild) by extensions ['ros']
+[4.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-subbuild) by extension 'ros'
+[4.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-subbuild) by extensions ['cmake', 'python']
+[4.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-subbuild) by extension 'cmake'
+[4.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/sophus-subbuild) by extension 'python'
+[4.892s] DEBUG:colcon.colcon_core.package_identification:Package 'src/MapMOS/build/_deps/sophus-subbuild' with type 'cmake' and name 'sophus-populate'
+[4.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-build) by extensions ['ignore', 'ignore_ament_install']
+[4.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-build) by extension 'ignore'
+[4.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-build) by extension 'ignore_ament_install'
+[4.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-build) by extensions ['colcon_pkg']
+[4.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-build) by extension 'colcon_pkg'
+[4.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-build) by extensions ['colcon_meta']
+[4.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-build) by extension 'colcon_meta'
+[4.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-build) by extensions ['ros']
+[4.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-build) by extension 'ros'
+[4.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-build) by extensions ['cmake', 'python']
+[4.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-build) by extension 'cmake'
+[4.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-build) by extension 'python'
+[4.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-build) by extensions ['python_setup_py']
+[4.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-build) by extension 'python_setup_py'
+[4.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-build/CMakeFiles) by extensions ['ignore', 'ignore_ament_install']
+[4.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-build/CMakeFiles) by extension 'ignore'
+[4.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-build/CMakeFiles) by extension 'ignore_ament_install'
+[4.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-build/CMakeFiles) by extensions ['colcon_pkg']
+[4.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-build/CMakeFiles) by extension 'colcon_pkg'
+[4.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-build/CMakeFiles) by extensions ['colcon_meta']
+[4.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-build/CMakeFiles) by extension 'colcon_meta'
+[4.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-build/CMakeFiles) by extensions ['ros']
+[4.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-build/CMakeFiles) by extension 'ros'
+[4.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-build/CMakeFiles) by extensions ['cmake', 'python']
+[4.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-build/CMakeFiles) by extension 'cmake'
+[4.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-build/CMakeFiles) by extension 'python'
+[4.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-build/CMakeFiles) by extensions ['python_setup_py']
+[4.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-build/CMakeFiles) by extension 'python_setup_py'
+[4.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-src) by extensions ['ignore', 'ignore_ament_install']
+[4.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-src) by extension 'ignore'
+[4.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-src) by extension 'ignore_ament_install'
+[4.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-src) by extensions ['colcon_pkg']
+[4.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-src) by extension 'colcon_pkg'
+[4.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-src) by extensions ['colcon_meta']
+[4.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-src) by extension 'colcon_meta'
+[4.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-src) by extensions ['ros']
+[4.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-src) by extension 'ros'
+[4.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-src) by extensions ['cmake', 'python']
+[4.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-src) by extension 'cmake'
+[4.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-src) by extension 'python'
+[4.904s] DEBUG:colcon.colcon_core.package_identification:Package 'src/MapMOS/build/_deps/tessil-src' with type 'cmake' and name 'tsl-robin-map'
+[4.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-subbuild) by extensions ['ignore', 'ignore_ament_install']
+[4.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-subbuild) by extension 'ignore'
+[4.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-subbuild) by extension 'ignore_ament_install'
+[4.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-subbuild) by extensions ['colcon_pkg']
+[4.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-subbuild) by extension 'colcon_pkg'
+[4.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-subbuild) by extensions ['colcon_meta']
+[4.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-subbuild) by extension 'colcon_meta'
+[4.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-subbuild) by extensions ['ros']
+[4.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-subbuild) by extension 'ros'
+[4.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-subbuild) by extensions ['cmake', 'python']
+[4.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-subbuild) by extension 'cmake'
+[4.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/build/_deps/tessil-subbuild) by extension 'python'
+[4.911s] DEBUG:colcon.colcon_core.package_identification:Package 'src/MapMOS/build/_deps/tessil-subbuild' with type 'cmake' and name 'tessil-populate'
+[4.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/config) by extensions ['ignore', 'ignore_ament_install']
+[4.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/config) by extension 'ignore'
+[4.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/config) by extension 'ignore_ament_install'
+[4.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/config) by extensions ['colcon_pkg']
+[4.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/config) by extension 'colcon_pkg'
+[4.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/config) by extensions ['colcon_meta']
+[4.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/config) by extension 'colcon_meta'
+[4.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/config) by extensions ['ros']
+[4.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/config) by extension 'ros'
+[4.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/config) by extensions ['cmake', 'python']
+[4.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/config) by extension 'cmake'
+[4.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/config) by extension 'python'
+[4.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/config) by extensions ['python_setup_py']
+[4.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/config) by extension 'python_setup_py'
+[4.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/scripts) by extensions ['ignore', 'ignore_ament_install']
+[4.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/scripts) by extension 'ignore'
+[4.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/scripts) by extension 'ignore_ament_install'
+[4.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/scripts) by extensions ['colcon_pkg']
+[4.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/scripts) by extension 'colcon_pkg'
+[4.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/scripts) by extensions ['colcon_meta']
+[4.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/scripts) by extension 'colcon_meta'
+[4.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/scripts) by extensions ['ros']
+[4.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/scripts) by extension 'ros'
+[4.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/scripts) by extensions ['cmake', 'python']
+[4.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/scripts) by extension 'cmake'
+[4.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/scripts) by extension 'python'
+[4.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/scripts) by extensions ['python_setup_py']
+[4.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/scripts) by extension 'python_setup_py'
+[4.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src) by extensions ['ignore', 'ignore_ament_install']
+[4.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src) by extension 'ignore'
+[4.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src) by extension 'ignore_ament_install'
+[4.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src) by extensions ['colcon_pkg']
+[4.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src) by extension 'colcon_pkg'
+[4.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src) by extensions ['colcon_meta']
+[4.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src) by extension 'colcon_meta'
+[4.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src) by extensions ['ros']
+[4.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src) by extension 'ros'
+[4.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src) by extensions ['cmake', 'python']
+[4.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src) by extension 'cmake'
+[4.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src) by extension 'python'
+[4.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src) by extensions ['python_setup_py']
+[4.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src) by extension 'python_setup_py'
+[4.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos) by extensions ['ignore', 'ignore_ament_install']
+[4.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos) by extension 'ignore'
+[4.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos) by extension 'ignore_ament_install'
+[4.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos) by extensions ['colcon_pkg']
+[4.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos) by extension 'colcon_pkg'
+[4.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos) by extensions ['colcon_meta']
+[4.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos) by extension 'colcon_meta'
+[4.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos) by extensions ['ros']
+[4.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos) by extension 'ros'
+[4.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos) by extensions ['cmake', 'python']
+[4.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos) by extension 'cmake'
+[4.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos) by extension 'python'
+[4.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos) by extensions ['python_setup_py']
+[4.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos) by extension 'python_setup_py'
+[4.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/config) by extensions ['ignore', 'ignore_ament_install']
+[4.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/config) by extension 'ignore'
+[4.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/config) by extension 'ignore_ament_install'
+[4.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/config) by extensions ['colcon_pkg']
+[4.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/config) by extension 'colcon_pkg'
+[4.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/config) by extensions ['colcon_meta']
+[4.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/config) by extension 'colcon_meta'
+[4.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/config) by extensions ['ros']
+[4.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/config) by extension 'ros'
+[4.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/config) by extensions ['cmake', 'python']
+[4.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/config) by extension 'cmake'
+[4.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/config) by extension 'python'
+[4.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/config) by extensions ['python_setup_py']
+[4.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/config) by extension 'python_setup_py'
+[4.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/datasets) by extensions ['ignore', 'ignore_ament_install']
+[4.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/datasets) by extension 'ignore'
+[4.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/datasets) by extension 'ignore_ament_install'
+[4.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/datasets) by extensions ['colcon_pkg']
+[4.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/datasets) by extension 'colcon_pkg'
+[4.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/datasets) by extensions ['colcon_meta']
+[4.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/datasets) by extension 'colcon_meta'
+[4.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/datasets) by extensions ['ros']
+[4.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/datasets) by extension 'ros'
+[4.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/datasets) by extensions ['cmake', 'python']
+[4.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/datasets) by extension 'cmake'
+[4.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/datasets) by extension 'python'
+[4.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/datasets) by extensions ['python_setup_py']
+[4.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/datasets) by extension 'python_setup_py'
+[4.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/pybind) by extensions ['ignore', 'ignore_ament_install']
+[4.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/pybind) by extension 'ignore'
+[4.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/pybind) by extension 'ignore_ament_install'
+[4.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/pybind) by extensions ['colcon_pkg']
+[4.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/pybind) by extension 'colcon_pkg'
+[4.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/pybind) by extensions ['colcon_meta']
+[4.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/pybind) by extension 'colcon_meta'
+[4.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/pybind) by extensions ['ros']
+[4.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/pybind) by extension 'ros'
+[4.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/pybind) by extensions ['cmake', 'python']
+[4.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/pybind) by extension 'cmake'
+[4.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/pybind) by extension 'python'
+[4.932s] DEBUG:colcon.colcon_core.package_identification:Package 'src/MapMOS/src/mapmos/pybind' with type 'cmake' and name 'pybind'
+[4.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/utils) by extensions ['ignore', 'ignore_ament_install']
+[4.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/utils) by extension 'ignore'
+[4.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/utils) by extension 'ignore_ament_install'
+[4.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/utils) by extensions ['colcon_pkg']
+[4.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/utils) by extension 'colcon_pkg'
+[4.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/utils) by extensions ['colcon_meta']
+[4.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/utils) by extension 'colcon_meta'
+[4.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/utils) by extensions ['ros']
+[4.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/utils) by extension 'ros'
+[4.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/utils) by extensions ['cmake', 'python']
+[4.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/utils) by extension 'cmake'
+[4.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/utils) by extension 'python'
+[4.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/utils) by extensions ['python_setup_py']
+[4.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/MapMOS/src/mapmos/utils) by extension 'python_setup_py'
+[4.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan) by extensions ['ignore', 'ignore_ament_install']
+[4.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan) by extension 'ignore'
+[4.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan) by extension 'ignore_ament_install'
+[4.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan) by extensions ['colcon_pkg']
+[4.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan) by extension 'colcon_pkg'
+[4.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan) by extensions ['colcon_meta']
+[4.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan) by extension 'colcon_meta'
+[4.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan) by extensions ['ros']
+[4.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan) by extension 'ros'
+[4.939s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthimage_to_laserscan' with type 'ros.ament_cmake' and name 'depthimage_to_laserscan'
+[4.940s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-ros2-messages) by extensions ['ignore', 'ignore_ament_install']
+[4.940s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-ros2-messages) by extension 'ignore'
+[4.940s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-ros2-messages) by extension 'ignore_ament_install'
+[4.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-ros2-messages) by extensions ['colcon_pkg']
+[4.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-ros2-messages) by extension 'colcon_pkg'
+[4.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-ros2-messages) by extensions ['colcon_meta']
+[4.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-ros2-messages) by extension 'colcon_meta'
+[4.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-ros2-messages) by extensions ['ros']
+[4.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-ros2-messages) by extension 'ros'
+[4.943s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot-ros2-messages' with type 'ros.ament_cmake' and name 'robot_ros2_msgs'
+[4.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_ros2) by extensions ['ignore', 'ignore_ament_install']
+[4.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_ros2) by extension 'ignore'
+[4.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_ros2) by extension 'ignore_ament_install'
+[4.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_ros2) by extensions ['colcon_pkg']
+[4.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_ros2) by extension 'colcon_pkg'
+[4.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_ros2) by extensions ['colcon_meta']
+[4.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_ros2) by extension 'colcon_meta'
+[4.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_ros2) by extensions ['ros']
+[4.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_ros2) by extension 'ros'
+[4.950s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_ros2' with type 'ros.ament_python' and name 'hospital_carrier'
+[4.950s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.950s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.950s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.950s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.950s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[5.361s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[5.361s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[5.522s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 383 installed packages in /opt/ros/humble
+[5.528s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.864s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'depthimage_to_laserscan' is in: /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding depthimage_to_laserscan
+
+This may be promoted to an error in a future release of colcon-override-check.
+[5.936s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'cmake_args' from command line to 'None'
+[5.936s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'cmake_target' from command line to 'None'
+[5.937s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.937s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'cmake_clean_cache' from command line to 'False'
+[5.937s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'cmake_clean_first' from command line to 'False'
+[5.937s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'cmake_force_configure' from command line to 'False'
+[5.937s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'ament_cmake_args' from command line to 'None'
+[5.937s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'catkin_cmake_args' from command line to 'None'
+[5.937s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.937s] DEBUG:colcon.colcon_core.verb:Building package 'depthimage_to_laserscan' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mihkel/School/ThesisPractical/ros2_ws/build/depthimage_to_laserscan', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan', 'merge_install': False, 'path': '/home/mihkel/School/ThesisPractical/ros2_ws/src/depthimage_to_laserscan', 'symlink_install': False, 'test_result_base': None}
+[6.006s] Level 5:colcon.colcon_core.verb:set package 'robot_ros2_msgs' build argument 'cmake_args' from command line to 'None'
+[6.006s] Level 5:colcon.colcon_core.verb:set package 'robot_ros2_msgs' build argument 'cmake_target' from command line to 'None'
+[6.006s] Level 5:colcon.colcon_core.verb:set package 'robot_ros2_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.006s] Level 5:colcon.colcon_core.verb:set package 'robot_ros2_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[6.006s] Level 5:colcon.colcon_core.verb:set package 'robot_ros2_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[6.006s] Level 5:colcon.colcon_core.verb:set package 'robot_ros2_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[6.007s] Level 5:colcon.colcon_core.verb:set package 'robot_ros2_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[6.007s] Level 5:colcon.colcon_core.verb:set package 'robot_ros2_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[6.007s] Level 5:colcon.colcon_core.verb:set package 'robot_ros2_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.007s] DEBUG:colcon.colcon_core.verb:Building package 'robot_ros2_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mihkel/School/ThesisPractical/ros2_ws/build/robot_ros2_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs', 'merge_install': False, 'path': '/home/mihkel/School/ThesisPractical/ros2_ws/src/robot-ros2-messages', 'symlink_install': False, 'test_result_base': None}
+[6.075s] Level 5:colcon.colcon_core.verb:set package 'sophus' build argument 'cmake_args' from command line to 'None'
+[6.075s] Level 5:colcon.colcon_core.verb:set package 'sophus' build argument 'cmake_target' from command line to 'None'
+[6.075s] Level 5:colcon.colcon_core.verb:set package 'sophus' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.075s] Level 5:colcon.colcon_core.verb:set package 'sophus' build argument 'cmake_clean_cache' from command line to 'False'
+[6.075s] Level 5:colcon.colcon_core.verb:set package 'sophus' build argument 'cmake_clean_first' from command line to 'False'
+[6.075s] Level 5:colcon.colcon_core.verb:set package 'sophus' build argument 'cmake_force_configure' from command line to 'False'
+[6.075s] Level 5:colcon.colcon_core.verb:set package 'sophus' build argument 'ament_cmake_args' from command line to 'None'
+[6.075s] Level 5:colcon.colcon_core.verb:set package 'sophus' build argument 'catkin_cmake_args' from command line to 'None'
+[6.076s] Level 5:colcon.colcon_core.verb:set package 'sophus' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.076s] DEBUG:colcon.colcon_core.verb:Building package 'sophus' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mihkel/School/ThesisPractical/ros2_ws/build/sophus', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mihkel/School/ThesisPractical/ros2_ws/install/sophus', 'merge_install': False, 'path': '/home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/build/_deps/sophus-src', 'symlink_install': False, 'test_result_base': None}
+[6.143s] Level 5:colcon.colcon_core.verb:set package 'sophus-populate' build argument 'cmake_args' from command line to 'None'
+[6.143s] Level 5:colcon.colcon_core.verb:set package 'sophus-populate' build argument 'cmake_target' from command line to 'None'
+[6.143s] Level 5:colcon.colcon_core.verb:set package 'sophus-populate' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.143s] Level 5:colcon.colcon_core.verb:set package 'sophus-populate' build argument 'cmake_clean_cache' from command line to 'False'
+[6.144s] Level 5:colcon.colcon_core.verb:set package 'sophus-populate' build argument 'cmake_clean_first' from command line to 'False'
+[6.144s] Level 5:colcon.colcon_core.verb:set package 'sophus-populate' build argument 'cmake_force_configure' from command line to 'False'
+[6.144s] Level 5:colcon.colcon_core.verb:set package 'sophus-populate' build argument 'ament_cmake_args' from command line to 'None'
+[6.144s] Level 5:colcon.colcon_core.verb:set package 'sophus-populate' build argument 'catkin_cmake_args' from command line to 'None'
+[6.144s] Level 5:colcon.colcon_core.verb:set package 'sophus-populate' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.144s] DEBUG:colcon.colcon_core.verb:Building package 'sophus-populate' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mihkel/School/ThesisPractical/ros2_ws/build/sophus-populate', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mihkel/School/ThesisPractical/ros2_ws/install/sophus-populate', 'merge_install': False, 'path': '/home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/build/_deps/sophus-subbuild', 'symlink_install': False, 'test_result_base': None}
+[6.214s] Level 5:colcon.colcon_core.verb:set package 'tessil-populate' build argument 'cmake_args' from command line to 'None'
+[6.214s] Level 5:colcon.colcon_core.verb:set package 'tessil-populate' build argument 'cmake_target' from command line to 'None'
+[6.214s] Level 5:colcon.colcon_core.verb:set package 'tessil-populate' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.214s] Level 5:colcon.colcon_core.verb:set package 'tessil-populate' build argument 'cmake_clean_cache' from command line to 'False'
+[6.214s] Level 5:colcon.colcon_core.verb:set package 'tessil-populate' build argument 'cmake_clean_first' from command line to 'False'
+[6.214s] Level 5:colcon.colcon_core.verb:set package 'tessil-populate' build argument 'cmake_force_configure' from command line to 'False'
+[6.214s] Level 5:colcon.colcon_core.verb:set package 'tessil-populate' build argument 'ament_cmake_args' from command line to 'None'
+[6.214s] Level 5:colcon.colcon_core.verb:set package 'tessil-populate' build argument 'catkin_cmake_args' from command line to 'None'
+[6.214s] Level 5:colcon.colcon_core.verb:set package 'tessil-populate' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.215s] DEBUG:colcon.colcon_core.verb:Building package 'tessil-populate' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mihkel/School/ThesisPractical/ros2_ws/build/tessil-populate', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mihkel/School/ThesisPractical/ros2_ws/install/tessil-populate', 'merge_install': False, 'path': '/home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/build/_deps/tessil-subbuild', 'symlink_install': False, 'test_result_base': None}
+[6.284s] Level 5:colcon.colcon_core.verb:set package 'tsl-robin-map' build argument 'cmake_args' from command line to 'None'
+[6.284s] Level 5:colcon.colcon_core.verb:set package 'tsl-robin-map' build argument 'cmake_target' from command line to 'None'
+[6.284s] Level 5:colcon.colcon_core.verb:set package 'tsl-robin-map' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.285s] Level 5:colcon.colcon_core.verb:set package 'tsl-robin-map' build argument 'cmake_clean_cache' from command line to 'False'
+[6.285s] Level 5:colcon.colcon_core.verb:set package 'tsl-robin-map' build argument 'cmake_clean_first' from command line to 'False'
+[6.285s] Level 5:colcon.colcon_core.verb:set package 'tsl-robin-map' build argument 'cmake_force_configure' from command line to 'False'
+[6.285s] Level 5:colcon.colcon_core.verb:set package 'tsl-robin-map' build argument 'ament_cmake_args' from command line to 'None'
+[6.285s] Level 5:colcon.colcon_core.verb:set package 'tsl-robin-map' build argument 'catkin_cmake_args' from command line to 'None'
+[6.285s] Level 5:colcon.colcon_core.verb:set package 'tsl-robin-map' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.285s] DEBUG:colcon.colcon_core.verb:Building package 'tsl-robin-map' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mihkel/School/ThesisPractical/ros2_ws/build/tsl-robin-map', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mihkel/School/ThesisPractical/ros2_ws/install/tsl-robin-map', 'merge_install': False, 'path': '/home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/build/_deps/tessil-src', 'symlink_install': False, 'test_result_base': None}
+[6.352s] Level 5:colcon.colcon_core.verb:set package 'hospital_carrier' build argument 'cmake_args' from command line to 'None'
+[6.353s] Level 5:colcon.colcon_core.verb:set package 'hospital_carrier' build argument 'cmake_target' from command line to 'None'
+[6.353s] Level 5:colcon.colcon_core.verb:set package 'hospital_carrier' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.353s] Level 5:colcon.colcon_core.verb:set package 'hospital_carrier' build argument 'cmake_clean_cache' from command line to 'False'
+[6.353s] Level 5:colcon.colcon_core.verb:set package 'hospital_carrier' build argument 'cmake_clean_first' from command line to 'False'
+[6.353s] Level 5:colcon.colcon_core.verb:set package 'hospital_carrier' build argument 'cmake_force_configure' from command line to 'False'
+[6.353s] Level 5:colcon.colcon_core.verb:set package 'hospital_carrier' build argument 'ament_cmake_args' from command line to 'None'
+[6.353s] Level 5:colcon.colcon_core.verb:set package 'hospital_carrier' build argument 'catkin_cmake_args' from command line to 'None'
+[6.353s] Level 5:colcon.colcon_core.verb:set package 'hospital_carrier' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.354s] DEBUG:colcon.colcon_core.verb:Building package 'hospital_carrier' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier', 'merge_install': False, 'path': '/home/mihkel/School/ThesisPractical/ros2_ws/src/robot_ros2', 'symlink_install': False, 'test_result_base': None}
+[6.423s] Level 5:colcon.colcon_core.verb:set package 'pybind' build argument 'cmake_args' from command line to 'None'
+[6.423s] Level 5:colcon.colcon_core.verb:set package 'pybind' build argument 'cmake_target' from command line to 'None'
+[6.423s] Level 5:colcon.colcon_core.verb:set package 'pybind' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.423s] Level 5:colcon.colcon_core.verb:set package 'pybind' build argument 'cmake_clean_cache' from command line to 'False'
+[6.423s] Level 5:colcon.colcon_core.verb:set package 'pybind' build argument 'cmake_clean_first' from command line to 'False'
+[6.423s] Level 5:colcon.colcon_core.verb:set package 'pybind' build argument 'cmake_force_configure' from command line to 'False'
+[6.423s] Level 5:colcon.colcon_core.verb:set package 'pybind' build argument 'ament_cmake_args' from command line to 'None'
+[6.424s] Level 5:colcon.colcon_core.verb:set package 'pybind' build argument 'catkin_cmake_args' from command line to 'None'
+[6.424s] Level 5:colcon.colcon_core.verb:set package 'pybind' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.424s] DEBUG:colcon.colcon_core.verb:Building package 'pybind' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mihkel/School/ThesisPractical/ros2_ws/build/pybind', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mihkel/School/ThesisPractical/ros2_ws/install/pybind', 'merge_install': False, 'path': '/home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/src/mapmos/pybind', 'symlink_install': False, 'test_result_base': None}
+[6.493s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[6.568s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[6.569s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mihkel/School/ThesisPractical/ros2_ws/src/robot-ros2-messages' with build type 'ament_cmake'
+[6.569s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mihkel/School/ThesisPractical/ros2_ws/src/robot-ros2-messages'
+[6.658s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[6.659s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.659s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.817s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/build/_deps/tessil-src'
+[6.893s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.894s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.046s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mihkel/School/ThesisPractical/ros2_ws/src/depthimage_to_laserscan' with build type 'ament_cmake'
+[7.046s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mihkel/School/ThesisPractical/ros2_ws/src/depthimage_to_laserscan'
+[7.126s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.127s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.274s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/build/_deps/sophus-src' with build type 'cmake'
+[7.275s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/build/_deps/sophus-src'
+[7.343s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.343s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.483s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/build/_deps/sophus-subbuild'
+[7.552s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.553s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.695s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/build/_deps/tessil-subbuild'
+[7.766s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.766s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.943s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/robot_ros2_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ThesisPractical/ros2_ws/build/robot_ros2_msgs -- -j12 -l12
+[7.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/tsl-robin-map': /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ThesisPractical/ros2_ws/build/tsl-robin-map -- -j12 -l12
+[7.961s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/depthimage_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ThesisPractical/ros2_ws/build/depthimage_to_laserscan -- -j12 -l12
+[7.972s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/sophus': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ThesisPractical/ros2_ws/build/sophus -- -j12 -l12
+[7.983s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/sophus-populate': /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/build/_deps/sophus-subbuild -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/ros2_ws/install/sophus-populate
+[7.998s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/tessil-populate': /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/build/_deps/tessil-subbuild -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/ros2_ws/install/tessil-populate
+[8.135s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/tsl-robin-map' returned '0': /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ThesisPractical/ros2_ws/build/tsl-robin-map -- -j12 -l12
+[8.286s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/sophus-populate' returned '0': /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/build/_deps/sophus-subbuild -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/ros2_ws/install/sophus-populate
+[8.284s] WARNING:colcon.colcon_cmake.task.cmake.build:Could not build CMake package 'sophus-populate' because the CMake cache has no 'CMAKE_PROJECT_NAME' variable
+[8.351s] WARNING:colcon.colcon_cmake.task.cmake.build:Could not build CMake package 'tessil-populate' because the CMake cache has no 'CMAKE_PROJECT_NAME' variable
+[8.353s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/tessil-populate' returned '0': /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/build/_deps/tessil-subbuild -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/ros2_ws/install/tessil-populate
+[8.831s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/tsl-robin-map': /home/mihkel/.local/bin/cmake --install /home/mihkel/School/ThesisPractical/ros2_ws/build/tsl-robin-map
+[8.959s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/depthimage_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ThesisPractical/ros2_ws/build/depthimage_to_laserscan -- -j12 -l12
+[9.115s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tsl-robin-map)
+[9.126s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/tsl-robin-map' returned '0': /home/mihkel/.local/bin/cmake --install /home/mihkel/School/ThesisPractical/ros2_ws/build/tsl-robin-map
+[9.334s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/tsl-robin-map' for CMake module files
+[9.336s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/tsl-robin-map' for CMake config files
+[9.336s] Level 1:colcon.colcon_core.shell:create_environment_hook('tsl-robin-map', 'cmake_prefix_path')
+[9.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/ros2_ws/install/tsl-robin-map/share/tsl-robin-map/hook/cmake_prefix_path.ps1'
+[9.667s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mihkel/School/ThesisPractical/ros2_ws/install/tsl-robin-map/share/tsl-robin-map/hook/cmake_prefix_path.dsv'
+[9.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/ros2_ws/install/tsl-robin-map/share/tsl-robin-map/hook/cmake_prefix_path.sh'
+[9.674s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/tsl-robin-map/bin'
+[9.674s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/tsl-robin-map/lib/pkgconfig/tsl-robin-map.pc'
+[9.675s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/tsl-robin-map/lib/python3.10/site-packages'
+[9.677s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/tsl-robin-map/bin'
+[9.858s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihkel/School/ThesisPractical/ros2_ws/install/tsl-robin-map/share/tsl-robin-map/package.ps1'
+[9.877s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mihkel/School/ThesisPractical/ros2_ws/install/tsl-robin-map/share/tsl-robin-map/package.dsv'
+[9.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihkel/School/ThesisPractical/ros2_ws/install/tsl-robin-map/share/tsl-robin-map/package.sh'
+[9.883s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihkel/School/ThesisPractical/ros2_ws/install/tsl-robin-map/share/tsl-robin-map/package.bash'
+[9.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihkel/School/ThesisPractical/ros2_ws/install/tsl-robin-map/share/tsl-robin-map/package.zsh'
+[9.894s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mihkel/School/ThesisPractical/ros2_ws/install/tsl-robin-map/share/colcon-core/packages/tsl-robin-map)
+[9.903s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/src/mapmos/pybind'
+[10.171s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.171s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.771s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/depthimage_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --install /home/mihkel/School/ThesisPractical/ros2_ws/build/depthimage_to_laserscan
+[10.832s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/pybind': CMAKE_PREFIX_PATH=/home/mihkel/School/ThesisPractical/ros2_ws/install/tsl-robin-map /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/src/mapmos/pybind -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/ros2_ws/install/pybind
+[11.051s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthimage_to_laserscan)
+[11.053s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/depthimage_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --install /home/mihkel/School/ThesisPractical/ros2_ws/build/depthimage_to_laserscan
+[11.332s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan' for CMake module files
+[11.354s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan' for CMake config files
+[11.356s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthimage_to_laserscan', 'cmake_prefix_path')
+[11.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/cmake_prefix_path.ps1'
+[11.638s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/cmake_prefix_path.dsv'
+[11.641s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/cmake_prefix_path.sh'
+[11.643s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/lib'
+[11.645s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthimage_to_laserscan', 'ld_library_path_lib')
+[11.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/ld_library_path_lib.ps1'
+[11.833s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/ld_library_path_lib.dsv'
+[11.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/ld_library_path_lib.sh'
+[11.851s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/bin'
+[11.852s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/lib/pkgconfig/depthimage_to_laserscan.pc'
+[11.853s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/lib/python3.10/site-packages'
+[11.854s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/bin'
+[12.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.ps1'
+[12.118s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.dsv'
+[12.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.sh'
+[12.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.bash'
+[12.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.zsh'
+[12.124s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/share/colcon-core/packages/depthimage_to_laserscan)
+[12.162s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/pybind' returned '1': CMAKE_PREFIX_PATH=/home/mihkel/School/ThesisPractical/ros2_ws/install/tsl-robin-map /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/src/mapmos/pybind -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/ros2_ws/install/pybind
+[12.165s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/robot_ros2_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ThesisPractical/ros2_ws/build/robot_ros2_msgs -- -j12 -l12
+[26.965s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete was interrupted
+[26.966s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete again
+[27.155s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished
+[27.155s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[27.156s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[27.156s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[27.244s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[27.245s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[27.245s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[27.273s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[27.339s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mihkel/School/ThesisPractical/ros2_ws/install/local_setup.ps1'
+[27.342s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mihkel/School/ThesisPractical/ros2_ws/install/_local_setup_util_ps1.py'
+[27.346s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mihkel/School/ThesisPractical/ros2_ws/install/setup.ps1'
+[27.414s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mihkel/School/ThesisPractical/ros2_ws/install/local_setup.sh'
+[27.415s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mihkel/School/ThesisPractical/ros2_ws/install/_local_setup_util_sh.py'
+[27.416s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mihkel/School/ThesisPractical/ros2_ws/install/setup.sh'
+[27.478s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mihkel/School/ThesisPractical/ros2_ws/install/local_setup.bash'
+[27.479s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mihkel/School/ThesisPractical/ros2_ws/install/setup.bash'
+[27.539s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mihkel/School/ThesisPractical/ros2_ws/install/local_setup.zsh'
+[27.540s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mihkel/School/ThesisPractical/ros2_ws/install/setup.zsh'

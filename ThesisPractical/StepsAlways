@@ -1,0 +1,12 @@
+source /opt/ros/humble/setup.bash
+source install/setup.bash
+( ülemine rida robot_ros2 kaustas)
+
+
+(colcon build kui muudad midagi)
+
+Käivitamine:
+(Kaardistamine:)
+ros2 launch hospital_carrier mapping.launch 
+(navigeerimine) 
+ros2 launch nav2_bringup navigation_launch.py params_file:=src/robot_ros2/config/nav2_params.yaml

@@ -1,0 +1,2081 @@
+[0.000000] (-) TimerEvent: {}
+[0.001198] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.001304] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.098756] (-) TimerEvent: {}
+[0.199773] (-) TimerEvent: {}
+[0.219935] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.220685] (turtlesim) Command: {'cmd': ['/home/mihkel/.local/bin/cmake', '/home/mihkel/School/ThesisPractical/abc_wc/src/ros_tutorials/turtlesim', '-DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim'], 'cwd': '/home/mihkel/School/ThesisPractical/abc_wc/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mihkel'), ('LC_TIME', 'et_EE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mihkel'), ('OLDPWD', '/home/mihkel/School/ThesisPractical/abc_wc/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'et_EE.UTF-8'), ('SYSTEMD_EXEC_PID', '6191'), ('MAKEFLAGS', '-j 4 -l 8.0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mihkel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mihkel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mihkel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mihkel-XPS-15-9500:@/tmp/.ICE-unix/3570,unix/mihkel-XPS-15-9500:/tmp/.ICE-unix/3570'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'et_EE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8426776f_17be_4961_bc4c_daffc5998a7e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'et_EE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VF16G2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'et_EE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'et_EE.UTF-8'), ('LC_IDENTIFICATION', 'et_EE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mihkel/School/ThesisPractical/abc_wc/build/turtlesim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'et_EE.UTF-8'), ('LC_PAPER', 'et_EE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.299966] (-) TimerEvent: {}
+[0.400629] (-) TimerEvent: {}
+[0.425702] (turtlesim) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.500809] (-) TimerEvent: {}
+[0.582650] (turtlesim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.601000] (-) TimerEvent: {}
+[0.625279] (turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.701173] (-) TimerEvent: {}
+[0.789769] (turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.801345] (-) TimerEvent: {}
+[0.825944] (turtlesim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.826802] (turtlesim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.828183] (turtlesim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.851391] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.901521] (-) TimerEvent: {}
+[1.002188] (-) TimerEvent: {}
+[1.046599] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.087865] (turtlesim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.088946] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.090849] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.099319] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.102321] (-) TimerEvent: {}
+[1.202923] (-) TimerEvent: {}
+[1.303624] (-) TimerEvent: {}
+[1.404262] (-) TimerEvent: {}
+[1.504938] (-) TimerEvent: {}
+[1.605594] (-) TimerEvent: {}
+[1.706264] (-) TimerEvent: {}
+[1.806940] (-) TimerEvent: {}
+[1.907618] (-) TimerEvent: {}
+[2.008281] (-) TimerEvent: {}
+[2.108946] (-) TimerEvent: {}
+[2.209597] (-) TimerEvent: {}
+[2.310278] (-) TimerEvent: {}
+[2.410924] (-) TimerEvent: {}
+[2.511619] (-) TimerEvent: {}
+[2.612278] (-) TimerEvent: {}
+[2.712972] (-) TimerEvent: {}
+[2.813657] (-) TimerEvent: {}
+[2.914334] (-) TimerEvent: {}
+[3.014976] (-) TimerEvent: {}
+[3.115680] (-) TimerEvent: {}
+[3.216173] (-) TimerEvent: {}
+[3.316715] (-) TimerEvent: {}
+[3.417251] (-) TimerEvent: {}
+[3.517778] (-) TimerEvent: {}
+[3.618303] (-) TimerEvent: {}
+[3.718838] (-) TimerEvent: {}
+[3.819352] (-) TimerEvent: {}
+[3.919889] (-) TimerEvent: {}
+[4.020426] (-) TimerEvent: {}
+[4.120965] (-) TimerEvent: {}
+[4.221490] (-) TimerEvent: {}
+[4.322016] (-) TimerEvent: {}
+[4.422497] (-) TimerEvent: {}
+[4.523019] (-) TimerEvent: {}
+[4.623513] (-) TimerEvent: {}
+[4.691450] (turtlesim) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[4.723652] (-) TimerEvent: {}
+[4.824165] (-) TimerEvent: {}
+[4.924692] (-) TimerEvent: {}
+[4.982914] (turtlesim) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)\n'}
+[4.990051] (turtlesim) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[5.024868] (-) TimerEvent: {}
+[5.125401] (-) TimerEvent: {}
+[5.136996] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.156822] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.191859] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.225585] (-) TimerEvent: {}
+[5.251290] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.325780] (-) TimerEvent: {}
+[5.336465] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.425960] (-) TimerEvent: {}
+[5.526507] (-) TimerEvent: {}
+[5.627047] (-) TimerEvent: {}
+[5.727578] (-) TimerEvent: {}
+[5.828141] (-) TimerEvent: {}
+[5.880545] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[5.928345] (-) TimerEvent: {}
+[6.028911] (-) TimerEvent: {}
+[6.124191] (turtlesim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[6.129066] (-) TimerEvent: {}
+[6.133705] (turtlesim) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[6.229270] (-) TimerEvent: {}
+[6.329845] (-) TimerEvent: {}
+[6.430406] (-) TimerEvent: {}
+[6.456585] (turtlesim) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.530597] (-) TimerEvent: {}
+[6.555345] (turtlesim) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[6.630781] (-) TimerEvent: {}
+[6.721178] (turtlesim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.730945] (-) TimerEvent: {}
+[6.757229] (turtlesim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.831170] (-) TimerEvent: {}
+[6.930029] (turtlesim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[6.931256] (-) TimerEvent: {}
+[6.933780] (turtlesim) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.031415] (-) TimerEvent: {}
+[7.131970] (-) TimerEvent: {}
+[7.232530] (-) TimerEvent: {}
+[7.333086] (-) TimerEvent: {}
+[7.433712] (-) TimerEvent: {}
+[7.524519] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.7 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[7.533883] (-) TimerEvent: {}
+[7.634422] (-) TimerEvent: {}
+[7.735002] (-) TimerEvent: {}
+[7.835560] (-) TimerEvent: {}
+[7.936121] (-) TimerEvent: {}
+[7.975288] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[8.017210] (turtlesim) StdoutLine: {'line': b'-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[8.036313] (-) TimerEvent: {}
+[8.136859] (-) TimerEvent: {}
+[8.237419] (-) TimerEvent: {}
+[8.337962] (-) TimerEvent: {}
+[8.438508] (-) TimerEvent: {}
+[8.539047] (-) TimerEvent: {}
+[8.639606] (-) TimerEvent: {}
+[8.740091] (-) TimerEvent: {}
+[8.840596] (-) TimerEvent: {}
+[8.941121] (-) TimerEvent: {}
+[9.041651] (-) TimerEvent: {}
+[9.142182] (-) TimerEvent: {}
+[9.242714] (-) TimerEvent: {}
+[9.343274] (-) TimerEvent: {}
+[9.443823] (-) TimerEvent: {}
+[9.544363] (-) TimerEvent: {}
+[9.644903] (-) TimerEvent: {}
+[9.745433] (-) TimerEvent: {}
+[9.845979] (-) TimerEvent: {}
+[9.946519] (-) TimerEvent: {}
+[9.993091] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[10.046712] (-) TimerEvent: {}
+[10.147213] (-) TimerEvent: {}
+[10.247764] (-) TimerEvent: {}
+[10.348346] (-) TimerEvent: {}
+[10.448880] (-) TimerEvent: {}
+[10.549415] (-) TimerEvent: {}
+[10.649959] (-) TimerEvent: {}
+[10.750629] (-) TimerEvent: {}
+[10.851202] (-) TimerEvent: {}
+[10.951906] (-) TimerEvent: {}
+[11.052441] (-) TimerEvent: {}
+[11.153025] (-) TimerEvent: {}
+[11.253585] (-) TimerEvent: {}
+[11.354154] (-) TimerEvent: {}
+[11.454693] (-) TimerEvent: {}
+[11.555258] (-) TimerEvent: {}
+[11.655917] (-) TimerEvent: {}
+[11.756810] (-) TimerEvent: {}
+[11.857375] (-) TimerEvent: {}
+[11.957956] (-) TimerEvent: {}
+[12.058536] (-) TimerEvent: {}
+[12.159128] (-) TimerEvent: {}
+[12.259641] (-) TimerEvent: {}
+[12.360121] (-) TimerEvent: {}
+[12.460625] (-) TimerEvent: {}
+[12.561145] (-) TimerEvent: {}
+[12.661655] (-) TimerEvent: {}
+[12.762200] (-) TimerEvent: {}
+[12.862749] (-) TimerEvent: {}
+[12.963271] (-) TimerEvent: {}
+[13.063800] (-) TimerEvent: {}
+[13.164316] (-) TimerEvent: {}
+[13.264860] (-) TimerEvent: {}
+[13.337943] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[13.365035] (-) TimerEvent: {}
+[13.465610] (-) TimerEvent: {}
+[13.566152] (-) TimerEvent: {}
+[13.666719] (-) TimerEvent: {}
+[13.767219] (-) TimerEvent: {}
+[13.867722] (-) TimerEvent: {}
+[13.968300] (-) TimerEvent: {}
+[14.068899] (-) TimerEvent: {}
+[14.169449] (-) TimerEvent: {}
+[14.269980] (-) TimerEvent: {}
+[14.370533] (-) TimerEvent: {}
+[14.471055] (-) TimerEvent: {}
+[14.571629] (-) TimerEvent: {}
+[14.642492] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[14.650753] (turtlesim) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):\n'}
+[14.651391] (turtlesim) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[14.651849] (turtlesim) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[14.652268] (turtlesim) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[14.652675] (turtlesim) StderrLine: {'line': b'\n'}
+[14.653066] (turtlesim) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[14.653447] (turtlesim) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[14.653835] (turtlesim) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[14.654227] (turtlesim) StderrLine: {'line': b'  CMakeLists.txt:24 (rosidl_generate_interfaces)\n'}
+[14.654555] (turtlesim) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[14.654871] (turtlesim) StderrLine: {'line': b'\x1b[0m\n'}
+[14.671771] (-) TimerEvent: {}
+[14.757420] (turtlesim) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[14.763740] (turtlesim) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[14.765569] (turtlesim) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):\n'}
+[14.766122] (turtlesim) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[14.766567] (turtlesim) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[14.766985] (turtlesim) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[14.767428] (turtlesim) StderrLine: {'line': b'\n'}
+[14.767757] (turtlesim) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[14.768084] (turtlesim) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[14.768440] (turtlesim) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[14.768723] (turtlesim) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[14.768951] (turtlesim) StderrLine: {'line': b'  CMakeLists.txt:24 (rosidl_generate_interfaces)\n'}
+[14.769171] (turtlesim) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[14.769435] (turtlesim) StderrLine: {'line': b'\x1b[0m\n'}
+[14.771925] (-) TimerEvent: {}
+[14.872444] (-) TimerEvent: {}
+[14.873791] (turtlesim) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):\n'}
+[14.874333] (turtlesim) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[14.874730] (turtlesim) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[14.875154] (turtlesim) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[14.875589] (turtlesim) StderrLine: {'line': b'\n'}
+[14.876002] (turtlesim) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[14.876409] (turtlesim) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[14.876808] (turtlesim) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[14.877225] (turtlesim) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[14.877621] (turtlesim) StderrLine: {'line': b'  CMakeLists.txt:24 (rosidl_generate_interfaces)\n'}
+[14.878017] (turtlesim) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[14.878363] (turtlesim) StderrLine: {'line': b'\x1b[0m\n'}
+[14.897425] (turtlesim) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[14.898195] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[14.898614] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[14.898950] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[14.972621] (-) TimerEvent: {}
+[15.012067] (turtlesim) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[15.072762] (-) TimerEvent: {}
+[15.173324] (-) TimerEvent: {}
+[15.271290] (turtlesim) StdoutLine: {'line': b'-- Configuring done (15.0s)\n'}
+[15.273477] (-) TimerEvent: {}
+[15.373978] (-) TimerEvent: {}
+[15.474519] (-) TimerEvent: {}
+[15.564426] (turtlesim) StdoutLine: {'line': b'-- Generating done (0.2s)\n'}
+[15.574687] (-) TimerEvent: {}
+[15.576428] (turtlesim) StdoutLine: {'line': b'-- Build files have been written to: /home/mihkel/School/ThesisPractical/abc_wc/build/turtlesim\n'}
+[15.631854] (turtlesim) CommandEnded: {'returncode': 0}
+[15.634338] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[15.638603] (turtlesim) Command: {'cmd': ['/home/mihkel/.local/bin/cmake', '--build', '/home/mihkel/School/ThesisPractical/abc_wc/build/turtlesim'], 'cwd': '/home/mihkel/School/ThesisPractical/abc_wc/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mihkel'), ('LC_TIME', 'et_EE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mihkel'), ('OLDPWD', '/home/mihkel/School/ThesisPractical/abc_wc/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'et_EE.UTF-8'), ('SYSTEMD_EXEC_PID', '6191'), ('MAKEFLAGS', '-j 4 -l 8.0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mihkel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mihkel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mihkel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mihkel-XPS-15-9500:@/tmp/.ICE-unix/3570,unix/mihkel-XPS-15-9500:/tmp/.ICE-unix/3570'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'et_EE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8426776f_17be_4961_bc4c_daffc5998a7e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'et_EE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VF16G2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'et_EE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'et_EE.UTF-8'), ('LC_IDENTIFICATION', 'et_EE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mihkel/School/ThesisPractical/abc_wc/build/turtlesim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'et_EE.UTF-8'), ('LC_PAPER', 'et_EE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[15.674869] (-) TimerEvent: {}
+[15.775415] (-) TimerEvent: {}
+[15.790892] (turtlesim) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[15.805373] (turtlesim) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[15.811647] (turtlesim) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_turtlesim\n'}
+[15.875581] (-) TimerEvent: {}
+[15.976148] (-) TimerEvent: {}
+[16.076710] (-) TimerEvent: {}
+[16.177262] (-) TimerEvent: {}
+[16.277799] (-) TimerEvent: {}
+[16.378328] (-) TimerEvent: {}
+[16.478855] (-) TimerEvent: {}
+[16.579366] (-) TimerEvent: {}
+[16.679891] (-) TimerEvent: {}
+[16.780415] (-) TimerEvent: {}
+[16.880930] (-) TimerEvent: {}
+[16.981445] (-) TimerEvent: {}
+[17.081967] (-) TimerEvent: {}
+[17.159853] (turtlesim) StdoutLine: {'line': b'running egg_info\n'}
+[17.161515] (turtlesim) StdoutLine: {'line': b'creating turtlesim.egg-info\n'}
+[17.162235] (turtlesim) StdoutLine: {'line': b'writing turtlesim.egg-info/PKG-INFO\n'}
+[17.162718] (turtlesim) StdoutLine: {'line': b'writing dependency_links to turtlesim.egg-info/dependency_links.txt\n'}
+[17.165994] (turtlesim) StdoutLine: {'line': b'writing top-level names to turtlesim.egg-info/top_level.txt\n'}
+[17.166819] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[17.172651] (turtlesim) StdoutLine: {'line': b"reading manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[17.174461] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[17.182138] (-) TimerEvent: {}
+[17.249712] (turtlesim) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_turtlesim_egg\n'}
+[17.282343] (-) TimerEvent: {}
+[17.382896] (-) TimerEvent: {}
+[17.483414] (-) TimerEvent: {}
+[17.583973] (-) TimerEvent: {}
+[17.684654] (-) TimerEvent: {}
+[17.785315] (-) TimerEvent: {}
+[17.885818] (-) TimerEvent: {}
+[17.986334] (-) TimerEvent: {}
+[18.086871] (-) TimerEvent: {}
+[18.187397] (-) TimerEvent: {}
+[18.287879] (-) TimerEvent: {}
+[18.388397] (-) TimerEvent: {}
+[18.488895] (-) TimerEvent: {}
+[18.589411] (-) TimerEvent: {}
+[18.689970] (-) TimerEvent: {}
+[18.790499] (-) TimerEvent: {}
+[18.891035] (-) TimerEvent: {}
+[18.941474] (turtlesim) StdoutLine: {'line': b'[  2%] Built target turtlesim__cpp\n'}
+[18.955908] (turtlesim) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[18.959516] (turtlesim) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[18.962448] (turtlesim) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[18.991230] (-) TimerEvent: {}
+[19.091920] (-) TimerEvent: {}
+[19.192589] (-) TimerEvent: {}
+[19.274076] (turtlesim) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/action/detail/rotate_absolute__functions.c.o\x1b[0m\n'}
+[19.292755] (-) TimerEvent: {}
+[19.393395] (-) TimerEvent: {}
+[19.494083] (-) TimerEvent: {}
+[19.594812] (-) TimerEvent: {}
+[19.667624] (turtlesim) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/color__functions.c.o\x1b[0m\n'}
+[19.694978] (-) TimerEvent: {}
+[19.786278] (turtlesim) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/pose__functions.c.o\x1b[0m\n'}
+[19.795164] (-) TimerEvent: {}
+[19.895806] (-) TimerEvent: {}
+[19.907248] (turtlesim) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/kill__functions.c.o\x1b[0m\n'}
+[19.995991] (-) TimerEvent: {}
+[20.068176] (turtlesim) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/set_pen__functions.c.o\x1b[0m\n'}
+[20.096168] (-) TimerEvent: {}
+[20.196867] (-) TimerEvent: {}
+[20.225137] (turtlesim) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/spawn__functions.c.o\x1b[0m\n'}
+[20.297042] (-) TimerEvent: {}
+[20.390072] (turtlesim) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_absolute__functions.c.o\x1b[0m\n'}
+[20.397192] (-) TimerEvent: {}
+[20.497814] (-) TimerEvent: {}
+[20.549523] (turtlesim) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_relative__functions.c.o\x1b[0m\n'}
+[20.597975] (-) TimerEvent: {}
+[20.698636] (-) TimerEvent: {}
+[20.702269] (turtlesim) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libturtlesim__rosidl_generator_c.so\x1b[0m\n'}
+[20.786135] (turtlesim) StdoutLine: {'line': b'[ 14%] Built target turtlesim__rosidl_generator_c\n'}
+[20.798793] (-) TimerEvent: {}
+[20.799473] (turtlesim) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[20.898951] (-) TimerEvent: {}
+[20.952880] (turtlesim) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/action/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[20.999134] (-) TimerEvent: {}
+[21.099762] (-) TimerEvent: {}
+[21.200401] (-) TimerEvent: {}
+[21.301046] (-) TimerEvent: {}
+[21.308990] (turtlesim) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/action/detail/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[21.401214] (-) TimerEvent: {}
+[21.501902] (-) TimerEvent: {}
+[21.602577] (-) TimerEvent: {}
+[21.703247] (-) TimerEvent: {}
+[21.803927] (-) TimerEvent: {}
+[21.880750] (turtlesim) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/action/detail/dds_fastrtps/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[21.904094] (-) TimerEvent: {}
+[22.004757] (-) TimerEvent: {}
+[22.105396] (-) TimerEvent: {}
+[22.206049] (-) TimerEvent: {}
+[22.306719] (-) TimerEvent: {}
+[22.407418] (-) TimerEvent: {}
+[22.429981] (turtlesim) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/color__type_support.cpp.o\x1b[0m\n'}
+[22.507603] (-) TimerEvent: {}
+[22.608318] (-) TimerEvent: {}
+[22.709055] (-) TimerEvent: {}
+[22.809758] (-) TimerEvent: {}
+[22.910441] (-) TimerEvent: {}
+[23.011194] (-) TimerEvent: {}
+[23.111940] (-) TimerEvent: {}
+[23.212619] (-) TimerEvent: {}
+[23.304216] (turtlesim) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/pose__type_support.cpp.o\x1b[0m\n'}
+[23.312809] (-) TimerEvent: {}
+[23.338296] (turtlesim) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/msg/detail/color__type_support.cpp.o\x1b[0m\n'}
+[23.412973] (-) TimerEvent: {}
+[23.513613] (-) TimerEvent: {}
+[23.614291] (-) TimerEvent: {}
+[23.715002] (-) TimerEvent: {}
+[23.745842] (turtlesim) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/color__type_support.cpp.o\x1b[0m\n'}
+[23.778517] (turtlesim) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/action/detail/rotate_absolute__type_support_c.cpp.o\x1b[0m\n'}
+[23.815224] (-) TimerEvent: {}
+[23.915923] (-) TimerEvent: {}
+[24.016593] (-) TimerEvent: {}
+[24.117337] (-) TimerEvent: {}
+[24.173993] (turtlesim) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/kill__type_support.cpp.o\x1b[0m\n'}
+[24.217523] (-) TimerEvent: {}
+[24.318288] (-) TimerEvent: {}
+[24.419049] (-) TimerEvent: {}
+[24.519814] (-) TimerEvent: {}
+[24.620528] (-) TimerEvent: {}
+[24.661268] (turtlesim) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/msg/detail/pose__type_support.cpp.o\x1b[0m\n'}
+[24.720717] (-) TimerEvent: {}
+[24.821446] (-) TimerEvent: {}
+[24.922160] (-) TimerEvent: {}
+[25.018891] (turtlesim) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/pose__type_support.cpp.o\x1b[0m\n'}
+[25.022304] (-) TimerEvent: {}
+[25.047455] (turtlesim) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/set_pen__type_support.cpp.o\x1b[0m\n'}
+[25.078364] (turtlesim) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/color__type_support_c.cpp.o\x1b[0m\n'}
+[25.122503] (-) TimerEvent: {}
+[25.223228] (-) TimerEvent: {}
+[25.323942] (-) TimerEvent: {}
+[25.424650] (-) TimerEvent: {}
+[25.525367] (-) TimerEvent: {}
+[25.626125] (-) TimerEvent: {}
+[25.726871] (-) TimerEvent: {}
+[25.827597] (-) TimerEvent: {}
+[25.893607] (turtlesim) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/kill__type_support.cpp.o\x1b[0m\n'}
+[25.905318] (turtlesim) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/spawn__type_support.cpp.o\x1b[0m\n'}
+[25.927782] (-) TimerEvent: {}
+[26.028497] (-) TimerEvent: {}
+[26.129212] (-) TimerEvent: {}
+[26.229921] (-) TimerEvent: {}
+[26.244776] (turtlesim) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/pose__type_support_c.cpp.o\x1b[0m\n'}
+[26.318638] (turtlesim) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/kill__type_support.cpp.o\x1b[0m\n'}
+[26.330112] (-) TimerEvent: {}
+[26.430826] (-) TimerEvent: {}
+[26.531559] (-) TimerEvent: {}
+[26.632279] (-) TimerEvent: {}
+[26.732978] (-) TimerEvent: {}
+[26.751973] (turtlesim) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[26.833160] (-) TimerEvent: {}
+[26.933855] (-) TimerEvent: {}
+[27.034526] (-) TimerEvent: {}
+[27.135312] (-) TimerEvent: {}
+[27.137386] (turtlesim) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/set_pen__type_support.cpp.o\x1b[0m\n'}
+[27.235490] (-) TimerEvent: {}
+[27.336219] (-) TimerEvent: {}
+[27.433975] (turtlesim) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/kill__type_support_c.cpp.o\x1b[0m\n'}
+[27.436357] (-) TimerEvent: {}
+[27.537022] (-) TimerEvent: {}
+[27.620184] (turtlesim) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[27.637217] (-) TimerEvent: {}
+[27.671972] (turtlesim) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/set_pen__type_support.cpp.o\x1b[0m\n'}
+[27.737372] (-) TimerEvent: {}
+[27.838062] (-) TimerEvent: {}
+[27.938642] (-) TimerEvent: {}
+[28.039239] (-) TimerEvent: {}
+[28.139784] (-) TimerEvent: {}
+[28.240357] (-) TimerEvent: {}
+[28.340953] (-) TimerEvent: {}
+[28.390148] (turtlesim) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/spawn__type_support.cpp.o\x1b[0m\n'}
+[28.441145] (-) TimerEvent: {}
+[28.474173] (turtlesim) StdoutLine: {'line': b'[ 39%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[28.541338] (-) TimerEvent: {}
+[28.573422] (turtlesim) StdoutLine: {'line': b'[ 39%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[28.583318] (turtlesim) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[28.641520] (-) TimerEvent: {}
+[28.675995] (turtlesim) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/set_pen__type_support_c.cpp.o\x1b[0m\n'}
+[28.741700] (-) TimerEvent: {}
+[28.842383] (-) TimerEvent: {}
+[28.943133] (-) TimerEvent: {}
+[29.020327] (turtlesim) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/spawn__type_support.cpp.o\x1b[0m\n'}
+[29.043276] (-) TimerEvent: {}
+[29.144034] (-) TimerEvent: {}
+[29.244794] (-) TimerEvent: {}
+[29.345533] (-) TimerEvent: {}
+[29.446273] (-) TimerEvent: {}
+[29.547002] (-) TimerEvent: {}
+[29.647781] (-) TimerEvent: {}
+[29.665282] (turtlesim) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[29.747977] (-) TimerEvent: {}
+[29.815916] (turtlesim) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/spawn__type_support_c.cpp.o\x1b[0m\n'}
+[29.848165] (-) TimerEvent: {}
+[29.850364] (turtlesim) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[29.948335] (-) TimerEvent: {}
+[30.049023] (-) TimerEvent: {}
+[30.149726] (-) TimerEvent: {}
+[30.250407] (-) TimerEvent: {}
+[30.351084] (-) TimerEvent: {}
+[30.379370] (turtlesim) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[30.451261] (-) TimerEvent: {}
+[30.551940] (-) TimerEvent: {}
+[30.652612] (-) TimerEvent: {}
+[30.753291] (-) TimerEvent: {}
+[30.853972] (-) TimerEvent: {}
+[30.947086] (turtlesim) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/teleport_absolute__type_support_c.cpp.o\x1b[0m\n'}
+[30.954136] (-) TimerEvent: {}
+[30.981890] (turtlesim) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[31.054333] (-) TimerEvent: {}
+[31.155075] (-) TimerEvent: {}
+[31.176496] (turtlesim) StdoutLine: {'line': b'[ 48%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[31.190281] (turtlesim) StdoutLine: {'line': b'[ 49%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[31.255269] (-) TimerEvent: {}
+[31.355953] (-) TimerEvent: {}
+[31.456643] (-) TimerEvent: {}
+[31.557335] (-) TimerEvent: {}
+[31.658022] (-) TimerEvent: {}
+[31.709488] (turtlesim) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[31.758191] (-) TimerEvent: {}
+[31.858841] (-) TimerEvent: {}
+[31.959495] (-) TimerEvent: {}
+[32.050714] (turtlesim) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/teleport_relative__type_support_c.cpp.o\x1b[0m\n'}
+[32.059643] (-) TimerEvent: {}
+[32.160251] (-) TimerEvent: {}
+[32.260902] (-) TimerEvent: {}
+[32.327224] (turtlesim) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/action/detail/rotate_absolute__type_support.c.o\x1b[0m\n'}
+[32.361088] (-) TimerEvent: {}
+[32.449386] (turtlesim) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/detail/color__type_support.c.o\x1b[0m\n'}
+[32.461260] (-) TimerEvent: {}
+[32.528053] (turtlesim) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/detail/pose__type_support.c.o\x1b[0m\n'}
+[32.561447] (-) TimerEvent: {}
+[32.607423] (turtlesim) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/kill__type_support.c.o\x1b[0m\n'}
+[32.661636] (-) TimerEvent: {}
+[32.699464] (turtlesim) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/set_pen__type_support.c.o\x1b[0m\n'}
+[32.761824] (-) TimerEvent: {}
+[32.798404] (turtlesim) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/spawn__type_support.c.o\x1b[0m\n'}
+[32.862017] (-) TimerEvent: {}
+[32.906476] (turtlesim) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_absolute__type_support.c.o\x1b[0m\n'}
+[32.962219] (-) TimerEvent: {}
+[32.978873] (turtlesim) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/action/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[33.012638] (turtlesim) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_relative__type_support.c.o\x1b[0m\n'}
+[33.037304] (turtlesim) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[33.062421] (-) TimerEvent: {}
+[33.110391] (turtlesim) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking C shared library libturtlesim__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[33.115707] (turtlesim) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/color__type_support.cpp.o\x1b[0m\n'}
+[33.162623] (-) TimerEvent: {}
+[33.177749] (turtlesim) StdoutLine: {'line': b'[ 63%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[33.189833] (turtlesim) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/pose__type_support.cpp.o\x1b[0m\n'}
+[33.191256] (turtlesim) StdoutLine: {'line': b'[ 65%] \x1b[34m\x1b[1mGenerating include/turtlesim/moc_turtle_frame.cpp\x1b[0m\n'}
+[33.205192] (turtlesim) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[33.240074] (turtlesim) StdoutLine: {'line': b'[ 66%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[33.262804] (-) TimerEvent: {}
+[33.267839] (turtlesim) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/turtle_teleop_key.dir/tutorials/teleop_turtle_key.cpp.o\x1b[0m\n'}
+[33.277110] (turtlesim) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/kill__type_support.cpp.o\x1b[0m\n'}
+[33.360957] (turtlesim) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/set_pen__type_support.cpp.o\x1b[0m\n'}
+[33.362934] (-) TimerEvent: {}
+[33.387760] (turtlesim) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtlesim.cpp.o\x1b[0m\n'}
+[33.411372] (turtlesim) StdoutLine: {'line': b'[ 70%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[33.439187] (turtlesim) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.o\x1b[0m\n'}
+[33.441319] (turtlesim) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/spawn__type_support.cpp.o\x1b[0m\n'}
+[33.463150] (-) TimerEvent: {}
+[33.517413] (turtlesim) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[33.563277] (-) TimerEvent: {}
+[33.589710] (turtlesim) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[33.663457] (-) TimerEvent: {}
+[33.674463] (turtlesim) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_c.so\x1b[0m\n'}
+[33.763667] (-) TimerEvent: {}
+[33.770003] (turtlesim) StdoutLine: {'line': b'[ 75%] Built target turtlesim__rosidl_typesupport_c\n'}
+[33.797069] (turtlesim) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/mimic.dir/tutorials/mimic.cpp.o\x1b[0m\n'}
+[33.863853] (-) TimerEvent: {}
+[33.964551] (-) TimerEvent: {}
+[34.065240] (-) TimerEvent: {}
+[34.165946] (-) TimerEvent: {}
+[34.266636] (-) TimerEvent: {}
+[34.367357] (-) TimerEvent: {}
+[34.468040] (-) TimerEvent: {}
+[34.568699] (-) TimerEvent: {}
+[34.669370] (-) TimerEvent: {}
+[34.770061] (-) TimerEvent: {}
+[34.870759] (-) TimerEvent: {}
+[34.971442] (-) TimerEvent: {}
+[35.072108] (-) TimerEvent: {}
+[35.172697] (-) TimerEvent: {}
+[35.273307] (-) TimerEvent: {}
+[35.374023] (-) TimerEvent: {}
+[35.474625] (-) TimerEvent: {}
+[35.575246] (-) TimerEvent: {}
+[35.675817] (-) TimerEvent: {}
+[35.776423] (-) TimerEvent: {}
+[35.877026] (-) TimerEvent: {}
+[35.977638] (-) TimerEvent: {}
+[36.078243] (-) TimerEvent: {}
+[36.178838] (-) TimerEvent: {}
+[36.279421] (-) TimerEvent: {}
+[36.379999] (-) TimerEvent: {}
+[36.480596] (-) TimerEvent: {}
+[36.581143] (-) TimerEvent: {}
+[36.681727] (-) TimerEvent: {}
+[36.782320] (-) TimerEvent: {}
+[36.882917] (-) TimerEvent: {}
+[36.983554] (-) TimerEvent: {}
+[37.084146] (-) TimerEvent: {}
+[37.184739] (-) TimerEvent: {}
+[37.285321] (-) TimerEvent: {}
+[37.385912] (-) TimerEvent: {}
+[37.486451] (-) TimerEvent: {}
+[37.587010] (-) TimerEvent: {}
+[37.687606] (-) TimerEvent: {}
+[37.788214] (-) TimerEvent: {}
+[37.888810] (-) TimerEvent: {}
+[37.989410] (-) TimerEvent: {}
+[38.090011] (-) TimerEvent: {}
+[38.190968] (-) TimerEvent: {}
+[38.291777] (-) TimerEvent: {}
+[38.392489] (-) TimerEvent: {}
+[38.493237] (-) TimerEvent: {}
+[38.593977] (-) TimerEvent: {}
+[38.694721] (-) TimerEvent: {}
+[38.795496] (-) TimerEvent: {}
+[38.896232] (-) TimerEvent: {}
+[38.996986] (-) TimerEvent: {}
+[39.097604] (-) TimerEvent: {}
+[39.198149] (-) TimerEvent: {}
+[39.298738] (-) TimerEvent: {}
+[39.399371] (-) TimerEvent: {}
+[39.500132] (-) TimerEvent: {}
+[39.600889] (-) TimerEvent: {}
+[39.701621] (-) TimerEvent: {}
+[39.802346] (-) TimerEvent: {}
+[39.903166] (-) TimerEvent: {}
+[40.003735] (-) TimerEvent: {}
+[40.104359] (-) TimerEvent: {}
+[40.205002] (-) TimerEvent: {}
+[40.305654] (-) TimerEvent: {}
+[40.406286] (-) TimerEvent: {}
+[40.506907] (-) TimerEvent: {}
+[40.607550] (-) TimerEvent: {}
+[40.708175] (-) TimerEvent: {}
+[40.808824] (-) TimerEvent: {}
+[40.909436] (-) TimerEvent: {}
+[41.010060] (-) TimerEvent: {}
+[41.110786] (-) TimerEvent: {}
+[41.211479] (-) TimerEvent: {}
+[41.312020] (-) TimerEvent: {}
+[41.412686] (-) TimerEvent: {}
+[41.513384] (-) TimerEvent: {}
+[41.614101] (-) TimerEvent: {}
+[41.714823] (-) TimerEvent: {}
+[41.815563] (-) TimerEvent: {}
+[41.916258] (-) TimerEvent: {}
+[42.016946] (-) TimerEvent: {}
+[42.117623] (-) TimerEvent: {}
+[42.218349] (-) TimerEvent: {}
+[42.319085] (-) TimerEvent: {}
+[42.419823] (-) TimerEvent: {}
+[42.520547] (-) TimerEvent: {}
+[42.621326] (-) TimerEvent: {}
+[42.721950] (-) TimerEvent: {}
+[42.822545] (-) TimerEvent: {}
+[42.923176] (-) TimerEvent: {}
+[43.023728] (-) TimerEvent: {}
+[43.124351] (-) TimerEvent: {}
+[43.225159] (-) TimerEvent: {}
+[43.325948] (-) TimerEvent: {}
+[43.426749] (-) TimerEvent: {}
+[43.527541] (-) TimerEvent: {}
+[43.628297] (-) TimerEvent: {}
+[43.729053] (-) TimerEvent: {}
+[43.829823] (-) TimerEvent: {}
+[43.930566] (-) TimerEvent: {}
+[44.031344] (-) TimerEvent: {}
+[44.132114] (-) TimerEvent: {}
+[44.232869] (-) TimerEvent: {}
+[44.333612] (-) TimerEvent: {}
+[44.434363] (-) TimerEvent: {}
+[44.535123] (-) TimerEvent: {}
+[44.635868] (-) TimerEvent: {}
+[44.736635] (-) TimerEvent: {}
+[44.837390] (-) TimerEvent: {}
+[44.938173] (-) TimerEvent: {}
+[45.038942] (-) TimerEvent: {}
+[45.139728] (-) TimerEvent: {}
+[45.240496] (-) TimerEvent: {}
+[45.341237] (-) TimerEvent: {}
+[45.441932] (-) TimerEvent: {}
+[45.542617] (-) TimerEvent: {}
+[45.643400] (-) TimerEvent: {}
+[45.744185] (-) TimerEvent: {}
+[45.844924] (-) TimerEvent: {}
+[45.945659] (-) TimerEvent: {}
+[46.046375] (-) TimerEvent: {}
+[46.147145] (-) TimerEvent: {}
+[46.247876] (-) TimerEvent: {}
+[46.348612] (-) TimerEvent: {}
+[46.449733] (-) TimerEvent: {}
+[46.550529] (-) TimerEvent: {}
+[46.651273] (-) TimerEvent: {}
+[46.752004] (-) TimerEvent: {}
+[46.852747] (-) TimerEvent: {}
+[46.953468] (-) TimerEvent: {}
+[47.054214] (-) TimerEvent: {}
+[47.155019] (-) TimerEvent: {}
+[47.255803] (-) TimerEvent: {}
+[47.356597] (-) TimerEvent: {}
+[47.457413] (-) TimerEvent: {}
+[47.558457] (-) TimerEvent: {}
+[47.659592] (-) TimerEvent: {}
+[47.760637] (-) TimerEvent: {}
+[47.861583] (-) TimerEvent: {}
+[47.962662] (-) TimerEvent: {}
+[48.063747] (-) TimerEvent: {}
+[48.164540] (-) TimerEvent: {}
+[48.265687] (-) TimerEvent: {}
+[48.366431] (-) TimerEvent: {}
+[48.467184] (-) TimerEvent: {}
+[48.567894] (-) TimerEvent: {}
+[48.668570] (-) TimerEvent: {}
+[48.769278] (-) TimerEvent: {}
+[48.869981] (-) TimerEvent: {}
+[48.970720] (-) TimerEvent: {}
+[49.023742] (turtlesim) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle.cpp.o\x1b[0m\n'}
+[49.070866] (-) TimerEvent: {}
+[49.171671] (-) TimerEvent: {}
+[49.272392] (-) TimerEvent: {}
+[49.373096] (-) TimerEvent: {}
+[49.473763] (-) TimerEvent: {}
+[49.574441] (-) TimerEvent: {}
+[49.675157] (-) TimerEvent: {}
+[49.775901] (-) TimerEvent: {}
+[49.876631] (-) TimerEvent: {}
+[49.977348] (-) TimerEvent: {}
+[50.078046] (-) TimerEvent: {}
+[50.187266] (-) TimerEvent: {}
+[50.288183] (-) TimerEvent: {}
+[50.388944] (-) TimerEvent: {}
+[50.489722] (-) TimerEvent: {}
+[50.590499] (-) TimerEvent: {}
+[50.691220] (-) TimerEvent: {}
+[50.792178] (-) TimerEvent: {}
+[50.893139] (-) TimerEvent: {}
+[50.994093] (-) TimerEvent: {}
+[51.095176] (-) TimerEvent: {}
+[51.196232] (-) TimerEvent: {}
+[51.297060] (-) TimerEvent: {}
+[51.397855] (-) TimerEvent: {}
+[51.498671] (-) TimerEvent: {}
+[51.599597] (-) TimerEvent: {}
+[51.700542] (-) TimerEvent: {}
+[51.801338] (-) TimerEvent: {}
+[51.902159] (-) TimerEvent: {}
+[52.003132] (-) TimerEvent: {}
+[52.103982] (-) TimerEvent: {}
+[52.204734] (-) TimerEvent: {}
+[52.305491] (-) TimerEvent: {}
+[52.406259] (-) TimerEvent: {}
+[52.507002] (-) TimerEvent: {}
+[52.608136] (-) TimerEvent: {}
+[52.708940] (-) TimerEvent: {}
+[52.809771] (-) TimerEvent: {}
+[52.910587] (-) TimerEvent: {}
+[53.011402] (-) TimerEvent: {}
+[53.112405] (-) TimerEvent: {}
+[53.213491] (-) TimerEvent: {}
+[53.314577] (-) TimerEvent: {}
+[53.415389] (-) TimerEvent: {}
+[53.516195] (-) TimerEvent: {}
+[53.617001] (-) TimerEvent: {}
+[53.717797] (-) TimerEvent: {}
+[53.818612] (-) TimerEvent: {}
+[53.919735] (-) TimerEvent: {}
+[54.020806] (-) TimerEvent: {}
+[54.123310] (-) TimerEvent: {}
+[54.227273] (-) TimerEvent: {}
+[54.330916] (-) TimerEvent: {}
+[54.443319] (-) TimerEvent: {}
+[54.544102] (-) TimerEvent: {}
+[54.644876] (-) TimerEvent: {}
+[54.745659] (-) TimerEvent: {}
+[54.846474] (-) TimerEvent: {}
+[54.947251] (-) TimerEvent: {}
+[55.047992] (-) TimerEvent: {}
+[55.148731] (-) TimerEvent: {}
+[55.249483] (-) TimerEvent: {}
+[55.350179] (-) TimerEvent: {}
+[55.450918] (-) TimerEvent: {}
+[55.551687] (-) TimerEvent: {}
+[55.652423] (-) TimerEvent: {}
+[55.753175] (-) TimerEvent: {}
+[55.853927] (-) TimerEvent: {}
+[55.954669] (-) TimerEvent: {}
+[56.055751] (-) TimerEvent: {}
+[56.156820] (-) TimerEvent: {}
+[56.180457] (turtlesim) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX executable turtle_teleop_key\x1b[0m\n'}
+[56.257059] (-) TimerEvent: {}
+[56.358008] (-) TimerEvent: {}
+[56.458959] (-) TimerEvent: {}
+[56.560089] (-) TimerEvent: {}
+[56.661200] (-) TimerEvent: {}
+[56.762326] (-) TimerEvent: {}
+[56.863398] (-) TimerEvent: {}
+[56.964485] (-) TimerEvent: {}
+[57.065579] (-) TimerEvent: {}
+[57.166753] (-) TimerEvent: {}
+[57.267849] (-) TimerEvent: {}
+[57.368927] (-) TimerEvent: {}
+[57.428476] (turtlesim) StdoutLine: {'line': b'[ 78%] Built target turtle_teleop_key\n'}
+[57.469113] (-) TimerEvent: {}
+[57.522273] (turtlesim) StdoutLine: {'line': b'[ 78%] Built target turtlesim\n'}
+[57.569299] (-) TimerEvent: {}
+[57.591781] (turtlesim) StdoutLine: {'line': b'[ 79%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[57.669465] (-) TimerEvent: {}
+[57.770555] (-) TimerEvent: {}
+[57.871911] (-) TimerEvent: {}
+[57.973326] (-) TimerEvent: {}
+[58.074304] (-) TimerEvent: {}
+[58.175267] (-) TimerEvent: {}
+[58.276239] (-) TimerEvent: {}
+[58.377192] (-) TimerEvent: {}
+[58.478226] (-) TimerEvent: {}
+[58.582120] (-) TimerEvent: {}
+[58.683417] (-) TimerEvent: {}
+[58.784380] (-) TimerEvent: {}
+[58.885322] (-) TimerEvent: {}
+[58.986234] (-) TimerEvent: {}
+[59.087223] (-) TimerEvent: {}
+[59.188178] (-) TimerEvent: {}
+[59.289209] (-) TimerEvent: {}
+[59.390570] (-) TimerEvent: {}
+[59.491537] (-) TimerEvent: {}
+[59.592466] (-) TimerEvent: {}
+[59.693401] (-) TimerEvent: {}
+[59.794351] (-) TimerEvent: {}
+[59.895085] (-) TimerEvent: {}
+[59.996082] (-) TimerEvent: {}
+[60.097050] (-) TimerEvent: {}
+[60.197906] (-) TimerEvent: {}
+[60.298830] (-) TimerEvent: {}
+[60.400617] (-) TimerEvent: {}
+[60.501922] (-) TimerEvent: {}
+[60.602898] (-) TimerEvent: {}
+[60.703889] (-) TimerEvent: {}
+[60.804837] (-) TimerEvent: {}
+[60.905774] (-) TimerEvent: {}
+[61.006737] (-) TimerEvent: {}
+[61.112575] (-) TimerEvent: {}
+[61.219093] (-) TimerEvent: {}
+[61.320738] (-) TimerEvent: {}
+[61.424798] (-) TimerEvent: {}
+[61.527257] (-) TimerEvent: {}
+[61.631265] (-) TimerEvent: {}
+[61.735260] (-) TimerEvent: {}
+[61.839275] (-) TimerEvent: {}
+[61.943253] (-) TimerEvent: {}
+[62.047265] (-) TimerEvent: {}
+[62.147994] (-) TimerEvent: {}
+[62.248749] (-) TimerEvent: {}
+[62.349824] (-) TimerEvent: {}
+[62.450628] (-) TimerEvent: {}
+[62.551601] (-) TimerEvent: {}
+[62.652399] (-) TimerEvent: {}
+[62.753470] (-) TimerEvent: {}
+[62.854551] (-) TimerEvent: {}
+[62.956054] (-) TimerEvent: {}
+[63.057161] (-) TimerEvent: {}
+[63.158203] (-) TimerEvent: {}
+[63.258993] (-) TimerEvent: {}
+[63.359820] (-) TimerEvent: {}
+[63.460634] (-) TimerEvent: {}
+[63.561382] (-) TimerEvent: {}
+[63.662119] (-) TimerEvent: {}
+[63.762884] (-) TimerEvent: {}
+[63.863684] (-) TimerEvent: {}
+[63.964468] (-) TimerEvent: {}
+[64.065242] (-) TimerEvent: {}
+[64.166000] (-) TimerEvent: {}
+[64.266726] (-) TimerEvent: {}
+[64.374317] (-) TimerEvent: {}
+[64.475060] (-) TimerEvent: {}
+[64.576279] (-) TimerEvent: {}
+[64.677075] (-) TimerEvent: {}
+[64.777791] (-) TimerEvent: {}
+[64.878441] (-) TimerEvent: {}
+[64.979176] (-) TimerEvent: {}
+[65.082644] (-) TimerEvent: {}
+[65.183420] (-) TimerEvent: {}
+[65.284434] (-) TimerEvent: {}
+[65.385169] (-) TimerEvent: {}
+[65.485890] (-) TimerEvent: {}
+[65.586606] (-) TimerEvent: {}
+[65.687317] (-) TimerEvent: {}
+[65.788045] (-) TimerEvent: {}
+[65.888774] (-) TimerEvent: {}
+[65.989507] (-) TimerEvent: {}
+[66.090248] (-) TimerEvent: {}
+[66.190977] (-) TimerEvent: {}
+[66.291728] (-) TimerEvent: {}
+[66.392448] (-) TimerEvent: {}
+[66.493206] (-) TimerEvent: {}
+[66.594009] (-) TimerEvent: {}
+[66.694802] (-) TimerEvent: {}
+[66.795587] (-) TimerEvent: {}
+[66.896588] (-) TimerEvent: {}
+[66.997319] (-) TimerEvent: {}
+[67.098208] (-) TimerEvent: {}
+[67.198985] (-) TimerEvent: {}
+[67.300205] (-) TimerEvent: {}
+[67.400946] (-) TimerEvent: {}
+[67.501871] (-) TimerEvent: {}
+[67.603874] (-) TimerEvent: {}
+[67.704606] (-) TimerEvent: {}
+[67.805400] (-) TimerEvent: {}
+[67.906155] (-) TimerEvent: {}
+[68.006894] (-) TimerEvent: {}
+[68.107676] (-) TimerEvent: {}
+[68.208476] (-) TimerEvent: {}
+[68.309291] (-) TimerEvent: {}
+[68.410125] (-) TimerEvent: {}
+[68.510913] (-) TimerEvent: {}
+[68.612085] (-) TimerEvent: {}
+[68.712879] (-) TimerEvent: {}
+[68.813649] (-) TimerEvent: {}
+[68.914480] (-) TimerEvent: {}
+[69.015267] (-) TimerEvent: {}
+[69.116105] (-) TimerEvent: {}
+[69.216927] (-) TimerEvent: {}
+[69.317710] (-) TimerEvent: {}
+[69.418694] (-) TimerEvent: {}
+[69.519938] (-) TimerEvent: {}
+[69.617430] (turtlesim) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable mimic\x1b[0m\n'}
+[69.620071] (-) TimerEvent: {}
+[69.684375] (turtlesim) StdoutLine: {'line': b'[ 80%] Built target turtlesim__py\n'}
+[69.720275] (-) TimerEvent: {}
+[69.732123] (turtlesim) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/action/_rotate_absolute_s.c.o\x1b[0m\n'}
+[69.820475] (-) TimerEvent: {}
+[69.921275] (-) TimerEvent: {}
+[70.022051] (-) TimerEvent: {}
+[70.122862] (-) TimerEvent: {}
+[70.223693] (-) TimerEvent: {}
+[70.324456] (-) TimerEvent: {}
+[70.425219] (-) TimerEvent: {}
+[70.525975] (-) TimerEvent: {}
+[70.578951] (turtlesim) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_color_s.c.o\x1b[0m\n'}
+[70.626170] (-) TimerEvent: {}
+[70.726943] (-) TimerEvent: {}
+[70.827972] (-) TimerEvent: {}
+[70.928746] (-) TimerEvent: {}
+[71.029495] (-) TimerEvent: {}
+[71.130249] (-) TimerEvent: {}
+[71.138967] (turtlesim) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_pose_s.c.o\x1b[0m\n'}
+[71.230434] (-) TimerEvent: {}
+[71.331200] (-) TimerEvent: {}
+[71.431957] (-) TimerEvent: {}
+[71.532736] (-) TimerEvent: {}
+[71.633764] (-) TimerEvent: {}
+[71.638705] (turtlesim) StdoutLine: {'line': b'[ 83%] Built target mimic\n'}
+[71.674853] (turtlesim) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_kill_s.c.o\x1b[0m\n'}
+[71.711499] (turtlesim) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_set_pen_s.c.o\x1b[0m\n'}
+[71.733957] (-) TimerEvent: {}
+[71.834767] (-) TimerEvent: {}
+[71.935640] (-) TimerEvent: {}
+[72.036801] (-) TimerEvent: {}
+[72.137563] (-) TimerEvent: {}
+[72.147126] (turtlesim) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_spawn_s.c.o\x1b[0m\n'}
+[72.237742] (-) TimerEvent: {}
+[72.240109] (turtlesim) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_absolute_s.c.o\x1b[0m\n'}
+[72.337921] (-) TimerEvent: {}
+[72.438691] (-) TimerEvent: {}
+[72.539493] (-) TimerEvent: {}
+[72.603737] (turtlesim) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX executable draw_square\x1b[0m\n'}
+[72.639671] (-) TimerEvent: {}
+[72.740431] (-) TimerEvent: {}
+[72.752835] (turtlesim) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_relative_s.c.o\x1b[0m\n'}
+[72.840615] (-) TimerEvent: {}
+[72.876784] (turtlesim) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o\x1b[0m\n'}
+[72.940790] (-) TimerEvent: {}
+[73.041979] (-) TimerEvent: {}
+[73.142730] (-) TimerEvent: {}
+[73.243543] (-) TimerEvent: {}
+[73.314216] (turtlesim) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/libturtlesim__rosidl_generator_py.so\x1b[0m\n'}
+[73.343745] (-) TimerEvent: {}
+[73.444505] (-) TimerEvent: {}
+[73.465857] (turtlesim) StdoutLine: {'line': b'[ 91%] Built target turtlesim__rosidl_generator_py\n'}
+[73.510672] (turtlesim) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[73.544673] (-) TimerEvent: {}
+[73.645644] (-) TimerEvent: {}
+[73.746562] (-) TimerEvent: {}
+[73.847378] (-) TimerEvent: {}
+[73.948089] (-) TimerEvent: {}
+[74.048818] (-) TimerEvent: {}
+[74.149554] (-) TimerEvent: {}
+[74.193187] (turtlesim) StdoutLine: {'line': b'[ 92%] Built target draw_square\n'}
+[74.222509] (turtlesim) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[74.249755] (-) TimerEvent: {}
+[74.350486] (-) TimerEvent: {}
+[74.451245] (-) TimerEvent: {}
+[74.457598] (turtlesim) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[74.551442] (-) TimerEvent: {}
+[74.632350] (turtlesim) StdoutLine: {'line': b'[ 94%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[74.651619] (-) TimerEvent: {}
+[74.679034] (turtlesim) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[74.751807] (-) TimerEvent: {}
+[74.852845] (-) TimerEvent: {}
+[74.856403] (turtlesim) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[74.952835] (turtlesim) StdoutLine: {'line': b'[ 96%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[74.953521] (-) TimerEvent: {}
+[75.054231] (-) TimerEvent: {}
+[75.155009] (-) TimerEvent: {}
+[75.255866] (-) TimerEvent: {}
+[75.356693] (-) TimerEvent: {}
+[75.457512] (-) TimerEvent: {}
+[75.558326] (-) TimerEvent: {}
+[75.612900] (turtlesim) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[75.658521] (-) TimerEvent: {}
+[75.759630] (-) TimerEvent: {}
+[75.783419] (turtlesim) StdoutLine: {'line': b'[ 97%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[75.859822] (-) TimerEvent: {}
+[75.960651] (-) TimerEvent: {}
+[76.061426] (-) TimerEvent: {}
+[76.162225] (-) TimerEvent: {}
+[76.263048] (-) TimerEvent: {}
+[76.363924] (-) TimerEvent: {}
+[76.464762] (-) TimerEvent: {}
+[76.565536] (-) TimerEvent: {}
+[76.666320] (-) TimerEvent: {}
+[76.767087] (-) TimerEvent: {}
+[76.867894] (-) TimerEvent: {}
+[76.968638] (-) TimerEvent: {}
+[77.069400] (-) TimerEvent: {}
+[77.170170] (-) TimerEvent: {}
+[77.270908] (-) TimerEvent: {}
+[77.371705] (-) TimerEvent: {}
+[77.472495] (-) TimerEvent: {}
+[77.573265] (-) TimerEvent: {}
+[77.674025] (-) TimerEvent: {}
+[77.774796] (-) TimerEvent: {}
+[77.875596] (-) TimerEvent: {}
+[77.976358] (-) TimerEvent: {}
+[78.077149] (-) TimerEvent: {}
+[78.177934] (-) TimerEvent: {}
+[78.278697] (-) TimerEvent: {}
+[78.379489] (-) TimerEvent: {}
+[78.480276] (-) TimerEvent: {}
+[78.581023] (-) TimerEvent: {}
+[78.681756] (-) TimerEvent: {}
+[78.782523] (-) TimerEvent: {}
+[78.883277] (-) TimerEvent: {}
+[78.984015] (-) TimerEvent: {}
+[79.084788] (-) TimerEvent: {}
+[79.185617] (-) TimerEvent: {}
+[79.286443] (-) TimerEvent: {}
+[79.387256] (-) TimerEvent: {}
+[79.488073] (-) TimerEvent: {}
+[79.588919] (-) TimerEvent: {}
+[79.689825] (-) TimerEvent: {}
+[79.791042] (-) TimerEvent: {}
+[79.891877] (-) TimerEvent: {}
+[79.992708] (-) TimerEvent: {}
+[80.093448] (-) TimerEvent: {}
+[80.194210] (-) TimerEvent: {}
+[80.295132] (-) TimerEvent: {}
+[80.404109] (-) TimerEvent: {}
+[80.504885] (-) TimerEvent: {}
+[80.605727] (-) TimerEvent: {}
+[80.706542] (-) TimerEvent: {}
+[80.807358] (-) TimerEvent: {}
+[80.908161] (-) TimerEvent: {}
+[81.008926] (-) TimerEvent: {}
+[81.109680] (-) TimerEvent: {}
+[81.210781] (-) TimerEvent: {}
+[81.311647] (-) TimerEvent: {}
+[81.412516] (-) TimerEvent: {}
+[81.513334] (-) TimerEvent: {}
+[81.614141] (-) TimerEvent: {}
+[81.714937] (-) TimerEvent: {}
+[81.815811] (-) TimerEvent: {}
+[81.916578] (-) TimerEvent: {}
+[82.017499] (-) TimerEvent: {}
+[82.118250] (-) TimerEvent: {}
+[82.218973] (-) TimerEvent: {}
+[82.319839] (-) TimerEvent: {}
+[82.431281] (-) TimerEvent: {}
+[82.532042] (-) TimerEvent: {}
+[82.632794] (-) TimerEvent: {}
+[82.733585] (-) TimerEvent: {}
+[82.834410] (-) TimerEvent: {}
+[82.935158] (-) TimerEvent: {}
+[83.036340] (-) TimerEvent: {}
+[83.137138] (-) TimerEvent: {}
+[83.238145] (-) TimerEvent: {}
+[83.339232] (-) TimerEvent: {}
+[83.440349] (-) TimerEvent: {}
+[83.541306] (-) TimerEvent: {}
+[83.642300] (-) TimerEvent: {}
+[83.743505] (-) TimerEvent: {}
+[83.844240] (-) TimerEvent: {}
+[83.944943] (-) TimerEvent: {}
+[84.045833] (-) TimerEvent: {}
+[84.146553] (-) TimerEvent: {}
+[84.247283] (-) TimerEvent: {}
+[84.348062] (-) TimerEvent: {}
+[84.448840] (-) TimerEvent: {}
+[84.549578] (-) TimerEvent: {}
+[84.650298] (-) TimerEvent: {}
+[84.751057] (-) TimerEvent: {}
+[84.851812] (-) TimerEvent: {}
+[84.952571] (-) TimerEvent: {}
+[85.053305] (-) TimerEvent: {}
+[85.153990] (-) TimerEvent: {}
+[85.254753] (-) TimerEvent: {}
+[85.355547] (-) TimerEvent: {}
+[85.456335] (-) TimerEvent: {}
+[85.557157] (-) TimerEvent: {}
+[85.658096] (-) TimerEvent: {}
+[85.758899] (-) TimerEvent: {}
+[85.859657] (-) TimerEvent: {}
+[85.960327] (-) TimerEvent: {}
+[86.061009] (-) TimerEvent: {}
+[86.161783] (-) TimerEvent: {}
+[86.262520] (-) TimerEvent: {}
+[86.363296] (-) TimerEvent: {}
+[86.464035] (-) TimerEvent: {}
+[86.564744] (-) TimerEvent: {}
+[86.665471] (-) TimerEvent: {}
+[86.766197] (-) TimerEvent: {}
+[86.866955] (-) TimerEvent: {}
+[86.967736] (-) TimerEvent: {}
+[87.068481] (-) TimerEvent: {}
+[87.169218] (-) TimerEvent: {}
+[87.269974] (-) TimerEvent: {}
+[87.370701] (-) TimerEvent: {}
+[87.471446] (-) TimerEvent: {}
+[87.572195] (-) TimerEvent: {}
+[87.672970] (-) TimerEvent: {}
+[87.773700] (-) TimerEvent: {}
+[87.874434] (-) TimerEvent: {}
+[87.975247] (-) TimerEvent: {}
+[88.076007] (-) TimerEvent: {}
+[88.176793] (-) TimerEvent: {}
+[88.277506] (-) TimerEvent: {}
+[88.378187] (-) TimerEvent: {}
+[88.478868] (-) TimerEvent: {}
+[88.579750] (-) TimerEvent: {}
+[88.680436] (-) TimerEvent: {}
+[88.781114] (-) TimerEvent: {}
+[88.881808] (-) TimerEvent: {}
+[88.982523] (-) TimerEvent: {}
+[89.083287] (-) TimerEvent: {}
+[89.184079] (-) TimerEvent: {}
+[89.285213] (-) TimerEvent: {}
+[89.386312] (-) TimerEvent: {}
+[89.487079] (-) TimerEvent: {}
+[89.587877] (-) TimerEvent: {}
+[89.688623] (-) TimerEvent: {}
+[89.789377] (-) TimerEvent: {}
+[89.890154] (-) TimerEvent: {}
+[89.990951] (-) TimerEvent: {}
+[90.091813] (-) TimerEvent: {}
+[90.192548] (-) TimerEvent: {}
+[90.293315] (-) TimerEvent: {}
+[90.394182] (-) TimerEvent: {}
+[90.494964] (-) TimerEvent: {}
+[90.595709] (-) TimerEvent: {}
+[90.696386] (-) TimerEvent: {}
+[90.797103] (-) TimerEvent: {}
+[90.897851] (-) TimerEvent: {}
+[90.998593] (-) TimerEvent: {}
+[91.099383] (-) TimerEvent: {}
+[91.200106] (-) TimerEvent: {}
+[91.300833] (-) TimerEvent: {}
+[91.401550] (-) TimerEvent: {}
+[91.502297] (-) TimerEvent: {}
+[91.603052] (-) TimerEvent: {}
+[91.703812] (-) TimerEvent: {}
+[91.804609] (-) TimerEvent: {}
+[91.905347] (-) TimerEvent: {}
+[92.006095] (-) TimerEvent: {}
+[92.106831] (-) TimerEvent: {}
+[92.207606] (-) TimerEvent: {}
+[92.308342] (-) TimerEvent: {}
+[92.409099] (-) TimerEvent: {}
+[92.512295] (-) TimerEvent: {}
+[92.613051] (-) TimerEvent: {}
+[92.713768] (-) TimerEvent: {}
+[92.814506] (-) TimerEvent: {}
+[92.915391] (-) TimerEvent: {}
+[93.016120] (-) TimerEvent: {}
+[93.116825] (-) TimerEvent: {}
+[93.217605] (-) TimerEvent: {}
+[93.318312] (-) TimerEvent: {}
+[93.419019] (-) TimerEvent: {}
+[93.519778] (-) TimerEvent: {}
+[93.620569] (-) TimerEvent: {}
+[93.721305] (-) TimerEvent: {}
+[93.822045] (-) TimerEvent: {}
+[93.922744] (-) TimerEvent: {}
+[94.023500] (-) TimerEvent: {}
+[94.124233] (-) TimerEvent: {}
+[94.224913] (-) TimerEvent: {}
+[94.325638] (-) TimerEvent: {}
+[94.426360] (-) TimerEvent: {}
+[94.527084] (-) TimerEvent: {}
+[94.627881] (-) TimerEvent: {}
+[94.728591] (-) TimerEvent: {}
+[94.829378] (-) TimerEvent: {}
+[94.930121] (-) TimerEvent: {}
+[95.030811] (-) TimerEvent: {}
+[95.131588] (-) TimerEvent: {}
+[95.232321] (-) TimerEvent: {}
+[95.333087] (-) TimerEvent: {}
+[95.433811] (-) TimerEvent: {}
+[95.534564] (-) TimerEvent: {}
+[95.635309] (-) TimerEvent: {}
+[95.736038] (-) TimerEvent: {}
+[95.836768] (-) TimerEvent: {}
+[95.937527] (-) TimerEvent: {}
+[96.038337] (-) TimerEvent: {}
+[96.139080] (-) TimerEvent: {}
+[96.239842] (-) TimerEvent: {}
+[96.340558] (-) TimerEvent: {}
+[96.441300] (-) TimerEvent: {}
+[96.542031] (-) TimerEvent: {}
+[96.642788] (-) TimerEvent: {}
+[96.743579] (-) TimerEvent: {}
+[96.844309] (-) TimerEvent: {}
+[96.945129] (-) TimerEvent: {}
+[97.045886] (-) TimerEvent: {}
+[97.146611] (-) TimerEvent: {}
+[97.247575] (-) TimerEvent: {}
+[97.348352] (-) TimerEvent: {}
+[97.449065] (-) TimerEvent: {}
+[97.549781] (-) TimerEvent: {}
+[97.650492] (-) TimerEvent: {}
+[97.751221] (-) TimerEvent: {}
+[97.851937] (-) TimerEvent: {}
+[97.952674] (-) TimerEvent: {}
+[98.053402] (-) TimerEvent: {}
+[98.154146] (-) TimerEvent: {}
+[98.254866] (-) TimerEvent: {}
+[98.355634] (-) TimerEvent: {}
+[98.456368] (-) TimerEvent: {}
+[98.557106] (-) TimerEvent: {}
+[98.657830] (-) TimerEvent: {}
+[98.758537] (-) TimerEvent: {}
+[98.859278] (-) TimerEvent: {}
+[98.960031] (-) TimerEvent: {}
+[99.060767] (-) TimerEvent: {}
+[99.161471] (-) TimerEvent: {}
+[99.262184] (-) TimerEvent: {}
+[99.362885] (-) TimerEvent: {}
+[99.463617] (-) TimerEvent: {}
+[99.564341] (-) TimerEvent: {}
+[99.665105] (-) TimerEvent: {}
+[99.765849] (-) TimerEvent: {}
+[99.866679] (-) TimerEvent: {}
+[99.967433] (-) TimerEvent: {}
+[100.068141] (-) TimerEvent: {}
+[100.168877] (-) TimerEvent: {}
+[100.269631] (-) TimerEvent: {}
+[100.370294] (-) TimerEvent: {}
+[100.470991] (-) TimerEvent: {}
+[100.571710] (-) TimerEvent: {}
+[100.672377] (-) TimerEvent: {}
+[100.773067] (-) TimerEvent: {}
+[100.873768] (-) TimerEvent: {}
+[100.974476] (-) TimerEvent: {}
+[101.075214] (-) TimerEvent: {}
+[101.175874] (-) TimerEvent: {}
+[101.276587] (-) TimerEvent: {}
+[101.377328] (-) TimerEvent: {}
+[101.478018] (-) TimerEvent: {}
+[101.578785] (-) TimerEvent: {}
+[101.679539] (-) TimerEvent: {}
+[101.780185] (-) TimerEvent: {}
+[101.880899] (-) TimerEvent: {}
+[101.981590] (-) TimerEvent: {}
+[102.082348] (-) TimerEvent: {}
+[102.183080] (-) TimerEvent: {}
+[102.283834] (-) TimerEvent: {}
+[102.384565] (-) TimerEvent: {}
+[102.485289] (-) TimerEvent: {}
+[102.586065] (-) TimerEvent: {}
+[102.686799] (-) TimerEvent: {}
+[102.787583] (-) TimerEvent: {}
+[102.888344] (-) TimerEvent: {}
+[102.989076] (-) TimerEvent: {}
+[103.089829] (-) TimerEvent: {}
+[103.190581] (-) TimerEvent: {}
+[103.291354] (-) TimerEvent: {}
+[103.392043] (-) TimerEvent: {}
+[103.492705] (-) TimerEvent: {}
+[103.593409] (-) TimerEvent: {}
+[103.694053] (-) TimerEvent: {}
+[103.794740] (-) TimerEvent: {}
+[103.895476] (-) TimerEvent: {}
+[103.996165] (-) TimerEvent: {}
+[104.096863] (-) TimerEvent: {}
+[104.197546] (-) TimerEvent: {}
+[104.298222] (-) TimerEvent: {}
+[104.398947] (-) TimerEvent: {}
+[104.499663] (-) TimerEvent: {}
+[104.600331] (-) TimerEvent: {}
+[104.700996] (-) TimerEvent: {}
+[104.801665] (-) TimerEvent: {}
+[104.902326] (-) TimerEvent: {}
+[105.002993] (-) TimerEvent: {}
+[105.103743] (-) TimerEvent: {}
+[105.204425] (-) TimerEvent: {}
+[105.305158] (-) TimerEvent: {}
+[105.405870] (-) TimerEvent: {}
+[105.506597] (-) TimerEvent: {}
+[105.607281] (-) TimerEvent: {}
+[105.708028] (-) TimerEvent: {}
+[105.808741] (-) TimerEvent: {}
+[105.909447] (-) TimerEvent: {}
+[106.010172] (-) TimerEvent: {}
+[106.110892] (-) TimerEvent: {}
+[106.211611] (-) TimerEvent: {}
+[106.312332] (-) TimerEvent: {}
+[106.413125] (-) TimerEvent: {}
+[106.513901] (-) TimerEvent: {}
+[106.614654] (-) TimerEvent: {}
+[106.715460] (-) TimerEvent: {}
+[106.816249] (-) TimerEvent: {}
+[106.917017] (-) TimerEvent: {}
+[107.017822] (-) TimerEvent: {}
+[107.118672] (-) TimerEvent: {}
+[107.219464] (-) TimerEvent: {}
+[107.320210] (-) TimerEvent: {}
+[107.420942] (-) TimerEvent: {}
+[107.521663] (-) TimerEvent: {}
+[107.622397] (-) TimerEvent: {}
+[107.723091] (-) TimerEvent: {}
+[107.823807] (-) TimerEvent: {}
+[107.924490] (-) TimerEvent: {}
+[108.025177] (-) TimerEvent: {}
+[108.125862] (-) TimerEvent: {}
+[108.226579] (-) TimerEvent: {}
+[108.327294] (-) TimerEvent: {}
+[108.428002] (-) TimerEvent: {}
+[108.528721] (-) TimerEvent: {}
+[108.629474] (-) TimerEvent: {}
+[108.730199] (-) TimerEvent: {}
+[108.830935] (-) TimerEvent: {}
+[108.931684] (-) TimerEvent: {}
+[109.032413] (-) TimerEvent: {}
+[109.133173] (-) TimerEvent: {}
+[109.233894] (-) TimerEvent: {}
+[109.334596] (-) TimerEvent: {}
+[109.435270] (-) TimerEvent: {}
+[109.535984] (-) TimerEvent: {}
+[109.636645] (-) TimerEvent: {}
+[109.737321] (-) TimerEvent: {}
+[109.838048] (-) TimerEvent: {}
+[109.938791] (-) TimerEvent: {}
+[110.039643] (-) TimerEvent: {}
+[110.140408] (-) TimerEvent: {}
+[110.241199] (-) TimerEvent: {}
+[110.341972] (-) TimerEvent: {}
+[110.442767] (-) TimerEvent: {}
+[110.543567] (-) TimerEvent: {}
+[110.644342] (-) TimerEvent: {}
+[110.745062] (-) TimerEvent: {}
+[110.845840] (-) TimerEvent: {}
+[110.946627] (-) TimerEvent: {}
+[111.047433] (-) TimerEvent: {}
+[111.148676] (-) TimerEvent: {}
+[111.249460] (-) TimerEvent: {}
+[111.350267] (-) TimerEvent: {}
+[111.451019] (-) TimerEvent: {}
+[111.551801] (-) TimerEvent: {}
+[111.652550] (-) TimerEvent: {}
+[111.753279] (-) TimerEvent: {}
+[111.854030] (-) TimerEvent: {}
+[111.954827] (-) TimerEvent: {}
+[112.055568] (-) TimerEvent: {}
+[112.156286] (-) TimerEvent: {}
+[112.257000] (-) TimerEvent: {}
+[112.357733] (-) TimerEvent: {}
+[112.458473] (-) TimerEvent: {}
+[112.559218] (-) TimerEvent: {}
+[112.659950] (-) TimerEvent: {}
+[112.760676] (-) TimerEvent: {}
+[112.861414] (-) TimerEvent: {}
+[112.962146] (-) TimerEvent: {}
+[113.062886] (-) TimerEvent: {}
+[113.163670] (-) TimerEvent: {}
+[113.264360] (-) TimerEvent: {}
+[113.365046] (-) TimerEvent: {}
+[113.465722] (-) TimerEvent: {}
+[113.566400] (-) TimerEvent: {}
+[113.667067] (-) TimerEvent: {}
+[113.767771] (-) TimerEvent: {}
+[113.868454] (-) TimerEvent: {}
+[113.969164] (-) TimerEvent: {}
+[114.069848] (-) TimerEvent: {}
+[114.170534] (-) TimerEvent: {}
+[114.271239] (-) TimerEvent: {}
+[114.371923] (-) TimerEvent: {}
+[114.472618] (-) TimerEvent: {}
+[114.573313] (-) TimerEvent: {}
+[114.674012] (-) TimerEvent: {}
+[114.774733] (-) TimerEvent: {}
+[114.875443] (-) TimerEvent: {}
+[114.976165] (-) TimerEvent: {}
+[115.076911] (-) TimerEvent: {}
+[115.177634] (-) TimerEvent: {}
+[115.278361] (-) TimerEvent: {}
+[115.379079] (-) TimerEvent: {}
+[115.479790] (-) TimerEvent: {}
+[115.580505] (-) TimerEvent: {}
+[115.681245] (-) TimerEvent: {}
+[115.781974] (-) TimerEvent: {}
+[115.882705] (-) TimerEvent: {}
+[115.983472] (-) TimerEvent: {}
+[116.084200] (-) TimerEvent: {}
+[116.184897] (-) TimerEvent: {}
+[116.285618] (-) TimerEvent: {}
+[116.386292] (-) TimerEvent: {}
+[116.486971] (-) TimerEvent: {}
+[116.587654] (-) TimerEvent: {}
+[116.688311] (-) TimerEvent: {}
+[116.788988] (-) TimerEvent: {}
+[116.889653] (-) TimerEvent: {}
+[116.990323] (-) TimerEvent: {}
+[117.090979] (-) TimerEvent: {}
+[117.191991] (-) TimerEvent: {}
+[117.271869] (turtlesim) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/include/turtlesim/moc_turtle_frame.cpp.o\x1b[0m\n'}
+[117.292177] (-) TimerEvent: {}
+[117.392902] (-) TimerEvent: {}
+[117.493627] (-) TimerEvent: {}
+[117.594345] (-) TimerEvent: {}
+[117.695074] (-) TimerEvent: {}
+[117.795822] (-) TimerEvent: {}
+[117.896557] (-) TimerEvent: {}
+[117.997279] (-) TimerEvent: {}
+[118.098024] (-) TimerEvent: {}
+[118.198750] (-) TimerEvent: {}
+[118.299502] (-) TimerEvent: {}
+[118.400253] (-) TimerEvent: {}
+[118.500989] (-) TimerEvent: {}
+[118.601735] (-) TimerEvent: {}
+[118.702513] (-) TimerEvent: {}
+[118.803268] (-) TimerEvent: {}
+[118.904017] (-) TimerEvent: {}
+[119.004752] (-) TimerEvent: {}
+[119.105451] (-) TimerEvent: {}
+[119.206154] (-) TimerEvent: {}
+[119.306891] (-) TimerEvent: {}
+[119.407646] (-) TimerEvent: {}
+[119.508423] (-) TimerEvent: {}
+[119.609161] (-) TimerEvent: {}
+[119.709908] (-) TimerEvent: {}
+[119.810627] (-) TimerEvent: {}
+[119.911368] (-) TimerEvent: {}
+[120.012111] (-) TimerEvent: {}
+[120.112864] (-) TimerEvent: {}
+[120.213572] (-) TimerEvent: {}
+[120.314298] (-) TimerEvent: {}
+[120.415020] (-) TimerEvent: {}
+[120.515781] (-) TimerEvent: {}
+[120.616504] (-) TimerEvent: {}
+[120.717235] (-) TimerEvent: {}
+[120.817953] (-) TimerEvent: {}
+[120.918634] (-) TimerEvent: {}
+[121.019339] (-) TimerEvent: {}
+[121.120069] (-) TimerEvent: {}
+[121.220776] (-) TimerEvent: {}
+[121.321486] (-) TimerEvent: {}
+[121.422202] (-) TimerEvent: {}
+[121.522903] (-) TimerEvent: {}
+[121.623639] (-) TimerEvent: {}
+[121.724349] (-) TimerEvent: {}
+[121.825094] (-) TimerEvent: {}
+[121.925786] (-) TimerEvent: {}
+[122.026465] (-) TimerEvent: {}
+[122.127167] (-) TimerEvent: {}
+[122.227876] (-) TimerEvent: {}
+[122.328550] (-) TimerEvent: {}
+[122.429226] (-) TimerEvent: {}
+[122.529938] (-) TimerEvent: {}
+[122.630656] (-) TimerEvent: {}
+[122.731368] (-) TimerEvent: {}
+[122.832061] (-) TimerEvent: {}
+[122.932776] (-) TimerEvent: {}
+[123.033438] (-) TimerEvent: {}
+[123.134119] (-) TimerEvent: {}
+[123.234886] (-) TimerEvent: {}
+[123.336303] (-) TimerEvent: {}
+[123.437323] (-) TimerEvent: {}
+[123.538565] (-) TimerEvent: {}
+[123.639671] (-) TimerEvent: {}
+[123.740766] (-) TimerEvent: {}
+[123.841832] (-) TimerEvent: {}
+[123.942846] (-) TimerEvent: {}
+[124.043875] (-) TimerEvent: {}
+[124.144843] (-) TimerEvent: {}
+[124.245631] (-) TimerEvent: {}
+[124.346466] (-) TimerEvent: {}
+[124.447276] (-) TimerEvent: {}
+[124.548048] (-) TimerEvent: {}
+[124.648785] (-) TimerEvent: {}
+[124.749529] (-) TimerEvent: {}
+[124.850263] (-) TimerEvent: {}
+[124.951022] (-) TimerEvent: {}
+[125.051796] (-) TimerEvent: {}
+[125.152581] (-) TimerEvent: {}
+[125.253377] (-) TimerEvent: {}
+[125.354135] (-) TimerEvent: {}
+[125.454928] (-) TimerEvent: {}
+[125.555990] (-) TimerEvent: {}
+[125.656949] (-) TimerEvent: {}
+[125.757891] (-) TimerEvent: {}
+[125.858845] (-) TimerEvent: {}
+[125.959975] (-) TimerEvent: {}
+[126.060924] (-) TimerEvent: {}
+[126.161879] (-) TimerEvent: {}
+[126.263707] (-) TimerEvent: {}
+[126.364700] (-) TimerEvent: {}
+[126.465396] (-) TimerEvent: {}
+[126.566210] (-) TimerEvent: {}
+[126.666942] (-) TimerEvent: {}
+[126.767673] (-) TimerEvent: {}
+[126.868368] (-) TimerEvent: {}
+[126.969078] (-) TimerEvent: {}
+[127.069798] (-) TimerEvent: {}
+[127.183354] (-) TimerEvent: {}
+[127.284073] (-) TimerEvent: {}
+[127.384809] (-) TimerEvent: {}
+[127.485578] (-) TimerEvent: {}
+[127.586339] (-) TimerEvent: {}
+[127.687080] (-) TimerEvent: {}
+[127.787815] (-) TimerEvent: {}
+[127.888528] (-) TimerEvent: {}
+[127.989253] (-) TimerEvent: {}
+[128.089982] (-) TimerEvent: {}
+[128.190699] (-) TimerEvent: {}
+[128.291386] (-) TimerEvent: {}
+[128.392046] (-) TimerEvent: {}
+[128.492744] (-) TimerEvent: {}
+[128.593465] (-) TimerEvent: {}
+[128.694167] (-) TimerEvent: {}
+[128.794834] (-) TimerEvent: {}
+[128.895514] (-) TimerEvent: {}
+[128.996171] (-) TimerEvent: {}
+[129.096876] (-) TimerEvent: {}
+[129.197539] (-) TimerEvent: {}
+[129.298201] (-) TimerEvent: {}
+[129.399170] (-) TimerEvent: {}
+[129.500172] (-) TimerEvent: {}
+[129.601344] (-) TimerEvent: {}
+[129.702587] (-) TimerEvent: {}
+[129.803842] (-) TimerEvent: {}
+[129.904827] (-) TimerEvent: {}
+[130.005794] (-) TimerEvent: {}
+[130.106753] (-) TimerEvent: {}
+[130.207754] (-) TimerEvent: {}
+[130.308763] (-) TimerEvent: {}
+[130.409842] (-) TimerEvent: {}
+[130.510822] (-) TimerEvent: {}
+[130.611576] (-) TimerEvent: {}
+[130.712931] (-) TimerEvent: {}
+[130.813942] (-) TimerEvent: {}
+[130.914874] (-) TimerEvent: {}
+[131.015894] (-) TimerEvent: {}
+[131.116855] (-) TimerEvent: {}
+[131.217848] (-) TimerEvent: {}
+[131.318783] (-) TimerEvent: {}
+[131.419759] (-) TimerEvent: {}
+[131.520812] (-) TimerEvent: {}
+[131.622234] (-) TimerEvent: {}
+[131.723298] (-) TimerEvent: {}
+[131.824038] (-) TimerEvent: {}
+[131.924739] (-) TimerEvent: {}
+[132.025447] (-) TimerEvent: {}
+[132.126711] (-) TimerEvent: {}
+[132.227850] (-) TimerEvent: {}
+[132.328598] (-) TimerEvent: {}
+[132.429532] (-) TimerEvent: {}
+[132.530202] (-) TimerEvent: {}
+[132.630910] (-) TimerEvent: {}
+[132.731663] (-) TimerEvent: {}
+[132.832542] (-) TimerEvent: {}
+[132.933358] (-) TimerEvent: {}
+[133.034055] (-) TimerEvent: {}
+[133.134756] (-) TimerEvent: {}
+[133.235562] (-) TimerEvent: {}
+[133.336266] (-) TimerEvent: {}
+[133.436977] (-) TimerEvent: {}
+[133.537656] (-) TimerEvent: {}
+[133.638333] (-) TimerEvent: {}
+[133.739019] (-) TimerEvent: {}
+[133.839682] (-) TimerEvent: {}
+[133.940349] (-) TimerEvent: {}
+[134.041023] (-) TimerEvent: {}
+[134.141713] (-) TimerEvent: {}
+[134.242430] (-) TimerEvent: {}
+[134.343144] (-) TimerEvent: {}
+[134.443840] (-) TimerEvent: {}
+[134.544528] (-) TimerEvent: {}
+[134.645233] (-) TimerEvent: {}
+[134.745893] (-) TimerEvent: {}
+[134.846556] (-) TimerEvent: {}
+[134.947250] (-) TimerEvent: {}
+[135.047902] (-) TimerEvent: {}
+[135.148573] (-) TimerEvent: {}
+[135.249267] (-) TimerEvent: {}
+[135.349957] (-) TimerEvent: {}
+[135.450620] (-) TimerEvent: {}
+[135.551324] (-) TimerEvent: {}
+[135.652008] (-) TimerEvent: {}
+[135.752663] (-) TimerEvent: {}
+[135.853328] (-) TimerEvent: {}
+[135.953983] (-) TimerEvent: {}
+[136.054640] (-) TimerEvent: {}
+[136.155328] (-) TimerEvent: {}
+[136.256022] (-) TimerEvent: {}
+[136.364889] (-) TimerEvent: {}
+[136.465559] (-) TimerEvent: {}
+[136.566270] (-) TimerEvent: {}
+[136.666967] (-) TimerEvent: {}
+[136.767642] (-) TimerEvent: {}
+[136.868334] (-) TimerEvent: {}
+[136.968988] (-) TimerEvent: {}
+[137.069643] (-) TimerEvent: {}
+[137.170325] (-) TimerEvent: {}
+[137.270991] (-) TimerEvent: {}
+[137.371728] (-) TimerEvent: {}
+[137.472399] (-) TimerEvent: {}
+[137.573078] (-) TimerEvent: {}
+[137.673816] (-) TimerEvent: {}
+[137.774480] (-) TimerEvent: {}
+[137.875147] (-) TimerEvent: {}
+[137.975841] (-) TimerEvent: {}
+[138.076547] (-) TimerEvent: {}
+[138.177266] (-) TimerEvent: {}
+[138.278014] (-) TimerEvent: {}
+[138.378739] (-) TimerEvent: {}
+[138.479514] (-) TimerEvent: {}
+[138.580266] (-) TimerEvent: {}
+[138.681129] (-) TimerEvent: {}
+[138.782079] (-) TimerEvent: {}
+[138.882864] (-) TimerEvent: {}
+[138.983666] (-) TimerEvent: {}
+[139.084449] (-) TimerEvent: {}
+[139.185197] (-) TimerEvent: {}
+[139.285927] (-) TimerEvent: {}
+[139.386737] (-) TimerEvent: {}
+[139.487818] (-) TimerEvent: {}
+[139.588540] (-) TimerEvent: {}
+[139.689484] (-) TimerEvent: {}
+[139.790161] (-) TimerEvent: {}
+[139.890850] (-) TimerEvent: {}
+[139.991633] (-) TimerEvent: {}
+[140.092417] (-) TimerEvent: {}
+[140.157451] (turtlesim) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtlesim_node\x1b[0m\n'}
+[140.192602] (-) TimerEvent: {}
+[140.293337] (-) TimerEvent: {}
+[140.394111] (-) TimerEvent: {}
+[140.494909] (-) TimerEvent: {}
+[140.596644] (-) TimerEvent: {}
+[140.697602] (-) TimerEvent: {}
+[140.798636] (-) TimerEvent: {}
+[140.900147] (-) TimerEvent: {}
+[141.001118] (-) TimerEvent: {}
+[141.102003] (-) TimerEvent: {}
+[141.202895] (-) TimerEvent: {}
+[141.304183] (-) TimerEvent: {}
+[141.413409] (-) TimerEvent: {}
+[141.514465] (-) TimerEvent: {}
+[141.615554] (-) TimerEvent: {}
+[141.716633] (-) TimerEvent: {}
+[141.817721] (-) TimerEvent: {}
+[141.918790] (-) TimerEvent: {}
+[142.019869] (-) TimerEvent: {}
+[142.121136] (-) TimerEvent: {}
+[142.222521] (-) TimerEvent: {}
+[142.323941] (-) TimerEvent: {}
+[142.425331] (-) TimerEvent: {}
+[142.526282] (-) TimerEvent: {}
+[142.627277] (-) TimerEvent: {}
+[142.728294] (-) TimerEvent: {}
+[142.829312] (-) TimerEvent: {}
+[142.930329] (-) TimerEvent: {}
+[143.031308] (-) TimerEvent: {}
+[143.132368] (-) TimerEvent: {}
+[143.233754] (-) TimerEvent: {}
+[143.334756] (-) TimerEvent: {}
+[143.435820] (-) TimerEvent: {}
+[143.536763] (-) TimerEvent: {}
+[143.637660] (-) TimerEvent: {}
+[143.738482] (-) TimerEvent: {}
+[143.839284] (-) TimerEvent: {}
+[143.940082] (-) TimerEvent: {}
+[144.041160] (-) TimerEvent: {}
+[144.142366] (-) TimerEvent: {}
+[144.243247] (-) TimerEvent: {}
+[144.344014] (-) TimerEvent: {}
+[144.444782] (-) TimerEvent: {}
+[144.545583] (-) TimerEvent: {}
+[144.646584] (-) TimerEvent: {}
+[144.748004] (-) TimerEvent: {}
+[144.848927] (-) TimerEvent: {}
+[144.949898] (-) TimerEvent: {}
+[145.050816] (-) TimerEvent: {}
+[145.152033] (-) TimerEvent: {}
+[145.252978] (-) TimerEvent: {}
+[145.353898] (-) TimerEvent: {}
+[145.454739] (-) TimerEvent: {}
+[145.555651] (-) TimerEvent: {}
+[145.656532] (-) TimerEvent: {}
+[145.757386] (-) TimerEvent: {}
+[145.858401] (-) TimerEvent: {}
+[145.959202] (-) TimerEvent: {}
+[146.059969] (-) TimerEvent: {}
+[146.160787] (-) TimerEvent: {}
+[146.261747] (-) TimerEvent: {}
+[146.362521] (-) TimerEvent: {}
+[146.463740] (-) TimerEvent: {}
+[146.564525] (-) TimerEvent: {}
+[146.665298] (-) TimerEvent: {}
+[146.766089] (-) TimerEvent: {}
+[146.866868] (-) TimerEvent: {}
+[146.967652] (-) TimerEvent: {}
+[147.068398] (-) TimerEvent: {}
+[147.169193] (-) TimerEvent: {}
+[147.270022] (-) TimerEvent: {}
+[147.370823] (-) TimerEvent: {}
+[147.471638] (-) TimerEvent: {}
+[147.572427] (-) TimerEvent: {}
+[147.673404] (-) TimerEvent: {}
+[147.774278] (-) TimerEvent: {}
+[147.875159] (-) TimerEvent: {}
+[147.975970] (-) TimerEvent: {}
+[148.076805] (-) TimerEvent: {}
+[148.177616] (-) TimerEvent: {}
+[148.278408] (-) TimerEvent: {}
+[148.379225] (-) TimerEvent: {}
+[148.480166] (-) TimerEvent: {}
+[148.580998] (-) TimerEvent: {}
+[148.681716] (-) TimerEvent: {}
+[148.782484] (-) TimerEvent: {}
+[148.883270] (-) TimerEvent: {}
+[148.984126] (-) TimerEvent: {}
+[149.084984] (-) TimerEvent: {}
+[149.185811] (-) TimerEvent: {}
+[149.286594] (-) TimerEvent: {}
+[149.387442] (-) TimerEvent: {}
+[149.433810] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim_node\n'}
+[149.482374] (turtlesim) CommandEnded: {'returncode': 0}
+[149.488864] (-) TimerEvent: {}
+[149.589540] (-) TimerEvent: {}
+[149.690193] (-) TimerEvent: {}
+[149.791290] (-) TimerEvent: {}
+[149.892098] (-) TimerEvent: {}
+[149.993004] (-) TimerEvent: {}
+[150.093968] (-) TimerEvent: {}
+[150.194889] (-) TimerEvent: {}
+[150.295596] (-) TimerEvent: {}
+[150.396927] (-) TimerEvent: {}
+[150.497825] (-) TimerEvent: {}
+[150.592165] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[150.597958] (-) TimerEvent: {}
+[150.698632] (-) TimerEvent: {}
+[150.790326] (turtlesim) Command: {'cmd': ['/home/mihkel/.local/bin/cmake', '--install', '/home/mihkel/School/ThesisPractical/abc_wc/build/turtlesim'], 'cwd': '/home/mihkel/School/ThesisPractical/abc_wc/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mihkel'), ('LC_TIME', 'et_EE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mihkel'), ('OLDPWD', '/home/mihkel/School/ThesisPractical/abc_wc/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'et_EE.UTF-8'), ('SYSTEMD_EXEC_PID', '6191'), ('MAKEFLAGS', '-j 4 -l 8.0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mihkel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mihkel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mihkel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mihkel-XPS-15-9500:@/tmp/.ICE-unix/3570,unix/mihkel-XPS-15-9500:/tmp/.ICE-unix/3570'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'et_EE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8426776f_17be_4961_bc4c_daffc5998a7e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'et_EE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VF16G2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'et_EE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'et_EE.UTF-8'), ('LC_IDENTIFICATION', 'et_EE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mihkel/School/ThesisPractical/abc_wc/build/turtlesim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'et_EE.UTF-8'), ('LC_PAPER', 'et_EE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[150.798777] (-) TimerEvent: {}
+[150.899466] (-) TimerEvent: {}
+[150.938811] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[150.939868] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[150.940646] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim\n'}
+[150.941330] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[150.941881] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[150.942317] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c\n'}
+[150.942923] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[150.943514] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[150.944034] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[150.944535] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[150.945068] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h\n'}
+[150.945558] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h\n'}
+[150.946067] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h\n'}
+[150.946487] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[150.946975] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h\n'}
+[150.947500] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h\n'}
+[150.947995] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[150.948526] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c\n'}
+[150.949094] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h\n'}
+[150.949902] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h\n'}
+[150.950748] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c\n'}
+[150.951456] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[150.952118] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[150.952776] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[150.953545] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h\n'}
+[150.954133] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h\n'}
+[150.954771] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h\n'}
+[150.955459] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h\n'}
+[150.956178] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h\n'}
+[150.956817] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h\n'}
+[150.957448] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[150.958090] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[150.958828] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[150.959357] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[150.960033] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[150.960611] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[150.961088] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h\n'}
+[150.961658] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[150.962440] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/color.h\n'}
+[150.963084] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[150.963791] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[150.964370] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h\n'}
+[150.965122] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h\n'}
+[150.965687] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c\n'}
+[150.966156] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h\n'}
+[150.966724] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c\n'}
+[150.967501] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h\n'}
+[150.968081] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h\n'}
+[150.968705] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h\n'}
+[150.969313] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h\n'}
+[150.969923] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[150.970642] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[150.971300] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[150.971887] (turtlesim) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so" to ""\n'}
+[150.972598] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim\n'}
+[150.973222] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[150.973951] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[150.974586] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[150.975238] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[150.975901] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[150.976591] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[150.977228] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[150.977983] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[150.978644] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[150.979315] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[150.980075] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[150.980825] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[150.981441] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[150.981993] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[150.982547] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[150.983018] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[150.983852] (turtlesim) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[150.984424] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim\n'}
+[150.985057] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[150.985619] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[150.986253] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp\n'}
+[150.986957] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[150.987700] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[150.988277] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[150.989015] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[150.989532] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[150.989988] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp\n'}
+[150.990445] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[150.990904] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp\n'}
+[150.991401] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[150.991873] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[150.992335] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[150.992800] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[150.993266] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[150.993727] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[150.994189] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp\n'}
+[150.994677] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp\n'}
+[150.995194] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp\n'}
+[150.995863] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp\n'}
+[150.996379] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp\n'}
+[150.996881] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[150.997379] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp\n'}
+[150.998409] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[150.998931] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[150.999449] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[150.999906] (-) TimerEvent: {}
+[151.000457] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[151.001220] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[151.001808] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[151.002468] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp\n'}
+[151.003060] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp\n'}
+[151.003742] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp\n'}
+[151.004398] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp\n'}
+[151.005027] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp\n'}
+[151.005662] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp\n'}
+[151.006300] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp\n'}
+[151.006881] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp\n'}
+[151.007573] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim\n'}
+[151.008206] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[151.008859] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[151.009517] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[151.010102] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps\n'}
+[151.010741] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[151.011264] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[151.011897] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[151.012750] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[151.013664] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[151.014312] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[151.015029] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps\n'}
+[151.015814] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[151.016420] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[151.017004] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[151.017558] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[151.018023] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps\n'}
+[151.018483] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[151.018954] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[151.019453] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[151.019917] (turtlesim) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[151.020382] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim\n'}
+[151.020849] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[151.021312] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[151.021772] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[151.022226] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[151.022687] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c\n'}
+[151.023159] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[151.023638] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[151.024097] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c\n'}
+[151.024590] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[151.025079] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[151.025537] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[151.025995] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[151.026447] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[151.026906] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[151.027411] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[151.027881] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[151.028345] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[151.028816] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[151.029279] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[151.029746] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[151.030238] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c\n'}
+[151.030705] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c\n'}
+[151.031193] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[151.031678] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[151.032142] (turtlesim) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so" to ""\n'}
+[151.032611] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[151.033067] (turtlesim) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so" to ""\n'}
+[151.033529] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim\n'}
+[151.033988] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[151.034443] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[151.034937] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[151.035434] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[151.036540] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[151.037022] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[151.037495] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[151.037972] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[151.038450] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[151.038966] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[151.039561] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[151.040046] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[151.040559] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[151.041029] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[151.041502] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[151.041972] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[151.042432] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[151.042891] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[151.043391] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[151.043868] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[151.044334] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[151.044831] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp\n'}
+[151.045293] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[151.045784] (turtlesim) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[151.046253] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[151.046715] (turtlesim) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so" to ""\n'}
+[151.047207] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[151.047693] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[151.048165] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info\n'}
+[151.048629] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/top_level.txt\n'}
+[151.049099] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/PKG-INFO\n'}
+[151.049566] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/SOURCES.txt\n'}
+[151.050031] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/dependency_links.txt\n'}
+[151.050496] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim\n'}
+[151.050960] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv\n'}
+[151.051458] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py\n'}
+[151.051916] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen_s.c\n'}
+[151.052377] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn_s.c\n'}
+[151.052865] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py\n'}
+[151.053360] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[151.053834] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py\n'}
+[151.054302] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[151.054765] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py\n'}
+[151.055249] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill_s.c\n'}
+[151.055763] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[151.056230] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py\n'}
+[151.056693] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[151.057154] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[151.057615] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[151.058102] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c\n'}
+[151.058560] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[151.059020] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action\n'}
+[151.059507] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py\n'}
+[151.059964] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[151.060412] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py\n'}
+[151.060872] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/libturtlesim__rosidl_generator_py.so\n'}
+[151.061332] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[151.061791] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py\n'}
+[151.062246] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg\n'}
+[151.062707] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py\n'}
+[151.063182] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color_s.c\n'}
+[151.063651] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py\n'}
+[151.064115] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose_s.c\n'}
+[151.064571] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py\n'}
+[151.100109] (-) TimerEvent: {}
+[151.200946] (-) TimerEvent: {}
+[151.239156] (turtlesim) StdoutLine: {'line': b"Listing '/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim'...\n"}
+[151.240041] (turtlesim) StdoutLine: {'line': b"Compiling '/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py'...\n"}
+[151.240609] (turtlesim) StdoutLine: {'line': b"Listing '/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action'...\n"}
+[151.241101] (turtlesim) StdoutLine: {'line': b"Compiling '/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py'...\n"}
+[151.241579] (turtlesim) StdoutLine: {'line': b"Compiling '/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py'...\n"}
+[151.242056] (turtlesim) StdoutLine: {'line': b"Listing '/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg'...\n"}
+[151.242530] (turtlesim) StdoutLine: {'line': b"Compiling '/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py'...\n"}
+[151.243000] (turtlesim) StdoutLine: {'line': b"Compiling '/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py'...\n"}
+[151.243537] (turtlesim) StdoutLine: {'line': b"Compiling '/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py'...\n"}
+[151.244012] (turtlesim) StdoutLine: {'line': b"Listing '/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv'...\n"}
+[151.244480] (turtlesim) StdoutLine: {'line': b"Compiling '/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py'...\n"}
+[151.244951] (turtlesim) StdoutLine: {'line': b"Compiling '/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py'...\n"}
+[151.245424] (turtlesim) StdoutLine: {'line': b"Compiling '/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py'...\n"}
+[151.245892] (turtlesim) StdoutLine: {'line': b"Compiling '/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py'...\n"}
+[151.246417] (turtlesim) StdoutLine: {'line': b"Compiling '/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py'...\n"}
+[151.246894] (turtlesim) StdoutLine: {'line': b"Compiling '/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py'...\n"}
+[151.263058] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[151.264767] (turtlesim) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[151.265922] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[151.267492] (turtlesim) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[151.268627] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[151.270248] (turtlesim) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[151.270774] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so\n'}
+[151.272418] (turtlesim) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so" to ""\n'}
+[151.272995] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[151.273720] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[151.274288] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[151.275015] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[151.275697] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[151.276250] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[151.276856] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[151.277514] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[151.278043] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[151.278636] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[151.279246] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[151.279823] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[151.280418] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[151.281030] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[151.281581] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[151.282446] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[151.282889] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[151.283436] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[151.284031] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[151.284692] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[151.285254] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[151.285929] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[151.287542] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[151.288210] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[151.288675] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[151.289224] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[151.296157] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[151.301087] (-) TimerEvent: {}
+[151.331882] (turtlesim) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/turtlesim/turtlesim_node" to ""\n'}
+[151.336110] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[151.345960] (turtlesim) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/turtlesim/turtle_teleop_key" to ""\n'}
+[151.346692] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/turtlesim/draw_square\n'}
+[151.369303] (turtlesim) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/turtlesim/draw_square" to ""\n'}
+[151.370075] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/turtlesim/mimic\n'}
+[151.390114] (turtlesim) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/turtlesim/mimic" to ""\n'}
+[151.390882] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/images\n'}
+[151.391522] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/images/rolling.png\n'}
+[151.392032] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[151.392600] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/images/galactic.png\n'}
+[151.393109] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[151.393603] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[151.394074] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[151.394542] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[151.395045] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[151.395571] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/images/humble.png\n'}
+[151.396048] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/launch\n'}
+[151.396530] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[151.397400] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[151.398329] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[151.399045] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[151.399786] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[151.400481] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[151.401170] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[151.401579] (-) TimerEvent: {}
+[151.402343] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[151.402952] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[151.403497] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[151.404093] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[151.404632] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/package.dsv\n'}
+[151.405501] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[151.406495] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake\n'}
+[151.407282] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[151.408072] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[151.408847] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[151.409611] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake\n'}
+[151.410445] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[151.411222] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[151.412005] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[151.413829] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[151.414291] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[151.414861] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[151.415426] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[151.415960] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[151.416692] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[151.417438] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[151.418274] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake\n'}
+[151.418984] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake\n'}
+[151.419750] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[151.420449] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[151.421163] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[151.421867] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[151.422596] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[151.423359] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[151.424062] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[151.424728] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[151.425294] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[151.425965] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/package.xml\n'}
+[151.457027] (turtlesim) CommandEnded: {'returncode': 0}
+[151.501812] (-) TimerEvent: {}
+[151.603988] (-) TimerEvent: {}
+[151.706423] (-) TimerEvent: {}
+[151.809880] (-) TimerEvent: {}
+[151.912261] (-) TimerEvent: {}
+[152.014574] (-) TimerEvent: {}
+[152.115614] (-) TimerEvent: {}
+[152.216990] (-) TimerEvent: {}
+[152.317944] (-) TimerEvent: {}
+[152.418810] (-) TimerEvent: {}
+[152.520506] (-) TimerEvent: {}
+[152.621689] (-) TimerEvent: {}
+[152.722555] (-) TimerEvent: {}
+[152.823708] (-) TimerEvent: {}
+[152.924388] (-) TimerEvent: {}
+[153.025207] (-) TimerEvent: {}
+[153.126013] (-) TimerEvent: {}
+[153.226814] (-) TimerEvent: {}
+[153.327641] (-) TimerEvent: {}
+[153.428496] (-) TimerEvent: {}
+[153.529359] (-) TimerEvent: {}
+[153.630970] (-) TimerEvent: {}
+[153.732623] (-) TimerEvent: {}
+[153.802024] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[153.804852] (-) EventReactorShutdown: {}

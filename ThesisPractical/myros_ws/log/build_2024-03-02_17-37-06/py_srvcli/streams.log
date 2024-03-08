@@ -1,0 +1,77 @@
+[8.439s] Invoking command in '/home/mihkel/School/ThesisPractical/myros_ws/src/a_semantic_rules': PYTHONPATH=/home/mihkel/School/ThesisPractical/myros_ws/build/py_srvcli/prefix_override:/home/mihkel/School/ThesisPractical/myros_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/mihkel/School/ThesisPractical/myros_ws/build/py_srvcli/build install --record /home/mihkel/School/ThesisPractical/myros_ws/build/py_srvcli/install.log --single-version-externally-managed
+[9.635s] running egg_info
+[9.636s] creating ../../build/py_srvcli/py_srvcli.egg-info
+[9.729s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[9.730s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[9.731s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[9.732s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[9.733s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[9.733s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[10.015s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[10.015s] adding license file 'LICENSE'
+[10.018s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[10.018s] running build
+[10.019s] running build_py
+[10.020s] creating /home/mihkel/School/ThesisPractical/myros_ws/build/py_srvcli/build
+[10.021s] creating /home/mihkel/School/ThesisPractical/myros_ws/build/py_srvcli/build/lib
+[10.021s] creating /home/mihkel/School/ThesisPractical/myros_ws/build/py_srvcli/build/lib/semantic_rules
+[10.022s] copying semantic_rules/publisher_member_function.py -> /home/mihkel/School/ThesisPractical/myros_ws/build/py_srvcli/build/lib/semantic_rules
+[10.023s] copying semantic_rules/detection_costmap_rule.py -> /home/mihkel/School/ThesisPractical/myros_ws/build/py_srvcli/build/lib/semantic_rules
+[10.023s] copying semantic_rules/__init__.py -> /home/mihkel/School/ThesisPractical/myros_ws/build/py_srvcli/build/lib/semantic_rules
+[10.023s] creating /home/mihkel/School/ThesisPractical/myros_ws/build/py_srvcli/build/lib/py_srvcli
+[10.024s] copying py_srvcli/client_member_function.py -> /home/mihkel/School/ThesisPractical/myros_ws/build/py_srvcli/build/lib/py_srvcli
+[10.024s] copying py_srvcli/service_member_function.py -> /home/mihkel/School/ThesisPractical/myros_ws/build/py_srvcli/build/lib/py_srvcli
+[10.025s] copying py_srvcli/__init__.py -> /home/mihkel/School/ThesisPractical/myros_ws/build/py_srvcli/build/lib/py_srvcli
+[10.025s] creating /home/mihkel/School/ThesisPractical/myros_ws/build/py_srvcli/build/lib/py_pubsub
+[10.026s] copying py_pubsub/subscriber_member_function.py -> /home/mihkel/School/ThesisPractical/myros_ws/build/py_srvcli/build/lib/py_pubsub
+[10.026s] copying py_pubsub/publisher_member_function.py -> /home/mihkel/School/ThesisPractical/myros_ws/build/py_srvcli/build/lib/py_pubsub
+[10.027s] copying py_pubsub/__init__.py -> /home/mihkel/School/ThesisPractical/myros_ws/build/py_srvcli/build/lib/py_pubsub
+[10.029s] running install
+[10.030s] /home/mihkel/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[10.030s] !!
+[10.031s] 
+[10.031s]         ********************************************************************************
+[10.031s]         Please avoid running ``setup.py`` directly.
+[10.031s]         Instead, use pypa/build, pypa/installer or other
+[10.032s]         standards-based tools.
+[10.032s] 
+[10.032s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[10.033s]         ********************************************************************************
+[10.033s] 
+[10.033s] !!
+[10.033s]   self.initialize_options()
+[10.054s] running install_lib
+[10.155s] creating /home/mihkel/School/ThesisPractical/myros_ws/install/py_srvcli/lib/python3.10/site-packages/semantic_rules
+[10.155s] copying /home/mihkel/School/ThesisPractical/myros_ws/build/py_srvcli/build/lib/semantic_rules/publisher_member_function.py -> /home/mihkel/School/ThesisPractical/myros_ws/install/py_srvcli/lib/python3.10/site-packages/semantic_rules
+[10.155s] copying /home/mihkel/School/ThesisPractical/myros_ws/build/py_srvcli/build/lib/semantic_rules/detection_costmap_rule.py -> /home/mihkel/School/ThesisPractical/myros_ws/install/py_srvcli/lib/python3.10/site-packages/semantic_rules
+[10.158s] copying /home/mihkel/School/ThesisPractical/myros_ws/build/py_srvcli/build/lib/semantic_rules/__init__.py -> /home/mihkel/School/ThesisPractical/myros_ws/install/py_srvcli/lib/python3.10/site-packages/semantic_rules
+[10.159s] creating /home/mihkel/School/ThesisPractical/myros_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[10.159s] copying /home/mihkel/School/ThesisPractical/myros_ws/build/py_srvcli/build/lib/py_srvcli/client_member_function.py -> /home/mihkel/School/ThesisPractical/myros_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[10.160s] copying /home/mihkel/School/ThesisPractical/myros_ws/build/py_srvcli/build/lib/py_srvcli/service_member_function.py -> /home/mihkel/School/ThesisPractical/myros_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[10.161s] copying /home/mihkel/School/ThesisPractical/myros_ws/build/py_srvcli/build/lib/py_srvcli/__init__.py -> /home/mihkel/School/ThesisPractical/myros_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[10.161s] creating /home/mihkel/School/ThesisPractical/myros_ws/install/py_srvcli/lib/python3.10/site-packages/py_pubsub
+[10.162s] copying /home/mihkel/School/ThesisPractical/myros_ws/build/py_srvcli/build/lib/py_pubsub/subscriber_member_function.py -> /home/mihkel/School/ThesisPractical/myros_ws/install/py_srvcli/lib/python3.10/site-packages/py_pubsub
+[10.162s] copying /home/mihkel/School/ThesisPractical/myros_ws/build/py_srvcli/build/lib/py_pubsub/publisher_member_function.py -> /home/mihkel/School/ThesisPractical/myros_ws/install/py_srvcli/lib/python3.10/site-packages/py_pubsub
+[10.162s] copying /home/mihkel/School/ThesisPractical/myros_ws/build/py_srvcli/build/lib/py_pubsub/__init__.py -> /home/mihkel/School/ThesisPractical/myros_ws/install/py_srvcli/lib/python3.10/site-packages/py_pubsub
+[10.162s] byte-compiling /home/mihkel/School/ThesisPractical/myros_ws/install/py_srvcli/lib/python3.10/site-packages/semantic_rules/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[10.163s] byte-compiling /home/mihkel/School/ThesisPractical/myros_ws/install/py_srvcli/lib/python3.10/site-packages/semantic_rules/detection_costmap_rule.py to detection_costmap_rule.cpython-310.pyc
+[10.167s] byte-compiling /home/mihkel/School/ThesisPractical/myros_ws/install/py_srvcli/lib/python3.10/site-packages/semantic_rules/__init__.py to __init__.cpython-310.pyc
+[10.169s] byte-compiling /home/mihkel/School/ThesisPractical/myros_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/client_member_function.py to client_member_function.cpython-310.pyc
+[10.170s] byte-compiling /home/mihkel/School/ThesisPractical/myros_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/service_member_function.py to service_member_function.cpython-310.pyc
+[10.171s] byte-compiling /home/mihkel/School/ThesisPractical/myros_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/__init__.py to __init__.cpython-310.pyc
+[10.171s] byte-compiling /home/mihkel/School/ThesisPractical/myros_ws/install/py_srvcli/lib/python3.10/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[10.173s] byte-compiling /home/mihkel/School/ThesisPractical/myros_ws/install/py_srvcli/lib/python3.10/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[10.175s] byte-compiling /home/mihkel/School/ThesisPractical/myros_ws/install/py_srvcli/lib/python3.10/site-packages/py_pubsub/__init__.py to __init__.cpython-310.pyc
+[10.176s] running install_data
+[10.261s] creating /home/mihkel/School/ThesisPractical/myros_ws/install/py_srvcli/share/ament_index
+[10.262s] creating /home/mihkel/School/ThesisPractical/myros_ws/install/py_srvcli/share/ament_index/resource_index
+[10.262s] creating /home/mihkel/School/ThesisPractical/myros_ws/install/py_srvcli/share/ament_index/resource_index/packages
+[10.263s] copying resource/py_srvcli -> /home/mihkel/School/ThesisPractical/myros_ws/install/py_srvcli/share/ament_index/resource_index/packages
+[10.263s] copying package.xml -> /home/mihkel/School/ThesisPractical/myros_ws/install/py_srvcli/share/py_srvcli
+[10.264s] running install_egg_info
+[10.359s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/mihkel/School/ThesisPractical/myros_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[10.362s] running install_scripts
+[11.134s] Installing client script to /home/mihkel/School/ThesisPractical/myros_ws/install/py_srvcli/lib/py_srvcli
+[11.135s] Installing service script to /home/mihkel/School/ThesisPractical/myros_ws/install/py_srvcli/lib/py_srvcli
+[11.136s] writing list of installed files to '/home/mihkel/School/ThesisPractical/myros_ws/build/py_srvcli/install.log'
+[11.763s] Invoked command in '/home/mihkel/School/ThesisPractical/myros_ws/src/a_semantic_rules' returned '0': PYTHONPATH=/home/mihkel/School/ThesisPractical/myros_ws/build/py_srvcli/prefix_override:/home/mihkel/School/ThesisPractical/myros_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/mihkel/School/ThesisPractical/myros_ws/build/py_srvcli/build install --record /home/mihkel/School/ThesisPractical/myros_ws/build/py_srvcli/install.log --single-version-externally-managed

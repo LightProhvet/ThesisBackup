@@ -1,0 +1,31 @@
+[4.321s] Invoking command in '/home/mihkel/School/ThesisPractical/myros_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/myros_ws/src/a_semantic_interfaces -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/myros_ws/install/tutorial_interfaces
+[4.593s] -- The C compiler identification is GNU 11.4.0
+[4.786s] -- The CXX compiler identification is GNU 11.4.0
+[4.840s] -- Detecting C compiler ABI info
+[5.054s] -- Detecting C compiler ABI info - done
+[5.105s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.106s] -- Detecting C compile features
+[5.107s] -- Detecting C compile features - done
+[5.136s] -- Detecting CXX compiler ABI info
+[5.379s] -- Detecting CXX compiler ABI info - done
+[5.428s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.429s] -- Detecting CXX compile features
+[5.432s] -- Detecting CXX compile features - done
+[5.441s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[9.582s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[9.922s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[10.073s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[10.093s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[10.127s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[10.185s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.268s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.769s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[10.806s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[10.806s]   rosidl_generate_interfaces() the passed file 'msg/Num.msg' doesn't exist
+[10.807s]   relative to the CMAKE_CURRENT_SOURCE_DIR
+[10.807s]   '/home/mihkel/School/ThesisPractical/myros_ws/src/a_semantic_interfaces'
+[10.807s] Call Stack (most recent call first):
+[10.807s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[10.808s] 
+[10.808s] [0m
+[10.808s] -- Configuring incomplete, errors occurred!

@@ -1,0 +1,470 @@
+[0.862s] Invoking command in '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap
+[1.007s] -- MOBILE_BUILD=OFF
+[1.008s] [33mCMake Warning (dev) at CMakeLists.txt:88 (EXEC_PROGRAM):
+[1.008s]   Policy CMP0153 is not set: The exec_program command should not be called.
+[1.008s]   Run "cmake --help-policy CMP0153" for policy details.  Use the cmake_policy
+[1.009s]   command to set the policy and suppress this warning.
+[1.009s] 
+[1.009s]   Use execute_process() instead.
+[1.009s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.010s] [0m
+[1.091s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:146 (find_package):
+[1.091s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[1.091s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[1.092s]   cmake_policy command to set the policy and suppress this warning.
+[1.092s] 
+[1.092s]   CMake variable EIGEN_ROOT is set to:
+[1.092s] 
+[1.093s]     /usr/include/eigen3
+[1.093s] 
+[1.093s]   For compatibility, find_package is ignoring the variable, but code in a
+[1.093s]   .cmake module might still use it.
+[1.093s] Call Stack (most recent call first):
+[1.094s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:299 (find_eigen)
+[1.094s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[1.094s]   CMakeLists.txt:235 (FIND_PACKAGE)
+[1.094s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.095s] [0m
+[1.109s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.211s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.231s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.234s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:44 (find_package):
+[3.234s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[3.234s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[3.235s]   cmake_policy command to set the policy and suppress this warning.
+[3.235s] 
+[3.235s]   CMake variable FLANN_ROOT is set to:
+[3.235s] 
+[3.236s]     /usr
+[3.236s] 
+[3.236s]   For compatibility, find_package is ignoring the variable, but code in a
+[3.236s]   .cmake module might still use it.
+[3.237s] Call Stack (most recent call first):
+[3.237s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:256 (find_package)
+[3.237s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:301 (find_flann)
+[3.237s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[3.237s]   CMakeLists.txt:235 (FIND_PACKAGE)
+[3.238s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.238s] [0m
+[3.312s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[3.320s] -- Found Qhull version 8.0.2
+[6.541s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[7.644s] -- PCL definitions don't contain "-march=native", make sure all libraries using Eigen are also compiled without that flag to avoid some segmentation faults (with gdb referring to some Eigen functions).
+[7.673s] -- Found Sqlite3: /usr/include /usr/lib/x86_64-linux-gnu/libsqlite3.so
+[7.687s] -- Found OpenMP: /usr/lib/gcc/x86_64-linux-gnu/11/libgomp.so;/usr/lib/x86_64-linux-gnu/libpthread.a
+[7.688s] -- Add PCL_OMP to definitions
+[7.688s] -- Found OpenCV: /usr/include/opencv4
+[7.688s] -- Found PCL: /usr/include/pcl-1.12;/usr/include/eigen3;/usr/include;/usr/include/ni
+[7.688s] -- Found ZLIB: /usr/include
+[7.762s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[9.068s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[9.840s] -- VTK>=9 detected, will use VTK_QT_VERSION=5 for Qt version.
+[9.855s] -- VTK_RENDERING_BACKEND=
+[9.892s] -- Found Freenect: /usr/include
+[9.998s] -- Found OpenNI2: /usr/include/openni2
+[10.006s] -- Found DC1394: /usr/include/dc1394
+[10.018s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[10.027s] -- Found g2o (targets)
+[10.027s] -- g2o include dir: /opt/ros/humble/include
+[10.028s] -- Latest g2o factory version detected with shared ptr (factory file: /opt/ros/humble/include/g2o/core/factory.h).
+[10.104s] -- GTSAM include directory:  /opt/ros/humble/lib/cmake/GTSAM/../../../include
+[10.141s] -- FlyCapture2_INCLUDE_DIR=FlyCapture2_INCLUDE_DIR-NOTFOUND
+[10.142s] -- FlyCapture2_LIBRARY=FlyCapture2_LIBRARY-NOTFOUND
+[10.143s] -- Triclops_INCLUDE_DIR=Triclops_INCLUDE_DIR-NOTFOUND
+[10.143s] -- Triclops_LIBRARY=Triclops_LIBRARY-NOTFOUND
+[10.144s] -- FlyCaptureBridge_LIBRARY=FlyCaptureBridge_LIBRARY-NOTFOUND
+[10.170s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time 
+[10.198s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time chrono 
+[10.208s] -- Found libpointmatcher: /opt/ros/humble/include;/usr/include/eigen3
+[10.229s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time 
+[10.259s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time chrono timer serialization 
+[10.338s] -- Found RealSense2: 
+[10.378s] -- Found octomap 1.9.8: /opt/ros/humble/include
+[10.615s] -- Found grid_map_core 2.0.0: /opt/ros/humble/include;/usr/include/eigen3
+[10.624s] -- Architecture: x86_64
+[10.675s] -- Found Pthreads
+[10.963s] -- --------------------------------------------
+[10.963s] -- Info :
+[10.964s] --   RTAB-Map Version =     0.21.3
+[10.964s] --   CMAKE_VERSION =        3.28.1
+[10.965s] --   CMAKE_INSTALL_PREFIX = /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap
+[10.965s] --   CMAKE_BUILD_TYPE =     Release
+[10.965s] --   CMAKE_INSTALL_LIBDIR = lib
+[10.965s] --   BUILD_APP =            ON
+[10.966s] --   BUILD_TOOLS =          ON
+[10.966s] --   BUILD_EXAMPLES =       ON
+[10.966s] --   BUILD_SHARED_LIBS =    ON
+[10.966s] --   CMAKE_CXX_FLAGS =  -fmessage-length=0 -fopenmp -std=c++17
+[10.967s] --   FLANN_KDTREE_MEM_OPT = OFF
+[10.967s] --   PCL_DEFINITIONS = -DDISABLE_OPENNI2;-DDISABLE_PCAP;-DDISABLE_PNG
+[10.967s] --   PCL_VERSION = 1.12.1
+[10.967s] -- 
+[10.968s] -- Optional dependencies ('*' affects some default parameters) :
+[10.968s] --  *With OpenCV 4.5.4 xfeatures2d = NO, nonfree = NO (License: Apache 2)
+[10.968s] --   With Qt 5.15.3            = YES (License: Open Source or Commercial)
+[10.968s] --   With VTK 9.1              = YES (License: BSD)
+[10.968s] --   With external SQLite3     = YES (License: Public Domain)
+[10.969s] --   With ORB OcTree           = YES (License: GPLv3)
+[10.969s] --   With SupertPoint          = NO (WITH_TORCH=OFF)
+[10.969s] --   With Python3              = NO (WITH_PYTHON=OFF)
+[10.969s] --   With Madgwick             = YES (License: GPL)
+[10.970s] --   With FastCV               = NO (FastCV not found)
+[10.970s] --   With PDAL                 = NO (PDAL not found)
+[10.970s] -- 
+[10.970s] --  Solvers:
+[10.971s] --   With TORO                 = YES (License: Creative Commons [Attribution-NonCommercial-ShareAlike])
+[10.971s] --  *With g2o 1.0.0            = YES (License: BSD)
+[10.971s] --  *With GTSAM 4.2.0          = YES (License: BSD)
+[10.971s] --  *With Ceres                = NO (WITH_CERES=OFF)
+[10.971s] --   With MRPT                 = NO (MRPT not found)
+[10.972s] --   With VERTIGO              = YES (License: GPLv3)
+[10.972s] --   With cvsba                = NO (WITH_CVSBA=OFF)
+[10.972s] --  *With libpointmatcher 1.3.1 = YES (License: BSD)
+[10.972s] --   With CCCoreLib            = NO (WITH_CCCORELIB=OFF)
+[10.973s] --   With Open3D               = NO (WITH_OPEN3D=OFF)
+[10.973s] --   With OpenGV               = NO (OpenGV not found)
+[10.973s] -- 
+[10.973s] --  Reconstruction Approaches:
+[10.974s] --   With OctoMap 1.9.8        = YES (License: BSD)
+[10.974s] --   With GridMap 2.0.0        = YES (License: BSD)
+[10.974s] --   With CPUTSDF              = NO (WITH_CPUTSDF=OFF)
+[10.974s] --   With OpenChisel           = NO (WITH_OPENCHISEL=OFF)
+[10.974s] --   With AliceVision          = NO (WITH_ALICE_VISION=OFF)
+[10.975s] -- 
+[10.975s] --  Camera Drivers:
+[10.975s] --   With Freenect             = YES (License: Apache v2 and/or GPLv2)
+[10.975s] --   With OpenNI2              = YES (License: Apache v2)
+[10.976s] --   With Freenect2            = NO (libfreenect2 not found)
+[10.976s] --   With Kinect for Windows 2 = NO (Kinect for Windows 2 SDK not found)
+[10.976s] --   With Kinect for Azure     = NO (Kinect for Azure SDK not found)
+[10.976s] --   With dc1394               = YES (License: LGPL)
+[10.977s] --   With FlyCapture2/Triclops = NO (Point Grey SDK not found)
+[10.977s] --   With ZED                  = NO (ZED sdk and/or cuda not found)
+[10.977s] --   With ZEDOC                = NO (ZED Open Capture not found)
+[10.978s] --   With RealSense            = NO (librealsense not found)
+[10.978s] --   With RealSense2 2.54.1    = YES (License: Apache-2)
+[10.978s] --   With MyntEyeS             = NO (mynteye s sdk not found)
+[10.978s] --   With DepthAI              = NO (WITH_DEPTHAI=OFF)
+[10.979s] -- 
+[10.979s] --  Odometry Approaches:
+[10.979s] --   With loam_velodyne        = NO (WITH_LOAM=OFF)
+[10.979s] --   With floam                = NO (WITH_FLOAM=OFF)
+[10.980s] --   With libfovis             = NO (WITH_FOVIS=OFF)
+[10.980s] --   With libviso2             = NO (WITH_VISO2=OFF)
+[10.980s] --   With dvo_core             = NO (WITH_DVO=OFF)
+[10.980s] --   With okvis                = NO (WITH_OKVIS=OFF)
+[10.981s] --   With msckf_vio            = NO (WITH_MSCKF_VIO=OFF)
+[10.981s] --   With VINS-Fusion          = NO (WITH_VINS=OFF)
+[10.981s] --   With OpenVINS             = NO (WITH_OPENVINS=OFF)
+[10.981s] --   With ORB_SLAM             = NO (WITH_ORB_SLAM=OFF)
+[10.982s] -- Show all options with: cmake -LA | grep WITH_
+[10.982s] -- --------------------------------------------
+[10.982s] -- Configuring done (10.0s)
+[12.642s] -- Generating done (1.4s)
+[12.682s] -- Build files have been written to: /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap
+[12.787s] Invoked command in '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap
+[12.797s] Invoking command in '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap -- -j12 -l12
+[13.024s] [  5%] Built target rtabmap_utilite
+[13.060s] [  6%] Built target res_tool
+[14.989s] [ 57%] Built target rtabmap_core
+[15.048s] [ 57%] Built target rtabmap_gui_autogen_timestamp_deps
+[15.068s] [ 58%] Built target recovery
+[15.085s] [ 59%] Built target imagesJoiner
+[15.088s] [ 60%] Built target camera
+[15.097s] [ 60%] Built target stereoEval
+[15.105s] [ 61%] Built target consoleApp
+[15.119s] [ 62%] Built target kitti_dataset
+[15.126s] [ 63%] Built target euroc_dataset
+[15.141s] [ 64%] Built target rgbd_dataset
+[15.149s] [ 65%] Built target extractObject
+[15.149s] [ 66%] Built target detectMoreLoopClosures
+[15.151s] [ 67%] Built target reprocess
+[15.174s] [ 68%] Built target info
+[15.182s] [ 68%] Built target export
+[15.191s] [ 69%] Built target cleanupLocalGrids
+[15.196s] [ 70%] Built target globalBundleAdjustment
+[15.227s] [ 71%] Built target rtabmap_gui_autogen
+[15.979s] [ 87%] Built target rtabmap_gui
+[16.038s] [ 87%] Built target wifi_mapping_autogen_timestamp_deps
+[16.049s] [ 87%] Built target rgbd_mapping_autogen_timestamp_deps
+[16.094s] [ 87%] Built target bow_mapping
+[16.100s] [ 88%] Built target databaseViewer
+[16.108s] [ 88%] Built target noEventsExample_autogen_timestamp_deps
+[16.109s] [ 89%] Built target epipolar_geometry
+[16.111s] [ 90%] Built target report
+[16.119s] [ 91%] Built target calibration
+[16.126s] [ 92%] Built target rtabmap_app
+[16.132s] [ 92%] Built target rgbd_mapping_autogen
+[16.133s] [ 93%] Built target odometryViewer
+[16.136s] [ 93%] Built target rgbd_camera
+[16.136s] [ 93%] Built target dataRecorder
+[16.143s] [ 93%] Built target matcher
+[16.162s] [ 93%] Built target noEventsExample_autogen
+[16.174s] [ 94%] Built target wifi_mapping_autogen
+[16.290s] [ 96%] Built target rgbd_mapping
+[16.297s] [ 98%] Built target noEventsExample
+[16.318s] [100%] Built target wifi_mapping
+[16.350s] Invoked command in '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap -- -j12 -l12
+[16.707s] Invoking command in '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --install /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap
+[16.813s] -- Install configuration: "Release"
+[16.822s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/rtabmap-0.21/RTABMapTargets.cmake
+[16.822s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/rtabmap-0.21/RTABMapConfig.cmake
+[16.822s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/rtabmap-0.21/RTABMapConfigVersion.cmake
+[16.823s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/share/rtabmap/package.xml
+[16.824s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/librtabmap_utilite.so.0.21.3
+[16.825s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/librtabmap_utilite.so.0.21
+[16.825s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/librtabmap_utilite.so
+[16.826s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap
+[16.826s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite
+[16.827s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UEventsHandler.h
+[16.827s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UStl.h
+[16.828s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/Win32
+[16.829s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/Win32/UWin32.h
+[16.829s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/Win32/UThreadC.h
+[16.830s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UObjDeletionThread.h
+[16.830s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UException.h
+[16.831s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UMutex.h
+[16.831s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UConversion.h
+[16.832s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/ULogger.h
+[16.832s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UMath.h
+[16.833s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UThread.h
+[16.833s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UEventsManager.h
+[16.833s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UEventsSender.h
+[16.834s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UDirectory.h
+[16.834s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/Posix
+[16.834s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/Posix/UThreadC.h
+[16.834s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/USemaphore.h
+[16.835s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UThreadNode.h
+[16.835s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UVariant.h
+[16.835s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UFile.h
+[16.836s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UTimer.h
+[16.836s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UDestroyer.h
+[16.836s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UEvent.h
+[16.836s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UProcessInfo.h
+[16.836s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UThreadC.h
+[16.837s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UtiLite.h
+[16.837s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap
+[16.837s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite
+[16.838s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/utilite_export.h
+[16.838s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/rtabmap-0.21/RTABMap_utiliteTargets.cmake
+[16.838s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/rtabmap-0.21/RTABMap_utiliteTargets-release.cmake
+[16.838s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-res_tool-0.3.0
+[16.839s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-res_tool
+[16.839s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/librtabmap_core.so.0.21.3
+[16.840s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/librtabmap_core.so.0.21
+[16.840s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/librtabmap_core.so
+[16.840s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap
+[16.841s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core
+[16.841s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Features2d.h
+[16.842s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Parameters.h
+[16.842s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera
+[16.843s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraFreenect.h
+[16.843s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoDC1394.h
+[16.844s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoVideo.h
+[16.844s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraK4A.h
+[16.845s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoFlyCapture2.h
+[16.845s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraK4W2.h
+[16.846s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoZed.h
+[16.846s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraMyntEye.h
+[16.846s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraRealSense2.h
+[16.848s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraFreenect2.h
+[16.848s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraOpenni.h
+[16.849s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoZedOC.h
+[16.849s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraVideo.h
+[16.850s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoImages.h
+[16.850s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraRGBDImages.h
+[16.851s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraOpenNICV.h
+[16.852s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraOpenNI2.h
+[16.852s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraDepthAI.h
+[16.853s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoTara.h
+[16.854s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraRealSense.h
+[16.854s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraImages.h
+[16.855s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/DBDriver.h
+[16.855s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Optimizer.h
+[16.855s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/optimizer
+[16.856s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/optimizer/OptimizerCVSBA.h
+[16.856s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/optimizer/OptimizerCeres.h
+[16.857s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/optimizer/OptimizerTORO.h
+[16.857s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/optimizer/OptimizerGTSAM.h
+[16.857s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/optimizer/OptimizerG2O.h
+[16.858s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/GlobalDescriptor.h
+[16.858s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/VisualWord.h
+[16.858s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/clams
+[16.859s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/clams/frame_projector.h
+[16.860s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/clams/discrete_depth_distortion_model.h
+[16.860s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/clams/slam_calibrator.h
+[16.860s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/IMUThread.h
+[16.861s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_correspondences.h
+[16.862s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/OdometryInfo.h
+[16.862s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/OdometryThread.h
+[16.863s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraEvent.h
+[16.863s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_filtering.h
+[16.864s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/GPS.h
+[16.864s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/LocalGridMaker.h
+[16.865s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/StereoCameraModel.h
+[16.865s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_transforms.h
+[16.865s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Compression.h
+[16.865s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraModel.h
+[16.866s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_features.h
+[16.866s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/IMUFilter.h
+[16.866s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/GlobalMap.h
+[16.867s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Statistics.h
+[16.867s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Recovery.h
+[16.867s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Rtabmap.h
+[16.868s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/RegistrationVis.h
+[16.868s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/DBDriverSqlite3.h
+[16.868s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_mapping.h
+[16.869s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraThread.h
+[16.869s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/stereo
+[16.870s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/stereo/stereoRectifyFisheye.h
+[16.870s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/stereo/StereoSGBM.h
+[16.870s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/stereo/StereoBM.h
+[16.870s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Signature.h
+[16.871s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/OctoMap.h
+[16.871s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/EpipolarGeometry.h
+[16.871s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraStereo.h
+[16.872s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Odometry.h
+[16.872s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/FlannIndex.h
+[16.872s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/PythonInterface.h
+[16.873s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/BayesFilter.h
+[16.873s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Link.h
+[16.873s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/PDALWriter.h
+[16.873s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/OdometryEvent.h
+[16.874s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/RegistrationIcp.h
+[16.874s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/IMU.h
+[16.874s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/ParticleFilter.h
+[16.874s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraRGBD.h
+[16.875s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/StereoDense.h
+[16.875s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/OccupancyGrid.h
+[16.875s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/GainCompensator.h
+[16.876s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry
+[16.876s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryF2M.h
+[16.877s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryViso2.h
+[16.877s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryOpenVINS.h
+[16.877s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryMono.h
+[16.877s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryFovis.h
+[16.878s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryLOAM.h
+[16.878s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryDVO.h
+[16.878s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryORBSLAM2.h
+[16.879s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryFLOAM.h
+[16.879s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryOpen3D.h
+[16.879s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryOkvis.h
+[16.879s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryF2F.h
+[16.880s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryVINS.h
+[16.881s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryMSCKF.h
+[16.881s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryORBSLAM3.h
+[16.881s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/ParamEvent.h
+[16.881s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/GeodeticCoords.h
+[16.882s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_surface.h
+[16.882s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/global_map
+[16.882s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/global_map/CloudMap.h
+[16.883s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/global_map/OctoMap.h
+[16.883s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/global_map/OccupancyGrid.h
+[16.883s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/global_map/GridMap.h
+[16.884s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Landmark.h
+[16.884s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/ProgressState.h
+[16.885s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/DBReader.h
+[16.885s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util2d.h
+[16.885s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/RegistrationInfo.h
+[16.885s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Graph.h
+[16.886s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Transform.h
+[16.886s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/EnvSensor.h
+[16.887s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/SensorData.h
+[16.887s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/impl
+[16.887s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/impl/util3d_mapping.hpp
+[16.888s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/impl/util3d_surface.hpp
+[16.888s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/impl/LocalMapMaker.hpp
+[16.888s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/impl/util3d.hpp
+[16.889s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraInfo.h
+[16.889s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/LocalGrid.h
+[16.889s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Camera.h
+[16.889s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Registration.h
+[16.890s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d.h
+[16.890s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/VWDictionary.h
+[16.890s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Stereo.h
+[16.891s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraRGB.h
+[16.891s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/UserDataEvent.h
+[16.891s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_motion_estimation.h
+[16.892s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/RtabmapThread.h
+[16.892s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/LaserScan.h
+[16.892s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/MarkerDetector.h
+[16.893s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_registration.h
+[16.893s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Memory.h
+[16.893s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Image.h
+[16.893s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/RtabmapEvent.h
+[16.894s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap
+[16.894s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core
+[16.895s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/rtabmap_core_export.h
+[16.895s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Version.h
+[16.895s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/rtabmap-0.21/RTABMap_coreTargets.cmake
+[16.895s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/rtabmap-0.21/RTABMap_coreTargets-release.cmake
+[16.896s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/librtabmap_gui.so.0.21.3
+[16.896s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/librtabmap_gui.so.0.21
+[16.897s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/librtabmap_gui.so
+[16.897s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap
+[16.897s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite
+[16.897s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UPlot.h
+[16.898s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UCv2Qt.h
+[16.898s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UImageView.h
+[16.899s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui
+[16.899s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/DatabaseViewer.h
+[16.899s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ExportBundlerDialog.h
+[16.900s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/PdfPlot.h
+[16.900s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/MultiSessionLocWidget.h
+[16.900s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/CameraViewer.h
+[16.901s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ImageView.h
+[16.901s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ConsoleWidget.h
+[16.901s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/StatsToolBox.h
+[16.902s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/EditDepthArea.h
+[16.902s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/RecoveryState.h
+[16.903s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/CreateSimpleCalibrationDialog.h
+[16.903s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/CloudViewer.h
+[16.903s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/LoopClosureViewer.h
+[16.903s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/EditMapArea.h
+[16.904s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/EditConstraintDialog.h
+[16.904s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/AboutDialog.h
+[16.904s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ExportCloudsDialog.h
+[16.905s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/CloudViewerCellPicker.h
+[16.905s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/OdometryViewer.h
+[16.905s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/DataRecorder.h
+[16.905s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ExportDialog.h
+[16.906s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/DepthCalibrationDialog.h
+[16.906s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/CalibrationDialog.h
+[16.906s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/MapVisibilityWidget.h
+[16.907s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/PreferencesDialog.h
+[16.907s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/MultiSessionLocSubView.h
+[16.907s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/MainWindow.h
+[16.907s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/LinkRefiningDialog.h
+[16.908s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/CloudViewerInteractorStyle.h
+[16.908s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/TexturingState.h
+[16.909s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/GraphViewer.h
+[16.909s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ParametersToolBox.h
+[16.909s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ProgressDialog.h
+[16.909s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/KeypointItem.h
+[16.910s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/PostProcessingDialog.h
+[16.910s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap
+[16.910s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui
+[16.910s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/rtabmap_gui_export.h
+[16.911s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/rtabmap-0.21/RTABMap_guiTargets.cmake
+[16.911s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/rtabmap-0.21/RTABMap_guiTargets-release.cmake
+[16.911s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap
+[16.912s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-console
+[16.912s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-extractObject
+[16.912s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-camera
+[16.912s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-kitti_dataset
+[16.913s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-rgbd_dataset
+[16.913s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-euroc_dataset
+[16.913s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-recovery
+[16.913s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-reprocess
+[16.914s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-detectMoreLoopClosures
+[16.914s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-export
+[16.914s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-report
+[16.914s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-info
+[16.915s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-cleanupLocalGrids
+[16.915s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-globalBundleAdjustment
+[16.916s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-rgbd_camera
+[16.916s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-databaseViewer
+[16.916s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-odometryViewer
+[16.917s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-dataRecorder
+[16.917s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-calibration
+[16.926s] Invoked command in '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --install /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap

@@ -1,0 +1,4 @@
+Invoking command in '/home/mihkel/School/ros-packages/nav2_ws/build/behaviortree_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ros-packages/nav2_ws/build/behaviortree_cpp -- -j12 -l12
+Invoked command in '/home/mihkel/School/ros-packages/nav2_ws/build/behaviortree_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ros-packages/nav2_ws/build/behaviortree_cpp -- -j12 -l12
+Invoking command in '/home/mihkel/School/ros-packages/nav2_ws/build/behaviortree_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --install /home/mihkel/School/ros-packages/nav2_ws/build/behaviortree_cpp
+Invoked command in '/home/mihkel/School/ros-packages/nav2_ws/build/behaviortree_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --install /home/mihkel/School/ros-packages/nav2_ws/build/behaviortree_cpp

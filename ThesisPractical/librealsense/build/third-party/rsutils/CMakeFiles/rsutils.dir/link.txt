@@ -1,0 +1,2 @@
+/usr/bin/ar qc librsutils.a CMakeFiles/rsutils.dir/__/easyloggingpp/src/easylogging++.cc.o CMakeFiles/rsutils.dir/src/configure-elpp-logger.cpp.o CMakeFiles/rsutils.dir/src/dispatcher.cpp.o CMakeFiles/rsutils.dir/src/string-from-datetime.cpp.o CMakeFiles/rsutils.dir/src/version.cpp.o CMakeFiles/rsutils.dir/src/work-week.cpp.o
+/usr/bin/ranlib librsutils.a

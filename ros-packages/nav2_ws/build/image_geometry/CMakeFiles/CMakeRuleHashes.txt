@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+ce21efe6604411b4368ea3f3ce94118f CMakeFiles/ament_cmake_python_build_image_geometry_egg
+9584ead39cbf3dd59d8b637323b0ba6f CMakeFiles/ament_cmake_python_symlink_image_geometry
+7cd94689158e0c08d967958a75541a9f CMakeFiles/image_geometry_uninstall

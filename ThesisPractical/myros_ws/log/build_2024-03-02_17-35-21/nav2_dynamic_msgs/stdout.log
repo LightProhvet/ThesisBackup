@@ -1,0 +1,182 @@
+[  2%] Built target nav2_dynamic_msgs__cpp
+[  2%] Built target ament_cmake_python_copy_nav2_dynamic_msgs
+[ 12%] Built target nav2_dynamic_msgs__rosidl_generator_c
+[ 23%] Built target nav2_dynamic_msgs__rosidl_typesupport_cpp
+[ 33%] Built target nav2_dynamic_msgs__rosidl_typesupport_c
+[ 43%] Built target nav2_dynamic_msgs__rosidl_typesupport_introspection_c
+[ 53%] Built target nav2_dynamic_msgs__rosidl_typesupport_fastrtps_cpp
+[ 64%] Built target nav2_dynamic_msgs__rosidl_typesupport_fastrtps_c
+[ 74%] Built target nav2_dynamic_msgs__rosidl_typesupport_introspection_cpp
+[ 74%] Built target nav2_dynamic_msgs
+[ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+running egg_info
+writing nav2_dynamic_msgs.egg-info/PKG-INFO
+writing dependency_links to nav2_dynamic_msgs.egg-info/dependency_links.txt
+writing top-level names to nav2_dynamic_msgs.egg-info/top_level.txt
+reading manifest file 'nav2_dynamic_msgs.egg-info/SOURCES.txt'
+writing manifest file 'nav2_dynamic_msgs.egg-info/SOURCES.txt'
+[ 76%] Built target ament_cmake_python_build_nav2_dynamic_msgs_egg
+[ 76%] Built target nav2_dynamic_msgs__py
+[ 79%] [32mBuilding C object CMakeFiles/nav2_dynamic_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_dynamic_msgs/msg/_obstacle_s.c.o[0m
+[ 82%] [32mBuilding C object CMakeFiles/nav2_dynamic_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_dynamic_msgs/msg/_obstacle_array_s.c.o[0m
+[ 84%] [32m[1mLinking C shared library rosidl_generator_py/nav2_dynamic_msgs/libnav2_dynamic_msgs__rosidl_generator_py.so[0m
+[ 84%] Built target nav2_dynamic_msgs__rosidl_generator_py
+[ 87%] [32mBuilding C object CMakeFiles/nav2_dynamic_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/nav2_dynamic_msgs/_nav2_dynamic_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/nav2_dynamic_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/nav2_dynamic_msgs/_nav2_dynamic_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/nav2_dynamic_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/nav2_dynamic_msgs/_nav2_dynamic_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 94%] [32m[1mLinking C shared library rosidl_generator_py/nav2_dynamic_msgs/nav2_dynamic_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/nav2_dynamic_msgs/nav2_dynamic_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/nav2_dynamic_msgs/nav2_dynamic_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] Built target nav2_dynamic_msgs__rosidl_typesupport_c__pyext
+[100%] Built target nav2_dynamic_msgs__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target nav2_dynamic_msgs__rosidl_typesupport_introspection_c__pyext
+-- Install configuration: ""
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/ament_index/resource_index/rosidl_interfaces/nav2_dynamic_msgs
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/obstacle_array.h
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/obstacle.h
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle__functions.c
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle_array__functions.c
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle_array__struct.h
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle_array__type_support.h
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle__type_support.h
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle__functions.h
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle_array__functions.h
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle__struct.h
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/environment/library_path.sh
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/environment/library_path.dsv
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/lib/libnav2_dynamic_msgs__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/lib/libnav2_dynamic_msgs__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs
+-- Up-to-date: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg
+-- Up-to-date: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle_array__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/lib/libnav2_dynamic_msgs__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/lib/libnav2_dynamic_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs
+-- Up-to-date: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/obstacle_array.hpp
+-- Up-to-date: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle_array__traits.hpp
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle__struct.hpp
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle__builder.hpp
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle_array__struct.hpp
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle_array__builder.hpp
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle__traits.hpp
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/obstacle.hpp
+-- Up-to-date: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs
+-- Up-to-date: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg
+-- Up-to-date: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/dds_fastrtps
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle_array__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/lib/libnav2_dynamic_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/lib/libnav2_dynamic_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs
+-- Up-to-date: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg
+-- Up-to-date: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle__type_support.c
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle__rosidl_typesupport_introspection_c.h
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle_array__type_support.c
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle_array__rosidl_typesupport_introspection_c.h
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/lib/libnav2_dynamic_msgs__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/lib/libnav2_dynamic_msgs__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/lib/libnav2_dynamic_msgs__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/lib/libnav2_dynamic_msgs__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs
+-- Up-to-date: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg
+-- Up-to-date: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle__type_support.cpp
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle_array__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle_array__type_support.cpp
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/lib/libnav2_dynamic_msgs__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/lib/libnav2_dynamic_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/lib/libnav2_dynamic_msgs__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/lib/libnav2_dynamic_msgs__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/environment/pythonpath.sh
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/environment/pythonpath.dsv
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs-0.0.1-py3.10.egg-info
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs-0.0.1-py3.10.egg-info/top_level.txt
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs-0.0.1-py3.10.egg-info/PKG-INFO
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs-0.0.1-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs-0.0.1-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/libnav2_dynamic_msgs__rosidl_generator_py.so
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/_nav2_dynamic_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/nav2_dynamic_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/_nav2_dynamic_msgs_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/_nav2_dynamic_msgs_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/nav2_dynamic_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/__init__.py
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/nav2_dynamic_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/msg
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/msg/_obstacle_s.c
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/msg/_obstacle.py
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/msg/__init__.py
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/msg/_obstacle_array.py
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/msg/_obstacle_array_s.c
+Listing '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs'...
+Compiling '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/__init__.py'...
+Listing '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/msg'...
+Compiling '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/msg/__init__.py'...
+Compiling '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/msg/_obstacle.py'...
+Compiling '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/msg/_obstacle_array.py'...
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/nav2_dynamic_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/nav2_dynamic_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/nav2_dynamic_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/nav2_dynamic_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/nav2_dynamic_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/nav2_dynamic_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/lib/libnav2_dynamic_msgs__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/lib/libnav2_dynamic_msgs__rosidl_generator_py.so" to ""
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/msg/Obstacle.idl
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/msg/ObstacleArray.idl
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/msg/Obstacle.msg
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/msg/ObstacleArray.msg
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/ament_index/resource_index/package_run_dependencies/nav2_dynamic_msgs
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/ament_index/resource_index/parent_prefix_path/nav2_dynamic_msgs
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/environment/ament_prefix_path.sh
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/environment/ament_prefix_path.dsv
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/environment/path.sh
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/environment/path.dsv
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/local_setup.bash
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/local_setup.sh
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/local_setup.zsh
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/local_setup.dsv
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/package.dsv
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/ament_index/resource_index/packages/nav2_dynamic_msgs
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/export_nav2_dynamic_msgs__rosidl_generator_cExport.cmake
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/export_nav2_dynamic_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/export_nav2_dynamic_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/export_nav2_dynamic_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/export_nav2_dynamic_msgs__rosidl_generator_cppExport.cmake
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/export_nav2_dynamic_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/export_nav2_dynamic_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/nav2_dynamic_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/nav2_dynamic_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/nav2_dynamic_msgs__rosidl_typesupport_cExport.cmake
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/nav2_dynamic_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/nav2_dynamic_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/nav2_dynamic_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/nav2_dynamic_msgs__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/nav2_dynamic_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/export_nav2_dynamic_msgs__rosidl_generator_pyExport.cmake
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/export_nav2_dynamic_msgs__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/nav2_dynamic_msgsConfig.cmake
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/nav2_dynamic_msgsConfig-version.cmake
+-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/package.xml

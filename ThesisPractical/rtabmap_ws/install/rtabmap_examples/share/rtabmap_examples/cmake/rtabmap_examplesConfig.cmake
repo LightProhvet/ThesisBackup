@@ -1,0 +1,1 @@
+/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap_examples/ament_cmake_core/rtabmap_examplesConfig.cmake

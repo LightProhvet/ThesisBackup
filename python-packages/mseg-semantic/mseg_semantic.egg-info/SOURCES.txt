@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+mseg_semantic.egg-info/PKG-INFO
+mseg_semantic.egg-info/SOURCES.txt
+mseg_semantic.egg-info/dependency_links.txt
+mseg_semantic.egg-info/requires.txt
+mseg_semantic.egg-info/top_level.txt
+tests/test_accuracy_calculator.py
+tests/test_avg_meter.py
+tests/test_confusion_matrix_utils.py
+tests/test_dataset.py
+tests/test_excluded_ids.py
+tests/test_img_path_utils.py
+tests/test_inference_task.py
+tests/test_relabeled_eval_utils.py
+tests/test_universal_demo_batched.py

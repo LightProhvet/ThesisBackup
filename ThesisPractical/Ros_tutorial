@@ -1,0 +1,87 @@
+Existing input elements are indicated by $ (e.g whether to list node or topic, or a node name (which is desided by current ros system)
+user input (non-existing) is indicated by <> (e.g a value for a param, usually YAML-format)
+flags end with space before paranthesis: ($flag )
+GENERAL:
+
+(print environment variables related to ROS):
+printenv | grep -i ROS
+
+(print chosen ros objects)
+(Objects are: node/topic/service/action/param/bag
+ros2 *object* list (-t )
+
+(see available commands)
+ros2 $object -h
+
+(inspect objects: 
+(node, topic, action, bag)
+ros2 $object info <object_name>
+(topic, service, action) )
+ros2 $object type
+(topic, service, action)
+ros2 interface show $object_type/(mby name too)
+
+(find objects by type)
+ros2 $object find $type_name
+
+
+TOPICS:
+
+(manage ros objects)
+rqt
+
+
+(visualize topics)
+rqt_graph
+
+(show expected data structure of msg)
+ros2 interface show <msg type>
+
+(publish a message)
+ros2 topic pub $topic_name $msg_type $'actual msg in YAML' (--once --rate)
+	use header: "" to automate things: auto - fill (time)stamp field automatically; 
+	You can also set (keys): time_ref
+	
+(view publish rate of topic)
+ros2 topic hz $topic_name
+
+
+SERVICES:
+
+(trigger)
+ros2 service call $service_name $service_type <arguments(optional)>
+
+
+PARAMETERS:
+
+(get/Set)
+(all)
+ros2 param dump $node_name ( > destination.file)
+ros2 param load $node_name $param_file
+(single)
+ros2 param get $node_name $parameter_name
+ros2 param set $node_name $parameter_name <value>
+
+
+ACTIONS:
+(act manually as client:)
+ros2 action send_goal $action_name $action_type <values> (--feedback )
+
+
+MONITORING:
+
+ros2 bag record $topic_name
+ros2 bag record -o <bag_name> $topic_name1 $topic_name2
+(replay recording (publish same messages as then)
+ros2 bag play $bag_name
+Other general:
+ros2 run <package_name> <executable_name> --ros-args --params-file <file_name>
+
+
+
+
+
+
+
+
+

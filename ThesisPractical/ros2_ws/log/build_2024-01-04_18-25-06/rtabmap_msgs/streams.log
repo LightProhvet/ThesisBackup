@@ -1,0 +1,32 @@
+[2.124s] Invoking command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/rtabmap_msgs': /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/ros2_ws/src/rtabmap_ros/rtabmap_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_msgs
+[2.706s] -- The C compiler identification is GNU 11.4.0
+[3.027s] -- The CXX compiler identification is GNU 11.4.0
+[3.099s] -- Detecting C compiler ABI info
+[3.375s] -- Detecting C compiler ABI info - done
+[3.437s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.438s] -- Detecting C compile features
+[3.442s] -- Detecting C compile features - done
+[3.482s] -- Detecting CXX compiler ABI info
+[3.870s] -- Detecting CXX compiler ABI info - done
+[3.935s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.936s] -- Detecting CXX compile features
+[3.938s] -- Detecting CXX compile features - done
+[4.002s] [31mCMake Error at CMakeLists.txt:8 (find_package):
+[4.003s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[4.011s]   asked CMake to find a package configuration file provided by "catkin", but
+[4.013s]   CMake did not find one.
+[4.013s] 
+[4.014s]   Could not find a package configuration file provided by "catkin" with any
+[4.015s]   of the following names:
+[4.016s] 
+[4.017s]     catkinConfig.cmake
+[4.018s]     catkin-config.cmake
+[4.019s] 
+[4.019s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[4.021s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[4.022s]   provides a separate development package or SDK, be sure it has been
+[4.022s]   installed.
+[4.025s] 
+[4.025s] [0m
+[4.027s] -- Configuring incomplete, errors occurred!
+[4.358s] Invoked command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/rtabmap_msgs' returned '1': /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/ros2_ws/src/rtabmap_ros/rtabmap_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_msgs

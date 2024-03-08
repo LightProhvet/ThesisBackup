@@ -1,0 +1,1 @@
+Invoking command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/sophus': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ThesisPractical/ros2_ws/build/sophus -- -j12 -l12

@@ -1,0 +1,716 @@
+[0.000000] (-) TimerEvent: {}
+[0.000226] (nav2_dynamic_msgs) JobQueued: {'identifier': 'nav2_dynamic_msgs', 'dependencies': OrderedDict()}
+[0.000360] (py_srvcli) JobQueued: {'identifier': 'py_srvcli', 'dependencies': OrderedDict()}
+[0.000576] (semantic_segmentation) JobQueued: {'identifier': 'semantic_segmentation', 'dependencies': OrderedDict()}
+[0.000624] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.000700] (yolov8_msgs) JobQueued: {'identifier': 'yolov8_msgs', 'dependencies': OrderedDict()}
+[0.000759] (yolov8_ros) JobQueued: {'identifier': 'yolov8_ros', 'dependencies': OrderedDict()}
+[0.000936] (kf_hungarian_tracker) JobQueued: {'identifier': 'kf_hungarian_tracker', 'dependencies': OrderedDict([('nav2_dynamic_msgs', '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs')])}
+[0.000984] (yolov8_bringup) JobQueued: {'identifier': 'yolov8_bringup', 'dependencies': OrderedDict([('yolov8_ros', '/home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_ros')])}
+[0.001028] (nav2_dynamic_msgs) JobStarted: {'identifier': 'nav2_dynamic_msgs'}
+[0.098444] (-) TimerEvent: {}
+[0.178534] (yolov8_ros) JobStarted: {'identifier': 'yolov8_ros'}
+[0.199158] (-) TimerEvent: {}
+[0.300388] (-) TimerEvent: {}
+[0.401257] (-) TimerEvent: {}
+[0.438576] (py_srvcli) JobStarted: {'identifier': 'py_srvcli'}
+[0.501659] (-) TimerEvent: {}
+[0.602890] (-) TimerEvent: {}
+[0.704199] (semantic_segmentation) JobStarted: {'identifier': 'semantic_segmentation'}
+[0.704697] (-) TimerEvent: {}
+[0.805652] (-) TimerEvent: {}
+[0.907424] (-) TimerEvent: {}
+[0.978799] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[1.007838] (-) TimerEvent: {}
+[1.110696] (-) TimerEvent: {}
+[1.192076] (yolov8_msgs) JobStarted: {'identifier': 'yolov8_msgs'}
+[1.210971] (-) TimerEvent: {}
+[1.312523] (-) TimerEvent: {}
+[1.413892] (-) TimerEvent: {}
+[1.418656] (nav2_dynamic_msgs) JobProgress: {'identifier': 'nav2_dynamic_msgs', 'progress': 'cmake'}
+[1.420335] (nav2_dynamic_msgs) JobProgress: {'identifier': 'nav2_dynamic_msgs', 'progress': 'build'}
+[1.422258] (nav2_dynamic_msgs) Command: {'cmd': ['/home/mihkel/.local/bin/cmake', '--build', '/home/mihkel/School/ThesisPractical/myros_ws/build/nav2_dynamic_msgs', '--', '-j12', '-l12'], 'cwd': '/home/mihkel/School/ThesisPractical/myros_ws/build/nav2_dynamic_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mihkel'), ('LC_TIME', 'et_EE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mihkel'), ('OLDPWD', '/home/mihkel/School/ThesisPractical/myros_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'et_EE.UTF-8'), ('SYSTEMD_EXEC_PID', '4143'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mihkel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mihkel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mihkel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mihkel-XPS-15-9500:@/tmp/.ICE-unix/3843,unix/mihkel-XPS-15-9500:/tmp/.ICE-unix/3843'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'et_EE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/770f14d6_b918_44ff_8a3a_6f3096424a1c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'et_EE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KOINJ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'et_EE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'et_EE.UTF-8'), ('LC_IDENTIFICATION', 'et_EE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mihkel/School/ThesisPractical/myros_ws/build/nav2_dynamic_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'et_EE.UTF-8'), ('LC_PAPER', 'et_EE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.514075] (-) TimerEvent: {}
+[1.614709] (-) TimerEvent: {}
+[1.715512] (-) TimerEvent: {}
+[1.816081] (-) TimerEvent: {}
+[1.916671] (-) TimerEvent: {}
+[2.017308] (-) TimerEvent: {}
+[2.117876] (-) TimerEvent: {}
+[2.218589] (-) TimerEvent: {}
+[2.319185] (-) TimerEvent: {}
+[2.419935] (-) TimerEvent: {}
+[2.520540] (-) TimerEvent: {}
+[2.621597] (-) TimerEvent: {}
+[2.722176] (-) TimerEvent: {}
+[2.822715] (-) TimerEvent: {}
+[2.923305] (-) TimerEvent: {}
+[3.023949] (-) TimerEvent: {}
+[3.124500] (-) TimerEvent: {}
+[3.225123] (-) TimerEvent: {}
+[3.325757] (-) TimerEvent: {}
+[3.426390] (-) TimerEvent: {}
+[3.527047] (-) TimerEvent: {}
+[3.627840] (-) TimerEvent: {}
+[3.728761] (-) TimerEvent: {}
+[3.830478] (-) TimerEvent: {}
+[3.931510] (-) TimerEvent: {}
+[4.033468] (-) TimerEvent: {}
+[4.134300] (-) TimerEvent: {}
+[4.234936] (-) TimerEvent: {}
+[4.335533] (-) TimerEvent: {}
+[4.436135] (-) TimerEvent: {}
+[4.536753] (-) TimerEvent: {}
+[4.637355] (-) TimerEvent: {}
+[4.737959] (-) TimerEvent: {}
+[4.838562] (-) TimerEvent: {}
+[4.939165] (-) TimerEvent: {}
+[5.040034] (-) TimerEvent: {}
+[5.141323] (-) TimerEvent: {}
+[5.241940] (-) TimerEvent: {}
+[5.301322] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[5.304782] (tutorial_interfaces) Command: {'cmd': ['/home/mihkel/.local/bin/cmake', '/home/mihkel/School/ThesisPractical/myros_ws/src/a_semantic_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/myros_ws/install/tutorial_interfaces'], 'cwd': '/home/mihkel/School/ThesisPractical/myros_ws/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mihkel'), ('LC_TIME', 'et_EE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mihkel'), ('OLDPWD', '/home/mihkel/School/ThesisPractical/myros_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'et_EE.UTF-8'), ('SYSTEMD_EXEC_PID', '4143'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mihkel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mihkel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mihkel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mihkel-XPS-15-9500:@/tmp/.ICE-unix/3843,unix/mihkel-XPS-15-9500:/tmp/.ICE-unix/3843'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'et_EE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/770f14d6_b918_44ff_8a3a_6f3096424a1c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'et_EE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KOINJ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'et_EE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'et_EE.UTF-8'), ('LC_IDENTIFICATION', 'et_EE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mihkel/School/ThesisPractical/myros_ws/build/tutorial_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'et_EE.UTF-8'), ('LC_PAPER', 'et_EE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.310084] (yolov8_msgs) JobProgress: {'identifier': 'yolov8_msgs', 'progress': 'cmake'}
+[5.311877] (yolov8_msgs) JobProgress: {'identifier': 'yolov8_msgs', 'progress': 'build'}
+[5.314068] (yolov8_msgs) Command: {'cmd': ['/home/mihkel/.local/bin/cmake', '--build', '/home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_msgs', '--', '-j12', '-l12'], 'cwd': '/home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mihkel'), ('LC_TIME', 'et_EE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mihkel'), ('OLDPWD', '/home/mihkel/School/ThesisPractical/myros_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'et_EE.UTF-8'), ('SYSTEMD_EXEC_PID', '4143'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mihkel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mihkel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mihkel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mihkel-XPS-15-9500:@/tmp/.ICE-unix/3843,unix/mihkel-XPS-15-9500:/tmp/.ICE-unix/3843'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'et_EE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/770f14d6_b918_44ff_8a3a_6f3096424a1c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'et_EE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KOINJ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'et_EE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'et_EE.UTF-8'), ('LC_IDENTIFICATION', 'et_EE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'et_EE.UTF-8'), ('LC_PAPER', 'et_EE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.321131] (nav2_dynamic_msgs) StdoutLine: {'line': b'[  2%] Built target nav2_dynamic_msgs__cpp\n'}
+[5.322512] (nav2_dynamic_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_nav2_dynamic_msgs\n'}
+[5.325569] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 12%] Built target nav2_dynamic_msgs__rosidl_generator_c\n'}
+[5.325905] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 23%] Built target nav2_dynamic_msgs__rosidl_typesupport_cpp\n'}
+[5.326185] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 33%] Built target nav2_dynamic_msgs__rosidl_typesupport_c\n'}
+[5.326449] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 43%] Built target nav2_dynamic_msgs__rosidl_typesupport_introspection_c\n'}
+[5.326708] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 53%] Built target nav2_dynamic_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[5.326960] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 64%] Built target nav2_dynamic_msgs__rosidl_typesupport_fastrtps_c\n'}
+[5.327211] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 74%] Built target nav2_dynamic_msgs__rosidl_typesupport_introspection_cpp\n'}
+[5.327459] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 74%] Built target nav2_dynamic_msgs\n'}
+[5.327708] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.327954] (nav2_dynamic_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[5.328194] (nav2_dynamic_msgs) StdoutLine: {'line': b'writing nav2_dynamic_msgs.egg-info/PKG-INFO\n'}
+[5.328435] (nav2_dynamic_msgs) StdoutLine: {'line': b'writing dependency_links to nav2_dynamic_msgs.egg-info/dependency_links.txt\n'}
+[5.328678] (nav2_dynamic_msgs) StdoutLine: {'line': b'writing top-level names to nav2_dynamic_msgs.egg-info/top_level.txt\n'}
+[5.328978] (nav2_dynamic_msgs) StdoutLine: {'line': b"reading manifest file 'nav2_dynamic_msgs.egg-info/SOURCES.txt'\n"}
+[5.329231] (nav2_dynamic_msgs) StdoutLine: {'line': b"writing manifest file 'nav2_dynamic_msgs.egg-info/SOURCES.txt'\n"}
+[5.329476] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 76%] Built target ament_cmake_python_build_nav2_dynamic_msgs_egg\n'}
+[5.329729] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 76%] Built target nav2_dynamic_msgs__py\n'}
+[5.329981] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/nav2_dynamic_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_dynamic_msgs/msg/_obstacle_s.c.o\x1b[0m\n'}
+[5.330236] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/nav2_dynamic_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_dynamic_msgs/msg/_obstacle_array_s.c.o\x1b[0m\n'}
+[5.330491] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/nav2_dynamic_msgs/libnav2_dynamic_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[5.330749] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 84%] Built target nav2_dynamic_msgs__rosidl_generator_py\n'}
+[5.331003] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/nav2_dynamic_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/nav2_dynamic_msgs/_nav2_dynamic_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.331261] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/nav2_dynamic_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/nav2_dynamic_msgs/_nav2_dynamic_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.332645] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/nav2_dynamic_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/nav2_dynamic_msgs/_nav2_dynamic_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[5.332946] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/nav2_dynamic_msgs/nav2_dynamic_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.333208] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/nav2_dynamic_msgs/nav2_dynamic_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.333464] (nav2_dynamic_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/nav2_dynamic_msgs/nav2_dynamic_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.333721] (nav2_dynamic_msgs) StdoutLine: {'line': b'[100%] Built target nav2_dynamic_msgs__rosidl_typesupport_c__pyext\n'}
+[5.333973] (nav2_dynamic_msgs) StdoutLine: {'line': b'[100%] Built target nav2_dynamic_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.334224] (nav2_dynamic_msgs) StdoutLine: {'line': b'[100%] Built target nav2_dynamic_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[5.336000] (nav2_dynamic_msgs) CommandEnded: {'returncode': 0}
+[5.342149] (-) TimerEvent: {}
+[5.425661] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[5.442336] (-) TimerEvent: {}
+[5.497658] (yolov8_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.509964] (yolov8_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.524656] (yolov8_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_yolov8_msgs\n'}
+[5.542498] (-) TimerEvent: {}
+[5.643324] (-) TimerEvent: {}
+[5.704552] (nav2_dynamic_msgs) JobProgress: {'identifier': 'nav2_dynamic_msgs', 'progress': 'install'}
+[5.743498] (-) TimerEvent: {}
+[5.844347] (-) TimerEvent: {}
+[5.880655] (nav2_dynamic_msgs) Command: {'cmd': ['/home/mihkel/.local/bin/cmake', '--install', '/home/mihkel/School/ThesisPractical/myros_ws/build/nav2_dynamic_msgs'], 'cwd': '/home/mihkel/School/ThesisPractical/myros_ws/build/nav2_dynamic_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mihkel'), ('LC_TIME', 'et_EE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mihkel'), ('OLDPWD', '/home/mihkel/School/ThesisPractical/myros_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'et_EE.UTF-8'), ('SYSTEMD_EXEC_PID', '4143'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mihkel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mihkel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mihkel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mihkel-XPS-15-9500:@/tmp/.ICE-unix/3843,unix/mihkel-XPS-15-9500:/tmp/.ICE-unix/3843'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'et_EE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/770f14d6_b918_44ff_8a3a_6f3096424a1c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'et_EE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KOINJ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'et_EE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'et_EE.UTF-8'), ('LC_IDENTIFICATION', 'et_EE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mihkel/School/ThesisPractical/myros_ws/build/nav2_dynamic_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'et_EE.UTF-8'), ('LC_PAPER', 'et_EE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.944529] (-) TimerEvent: {}
+[6.037336] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.038205] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/ament_index/resource_index/rosidl_interfaces/nav2_dynamic_msgs\n'}
+[6.039118] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs\n'}
+[6.039828] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg\n'}
+[6.040372] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/obstacle_array.h\n'}
+[6.040991] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/obstacle.h\n'}
+[6.041536] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.042527] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail\n'}
+[6.043057] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle__functions.c\n'}
+[6.043691] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle_array__functions.c\n'}
+[6.044121] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle_array__struct.h\n'}
+[6.044587] (-) TimerEvent: {}
+[6.045239] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle_array__type_support.h\n'}
+[6.045904] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle__type_support.h\n'}
+[6.046343] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle__functions.h\n'}
+[6.046759] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle_array__functions.h\n'}
+[6.047284] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle__struct.h\n'}
+[6.047797] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/environment/library_path.sh\n'}
+[6.048209] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/environment/library_path.dsv\n'}
+[6.048728] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/lib/libnav2_dynamic_msgs__rosidl_generator_c.so\n'}
+[6.049916] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/lib/libnav2_dynamic_msgs__rosidl_generator_c.so" to ""\n'}
+[6.050649] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs\n'}
+[6.051180] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg\n'}
+[6.051704] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail\n'}
+[6.052229] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle__rosidl_typesupport_fastrtps_c.h\n'}
+[6.052663] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle_array__rosidl_typesupport_fastrtps_c.h\n'}
+[6.053218] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.053668] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/lib/libnav2_dynamic_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[6.054488] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/lib/libnav2_dynamic_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[6.055300] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs\n'}
+[6.055913] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg\n'}
+[6.056559] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/obstacle_array.hpp\n'}
+[6.056930] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail\n'}
+[6.057485] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle_array__traits.hpp\n'}
+[6.058129] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle__struct.hpp\n'}
+[6.058662] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle__builder.hpp\n'}
+[6.059310] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle_array__struct.hpp\n'}
+[6.059788] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle_array__builder.hpp\n'}
+[6.060698] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle__traits.hpp\n'}
+[6.061371] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/obstacle.hpp\n'}
+[6.061952] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs\n'}
+[6.062563] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg\n'}
+[6.063144] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail\n'}
+[6.063617] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/dds_fastrtps\n'}
+[6.064116] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.064868] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.065543] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.066116] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/lib/libnav2_dynamic_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.066698] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/lib/libnav2_dynamic_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[6.067270] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs\n'}
+[6.067831] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg\n'}
+[6.068318] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail\n'}
+[6.068916] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle__type_support.c\n'}
+[6.069425] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle__rosidl_typesupport_introspection_c.h\n'}
+[6.070009] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle_array__type_support.c\n'}
+[6.070580] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle_array__rosidl_typesupport_introspection_c.h\n'}
+[6.071039] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.071546] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/lib/libnav2_dynamic_msgs__rosidl_typesupport_introspection_c.so\n'}
+[6.072224] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/lib/libnav2_dynamic_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[6.072796] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/lib/libnav2_dynamic_msgs__rosidl_typesupport_c.so\n'}
+[6.073372] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/lib/libnav2_dynamic_msgs__rosidl_typesupport_c.so" to ""\n'}
+[6.074040] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs\n'}
+[6.074642] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg\n'}
+[6.075228] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail\n'}
+[6.075717] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle__type_support.cpp\n'}
+[6.076221] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.076832] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.077426] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/include/nav2_dynamic_msgs/nav2_dynamic_msgs/msg/detail/obstacle_array__type_support.cpp\n'}
+[6.077894] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/lib/libnav2_dynamic_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[6.078348] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/lib/libnav2_dynamic_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[6.079009] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/lib/libnav2_dynamic_msgs__rosidl_typesupport_cpp.so\n'}
+[6.079546] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/lib/libnav2_dynamic_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[6.080116] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/environment/pythonpath.sh\n'}
+[6.080586] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/environment/pythonpath.dsv\n'}
+[6.081188] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs-0.0.1-py3.10.egg-info\n'}
+[6.081749] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs-0.0.1-py3.10.egg-info/top_level.txt\n'}
+[6.082437] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs-0.0.1-py3.10.egg-info/PKG-INFO\n'}
+[6.082927] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs-0.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[6.083473] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs-0.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[6.084015] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs\n'}
+[6.084592] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/libnav2_dynamic_msgs__rosidl_generator_py.so\n'}
+[6.085205] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/_nav2_dynamic_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[6.085761] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/nav2_dynamic_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.086332] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/_nav2_dynamic_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[6.086902] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/_nav2_dynamic_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[6.087585] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/nav2_dynamic_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.088230] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/__init__.py\n'}
+[6.088867] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/nav2_dynamic_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.090068] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/msg\n'}
+[6.090975] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/msg/_obstacle_s.c\n'}
+[6.091512] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/msg/_obstacle.py\n'}
+[6.091989] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/msg/__init__.py\n'}
+[6.092464] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/msg/_obstacle_array.py\n'}
+[6.092929] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/msg/_obstacle_array_s.c\n'}
+[6.144814] (-) TimerEvent: {}
+[6.245669] (-) TimerEvent: {}
+[6.323874] (nav2_dynamic_msgs) StdoutLine: {'line': b"Listing '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs'...\n"}
+[6.324571] (nav2_dynamic_msgs) StdoutLine: {'line': b"Compiling '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/__init__.py'...\n"}
+[6.325142] (nav2_dynamic_msgs) StdoutLine: {'line': b"Listing '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/msg'...\n"}
+[6.325631] (nav2_dynamic_msgs) StdoutLine: {'line': b"Compiling '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/msg/__init__.py'...\n"}
+[6.326108] (nav2_dynamic_msgs) StdoutLine: {'line': b"Compiling '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/msg/_obstacle.py'...\n"}
+[6.326626] (nav2_dynamic_msgs) StdoutLine: {'line': b"Compiling '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/msg/_obstacle_array.py'...\n"}
+[6.345837] (-) TimerEvent: {}
+[6.352020] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/nav2_dynamic_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.353476] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/nav2_dynamic_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[6.354627] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/nav2_dynamic_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.356259] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/nav2_dynamic_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[6.357382] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/nav2_dynamic_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.359060] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages/nav2_dynamic_msgs/nav2_dynamic_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[6.359719] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/lib/libnav2_dynamic_msgs__rosidl_generator_py.so\n'}
+[6.361264] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/lib/libnav2_dynamic_msgs__rosidl_generator_py.so" to ""\n'}
+[6.361970] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/msg/Obstacle.idl\n'}
+[6.362566] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/msg/ObstacleArray.idl\n'}
+[6.363200] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/msg/Obstacle.msg\n'}
+[6.363818] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/msg/ObstacleArray.msg\n'}
+[6.364696] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/ament_index/resource_index/package_run_dependencies/nav2_dynamic_msgs\n'}
+[6.365606] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/ament_index/resource_index/parent_prefix_path/nav2_dynamic_msgs\n'}
+[6.366292] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/environment/ament_prefix_path.sh\n'}
+[6.367023] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/environment/ament_prefix_path.dsv\n'}
+[6.367721] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/environment/path.sh\n'}
+[6.368414] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/environment/path.dsv\n'}
+[6.369160] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/local_setup.bash\n'}
+[6.369843] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/local_setup.sh\n'}
+[6.370567] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/local_setup.zsh\n'}
+[6.371279] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/local_setup.dsv\n'}
+[6.371980] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/package.dsv\n'}
+[6.372972] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/ament_index/resource_index/packages/nav2_dynamic_msgs\n'}
+[6.373926] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/export_nav2_dynamic_msgs__rosidl_generator_cExport.cmake\n'}
+[6.374676] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/export_nav2_dynamic_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.375461] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/export_nav2_dynamic_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[6.376171] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/export_nav2_dynamic_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[6.376946] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/export_nav2_dynamic_msgs__rosidl_generator_cppExport.cmake\n'}
+[6.377714] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/export_nav2_dynamic_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[6.378430] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/export_nav2_dynamic_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[6.379213] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/nav2_dynamic_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.379919] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/nav2_dynamic_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.380704] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/nav2_dynamic_msgs__rosidl_typesupport_cExport.cmake\n'}
+[6.382584] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/nav2_dynamic_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.383417] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/nav2_dynamic_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.384124] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/nav2_dynamic_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.385003] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/nav2_dynamic_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[6.385690] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/nav2_dynamic_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.386462] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/export_nav2_dynamic_msgs__rosidl_generator_pyExport.cmake\n'}
+[6.387180] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/export_nav2_dynamic_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[6.387835] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[6.388513] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.389255] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.390039] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.390810] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.391513] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.392167] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.392848] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/nav2_dynamic_msgsConfig.cmake\n'}
+[6.393489] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/cmake/nav2_dynamic_msgsConfig-version.cmake\n'}
+[6.394093] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/share/nav2_dynamic_msgs/package.xml\n'}
+[6.421597] (nav2_dynamic_msgs) CommandEnded: {'returncode': 0}
+[6.446006] (-) TimerEvent: {}
+[6.547551] (-) TimerEvent: {}
+[6.649606] (-) TimerEvent: {}
+[6.678311] (tutorial_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[6.749923] (-) TimerEvent: {}
+[6.851824] (-) TimerEvent: {}
+[6.887844] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[6.911178] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.952027] (-) TimerEvent: {}
+[6.964490] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[7.052697] (-) TimerEvent: {}
+[7.064805] (yolov8_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[7.069474] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.070647] (yolov8_msgs) StdoutLine: {'line': b'creating yolov8_msgs.egg-info\n'}
+[7.152905] (-) TimerEvent: {}
+[7.210826] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.225802] (yolov8_msgs) StdoutLine: {'line': b'writing yolov8_msgs.egg-info/PKG-INFO\n'}
+[7.227516] (yolov8_msgs) StdoutLine: {'line': b'writing dependency_links to yolov8_msgs.egg-info/dependency_links.txt\n'}
+[7.229016] (yolov8_msgs) StdoutLine: {'line': b'writing top-level names to yolov8_msgs.egg-info/top_level.txt\n'}
+[7.229673] (yolov8_msgs) StdoutLine: {'line': b"writing manifest file 'yolov8_msgs.egg-info/SOURCES.txt'\n"}
+[7.253067] (-) TimerEvent: {}
+[7.353936] (-) TimerEvent: {}
+[7.454728] (-) TimerEvent: {}
+[7.555736] (-) TimerEvent: {}
+[7.619318] (yolov8_msgs) StdoutLine: {'line': b"reading manifest file 'yolov8_msgs.egg-info/SOURCES.txt'\n"}
+[7.622276] (yolov8_msgs) StdoutLine: {'line': b"writing manifest file 'yolov8_msgs.egg-info/SOURCES.txt'\n"}
+[7.656026] (-) TimerEvent: {}
+[7.687303] (yolov8_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_build_yolov8_msgs_egg\n'}
+[7.758623] (-) TimerEvent: {}
+[7.859561] (-) TimerEvent: {}
+[7.914023] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[7.949602] (tutorial_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):\n'}
+[7.951871] (tutorial_interfaces) StderrLine: {'line': b"  rosidl_generate_interfaces() the passed file 'msg/Num.msg' doesn't exist\n"}
+[7.953785] (tutorial_interfaces) StderrLine: {'line': b'  relative to the CMAKE_CURRENT_SOURCE_DIR\n'}
+[7.955123] (tutorial_interfaces) StderrLine: {'line': b"  '/home/mihkel/School/ThesisPractical/myros_ws/src/a_semantic_interfaces'\n"}
+[7.956980] (tutorial_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[7.957975] (tutorial_interfaces) StderrLine: {'line': b'  CMakeLists.txt:13 (rosidl_generate_interfaces)\n'}
+[7.963204] (-) TimerEvent: {}
+[7.964102] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[7.964596] (tutorial_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[7.965069] (tutorial_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[8.063400] (-) TimerEvent: {}
+[8.082689] (nav2_dynamic_msgs) JobEnded: {'identifier': 'nav2_dynamic_msgs', 'rc': 0}
+[8.087048] (kf_hungarian_tracker) JobStarted: {'identifier': 'kf_hungarian_tracker'}
+[8.164858] (-) TimerEvent: {}
+[8.267155] (-) TimerEvent: {}
+[8.368350] (-) TimerEvent: {}
+[8.470218] (-) TimerEvent: {}
+[8.492463] (tutorial_interfaces) CommandEnded: {'returncode': 1}
+[8.570412] (-) TimerEvent: {}
+[8.671283] (-) TimerEvent: {}
+[8.772171] (-) TimerEvent: {}
+[8.872840] (-) TimerEvent: {}
+[8.973660] (-) TimerEvent: {}
+[9.074496] (-) TimerEvent: {}
+[9.175306] (-) TimerEvent: {}
+[9.276147] (-) TimerEvent: {}
+[9.377044] (-) TimerEvent: {}
+[9.477860] (-) TimerEvent: {}
+[9.578721] (-) TimerEvent: {}
+[9.679668] (-) TimerEvent: {}
+[9.745322] (yolov8_msgs) StdoutLine: {'line': b'[  1%] Built target yolov8_msgs__cpp\n'}
+[9.759927] (yolov8_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[9.762507] (yolov8_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[9.763078] (yolov8_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[9.780068] (-) TimerEvent: {}
+[9.880729] (-) TimerEvent: {}
+[9.904596] (semantic_segmentation) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build'], 'cwd': '/home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mihkel', 'LC_TIME': 'et_EE.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/mihkel', 'OLDPWD': '/home/mihkel/School/ThesisPractical/myros_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'et_EE.UTF-8', 'SYSTEMD_EXEC_PID': '4143', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mihkel', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mihkel', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/mihkel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mihkel-XPS-15-9500:@/tmp/.ICE-unix/3843,unix/mihkel-XPS-15-9500:/tmp/.ICE-unix/3843', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'et_EE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/770f14d6_b918_44ff_8a3a_6f3096424a1c', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'et_EE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.KOINJ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.122', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'et_EE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'et_EE.UTF-8', 'LC_IDENTIFICATION': 'et_EE.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/prefix_override:/home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'et_EE.UTF-8', 'LC_PAPER': 'et_EE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[9.981169] (-) TimerEvent: {}
+[10.021582] (yolov8_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/point2_d__functions.c.o\x1b[0m\n'}
+[10.022273] (yolov8_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/vector2__functions.c.o\x1b[0m\n'}
+[10.022922] (yolov8_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/pose2_d__functions.c.o\x1b[0m\n'}
+[10.023957] (yolov8_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/bounding_box2_d__functions.c.o\x1b[0m\n'}
+[10.024684] (yolov8_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/bounding_box3_d__functions.c.o\x1b[0m\n'}
+[10.028350] (yolov8_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/key_point2_d__functions.c.o\x1b[0m\n'}
+[10.029243] (yolov8_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/mask__functions.c.o\x1b[0m\n'}
+[10.033523] (yolov8_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/key_point2_d_array__functions.c.o\x1b[0m\n'}
+[10.035369] (yolov8_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/key_point3_d__functions.c.o\x1b[0m\n'}
+[10.081516] (-) TimerEvent: {}
+[10.182843] (-) TimerEvent: {}
+[10.243430] (yolov8_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/detection__functions.c.o\x1b[0m\n'}
+[10.245651] (yolov8_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/key_point3_d_array__functions.c.o\x1b[0m\n'}
+[10.247055] (yolov8_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/detection_array__functions.c.o\x1b[0m\n'}
+[10.271372] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 1}
+[10.277821] (py_srvcli) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_srvcli', 'build', '--build-base', '/home/mihkel/School/ThesisPractical/myros_ws/build/py_srvcli/build', 'install', '--record', '/home/mihkel/School/ThesisPractical/myros_ws/build/py_srvcli/install.log', '--single-version-externally-managed'], 'cwd': '/home/mihkel/School/ThesisPractical/myros_ws/src/a_semantic_rules', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mihkel', 'LC_TIME': 'et_EE.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/mihkel', 'OLDPWD': '/home/mihkel/School/ThesisPractical/myros_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'et_EE.UTF-8', 'SYSTEMD_EXEC_PID': '4143', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mihkel', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mihkel', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/mihkel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mihkel-XPS-15-9500:@/tmp/.ICE-unix/3843,unix/mihkel-XPS-15-9500:/tmp/.ICE-unix/3843', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'et_EE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/770f14d6_b918_44ff_8a3a_6f3096424a1c', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'et_EE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.KOINJ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.122', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'et_EE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'et_EE.UTF-8', 'LC_IDENTIFICATION': 'et_EE.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mihkel/School/ThesisPractical/myros_ws/build/py_srvcli', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mihkel/School/ThesisPractical/myros_ws/build/py_srvcli/prefix_override:/home/mihkel/School/ThesisPractical/myros_ws/install/py_srvcli/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'et_EE.UTF-8', 'LC_PAPER': 'et_EE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[10.289973] (-) TimerEvent: {}
+[10.325718] (yolov8_ros) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/yolov8_ros', 'build', '--build-base', '/home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_ros/build', 'install', '--record', '/home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_ros/install.log', '--single-version-externally-managed'], 'cwd': '/home/mihkel/School/ThesisPractical/myros_ws/src/yolov8_ros/yolov8_ros', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mihkel', 'LC_TIME': 'et_EE.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/mihkel', 'OLDPWD': '/home/mihkel/School/ThesisPractical/myros_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'et_EE.UTF-8', 'SYSTEMD_EXEC_PID': '4143', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mihkel', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mihkel', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/mihkel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mihkel-XPS-15-9500:@/tmp/.ICE-unix/3843,unix/mihkel-XPS-15-9500:/tmp/.ICE-unix/3843', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'et_EE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/770f14d6_b918_44ff_8a3a_6f3096424a1c', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'et_EE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.KOINJ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.122', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'et_EE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'et_EE.UTF-8', 'LC_IDENTIFICATION': 'et_EE.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_ros', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_ros/prefix_override:/home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_ros/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'et_EE.UTF-8', 'LC_PAPER': 'et_EE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[10.336840] (py_srvcli) JobEnded: {'identifier': 'py_srvcli', 'rc': 'SIGINT'}
+[10.338787] (kf_hungarian_tracker) JobEnded: {'identifier': 'kf_hungarian_tracker', 'rc': 'SIGINT'}
+[10.345462] (yolov8_ros) JobEnded: {'identifier': 'yolov8_ros', 'rc': 'SIGINT'}
+[10.390154] (-) TimerEvent: {}
+[10.480314] (yolov8_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libyolov8_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[10.490289] (-) TimerEvent: {}
+[10.570880] (yolov8_msgs) StdoutLine: {'line': b'[ 14%] Built target yolov8_msgs__rosidl_generator_c\n'}
+[10.586636] (yolov8_msgs) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[10.589073] (yolov8_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[10.590432] (-) TimerEvent: {}
+[10.592381] (yolov8_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[10.690620] (-) TimerEvent: {}
+[10.791428] (-) TimerEvent: {}
+[10.892201] (-) TimerEvent: {}
+[10.992950] (-) TimerEvent: {}
+[11.093639] (-) TimerEvent: {}
+[11.194375] (-) TimerEvent: {}
+[11.295383] (-) TimerEvent: {}
+[11.396095] (-) TimerEvent: {}
+[11.496825] (-) TimerEvent: {}
+[11.597526] (-) TimerEvent: {}
+[11.698245] (-) TimerEvent: {}
+[11.798194] (semantic_segmentation) StdoutLine: {'line': b'running develop\n'}
+[11.798770] (-) TimerEvent: {}
+[11.800490] (semantic_segmentation) StderrLine: {'line': b'/home/mihkel/.local/lib/python3.10/site-packages/setuptools/command/develop.py:39: EasyInstallDeprecationWarning: easy_install command is deprecated.\n'}
+[11.801194] (semantic_segmentation) StderrLine: {'line': b'!!\n'}
+[11.801647] (semantic_segmentation) StderrLine: {'line': b'\n'}
+[11.802077] (semantic_segmentation) StderrLine: {'line': b'        ********************************************************************************\n'}
+[11.802525] (semantic_segmentation) StderrLine: {'line': b'        Please avoid running ``setup.py`` and ``easy_install``.\n'}
+[11.802943] (semantic_segmentation) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[11.803355] (semantic_segmentation) StderrLine: {'line': b'        standards-based tools.\n'}
+[11.803751] (semantic_segmentation) StderrLine: {'line': b'\n'}
+[11.804143] (semantic_segmentation) StderrLine: {'line': b'        See https://github.com/pypa/setuptools/issues/917 for details.\n'}
+[11.804562] (semantic_segmentation) StderrLine: {'line': b'        ********************************************************************************\n'}
+[11.805036] (semantic_segmentation) StderrLine: {'line': b'\n'}
+[11.805467] (semantic_segmentation) StderrLine: {'line': b'!!\n'}
+[11.805884] (semantic_segmentation) StderrLine: {'line': b'  easy_install.initialize_options(self)\n'}
+[11.898955] (-) TimerEvent: {}
+[11.990681] (semantic_segmentation) StderrLine: {'line': b'/home/mihkel/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[11.991309] (semantic_segmentation) StderrLine: {'line': b'!!\n'}
+[11.991733] (semantic_segmentation) StderrLine: {'line': b'\n'}
+[11.992119] (semantic_segmentation) StderrLine: {'line': b'        ********************************************************************************\n'}
+[11.992504] (semantic_segmentation) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[11.992936] (semantic_segmentation) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[11.993327] (semantic_segmentation) StderrLine: {'line': b'        standards-based tools.\n'}
+[11.993700] (semantic_segmentation) StderrLine: {'line': b'\n'}
+[11.994073] (semantic_segmentation) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[11.994491] (semantic_segmentation) StderrLine: {'line': b'        ********************************************************************************\n'}
+[11.994866] (semantic_segmentation) StderrLine: {'line': b'\n'}
+[11.995238] (semantic_segmentation) StderrLine: {'line': b'!!\n'}
+[11.995609] (semantic_segmentation) StderrLine: {'line': b'  self.initialize_options()\n'}
+[11.999090] (-) TimerEvent: {}
+[12.099751] (-) TimerEvent: {}
+[12.200538] (-) TimerEvent: {}
+[12.301279] (-) TimerEvent: {}
+[12.402003] (-) TimerEvent: {}
+[12.502704] (-) TimerEvent: {}
+[12.603453] (-) TimerEvent: {}
+[12.631140] (yolov8_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/point2_d__type_support.cpp.o\x1b[0m\n'}
+[12.632503] (yolov8_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/vector2__type_support.cpp.o\x1b[0m\n'}
+[12.633194] (yolov8_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/pose2_d__type_support.cpp.o\x1b[0m\n'}
+[12.633801] (yolov8_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/bounding_box2_d__type_support.cpp.o\x1b[0m\n'}
+[12.637277] (yolov8_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/bounding_box3_d__type_support.cpp.o\x1b[0m\n'}
+[12.637983] (yolov8_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/mask__type_support.cpp.o\x1b[0m\n'}
+[12.643050] (yolov8_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/key_point2_d__type_support.cpp.o\x1b[0m\n'}
+[12.703614] (-) TimerEvent: {}
+[12.804389] (-) TimerEvent: {}
+[12.905502] (-) TimerEvent: {}
+[13.006268] (-) TimerEvent: {}
+[13.107039] (-) TimerEvent: {}
+[13.207810] (-) TimerEvent: {}
+[13.308574] (-) TimerEvent: {}
+[13.409662] (-) TimerEvent: {}
+[13.510444] (-) TimerEvent: {}
+[13.611254] (-) TimerEvent: {}
+[13.686628] (semantic_segmentation) JobEnded: {'identifier': 'semantic_segmentation', 'rc': 'SIGINT'}
+[13.711437] (-) TimerEvent: {}
+[13.812366] (-) TimerEvent: {}
+[13.837993] (yolov8_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/point2_d__type_support.cpp.o\x1b[0m\n'}
+[13.916863] (-) TimerEvent: {}
+[14.017606] (-) TimerEvent: {}
+[14.118367] (-) TimerEvent: {}
+[14.166822] (yolov8_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/key_point2_d_array__type_support.cpp.o\x1b[0m\n'}
+[14.185933] (yolov8_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/key_point3_d__type_support.cpp.o\x1b[0m\n'}
+[14.195307] (yolov8_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/key_point3_d_array__type_support.cpp.o\x1b[0m\n'}
+[14.218537] (-) TimerEvent: {}
+[14.274690] (yolov8_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/detection__type_support.cpp.o\x1b[0m\n'}
+[14.287891] (yolov8_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/detection_array__type_support.cpp.o\x1b[0m\n'}
+[14.298539] (yolov8_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/pose2_d__type_support.cpp.o\x1b[0m\n'}
+[14.299286] (yolov8_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/vector2__type_support.cpp.o\x1b[0m\n'}
+[14.318703] (-) TimerEvent: {}
+[14.419701] (-) TimerEvent: {}
+[14.520436] (-) TimerEvent: {}
+[14.621274] (-) TimerEvent: {}
+[14.652041] (yolov8_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/point2_d__type_support.cpp.o\x1b[0m\n'}
+[14.721461] (-) TimerEvent: {}
+[14.822296] (-) TimerEvent: {}
+[14.902237] (yolov8_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/point2_d__type_support.c.o\x1b[0m\n'}
+[14.922468] (-) TimerEvent: {}
+[15.023543] (-) TimerEvent: {}
+[15.124670] (-) TimerEvent: {}
+[15.144193] (yolov8_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/vector2__type_support.c.o\x1b[0m\n'}
+[15.224872] (-) TimerEvent: {}
+[15.284304] (yolov8_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/pose2_d__type_support.c.o\x1b[0m\n'}
+[15.325046] (-) TimerEvent: {}
+[15.426105] (-) TimerEvent: {}
+[15.427843] (yolov8_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/bounding_box2_d__type_support.c.o\x1b[0m\n'}
+[15.526288] (-) TimerEvent: {}
+[15.574126] (yolov8_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/bounding_box3_d__type_support.c.o\x1b[0m\n'}
+[15.597994] (yolov8_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/point2_d__type_support.cpp.o\x1b[0m\n'}
+[15.626474] (-) TimerEvent: {}
+[15.671139] (yolov8_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/vector2__type_support.cpp.o\x1b[0m\n'}
+[15.727100] (-) TimerEvent: {}
+[15.730821] (yolov8_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/mask__type_support.c.o\x1b[0m\n'}
+[15.731613] (yolov8_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/vector2__type_support.cpp.o\x1b[0m\n'}
+[15.763476] (yolov8_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/pose2_d__type_support.cpp.o\x1b[0m\n'}
+[15.791911] (yolov8_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/pose2_d__type_support.cpp.o\x1b[0m\n'}
+[15.806992] (yolov8_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/bounding_box2_d__type_support.cpp.o\x1b[0m\n'}
+[15.807869] (yolov8_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/key_point2_d__type_support.c.o\x1b[0m\n'}
+[15.827275] (-) TimerEvent: {}
+[15.884693] (yolov8_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/key_point2_d_array__type_support.c.o\x1b[0m\n'}
+[15.895494] (yolov8_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/bounding_box2_d__type_support.cpp.o\x1b[0m\n'}
+[15.911937] (yolov8_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/bounding_box2_d__type_support.cpp.o\x1b[0m\n'}
+[15.927447] (-) TimerEvent: {}
+[15.950604] (yolov8_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/key_point3_d__type_support.c.o\x1b[0m\n'}
+[15.969283] (yolov8_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libyolov8_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[16.027636] (-) TimerEvent: {}
+[16.032450] (yolov8_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/bounding_box3_d__type_support.cpp.o\x1b[0m\n'}
+[16.048175] (yolov8_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/key_point3_d_array__type_support.c.o\x1b[0m\n'}
+[16.092765] (yolov8_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/detection__type_support.c.o\x1b[0m\n'}
+[16.127823] (-) TimerEvent: {}
+[16.130057] (yolov8_msgs) StdoutLine: {'line': b'[ 48%] Built target yolov8_msgs__rosidl_typesupport_cpp\n'}
+[16.143734] (yolov8_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/detection_array__type_support.c.o\x1b[0m\n'}
+[16.156369] (yolov8_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/mask__type_support.cpp.o\x1b[0m\n'}
+[16.228010] (-) TimerEvent: {}
+[16.229547] (yolov8_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/key_point2_d__type_support.cpp.o\x1b[0m\n'}
+[16.265453] (yolov8_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/key_point2_d_array__type_support.cpp.o\x1b[0m\n'}
+[16.274642] (yolov8_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/key_point3_d__type_support.cpp.o\x1b[0m\n'}
+[16.328181] (-) TimerEvent: {}
+[16.340138] (yolov8_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking C shared library libyolov8_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[16.360393] (yolov8_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/key_point3_d_array__type_support.cpp.o\x1b[0m\n'}
+[16.366435] (yolov8_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/bounding_box3_d__type_support.cpp.o\x1b[0m\n'}
+[16.386899] (yolov8_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/detection__type_support.cpp.o\x1b[0m\n'}
+[16.399399] (yolov8_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/detection_array__type_support.cpp.o\x1b[0m\n'}
+[16.428354] (-) TimerEvent: {}
+[16.449774] (yolov8_msgs) StdoutLine: {'line': b'[ 57%] Built target yolov8_msgs__rosidl_typesupport_introspection_c\n'}
+[16.466319] (yolov8_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/key_point2_d__type_support.cpp.o\x1b[0m\n'}
+[16.472459] (yolov8_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/mask__type_support.cpp.o\x1b[0m\n'}
+[16.488864] (yolov8_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/key_point2_d_array__type_support.cpp.o\x1b[0m\n'}
+[16.528532] (-) TimerEvent: {}
+[16.529368] (yolov8_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/key_point3_d__type_support.cpp.o\x1b[0m\n'}
+[16.539039] (yolov8_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libyolov8_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[16.628723] (-) TimerEvent: {}
+[16.707141] (yolov8_msgs) StdoutLine: {'line': b'[ 61%] Built target yolov8_msgs__rosidl_typesupport_c\n'}
+[16.728905] (-) TimerEvent: {}
+[16.744940] (yolov8_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/key_point3_d_array__type_support.cpp.o\x1b[0m\n'}
+[16.829094] (-) TimerEvent: {}
+[16.904329] (yolov8_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/point2_d__type_support_c.cpp.o\x1b[0m\n'}
+[16.929281] (-) TimerEvent: {}
+[17.030134] (-) TimerEvent: {}
+[17.117020] (yolov8_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/bounding_box3_d__type_support.cpp.o\x1b[0m\n'}
+[17.130320] (-) TimerEvent: {}
+[17.231404] (-) TimerEvent: {}
+[17.332523] (-) TimerEvent: {}
+[17.433416] (-) TimerEvent: {}
+[17.534239] (-) TimerEvent: {}
+[17.635078] (-) TimerEvent: {}
+[17.735922] (-) TimerEvent: {}
+[17.836817] (-) TimerEvent: {}
+[17.937654] (-) TimerEvent: {}
+[18.001710] (yolov8_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/mask__type_support.cpp.o\x1b[0m\n'}
+[18.002822] (yolov8_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/detection__type_support.cpp.o\x1b[0m\n'}
+[18.026431] (yolov8_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/key_point2_d__type_support.cpp.o\x1b[0m\n'}
+[18.036789] (yolov8_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/key_point2_d_array__type_support.cpp.o\x1b[0m\n'}
+[18.037761] (-) TimerEvent: {}
+[18.138726] (-) TimerEvent: {}
+[18.239862] (-) TimerEvent: {}
+[18.341033] (-) TimerEvent: {}
+[18.442157] (-) TimerEvent: {}
+[18.543436] (-) TimerEvent: {}
+[18.644348] (-) TimerEvent: {}
+[18.663465] (yolov8_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/detection_array__type_support.cpp.o\x1b[0m\n'}
+[18.744543] (-) TimerEvent: {}
+[18.794518] (yolov8_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/key_point3_d__type_support.cpp.o\x1b[0m\n'}
+[18.829727] (yolov8_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/key_point3_d_array__type_support.cpp.o\x1b[0m\n'}
+[18.844723] (-) TimerEvent: {}
+[18.943103] (yolov8_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/detection__type_support.cpp.o\x1b[0m\n'}
+[18.944863] (-) TimerEvent: {}
+[18.962845] (yolov8_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/vector2__type_support_c.cpp.o\x1b[0m\n'}
+[19.018749] (yolov8_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/pose2_d__type_support_c.cpp.o\x1b[0m\n'}
+[19.045057] (-) TimerEvent: {}
+[19.146087] (-) TimerEvent: {}
+[19.246822] (-) TimerEvent: {}
+[19.250130] (yolov8_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/bounding_box2_d__type_support_c.cpp.o\x1b[0m\n'}
+[19.347005] (-) TimerEvent: {}
+[19.447803] (-) TimerEvent: {}
+[19.548579] (-) TimerEvent: {}
+[19.587870] (yolov8_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/detection_array__type_support.cpp.o\x1b[0m\n'}
+[19.648787] (-) TimerEvent: {}
+[19.749528] (-) TimerEvent: {}
+[19.850313] (-) TimerEvent: {}
+[19.951103] (-) TimerEvent: {}
+[20.051885] (-) TimerEvent: {}
+[20.152690] (-) TimerEvent: {}
+[20.253474] (-) TimerEvent: {}
+[20.254748] (yolov8_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/bounding_box3_d__type_support_c.cpp.o\x1b[0m\n'}
+[20.353650] (-) TimerEvent: {}
+[20.434849] (yolov8_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/mask__type_support_c.cpp.o\x1b[0m\n'}
+[20.453819] (-) TimerEvent: {}
+[20.492385] (yolov8_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/key_point2_d__type_support_c.cpp.o\x1b[0m\n'}
+[20.553990] (-) TimerEvent: {}
+[20.628917] (yolov8_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/key_point2_d_array__type_support_c.cpp.o\x1b[0m\n'}
+[20.654165] (-) TimerEvent: {}
+[20.754932] (-) TimerEvent: {}
+[20.855709] (-) TimerEvent: {}
+[20.859171] (yolov8_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/key_point3_d__type_support_c.cpp.o\x1b[0m\n'}
+[20.955885] (-) TimerEvent: {}
+[21.026328] (yolov8_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/key_point3_d_array__type_support_c.cpp.o\x1b[0m\n'}
+[21.056060] (-) TimerEvent: {}
+[21.076727] (yolov8_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/detection__type_support_c.cpp.o\x1b[0m\n'}
+[21.125892] (yolov8_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/detection_array__type_support_c.cpp.o\x1b[0m\n'}
+[21.156237] (-) TimerEvent: {}
+[21.257093] (-) TimerEvent: {}
+[21.357928] (-) TimerEvent: {}
+[21.458755] (-) TimerEvent: {}
+[21.559749] (-) TimerEvent: {}
+[21.660592] (-) TimerEvent: {}
+[21.761388] (-) TimerEvent: {}
+[21.862165] (-) TimerEvent: {}
+[21.959966] (yolov8_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX shared library libyolov8_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[21.962330] (-) TimerEvent: {}
+[22.063088] (-) TimerEvent: {}
+[22.164095] (-) TimerEvent: {}
+[22.241959] (yolov8_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking CXX shared library libyolov8_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[22.264280] (-) TimerEvent: {}
+[22.362730] (yolov8_msgs) StdoutLine: {'line': b'[ 82%] Built target yolov8_msgs__rosidl_typesupport_introspection_cpp\n'}
+[22.364427] (-) TimerEvent: {}
+[22.465164] (-) TimerEvent: {}
+[22.545132] (yolov8_msgs) StdoutLine: {'line': b'[ 82%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[22.565295] (-) TimerEvent: {}
+[22.666067] (-) TimerEvent: {}
+[22.766596] (-) TimerEvent: {}
+[22.795346] (yolov8_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX shared library libyolov8_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[22.866782] (-) TimerEvent: {}
+[22.967369] (-) TimerEvent: {}
+[22.994121] (yolov8_msgs) StdoutLine: {'line': b'[ 83%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_c\n'}
+[23.022608] (yolov8_msgs) StdoutLine: {'line': b'[ 83%] Built target yolov8_msgs\n'}
+[23.051949] (yolov8_msgs) StdoutLine: {'line': b'[ 84%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[23.067528] (-) TimerEvent: {}
+[23.168104] (-) TimerEvent: {}
+[23.268635] (-) TimerEvent: {}
+[23.369186] (-) TimerEvent: {}
+[23.469769] (-) TimerEvent: {}
+[23.570344] (-) TimerEvent: {}
+[23.670937] (-) TimerEvent: {}
+[23.771466] (-) TimerEvent: {}
+[23.872104] (-) TimerEvent: {}
+[23.972685] (-) TimerEvent: {}
+[24.073276] (-) TimerEvent: {}
+[24.173851] (-) TimerEvent: {}
+[24.274421] (-) TimerEvent: {}
+[24.374984] (-) TimerEvent: {}
+[24.475555] (-) TimerEvent: {}
+[24.576126] (-) TimerEvent: {}
+[24.676761] (-) TimerEvent: {}
+[24.777339] (-) TimerEvent: {}
+[24.877935] (-) TimerEvent: {}
+[24.978464] (-) TimerEvent: {}
+[25.079049] (-) TimerEvent: {}
+[25.179615] (-) TimerEvent: {}
+[25.280181] (-) TimerEvent: {}
+[25.380761] (-) TimerEvent: {}
+[25.481403] (-) TimerEvent: {}
+[25.581981] (-) TimerEvent: {}
+[25.682548] (-) TimerEvent: {}
+[25.783131] (-) TimerEvent: {}
+[25.883667] (-) TimerEvent: {}
+[25.984288] (-) TimerEvent: {}
+[26.084984] (-) TimerEvent: {}
+[26.185675] (-) TimerEvent: {}
+[26.286414] (-) TimerEvent: {}
+[26.387501] (-) TimerEvent: {}
+[26.488296] (-) TimerEvent: {}
+[26.589051] (-) TimerEvent: {}
+[26.689862] (-) TimerEvent: {}
+[26.790549] (-) TimerEvent: {}
+[26.891090] (-) TimerEvent: {}
+[26.991659] (-) TimerEvent: {}
+[27.092294] (-) TimerEvent: {}
+[27.192887] (-) TimerEvent: {}
+[27.293780] (-) TimerEvent: {}
+[27.394336] (-) TimerEvent: {}
+[27.495033] (-) TimerEvent: {}
+[27.595705] (-) TimerEvent: {}
+[27.696416] (-) TimerEvent: {}
+[27.797393] (-) TimerEvent: {}
+[27.898122] (-) TimerEvent: {}
+[27.998796] (-) TimerEvent: {}
+[28.099457] (-) TimerEvent: {}
+[28.200111] (-) TimerEvent: {}
+[28.300803] (-) TimerEvent: {}
+[28.401429] (-) TimerEvent: {}
+[28.502089] (-) TimerEvent: {}
+[28.602622] (-) TimerEvent: {}
+[28.703191] (-) TimerEvent: {}
+[28.803693] (-) TimerEvent: {}
+[28.904197] (-) TimerEvent: {}
+[29.004702] (-) TimerEvent: {}
+[29.105138] (-) TimerEvent: {}
+[29.205547] (-) TimerEvent: {}
+[29.305943] (-) TimerEvent: {}
+[29.406323] (-) TimerEvent: {}
+[29.506749] (-) TimerEvent: {}
+[29.607131] (-) TimerEvent: {}
+[29.672459] (yolov8_msgs) StdoutLine: {'line': b'[ 84%] Built target yolov8_msgs__py\n'}
+[29.702969] (yolov8_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolov8_msgs/msg/_point2_d_s.c.o\x1b[0m\n'}
+[29.703596] (yolov8_msgs) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolov8_msgs/msg/_vector2_s.c.o\x1b[0m\n'}
+[29.704004] (yolov8_msgs) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolov8_msgs/msg/_pose2_d_s.c.o\x1b[0m\n'}
+[29.704634] (yolov8_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolov8_msgs/msg/_bounding_box3_d_s.c.o\x1b[0m\n'}
+[29.705229] (yolov8_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolov8_msgs/msg/_bounding_box2_d_s.c.o\x1b[0m\n'}
+[29.706320] (yolov8_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolov8_msgs/msg/_mask_s.c.o\x1b[0m\n'}
+[29.706976] (yolov8_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolov8_msgs/msg/_key_point2_d_s.c.o\x1b[0m\n'}
+[29.707502] (-) TimerEvent: {}
+[29.707906] (yolov8_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolov8_msgs/msg/_key_point2_d_array_s.c.o\x1b[0m\n'}
+[29.708306] (yolov8_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolov8_msgs/msg/_key_point3_d_s.c.o\x1b[0m\n'}
+[29.708711] (yolov8_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolov8_msgs/msg/_key_point3_d_array_s.c.o\x1b[0m\n'}
+[29.710126] (yolov8_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolov8_msgs/msg/_detection_s.c.o\x1b[0m\n'}
+[29.710797] (yolov8_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolov8_msgs/msg/_detection_array_s.c.o\x1b[0m\n'}
+[29.807689] (-) TimerEvent: {}
+[29.908508] (-) TimerEvent: {}
+[30.009222] (-) TimerEvent: {}
+[30.109948] (-) TimerEvent: {}
+[30.210700] (-) TimerEvent: {}
+[30.311397] (-) TimerEvent: {}
+[30.321540] (yolov8_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/yolov8_msgs/libyolov8_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[30.409219] (yolov8_msgs) StdoutLine: {'line': b'[ 95%] Built target yolov8_msgs__rosidl_generator_py\n'}
+[30.411525] (-) TimerEvent: {}
+[30.431534] (yolov8_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[30.432126] (yolov8_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[30.432506] (yolov8_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[30.511714] (-) TimerEvent: {}
+[30.612209] (-) TimerEvent: {}
+[30.712701] (-) TimerEvent: {}
+[30.775284] (yolov8_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[30.775767] (yolov8_msgs) StdoutLine: {'line': b'[ 99%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[30.778574] (yolov8_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[30.812904] (-) TimerEvent: {}
+[30.857621] (yolov8_msgs) StdoutLine: {'line': b'[100%] Built target yolov8_msgs__rosidl_typesupport_c__pyext\n'}
+[30.858293] (yolov8_msgs) StdoutLine: {'line': b'[100%] Built target yolov8_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[30.862406] (yolov8_msgs) StdoutLine: {'line': b'[100%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[30.888940] (yolov8_msgs) JobEnded: {'identifier': 'yolov8_msgs', 'rc': 'SIGINT'}
+[30.900691] (yolov8_bringup) JobSkipped: {'identifier': 'yolov8_bringup'}
+[30.900970] (-) EventReactorShutdown: {}

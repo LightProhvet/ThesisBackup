@@ -1,0 +1,94 @@
+[0.824s] Invoking command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/sophus': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/build/_deps/sophus-src -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/ros2_ws/install/sophus
+[0.962s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.963s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.963s]   CMake.
+[0.964s] 
+[0.964s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.965s]   CMake that the project does not need compatibility with older versions.
+[0.965s] 
+[0.966s] [0m
+[1.280s] -- The C compiler identification is GNU 11.4.0
+[1.641s] -- The CXX compiler identification is GNU 11.4.0
+[1.707s] -- Detecting C compiler ABI info
+[2.000s] -- Detecting C compiler ABI info - done
+[2.068s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.069s] -- Detecting C compile features
+[2.072s] -- Detecting C compile features - done
+[2.108s] -- Detecting CXX compiler ABI info
+[2.508s] -- Detecting CXX compiler ABI info - done
+[2.570s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.570s] -- Detecting CXX compile features
+[2.571s] -- Detecting CXX compile features - done
+[2.573s] -- CMake version: 3.28.1
+[2.613s] -- Found Eigen3: /usr/include/eigen3 (Required is at least version "3.3.0") 
+[2.641s] -- Turning basic logging OFF
+[2.725s] -- Configuring done (1.8s)
+[2.812s] -- Generating done (0.1s)
+[2.819s] -- Build files have been written to: /home/mihkel/School/ThesisPractical/ros2_ws/build/sophus
+[3.006s] Invoked command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/sophus' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/build/_deps/sophus-src -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/ros2_ws/install/sophus
+[3.008s] Invoking command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/sophus': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ThesisPractical/ros2_ws/build/sophus -- -j12 -l12
+[3.237s] [  3%] [32mBuilding CXX object test/core/CMakeFiles/test_common.dir/test_common.cpp.o[0m
+[3.250s] [ 10%] [32mBuilding CXX object test/core/CMakeFiles/test_cartesian2.dir/test_cartesian2.cpp.o[0m
+[3.250s] [ 10%] [32mBuilding CXX object test/core/CMakeFiles/test_cartesian3.dir/test_cartesian3.cpp.o[0m
+[3.255s] [ 14%] [32mBuilding CXX object test/core/CMakeFiles/test_se2.dir/test_se2.cpp.o[0m
+[3.256s] [ 17%] [32mBuilding CXX object test/core/CMakeFiles/test_so2.dir/test_so2.cpp.o[0m
+[3.295s] [ 21%] [32mBuilding CXX object test/core/CMakeFiles/test_rxso2.dir/test_rxso2.cpp.o[0m
+[3.315s] [ 25%] [32mBuilding CXX object test/core/CMakeFiles/test_sim2.dir/test_sim2.cpp.o[0m
+[3.325s] [ 28%] [32mBuilding CXX object test/core/CMakeFiles/test_se3.dir/test_se3.cpp.o[0m
+[3.352s] [ 32%] [32mBuilding CXX object test/core/CMakeFiles/test_so3.dir/test_so3.cpp.o[0m
+[3.372s] [ 35%] [32mBuilding CXX object test/core/CMakeFiles/test_rxso3.dir/test_rxso3.cpp.o[0m
+[3.391s] [ 39%] [32mBuilding CXX object test/core/CMakeFiles/test_velocities.dir/test_velocities.cpp.o[0m
+[3.401s] [ 42%] [32mBuilding CXX object test/core/CMakeFiles/test_sim3.dir/test_sim3.cpp.o[0m
+[10.518s] gmake[2]: *** wait: No child processes.  Stop.
+[10.519s] gmake[2]: *** Waiting for unfinished jobs....
+[10.519s] gmake[2]: *** wait: No child processes.  Stop.
+[10.519s] gmake[2]: *** wait: No child processes.  Stop.
+[10.520s] gmake[2]: *** Waiting for unfinished jobs....
+[10.520s] gmake[2]: *** wait: No child processes.  Stop.
+[10.521s] gmake[2]: *** [test/core/CMakeFiles/test_so2.dir/build.make:76: test/core/CMakeFiles/test_so2.dir/test_so2.cpp.o] Interrupt
+[10.522s] gmake[2]: *** [test/core/CMakeFiles/test_sim3.dir/build.make:76: test/core/CMakeFiles/test_sim3.dir/test_sim3.cpp.o] Interrupt
+[10.522s] gmake[1]: *** [CMakeFiles/Makefile2:200: test/core/CMakeFiles/test_common.dir/all] Error 2
+[10.523s] gmake[1]: *** [CMakeFiles/Makefile2:304: test/core/CMakeFiles/test_se2.dir/all] Error 2
+[10.523s] gmake[2]: *** wait: No child processes.  Stop.
+[10.526s] gmake[2]: *** Waiting for unfinished jobs....
+[10.530s] gmake[2]: *** wait: No child processes.  Stop.
+[10.530s] Traceback (most recent call last):
+[10.531s]   File "/home/mihkel/.local/bin/cmake", line 8, in <module>
+[10.531s] gmake[1]: *** [CMakeFiles/Makefile2:278: test/core/CMakeFiles/test_so2.dir/all] Interrupt
+[10.532s] gmake[2]: *** [test/core/CMakeFiles/test_velocities.dir/build.make:76: test/core/CMakeFiles/test_velocities.dir/test_velocities.cpp.o] Interrupt
+[10.532s] gmake[1]: *** [CMakeFiles/Makefile2:460: test/core/CMakeFiles/test_sim3.dir/all] Interrupt
+[10.532s]     sys.exit(cmake())
+[10.533s] gmake[1]: *** [CMakeFiles/Makefile2:408: test/core/CMakeFiles/test_se3.dir/all] Error 2
+[10.533s]   File "/home/mihkel/.local/lib/python3.10/site-packages/cmake/__init__.py", line 47, in cmake
+[10.533s] gmake[1]: *** [CMakeFiles/Makefile2:486: test/core/CMakeFiles/test_velocities.dir/all] Interrupt
+[10.534s] gmake[2]: *** wait: No child processes.  Stop.
+[10.534s] gmake[2]: *** Waiting for unfinished jobs....
+[10.535s] gmake[2]: *** wait: No child processes.  Stop.
+[10.535s] gmake[2]: *** [test/core/CMakeFiles/test_rxso3.dir/build.make:76: test/core/CMakeFiles/test_rxso3.dir/test_rxso3.cpp.o] Interrupt
+[10.536s] gmake[1]: *** [CMakeFiles/Makefile2:382: test/core/CMakeFiles/test_so3.dir/all] Error 2
+[10.536s] gmake[1]: *** [CMakeFiles/Makefile2:434: test/core/CMakeFiles/test_rxso3.dir/all] Interrupt
+[10.536s] gmake[2]: *** wait: No child processes.  Stop.
+[10.537s] gmake[2]: *** Waiting for unfinished jobs....
+[10.537s] gmake[2]: *** wait: No child processes.  Stop.
+[10.537s] gmake[1]: *** [CMakeFiles/Makefile2:252: test/core/CMakeFiles/test_cartesian3.dir/all] Error 2
+[10.538s] gmake[2]: *** wait: No child processes.  Stop.
+[10.538s] gmake[2]: *** Waiting for unfinished jobs....
+[10.538s] gmake[2]: *** wait: No child processes.  Stop.
+[10.538s] gmake[1]: *** [CMakeFiles/Makefile2:226: test/core/CMakeFiles/test_cartesian2.dir/all] Error 2
+[10.539s] gmake[2]: *** [test/core/CMakeFiles/test_rxso2.dir/build.make:76: test/core/CMakeFiles/test_rxso2.dir/test_rxso2.cpp.o] Interrupt
+[10.539s] gmake[2]: *** [test/core/CMakeFiles/test_sim2.dir/build.make:76: test/core/CMakeFiles/test_sim2.dir/test_sim2.cpp.o] Interrupt
+[10.539s] gmake[1]: *** [CMakeFiles/Makefile2:330: test/core/CMakeFiles/test_rxso2.dir/all] Interrupt
+[10.539s] gmake[1]: *** [CMakeFiles/Makefile2:356: test/core/CMakeFiles/test_sim2.dir/all] Interrupt
+[10.540s] gmake: *** [Makefile:146: all] Interrupt
+[10.540s]     raise SystemExit(_program('cmake', sys.argv[1:]))
+[10.540s]   File "/home/mihkel/.local/lib/python3.10/site-packages/cmake/__init__.py", line 43, in _program
+[10.541s]     return subprocess.call([os.path.join(CMAKE_BIN_DIR, name)] + args, close_fds=False)
+[10.542s]   File "/usr/lib/python3.10/subprocess.py", line 347, in call
+[10.542s]     return p.wait(timeout=timeout)
+[10.542s]   File "/usr/lib/python3.10/subprocess.py", line 1209, in wait
+[10.542s]     return self._wait(timeout=timeout)
+[10.543s]   File "/usr/lib/python3.10/subprocess.py", line 1959, in _wait
+[10.543s]     (pid, sts) = self._try_wait(0)
+[10.543s]   File "/usr/lib/python3.10/subprocess.py", line 1917, in _try_wait
+[10.543s]     (pid, sts) = os.waitpid(self.pid, wait_flags)
+[10.544s] KeyboardInterrupt

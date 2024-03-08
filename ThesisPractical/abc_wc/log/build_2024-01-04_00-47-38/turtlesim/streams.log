@@ -1,0 +1,548 @@
+[0.226s] Invoking command in '/home/mihkel/School/ThesisPractical/abc_wc/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/abc_wc/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim
+[0.425s] -- The C compiler identification is GNU 11.4.0
+[0.582s] -- The CXX compiler identification is GNU 11.4.0
+[0.624s] -- Detecting C compiler ABI info
+[0.789s] -- Detecting C compiler ABI info - done
+[0.825s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.826s] -- Detecting C compile features
+[0.827s] -- Detecting C compile features - done
+[0.850s] -- Detecting CXX compiler ABI info
+[1.046s] -- Detecting CXX compiler ABI info - done
+[1.087s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.088s] -- Detecting CXX compile features
+[1.090s] -- Detecting CXX compile features - done
+[1.098s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.690s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[4.982s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[4.989s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[5.136s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.156s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.191s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.250s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.335s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.880s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[6.123s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.133s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.456s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.554s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.720s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.756s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.929s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.933s] -- Found Threads: TRUE  
+[7.523s] -- Found rclcpp_action: 16.0.7 (/opt/ros/humble/share/rclcpp_action/cmake)
+[7.974s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[8.016s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[9.992s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[13.337s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[14.642s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[14.650s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[14.650s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[14.651s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[14.651s]   the cmake_policy command to set the policy and suppress this warning.
+[14.652s] 
+[14.652s] Call Stack (most recent call first):
+[14.652s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[14.653s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[14.653s]   CMakeLists.txt:24 (rosidl_generate_interfaces)
+[14.653s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[14.654s] [0m
+[14.757s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[14.763s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[14.765s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[14.765s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[14.766s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[14.766s]   the cmake_policy command to set the policy and suppress this warning.
+[14.766s] 
+[14.767s] Call Stack (most recent call first):
+[14.767s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[14.767s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[14.768s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[14.768s]   CMakeLists.txt:24 (rosidl_generate_interfaces)
+[14.768s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[14.768s] [0m
+[14.873s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[14.873s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[14.874s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[14.874s]   the cmake_policy command to set the policy and suppress this warning.
+[14.875s] 
+[14.875s] Call Stack (most recent call first):
+[14.875s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[14.876s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[14.876s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[14.877s]   CMakeLists.txt:24 (rosidl_generate_interfaces)
+[14.877s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[14.877s] [0m
+[14.897s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[14.897s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[14.898s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[14.898s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[15.011s] -- Found PythonExtra: .so  
+[15.270s] -- Configuring done (15.0s)
+[15.563s] -- Generating done (0.2s)
+[15.575s] -- Build files have been written to: /home/mihkel/School/ThesisPractical/abc_wc/build/turtlesim
+[15.632s] Invoked command in '/home/mihkel/School/ThesisPractical/abc_wc/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/abc_wc/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim
+[15.639s] Invoking command in '/home/mihkel/School/ThesisPractical/abc_wc/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ThesisPractical/abc_wc/build/turtlesim
+[15.790s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[15.804s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[15.811s] [  2%] Built target ament_cmake_python_copy_turtlesim
+[17.159s] running egg_info
+[17.160s] creating turtlesim.egg-info
+[17.161s] writing turtlesim.egg-info/PKG-INFO
+[17.162s] writing dependency_links to turtlesim.egg-info/dependency_links.txt
+[17.165s] writing top-level names to turtlesim.egg-info/top_level.txt
+[17.166s] writing manifest file 'turtlesim.egg-info/SOURCES.txt'
+[17.172s] reading manifest file 'turtlesim.egg-info/SOURCES.txt'
+[17.173s] writing manifest file 'turtlesim.egg-info/SOURCES.txt'
+[17.249s] [  2%] Built target ament_cmake_python_build_turtlesim_egg
+[18.940s] [  2%] Built target turtlesim__cpp
+[18.955s] [  3%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[18.958s] [  4%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[18.962s] [  5%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[19.273s] [  6%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/action/detail/rotate_absolute__functions.c.o[0m
+[19.667s] [  7%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/color__functions.c.o[0m
+[19.785s] [  8%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/pose__functions.c.o[0m
+[19.906s] [  9%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/kill__functions.c.o[0m
+[20.067s] [ 10%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/set_pen__functions.c.o[0m
+[20.224s] [ 11%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/spawn__functions.c.o[0m
+[20.389s] [ 12%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_absolute__functions.c.o[0m
+[20.549s] [ 13%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_relative__functions.c.o[0m
+[20.701s] [ 14%] [32m[1mLinking C shared library libturtlesim__rosidl_generator_c.so[0m
+[20.785s] [ 14%] Built target turtlesim__rosidl_generator_c
+[20.799s] [ 15%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[20.952s] [ 16%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/action/rotate_absolute__type_support.cpp.o[0m
+[21.308s] [ 17%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/action/detail/rotate_absolute__type_support.cpp.o[0m
+[21.880s] [ 18%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/action/detail/dds_fastrtps/rotate_absolute__type_support.cpp.o[0m
+[22.429s] [ 19%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/color__type_support.cpp.o[0m
+[23.303s] [ 20%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/pose__type_support.cpp.o[0m
+[23.337s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/msg/detail/color__type_support.cpp.o[0m
+[23.745s] [ 22%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/color__type_support.cpp.o[0m
+[23.778s] [ 23%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/action/detail/rotate_absolute__type_support_c.cpp.o[0m
+[24.173s] [ 24%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/kill__type_support.cpp.o[0m
+[24.660s] [ 25%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/msg/detail/pose__type_support.cpp.o[0m
+[25.018s] [ 26%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/pose__type_support.cpp.o[0m
+[25.047s] [ 27%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/set_pen__type_support.cpp.o[0m
+[25.077s] [ 28%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/color__type_support_c.cpp.o[0m
+[25.893s] [ 29%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/kill__type_support.cpp.o[0m
+[25.904s] [ 30%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/spawn__type_support.cpp.o[0m
+[26.244s] [ 31%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/pose__type_support_c.cpp.o[0m
+[26.318s] [ 32%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/kill__type_support.cpp.o[0m
+[26.751s] [ 33%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_absolute__type_support.cpp.o[0m
+[27.136s] [ 34%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/set_pen__type_support.cpp.o[0m
+[27.433s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/kill__type_support_c.cpp.o[0m
+[27.619s] [ 36%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_relative__type_support.cpp.o[0m
+[27.671s] [ 37%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/set_pen__type_support.cpp.o[0m
+[28.389s] [ 38%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/spawn__type_support.cpp.o[0m
+[28.473s] [ 39%] [32m[1mLinking CXX shared library libturtlesim__rosidl_typesupport_cpp.so[0m
+[28.573s] [ 39%] Built target turtlesim__rosidl_typesupport_cpp
+[28.582s] [ 40%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/teleport_absolute__type_support.cpp.o[0m
+[28.675s] [ 41%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/set_pen__type_support_c.cpp.o[0m
+[29.020s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/spawn__type_support.cpp.o[0m
+[29.664s] [ 43%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/teleport_relative__type_support.cpp.o[0m
+[29.815s] [ 44%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/spawn__type_support_c.cpp.o[0m
+[29.849s] [ 45%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[30.378s] [ 46%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_absolute__type_support.cpp.o[0m
+[30.946s] [ 47%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/teleport_absolute__type_support_c.cpp.o[0m
+[30.981s] [ 48%] [32m[1mLinking CXX shared library libturtlesim__rosidl_typesupport_introspection_cpp.so[0m
+[31.176s] [ 48%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[31.189s] [ 49%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[31.708s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_relative__type_support.cpp.o[0m
+[32.050s] [ 51%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/teleport_relative__type_support_c.cpp.o[0m
+[32.327s] [ 52%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/action/detail/rotate_absolute__type_support.c.o[0m
+[32.449s] [ 53%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/detail/color__type_support.c.o[0m
+[32.527s] [ 54%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/detail/pose__type_support.c.o[0m
+[32.607s] [ 55%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/kill__type_support.c.o[0m
+[32.699s] [ 56%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/set_pen__type_support.c.o[0m
+[32.798s] [ 57%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/spawn__type_support.c.o[0m
+[32.906s] [ 58%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_absolute__type_support.c.o[0m
+[32.978s] [ 59%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/action/rotate_absolute__type_support.cpp.o[0m
+[33.012s] [ 60%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_relative__type_support.c.o[0m
+[33.036s] [ 61%] [32m[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_cpp.so[0m
+[33.110s] [ 62%] [32m[1mLinking C shared library libturtlesim__rosidl_typesupport_introspection_c.so[0m
+[33.115s] [ 63%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/color__type_support.cpp.o[0m
+[33.177s] [ 63%] Built target turtlesim__rosidl_typesupport_introspection_c
+[33.189s] [ 64%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/pose__type_support.cpp.o[0m
+[33.190s] [ 65%] [34m[1mGenerating include/turtlesim/moc_turtle_frame.cpp[0m
+[33.204s] [ 66%] [32m[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_c.so[0m
+[33.239s] [ 66%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[33.267s] [ 67%] [32mBuilding CXX object CMakeFiles/turtle_teleop_key.dir/tutorials/teleop_turtle_key.cpp.o[0m
+[33.276s] [ 68%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/kill__type_support.cpp.o[0m
+[33.360s] [ 69%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/set_pen__type_support.cpp.o[0m
+[33.387s] [ 70%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtlesim.cpp.o[0m
+[33.410s] [ 70%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[33.438s] [ 71%] [32mBuilding CXX object CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.o[0m
+[33.440s] [ 72%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/spawn__type_support.cpp.o[0m
+[33.517s] [ 73%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/teleport_absolute__type_support.cpp.o[0m
+[33.589s] [ 74%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/teleport_relative__type_support.cpp.o[0m
+[33.674s] [ 75%] [32m[1mLinking CXX shared library libturtlesim__rosidl_typesupport_c.so[0m
+[33.769s] [ 75%] Built target turtlesim__rosidl_typesupport_c
+[33.796s] [ 76%] [32mBuilding CXX object CMakeFiles/mimic.dir/tutorials/mimic.cpp.o[0m
+[49.023s] [ 77%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle.cpp.o[0m
+[56.180s] [ 78%] [32m[1mLinking CXX executable turtle_teleop_key[0m
+[57.428s] [ 78%] Built target turtle_teleop_key
+[57.521s] [ 78%] Built target turtlesim
+[57.591s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[69.617s] [ 80%] [32m[1mLinking CXX executable mimic[0m
+[69.684s] [ 80%] Built target turtlesim__py
+[69.731s] [ 81%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/action/_rotate_absolute_s.c.o[0m
+[70.578s] [ 82%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_color_s.c.o[0m
+[71.138s] [ 83%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_pose_s.c.o[0m
+[71.638s] [ 83%] Built target mimic
+[71.674s] [ 84%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_kill_s.c.o[0m
+[71.711s] [ 85%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_set_pen_s.c.o[0m
+[72.146s] [ 86%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_spawn_s.c.o[0m
+[72.239s] [ 87%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_absolute_s.c.o[0m
+[72.603s] [ 88%] [32m[1mLinking CXX executable draw_square[0m
+[72.752s] [ 89%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_relative_s.c.o[0m
+[72.876s] [ 90%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o[0m
+[73.313s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/turtlesim/libturtlesim__rosidl_generator_py.so[0m
+[73.465s] [ 91%] Built target turtlesim__rosidl_generator_py
+[73.510s] [ 92%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[74.193s] [ 92%] Built target draw_square
+[74.222s] [ 93%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[74.457s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[74.631s] [ 94%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext
+[74.678s] [ 95%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c.o[0m
+[74.856s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[74.952s] [ 96%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext
+[75.612s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[75.783s] [ 97%] Built target turtlesim__rosidl_typesupport_c__pyext
+[117.271s] [ 98%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/include/turtlesim/moc_turtle_frame.cpp.o[0m
+[140.157s] [100%] [32m[1mLinking CXX executable turtlesim_node[0m
+[149.433s] [100%] Built target turtlesim_node
+[149.482s] Invoked command in '/home/mihkel/School/ThesisPractical/abc_wc/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ThesisPractical/abc_wc/build/turtlesim
+[150.792s] Invoking command in '/home/mihkel/School/ThesisPractical/abc_wc/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --install /home/mihkel/School/ThesisPractical/abc_wc/build/turtlesim
+[150.938s] -- Install configuration: ""
+[150.939s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim
+[150.940s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim
+[150.940s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv
+[150.941s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[150.941s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c
+[150.942s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h
+[150.943s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h
+[150.943s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h
+[150.944s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h
+[150.944s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h
+[150.945s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h
+[150.945s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h
+[150.946s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c
+[150.946s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h
+[150.947s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h
+[150.947s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c
+[150.947s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c
+[150.948s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h
+[150.949s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h
+[150.950s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c
+[150.951s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h
+[150.951s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h
+[150.952s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h
+[150.953s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h
+[150.953s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h
+[150.954s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h
+[150.955s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h
+[150.955s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h
+[150.956s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h
+[150.957s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action
+[150.957s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[150.958s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h
+[150.959s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c
+[150.959s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h
+[150.960s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h
+[150.960s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h
+[150.961s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg
+[150.962s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/color.h
+[150.962s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h
+[150.963s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[150.964s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h
+[150.964s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h
+[150.965s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c
+[150.965s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h
+[150.966s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c
+[150.967s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h
+[150.967s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h
+[150.968s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h
+[150.968s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h
+[150.969s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/environment/library_path.sh
+[150.970s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/environment/library_path.dsv
+[150.970s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so
+[150.971s] -- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so" to ""
+[150.972s] -- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim
+[150.972s] -- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv
+[150.973s] -- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[150.974s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h
+[150.974s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h
+[150.975s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h
+[150.976s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h
+[150.976s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h
+[150.977s] -- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action
+[150.978s] -- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[150.979s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h
+[150.979s] -- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg
+[150.980s] -- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[150.981s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h
+[150.981s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h
+[150.982s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[150.982s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so
+[150.983s] -- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so" to ""
+[150.984s] -- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim
+[150.984s] -- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv
+[150.985s] -- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[150.985s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp
+[150.986s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp
+[150.987s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp
+[150.987s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp
+[150.988s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp
+[150.989s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp
+[150.989s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp
+[150.989s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp
+[150.990s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp
+[150.990s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp
+[150.991s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp
+[150.991s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp
+[150.992s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp
+[150.992s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp
+[150.993s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp
+[150.993s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp
+[150.994s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp
+[150.994s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp
+[150.995s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp
+[150.995s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp
+[150.996s] -- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action
+[150.997s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp
+[150.997s] -- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[150.998s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp
+[150.998s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp
+[151.000s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp
+[151.000s] -- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg
+[151.001s] -- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[151.002s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp
+[151.002s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp
+[151.003s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp
+[151.004s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp
+[151.004s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp
+[151.005s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp
+[151.005s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp
+[151.006s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp
+[151.007s] -- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim
+[151.007s] -- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv
+[151.008s] -- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[151.009s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp
+[151.009s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps
+[151.010s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp
+[151.010s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp
+[151.011s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+[151.012s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp
+[151.013s] -- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action
+[151.013s] -- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[151.014s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps
+[151.015s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+[151.016s] -- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg
+[151.016s] -- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[151.017s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp
+[151.017s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps
+[151.017s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp
+[151.018s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[151.018s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so
+[151.019s] -- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so" to ""
+[151.019s] -- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim
+[151.020s] -- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv
+[151.020s] -- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[151.021s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h
+[151.021s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c
+[151.022s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c
+[151.022s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c
+[151.023s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h
+[151.023s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c
+[151.024s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h
+[151.024s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h
+[151.025s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c
+[151.025s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h
+[151.025s] -- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action
+[151.026s] -- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[151.026s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c
+[151.027s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h
+[151.027s] -- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg
+[151.028s] -- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[151.028s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h
+[151.029s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h
+[151.029s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c
+[151.030s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c
+[151.030s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[151.031s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so
+[151.031s] -- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so" to ""
+[151.032s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so
+[151.032s] -- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so" to ""
+[151.033s] -- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim
+[151.033s] -- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv
+[151.033s] -- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[151.034s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp
+[151.035s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp
+[151.036s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp
+[151.036s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp
+[151.036s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp
+[151.037s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp
+[151.037s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp
+[151.038s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp
+[151.039s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp
+[151.039s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp
+[151.040s] -- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action
+[151.040s] -- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[151.040s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp
+[151.041s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp
+[151.041s] -- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg
+[151.042s] -- Up-to-date: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[151.042s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp
+[151.043s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp
+[151.043s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp
+[151.044s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp
+[151.044s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so
+[151.045s] -- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so" to ""
+[151.045s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so
+[151.046s] -- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so" to ""
+[151.046s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/environment/pythonpath.sh
+[151.047s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/environment/pythonpath.dsv
+[151.047s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info
+[151.048s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/top_level.txt
+[151.048s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/PKG-INFO
+[151.049s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/SOURCES.txt
+[151.049s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/dependency_links.txt
+[151.049s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim
+[151.050s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv
+[151.050s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py
+[151.051s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen_s.c
+[151.051s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn_s.c
+[151.052s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py
+[151.052s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute_s.c
+[151.053s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py
+[151.053s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative_s.c
+[151.054s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py
+[151.054s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill_s.c
+[151.055s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py
+[151.055s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py
+[151.056s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[151.056s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[151.057s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c
+[151.057s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c
+[151.058s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[151.058s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action
+[151.058s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py
+[151.059s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute_s.c
+[151.059s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py
+[151.060s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/libturtlesim__rosidl_generator_py.so
+[151.060s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c
+[151.061s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py
+[151.061s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg
+[151.062s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py
+[151.062s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color_s.c
+[151.063s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py
+[151.063s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose_s.c
+[151.064s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py
+[151.238s] Listing '/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim'...
+[151.239s] Compiling '/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py'...
+[151.240s] Listing '/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action'...
+[151.240s] Compiling '/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py'...
+[151.241s] Compiling '/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py'...
+[151.241s] Listing '/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg'...
+[151.242s] Compiling '/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py'...
+[151.242s] Compiling '/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py'...
+[151.243s] Compiling '/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py'...
+[151.243s] Listing '/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv'...
+[151.243s] Compiling '/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py'...
+[151.244s] Compiling '/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py'...
+[151.244s] Compiling '/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py'...
+[151.245s] Compiling '/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py'...
+[151.245s] Compiling '/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py'...
+[151.246s] Compiling '/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py'...
+[151.262s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[151.264s] -- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[151.265s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[151.266s] -- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[151.268s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[151.269s] -- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[151.270s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so
+[151.271s] -- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so" to ""
+[151.272s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl
+[151.273s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/msg/Color.idl
+[151.273s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/msg/Pose.idl
+[151.274s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/srv/Kill.idl
+[151.275s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/srv/SetPen.idl
+[151.275s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/srv/Spawn.idl
+[151.276s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl
+[151.276s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl
+[151.277s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/action/RotateAbsolute.action
+[151.278s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/msg/Color.msg
+[151.278s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/msg/Pose.msg
+[151.279s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/srv/Kill.srv
+[151.279s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/srv/Kill_Request.msg
+[151.280s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/srv/Kill_Response.msg
+[151.280s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/srv/SetPen.srv
+[151.281s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg
+[151.282s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg
+[151.282s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/srv/Spawn.srv
+[151.283s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg
+[151.284s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg
+[151.284s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv
+[151.285s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg
+[151.287s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg
+[151.287s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv
+[151.288s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg
+[151.288s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg
+[151.295s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/turtlesim/turtlesim_node
+[151.335s] -- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/turtlesim/turtlesim_node" to ""
+[151.335s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/turtlesim/turtle_teleop_key
+[151.345s] -- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/turtlesim/turtle_teleop_key" to ""
+[151.346s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/turtlesim/draw_square
+[151.369s] -- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/turtlesim/draw_square" to ""
+[151.369s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/turtlesim/mimic
+[151.389s] -- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/lib/turtlesim/mimic" to ""
+[151.390s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/images
+[151.391s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/images/rolling.png
+[151.391s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/images/eloquent.png
+[151.392s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/images/galactic.png
+[151.392s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/images/dashing.png
+[151.393s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/images/crystal.png
+[151.393s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/images/ardent.png
+[151.393s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/images/bouncy.png
+[151.394s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/images/foxy.png
+[151.394s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/images/humble.png
+[151.395s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/launch
+[151.395s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/launch/multisim.launch.py
+[151.396s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim
+[151.397s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim
+[151.398s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh
+[151.399s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv
+[151.399s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/environment/path.sh
+[151.400s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/environment/path.dsv
+[151.401s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/local_setup.bash
+[151.402s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/local_setup.sh
+[151.402s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/local_setup.zsh
+[151.403s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/local_setup.dsv
+[151.404s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/package.dsv
+[151.404s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/ament_index/resource_index/packages/turtlesim
+[151.405s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake
+[151.406s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake
+[151.407s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake
+[151.408s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[151.409s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake
+[151.409s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake
+[151.410s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[151.412s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake
+[151.413s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[151.413s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake
+[151.414s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake
+[151.414s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake
+[151.415s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[151.416s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake
+[151.416s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake
+[151.417s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake
+[151.418s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake
+[151.419s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake
+[151.419s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake
+[151.420s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake
+[151.421s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake
+[151.422s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake
+[151.422s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[151.423s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[151.424s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake
+[151.424s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake
+[151.425s] -- Installing: /home/mihkel/School/ThesisPractical/abc_wc/install/turtlesim/share/turtlesim/package.xml
+[151.458s] Invoked command in '/home/mihkel/School/ThesisPractical/abc_wc/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --install /home/mihkel/School/ThesisPractical/abc_wc/build/turtlesim

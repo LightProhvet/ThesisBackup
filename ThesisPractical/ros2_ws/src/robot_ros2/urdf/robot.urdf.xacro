@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+
+<robot name="robot_xl" xmlns:xacro="http://www.ros.org/wiki/xacro">
+<!-- Import wheels -->
+<xacro:include filename="$(find-pkg-share hospital_carrier)/urdf/omni_wheel.urdf.xacro" />
+<xacro:include filename="$(find-pkg-share hospital_carrier)/urdf/robot_base.urdf.xacro" />
+<create/>
+<!-- Wheel parameters -->
+<xacro:property name="wheel_offset_x" value="0.2225" />    <!-- x,y,z in translation from base_link to the center of the wheel -->
+<xacro:property name="wheel_offset_y" value="0.2045" />
+<xacro:property name="wheel_offset_z" value="0.0" />
+
+<xacro:macro name="robot">
+
+<xacro:robot_base/>
+
+<xacro:omni_wheel prefix="robot_front_right" parent="robot_base_link" reflect="false">
+<origin xyz="${wheel_offset_x} -${wheel_offset_y} ${wheel_offset_z}" rpy="0 0 0"/>
+</xacro:omni_wheel>
+
+<xacro:omni_wheel prefix="robot_front_left" parent="robot_base_link" reflect="true">
+<origin xyz="${wheel_offset_x} ${wheel_offset_y} ${wheel_offset_z}" rpy="0 0 0"/>
+</xacro:omni_wheel>
+
+<xacro:omni_wheel prefix="robot_back_left" parent="robot_base_link" reflect="true">
+<origin xyz="-${wheel_offset_x} ${wheel_offset_y} ${wheel_offset_z}" rpy="0 0 0"/>
+</xacro:omni_wheel>
+
+<xacro:omni_wheel prefix="robot_back_right" parent="robot_base_link" reflect="false">
+<origin xyz="-${wheel_offset_x} -${wheel_offset_y} ${wheel_offset_z}" rpy="0 0 0"/>
+</xacro:omni_wheel>
+
+<!-- <xacro:omni_steering/> -->
+<!--
+<link name="robot_front_right">
+</link>
+
+ <joint name="robot_front_right_joint" type="continuous">
+    <origin xyz="${wheel_offset_x} -${wheel_offset_y} ${wheel_offset_z}" rpy="0 0 0"/>
+    <parent link="robot_base_link"/>
+    <child link="robot_front_right" />
+</joint>
+
+<link name="robot_front_left">
+</link>
+
+ <joint name="robot_front_left_joint" type="continuous">
+    <origin xyz="${wheel_offset_x} ${wheel_offset_y} ${wheel_offset_z}" rpy="0 0 0"/>
+    <parent link="robot_base_link"/>
+    <child link="robot_front_left" />
+</joint>
+
+<link name="robot_back_left">
+</link>
+
+ <joint name="robot_back_left_joint" type="continuous">
+    <origin xyz="-${wheel_offset_x} ${wheel_offset_y} ${wheel_offset_z}" rpy="0 0 0"/>
+    <parent link="robot_base_link"/>
+    <child link="robot_back_left" />
+</joint>
+
+<link name="robot_back_right">
+</link>
+
+ <joint name="robot_back_right_joint" type="continuous">
+    <origin xyz="-${wheel_offset_x} -${wheel_offset_y} ${wheel_offset_z}" rpy="0 0 0"/>
+    <parent link="robot_base_link"/>
+    <child link="robot_back_right" />
+</joint>
+-->
+
+</xacro:macro>
+
+<xacro:robot/>
+
+</robot>
+

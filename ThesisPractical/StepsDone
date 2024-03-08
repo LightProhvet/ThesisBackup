@@ -1,0 +1,55 @@
+1) follow old system installation
+	1) humble
+	2) installs:
+		sudo apt-get install ros-humble-tf-transformations
+		sudo apt-get install ros-humble-depthimage-to-laserscan
+		sudo pip3 install transforms3d
+		pip3 install defusedxml
+		pip install paho-mqtt
+		pip install fibre
+		pip install odrive
+		pip install pyserial
+		pip install approxeng.input==2.6.2
+		pip install pyzbar
+		pip3 install setuptools==58.2.0
+		(this should be enough to build)
+		(Realsense: i recommend building from source, but this is sufficient)
+		sudo apt install ros-humble-librealsense2* (wo gui and examples)
+		sudo apt install ros-humble-realsense2-*
+		(Rtabmap: )
+		(sudo apt install ros-humble-rtabmap-ros(NOT RECOMMENDED, BUILD SOURCE)
+		sudo apt-get install ros-humble-imu-tools
+		sudo apt install ros-humble-navigation2
+		sudo apt install ros-humble-nav2-bringup
+		sudo apt install ros-humble-apriltag*
+
+		sudo apt install ros-humble-slam-toolbox
+		sudo apt install ros-humble-navigation2 (duplicate)
+		sudo apt install ros-humble-nav2-bringup(duplicate)
+		
+	(other optional)
+		sudo apt-get install qt5-default (GUI for realsense)
+	3) sources (recommended in ws/src)
+		git clone https://gitlab.com/hospitalrobot/robot_ros2.git
+		git clone https://gitlab.com/hospitalrobot/robot-ros2-messages.git
+	(sources directly in ws:)
+		git clone https://github.com/ros-perception/depthimage_to_laserscan.git && cd depthimage_to_laserscan/ && git checkout ros2 && cd ..
+	(sources anywhere, preferably out of ws)
+	    (RS stuff from https://github.com/IntelRealSense/realsense-ros) 
+		(Librealsense: see full totrial here: https://github.com/IntelRealSense/librealsense/blob/master/doc/installation.md) 
+		git clone https://github.com/IntelRealSense/librealsense.git  
+		(realsense-ros: https://github.com/IntelRealSense/realsense-ros)
+		git clone https://github.com/IntelRealSense/realsense-ros.git -b ros2-development
+		
+		 
+		
+	4) source ws:
+		source /opt/ros/humble/setup.bash (ros2 commands)
+		source install/setup.bash (in ws, robot commands)
+	5) OTher checks:
+		1) RS firmware
+		2) Locale
+		
+		
+		
+

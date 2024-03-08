@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: kf_hungarian_tracker
+Version: 0.0.1
+Summary: Use Kalman Filter and Hungarian algorithm to track multiple objects
+Maintainer: Shengjian Chen, Steven Macenski
+Maintainer-email: csj15thu@gmail.com, stevenmacenski@gmail.com
+License: Apache-2.0
+Requires-Dist: setuptools

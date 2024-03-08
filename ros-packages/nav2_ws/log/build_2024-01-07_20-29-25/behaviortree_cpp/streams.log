@@ -1,0 +1,251 @@
+[0.266s] Invoking command in '/home/mihkel/School/ros-packages/nav2_ws/build/behaviortree_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ros-packages/nav2_ws/build/behaviortree_cpp -- -j12 -l12
+[0.411s] [  1%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.418s] [  3%] Built target lexy_file
+[0.426s] [  4%] Built target gtest_main
+[0.543s] [  5%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/bt_factory.cpp.o[0m
+[0.545s] [  5%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/script_parser.cpp.o[0m
+[0.548s] [  7%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/xml_parsing.cpp.o[0m
+[0.548s] [  7%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/controls/parallel_node.cpp.o[0m
+[0.549s] [  8%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/controls/parallel_all_node.cpp.o[0m
+[0.550s] [  9%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/controls/reactive_fallback.cpp.o[0m
+[0.550s] [  9%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/controls/reactive_sequence.cpp.o[0m
+[0.552s] [ 10%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/controls/sequence_node.cpp.o[0m
+[0.555s] [ 11%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/controls/sequence_with_memory_node.cpp.o[0m
+[0.562s] [ 12%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/controls/switch_node.cpp.o[0m
+[0.577s] [ 12%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/controls/while_do_else_node.cpp.o[0m
+[8.711s] [ 13%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/loggers/bt_cout_logger.cpp.o[0m
+[9.100s] [ 14%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/loggers/bt_file_logger_v2.cpp.o[0m
+[9.468s] [ 15%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/loggers/bt_minitrace_logger.cpp.o[0m
+[9.563s] [ 16%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/loggers/bt_observer.cpp.o[0m
+[9.995s] [ 16%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/3rdparty/tinyxml2/tinyxml2.cpp.o[0m
+[10.356s] [ 17%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/3rdparty/minitrace/minitrace.cpp.o[0m
+[12.917s] [ 18%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/loggers/groot2_publisher.cpp.o[0m
+[12.937s] [ 19%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/loggers/bt_sqlite_logger.cpp.o[0m
+[15.188s] [ 20%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/shared_library_UNIX.cpp.o[0m
+[41.339s] [ 21%] [32m[1mLinking CXX static library libgtest.a[0m
+[41.401s] [ 21%] Built target gtest
+[61.601s] [ 21%] [32m[1mLinking CXX shared library libbehaviortree_cpp.so[0m
+[62.060s] [ 37%] Built target behaviortree_cpp
+[62.093s] [ 37%] [32mBuilding CXX object sample_nodes/CMakeFiles/bt_sample_nodes.dir/dummy_nodes.cpp.o[0m
+[62.093s] [ 39%] [32mBuilding CXX object sample_nodes/CMakeFiles/bt_sample_nodes.dir/crossdoor_nodes.cpp.o[0m
+[62.094s] [ 39%] [32mBuilding CXX object sample_nodes/CMakeFiles/dummy_nodes_dyn.dir/dummy_nodes.cpp.o[0m
+[62.094s] [ 39%] [32mBuilding CXX object sample_nodes/CMakeFiles/crossdoor_nodes_dyn.dir/crossdoor_nodes.cpp.o[0m
+[62.095s] [ 40%] [32mBuilding CXX object sample_nodes/CMakeFiles/movebase_node_dyn.dir/movebase_node.cpp.o[0m
+[62.095s] [ 41%] [32mBuilding CXX object examples/CMakeFiles/t13_plugin_action.dir/t13_plugin_action.cpp.o[0m
+[62.096s] [ 42%] [32mBuilding CXX object sample_nodes/CMakeFiles/bt_sample_nodes.dir/movebase_node.cpp.o[0m
+[62.096s] [ 42%] [32mBuilding CXX object tools/CMakeFiles/bt3_log_cat.dir/bt_log_cat.cpp.o[0m
+[62.097s] [ 43%] [32mBuilding CXX object tools/CMakeFiles/bt3_plugin_manifest.dir/bt_plugin_manifest.cpp.o[0m
+[62.097s] [ 43%] [32mBuilding CXX object examples/CMakeFiles/t01_first_tree_dynamic.dir/t01_build_your_first_tree.cpp.o[0m
+[66.956s] [ 44%] [32m[1mLinking CXX executable bt3_log_cat[0m
+[67.388s] [ 44%] Built target bt3_log_cat
+[72.637s] [ 45%] [32m[1mLinking CXX shared library bin/libcrossdoor_nodes_dyn.so[0m
+[72.776s] [ 46%] [32m[1mLinking CXX executable t01_first_tree_dynamic[0m
+[72.965s] [ 46%] Built target crossdoor_nodes_dyn
+[72.991s] [ 47%] [32m[1mLinking CXX executable bt3_plugin_manifest[0m
+[73.185s] [ 47%] Built target t01_first_tree_dynamic
+[73.253s] [ 47%] Built target bt3_plugin_manifest
+[75.088s] [ 48%] [32m[1mLinking CXX shared library bin/libdummy_nodes_dyn.so[0m
+[75.304s] [ 48%] Built target dummy_nodes_dyn
+[75.753s] [ 49%] [32m[1mLinking CXX static library lib/libbt_sample_nodes.a[0m
+[75.801s] [ 49%] Built target bt_sample_nodes
+[75.837s] [ 50%] [32mBuilding CXX object examples/CMakeFiles/t01_first_tree_static.dir/t01_build_your_first_tree.cpp.o[0m
+[75.838s] [ 51%] [32mBuilding CXX object examples/CMakeFiles/t02_basic_ports.dir/t02_basic_ports.cpp.o[0m
+[75.838s] [ 52%] [32mBuilding CXX object examples/CMakeFiles/t03_generic_ports.dir/t03_generic_ports.cpp.o[0m
+[75.841s] [ 53%] [32mBuilding CXX object examples/CMakeFiles/t07_load_multiple_xml.dir/t07_load_multiple_xml.cpp.o[0m
+[75.842s] [ 53%] [32mBuilding CXX object examples/CMakeFiles/t05_crossdoor.dir/t05_crossdoor.cpp.o[0m
+[75.842s] [ 54%] [32mBuilding CXX object examples/CMakeFiles/t04_reactive_sequence.dir/t04_reactive_sequence.cpp.o[0m
+[75.844s] [ 55%] [32mBuilding CXX object examples/CMakeFiles/t06_subtree_port_remapping.dir/t06_subtree_port_remapping.cpp.o[0m
+[75.845s] [ 56%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/src/action_test_node.cpp.o[0m
+[75.846s] [ 57%] [32mBuilding CXX object examples/CMakeFiles/t08_additional_node_args.dir/t08_additional_node_args.cpp.o[0m
+[75.856s] [ 58%] [32mBuilding CXX object examples/CMakeFiles/t09_scripting.dir/t09_scripting.cpp.o[0m
+[76.778s] [ 59%] [32m[1mLinking CXX shared library t13_plugin_action.so[0m
+[77.305s] [ 59%] Built target t13_plugin_action
+[77.354s] [ 60%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/src/condition_test_node.cpp.o[0m
+[77.820s] [ 61%] [32m[1mLinking CXX shared library bin/libmovebase_node_dyn.so[0m
+[78.191s] [ 61%] Built target movebase_node_dyn
+[78.320s] [ 61%] [32mBuilding CXX object examples/CMakeFiles/t10_observer.dir/t10_observer.cpp.o[0m
+[84.679s] [ 62%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/gtest_blackboard.cpp.o[0m
+[87.810s] [ 63%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/gtest_coroutines.cpp.o[0m
+[90.078s] [ 64%] [32m[1mLinking CXX executable t05_crossdoor[0m
+[90.771s] [ 64%] Built target t05_crossdoor
+[90.975s] [ 65%] [32mBuilding CXX object examples/CMakeFiles/t11_replace_rules.dir/t11_replace_rules.cpp.o[0m
+[92.662s] [ 66%] [32m[1mLinking CXX executable t08_additional_node_args[0m
+[92.698s] [ 67%] [32m[1mLinking CXX executable t09_scripting[0m
+[93.111s] [ 67%] [32m[1mLinking CXX executable t07_load_multiple_xml[0m
+[93.183s] [ 68%] [32m[1mLinking CXX executable t01_first_tree_static[0m
+[93.262s] [ 68%] Built target t08_additional_node_args
+[93.339s] [ 68%] Built target t09_scripting
+[93.412s] [ 69%] [32mBuilding CXX object examples/CMakeFiles/t12_groot_howto.dir/t12_groot_howto.cpp.o[0m
+[93.483s] [ 70%] [32m[1mLinking CXX executable t10_observer[0m
+[93.488s] [ 70%] [32mBuilding CXX object examples/CMakeFiles/generate_log.dir/generate_log.cpp.o[0m
+[93.685s] [ 70%] Built target t01_first_tree_static
+[93.778s] [ 70%] Built target t07_load_multiple_xml
+[93.843s] [ 71%] [32mBuilding CXX object examples/CMakeFiles/ex01_wrap_legacy.dir/ex01_wrap_legacy.cpp.o[0m
+[93.948s] [ 72%] [32mBuilding CXX object examples/CMakeFiles/ex02_runtime_ports.dir/ex02_runtime_ports.cpp.o[0m
+[94.103s] [ 72%] Built target t10_observer
+[94.245s] [ 73%] [32mBuilding CXX object examples/CMakeFiles/ex04_waypoints.dir/ex04_waypoints.cpp.o[0m
+[99.558s] [ 74%] [32m[1mLinking CXX executable t06_subtree_port_remapping[0m
+[100.288s] [ 74%] Built target t06_subtree_port_remapping
+[100.472s] [ 75%] [32mBuilding CXX object examples/CMakeFiles/ex05_subtree_model.dir/ex05_subtree_model.cpp.o[0m
+[101.061s] [ 76%] [32m[1mLinking CXX executable t04_reactive_sequence[0m
+[101.300s] [ 77%] [32m[1mLinking CXX executable t03_generic_ports[0m
+[101.667s] [ 77%] Built target t04_reactive_sequence
+[101.843s] [ 78%] [32mBuilding CXX object examples/CMakeFiles/t13_plugin_executor.dir/t13_plugin_executor.cpp.o[0m
+[101.940s] [ 78%] Built target t03_generic_ports
+[101.999s] [ 78%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/gtest_decorator.cpp.o[0m
+[103.144s] [ 78%] [32m[1mLinking CXX executable t02_basic_ports[0m
+[103.633s] [ 78%] Built target t02_basic_ports
+[110.517s] [ 79%] [32m[1mLinking CXX executable ex01_wrap_legacy[0m
+[110.671s] [ 80%] [32m[1mLinking CXX executable t11_replace_rules[0m
+[111.031s] [ 80%] Built target ex01_wrap_legacy
+[111.282s] [ 80%] Built target t11_replace_rules
+[113.041s] [ 81%] [32m[1mLinking CXX executable ex05_subtree_model[0m
+[113.450s] [ 81%] Built target ex05_subtree_model
+[114.239s] [ 82%] [32m[1mLinking CXX executable t13_plugin_executor[0m
+[114.643s] [ 82%] Built target t13_plugin_executor
+[114.787s] [ 83%] [32m[1mLinking CXX executable generate_log[0m
+[115.183s] [ 83%] Built target generate_log
+[115.390s] [ 83%] [32m[1mLinking CXX executable ex02_runtime_ports[0m
+[115.664s] [ 83%] Built target ex02_runtime_ports
+[117.097s] [ 84%] [32m[1mLinking CXX executable ex04_waypoints[0m
+[117.368s] [ 84%] Built target ex04_waypoints
+[120.278s] [ 84%] [32m[1mLinking CXX executable t12_groot_howto[0m
+[120.545s] [ 84%] Built target t12_groot_howto
+[122.147s] [ 85%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/gtest_sequence.cpp.o[0m
+[124.160s] [ 86%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/gtest_skipping.cpp.o[0m
+[124.161s] [ 86%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/gtest_reactive.cpp.o[0m
+[124.161s] [ 87%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/gtest_json.cpp.o[0m
+[125.172s] [ 88%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/gtest_match.cpp.o[0m
+[125.176s] [ 89%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/gtest_postconditions.cpp.o[0m
+[126.192s] [ 90%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/gtest_ports.cpp.o[0m
+[126.193s] [ 90%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/gtest_preconditions.cpp.o[0m
+[127.211s] [ 91%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/gtest_parallel.cpp.o[0m
+[127.229s] [ 92%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/gtest_fallback.cpp.o[0m
+[128.272s] [ 93%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/gtest_factory.cpp.o[0m
+[128.291s] [ 94%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/gtest_enums.cpp.o[0m
+[158.551s] [ 96%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/gtest_wakeup.cpp.o[0m
+[158.552s] [ 96%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/script_parser_test.cpp.o[0m
+[158.552s] [ 97%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/gtest_tree.cpp.o[0m
+[158.552s] [ 97%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/gtest_switch.cpp.o[0m
+[169.923s] [ 99%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/gtest_subtree.cpp.o[0m
+[169.924s] [ 99%] [32mBuilding CXX object tests/CMakeFiles/behaviortree_cpp_test.dir/gtest_substitution.cpp.o[0m
+[208.265s] [100%] [32m[1mLinking CXX executable behaviortree_cpp_test[0m
+[208.898s] [100%] Built target behaviortree_cpp_test
+[208.931s] Invoked command in '/home/mihkel/School/ros-packages/nav2_ws/build/behaviortree_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ros-packages/nav2_ws/build/behaviortree_cpp -- -j12 -l12
+[209.340s] Invoking command in '/home/mihkel/School/ros-packages/nav2_ws/build/behaviortree_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --install /home/mihkel/School/ros-packages/nav2_ws/build/behaviortree_cpp
+[209.434s] -- Install configuration: "Release"
+[209.436s] -- Execute custom install script
+[209.437s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/bin/bt3_log_cat
+[209.446s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/bin/bt3_plugin_manifest
+[209.454s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/share/behaviortree_cpp/environment/library_path.sh
+[209.462s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/share/behaviortree_cpp/environment/library_path.dsv
+[209.471s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/share/ament_index/resource_index/package_run_dependencies/behaviortree_cpp
+[209.479s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/share/ament_index/resource_index/parent_prefix_path/behaviortree_cpp
+[209.487s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/share/behaviortree_cpp/environment/ament_prefix_path.sh
+[209.494s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/share/behaviortree_cpp/environment/ament_prefix_path.dsv
+[209.502s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/share/behaviortree_cpp/environment/path.sh
+[209.510s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/share/behaviortree_cpp/environment/path.dsv
+[209.518s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/share/behaviortree_cpp/local_setup.bash
+[209.528s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/share/behaviortree_cpp/local_setup.sh
+[209.535s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/share/behaviortree_cpp/local_setup.zsh
+[209.543s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/share/behaviortree_cpp/local_setup.dsv
+[209.550s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/share/behaviortree_cpp/package.dsv
+[209.558s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/share/ament_index/resource_index/packages/behaviortree_cpp
+[209.566s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/share/behaviortree_cpp/cmake/ament_cmake_export_dependencies-extras.cmake
+[209.573s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/share/behaviortree_cpp/cmake/ament_cmake_export_include_directories-extras.cmake
+[209.581s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/share/behaviortree_cpp/cmake/ament_cmake_export_libraries-extras.cmake
+[209.589s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/share/behaviortree_cpp/cmake/behaviortree_cppConfig.cmake
+[209.596s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/share/behaviortree_cpp/cmake/behaviortree_cppConfig-version.cmake
+[209.604s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/share/behaviortree_cpp/package.xml
+[209.623s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/lib/libbehaviortree_cpp.so
+[209.629s] -- Set non-toolchain portion of runtime path of "/home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/lib/libbehaviortree_cpp.so" to ""
+[209.629s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include
+[209.630s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp
+[209.630s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/behavior_tree.h
+[209.631s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/utils
+[209.631s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/utils/timer_queue.h
+[209.631s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/utils/simple_string.hpp
+[209.632s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/utils/wakeup_signal.hpp
+[209.632s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/utils/convert_impl.hpp
+[209.632s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/utils/locked_reference.hpp
+[209.633s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/utils/safe_any.hpp
+[209.633s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/utils/strcat.hpp
+[209.633s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/utils/shared_library.h
+[209.633s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/utils/signal.h
+[209.634s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/utils/demangle_util.h
+[209.634s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/utils/platform.hpp
+[209.634s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/flatbuffers
+[209.634s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/flatbuffers/base.h
+[209.635s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/flatbuffers/flatbuffers.h
+[209.635s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/flatbuffers/stl_emulation.h
+[209.635s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/flatbuffers/BT_logger_generated.h
+[209.635s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/flatbuffers/bt_flatbuffer_helper.h
+[209.636s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/actions
+[209.636s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/actions/always_success_node.h
+[209.636s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/actions/sleep_node.h
+[209.637s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/actions/script_condition.h
+[209.637s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/actions/script_node.h
+[209.637s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/actions/always_failure_node.h
+[209.637s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/actions/pop_from_queue.hpp
+[209.638s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/actions/unset_blackboard_node.h
+[209.638s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/actions/test_node.h
+[209.638s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/actions/set_blackboard_node.h
+[209.638s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/condition_node.h
+[209.639s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/contrib
+[209.639s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/contrib/magic_enum.hpp
+[209.639s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/contrib/expected.hpp
+[209.639s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/contrib/json.hpp
+[209.641s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/contrib/any.hpp
+[209.641s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/leaf_node.h
+[209.642s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/exceptions.h
+[209.642s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/decorator_node.h
+[209.642s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/bt_parser.h
+[209.642s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/xml_parsing.h
+[209.643s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/tree_node.h
+[209.643s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/action_node.h
+[209.643s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/loggers
+[209.644s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/loggers/bt_sqlite_logger.h
+[209.644s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/loggers/bt_cout_logger.h
+[209.644s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/loggers/bt_file_logger_v2.h
+[209.644s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/loggers/abstract_logger.h
+[209.645s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/loggers/groot2_publisher.h
+[209.645s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/loggers/bt_observer.h
+[209.645s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/loggers/bt_minitrace_logger.h
+[209.645s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/loggers/groot2_protocol.h
+[209.646s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/loggers/bt_file_logger.h
+[209.646s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/controls
+[209.646s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/controls/switch_node.h
+[209.647s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/controls/parallel_node.h
+[209.647s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/controls/sequence_with_memory_node.h
+[209.647s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/controls/fallback_node.h
+[209.647s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/controls/reactive_fallback.h
+[209.648s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/controls/manual_node.h
+[209.648s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/controls/reactive_sequence.h
+[209.648s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/controls/while_do_else_node.h
+[209.649s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/controls/parallel_all_node.h
+[209.649s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/controls/if_then_else_node.h
+[209.649s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/controls/sequence_node.h
+[209.649s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/blackboard.h
+[209.650s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/scripting
+[209.650s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/scripting/any_types.hpp
+[209.650s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/scripting/operators.hpp
+[209.650s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/scripting/script_parser.hpp
+[209.651s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/control_node.h
+[209.651s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/bt_factory.h
+[209.651s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/json_export.h
+[209.652s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/decorators
+[209.652s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/decorators/loop_node.h
+[209.652s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/decorators/keep_running_until_failure_node.h
+[209.652s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/decorators/run_once_node.h
+[209.653s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/decorators/force_success_node.h
+[209.653s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/decorators/consume_queue.h
+[209.653s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/decorators/script_precondition.h
+[209.653s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/decorators/inverter_node.h
+[209.654s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/decorators/force_failure_node.h
+[209.654s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/decorators/delay_node.h
+[209.654s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/decorators/subtree_node.h
+[209.654s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/decorators/repeat_node.h
+[209.655s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/decorators/timeout_node.h
+[209.655s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/decorators/retry_node.h
+[209.655s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp/include/behaviortree_cpp/basic_types.h
+[209.672s] Invoked command in '/home/mihkel/School/ros-packages/nav2_ws/build/behaviortree_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --install /home/mihkel/School/ros-packages/nav2_ws/build/behaviortree_cpp

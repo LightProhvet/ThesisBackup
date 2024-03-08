@@ -1,0 +1,28 @@
+[2.756s] Invoking command in '/home/mihkel/School/ThesisPractical/myros_ws/build/deep_nav_layers': /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/myros_ws/src/deep_nav_layers -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/myros_ws/install/deep_nav_layers
+[6.548s] -- Configuring incomplete, errors occurred!
+[6.549s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[6.550s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[6.550s]   CMake.
+[6.550s] 
+[6.551s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[6.551s]   CMake that the project does not need compatibility with older versions.
+[6.552s] 
+[6.552s] [0m
+[6.553s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[6.553s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[6.554s]   asked CMake to find a package configuration file provided by "catkin", but
+[6.554s]   CMake did not find one.
+[6.555s] 
+[6.555s]   Could not find a package configuration file provided by "catkin" with any
+[6.555s]   of the following names:
+[6.556s] 
+[6.556s]     catkinConfig.cmake
+[6.557s]     catkin-config.cmake
+[6.557s] 
+[6.558s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[6.558s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[6.559s]   provides a separate development package or SDK, be sure it has been
+[6.559s]   installed.
+[6.559s] 
+[6.560s] [0m
+[6.561s] Invoked command in '/home/mihkel/School/ThesisPractical/myros_ws/build/deep_nav_layers' returned '1': /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/myros_ws/src/deep_nav_layers -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/myros_ws/install/deep_nav_layers

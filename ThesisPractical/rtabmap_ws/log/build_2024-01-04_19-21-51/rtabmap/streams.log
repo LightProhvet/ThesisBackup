@@ -1,0 +1,979 @@
+[0.585s] Invoking command in '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap
+[0.786s] -- The C compiler identification is GNU 11.4.0
+[0.939s] -- The CXX compiler identification is GNU 11.4.0
+[0.976s] -- Detecting C compiler ABI info
+[1.124s] -- Detecting C compiler ABI info - done
+[1.160s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.161s] -- Detecting C compile features
+[1.162s] -- Detecting C compile features - done
+[1.183s] -- Detecting CXX compiler ABI info
+[1.359s] -- Detecting CXX compiler ABI info - done
+[1.395s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.396s] -- Detecting CXX compile features
+[1.397s] -- Detecting CXX compile features - done
+[1.404s] -- MOBILE_BUILD=OFF
+[1.405s] [33mCMake Warning (dev) at CMakeLists.txt:88 (EXEC_PROGRAM):
+[1.405s]   Policy CMP0153 is not set: The exec_program command should not be called.
+[1.406s]   Run "cmake --help-policy CMP0153" for policy details.  Use the cmake_policy
+[1.406s]   command to set the policy and suppress this warning.
+[1.406s] 
+[1.407s]   Use execute_process() instead.
+[1.407s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.407s] [0m
+[1.472s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:146 (find_package):
+[1.473s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[1.473s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[1.473s]   cmake_policy command to set the policy and suppress this warning.
+[1.473s] 
+[1.473s]   CMake variable EIGEN_ROOT is set to:
+[1.474s] 
+[1.474s]     /usr/include/eigen3
+[1.474s] 
+[1.474s]   For compatibility, find_package is ignoring the variable, but code in a
+[1.474s]   .cmake module might still use it.
+[1.474s] Call Stack (most recent call first):
+[1.475s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:299 (find_eigen)
+[1.475s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[1.475s]   CMakeLists.txt:235 (FIND_PACKAGE)
+[1.475s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.475s] [0m
+[1.483s] -- Checking for module 'eigen3'
+[1.506s] --   Found eigen3, version 3.4.0
+[1.560s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.560s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.747s] -- Checking for module 'libusb-1.0'
+[1.770s] --   Found libusb-1.0, version 1.0.25
+[1.845s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.849s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.750s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[4.752s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:44 (find_package):
+[4.753s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[4.753s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[4.753s]   cmake_policy command to set the policy and suppress this warning.
+[4.753s] 
+[4.754s]   CMake variable FLANN_ROOT is set to:
+[4.754s] 
+[4.754s]     /usr
+[4.754s] 
+[4.754s]   For compatibility, find_package is ignoring the variable, but code in a
+[4.755s]   .cmake module might still use it.
+[4.755s] Call Stack (most recent call first):
+[4.755s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:256 (find_package)
+[4.755s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:301 (find_flann)
+[4.755s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[4.755s]   CMakeLists.txt:235 (FIND_PACKAGE)
+[4.756s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.756s] [0m
+[4.795s] -- Checking for module 'flann'
+[4.824s] --   Found flann, version 1.9.1
+[4.921s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[4.921s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[4.933s] -- Found Qhull version 8.0.2
+[7.709s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.712s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[8.716s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[8.721s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[8.726s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[8.730s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[8.735s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[8.740s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[8.742s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[8.747s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[8.751s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[8.756s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[8.758s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[8.762s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[8.766s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[8.772s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[8.775s] -- PCL definitions don't contain "-march=native", make sure all libraries using Eigen are also compiled without that flag to avoid some segmentation faults (with gdb referring to some Eigen functions).
+[8.802s] -- Found Sqlite3: /usr/include /usr/lib/x86_64-linux-gnu/libsqlite3.so
+[9.504s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[9.742s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[9.743s] -- Found OpenMP: TRUE (found version "4.5") found components: C CXX 
+[9.744s] -- Found OpenMP: /usr/lib/gcc/x86_64-linux-gnu/11/libgomp.so;/usr/lib/x86_64-linux-gnu/libpthread.a
+[9.744s] -- Add PCL_OMP to definitions
+[9.745s] -- Found OpenCV: /usr/include/opencv4
+[9.745s] -- Found PCL: /usr/include/pcl-1.12;/usr/include/eigen3;/usr/include;/usr/include/ni
+[9.745s] -- Found ZLIB: /usr/include
+[9.803s] -- Found Threads: TRUE  
+[9.810s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[9.818s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[15.518s] -- Found Python3: /usr/bin/python3.10 (found suitable version "3.10.12", minimum required is "3.10") found components: Interpreter Development.Module Development.Embed 
+[15.558s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[15.560s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[16.250s] -- Found HDF5: /usr/lib/x86_64-linux-gnu/hdf5/serial/libhdf5.so;/usr/lib/x86_64-linux-gnu/libcrypto.so;/usr/lib/x86_64-linux-gnu/libcurl.so;/usr/lib/x86_64-linux-gnu/libpthread.a;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/lib/x86_64-linux-gnu/libz.so;/usr/lib/x86_64-linux-gnu/libdl.a;/usr/lib/x86_64-linux-gnu/libm.so (found version "1.10.7") found components: C HL 
+[16.268s] -- Found NetCDF: /usr/include (found version "4.8.1") 
+[16.276s] -- Found OGG: /usr/lib/x86_64-linux-gnu/libogg.so  
+[16.285s] -- Found THEORA: /usr/lib/x86_64-linux-gnu/libtheora.so  
+[16.294s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[16.435s] -- Found LibXml2: /usr/lib/x86_64-linux-gnu/libxml2.so (found version "2.9.13") 
+[16.480s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11")  
+[16.498s] -- Found GL2PS: /usr/lib/x86_64-linux-gnu/libgl2ps.so (found suitable version "1.4.2", minimum required is "1.4.2") 
+[16.538s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[16.544s] -- Found SQLite3: /usr/include (found version "3.37.2") 
+[16.567s] -- Found LibPROJ: /usr/lib/x86_64-linux-gnu/libproj.so (found version "8.2.1") 
+[16.578s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[16.815s] -- Found X11: /usr/include   
+[17.088s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[17.092s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[17.102s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[17.107s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[17.140s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[17.177s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[17.206s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[17.224s] -- Found utf8cpp: /usr/include/utf8cpp  
+[17.267s] -- VTK>=9 detected, will use VTK_QT_VERSION=5 for Qt version.
+[17.289s] -- VTK_RENDERING_BACKEND=
+[17.330s] -- Found Freenect: /usr/include
+[17.426s] -- Found OpenNI2: /usr/include/openni2
+[17.438s] -- Found DC1394: /usr/include/dc1394
+[17.477s] -- Found Eigen3: /usr/include/eigen3 (Required is at least version "2.91.0") 
+[17.485s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[17.493s] -- Found g2o (targets)
+[17.494s] -- g2o include dir: /opt/ros/humble/include
+[17.494s] -- Latest g2o factory version detected with shared ptr (factory file: /opt/ros/humble/include/g2o/core/factory.h).
+[17.592s] -- GTSAM include directory:  /opt/ros/humble/lib/cmake/GTSAM/../../../include
+[17.626s] -- FlyCapture2_INCLUDE_DIR=FlyCapture2_INCLUDE_DIR-NOTFOUND
+[17.626s] -- FlyCapture2_LIBRARY=FlyCapture2_LIBRARY-NOTFOUND
+[17.628s] -- Triclops_INCLUDE_DIR=Triclops_INCLUDE_DIR-NOTFOUND
+[17.628s] -- Triclops_LIBRARY=Triclops_LIBRARY-NOTFOUND
+[17.628s] -- FlyCaptureBridge_LIBRARY=FlyCaptureBridge_LIBRARY-NOTFOUND
+[17.660s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time 
+[17.686s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time chrono 
+[17.694s] -- Found libpointmatcher: /opt/ros/humble/include;/usr/include/eigen3
+[17.714s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time 
+[17.742s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time chrono timer serialization 
+[17.820s] -- Found RealSense2: 
+[17.859s] -- Found octomap 1.9.8: /opt/ros/humble/include
+[18.085s] -- Found grid_map_core 2.0.0: /opt/ros/humble/include;/usr/include/eigen3
+[18.093s] -- Architecture: x86_64
+[18.131s] -- Performing Test COMPILER_SUPPORTS_CXX17
+[18.333s] -- Performing Test COMPILER_SUPPORTS_CXX17 - Success
+[18.353s] -- Found Pthreads
+[18.361s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[18.553s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[18.556s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[18.753s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[18.754s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[18.952s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[19.244s] -- --------------------------------------------
+[19.244s] -- Info :
+[19.245s] --   RTAB-Map Version =     0.21.3
+[19.245s] --   CMAKE_VERSION =        3.28.1
+[19.246s] --   CMAKE_INSTALL_PREFIX = /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap
+[19.246s] --   CMAKE_BUILD_TYPE =     Release
+[19.246s] --   CMAKE_INSTALL_LIBDIR = lib
+[19.246s] --   BUILD_APP =            ON
+[19.246s] --   BUILD_TOOLS =          ON
+[19.247s] --   BUILD_EXAMPLES =       ON
+[19.247s] --   BUILD_SHARED_LIBS =    ON
+[19.247s] --   CMAKE_CXX_FLAGS =  -fmessage-length=0 -fopenmp -std=c++17
+[19.247s] --   FLANN_KDTREE_MEM_OPT = OFF
+[19.248s] --   PCL_DEFINITIONS = -DDISABLE_OPENNI2;-DDISABLE_PCAP;-DDISABLE_PNG
+[19.248s] --   PCL_VERSION = 1.12.1
+[19.248s] -- 
+[19.248s] -- Optional dependencies ('*' affects some default parameters) :
+[19.249s] --  *With OpenCV 4.5.4 xfeatures2d = NO, nonfree = NO (License: Apache 2)
+[19.249s] --   With Qt 5.15.3            = YES (License: Open Source or Commercial)
+[19.249s] --   With VTK 9.1              = YES (License: BSD)
+[19.249s] --   With external SQLite3     = YES (License: Public Domain)
+[19.249s] --   With ORB OcTree           = YES (License: GPLv3)
+[19.250s] --   With SupertPoint          = NO (WITH_TORCH=OFF)
+[19.250s] --   With Python3              = NO (WITH_PYTHON=OFF)
+[19.250s] --   With Madgwick             = YES (License: GPL)
+[19.250s] --   With FastCV               = NO (FastCV not found)
+[19.251s] --   With PDAL                 = NO (PDAL not found)
+[19.251s] -- 
+[19.251s] --  Solvers:
+[19.251s] --   With TORO                 = YES (License: Creative Commons [Attribution-NonCommercial-ShareAlike])
+[19.251s] --  *With g2o 1.0.0            = YES (License: BSD)
+[19.252s] --  *With GTSAM 4.2.0          = YES (License: BSD)
+[19.252s] --  *With Ceres                = NO (WITH_CERES=OFF)
+[19.252s] --   With MRPT                 = NO (MRPT not found)
+[19.252s] --   With VERTIGO              = YES (License: GPLv3)
+[19.253s] --   With cvsba                = NO (WITH_CVSBA=OFF)
+[19.253s] --  *With libpointmatcher 1.3.1 = YES (License: BSD)
+[19.253s] --   With CCCoreLib            = NO (WITH_CCCORELIB=OFF)
+[19.253s] --   With Open3D               = NO (WITH_OPEN3D=OFF)
+[19.254s] --   With OpenGV               = NO (OpenGV not found)
+[19.254s] -- 
+[19.254s] --  Reconstruction Approaches:
+[19.254s] --   With OctoMap 1.9.8        = YES (License: BSD)
+[19.254s] --   With GridMap 2.0.0        = YES (License: BSD)
+[19.255s] --   With CPUTSDF              = NO (WITH_CPUTSDF=OFF)
+[19.255s] --   With OpenChisel           = NO (WITH_OPENCHISEL=OFF)
+[19.255s] --   With AliceVision          = NO (WITH_ALICE_VISION=OFF)
+[19.255s] -- 
+[19.255s] --  Camera Drivers:
+[19.256s] --   With Freenect             = YES (License: Apache v2 and/or GPLv2)
+[19.256s] --   With OpenNI2              = YES (License: Apache v2)
+[19.256s] --   With Freenect2            = NO (libfreenect2 not found)
+[19.256s] --   With Kinect for Windows 2 = NO (Kinect for Windows 2 SDK not found)
+[19.257s] --   With Kinect for Azure     = NO (Kinect for Azure SDK not found)
+[19.257s] --   With dc1394               = YES (License: LGPL)
+[19.257s] --   With FlyCapture2/Triclops = NO (Point Grey SDK not found)
+[19.257s] --   With ZED                  = NO (ZED sdk and/or cuda not found)
+[19.258s] --   With ZEDOC                = NO (ZED Open Capture not found)
+[19.258s] --   With RealSense            = NO (librealsense not found)
+[19.258s] --   With RealSense2 2.54.1    = YES (License: Apache-2)
+[19.258s] --   With MyntEyeS             = NO (mynteye s sdk not found)
+[19.259s] --   With DepthAI              = NO (WITH_DEPTHAI=OFF)
+[19.259s] -- 
+[19.259s] --  Odometry Approaches:
+[19.259s] --   With loam_velodyne        = NO (WITH_LOAM=OFF)
+[19.259s] --   With floam                = NO (WITH_FLOAM=OFF)
+[19.260s] --   With libfovis             = NO (WITH_FOVIS=OFF)
+[19.260s] --   With libviso2             = NO (WITH_VISO2=OFF)
+[19.260s] --   With dvo_core             = NO (WITH_DVO=OFF)
+[19.260s] --   With okvis                = NO (WITH_OKVIS=OFF)
+[19.261s] --   With msckf_vio            = NO (WITH_MSCKF_VIO=OFF)
+[19.261s] --   With VINS-Fusion          = NO (WITH_VINS=OFF)
+[19.261s] --   With OpenVINS             = NO (WITH_OPENVINS=OFF)
+[19.261s] --   With ORB_SLAM             = NO (WITH_ORB_SLAM=OFF)
+[19.261s] -- Show all options with: cmake -LA | grep WITH_
+[19.262s] -- --------------------------------------------
+[19.262s] -- Configuring done (18.6s)
+[20.707s] -- Generating done (1.2s)
+[20.738s] -- Build files have been written to: /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap
+[20.853s] Invoked command in '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap
+[20.859s] Invoking command in '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap -- -j12 -l12
+[21.024s] [  0%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UEventsManager.cpp.o[0m
+[21.026s] [  1%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UEventsHandler.cpp.o[0m
+[21.026s] [  1%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UEventsSender.cpp.o[0m
+[21.027s] [  1%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UFile.cpp.o[0m
+[21.028s] [  2%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UDirectory.cpp.o[0m
+[21.030s] [  2%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UConversion.cpp.o[0m
+[21.030s] [  2%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UThread.cpp.o[0m
+[21.031s] [  3%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/ULogger.cpp.o[0m
+[21.031s] [  3%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UTimer.cpp.o[0m
+[21.032s] [  4%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UProcessInfo.cpp.o[0m
+[21.041s] [  4%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UVariant.cpp.o[0m
+[26.232s] [  5%] [32m[1mLinking CXX shared library ../../bin/librtabmap_utilite.so[0m
+[26.449s] [  5%] Built target rtabmap_utilite
+[26.474s] [  5%] [32mBuilding CXX object utilite/resource_generator/CMakeFiles/res_tool.dir/main.cpp.o[0m
+[29.439s] [  6%] [32m[1mLinking CXX executable ../../bin/rtabmap-res_tool[0m
+[29.646s] [  6%] Built target res_tool
+[29.666s] [  6%] [34m[1m[Creating resources][0m
+[29.673s]  Using namespace=rtabmap
+[29.673s]  Using target directory=/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/corelib/src
+[29.674s] Input file "/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/corelib/src/resources/DatabaseSchema.sql" size = 5900 bytes
+[29.675s] Output file "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/corelib/src/DatabaseSchema_sql.h" size = 12027 bytes
+[29.675s] Input file "/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/corelib/src/resources/backward_compatibility/DatabaseSchema_0_18_3.sql" size = 5749 bytes
+[29.675s] Output file "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/corelib/src/DatabaseSchema_0_18_3_sql.h" size = 11753 bytes
+[29.676s] Input file "/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/corelib/src/resources/backward_compatibility/DatabaseSchema_0_18_0.sql" size = 5749 bytes
+[29.676s] Output file "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/corelib/src/DatabaseSchema_0_18_0_sql.h" size = 11753 bytes
+[29.676s] Input file "/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/corelib/src/resources/backward_compatibility/DatabaseSchema_0_17_0.sql" size = 5432 bytes
+[29.676s] Output file "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/corelib/src/DatabaseSchema_0_17_0_sql.h" size = 11119 bytes
+[29.677s] Input file "/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/corelib/src/resources/backward_compatibility/DatabaseSchema_0_16_2.sql" size = 5362 bytes
+[29.677s] Output file "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/corelib/src/DatabaseSchema_0_16_2_sql.h" size = 10979 bytes
+[29.677s] Input file "/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/corelib/src/resources/backward_compatibility/DatabaseSchema_0_16_1.sql" size = 5286 bytes
+[29.678s] Output file "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/corelib/src/DatabaseSchema_0_16_1_sql.h" size = 10827 bytes
+[29.678s] Input file "/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/corelib/src/resources/backward_compatibility/DatabaseSchema_0_16_0.sql" size = 5273 bytes
+[29.678s] Output file "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/corelib/src/DatabaseSchema_0_16_0_sql.h" size = 10801 bytes
+[29.722s] [  7%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Rtabmap.cpp.o[0m
+[29.723s] [  7%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/RtabmapThread.cpp.o[0m
+[29.724s] [  8%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Statistics.cpp.o[0m
+[29.725s] [  8%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Memory.cpp.o[0m
+[29.727s] [  9%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/DBDriverSqlite3.cpp.o[0m
+[29.728s] [  9%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/DBDriver.cpp.o[0m
+[29.728s] [  9%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/DBReader.cpp.o[0m
+[29.729s] [ 10%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Recovery.cpp.o[0m
+[29.730s] [ 10%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Camera.cpp.o[0m
+[29.734s] [ 11%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/CameraModel.cpp.o[0m
+[29.735s] [ 11%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/CameraThread.cpp.o[0m
+[29.738s] [ 11%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraFreenect.cpp.o[0m
+[52.405s] [ 12%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraFreenect2.cpp.o[0m
+[62.543s] [ 12%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraImages.cpp.o[0m
+[132.697s] [ 13%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraStereoDC1394.cpp.o[0m
+[133.036s] [ 13%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraRGBDImages.cpp.o[0m
+[135.053s] [ 13%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraStereoFlyCapture2.cpp.o[0m
+[137.074s] [ 13%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraRealSense2.cpp.o[0m
+[139.102s] [ 14%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraRealSense.cpp.o[0m
+[141.161s] [ 14%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraOpenNICV.cpp.o[0m
+[157.814s] [ 15%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraVideo.cpp.o[0m
+[157.814s] [ 15%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraStereoTara.cpp.o[0m
+[158.861s] [ 16%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraStereoZedOC.cpp.o[0m
+[158.871s] [ 16%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraStereoZed.cpp.o[0m
+[159.947s] [ 16%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraStereoVideo.cpp.o[0m
+[159.970s] [ 17%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraStereoImages.cpp.o[0m
+[161.035s] [ 18%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraOpenNI2.cpp.o[0m
+[161.047s] [ 18%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraOpenni.cpp.o[0m
+[182.117s] [ 19%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Parameters.cpp.o[0m
+[182.117s] [ 19%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/BayesFilter.cpp.o[0m
+[182.118s] [ 20%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/VWDictionary.cpp.o[0m
+[183.133s] [ 20%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/VisualWord.cpp.o[0m
+[183.134s] [ 20%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Signature.cpp.o[0m
+[184.149s] [ 21%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/EpipolarGeometry.cpp.o[0m
+[184.149s] [ 21%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraDepthAI.cpp.o[0m
+[185.166s] [ 21%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraK4A.cpp.o[0m
+[185.167s] [ 21%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraMyntEye.cpp.o[0m
+[186.215s] [ 22%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraK4W2.cpp.o[0m
+[189.256s] [ 22%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Features2d.cpp.o[0m
+[194.780s] [ 23%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Transform.cpp.o[0m
+[196.819s] [ 23%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/GeodeticCoords.cpp.o[0m
+[227.360s] [ 24%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/util3d_correspondences.cpp.o[0m
+[227.360s] [ 24%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/util3d_features.cpp.o[0m
+[227.361s] [ 24%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/util3d_surface.cpp.o[0m
+[228.376s] [ 24%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/util3d_transforms.cpp.o[0m
+[228.377s] [ 25%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/util3d_registration.cpp.o[0m
+[229.439s] [ 25%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/util3d_filtering.cpp.o[0m
+[229.439s] [ 26%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/util3d_mapping.cpp.o[0m
+[230.515s] [ 26%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/util3d.cpp.o[0m
+[230.533s] [ 27%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/util2d.cpp.o[0m
+[277.135s] [ 27%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/OptimizerTORO.cpp.o[0m
+[277.136s] [ 28%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Optimizer.cpp.o[0m
+[278.147s] [ 28%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/LaserScan.cpp.o[0m
+[279.162s] [ 29%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Link.cpp.o[0m
+[280.177s] [ 29%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Compression.cpp.o[0m
+[281.194s] [ 29%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Graph.cpp.o[0m
+[282.229s] [ 30%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/SensorData.cpp.o[0m
+[282.244s] [ 30%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/util3d_motion_estimation.cpp.o[0m
+[292.520s] [ 31%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/OptimizerGTSAM.cpp.o[0m
+[293.573s] [ 31%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/OptimizerG2O.cpp.o[0m
+[293.592s] [ 31%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/OptimizerCVSBA.cpp.o[0m
+[322.871s] [ 32%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/RegistrationIcp.cpp.o[0m
+[323.891s] [ 32%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Registration.cpp.o[0m
+[324.924s] [ 33%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/OptimizerCeres.cpp.o[0m
+[325.543s] [ 33%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/RegistrationVis.cpp.o[0m
+[326.314s] [ 33%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Odometry.cpp.o[0m
+[330.836s] [ 34%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/OdometryThread.cpp.o[0m
+[339.107s] [ 34%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryF2M.cpp.o[0m
+[367.807s] [ 35%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryOkvis.cpp.o[0m
+[368.823s] [ 35%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryDVO.cpp.o[0m
+[369.840s] [ 36%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryViso2.cpp.o[0m
+[370.857s] [ 36%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryFovis.cpp.o[0m
+[371.873s] [ 36%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryF2F.cpp.o[0m
+[372.890s] [ 37%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryMono.cpp.o[0m
+[407.347s] [ 38%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryMSCKF.cpp.o[0m
+[408.365s] [ 38%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryVINS.cpp.o[0m
+[409.381s] [ 38%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryFLOAM.cpp.o[0m
+[410.401s] [ 39%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryLOAM.cpp.o[0m
+[410.930s] [ 39%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryORBSLAM3.cpp.o[0m
+[411.959s] [ 39%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryOpenVINS.cpp.o[0m
+[413.055s] [ 39%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryORBSLAM2.cpp.o[0m
+[442.300s] [ 39%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/IMUFilter.cpp.o[0m
+[442.328s] [ 40%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/IMUThread.cpp.o[0m
+[444.443s] [ 40%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Stereo.cpp.o[0m
+[446.641s] [ 40%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/StereoDense.cpp.o[0m
+[446.926s] [ 41%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/imufilter/ComplementaryFilter.cpp.o[0m
+[447.943s] [ 42%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/StereoCameraModel.cpp.o[0m
+[448.960s] [ 42%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/IMU.cpp.o[0m
+[449.977s] [ 43%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryOpen3D.cpp.o[0m
+[450.143s] [ 43%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/stereo/StereoBM.cpp.o[0m
+[450.307s] [ 44%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/stereo/StereoSGBM.cpp.o[0m
+[462.358s] [ 45%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/LocalGrid.cpp.o[0m
+[463.069s] [ 45%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/LocalGridMaker.cpp.o[0m
+[464.088s] [ 45%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/global_map/OccupancyGrid.cpp.o[0m
+[465.106s] [ 45%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/GlobalMap.cpp.o[0m
+[465.280s] [ 46%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/global_map/CloudMap.cpp.o[0m
+[466.271s] [ 46%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/MarkerDetector.cpp.o[0m
+[467.100s] [ 46%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/GainCompensator.cpp.o[0m
+[469.783s] [ 47%] [32mBuilding C object corelib/src/CMakeFiles/rtabmap_core.dir/rtflann/ext/lz4.c.o[0m
+[472.024s] [ 47%] [32mBuilding C object corelib/src/CMakeFiles/rtabmap_core.dir/rtflann/ext/lz4hc.c.o[0m
+[474.784s] [ 48%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/FlannIndex.cpp.o[0m
+[476.474s] [ 48%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/clams/discrete_depth_distortion_model_helpers.cpp.o[0m
+[479.053s] [ 48%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/clams/discrete_depth_distortion_model.cpp.o[0m
+[497.635s] [ 48%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/opencv/five-point.cpp.o[0m
+[497.636s] [ 48%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/opencv/solvepnp.cpp.o[0m
+[498.653s] [ 49%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/opencv/ORBextractor.cc.o[0m
+[499.543s] [ 49%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/clams/slam_calibrator.cpp.o[0m
+[499.544s] [ 50%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/clams/frame_projector.cpp.o[0m
+[500.567s] [ 51%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/toro3d/posegraph3.cpp.o[0m
+[505.049s] [ 51%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/toro3d/treeoptimizer3_iteration.cpp.o[0m
+[505.807s] [ 52%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/toro3d/treeoptimizer3.cpp.o[0m
+[506.737s] [ 52%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/toro3d/posegraph2.cpp.o[0m
+[507.314s] [ 53%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/toro3d/treeoptimizer2.cpp.o[0m
+[508.787s] [ 53%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/vertigo/g2o/edge_se2Switchable.cpp.o[0m
+[511.547s] [ 53%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/vertigo/g2o/edge_se3Switchable.cpp.o[0m
+[513.086s] [ 54%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/vertigo/g2o/edge_switchPrior.cpp.o[0m
+[513.419s] [ 54%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/vertigo/g2o/types_g2o_robust.cpp.o[0m
+[514.227s] [ 55%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/vertigo/g2o/vertex_switchLinear.cpp.o[0m
+[514.712s] [ 55%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/global_map/OctoMap.cpp.o[0m
+[515.424s] [ 55%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/global_map/GridMap.cpp.o[0m
+[519.848s] [ 56%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/gtsam/GravityFactor.cpp.o[0m
+[528.230s] [ 56%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/imufilter/MadgwickFilter.cpp.o[0m
+[569.526s] [ 57%] [32m[1mLinking CXX shared library ../../bin/librtabmap_core.so[0m
+[583.906s] [ 57%] Built target rtabmap_core
+[583.942s] [ 57%] Built target rtabmap_gui_autogen_timestamp_deps
+[583.942s] [ 57%] [32mBuilding CXX object tools/ConsoleApp/CMakeFiles/consoleApp.dir/main.cpp.o[0m
+[583.943s] [ 58%] [32mBuilding CXX object tools/ImagesJoiner/CMakeFiles/imagesJoiner.dir/main.cpp.o[0m
+[583.943s] [ 59%] [32mBuilding CXX object tools/ExtractObject/CMakeFiles/extractObject.dir/main.cpp.o[0m
+[583.944s] [ 59%] [32mBuilding CXX object tools/StereoEval/CMakeFiles/stereoEval.dir/main.cpp.o[0m
+[583.944s] [ 61%] [32mBuilding CXX object tools/Camera/CMakeFiles/camera.dir/main.cpp.o[0m
+[583.944s] [ 61%] [32mBuilding CXX object tools/RgbdDataset/CMakeFiles/rgbd_dataset.dir/main.cpp.o[0m
+[583.945s] [ 61%] [32mBuilding CXX object tools/EurocDataset/CMakeFiles/euroc_dataset.dir/main.cpp.o[0m
+[583.945s] [ 61%] [32mBuilding CXX object tools/KittiDataset/CMakeFiles/kitti_dataset.dir/main.cpp.o[0m
+[583.946s] [ 62%] [32mBuilding CXX object tools/Recovery/CMakeFiles/recovery.dir/main.cpp.o[0m
+[583.948s] [ 62%] [32mBuilding CXX object tools/Reprocess/CMakeFiles/reprocess.dir/main.cpp.o[0m
+[583.955s] [ 63%] [32mBuilding CXX object tools/DetectMoreLoopClosures/CMakeFiles/detectMoreLoopClosures.dir/main.cpp.o[0m
+[583.977s] [ 63%] [32mBuilding CXX object tools/Export/CMakeFiles/export.dir/main.cpp.o[0m
+[585.590s] [ 63%] [32m[1mLinking CXX executable ../../bin/rtabmap-recovery[0m
+[589.586s] [ 63%] [32m[1mLinking CXX executable ../../bin/rtabmap-imagesJoiner[0m
+[590.422s] [ 63%] Built target recovery
+[590.546s] [ 63%] [32mBuilding CXX object tools/Info/CMakeFiles/info.dir/main.cpp.o[0m
+[596.697s] [ 63%] [32m[1mLinking CXX executable ../../bin/rtabmap-camera[0m
+[600.795s] [ 63%] Built target imagesJoiner
+[600.836s] [ 63%] [32mBuilding CXX object tools/CleanupLocalGrids/CMakeFiles/cleanupLocalGrids.dir/main.cpp.o[0m
+[601.627s] [ 63%] Built target camera
+[601.669s] [ 64%] [32mBuilding CXX object tools/GlobalBundleAdjustment/CMakeFiles/globalBundleAdjustment.dir/main.cpp.o[0m
+[614.060s] [ 64%] [32m[1mLinking CXX executable ../../bin/rtabmap-stereoEval[0m
+[619.459s] [ 64%] Built target stereoEval
+[619.601s] [ 65%] [34m[1mAutomatic MOC and UIC for target rtabmap_gui[0m
+[623.495s] [ 66%] [32m[1mLinking CXX executable ../../bin/rtabmap-console[0m
+[630.704s] [ 66%] Built target consoleApp
+[634.971s] [ 66%] [32m[1mLinking CXX executable ../../bin/rtabmap-detectMoreLoopClosures[0m
+[636.993s] [ 67%] [32m[1mLinking CXX executable ../../bin/rtabmap-info[0m
+[638.214s] [ 68%] [32m[1mLinking CXX executable ../../bin/rtabmap-kitti_dataset[0m
+[641.499s] [ 68%] Built target detectMoreLoopClosures
+[642.062s] [ 69%] [32m[1mLinking CXX executable ../../bin/rtabmap-cleanupLocalGrids[0m
+[643.178s] [ 69%] Built target info
+[645.199s] [ 69%] Built target kitti_dataset
+[646.327s] [ 69%] [32m[1mLinking CXX executable ../../bin/rtabmap-globalBundleAdjustment[0m
+[647.065s] [ 69%] [32m[1mLinking CXX executable ../../bin/rtabmap-rgbd_dataset[0m
+[649.352s] [ 69%] Built target cleanupLocalGrids
+[650.724s] [ 70%] [32m[1mLinking CXX executable ../../bin/rtabmap-euroc_dataset[0m
+[652.401s] [ 70%] Built target globalBundleAdjustment
+[652.912s] [ 70%] Built target rgbd_dataset
+[654.459s] [ 70%] [32m[1mLinking CXX executable ../../bin/rtabmap-extractObject[0m
+[654.949s] [ 71%] [32m[1mLinking CXX executable ../../bin/rtabmap-reprocess[0m
+[655.900s] [ 71%] Built target euroc_dataset
+[659.353s] [ 71%] Built target reprocess
+[660.306s] [ 71%] Built target extractObject
+[664.340s] [ 71%] Built target rtabmap_gui_autogen
+[664.357s] [ 71%] [34m[1mAutomatic RCC for GuiLib.qrc[0m
+[664.503s] [ 72%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/rtabmap_gui_autogen/mocs_compilation.cpp.o[0m
+[664.503s] [ 72%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/MainWindow.cpp.o[0m
+[664.504s] [ 73%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/KeypointItem.cpp.o[0m
+[664.504s] [ 73%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/PreferencesDialog.cpp.o[0m
+[665.192s] [ 73%] [32m[1mLinking CXX executable ../../bin/rtabmap-export[0m
+[665.516s] [ 74%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/ConsoleWidget.cpp.o[0m
+[665.518s] [ 74%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/DatabaseViewer.cpp.o[0m
+[666.532s] [ 74%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/AboutDialog.cpp.o[0m
+[666.533s] [ 75%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/ProgressDialog.cpp.o[0m
+[667.547s] [ 75%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/StatsToolBox.cpp.o[0m
+[667.549s] [ 76%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/ImageView.cpp.o[0m
+[667.549s] [ 76%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/PdfPlot.cpp.o[0m
+[669.872s] [ 76%] Built target export
+[669.884s] [ 76%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/utilite/UPlot.cpp.o[0m
+[671.569s] [ 77%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/CloudViewer.cpp.o[0m
+[672.959s] [ 77%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/CloudViewerCellPicker.cpp.o[0m
+[673.140s] [ 78%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/CloudViewerInteractorStyle.cpp.o[0m
+[676.519s] [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/guilib/src/utilite/UPlot.cpp:[m[K In member function ‘[01m[Kvoid UPlotCurve::draw(QPainter*, const QRect&)[m[K’:
+[676.520s] [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/guilib/src/utilite/UPlot.cpp:795:74:[m[K [01;35m[Kwarning: [m[K‘[01m[KQLineF::IntersectType QLineF::intersect(const QLineF&, QPointF*) const[m[K’ is deprecated: Use intersects() instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[676.520s]   795 |                                         type = [01;35m[KlineItem->line().intersect(QLineF(limits.topLeft(), limits.bottomLeft()), &intersection)[m[K;
+[676.520s]       |                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[676.521s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h:47[m[K,
+[676.521s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h:49[m[K,
+[676.522s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h:46[m[K,
+[676.523s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:48[m[K,
+[676.523s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h:44[m[K,
+[676.523s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFrame:1[m[K,
+[676.524s]                  from [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/guilib/src/../include/rtabmap/utilite/UPlot.h:25[m[K,
+[676.524s]                  from [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/guilib/src/utilite/UPlot.cpp:20[m[K:
+[676.524s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h:256:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[676.525s]   256 |     IntersectType [01;36m[Kintersect[m[K(const QLineF &l, QPointF *intersectionPoint) const;
+[676.525s]       |                   [01;36m[K^~~~~~~~~[m[K
+[676.525s] [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/guilib/src/utilite/UPlot.cpp:806:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KQLineF::IntersectType QLineF::intersect(const QLineF&, QPointF*) const[m[K’ is deprecated: Use intersects() instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[676.526s]   806 |                                                 type = [01;35m[KlineItem->line().intersect(QLineF(limits.topLeft(), limits.topRight()), &intersection)[m[K;
+[676.526s]       |                                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[676.527s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h:47[m[K,
+[676.527s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h:49[m[K,
+[676.527s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h:46[m[K,
+[676.528s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:48[m[K,
+[676.528s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h:44[m[K,
+[676.528s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFrame:1[m[K,
+[676.529s]                  from [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/guilib/src/../include/rtabmap/utilite/UPlot.h:25[m[K,
+[676.529s]                  from [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/guilib/src/utilite/UPlot.cpp:20[m[K:
+[676.529s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h:256:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[676.530s]   256 |     IntersectType [01;36m[Kintersect[m[K(const QLineF &l, QPointF *intersectionPoint) const;
+[676.530s]       |                   [01;36m[K^~~~~~~~~[m[K
+[676.530s] [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/guilib/src/utilite/UPlot.cpp:817:90:[m[K [01;35m[Kwarning: [m[K‘[01m[KQLineF::IntersectType QLineF::intersect(const QLineF&, QPointF*) const[m[K’ is deprecated: Use intersects() instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[676.531s]   817 |                                                         type = [01;35m[KlineItem->line().intersect(QLineF(limits.bottomLeft(), limits.bottomRight()), &intersection)[m[K;
+[676.531s]       |                                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[676.532s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h:47[m[K,
+[676.532s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h:49[m[K,
+[676.532s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h:46[m[K,
+[676.533s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:48[m[K,
+[676.533s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h:44[m[K,
+[676.533s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFrame:1[m[K,
+[676.534s]                  from [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/guilib/src/../include/rtabmap/utilite/UPlot.h:25[m[K,
+[676.537s]                  from [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/guilib/src/utilite/UPlot.cpp:20[m[K:
+[676.538s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h:256:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[676.538s]   256 |     IntersectType [01;36m[Kintersect[m[K(const QLineF &l, QPointF *intersectionPoint) const;
+[676.539s]       |                   [01;36m[K^~~~~~~~~[m[K
+[676.539s] [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/guilib/src/utilite/UPlot.cpp:828:98:[m[K [01;35m[Kwarning: [m[K‘[01m[KQLineF::IntersectType QLineF::intersect(const QLineF&, QPointF*) const[m[K’ is deprecated: Use intersects() instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[676.543s]   828 |                                                                 type = [01;35m[KlineItem->line().intersect(QLineF(limits.topRight(), limits.bottomRight()), &intersection)[m[K;
+[676.544s]       |                                                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[676.544s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h:47[m[K,
+[676.545s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h:49[m[K,
+[676.545s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h:46[m[K,
+[676.545s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:48[m[K,
+[676.546s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h:44[m[K,
+[676.546s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFrame:1[m[K,
+[676.546s]                  from [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/guilib/src/../include/rtabmap/utilite/UPlot.h:25[m[K,
+[676.547s]                  from [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/guilib/src/utilite/UPlot.cpp:20[m[K:
+[676.547s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h:256:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[676.547s]   256 |     IntersectType [01;36m[Kintersect[m[K(const QLineF &l, QPointF *intersectionPoint) const;
+[676.548s]       |                   [01;36m[K^~~~~~~~~[m[K
+[678.197s] [ 78%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/OdometryViewer.cpp.o[0m
+[678.706s] [ 78%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/LoopClosureViewer.cpp.o[0m
+[689.679s] [ 79%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/DataRecorder.cpp.o[0m
+[699.484s] [ 79%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/CameraViewer.cpp.o[0m
+[703.252s] In file included from [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/guilib/src/MainWindow.cpp:30[m[K:
+[703.252s] [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/guilib/src/rtabmap_gui_autogen/include/ui_mainWindow.h:[m[K In member function ‘[01m[Kvoid Ui_mainWindow::setupUi(QMainWindow*)[m[K’:
+[703.253s] [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/guilib/src/rtabmap_gui_autogen/include/ui_mainWindow.h:641:56:[m[K [01;35m[Kwarning: [m[K‘[01m[KQDockWidget::AllDockWidgetFeatures[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[703.253s]   641 |         dockWidget_posterior->setFeatures(QDockWidget::[01;35m[KAllDockWidgetFeatures[m[K);
+[703.253s]       |                                                        [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[703.254s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDockWidget:1[m[K,
+[703.254s]                  from [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/guilib/src/rtabmap_gui_autogen/include/ui_mainWindow.h:16[m[K,
+[703.255s]                  from [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/guilib/src/MainWindow.cpp:30[m[K:
+[703.255s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdockwidget.h:82:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[703.255s]    82 |         [01;36m[KAllDockWidgetFeatures[m[K Q_DECL_ENUMERATOR_DEPRECATED =
+[703.256s]       |         [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[703.256s] In file included from [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/guilib/src/MainWindow.cpp:30[m[K:
+[703.256s] [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/guilib/src/rtabmap_gui_autogen/include/ui_mainWindow.h:641:56:[m[K [01;35m[Kwarning: [m[K‘[01m[KQDockWidget::AllDockWidgetFeatures[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[703.257s]   641 |         dockWidget_posterior->setFeatures(QDockWidget::[01;35m[KAllDockWidgetFeatures[m[K);
+[703.257s]       |                                                        [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[703.258s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDockWidget:1[m[K,
+[703.258s]                  from [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/guilib/src/rtabmap_gui_autogen/include/ui_mainWindow.h:16[m[K,
+[703.258s]                  from [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/guilib/src/MainWindow.cpp:30[m[K:
+[703.259s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdockwidget.h:82:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[703.259s]    82 |         [01;36m[KAllDockWidgetFeatures[m[K Q_DECL_ENUMERATOR_DEPRECATED =
+[703.260s]       |         [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[722.403s] [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/guilib/src/DatabaseViewer.cpp:[m[K In member function ‘[01m[Kvoid rtabmap::DatabaseViewer::updateIds()[m[K’:
+[722.404s] [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/guilib/src/DatabaseViewer.cpp:1722:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstatic QList<T> QList<T>::fromStdList(const std::__cxx11::list<T>&) [with T = int][m[K’ is deprecated: Use QList<T>(list.begin(), list.end()) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[722.405s]  1722 |         ids_ = QList<int>::[01;35m[KfromStdList[m[K(std::list<int>(ids.begin(), ids.end()));
+[722.405s]       |                            [01;35m[K^~~~~~~~~~~[m[K
+[722.406s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:49[m[K,
+[722.406s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:45[m[K,
+[722.407s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h:44[m[K,
+[722.407s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow:1[m[K,
+[722.408s]                  from [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/guilib/src/../include/rtabmap/gui/DatabaseViewer.h:33[m[K,
+[722.408s]                  from [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/guilib/src/DatabaseViewer.cpp:28[m[K:
+[722.409s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h:416:28:[m[K [01;36m[Knote: [m[Kdeclared here
+[722.409s]   416 |     static inline QList<T> [01;36m[KfromStdList[m[K(const std::list<T> &list)
+[722.409s]       |                            [01;36m[K^~~~~~~~~~~[m[K
+[722.410s] [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/guilib/src/DatabaseViewer.cpp:1722:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstatic QList<T> QList<T>::fromStdList(const std::__cxx11::list<T>&) [with T = int][m[K’ is deprecated: Use QList<T>(list.begin(), list.end()) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[722.410s]  1722 |         ids_ = [01;35m[KQList<int>::fromStdList(std::list<int>(ids.begin(), ids.end()))[m[K;
+[722.411s]       |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[722.411s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:49[m[K,
+[722.411s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:45[m[K,
+[722.412s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h:44[m[K,
+[722.412s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow:1[m[K,
+[722.413s]                  from [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/guilib/src/../include/rtabmap/gui/DatabaseViewer.h:33[m[K,
+[722.413s]                  from [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/guilib/src/DatabaseViewer.cpp:28[m[K:
+[722.414s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h:416:28:[m[K [01;36m[Knote: [m[Kdeclared here
+[722.414s]   416 |     static inline QList<T> [01;36m[KfromStdList[m[K(const std::list<T> &list)
+[722.414s]       |                            [01;36m[K^~~~~~~~~~~[m[K
+[722.655s] [ 79%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/ExportBundlerDialog.cpp.o[0m
+[723.153s] [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/guilib/src/MainWindow.cpp:[m[K In member function ‘[01m[Kvoid rtabmap::MainWindow::drawKeypoints(const std::multimap<int, cv::KeyPoint>&, const std::multimap<int, cv::KeyPoint>&)[m[K’:
+[723.154s] [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/guilib/src/MainWindow.cpp:5049:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstatic QSet<T> QSet<T>::fromList(const QList<T>&) [with T = int][m[K’ is deprecated: Use QSet<T>(list.begin(), list.end()) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[723.155s]  5049 |                 _lastIds = QSet<int>::[01;35m[KfromList[m[K(QList<int>::fromStdList(kpts));
+[723.155s]       |                                       [01;35m[K^~~~~~~~[m[K
+[723.156s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QSet:1[m[K,
+[723.156s]                  from [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/guilib/src/../include/rtabmap/gui/MainWindow.h:35[m[K,
+[723.157s]                  from [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/guilib/src/MainWindow.cpp:28[m[K:
+[723.157s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h:416:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[723.158s]   416 | QSet<T> [01;36m[KQSet<T>[m[K::fromList(const QList<T> &list)
+[723.158s]       |         [01;36m[K^~~~~~~[m[K
+[723.159s] [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/guilib/src/MainWindow.cpp:5049:60:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstatic QList<T> QList<T>::fromStdList(const std::__cxx11::list<T>&) [with T = int][m[K’ is deprecated: Use QList<T>(list.begin(), list.end()) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[723.159s]  5049 |                 _lastIds = QSet<int>::fromList(QList<int>::[01;35m[KfromStdList[m[K(kpts));
+[723.160s]       |                                                            [01;35m[K^~~~~~~~~~~[m[K
+[723.160s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:49[m[K,
+[723.161s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:45[m[K,
+[723.161s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h:44[m[K,
+[723.161s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow:1[m[K,
+[723.162s]                  from [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/guilib/src/../include/rtabmap/gui/MainWindow.h:34[m[K,
+[723.162s]                  from [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/guilib/src/MainWindow.cpp:28[m[K:
+[723.163s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h:416:28:[m[K [01;36m[Knote: [m[Kdeclared here
+[723.163s]   416 |     static inline QList<T> [01;36m[KfromStdList[m[K(const std::list<T> &list)
+[723.163s]       |                            [01;36m[K^~~~~~~~~~~[m[K
+[723.164s] [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/guilib/src/MainWindow.cpp:5049:71:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstatic QList<T> QList<T>::fromStdList(const std::__cxx11::list<T>&) [with T = int][m[K’ is deprecated: Use QList<T>(list.begin(), list.end()) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[723.164s]  5049 |                 _lastIds = QSet<int>::fromList([01;35m[KQList<int>::fromStdList(kpts)[m[K);
+[723.165s]       |                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[723.165s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:49[m[K,
+[723.166s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:45[m[K,
+[723.166s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h:44[m[K,
+[723.166s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow:1[m[K,
+[723.167s]                  from [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/guilib/src/../include/rtabmap/gui/MainWindow.h:34[m[K,
+[723.167s]                  from [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/guilib/src/MainWindow.cpp:28[m[K:
+[723.168s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h:416:28:[m[K [01;36m[Knote: [m[Kdeclared here
+[723.168s]   416 |     static inline QList<T> [01;36m[KfromStdList[m[K(const std::list<T> &list)
+[723.168s]       |                            [01;36m[K^~~~~~~~~~~[m[K
+[723.169s] [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/guilib/src/MainWindow.cpp:5049:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstatic QSet<T> QSet<T>::fromList(const QList<T>&) [with T = int][m[K’ is deprecated: Use QSet<T>(list.begin(), list.end()) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[723.169s]  5049 |                 _lastIds = [01;35m[KQSet<int>::fromList(QList<int>::fromStdList(kpts))[m[K;
+[723.170s]       |                            [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[723.170s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QSet:1[m[K,
+[723.170s]                  from [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/guilib/src/../include/rtabmap/gui/MainWindow.h:35[m[K,
+[723.171s]                  from [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/guilib/src/MainWindow.cpp:28[m[K:
+[723.171s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h:416:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[723.172s]   416 | QSet<T> [01;36m[KQSet<T>[m[K::fromList(const QList<T> &list)
+[723.172s]       |         [01;36m[K^~~~~~~[m[K
+[723.172s] [ 79%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/ExportDialog.cpp.o[0m
+[723.598s] [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/guilib/src/DatabaseViewer.cpp:[m[K In member function ‘[01m[Kvoid rtabmap::DatabaseViewer::regenerateCurrentLocalMaps()[m[K’:
+[723.598s] [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/guilib/src/DatabaseViewer.cpp:3932:39:[m[K [01;35m[Kwarning: [m[K‘[01m[KQList<T> QSet<T>::toList() const [with T = int][m[K’ is deprecated: Use values() instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[723.599s]  3932 |         QList<int> ids = [01;35m[KidsSet.toList()[m[K;
+[723.599s]       |                          [01;35m[K~~~~~~~~~~~~~^~[m[K
+[723.599s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QSet:1[m[K,
+[723.600s]                  from [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/guilib/src/../include/rtabmap/gui/DatabaseViewer.h:36[m[K,
+[723.601s]                  from [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/guilib/src/DatabaseViewer.cpp:28[m[K:
+[723.601s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h:265:14:[m[K [01;36m[Knote: [m[Kdeclared here
+[723.602s]   265 |     QList<T> [01;36m[KtoList[m[K() const { return values(); }
+[723.602s]       |              [01;36m[K^~~~~~[m[K
+[724.174s] [ 80%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/PostProcessingDialog.cpp.o[0m
+[725.191s] [ 81%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/CalibrationDialog.cpp.o[0m
+[728.694s] [ 81%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/ExportCloudsDialog.cpp.o[0m
+[729.926s] [ 82%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/EditConstraintDialog.cpp.o[0m
+[731.117s] [ 82%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/MapVisibilityWidget.cpp.o[0m
+[735.526s] [ 82%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/GraphViewer.cpp.o[0m
+[743.169s] [ 83%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/EditDepthArea.cpp.o[0m
+[743.676s] [ 83%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/EditMapArea.cpp.o[0m
+[767.926s] [ 83%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/DepthCalibrationDialog.cpp.o[0m
+[768.944s] [ 84%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/ParametersToolBox.cpp.o[0m
+[769.118s] [ 84%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/CreateSimpleCalibrationDialog.cpp.o[0m
+[770.132s] [ 85%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/LinkRefiningDialog.cpp.o[0m
+[770.423s] [ 85%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/MultiSessionLocSubView.cpp.o[0m
+[771.433s] [ 85%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/3rdParty/QMultiComboBox.cpp.o[0m
+[772.466s] [ 86%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/MultiSessionLocWidget.cpp.o[0m
+[779.415s] [ 87%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/opencv/vtkImageMatSource.cpp.o[0m
+[779.435s] [ 87%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/rtabmap_gui_autogen/EWIEGA46WW/qrc_GuiLib.cpp.o[0m
+[835.841s] [ 87%] [32m[1mLinking CXX shared library ../../bin/librtabmap_gui.so[0m
+[839.314s] [ 87%] Built target rtabmap_gui
+[839.356s] [ 87%] Built target rgbd_mapping_autogen_timestamp_deps
+[839.357s] [ 88%] [32mBuilding CXX object tools/EpipolarGeometry/CMakeFiles/epipolar_geometry.dir/main.cpp.o[0m
+[839.357s] [ 89%] [32mBuilding CXX object tools/DatabaseViewer/CMakeFiles/databaseViewer.dir/main.cpp.o[0m
+[839.357s] [ 89%] [32mBuilding CXX object app/src/CMakeFiles/rtabmap_app.dir/main.cpp.o[0m
+[839.358s] [ 89%] [32mBuilding CXX object tools/Report/CMakeFiles/report.dir/main.cpp.o[0m
+[839.358s] [ 90%] [32mBuilding CXX object tools/OdometryViewer/CMakeFiles/odometryViewer.dir/main.cpp.o[0m
+[839.359s] [ 91%] Built target wifi_mapping_autogen_timestamp_deps
+[839.359s] [ 91%] [32mBuilding CXX object tools/Calibration/CMakeFiles/calibration.dir/main.cpp.o[0m
+[839.360s] [ 91%] [32mBuilding CXX object tools/Matcher/CMakeFiles/matcher.dir/main.cpp.o[0m
+[839.360s] [ 91%] [32mBuilding CXX object tools/CameraRGBD/CMakeFiles/rgbd_camera.dir/main.cpp.o[0m
+[839.361s] [ 91%] [32mBuilding CXX object tools/DataRecorder/CMakeFiles/dataRecorder.dir/main.cpp.o[0m
+[839.362s] [ 91%] [32mBuilding CXX object examples/BOWMapping/CMakeFiles/bow_mapping.dir/main.cpp.o[0m
+[839.391s] [ 91%] [34m[1mAutomatic MOC and UIC for target rgbd_mapping[0m
+[839.391s] [ 91%] Built target noEventsExample_autogen_timestamp_deps
+[839.423s] [ 92%] [34m[1mAutomatic MOC and UIC for target wifi_mapping[0m
+[842.024s] [ 92%] Built target rgbd_mapping_autogen
+[842.106s] [ 92%] [34m[1mAutomatic MOC and UIC for target noEventsExample[0m
+[842.304s] [ 92%] Built target wifi_mapping_autogen
+[842.379s] [ 92%] [32mBuilding CXX object examples/RGBDMapping/CMakeFiles/rgbd_mapping.dir/rgbd_mapping_autogen/mocs_compilation.cpp.o[0m
+[842.930s] [ 92%] Built target noEventsExample_autogen
+[843.021s] [ 92%] [32mBuilding CXX object examples/WifiMapping/CMakeFiles/wifi_mapping.dir/wifi_mapping_autogen/mocs_compilation.cpp.o[0m
+[876.223s] [ 92%] [32m[1mLinking CXX executable ../../bin/rtabmap-calibration[0m
+[877.158s] [ 92%] [32m[1mLinking CXX executable ../../bin/rtabmap-databaseViewer[0m
+[877.159s] [ 92%] [32m[1mLinking CXX executable ../../bin/rtabmap-bow_mapping[0m
+[877.326s] [ 92%] [32m[1mLinking CXX executable ../../bin/rtabmap-odometryViewer[0m
+[878.012s] [ 92%] [32m[1mLinking CXX executable ../../bin/rtabmap-dataRecorder[0m
+[881.259s] [ 93%] [32m[1mLinking CXX executable ../../bin/rtabmap-epipolar_geometry[0m
+[881.747s] [ 93%] [32m[1mLinking CXX executable ../../bin/rtabmap[0m
+[882.524s] [ 93%] Built target bow_mapping
+[882.743s] [ 93%] [32mBuilding CXX object examples/NoEventsExample/CMakeFiles/noEventsExample.dir/noEventsExample_autogen/mocs_compilation.cpp.o[0m
+[882.871s] [ 93%] Built target databaseViewer
+[882.886s] [ 94%] [32mBuilding CXX object examples/NoEventsExample/CMakeFiles/noEventsExample.dir/main.cpp.o[0m
+[883.036s] [ 94%] Built target calibration
+[883.063s] [ 95%] [32mBuilding CXX object examples/WifiMapping/CMakeFiles/wifi_mapping.dir/main.cpp.o[0m
+[883.616s] [ 95%] Built target odometryViewer
+[883.655s] [ 95%] [32mBuilding CXX object examples/RGBDMapping/CMakeFiles/rgbd_mapping.dir/main.cpp.o[0m
+[884.455s] [ 95%] Built target dataRecorder
+[887.656s] [ 95%] Built target epipolar_geometry
+[888.041s] [ 95%] Built target rtabmap_app
+[892.653s] [ 95%] [32m[1mLinking CXX executable ../../bin/rtabmap-rgbd_camera[0m
+[896.607s] [ 95%] Built target rgbd_camera
+[896.819s] [ 95%] [32m[1mLinking CXX executable ../../bin/rtabmap-matcher[0m
+[900.876s] [ 95%] Built target matcher
+[901.560s] [ 96%] [32m[1mLinking CXX executable ../../bin/rtabmap-report[0m
+[905.230s] [ 96%] Built target report
+[921.327s] [ 96%] [32m[1mLinking CXX executable ../../bin/rtabmap-noEventsExample[0m
+[924.182s] [ 96%] [32m[1mLinking CXX executable ../../bin/rtabmap-wifi_mapping[0m
+[925.070s] [ 97%] Built target noEventsExample
+[927.755s] [ 98%] Built target wifi_mapping
+[930.556s] [ 99%] [32m[1mLinking CXX executable ../../bin/rtabmap-rgbd_mapping[0m
+[933.949s] [100%] Built target rgbd_mapping
+[934.114s] Invoked command in '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap -- -j12 -l12
+[934.267s] Invoking command in '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --install /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap
+[934.325s] -- Install configuration: "Release"
+[934.327s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/rtabmap-0.21/RTABMapTargets.cmake
+[934.327s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/rtabmap-0.21/RTABMapConfig.cmake
+[934.328s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/rtabmap-0.21/RTABMapConfigVersion.cmake
+[934.328s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/share/rtabmap/package.xml
+[934.330s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/librtabmap_utilite.so.0.21.3
+[934.331s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/librtabmap_utilite.so.0.21
+[934.331s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/librtabmap_utilite.so
+[934.331s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap
+[934.332s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite
+[934.332s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UEventsHandler.h
+[934.332s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UStl.h
+[934.333s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/Win32
+[934.333s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/Win32/UWin32.h
+[934.333s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/Win32/UThreadC.h
+[934.333s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UObjDeletionThread.h
+[934.334s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UException.h
+[934.334s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UMutex.h
+[934.334s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UConversion.h
+[934.335s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/ULogger.h
+[934.335s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UMath.h
+[934.335s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UThread.h
+[934.335s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UEventsManager.h
+[934.336s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UEventsSender.h
+[934.336s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UDirectory.h
+[934.336s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/Posix
+[934.336s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/Posix/UThreadC.h
+[934.336s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/USemaphore.h
+[934.337s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UThreadNode.h
+[934.337s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UVariant.h
+[934.337s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UFile.h
+[934.337s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UTimer.h
+[934.337s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UDestroyer.h
+[934.338s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UEvent.h
+[934.338s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UProcessInfo.h
+[934.338s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UThreadC.h
+[934.338s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UtiLite.h
+[934.339s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap
+[934.339s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite
+[934.339s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/utilite_export.h
+[934.339s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/rtabmap-0.21/RTABMap_utiliteTargets.cmake
+[934.340s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/rtabmap-0.21/RTABMap_utiliteTargets-release.cmake
+[934.341s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-res_tool-0.3.0
+[934.342s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-res_tool
+[934.342s] -- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-res_tool-0.3.0" to ""
+[934.344s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/librtabmap_core.so.0.21.3
+[934.400s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/librtabmap_core.so.0.21
+[934.400s] -- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/librtabmap_core.so.0.21.3" to ""
+[934.401s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/librtabmap_core.so
+[934.401s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap
+[934.401s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core
+[934.402s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Features2d.h
+[934.402s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Parameters.h
+[934.402s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera
+[934.403s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraFreenect.h
+[934.403s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoDC1394.h
+[934.403s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoVideo.h
+[934.403s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraK4A.h
+[934.403s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoFlyCapture2.h
+[934.404s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraK4W2.h
+[934.404s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoZed.h
+[934.404s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraMyntEye.h
+[934.404s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraRealSense2.h
+[934.404s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraFreenect2.h
+[934.405s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraOpenni.h
+[934.405s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoZedOC.h
+[934.405s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraVideo.h
+[934.405s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoImages.h
+[934.405s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraRGBDImages.h
+[934.406s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraOpenNICV.h
+[934.406s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraOpenNI2.h
+[934.406s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraDepthAI.h
+[934.406s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoTara.h
+[934.406s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraRealSense.h
+[934.407s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraImages.h
+[934.407s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/DBDriver.h
+[934.407s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Optimizer.h
+[934.407s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/optimizer
+[934.407s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/optimizer/OptimizerCVSBA.h
+[934.407s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/optimizer/OptimizerCeres.h
+[934.408s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/optimizer/OptimizerTORO.h
+[934.408s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/optimizer/OptimizerGTSAM.h
+[934.408s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/optimizer/OptimizerG2O.h
+[934.408s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/GlobalDescriptor.h
+[934.408s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/VisualWord.h
+[934.409s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/clams
+[934.409s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/clams/frame_projector.h
+[934.409s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/clams/discrete_depth_distortion_model.h
+[934.409s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/clams/slam_calibrator.h
+[934.409s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/IMUThread.h
+[934.410s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_correspondences.h
+[934.410s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/OdometryInfo.h
+[934.410s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/OdometryThread.h
+[934.410s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraEvent.h
+[934.411s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_filtering.h
+[934.411s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/GPS.h
+[934.411s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/LocalGridMaker.h
+[934.411s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/StereoCameraModel.h
+[934.412s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_transforms.h
+[934.412s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Compression.h
+[934.412s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraModel.h
+[934.412s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_features.h
+[934.413s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/IMUFilter.h
+[934.413s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/GlobalMap.h
+[934.413s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Statistics.h
+[934.413s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Recovery.h
+[934.414s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Rtabmap.h
+[934.414s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/RegistrationVis.h
+[934.414s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/DBDriverSqlite3.h
+[934.415s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_mapping.h
+[934.415s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraThread.h
+[934.415s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/stereo
+[934.416s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/stereo/stereoRectifyFisheye.h
+[934.416s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/stereo/StereoSGBM.h
+[934.416s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/stereo/StereoBM.h
+[934.417s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Signature.h
+[934.417s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/OctoMap.h
+[934.417s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/EpipolarGeometry.h
+[934.418s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraStereo.h
+[934.418s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Odometry.h
+[934.418s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/FlannIndex.h
+[934.418s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/PythonInterface.h
+[934.419s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/BayesFilter.h
+[934.419s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Link.h
+[934.419s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/PDALWriter.h
+[934.420s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/OdometryEvent.h
+[934.420s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/RegistrationIcp.h
+[934.420s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/IMU.h
+[934.420s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/ParticleFilter.h
+[934.421s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraRGBD.h
+[934.421s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/StereoDense.h
+[934.422s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/OccupancyGrid.h
+[934.422s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/GainCompensator.h
+[934.422s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry
+[934.422s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryF2M.h
+[934.423s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryViso2.h
+[934.423s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryOpenVINS.h
+[934.423s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryMono.h
+[934.424s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryFovis.h
+[934.424s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryLOAM.h
+[934.424s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryDVO.h
+[934.425s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryORBSLAM2.h
+[934.425s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryFLOAM.h
+[934.426s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryOpen3D.h
+[934.426s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryOkvis.h
+[934.426s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryF2F.h
+[934.427s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryVINS.h
+[934.427s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryMSCKF.h
+[934.427s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryORBSLAM3.h
+[934.428s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/ParamEvent.h
+[934.428s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/GeodeticCoords.h
+[934.428s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_surface.h
+[934.429s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/global_map
+[934.429s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/global_map/CloudMap.h
+[934.429s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/global_map/OctoMap.h
+[934.430s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/global_map/OccupancyGrid.h
+[934.430s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/global_map/GridMap.h
+[934.430s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Landmark.h
+[934.430s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/ProgressState.h
+[934.431s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/DBReader.h
+[934.431s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util2d.h
+[934.431s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/RegistrationInfo.h
+[934.431s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Graph.h
+[934.432s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Transform.h
+[934.432s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/EnvSensor.h
+[934.432s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/SensorData.h
+[934.432s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/impl
+[934.433s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/impl/util3d_mapping.hpp
+[934.433s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/impl/util3d_surface.hpp
+[934.433s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/impl/LocalMapMaker.hpp
+[934.434s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/impl/util3d.hpp
+[934.434s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraInfo.h
+[934.434s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/LocalGrid.h
+[934.435s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Camera.h
+[934.435s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Registration.h
+[934.435s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d.h
+[934.435s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/VWDictionary.h
+[934.436s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Stereo.h
+[934.436s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraRGB.h
+[934.436s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/UserDataEvent.h
+[934.436s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_motion_estimation.h
+[934.437s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/RtabmapThread.h
+[934.437s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/LaserScan.h
+[934.437s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/MarkerDetector.h
+[934.438s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_registration.h
+[934.438s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Memory.h
+[934.438s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Image.h
+[934.439s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/RtabmapEvent.h
+[934.439s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap
+[934.439s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core
+[934.440s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/rtabmap_core_export.h
+[934.440s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Version.h
+[934.440s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/rtabmap-0.21/RTABMap_coreTargets.cmake
+[934.441s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/rtabmap-0.21/RTABMap_coreTargets-release.cmake
+[934.443s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/librtabmap_gui.so.0.21.3
+[934.463s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/librtabmap_gui.so.0.21
+[934.463s] -- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/librtabmap_gui.so.0.21.3" to ""
+[934.464s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/librtabmap_gui.so
+[934.464s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap
+[934.464s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite
+[934.464s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UPlot.h
+[934.465s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UCv2Qt.h
+[934.465s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UImageView.h
+[934.465s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui
+[934.465s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/DatabaseViewer.h
+[934.465s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ExportBundlerDialog.h
+[934.466s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/PdfPlot.h
+[934.466s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/MultiSessionLocWidget.h
+[934.466s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/CameraViewer.h
+[934.466s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ImageView.h
+[934.466s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ConsoleWidget.h
+[934.467s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/StatsToolBox.h
+[934.467s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/EditDepthArea.h
+[934.467s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/RecoveryState.h
+[934.468s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/CreateSimpleCalibrationDialog.h
+[934.468s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/CloudViewer.h
+[934.468s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/LoopClosureViewer.h
+[934.468s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/EditMapArea.h
+[934.469s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/EditConstraintDialog.h
+[934.469s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/AboutDialog.h
+[934.469s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ExportCloudsDialog.h
+[934.470s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/CloudViewerCellPicker.h
+[934.470s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/OdometryViewer.h
+[934.470s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/DataRecorder.h
+[934.470s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ExportDialog.h
+[934.471s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/DepthCalibrationDialog.h
+[934.471s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/CalibrationDialog.h
+[934.471s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/MapVisibilityWidget.h
+[934.471s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/PreferencesDialog.h
+[934.472s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/MultiSessionLocSubView.h
+[934.472s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/MainWindow.h
+[934.472s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/LinkRefiningDialog.h
+[934.472s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/CloudViewerInteractorStyle.h
+[934.472s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/TexturingState.h
+[934.473s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/GraphViewer.h
+[934.473s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ParametersToolBox.h
+[934.473s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ProgressDialog.h
+[934.474s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/KeypointItem.h
+[934.474s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/PostProcessingDialog.h
+[934.474s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap
+[934.474s] -- Up-to-date: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui
+[934.474s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/rtabmap_gui_export.h
+[934.475s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/rtabmap-0.21/RTABMap_guiTargets.cmake
+[934.475s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/rtabmap-0.21/RTABMap_guiTargets-release.cmake
+[934.477s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap
+[934.477s] -- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap" to ""
+[934.479s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-console
+[934.480s] -- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-console" to ""
+[934.481s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-extractObject
+[934.483s] -- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-extractObject" to ""
+[934.483s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-camera
+[934.484s] -- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-camera" to ""
+[934.486s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-kitti_dataset
+[934.487s] -- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-kitti_dataset" to ""
+[934.488s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-rgbd_dataset
+[934.489s] -- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-rgbd_dataset" to ""
+[934.490s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-euroc_dataset
+[934.492s] -- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-euroc_dataset" to ""
+[934.492s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-recovery
+[934.493s] -- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-recovery" to ""
+[934.494s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-reprocess
+[934.496s] -- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-reprocess" to ""
+[934.497s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-detectMoreLoopClosures
+[934.498s] -- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-detectMoreLoopClosures" to ""
+[934.498s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-export
+[934.501s] -- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-export" to ""
+[934.501s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-report
+[934.503s] -- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-report" to ""
+[934.503s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-info
+[934.504s] -- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-info" to ""
+[934.505s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-cleanupLocalGrids
+[934.506s] -- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-cleanupLocalGrids" to ""
+[934.507s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-globalBundleAdjustment
+[934.508s] -- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-globalBundleAdjustment" to ""
+[934.509s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-rgbd_camera
+[934.510s] -- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-rgbd_camera" to ""
+[934.510s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-databaseViewer
+[934.511s] -- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-databaseViewer" to ""
+[934.512s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-odometryViewer
+[934.513s] -- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-odometryViewer" to ""
+[934.513s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-dataRecorder
+[934.514s] -- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-dataRecorder" to ""
+[934.515s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-calibration
+[934.515s] -- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin/rtabmap-calibration" to ""
+[934.531s] Invoked command in '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --install /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap

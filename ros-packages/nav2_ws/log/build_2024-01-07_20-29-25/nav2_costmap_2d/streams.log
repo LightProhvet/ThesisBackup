@@ -1,0 +1,242 @@
+[0.318s] Invoking command in '/home/mihkel/School/ros-packages/nav2_ws/build/nav2_costmap_2d': AMENT_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_map_server:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_lifecycle_manager:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_map_server:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_lifecycle_manager:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:/opt/ros/humble LD_LIBRARY_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_map_server/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_lifecycle_manager/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bond/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/smclib/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/mihkel/.local/bin/cmake /home/mihkel/School/ros-packages/nav2_ws/src/navigation2/nav2_costmap_2d -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d
+[0.567s] -- The C compiler identification is GNU 11.4.0
+[0.744s] -- The CXX compiler identification is GNU 11.4.0
+[0.789s] -- Detecting C compiler ABI info
+[0.966s] -- Detecting C compiler ABI info - done
+[1.007s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.008s] -- Detecting C compile features
+[1.009s] -- Detecting C compile features - done
+[1.040s] -- Detecting CXX compiler ABI info
+[1.268s] -- Detecting CXX compiler ABI info - done
+[1.341s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.343s] -- Detecting CXX compile features
+[1.347s] -- Detecting CXX compile features - done
+[1.365s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[9.592s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[10.077s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[10.349s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[10.790s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[10.844s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[10.932s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[11.072s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.270s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.460s] -- Found laser_geometry: 2.4.0 (/opt/ros/humble/share/laser_geometry/cmake)
+[13.207s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[13.232s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[14.247s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[14.629s] -- Found FastRTPS: /opt/ros/humble/include  
+[15.183s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[15.276s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[15.953s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[15.961s] -- Found Threads: TRUE  
+[18.616s] -- Found map_msgs: 2.1.0 (/opt/ros/humble/share/map_msgs/cmake)
+[21.277s] -- Found message_filters: 4.3.3 (/opt/ros/humble/share/message_filters/cmake)
+[21.371s] -- Found nav2_common: 1.1.12 (/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/share/nav2_common/cmake)
+[21.400s] -- Found nav2_msgs: 1.1.12 (/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[23.810s] -- Found nav2_util: 1.1.12 (/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/share/nav2_util/cmake)
+[27.885s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[27.886s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[31.058s] -- Found nav2_voxel_grid: 1.1.12 (/home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake)
+[31.192s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[31.561s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[31.886s] -- Found tf2_sensor_msgs: 0.25.5 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)
+[32.198s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[33.419s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[33.447s] -- Setting build type to Release as none was specified.
+[59.990s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[75.903s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[76.067s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[90.175s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[93.925s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[93.973s] -- Configured cppcheck include dirs: /home/mihkel/School/ros-packages/nav2_ws/src/navigation2/nav2_costmap_2d/include
+[93.973s] -- Configured cppcheck exclude dirs and/or files: 
+[93.990s] -- Added test 'flake8' to check Python code syntax and style conventions
+[94.015s] -- Added test 'lint_cmake' to check CMake code style
+[94.023s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[94.078s] -- Added test 'uncrustify' to check C / C++ code style
+[94.078s] -- Configured uncrustify additional arguments: 
+[94.090s] -- Added test 'xmllint' to check XML markup files
+[94.162s] -- Configuring done (93.8s)
+[100.327s] -- Generating done (4.9s)
+[100.366s] -- Build files have been written to: /home/mihkel/School/ros-packages/nav2_ws/build/nav2_costmap_2d
+[100.642s] Invoked command in '/home/mihkel/School/ros-packages/nav2_ws/build/nav2_costmap_2d' returned '0': AMENT_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_map_server:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_lifecycle_manager:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_map_server:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_lifecycle_manager:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:/opt/ros/humble LD_LIBRARY_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_map_server/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_lifecycle_manager/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bond/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/smclib/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/mihkel/.local/bin/cmake /home/mihkel/School/ros-packages/nav2_ws/src/navigation2/nav2_costmap_2d -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d
+[100.646s] Invoking command in '/home/mihkel/School/ros-packages/nav2_ws/build/nav2_costmap_2d': AMENT_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_map_server:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_lifecycle_manager:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_map_server:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_lifecycle_manager:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:/opt/ros/humble LD_LIBRARY_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_map_server/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_lifecycle_manager/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bond/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/smclib/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ros-packages/nav2_ws/build/nav2_costmap_2d -- -j12 -l12
+[101.181s] [  1%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/array_parser.cpp.o[0m
+[101.185s] [  2%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[101.217s] [  3%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_2d.cpp.o[0m
+[102.282s] [  4%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_layer.cpp.o[0m
+[103.358s] [  6%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/footprint.cpp.o[0m
+[108.393s] [  7%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[108.653s] [  7%] Built target gtest_main
+[125.387s] [  8%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/plugins/costmap_filters/costmap_filter.cpp.o[0m
+[145.285s] [  9%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/clear_costmap_service.cpp.o[0m
+[145.289s] [ 10%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/observation_buffer.cpp.o[0m
+[145.292s] [ 12%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/footprint_collision_checker.cpp.o[0m
+[173.537s] [ 13%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_2d_publisher.cpp.o[0m
+[173.546s] [ 14%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_math.cpp.o[0m
+[173.546s] [ 15%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_2d_ros.cpp.o[0m
+[176.690s] [ 17%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/layered_costmap.cpp.o[0m
+[176.695s] [ 18%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/layer.cpp.o[0m
+[268.155s] [ 19%] [32m[1mLinking CXX shared library libnav2_costmap_2d_core.so[0m
+[271.400s] [ 19%] Built target nav2_costmap_2d_core
+[271.606s] [ 20%] [32mBuilding CXX object test/regression/CMakeFiles/order_layer.dir/order_layer.cpp.o[0m
+[335.671s] [ 21%] [32m[1mLinking CXX shared library liborder_layer.so[0m
+[339.575s] [ 21%] Built target order_layer
+[339.858s] [ 23%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_cloud.dir/src/costmap_2d_cloud.cpp.o[0m
+[383.022s] [ 24%] [32m[1mLinking CXX executable nav2_costmap_2d_cloud[0m
+[383.745s] [ 24%] Built target nav2_costmap_2d_cloud
+[383.781s] [ 25%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_markers.dir/src/costmap_2d_markers.cpp.o[0m
+[420.394s] [ 26%] [32m[1mLinking CXX executable nav2_costmap_2d_markers[0m
+[421.175s] [ 26%] Built target nav2_costmap_2d_markers
+[421.213s] [ 28%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_client.dir/src/footprint_subscriber.cpp.o[0m
+[469.443s] [ 29%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_client.dir/src/costmap_topic_collision_checker.cpp.o[0m
+[490.386s] [ 30%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_client.dir/src/costmap_subscriber.cpp.o[0m
+[549.241s] [ 31%] [32m[1mLinking CXX shared library libnav2_costmap_2d_client.so[0m
+[550.649s] [ 31%] Built target nav2_costmap_2d_client
+[550.687s] [ 32%] [32mBuilding CXX object CMakeFiles/filters.dir/plugins/costmap_filters/keepout_filter.cpp.o[0m
+[590.191s] [ 34%] [32mBuilding CXX object CMakeFiles/filters.dir/plugins/costmap_filters/binary_filter.cpp.o[0m
+[590.192s] [ 35%] [32mBuilding CXX object CMakeFiles/filters.dir/plugins/costmap_filters/speed_filter.cpp.o[0m
+[633.375s] [ 36%] [32m[1mLinking CXX shared library libfilters.so[0m
+[634.502s] [ 36%] Built target filters
+[634.530s] [ 37%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[634.537s] [ 39%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/static_layer.cpp.o[0m
+[634.538s] [ 41%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/inflation_layer.cpp.o[0m
+[634.538s] [ 41%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/obstacle_layer.cpp.o[0m
+[634.539s] [ 42%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/voxel_layer.cpp.o[0m
+[634.540s] [ 43%] [32mBuilding CXX object CMakeFiles/layers.dir/src/observation_buffer.cpp.o[0m
+[634.541s] [ 45%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/range_sensor_layer.cpp.o[0m
+[634.542s] [ 46%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/denoise_layer.cpp.o[0m
+[666.969s] [ 47%] [32m[1mLinking CXX static library libgtest.a[0m
+[667.042s] [ 47%] Built target gtest
+[667.091s] [ 48%] [32mBuilding CXX object test/unit/CMakeFiles/array_parser_test.dir/array_parser_test.cpp.o[0m
+[667.099s] [ 50%] [32mBuilding CXX object test/unit/CMakeFiles/costmap_filter_test.dir/costmap_filter_test.cpp.o[0m
+[667.100s] [ 51%] [32mBuilding CXX object test/unit/CMakeFiles/copy_window_test.dir/copy_window_test.cpp.o[0m
+[667.101s] [ 52%] [32mBuilding CXX object test/unit/CMakeFiles/declare_parameter_test.dir/declare_parameter_test.cpp.o[0m
+[667.101s] [ 53%] [32mBuilding CXX object test/unit/CMakeFiles/collision_footprint_test.dir/footprint_collision_checker_test.cpp.o[0m
+[667.102s] [ 54%] [32mBuilding CXX object test/unit/CMakeFiles/costmap_convesion_test.dir/costmap_conversion_test.cpp.o[0m
+[667.109s] [ 57%] [32mBuilding CXX object test/unit/CMakeFiles/binary_filter_test.dir/binary_filter_test.cpp.o[0m
+[667.109s] [ 57%] [32mBuilding CXX object test/unit/CMakeFiles/speed_filter_test.dir/speed_filter_test.cpp.o[0m
+[667.110s] [ 58%] [32mBuilding CXX object test/unit/CMakeFiles/keepout_filter_test.dir/keepout_filter_test.cpp.o[0m
+[676.142s] [ 59%] [32m[1mLinking CXX executable array_parser_test[0m
+[677.717s] [ 59%] Built target array_parser_test
+[677.869s] [ 60%] [32mBuilding CXX object test/unit/CMakeFiles/costmap_filter_service_test.dir/costmap_filter_service_test.cpp.o[0m
+[688.687s] [ 62%] [32m[1mLinking CXX executable costmap_convesion_test[0m
+[688.835s] [ 63%] [32m[1mLinking CXX executable copy_window_test[0m
+[690.204s] [ 63%] Built target copy_window_test
+[690.223s] [ 63%] Built target costmap_convesion_test
+[690.308s] [ 64%] [32mBuilding CXX object test/regression/CMakeFiles/costmap_bresenham_2d.dir/costmap_bresenham_2d.cpp.o[0m
+[690.368s] [ 65%] [32mBuilding CXX object test/integration/CMakeFiles/dyn_params_tests.dir/dyn_params_tests.cpp.o[0m
+[691.466s] [ 67%] [32mBuilding CXX object test/regression/CMakeFiles/plugin_api_order.dir/plugin_api_order.cpp.o[0m
+[692.140s] [ 68%] [32m[1mLinking CXX executable costmap_filter_test[0m
+[693.585s] [ 68%] Built target costmap_filter_test
+[694.226s] [ 69%] [32m[1mLinking CXX executable declare_parameter_test[0m
+[695.654s] [ 70%] [32m[1mLinking CXX executable collision_footprint_test[0m
+[695.765s] [ 70%] Built target declare_parameter_test
+[696.869s] [ 70%] Built target collision_footprint_test
+[697.750s] [ 71%] [32m[1mLinking CXX executable costmap_bresenham_2d[0m
+[698.676s] [ 71%] Built target costmap_bresenham_2d
+[705.816s] [ 73%] [32m[1mLinking CXX executable costmap_filter_service_test[0m
+[706.639s] [ 73%] Built target costmap_filter_service_test
+[710.188s] [ 74%] [32m[1mLinking CXX executable keepout_filter_test[0m
+[711.003s] [ 75%] [32m[1mLinking CXX executable plugin_api_order[0m
+[711.219s] [ 75%] Built target keepout_filter_test
+[711.859s] [ 75%] Built target plugin_api_order
+[718.279s] [ 76%] [32m[1mLinking CXX shared library liblayers.so[0m
+[719.851s] [ 76%] Built target layers
+[719.897s] [ 78%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d.dir/src/costmap_2d_node.cpp.o[0m
+[719.899s] [ 79%] [32mBuilding CXX object test/unit/CMakeFiles/denoise_layer_test.dir/image_test.cpp.o[0m
+[719.900s] [ 80%] [32mBuilding CXX object test/integration/CMakeFiles/inflation_tests_exec.dir/inflation_tests.cpp.o[0m
+[719.900s] [ 81%] [32mBuilding CXX object test/integration/CMakeFiles/obstacle_tests_exec.dir/obstacle_tests.cpp.o[0m
+[719.901s] [ 82%] [32mBuilding CXX object test/unit/CMakeFiles/denoise_layer_test.dir/denoise_layer_test.cpp.o[0m
+[719.902s] [ 84%] [32mBuilding CXX object test/integration/CMakeFiles/test_collision_checker_exec.dir/test_costmap_topic_collision_checker.cpp.o[0m
+[719.904s] [ 85%] [32mBuilding CXX object test/unit/CMakeFiles/denoise_layer_test.dir/image_processing_test.cpp.o[0m
+[719.905s] [ 86%] [32mBuilding CXX object test/integration/CMakeFiles/range_tests_exec.dir/range_tests.cpp.o[0m
+[719.909s] [ 87%] [32mBuilding CXX object test/integration/CMakeFiles/footprint_tests_exec.dir/footprint_tests.cpp.o[0m
+[723.860s] [ 89%] [32m[1mLinking CXX executable dyn_params_tests[0m
+[726.260s] [ 89%] Built target dyn_params_tests
+[736.093s] [ 90%] [32m[1mLinking CXX executable binary_filter_test[0m
+[737.871s] [ 90%] Built target binary_filter_test
+[738.459s] [ 91%] [32m[1mLinking CXX executable speed_filter_test[0m
+[739.842s] [ 91%] Built target speed_filter_test
+[742.701s] [ 92%] [32m[1mLinking CXX executable footprint_tests_exec[0m
+[743.803s] [ 92%] Built target footprint_tests_exec
+[744.703s] [ 93%] [32m[1mLinking CXX executable nav2_costmap_2d[0m
+[746.054s] [ 93%] Built target nav2_costmap_2d
+[746.883s] [ 95%] [32m[1mLinking CXX executable denoise_layer_test[0m
+[748.081s] [ 95%] Built target denoise_layer_test
+[752.430s] [ 96%] [32m[1mLinking CXX executable range_tests_exec[0m
+[753.701s] [ 96%] Built target range_tests_exec
+[757.237s] [ 97%] [32m[1mLinking CXX executable obstacle_tests_exec[0m
+[758.469s] [ 97%] Built target obstacle_tests_exec
+[759.466s] [ 98%] [32m[1mLinking CXX executable test_collision_checker_exec[0m
+[760.789s] [ 98%] Built target test_collision_checker_exec
+[761.307s] [100%] [32m[1mLinking CXX executable inflation_tests_exec[0m
+[762.479s] [100%] Built target inflation_tests_exec
+[762.509s] Invoked command in '/home/mihkel/School/ros-packages/nav2_ws/build/nav2_costmap_2d' returned '0': AMENT_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_map_server:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_lifecycle_manager:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_map_server:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_lifecycle_manager:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:/opt/ros/humble LD_LIBRARY_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_map_server/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_lifecycle_manager/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bond/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/smclib/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ros-packages/nav2_ws/build/nav2_costmap_2d -- -j12 -l12
+[762.832s] Invoking command in '/home/mihkel/School/ros-packages/nav2_ws/build/nav2_costmap_2d': AMENT_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_map_server:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_lifecycle_manager:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_map_server:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_lifecycle_manager:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:/opt/ros/humble LD_LIBRARY_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_map_server/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_lifecycle_manager/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bond/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/smclib/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/mihkel/.local/bin/cmake --install /home/mihkel/School/ros-packages/nav2_ws/build/nav2_costmap_2d
+[762.910s] -- Install configuration: "Release"
+[762.912s] -- Execute custom install script
+[762.913s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so
+[762.922s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/lib/liblayers.so
+[762.930s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/lib/libfilters.so
+[762.938s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so
+[762.947s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d
+[762.955s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_markers
+[762.963s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_cloud
+[762.971s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/costmap_plugins.xml
+[762.980s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/array_parser.hpp
+[762.988s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/clear_costmap_service.hpp
+[762.996s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/cost_values.hpp
+[763.004s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_2d.hpp
+[763.012s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_2d_publisher.hpp
+[763.019s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_2d_ros.hpp
+[763.028s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_filters/binary_filter.hpp
+[763.036s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_filters/costmap_filter.hpp
+[763.044s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_filters/filter_values.hpp
+[763.052s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_filters/keepout_filter.hpp
+[763.059s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_filters/speed_filter.hpp
+[763.067s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_layer.hpp
+[763.075s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_math.hpp
+[763.083s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_subscriber.hpp
+[763.091s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_topic_collision_checker.hpp
+[763.099s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/denoise/image.hpp
+[763.107s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/denoise/image_processing.hpp
+[763.115s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/denoise_layer.hpp
+[763.123s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/exceptions.hpp
+[763.131s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/footprint.hpp
+[763.140s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/footprint_collision_checker.hpp
+[763.148s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/footprint_subscriber.hpp
+[763.156s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/inflation_layer.hpp
+[763.164s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/layer.hpp
+[763.172s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/layered_costmap.hpp
+[763.179s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/observation.hpp
+[763.187s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/observation_buffer.hpp
+[763.195s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/obstacle_layer.hpp
+[763.203s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/range_sensor_layer.hpp
+[763.211s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/static_layer.hpp
+[763.219s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/voxel_layer.hpp
+[763.235s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/lib/liborder_layer.so
+[763.244s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/test/regression/order_layer.xml
+[763.252s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.sh
+[763.260s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.dsv
+[763.267s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d//costmap_plugins.xml
+[763.269s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/share/ament_index/resource_index/package_run_dependencies/nav2_costmap_2d
+[763.277s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/share/ament_index/resource_index/parent_prefix_path/nav2_costmap_2d
+[763.285s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.sh
+[763.293s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.dsv
+[763.301s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.sh
+[763.309s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.dsv
+[763.317s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.bash
+[763.325s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.sh
+[763.333s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.zsh
+[763.341s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.dsv
+[763.349s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/package.dsv
+[763.357s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/share/ament_index/resource_index/packages/nav2_costmap_2d
+[763.365s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/nav2_costmap_2d
+[763.373s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_include_directories-extras.cmake
+[763.382s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_libraries-extras.cmake
+[763.390s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_dependencies-extras.cmake
+[763.398s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig.cmake
+[763.405s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig-version.cmake
+[763.413s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/package.xml
+[763.440s] Invoked command in '/home/mihkel/School/ros-packages/nav2_ws/build/nav2_costmap_2d' returned '0': AMENT_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_map_server:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_lifecycle_manager:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_map_server:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_lifecycle_manager:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:/opt/ros/humble LD_LIBRARY_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_map_server/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_lifecycle_manager/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bond/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/smclib/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/mihkel/.local/bin/cmake --install /home/mihkel/School/ros-packages/nav2_ws/build/nav2_costmap_2d

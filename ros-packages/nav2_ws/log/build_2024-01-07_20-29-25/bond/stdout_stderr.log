@@ -1,0 +1,161 @@
+[  2%] Built target bond__cpp
+[ 12%] Built target bond__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_symlink_bond
+[ 15%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 17%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 28%] Built target bond__rosidl_typesupport_fastrtps_cpp
+[ 43%] Built target bond__rosidl_typesupport_introspection_cpp
+[ 48%] Built target bond__rosidl_typesupport_cpp
+[ 51%] [32m[1mLinking CXX shared library libbond__rosidl_typesupport_fastrtps_c.so[0m
+[ 58%] Built target bond__rosidl_typesupport_fastrtps_c
+[ 61%] [32mBuilding CXX object CMakeFiles/bond__rosidl_typesupport_c.dir/rosidl_typesupport_c/bond/msg/constants__type_support.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/bond__rosidl_typesupport_c.dir/rosidl_typesupport_c/bond/msg/status__type_support.cpp.o[0m
+[ 66%] [32m[1mLinking CXX shared library libbond__rosidl_typesupport_c.so[0m
+[ 69%] [32mBuilding C object CMakeFiles/bond__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bond/msg/detail/constants__type_support.c.o[0m
+[ 71%] [32mBuilding C object CMakeFiles/bond__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bond/msg/detail/status__type_support.c.o[0m
+[ 71%] Built target bond__rosidl_typesupport_c
+[ 74%] [32m[1mLinking C shared library libbond__rosidl_typesupport_introspection_c.so[0m
+[ 74%] Built target bond__rosidl_typesupport_introspection_c
+[ 74%] Built target bond
+[ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+running egg_info
+writing bond.egg-info/PKG-INFO
+writing dependency_links to bond.egg-info/dependency_links.txt
+writing top-level names to bond.egg-info/top_level.txt
+reading manifest file 'bond.egg-info/SOURCES.txt'
+writing manifest file 'bond.egg-info/SOURCES.txt'
+[ 76%] Built target ament_cmake_python_build_bond_egg
+[ 76%] Built target bond__py
+[ 82%] [32mBuilding C object CMakeFiles/bond__rosidl_generator_py.dir/rosidl_generator_py/bond/msg/_status_s.c.o[0m
+[ 82%] [32mBuilding C object CMakeFiles/bond__rosidl_generator_py.dir/rosidl_generator_py/bond/msg/_constants_s.c.o[0m
+[ 84%] [32m[1mLinking C shared library rosidl_generator_py/bond/libbond__rosidl_generator_py.so[0m
+[ 84%] Built target bond__rosidl_generator_py
+[ 87%] [32mBuilding C object CMakeFiles/bond__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/bond/_bond_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/bond__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/bond/_bond_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/bond__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/bond/_bond_s.ep.rosidl_typesupport_c.c.o[0m
+[ 94%] [32m[1mLinking C shared library rosidl_generator_py/bond/bond_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/bond/bond_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/bond/bond_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] Built target bond__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target bond__rosidl_typesupport_introspection_c__pyext
+[100%] Built target bond__rosidl_typesupport_c__pyext
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/ament_index/resource_index/rosidl_interfaces/bond
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/include/bond/bond/msg/constants.h
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/include/bond/bond/msg/detail/constants__functions.h
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/include/bond/bond/msg/detail/constants__struct.h
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/include/bond/bond/msg/detail/constants__type_support.h
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/include/bond/bond/msg/detail/status__functions.h
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/include/bond/bond/msg/detail/status__struct.h
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/include/bond/bond/msg/detail/status__type_support.h
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/include/bond/bond/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/include/bond/bond/msg/status.h
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/environment/library_path.sh
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/environment/library_path.dsv
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/include/bond/bond/msg/detail/constants__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/include/bond/bond/msg/detail/status__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/include/bond/bond/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/include/bond/bond/msg/constants.hpp
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/include/bond/bond/msg/detail/constants__builder.hpp
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/include/bond/bond/msg/detail/constants__struct.hpp
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/include/bond/bond/msg/detail/constants__traits.hpp
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/include/bond/bond/msg/detail/status__builder.hpp
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/include/bond/bond/msg/detail/status__struct.hpp
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/include/bond/bond/msg/detail/status__traits.hpp
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/include/bond/bond/msg/status.hpp
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/include/bond/bond/msg/detail/constants__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/include/bond/bond/msg/detail/status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/include/bond/bond/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/include/bond/bond/msg/detail/constants__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/include/bond/bond/msg/detail/status__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/include/bond/bond/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/include/bond/bond/msg/detail/constants__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/include/bond/bond/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/environment/pythonpath.sh
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/environment/pythonpath.dsv
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages/bond-4.0.0-py3.10.egg-info/PKG-INFO
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages/bond-4.0.0-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages/bond-4.0.0-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages/bond-4.0.0-py3.10.egg-info/top_level.txt
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages/bond/__init__.py
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages/bond/_bond_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages/bond/_bond_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages/bond/_bond_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages/bond/bond_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages/bond/bond_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages/bond/bond_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages/bond/libbond__rosidl_generator_py.so
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages/bond/msg/__init__.py
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages/bond/msg/_constants.py
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages/bond/msg/_constants_s.c
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages/bond/msg/_status.py
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages/bond/msg/_status_s.c
+-- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages/bond/bond_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages/bond/bond_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages/bond/bond_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/msg/Constants.idl
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/msg/Status.idl
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/msg/Constants.msg
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/msg/Status.msg
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/ament_index/resource_index/package_run_dependencies/bond
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/ament_index/resource_index/parent_prefix_path/bond
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/environment/ament_prefix_path.sh
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/environment/ament_prefix_path.dsv
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/environment/path.sh
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/environment/path.dsv
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/local_setup.bash
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/local_setup.sh
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/local_setup.zsh
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/local_setup.dsv
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/package.dsv
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/ament_index/resource_index/packages/bond
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/cmake/bondConfig.cmake
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/cmake/bondConfig-version.cmake
+-- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/package.xml
+-- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/bond/lib/libbond__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ros-packages/nav2_ws/install/bond/lib/libbond__rosidl_generator_c.so" to ""
+-- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/bond/lib/libbond__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ros-packages/nav2_ws/install/bond/lib/libbond__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/bond/lib/libbond__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ros-packages/nav2_ws/install/bond/lib/libbond__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/bond/lib/libbond__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ros-packages/nav2_ws/install/bond/lib/libbond__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/bond/lib/libbond__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ros-packages/nav2_ws/install/bond/lib/libbond__rosidl_typesupport_c.so" to ""
+-- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/bond/lib/libbond__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ros-packages/nav2_ws/install/bond/lib/libbond__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/bond/lib/libbond__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ros-packages/nav2_ws/install/bond/lib/libbond__rosidl_typesupport_cpp.so" to ""
+Listing '/home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages/bond'...
+Compiling '/home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages/bond/__init__.py'...
+Listing '/home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages/bond/msg'...
+Compiling '/home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages/bond/msg/__init__.py'...
+Compiling '/home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages/bond/msg/_constants.py'...
+Compiling '/home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages/bond/msg/_status.py'...
+-- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/bond/lib/libbond__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ros-packages/nav2_ws/install/bond/lib/libbond__rosidl_generator_py.so" to ""
+-- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/cmake/export_bond__rosidl_generator_cExport.cmake
+-- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/cmake/export_bond__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/cmake/export_bond__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/cmake/export_bond__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/cmake/export_bond__rosidl_generator_cppExport.cmake
+-- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/cmake/export_bond__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/cmake/export_bond__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/cmake/bond__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/cmake/bond__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/cmake/bond__rosidl_typesupport_cExport.cmake
+-- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/cmake/bond__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/cmake/bond__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/cmake/bond__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/cmake/bond__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/cmake/bond__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/cmake/export_bond__rosidl_generator_pyExport.cmake
+-- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/cmake/export_bond__rosidl_generator_pyExport-noconfig.cmake

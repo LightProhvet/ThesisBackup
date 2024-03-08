@@ -1,0 +1,2 @@
+[console_scripts]
+kf_hungarian_node = kf_hungarian_tracker.kf_hungarian_node:main

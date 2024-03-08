@@ -1,0 +1,96 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Setting build type to 'Release' as none was specified.
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- ------------------------------------------
+-- BehaviourTree is being built using AMENT.
+-- ------------------------------------------
+-- Found ZeroMQ: /usr/lib/x86_64-linux-gnu/libzmq.so  
+-- Found SQLite3: /usr/include (found version "3.37.2") 
+-- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+-- BTCPP_EXTRA_LIBRARIES: $<BUILD_INTERFACE:ament_index_cpp::ament_index_cpp>;$<BUILD_INTERFACE:/usr/lib/x86_64-linux-gnu/libzmq.so>;$<BUILD_INTERFACE:/usr/lib/x86_64-linux-gnu/libsqlite3.so>
+-- BTCPP_LIB_DESTINATION:   lib 
+-- BTCPP_INCLUDE_DESTINATION: include 
+-- BTCPP_UNIT_TESTS:   ON 
+-- Found ament_cmake_gtest: 1.3.6 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done (3.1s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/mihkel/School/ros-packages/nav2_ws/build/behaviortree_cpp
+[  1%] [32mBuilding CXX object 3rdparty/lexy/src/CMakeFiles/lexy_file.dir/input/file.cpp.o[0m
+[  2%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[  3%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[  4%] [32m[1mLinking CXX static library liblexy_file.a[0m
+[  4%] Built target lexy_file
+[  6%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/behavior_tree.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/basic_types.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/blackboard.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/action_node.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/bt_factory.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/decorator_node.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/condition_node.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/shared_library.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/control_node.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/tree_node.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/script_parser.cpp.o[0m
+[ 12%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 12%] Built target gtest_main
+[ 13%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/json_export.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/xml_parsing.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/actions/test_node.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/actions/sleep_node.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/decorators/delay_node.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/decorators/inverter_node.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/decorators/repeat_node.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/decorators/retry_node.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/decorators/timeout_node.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/decorators/subtree_node.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/controls/if_then_else_node.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/controls/fallback_node.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/controls/parallel_node.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/controls/parallel_all_node.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/controls/reactive_sequence.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/controls/reactive_fallback.cpp.o[0m
+gmake[2]: *** [CMakeFiles/behaviortree_cpp.dir/build.make:216: CMakeFiles/behaviortree_cpp.dir/src/script_parser.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/behaviortree_cpp.dir/build.make:132: CMakeFiles/behaviortree_cpp.dir/src/bt_factory.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/behaviortree_cpp.dir/build.make:244: CMakeFiles/behaviortree_cpp.dir/src/xml_parsing.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/behaviortree_cpp.dir/build.make:398: CMakeFiles/behaviortree_cpp.dir/src/controls/parallel_node.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/behaviortree_cpp.dir/build.make:412: CMakeFiles/behaviortree_cpp.dir/src/controls/parallel_all_node.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/behaviortree_cpp.dir/build.make:426: CMakeFiles/behaviortree_cpp.dir/src/controls/reactive_sequence.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/behaviortree_cpp.dir/build.make:440: CMakeFiles/behaviortree_cpp.dir/src/controls/reactive_fallback.cpp.o] Interrupt
+gmake[2]: *** [gtest/CMakeFiles/gtest.dir/build.make:76: gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:491: gtest/CMakeFiles/gtest.dir/all] Interrupt
+gmake[1]: *** wait: No child processes.  Stop.
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** wait: No child processes.  Stop.
+gmake: *** [Makefile:146: all] Error 2
+Traceback (most recent call last):
+  File "/home/mihkel/.local/bin/cmake", line 8, in <module>
+    sys.exit(cmake())
+  File "/home/mihkel/.local/lib/python3.10/site-packages/cmake/__init__.py", line 47, in cmake
+    raise SystemExit(_program('cmake', sys.argv[1:]))
+  File "/home/mihkel/.local/lib/python3.10/site-packages/cmake/__init__.py", line 43, in _program
+    return subprocess.call([os.path.join(CMAKE_BIN_DIR, name)] + args, close_fds=False)
+  File "/usr/lib/python3.10/subprocess.py", line 347, in call
+    return p.wait(timeout=timeout)
+  File "/usr/lib/python3.10/subprocess.py", line 1209, in wait
+    return self._wait(timeout=timeout)
+  File "/usr/lib/python3.10/subprocess.py", line 1959, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/usr/lib/python3.10/subprocess.py", line 1917, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt

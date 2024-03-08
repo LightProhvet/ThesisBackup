@@ -1,0 +1,22 @@
+Detection format:
+	Obstacle:
+		uuid - ID
+		float32 - score - confidence (probability)
+		Point* - position - center *(x, y, z) with z as height
+		Vector3* - velocity -  speed (presumably in m/s) - TODO: ask *(x, y, z) 
+		Vector3 - size  - IDK what this is TODO: ask
+		
+		
+Costmap format:
+	OccupancyGrid/Costmap:
+		Header* - header - information
+		(Costmap/Map)MetaData - metadata/info - map related metadata
+		uint8[] data - the actual costmap 
+							# The map data, in row-major order, starting with (0,0).  Occupancy
+							# probabilities are in the range [0,100].  Unknown is -1.
+							
+TODO: How does the row-major order work does the data start from the bottom left corner for a 2D map or top left corner? 
+
+
+
+	

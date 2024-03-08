@@ -1,0 +1,416 @@
+[0.000000] (-) TimerEvent: {}
+[0.000573] (deep_nav_layers) JobQueued: {'identifier': 'deep_nav_layers', 'dependencies': OrderedDict()}
+[0.000688] (nav2_dynamic_msgs) JobQueued: {'identifier': 'nav2_dynamic_msgs', 'dependencies': OrderedDict()}
+[0.000754] (py_srvcli) JobQueued: {'identifier': 'py_srvcli', 'dependencies': OrderedDict()}
+[0.000818] (semantic_segmentation) JobQueued: {'identifier': 'semantic_segmentation', 'dependencies': OrderedDict()}
+[0.000874] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.001705] (yolov8_msgs) JobQueued: {'identifier': 'yolov8_msgs', 'dependencies': OrderedDict()}
+[0.001796] (yolov8_ros) JobQueued: {'identifier': 'yolov8_ros', 'dependencies': OrderedDict()}
+[0.002273] (kf_hungarian_tracker) JobQueued: {'identifier': 'kf_hungarian_tracker', 'dependencies': OrderedDict([('nav2_dynamic_msgs', '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs')])}
+[0.002480] (yolov8_bringup) JobQueued: {'identifier': 'yolov8_bringup', 'dependencies': OrderedDict([('yolov8_ros', '/home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_ros')])}
+[0.002549] (nav2_dynamic_msgs) JobStarted: {'identifier': 'nav2_dynamic_msgs'}
+[0.098443] (-) TimerEvent: {}
+[0.199167] (-) TimerEvent: {}
+[0.232112] (yolov8_ros) JobStarted: {'identifier': 'yolov8_ros'}
+[0.299687] (-) TimerEvent: {}
+[0.400640] (-) TimerEvent: {}
+[0.502653] (-) TimerEvent: {}
+[0.553892] (deep_nav_layers) JobStarted: {'identifier': 'deep_nav_layers'}
+[0.602842] (-) TimerEvent: {}
+[0.704625] (-) TimerEvent: {}
+[0.783412] (py_srvcli) JobStarted: {'identifier': 'py_srvcli'}
+[0.805301] (-) TimerEvent: {}
+[0.906259] (-) TimerEvent: {}
+[1.007450] (-) TimerEvent: {}
+[1.095839] (semantic_segmentation) JobStarted: {'identifier': 'semantic_segmentation'}
+[1.107720] (-) TimerEvent: {}
+[1.208906] (-) TimerEvent: {}
+[1.309944] (-) TimerEvent: {}
+[1.411331] (-) TimerEvent: {}
+[1.427184] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[1.511516] (-) TimerEvent: {}
+[1.613848] (-) TimerEvent: {}
+[1.677165] (yolov8_msgs) JobStarted: {'identifier': 'yolov8_msgs'}
+[1.714021] (-) TimerEvent: {}
+[1.815599] (-) TimerEvent: {}
+[1.916752] (-) TimerEvent: {}
+[1.930297] (nav2_dynamic_msgs) JobProgress: {'identifier': 'nav2_dynamic_msgs', 'progress': 'cmake'}
+[1.932025] (nav2_dynamic_msgs) JobProgress: {'identifier': 'nav2_dynamic_msgs', 'progress': 'build'}
+[1.934168] (nav2_dynamic_msgs) Command: {'cmd': ['/home/mihkel/.local/bin/cmake', '--build', '/home/mihkel/School/ThesisPractical/myros_ws/build/nav2_dynamic_msgs', '--', '-j12', '-l12'], 'cwd': '/home/mihkel/School/ThesisPractical/myros_ws/build/nav2_dynamic_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mihkel'), ('LC_TIME', 'et_EE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mihkel'), ('OLDPWD', '/home/mihkel/School/ThesisPractical/myros_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'et_EE.UTF-8'), ('SYSTEMD_EXEC_PID', '4143'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mihkel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mihkel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mihkel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mihkel-XPS-15-9500:@/tmp/.ICE-unix/3843,unix/mihkel-XPS-15-9500:/tmp/.ICE-unix/3843'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'et_EE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/770f14d6_b918_44ff_8a3a_6f3096424a1c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'et_EE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KOINJ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'et_EE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'et_EE.UTF-8'), ('LC_IDENTIFICATION', 'et_EE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mihkel/School/ThesisPractical/myros_ws/build/nav2_dynamic_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'et_EE.UTF-8'), ('LC_PAPER', 'et_EE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.016945] (-) TimerEvent: {}
+[2.117840] (-) TimerEvent: {}
+[2.218648] (-) TimerEvent: {}
+[2.319292] (-) TimerEvent: {}
+[2.419958] (-) TimerEvent: {}
+[2.520597] (-) TimerEvent: {}
+[2.621248] (-) TimerEvent: {}
+[2.721897] (-) TimerEvent: {}
+[2.822557] (-) TimerEvent: {}
+[2.923442] (-) TimerEvent: {}
+[3.024782] (-) TimerEvent: {}
+[3.125448] (-) TimerEvent: {}
+[3.226148] (-) TimerEvent: {}
+[3.299434] (deep_nav_layers) JobProgress: {'identifier': 'deep_nav_layers', 'progress': 'cmake'}
+[3.302308] (deep_nav_layers) Command: {'cmd': ['/home/mihkel/.local/bin/cmake', '/home/mihkel/School/ThesisPractical/myros_ws/src/deep_nav_layers', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/myros_ws/install/deep_nav_layers'], 'cwd': '/home/mihkel/School/ThesisPractical/myros_ws/build/deep_nav_layers', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mihkel'), ('LC_TIME', 'et_EE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mihkel'), ('OLDPWD', '/home/mihkel/School/ThesisPractical/myros_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'et_EE.UTF-8'), ('SYSTEMD_EXEC_PID', '4143'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mihkel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mihkel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mihkel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mihkel-XPS-15-9500:@/tmp/.ICE-unix/3843,unix/mihkel-XPS-15-9500:/tmp/.ICE-unix/3843'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'et_EE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/770f14d6_b918_44ff_8a3a_6f3096424a1c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'et_EE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KOINJ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'et_EE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'et_EE.UTF-8'), ('LC_IDENTIFICATION', 'et_EE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mihkel/School/ThesisPractical/myros_ws/build/deep_nav_layers'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'et_EE.UTF-8'), ('LC_PAPER', 'et_EE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[3.326326] (-) TimerEvent: {}
+[3.427212] (-) TimerEvent: {}
+[3.528742] (-) TimerEvent: {}
+[3.629608] (-) TimerEvent: {}
+[3.730525] (-) TimerEvent: {}
+[3.831589] (-) TimerEvent: {}
+[3.932503] (-) TimerEvent: {}
+[4.033395] (-) TimerEvent: {}
+[4.134279] (-) TimerEvent: {}
+[4.235169] (-) TimerEvent: {}
+[4.336153] (-) TimerEvent: {}
+[4.437057] (-) TimerEvent: {}
+[4.537976] (-) TimerEvent: {}
+[4.639286] (-) TimerEvent: {}
+[4.760439] (-) TimerEvent: {}
+[4.861361] (-) TimerEvent: {}
+[4.962929] (-) TimerEvent: {}
+[5.064597] (-) TimerEvent: {}
+[5.165460] (-) TimerEvent: {}
+[5.267119] (-) TimerEvent: {}
+[5.368248] (-) TimerEvent: {}
+[5.469267] (-) TimerEvent: {}
+[5.570443] (-) TimerEvent: {}
+[5.674022] (-) TimerEvent: {}
+[5.774895] (-) TimerEvent: {}
+[5.875597] (-) TimerEvent: {}
+[5.976551] (-) TimerEvent: {}
+[6.077467] (-) TimerEvent: {}
+[6.178378] (-) TimerEvent: {}
+[6.279451] (-) TimerEvent: {}
+[6.380422] (-) TimerEvent: {}
+[6.481345] (-) TimerEvent: {}
+[6.582296] (-) TimerEvent: {}
+[6.683236] (-) TimerEvent: {}
+[6.784406] (-) TimerEvent: {}
+[6.885446] (-) TimerEvent: {}
+[6.987263] (-) TimerEvent: {}
+[7.019886] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[7.023686] (tutorial_interfaces) Command: {'cmd': ['/home/mihkel/.local/bin/cmake', '/home/mihkel/School/ThesisPractical/myros_ws/src/a_semantic_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/myros_ws/install/tutorial_interfaces'], 'cwd': '/home/mihkel/School/ThesisPractical/myros_ws/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mihkel'), ('LC_TIME', 'et_EE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mihkel'), ('OLDPWD', '/home/mihkel/School/ThesisPractical/myros_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'et_EE.UTF-8'), ('SYSTEMD_EXEC_PID', '4143'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mihkel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mihkel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mihkel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mihkel-XPS-15-9500:@/tmp/.ICE-unix/3843,unix/mihkel-XPS-15-9500:/tmp/.ICE-unix/3843'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'et_EE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/770f14d6_b918_44ff_8a3a_6f3096424a1c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'et_EE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KOINJ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'et_EE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'et_EE.UTF-8'), ('LC_IDENTIFICATION', 'et_EE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mihkel/School/ThesisPractical/myros_ws/build/tutorial_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'et_EE.UTF-8'), ('LC_PAPER', 'et_EE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.030198] (yolov8_msgs) JobProgress: {'identifier': 'yolov8_msgs', 'progress': 'cmake'}
+[7.031476] (yolov8_msgs) JobProgress: {'identifier': 'yolov8_msgs', 'progress': 'build'}
+[7.033805] (yolov8_msgs) Command: {'cmd': ['/home/mihkel/.local/bin/cmake', '--build', '/home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_msgs', '--', '-j12', '-l12'], 'cwd': '/home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mihkel'), ('LC_TIME', 'et_EE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mihkel'), ('OLDPWD', '/home/mihkel/School/ThesisPractical/myros_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'et_EE.UTF-8'), ('SYSTEMD_EXEC_PID', '4143'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mihkel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mihkel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mihkel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mihkel-XPS-15-9500:@/tmp/.ICE-unix/3843,unix/mihkel-XPS-15-9500:/tmp/.ICE-unix/3843'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'et_EE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/770f14d6_b918_44ff_8a3a_6f3096424a1c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'et_EE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KOINJ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'et_EE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'et_EE.UTF-8'), ('LC_IDENTIFICATION', 'et_EE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'et_EE.UTF-8'), ('LC_PAPER', 'et_EE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.042146] (nav2_dynamic_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[7.044902] (nav2_dynamic_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[7.048369] (nav2_dynamic_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_nav2_dynamic_msgs\n'}
+[7.049241] (nav2_dynamic_msgs) StdoutLine: {'line': b'[  5%] Built target nav2_dynamic_msgs__cpp\n'}
+[7.051822] (nav2_dynamic_msgs) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.053423] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.056803] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[7.058071] (nav2_dynamic_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[7.059327] (nav2_dynamic_msgs) StdoutLine: {'line': b'creating nav2_dynamic_msgs.egg-info\n'}
+[7.059911] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/nav2_dynamic_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_dynamic_msgs/msg/detail/obstacle__functions.c.o\x1b[0m\n'}
+[7.061754] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/nav2_dynamic_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_dynamic_msgs/msg/detail/obstacle_array__functions.c.o\x1b[0m\n'}
+[7.063954] (nav2_dynamic_msgs) StdoutLine: {'line': b'writing nav2_dynamic_msgs.egg-info/PKG-INFO\n'}
+[7.066754] (nav2_dynamic_msgs) StdoutLine: {'line': b'writing dependency_links to nav2_dynamic_msgs.egg-info/dependency_links.txt\n'}
+[7.068048] (nav2_dynamic_msgs) StdoutLine: {'line': b'writing top-level names to nav2_dynamic_msgs.egg-info/top_level.txt\n'}
+[7.069289] (nav2_dynamic_msgs) StdoutLine: {'line': b"writing manifest file 'nav2_dynamic_msgs.egg-info/SOURCES.txt'\n"}
+[7.069980] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libnav2_dynamic_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[7.072343] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 20%] Built target nav2_dynamic_msgs__rosidl_generator_c\n'}
+[7.075014] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[7.077665] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.079333] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.080001] (nav2_dynamic_msgs) StdoutLine: {'line': b"reading manifest file 'nav2_dynamic_msgs.egg-info/SOURCES.txt'\n"}
+[7.081302] (nav2_dynamic_msgs) StdoutLine: {'line': b"writing manifest file 'nav2_dynamic_msgs.egg-info/SOURCES.txt'\n"}
+[7.085679] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 28%] Built target ament_cmake_python_build_nav2_dynamic_msgs_egg\n'}
+[7.090268] (-) TimerEvent: {}
+[7.090943] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/nav2_dynamic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_dynamic_msgs/msg/obstacle__type_support.cpp.o\x1b[0m\n'}
+[7.091525] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/nav2_dynamic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_dynamic_msgs/msg/obstacle_array__type_support.cpp.o\x1b[0m\n'}
+[7.092034] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/nav2_dynamic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_dynamic_msgs/msg/detail/obstacle__type_support.cpp.o\x1b[0m\n'}
+[7.092572] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/nav2_dynamic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_dynamic_msgs/msg/detail/obstacle_array__type_support.cpp.o\x1b[0m\n'}
+[7.093051] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/nav2_dynamic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_dynamic_msgs/msg/detail/dds_fastrtps/obstacle__type_support.cpp.o\x1b[0m\n'}
+[7.093544] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/nav2_dynamic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_dynamic_msgs/msg/detail/dds_fastrtps/obstacle_array__type_support.cpp.o\x1b[0m\n'}
+[7.094042] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/nav2_dynamic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_dynamic_msgs/msg/obstacle__type_support.cpp.o\x1b[0m\n'}
+[7.094514] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/nav2_dynamic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_dynamic_msgs/msg/obstacle_array__type_support.cpp.o\x1b[0m\n'}
+[7.095001] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_dynamic_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.095483] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 51%] Built target nav2_dynamic_msgs__rosidl_typesupport_c\n'}
+[7.095970] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/nav2_dynamic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_dynamic_msgs/msg/detail/obstacle__type_support.c.o\x1b[0m\n'}
+[7.096508] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/nav2_dynamic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_dynamic_msgs/msg/detail/obstacle_array__type_support.c.o\x1b[0m\n'}
+[7.097033] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/nav2_dynamic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_dynamic_msgs/msg/detail/obstacle__type_support_c.cpp.o\x1b[0m\n'}
+[7.097498] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/nav2_dynamic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_dynamic_msgs/msg/detail/obstacle_array__type_support_c.cpp.o\x1b[0m\n'}
+[7.098022] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library libnav2_dynamic_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.098561] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 64%] Built target nav2_dynamic_msgs__rosidl_typesupport_introspection_c\n'}
+[7.099041] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_dynamic_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.099538] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 66%] Built target nav2_dynamic_msgs__rosidl_typesupport_cpp\n'}
+[7.099997] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_dynamic_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.100475] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 69%] Built target nav2_dynamic_msgs__rosidl_typesupport_introspection_cpp\n'}
+[7.100970] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_dynamic_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.101449] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 71%] Built target nav2_dynamic_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[7.101921] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_dynamic_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.102395] (deep_nav_layers) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[7.102972] (deep_nav_layers) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[7.103496] (deep_nav_layers) StderrLine: {'line': b'  Compatibility with CMake < 3.5 will be removed from a future version of\n'}
+[7.103952] (deep_nav_layers) StderrLine: {'line': b'  CMake.\n'}
+[7.104448] (deep_nav_layers) StderrLine: {'line': b'\n'}
+[7.104907] (deep_nav_layers) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[7.105345] (deep_nav_layers) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[7.105801] (deep_nav_layers) StderrLine: {'line': b'\n'}
+[7.106247] (deep_nav_layers) StderrLine: {'line': b'\x1b[0m\n'}
+[7.106700] (deep_nav_layers) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:10 (find_package):\n'}
+[7.107147] (deep_nav_layers) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[7.107595] (deep_nav_layers) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[7.108031] (deep_nav_layers) StderrLine: {'line': b'  CMake did not find one.\n'}
+[7.108500] (deep_nav_layers) StderrLine: {'line': b'\n'}
+[7.108947] (deep_nav_layers) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[7.109396] (deep_nav_layers) StderrLine: {'line': b'  of the following names:\n'}
+[7.109851] (deep_nav_layers) StderrLine: {'line': b'\n'}
+[7.110304] (deep_nav_layers) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[7.110770] (deep_nav_layers) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[7.111213] (deep_nav_layers) StderrLine: {'line': b'\n'}
+[7.111669] (deep_nav_layers) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[7.112141] (deep_nav_layers) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[7.112589] (deep_nav_layers) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[7.113045] (deep_nav_layers) StderrLine: {'line': b'  installed.\n'}
+[7.113500] (deep_nav_layers) StderrLine: {'line': b'\n'}
+[7.113937] (deep_nav_layers) StderrLine: {'line': b'\x1b[0m\n'}
+[7.114384] (deep_nav_layers) CommandEnded: {'returncode': 1}
+[7.155646] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[7.190463] (-) TimerEvent: {}
+[7.205317] (yolov8_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[7.219400] (yolov8_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[7.233295] (yolov8_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_yolov8_msgs\n'}
+[7.290646] (-) TimerEvent: {}
+[7.293276] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 74%] Built target nav2_dynamic_msgs__rosidl_typesupport_fastrtps_c\n'}
+[7.334368] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 74%] Built target nav2_dynamic_msgs\n'}
+[7.382766] (nav2_dynamic_msgs) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.390852] (-) TimerEvent: {}
+[7.492533] (-) TimerEvent: {}
+[7.557631] (deep_nav_layers) JobEnded: {'identifier': 'deep_nav_layers', 'rc': 1}
+[7.592700] (-) TimerEvent: {}
+[7.693569] (-) TimerEvent: {}
+[7.794442] (-) TimerEvent: {}
+[7.895302] (-) TimerEvent: {}
+[7.996254] (-) TimerEvent: {}
+[8.102037] (-) TimerEvent: {}
+[8.202955] (-) TimerEvent: {}
+[8.257340] (yolov8_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[8.258907] (yolov8_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 38, in <module>\n'}
+[8.260032] (yolov8_msgs) StderrLine: {'line': b"gmake[2]: *** Deleting file 'rosidl_generator_cpp/yolov8_msgs/msg/point2_d.hpp'\n"}
+[8.260907] (yolov8_msgs) StderrLine: {'line': b"gmake[2]: *** Deleting file 'rosidl_generator_c/yolov8_msgs/msg/point2_d.h'\n"}
+[8.261186] (yolov8_msgs) StderrLine: {'line': b'    sys.exit(main())\n'}
+[8.261431] (yolov8_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 34, in main\n'}
+[8.261672] (yolov8_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[8.261910] (yolov8_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 38, in <module>\n'}
+[8.262148] (yolov8_msgs) StderrLine: {'line': b'    generate_c(args.generator_arguments_file)\n'}
+[8.262381] (yolov8_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_c/__init__.py", line 37, in generate_c\n'}
+[8.262614] (yolov8_msgs) StderrLine: {'line': b'    sys.exit(main())\n'}
+[8.262842] (yolov8_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 34, in main\n'}
+[8.263072] (yolov8_msgs) StderrLine: {'line': b'    generate_cpp(args.generator_arguments_file)\n'}
+[8.263299] (yolov8_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py", line 38, in generate_cpp\n'}
+[8.263529] (nav2_dynamic_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[8.263816] (nav2_dynamic_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/visitors.py", line 107, in _call_userfunc\n'}
+[8.264052] (yolov8_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[8.264326] (yolov8_msgs) StderrLine: {'line': b'  File "/home/mihkel/.local/bin/cmake", line 8, in <module>\n'}
+[8.264729] (yolov8_msgs) StderrLine: {'line': b'    sys.exit(cmake())\n'}
+[8.272377] (yolov8_msgs) StderrLine: {'line': b'  File "/home/mihkel/.local/lib/python3.10/site-packages/cmake/__init__.py", line 47, in cmake\n'}
+[8.276860] (nav2_dynamic_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[8.279128] (nav2_dynamic_msgs) StderrLine: {'line': b'  File "/home/mihkel/.local/bin/cmake", line 8, in <module>\n'}
+[8.279889] (tutorial_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[8.280520] (tutorial_interfaces) StderrLine: {'line': b'  File "/home/mihkel/.local/bin/cmake", line 8, in <module>\n'}
+[8.281827] (nav2_dynamic_msgs) StderrLine: {'line': b'    sys.exit(cmake())\n'}
+[8.282700] (nav2_dynamic_msgs) StderrLine: {'line': b'  File "/home/mihkel/.local/lib/python3.10/site-packages/cmake/__init__.py", line 47, in cmake\n'}
+[8.283764] (tutorial_interfaces) StderrLine: {'line': b'    sys.exit(cmake())\n'}
+[8.284605] (tutorial_interfaces) StderrLine: {'line': b'  File "/home/mihkel/.local/lib/python3.10/site-packages/cmake/__init__.py", line 47, in cmake\n'}
+[8.285264] (tutorial_interfaces) StderrLine: {'line': b"    raise SystemExit(_program('cmake', sys.argv[1:]))\n"}
+[8.285707] (tutorial_interfaces) StderrLine: {'line': b'  File "/home/mihkel/.local/lib/python3.10/site-packages/cmake/__init__.py", line 43, in _program\n'}
+[8.286149] (tutorial_interfaces) StderrLine: {'line': b'    return subprocess.call([os.path.join(CMAKE_BIN_DIR, name)] + args, close_fds=False)\n'}
+[8.286780] (tutorial_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3.10/subprocess.py", line 347, in call\n'}
+[8.287221] (tutorial_interfaces) StderrLine: {'line': b'    return p.wait(timeout=timeout)\n'}
+[8.287838] (tutorial_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3.10/subprocess.py", line 1209, in wait\n'}
+[8.288328] (nav2_dynamic_msgs) StderrLine: {'line': b'    f = getattr(self, tree.data)\n'}
+[8.288813] (nav2_dynamic_msgs) StderrLine: {'line': b"AttributeError: 'ValidateSymbols' object has no attribute 'pattern'\n"}
+[8.289620] (nav2_dynamic_msgs) StderrLine: {'line': b"    raise SystemExit(_program('cmake', sys.argv[1:]))\n"}
+[8.290049] (nav2_dynamic_msgs) StderrLine: {'line': b'\n'}
+[8.290652] (nav2_dynamic_msgs) StderrLine: {'line': b'During handling of the above exception, another exception occurred:\n'}
+[8.291099] (nav2_dynamic_msgs) StderrLine: {'line': b'\n'}
+[8.291547] (nav2_dynamic_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[8.292253] (nav2_dynamic_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py", line 40, in <module>\n'}
+[8.292763] (nav2_dynamic_msgs) StderrLine: {'line': b'  File "/home/mihkel/.local/lib/python3.10/site-packages/cmake/__init__.py", line 43, in _program\n'}
+[8.293230] (nav2_dynamic_msgs) StderrLine: {'line': b'    return subprocess.call([os.path.join(CMAKE_BIN_DIR, name)] + args, close_fds=False)\n'}
+[8.293689] (nav2_dynamic_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/subprocess.py", line 347, in call\n'}
+[8.294177] (nav2_dynamic_msgs) StderrLine: {'line': b'    return p.wait(timeout=timeout)\n'}
+[8.294651] (nav2_dynamic_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/subprocess.py", line 1209, in wait\n'}
+[8.295123] (yolov8_msgs) StderrLine: {'line': b'    return generate_files(\n'}
+[8.295620] (yolov8_msgs) StderrLine: {'line': b"    raise SystemExit(_program('cmake', sys.argv[1:]))\n"}
+[8.296113] (yolov8_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 87, in generate_files\n'}
+[8.296615] (yolov8_msgs) StderrLine: {'line': b'  File "/home/mihkel/.local/lib/python3.10/site-packages/cmake/__init__.py", line 43, in _program\n'}
+[8.297049] (yolov8_msgs) StderrLine: {'line': b'    return subprocess.call([os.path.join(CMAKE_BIN_DIR, name)] + args, close_fds=False)\n'}
+[8.297492] (yolov8_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/subprocess.py", line 347, in call\n'}
+[8.299034] (yolov8_msgs) StderrLine: {'line': b'    expand_template(\n'}
+[8.299936] (yolov8_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 149, in expand_template\n'}
+[8.300738] (yolov8_msgs) StderrLine: {'line': b'    return generate_files(\n'}
+[8.302055] (yolov8_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 74, in generate_files\n'}
+[8.302605] (yolov8_msgs) StderrLine: {'line': b'    interpreter.string(template_content, template_path, locals=data)\n'}
+[8.303147] (-) TimerEvent: {}
+[8.303900] (yolov8_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string\n'}
+[8.304528] (yolov8_msgs) StderrLine: {'line': b'    idl_file = parse_idl_file(locator)\n'}
+[8.305066] (yolov8_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 64, in parse_idl_file\n'}
+[8.306944] (yolov8_msgs) StderrLine: {'line': b'    return p.wait(timeout=timeout)\n'}
+[8.308737] (yolov8_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/subprocess.py", line 1209, in wait\n'}
+[8.309197] (yolov8_msgs) StderrLine: {'line': b'    return self._wait(timeout=timeout)\n'}
+[8.309679] (yolov8_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/subprocess.py", line 1959, in _wait\n'}
+[8.310149] (nav2_dynamic_msgs) StderrLine: {'line': b'    sys.exit(main())\n'}
+[8.310643] (nav2_dynamic_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py", line 36, in main\n'}
+[8.311113] (nav2_dynamic_msgs) StderrLine: {'line': b"    generate_py(args.generator_arguments_file, args.typesupport_impls.split(';'))\n"}
+[8.311590] (nav2_dynamic_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/generate_py_impl.py", line 61, in generate_py\n'}
+[8.312043] (yolov8_msgs) StderrLine: {'line': b'    content = parse_idl_string(string, png_file=png_file)\n'}
+[8.312586] (yolov8_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 72, in parse_idl_string\n'}
+[8.313064] (yolov8_msgs) StderrLine: {'line': b'    self.safe(scanner, True, locals)\n'}
+[8.313537] (yolov8_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe\n'}
+[8.314013] (yolov8_msgs) StderrLine: {'line': b'    tree = get_ast_from_idl_string(idl_string)\n'}
+[8.314488] (yolov8_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 89, in get_ast_from_idl_string\n'}
+[8.314964] (yolov8_msgs) StderrLine: {'line': b'    return _parser.parse(idl_string)\n'}
+[8.315434] (yolov8_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/lark.py", line 619, in parse\n'}
+[8.315902] (yolov8_msgs) StderrLine: {'line': b'    (pid, sts) = self._try_wait(0)\n'}
+[8.316417] (yolov8_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/subprocess.py", line 1917, in _try_wait\n'}
+[8.316899] (tutorial_interfaces) StderrLine: {'line': b'    return self._wait(timeout=timeout)\n'}
+[8.317374] (tutorial_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3.10/subprocess.py", line 1959, in _wait\n'}
+[8.317885] (nav2_dynamic_msgs) StderrLine: {'line': b'    return self._wait(timeout=timeout)\n'}
+[8.318382] (nav2_dynamic_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/subprocess.py", line 1959, in _wait\n'}
+[8.318853] (yolov8_msgs) StderrLine: {'line': b'    return self.parser.parse(text, start=start, on_error=on_error)\n'}
+[8.319391] (yolov8_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 99, in parse\n'}
+[8.320022] (yolov8_msgs) StderrLine: {'line': b'    self.parse(scanner, locals)\n'}
+[8.320558] (yolov8_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse\n'}
+[8.321035] (yolov8_msgs) StderrLine: {'line': b'    return self.parser.parse(stream, chosen_start, **kw)\n'}
+[8.321493] (yolov8_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/parsers/earley.py", line 266, in parse\n'}
+[8.321954] (yolov8_msgs) StderrLine: {'line': b'    (pid, sts) = os.waitpid(self.pid, wait_flags)\n'}
+[8.322430] (yolov8_msgs) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[8.322906] (yolov8_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[8.323573] (yolov8_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 927, in read_text\n'}
+[8.324127] (yolov8_msgs) StderrLine: {'line': b"    return self._path.joinpath(filename).read_text(encoding='utf-8')\n"}
+[8.324640] (yolov8_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/pathlib.py", line 1134, in read_text\n'}
+[8.325122] (yolov8_msgs) StderrLine: {'line': b"    with self.open(mode='r', encoding=encoding, errors=errors) as f:\n"}
+[8.325639] (yolov8_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/pathlib.py", line 1119, in open\n'}
+[8.326086] (yolov8_msgs) StderrLine: {'line': b'    return self._accessor.open(self, mode, buffering, encoding, errors,\n'}
+[8.326573] (yolov8_msgs) StderrLine: {'line': b"FileNotFoundError: [Errno 2] No such file or directory: '/opt/ros/humble/local/lib/python3.10/dist-packages/nav_2d_msgs-1.1.12-py3.10.egg-info/entry_points.txt'\n"}
+[8.327022] (yolov8_msgs) StderrLine: {'line': b'\n'}
+[8.327467] (yolov8_msgs) StderrLine: {'line': b'During handling of the above exception, another exception occurred:\n'}
+[8.327955] (yolov8_msgs) StderrLine: {'line': b'\n'}
+[8.329342] (yolov8_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[8.329858] (yolov8_msgs) StderrLine: {'line': b'  File "/home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_msgs/ament_cmake_python/yolov8_msgs/setup.py", line 4, in <module>\n'}
+[8.330332] (yolov8_msgs) StderrLine: {'line': b'    setup(\n'}
+[8.330954] (tutorial_interfaces) StderrLine: {'line': b'    (pid, sts) = self._try_wait(0)\n'}
+[8.331451] (tutorial_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3.10/subprocess.py", line 1917, in _try_wait\n'}
+[8.332332] (nav2_dynamic_msgs) StderrLine: {'line': b'    generated_files = generate_files(generator_arguments_file, mapping)\n'}
+[8.332849] (nav2_dynamic_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 74, in generate_files\n'}
+[8.333391] (nav2_dynamic_msgs) StderrLine: {'line': b'    idl_file = parse_idl_file(locator)\n'}
+[8.333912] (nav2_dynamic_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 64, in parse_idl_file\n'}
+[8.334429] (nav2_dynamic_msgs) StderrLine: {'line': b'    (pid, sts) = self._try_wait(0)\n'}
+[8.334942] (nav2_dynamic_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/subprocess.py", line 1917, in _try_wait\n'}
+[8.335457] (nav2_dynamic_msgs) StderrLine: {'line': b'    content = parse_idl_string(string, png_file=png_file)\n'}
+[8.336465] (nav2_dynamic_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 72, in parse_idl_string\n'}
+[8.337084] (yolov8_msgs) StderrLine: {'line': b'  File "/home/mihkel/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 103, in setup\n'}
+[8.337617] (yolov8_msgs) StderrLine: {'line': b'    return distutils.core.setup(**attrs)\n'}
+[8.338100] (yolov8_msgs) StderrLine: {'line': b'  File "/home/mihkel/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 147, in setup\n'}
+[8.338591] (yolov8_msgs) StderrLine: {'line': b'    _setup_distribution = dist = klass(attrs)\n'}
+[8.339444] (yolov8_msgs) StderrLine: {'line': b'  File "/home/mihkel/.local/lib/python3.10/site-packages/setuptools/dist.py", line 303, in __init__\n'}
+[8.339976] (yolov8_msgs) StderrLine: {'line': b'    _Distribution.__init__(self, dist_attrs)\n'}
+[8.340533] (yolov8_msgs) StderrLine: {'line': b'  File "/home/mihkel/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 283, in __init__\n'}
+[8.341052] (yolov8_msgs) StderrLine: {'line': b'    self.finalize_options()\n'}
+[8.341531] (yolov8_msgs) StderrLine: {'line': b'  File "/home/mihkel/.local/lib/python3.10/site-packages/setuptools/dist.py", line 654, in finalize_options\n'}
+[8.342005] (yolov8_msgs) StderrLine: {'line': b'    ep(self)\n'}
+[8.342468] (yolov8_msgs) StderrLine: {'line': b'  File "/home/mihkel/.local/lib/python3.10/site-packages/setuptools/dist.py", line 671, in _finalize_setup_keywords\n'}
+[8.342960] (yolov8_msgs) StderrLine: {'line': b"    for ep in metadata.entry_points(group='distutils.setup_keywords'):\n"}
+[8.343387] (yolov8_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 1021, in entry_points\n'}
+[8.343802] (yolov8_msgs) StderrLine: {'line': b'    return SelectableGroups.load(eps).select(**params)\n'}
+[8.344260] (yolov8_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 459, in load\n'}
+[8.344774] (yolov8_msgs) StderrLine: {'line': b'    ordered = sorted(eps, key=by_group)\n'}
+[8.345258] (yolov8_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 1019, in <genexpr>\n'}
+[8.345713] (yolov8_msgs) StderrLine: {'line': b'    dist.entry_points for dist in unique(distributions())\n'}
+[8.346148] (yolov8_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 631, in entry_points\n'}
+[8.346575] (yolov8_msgs) StderrLine: {'line': b"    return EntryPoints._from_text_for(self.read_text('entry_points.txt'), self)\n"}
+[8.347021] (yolov8_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 927, in read_text\n'}
+[8.347424] (yolov8_msgs) StderrLine: {'line': b"    return self._path.joinpath(filename).read_text(encoding='utf-8')\n"}
+[8.347843] (yolov8_msgs) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[8.348300] (yolov8_msgs) StderrLine: {'line': b'    token.run(self, locals)\n'}
+[8.348730] (yolov8_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1547, in run\n'}
+[8.349156] (tutorial_interfaces) StderrLine: {'line': b'    (pid, sts) = os.waitpid(self.pid, wait_flags)\n'}
+[8.349604] (tutorial_interfaces) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[8.350044] (nav2_dynamic_msgs) StderrLine: {'line': b'    (pid, sts) = os.waitpid(self.pid, wait_flags)\n'}
+[8.350550] (nav2_dynamic_msgs) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[8.350992] (nav2_dynamic_msgs) StderrLine: {'line': b'    tree = get_ast_from_idl_string(idl_string)\n'}
+[8.351494] (nav2_dynamic_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 88, in get_ast_from_idl_string\n'}
+[8.352026] (nav2_dynamic_msgs) StderrLine: {'line': b"    _parser = Lark(grammar, start='specification', maybe_placeholders=False)\n"}
+[8.352577] (nav2_dynamic_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/lark.py", line 383, in __init__\n'}
+[8.353032] (yolov8_msgs) StderrLine: {'line': b'    to_scan = self._parse(lexer, columns, to_scan, start_symbol)\n'}
+[8.353511] (yolov8_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/parsers/xearley.py", line 144, in _parse\n'}
+[8.353985] (yolov8_msgs) StderrLine: {'line': b'    self.subrun(info[0][1], interpreter, locals)\n'}
+[8.354469] (yolov8_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun\n'}
+[8.354964] (yolov8_msgs) StderrLine: {'line': b'    self.predict_and_complete(i, to_scan, columns, transitives)\n'}
+[8.355452] (yolov8_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/parsers/earley.py", line 124, in predict_and_complete\n'}
+[8.355938] (yolov8_msgs) StderrLine: {'line': b'    new_item = originator.advance()\n'}
+[8.356674] (yolov8_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/parsers/earley_common.py", line 26, in advance\n'}
+[8.357287] (nav2_dynamic_msgs) StderrLine: {'line': b'    self.terminals, self.rules, self.ignore_tokens = self.grammar.compile(self.options.start, terminals_to_keep)\n'}
+[8.357735] (nav2_dynamic_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 734, in compile\n'}
+[8.358159] (yolov8_msgs) StderrLine: {'line': b'    return Item(self.rule, self.ptr + 1, self.start)\n'}
+[8.358641] (yolov8_msgs) StderrLine: {'line': b'    token.run(interpreter, locals)\n'}
+[8.359115] (yolov8_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/parsers/earley_common.py", line 23, in __init__\n'}
+[8.359569] (yolov8_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1425, in run\n'}
+[8.360037] (yolov8_msgs) StderrLine: {'line': b'    self._hash = hash((self.s, self.start))\n'}
+[8.360567] (yolov8_msgs) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[8.361182] (nav2_dynamic_msgs) StderrLine: {'line': b'    tree = transformer.transform(rule_tree)\n'}
+[8.361660] (nav2_dynamic_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/visitors.py", line 252, in transform\n'}
+[8.362381] (nav2_dynamic_msgs) StderrLine: {'line': b'    tree = t.transform(tree)\n'}
+[8.363153] (nav2_dynamic_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/visitors.py", line 272, in transform\n'}
+[8.363737] (yolov8_msgs) StderrLine: {'line': b'    interpreter.execute(self.code, locals)\n'}
+[8.365727] (yolov8_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2596, in execute\n'}
+[8.366266] (nav2_dynamic_msgs) StderrLine: {'line': b'    subtree.children = list(self._transform_children(subtree.children))\n'}
+[8.366775] (nav2_dynamic_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/visitors.py", line 138, in _transform_children\n'}
+[8.367267] (nav2_dynamic_msgs) StderrLine: {'line': b'    res = self._transform_tree(c)\n'}
+[8.367901] (nav2_dynamic_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/visitors.py", line 268, in _transform_tree\n'}
+[8.368471] (nav2_dynamic_msgs) StderrLine: {'line': b'    return self._call_userfunc(tree)\n'}
+[8.369089] (nav2_dynamic_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/visitors.py", line 107, in _call_userfunc\n'}
+[8.369569] (nav2_dynamic_msgs) StderrLine: {'line': b'    f = getattr(self, tree.data)\n'}
+[8.370031] (nav2_dynamic_msgs) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[8.370501] (yolov8_msgs) StderrLine: {'line': b'    _exec(statements, self.globals, locals)\n'}
+[8.370977] (yolov8_msgs) StderrLine: {'line': b'  File "<string>", line 2, in <module>\n'}
+[8.371438] (yolov8_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 198, in _expand_template\n'}
+[8.371896] (yolov8_msgs) StderrLine: {'line': b'    interpreter.string(content, str(template_path), kwargs)\n'}
+[8.372679] (yolov8_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string\n'}
+[8.373170] (yolov8_msgs) StderrLine: {'line': b'    self.safe(scanner, True, locals)\n'}
+[8.373636] (yolov8_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe\n'}
+[8.374110] (yolov8_msgs) StderrLine: {'line': b'    self.parse(scanner, locals)\n'}
+[8.374573] (yolov8_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2417, in parse\n'}
+[8.375013] (yolov8_msgs) StderrLine: {'line': b'    token = scanner.one()\n'}
+[8.375434] (yolov8_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1984, in one\n'}
+[8.375888] (yolov8_msgs) StderrLine: {'line': b'    token.scan(self)\n'}
+[8.376399] (yolov8_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1421, in scan\n'}
+[8.376868] (yolov8_msgs) StderrLine: {'line': b"    i = scanner.complex('{', '}', 0)\n"}
+[8.377287] (yolov8_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1893, in complex\n'}
+[8.377726] (yolov8_msgs) StderrLine: {'line': b'    newQuote = self.check(i, quote)\n'}
+[8.378107] (yolov8_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1766, in check\n'}
+[8.378490] (yolov8_msgs) StderrLine: {'line': b'    if self[i] in \'\\\'\\"\':\n'}
+[8.378981] (yolov8_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1682, in __getitem__\n'}
+[8.379511] (yolov8_msgs) StderrLine: {'line': b'    def __getitem__(self, index):\n'}
+[8.380041] (yolov8_msgs) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[8.380548] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 'SIGINT'}
+[8.382210] (yolov8_msgs) StderrLine: {'line': b'Exception ignored in: <function Interpreter.__del__ at 0x7fadf5f6cee0>\n'}
+[8.383512] (yolov8_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[8.384816] (yolov8_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__\n'}
+[8.385245] (yolov8_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown\n'}
+[8.385636] (yolov8_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2647, in finalize\n'}
+[8.386024] (yolov8_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2200, in push\n'}
+[8.386423] (yolov8_msgs) StderrLine: {'line': b"AttributeError: '_io.TextIOWrapper' object has no attribute 'push'\n"}
+[8.386815] (nav2_dynamic_msgs) StderrLine: {'line': b'gmake[2]: *** [/home/mihkel/School/ThesisPractical/myros_ws/build/nav2_dynamic_msgs/nav2_dynamic_msgs__py/CMakeFiles/nav2_dynamic_msgs__py.dir/build.make:184: rosidl_generator_py/nav2_dynamic_msgs/_nav2_dynamic_msgs_s.ep.rosidl_typesupport_fastrtps_c.c] Interrupt\n'}
+[8.387218] (nav2_dynamic_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:590: nav2_dynamic_msgs__py/CMakeFiles/nav2_dynamic_msgs__py.dir/all] Interrupt\n'}
+[8.389133] (nav2_dynamic_msgs) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[8.389578] (nav2_dynamic_msgs) JobEnded: {'identifier': 'nav2_dynamic_msgs', 'rc': 'SIGINT'}
+[8.391843] (yolov8_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/build.make:159: rosidl_generator_c/yolov8_msgs/msg/point2_d.h] Interrupt\n'}
+[8.393086] (yolov8_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/all] Interrupt\n'}
+[8.393384] (yolov8_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/yolov8_msgs__cpp.dir/build.make:207: rosidl_generator_cpp/yolov8_msgs/msg/point2_d.hpp] Interrupt\n'}
+[8.393651] (yolov8_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:317: CMakeFiles/yolov8_msgs__cpp.dir/all] Interrupt\n'}
+[8.393912] (py_srvcli) JobEnded: {'identifier': 'py_srvcli', 'rc': 'SIGINT'}
+[8.394760] (semantic_segmentation) JobEnded: {'identifier': 'semantic_segmentation', 'rc': 'SIGINT'}
+[8.395965] (yolov8_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ament_cmake_python_build_yolov8_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_yolov8_msgs_egg] Interrupt\n'}
+[8.396532] (yolov8_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_yolov8_msgs_egg.dir/all] Interrupt\n'}
+[8.396951] (yolov8_msgs) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[8.397235] (yolov8_msgs) JobEnded: {'identifier': 'yolov8_msgs', 'rc': 'SIGINT'}
+[8.398158] (yolov8_ros) JobEnded: {'identifier': 'yolov8_ros', 'rc': 'SIGINT'}
+[8.403368] (-) TimerEvent: {}
+[8.404805] (kf_hungarian_tracker) JobSkipped: {'identifier': 'kf_hungarian_tracker'}
+[8.405069] (yolov8_bringup) JobSkipped: {'identifier': 'yolov8_bringup'}
+[8.405234] (-) EventReactorShutdown: {}

@@ -1,0 +1,186 @@
+[0.378s] Invoking command in '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap_odom': AMENT_PREFIX_PATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_util:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_util:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions:/opt/ros/humble:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap LD_LIBRARY_PATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_util/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/lib/pkgconfig:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/share /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap_ros/rtabmap_odom -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom
+[0.585s] -- The C compiler identification is GNU 11.4.0
+[0.740s] -- The CXX compiler identification is GNU 11.4.0
+[0.781s] -- Detecting C compiler ABI info
+[0.947s] -- Detecting C compiler ABI info - done
+[0.984s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.985s] -- Detecting C compile features
+[0.986s] -- Detecting C compile features - done
+[1.011s] -- Detecting CXX compiler ABI info
+[1.215s] -- Detecting CXX compiler ABI info - done
+[1.254s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.255s] -- Detecting CXX compile features
+[1.257s] -- Detecting CXX compile features - done
+[1.264s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.825s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[5.015s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.117s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[5.313s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.332s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.367s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.422s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.502s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.416s] -- Found image_geometry: 3.2.1 (/opt/ros/humble/share/image_geometry/cmake)
+[6.480s] -- Found laser_geometry: 2.4.0 (/opt/ros/humble/share/laser_geometry/cmake)
+[6.837s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.849s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.203s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.315s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.519s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.559s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.744s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.747s] -- Found Threads: TRUE  
+[8.515s] -- Found message_filters: 4.3.3 (/opt/ros/humble/share/message_filters/cmake)
+[8.547s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[8.953s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[9.468s] -- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)
+[9.914s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[9.914s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[11.540s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:146 (find_package):
+[11.540s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[11.540s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[11.540s]   cmake_policy command to set the policy and suppress this warning.
+[11.540s] 
+[11.541s]   CMake variable EIGEN_ROOT is set to:
+[11.541s] 
+[11.541s]     /usr/include/eigen3
+[11.541s] 
+[11.541s]   For compatibility, find_package is ignoring the variable, but code in a
+[11.542s]   .cmake module might still use it.
+[11.542s] Call Stack (most recent call first):
+[11.542s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:299 (find_eigen)
+[11.542s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[11.542s]   /opt/ros/humble/share/pcl_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[11.542s]   /opt/ros/humble/share/pcl_ros/cmake/pcl_rosConfig.cmake:41 (include)
+[11.543s]   CMakeLists.txt:20 (find_package)
+[11.543s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[11.543s] [0m
+[11.553s] -- Checking for module 'eigen3'
+[11.589s] --   Found eigen3, version 3.4.0
+[11.684s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[11.685s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[11.769s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:44 (find_package):
+[11.769s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[11.769s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[11.770s]   cmake_policy command to set the policy and suppress this warning.
+[11.770s] 
+[11.770s]   CMake variable FLANN_ROOT is set to:
+[11.770s] 
+[11.770s]     /usr
+[11.771s] 
+[11.771s]   For compatibility, find_package is ignoring the variable, but code in a
+[11.771s]   .cmake module might still use it.
+[11.771s] Call Stack (most recent call first):
+[11.771s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:256 (find_package)
+[11.772s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:301 (find_flann)
+[11.772s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[11.772s]   /opt/ros/humble/share/pcl_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[11.772s]   /opt/ros/humble/share/pcl_ros/cmake/pcl_rosConfig.cmake:41 (include)
+[11.772s]   CMakeLists.txt:20 (find_package)
+[11.773s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[11.773s] [0m
+[11.814s] -- Checking for module 'flann'
+[11.849s] --   Found flann, version 1.9.1
+[11.969s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[11.969s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[15.037s] -- Checking for module 'libusb-1.0'
+[15.076s] --   Found libusb-1.0, version 1.0.25
+[15.174s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[15.184s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[15.352s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[16.502s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[16.522s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[16.544s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[17.650s] -- Found Qhull version 8.0.2
+[18.764s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[19.839s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[19.843s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[19.848s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[19.852s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[19.857s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[19.862s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[19.864s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[19.865s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[19.870s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[19.875s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[19.879s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[19.884s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[19.889s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[19.893s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[19.898s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[19.903s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[19.908s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[19.913s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[19.918s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[19.923s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[19.927s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[19.929s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[19.932s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[19.937s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[19.942s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[20.013s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[20.080s] -- Found rtabmap_conversions: 0.21.3 (/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions/share/rtabmap_conversions/cmake)
+[21.053s] -- Found rtabmap_util: 0.21.3 (/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_util/share/rtabmap_util/cmake)
+[27.072s] -- Found rtabmap_sync: 0.21.3 (/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/share/rtabmap_sync/cmake)
+[29.071s] -- Configuring done (28.6s)
+[29.875s] -- Generating done (0.6s)
+[29.889s] -- Build files have been written to: /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap_odom
+[29.978s] Invoked command in '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap_odom' returned '0': AMENT_PREFIX_PATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_util:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_util:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions:/opt/ros/humble:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap LD_LIBRARY_PATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_util/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/lib/pkgconfig:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/share /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap_ros/rtabmap_odom -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom
+[29.984s] Invoking command in '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap_odom': AMENT_PREFIX_PATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_util:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_util:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions:/opt/ros/humble:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap LD_LIBRARY_PATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_util/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/lib/pkgconfig:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/share /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap_odom
+[30.138s] [  8%] [32mBuilding CXX object CMakeFiles/rtabmap_odom.dir/src/OdometryROS.cpp.o[0m
+[141.571s] [ 16%] [32m[1mLinking CXX shared library librtabmap_odom.so[0m
+[144.679s] [ 16%] Built target rtabmap_odom
+[144.714s] [ 25%] [32mBuilding CXX object CMakeFiles/rtabmap_odom_plugins.dir/src/nodelets/rgbd_odometry.cpp.o[0m
+[144.715s] [ 33%] [32mBuilding CXX object CMakeFiles/rtabmap_odom_plugins.dir/src/nodelets/stereo_odometry.cpp.o[0m
+[284.900s] [ 41%] [32mBuilding CXX object CMakeFiles/rtabmap_odom_plugins.dir/src/nodelets/icp_odometry.cpp.o[0m
+[364.157s] [ 50%] [32m[1mLinking CXX shared library librtabmap_odom_plugins.so[0m
+[367.879s] [ 50%] Built target rtabmap_odom_plugins
+[367.905s] [ 58%] [32mBuilding CXX object CMakeFiles/rtabmap_rgbd_odometry.dir/src/RGBDOdometryNode.cpp.o[0m
+[367.906s] [ 66%] [32mBuilding CXX object CMakeFiles/rtabmap_stereo_odometry.dir/src/StereoOdometryNode.cpp.o[0m
+[407.193s] [ 75%] [32m[1mLinking CXX executable rgbd_odometry[0m
+[407.763s] [ 83%] [32m[1mLinking CXX executable stereo_odometry[0m
+[412.013s] [ 83%] Built target rtabmap_rgbd_odometry
+[412.044s] [ 91%] [32mBuilding CXX object CMakeFiles/rtabmap_icp_odometry.dir/src/ICPOdometryNode.cpp.o[0m
+[412.565s] [ 91%] Built target rtabmap_stereo_odometry
+[448.760s] [100%] [32m[1mLinking CXX executable icp_odometry[0m
+[453.266s] [100%] Built target rtabmap_icp_odometry
+[453.291s] Invoked command in '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap_odom' returned '0': AMENT_PREFIX_PATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_util:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_util:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions:/opt/ros/humble:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap LD_LIBRARY_PATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_util/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/lib/pkgconfig:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/share /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap_odom
+[453.467s] Invoking command in '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap_odom': AMENT_PREFIX_PATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_util:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_util:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions:/opt/ros/humble:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap LD_LIBRARY_PATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_util/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/lib/pkgconfig:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/share /home/mihkel/.local/bin/cmake --install /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap_odom
+[453.545s] -- Install configuration: "Release"
+[453.546s] -- Execute custom install script
+[453.547s] -- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/share/rtabmap_odom/environment/library_path.sh
+[453.555s] -- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/share/rtabmap_odom/environment/library_path.dsv
+[453.563s] -- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/lib/rtabmap_odom/rgbd_odometry
+[453.571s] -- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/lib/rtabmap_odom/icp_odometry
+[453.578s] -- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/lib/rtabmap_odom/stereo_odometry
+[453.586s] -- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/share/ament_index/resource_index/package_run_dependencies/rtabmap_odom
+[453.594s] -- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/share/ament_index/resource_index/parent_prefix_path/rtabmap_odom
+[453.602s] -- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/share/rtabmap_odom/environment/ament_prefix_path.sh
+[453.610s] -- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/share/rtabmap_odom/environment/ament_prefix_path.dsv
+[453.619s] -- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/share/rtabmap_odom/environment/path.sh
+[453.627s] -- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/share/rtabmap_odom/environment/path.dsv
+[453.635s] -- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/share/rtabmap_odom/local_setup.bash
+[453.643s] -- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/share/rtabmap_odom/local_setup.sh
+[453.652s] -- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/share/rtabmap_odom/local_setup.zsh
+[453.660s] -- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/share/rtabmap_odom/local_setup.dsv
+[453.668s] -- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/share/rtabmap_odom/package.dsv
+[453.677s] -- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/share/ament_index/resource_index/packages/rtabmap_odom
+[453.685s] -- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/share/ament_index/resource_index/rclcpp_components/rtabmap_odom
+[453.694s] -- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/share/rtabmap_odom/cmake/ament_cmake_export_dependencies-extras.cmake
+[453.702s] -- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/share/rtabmap_odom/cmake/ament_cmake_export_include_directories-extras.cmake
+[453.711s] -- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/share/rtabmap_odom/cmake/ament_cmake_export_targets-extras.cmake
+[453.719s] -- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/share/rtabmap_odom/cmake/ament_cmake_export_libraries-extras.cmake
+[453.727s] -- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/share/rtabmap_odom/cmake/rtabmap_odomConfig.cmake
+[453.736s] -- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/share/rtabmap_odom/cmake/rtabmap_odomConfig-version.cmake
+[453.744s] -- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/share/rtabmap_odom/package.xml
+[453.752s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/lib/librtabmap_odom.so
+[453.758s] -- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/lib/librtabmap_odom.so" to ""
+[453.759s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/lib/librtabmap_odom_plugins.so
+[453.773s] -- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/lib/librtabmap_odom_plugins.so" to ""
+[453.773s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/include
+[453.774s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/include/rtabmap_odom
+[453.774s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/include/rtabmap_odom/visibility.h
+[453.775s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/include/rtabmap_odom/OdometryROS.h
+[453.775s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/share/rtabmap_odom/cmake/rtabmap_odomExport.cmake
+[453.775s] -- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/share/rtabmap_odom/cmake/rtabmap_odomExport-release.cmake
+[453.793s] Invoked command in '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap_odom' returned '0': AMENT_PREFIX_PATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_util:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_util:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions:/opt/ros/humble:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap LD_LIBRARY_PATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_util/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/lib/pkgconfig:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/share /home/mihkel/.local/bin/cmake --install /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap_odom

@@ -1,0 +1,99 @@
+[0.259s] Invoking command in '/home/mihkel/School/ros-packages/nav2_ws/build/behaviortree_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake /home/mihkel/School/ros-packages/nav2_ws/src/BehaviorTree/BehaviorTree.CPP -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp
+[0.513s] -- The C compiler identification is GNU 11.4.0
+[0.706s] -- The CXX compiler identification is GNU 11.4.0
+[0.765s] -- Detecting C compiler ABI info
+[0.943s] -- Detecting C compiler ABI info - done
+[0.983s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.984s] -- Detecting C compile features
+[0.986s] -- Detecting C compile features - done
+[1.013s] -- Detecting CXX compiler ABI info
+[1.261s] -- Detecting CXX compiler ABI info - done
+[1.324s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.325s] -- Detecting CXX compile features
+[1.328s] -- Detecting CXX compile features - done
+[1.331s] -- Setting build type to 'Release' as none was specified.
+[1.336s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.569s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.573s] -- Found Threads: TRUE  
+[2.491s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.800s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.952s] -- ------------------------------------------
+[2.952s] -- BehaviourTree is being built using AMENT.
+[2.952s] -- ------------------------------------------
+[2.994s] -- Found ZeroMQ: /usr/lib/x86_64-linux-gnu/libzmq.so  
+[3.002s] -- Found SQLite3: /usr/include (found version "3.37.2") 
+[3.009s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[3.029s] -- BTCPP_EXTRA_LIBRARIES: $<BUILD_INTERFACE:ament_index_cpp::ament_index_cpp>;$<BUILD_INTERFACE:/usr/lib/x86_64-linux-gnu/libzmq.so>;$<BUILD_INTERFACE:/usr/lib/x86_64-linux-gnu/libsqlite3.so>
+[3.029s] -- BTCPP_LIB_DESTINATION:   lib 
+[3.030s] -- BTCPP_INCLUDE_DESTINATION: include 
+[3.030s] -- BTCPP_UNIT_TESTS:   ON 
+[3.040s] -- Found ament_cmake_gtest: 1.3.6 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.050s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.406s] -- Configuring done (3.1s)
+[3.701s] -- Generating done (0.2s)
+[3.714s] -- Build files have been written to: /home/mihkel/School/ros-packages/nav2_ws/build/behaviortree_cpp
+[3.757s] Invoked command in '/home/mihkel/School/ros-packages/nav2_ws/build/behaviortree_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake /home/mihkel/School/ros-packages/nav2_ws/src/BehaviorTree/BehaviorTree.CPP -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ros-packages/nav2_ws/install/behaviortree_cpp
+[3.764s] Invoking command in '/home/mihkel/School/ros-packages/nav2_ws/build/behaviortree_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ros-packages/nav2_ws/build/behaviortree_cpp -- -j12 -l12
+[3.916s] [  1%] [32mBuilding CXX object 3rdparty/lexy/src/CMakeFiles/lexy_file.dir/input/file.cpp.o[0m
+[3.927s] [  2%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[3.928s] [  3%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[4.546s] [  4%] [32m[1mLinking CXX static library liblexy_file.a[0m
+[4.605s] [  4%] Built target lexy_file
+[4.663s] [  6%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/behavior_tree.cpp.o[0m
+[4.664s] [  6%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/basic_types.cpp.o[0m
+[4.671s] [  7%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/blackboard.cpp.o[0m
+[4.679s] [  7%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/action_node.cpp.o[0m
+[4.701s] [  8%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/bt_factory.cpp.o[0m
+[4.701s] [  8%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/decorator_node.cpp.o[0m
+[4.702s] [  9%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/condition_node.cpp.o[0m
+[4.705s] [ 10%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/shared_library.cpp.o[0m
+[4.710s] [ 11%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/control_node.cpp.o[0m
+[4.840s] [ 12%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/tree_node.cpp.o[0m
+[11.192s] [ 12%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/script_parser.cpp.o[0m
+[12.355s] [ 12%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[12.695s] [ 12%] Built target gtest_main
+[12.755s] [ 13%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/json_export.cpp.o[0m
+[18.039s] [ 14%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/xml_parsing.cpp.o[0m
+[18.051s] [ 15%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/actions/test_node.cpp.o[0m
+[18.096s] [ 16%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/actions/sleep_node.cpp.o[0m
+[18.986s] [ 16%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/decorators/delay_node.cpp.o[0m
+[20.407s] [ 17%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/decorators/inverter_node.cpp.o[0m
+[26.615s] [ 18%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/decorators/repeat_node.cpp.o[0m
+[26.936s] [ 19%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/decorators/retry_node.cpp.o[0m
+[28.035s] [ 20%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/decorators/timeout_node.cpp.o[0m
+[33.515s] [ 20%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/decorators/subtree_node.cpp.o[0m
+[36.824s] [ 21%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/controls/if_then_else_node.cpp.o[0m
+[39.155s] [ 22%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/controls/fallback_node.cpp.o[0m
+[40.231s] [ 23%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/controls/parallel_node.cpp.o[0m
+[42.818s] [ 24%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/controls/parallel_all_node.cpp.o[0m
+[46.286s] [ 24%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/controls/reactive_sequence.cpp.o[0m
+[46.566s] [ 25%] [32mBuilding CXX object CMakeFiles/behaviortree_cpp.dir/src/controls/reactive_fallback.cpp.o[0m
+[53.643s] gmake[2]: *** [CMakeFiles/behaviortree_cpp.dir/build.make:216: CMakeFiles/behaviortree_cpp.dir/src/script_parser.cpp.o] Interrupt
+[53.644s] gmake[2]: *** [CMakeFiles/behaviortree_cpp.dir/build.make:132: CMakeFiles/behaviortree_cpp.dir/src/bt_factory.cpp.o] Interrupt
+[53.644s] gmake[2]: *** [CMakeFiles/behaviortree_cpp.dir/build.make:244: CMakeFiles/behaviortree_cpp.dir/src/xml_parsing.cpp.o] Interrupt
+[53.645s] gmake[2]: *** [CMakeFiles/behaviortree_cpp.dir/build.make:398: CMakeFiles/behaviortree_cpp.dir/src/controls/parallel_node.cpp.o] Interrupt
+[53.645s] gmake[2]: *** [CMakeFiles/behaviortree_cpp.dir/build.make:412: CMakeFiles/behaviortree_cpp.dir/src/controls/parallel_all_node.cpp.o] Interrupt
+[53.645s] gmake[2]: *** [CMakeFiles/behaviortree_cpp.dir/build.make:426: CMakeFiles/behaviortree_cpp.dir/src/controls/reactive_sequence.cpp.o] Interrupt
+[53.646s] gmake[2]: *** [CMakeFiles/behaviortree_cpp.dir/build.make:440: CMakeFiles/behaviortree_cpp.dir/src/controls/reactive_fallback.cpp.o] Interrupt
+[53.658s] gmake[2]: *** [gtest/CMakeFiles/gtest.dir/build.make:76: gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o] Interrupt
+[53.659s] gmake[1]: *** [CMakeFiles/Makefile2:491: gtest/CMakeFiles/gtest.dir/all] Interrupt
+[53.659s] gmake[1]: *** wait: No child processes.  Stop.
+[53.659s] gmake[1]: *** Waiting for unfinished jobs....
+[53.660s] gmake[1]: *** wait: No child processes.  Stop.
+[53.661s] gmake: *** [Makefile:146: all] Error 2
+[53.687s] Traceback (most recent call last):
+[53.687s]   File "/home/mihkel/.local/bin/cmake", line 8, in <module>
+[53.687s]     sys.exit(cmake())
+[53.688s]   File "/home/mihkel/.local/lib/python3.10/site-packages/cmake/__init__.py", line 47, in cmake
+[53.688s]     raise SystemExit(_program('cmake', sys.argv[1:]))
+[53.688s]   File "/home/mihkel/.local/lib/python3.10/site-packages/cmake/__init__.py", line 43, in _program
+[53.688s]     return subprocess.call([os.path.join(CMAKE_BIN_DIR, name)] + args, close_fds=False)
+[53.689s]   File "/usr/lib/python3.10/subprocess.py", line 347, in call
+[53.689s]     return p.wait(timeout=timeout)
+[53.689s]   File "/usr/lib/python3.10/subprocess.py", line 1209, in wait
+[53.690s]     return self._wait(timeout=timeout)
+[53.690s]   File "/usr/lib/python3.10/subprocess.py", line 1959, in _wait
+[53.690s]     (pid, sts) = self._try_wait(0)
+[53.691s]   File "/usr/lib/python3.10/subprocess.py", line 1917, in _try_wait
+[53.691s]     (pid, sts) = os.waitpid(self.pid, wait_flags)
+[53.707s] KeyboardInterrupt

@@ -1,0 +1,1 @@
+/home/mihkel/School/ros-packages/nav2_ws/src/ros-perception/vision_opencv/cv_bridge/python/cv_bridge/__init__.py

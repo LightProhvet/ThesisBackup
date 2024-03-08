@@ -1,0 +1,116 @@
+[0.794s] Invoking command in '/home/mihkel/School/ros-packages/nav2_ws/build/nav_2d_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake /home/mihkel/School/ros-packages/nav2_ws/src/navigation2/nav2_dwb_controller/nav_2d_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ros-packages/nav2_ws/install/nav_2d_msgs
+[1.050s] -- The C compiler identification is GNU 11.4.0
+[1.261s] -- The CXX compiler identification is GNU 11.4.0
+[1.314s] -- Detecting C compiler ABI info
+[1.493s] -- Detecting C compiler ABI info - done
+[1.556s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.556s] -- Detecting C compile features
+[1.558s] -- Detecting C compile features - done
+[1.581s] -- Detecting CXX compiler ABI info
+[1.813s] -- Detecting CXX compiler ABI info - done
+[1.854s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.855s] -- Detecting CXX compile features
+[1.857s] -- Detecting CXX compile features - done
+[1.864s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[6.939s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[7.758s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[8.858s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.952s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[9.100s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[9.375s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.792s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.672s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[19.885s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[32.091s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[36.826s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[36.868s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[36.868s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[36.869s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[36.869s]   the cmake_policy command to set the policy and suppress this warning.
+[36.869s] 
+[36.870s] Call Stack (most recent call first):
+[36.870s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[36.871s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[36.871s]   CMakeLists.txt:8 (rosidl_generate_interfaces)
+[36.872s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[36.872s] [0m
+[37.045s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[37.057s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[37.060s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[37.061s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[37.062s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[37.062s]   the cmake_policy command to set the policy and suppress this warning.
+[37.063s] 
+[37.064s] Call Stack (most recent call first):
+[37.064s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[37.065s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[37.066s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[37.067s]   CMakeLists.txt:8 (rosidl_generate_interfaces)
+[37.067s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[37.068s] [0m
+[37.252s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[37.252s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[37.253s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[37.254s]   the cmake_policy command to set the policy and suppress this warning.
+[37.254s] 
+[37.255s] Call Stack (most recent call first):
+[37.256s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[37.256s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[37.257s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[37.258s]   CMakeLists.txt:8 (rosidl_generate_interfaces)
+[37.259s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[37.259s] [0m
+[37.327s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[37.328s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[37.351s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[37.351s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[37.697s] -- Found PythonExtra: .so  
+[38.961s] -- Configuring done (38.1s)
+[39.493s] -- Generating done (0.4s)
+[39.532s] -- Build files have been written to: /home/mihkel/School/ros-packages/nav2_ws/build/nav_2d_msgs
+[39.705s] Invoked command in '/home/mihkel/School/ros-packages/nav2_ws/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake /home/mihkel/School/ros-packages/nav2_ws/src/navigation2/nav2_dwb_controller/nav_2d_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ros-packages/nav2_ws/install/nav_2d_msgs
+[39.707s] Invoking command in '/home/mihkel/School/ros-packages/nav2_ws/build/nav_2d_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ros-packages/nav2_ws/build/nav_2d_msgs -- -j12 -l12
+[40.374s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[40.478s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[40.516s] [  2%] Built target ament_cmake_python_symlink_nav_2d_msgs
+[46.132s] running egg_info
+[46.142s] creating nav_2d_msgs.egg-info
+[46.146s] writing nav_2d_msgs.egg-info/PKG-INFO
+[46.150s] writing dependency_links to nav_2d_msgs.egg-info/dependency_links.txt
+[46.170s] writing top-level names to nav_2d_msgs.egg-info/top_level.txt
+[46.175s] writing manifest file 'nav_2d_msgs.egg-info/SOURCES.txt'
+[46.217s] reading manifest file 'nav_2d_msgs.egg-info/SOURCES.txt'
+[46.234s] writing manifest file 'nav_2d_msgs.egg-info/SOURCES.txt'
+[46.630s] [  2%] Built target ament_cmake_python_build_nav_2d_msgs_egg
+[47.196s] [  2%] Built target nav_2d_msgs__cpp
+[47.209s] [  4%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/path2_d__functions.c.o[0m
+[47.225s] [  5%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/pose2_d32__functions.c.o[0m
+[47.350s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[47.679s] [  8%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/twist2_d_stamped__functions.c.o[0m
+[48.368s] [  9%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/twist2_d32__functions.c.o[0m
+[48.948s] [ 11%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/twist2_d__functions.c.o[0m
+[49.455s] [ 12%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/pose2_d_stamped__functions.c.o[0m
+[49.973s] [ 14%] [32m[1mLinking C shared library libnav_2d_msgs__rosidl_generator_c.so[0m
+[50.272s] [ 14%] Built target nav_2d_msgs__rosidl_generator_c
+[52.000s] [ 15%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/path2_d__type_support.cpp.o[0m
+[53.885s] [ 16%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/twist2_d_stamped__type_support.cpp.o[0m
+[54.203s] Traceback (most recent call last):
+[54.203s]   File "/home/mihkel/.local/bin/cmake", line 8, in <module>
+[54.204s]     sys.exit(cmake())
+[54.204s]   File "/home/mihkel/.local/lib/python3.10/site-packages/cmake/__init__.py", line 47, in cmake
+[54.209s]     raise SystemExit(_program('cmake', sys.argv[1:]))
+[54.210s] gmake[2]: *** [CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/build.make:237: CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/twist2_d_stamped__type_support.cpp.o] Interrupt
+[54.210s]   File "/home/mihkel/.local/lib/python3.10/site-packages/cmake/__init__.py", line 43, in _program
+[54.213s]     return subprocess.call([os.path.join(CMAKE_BIN_DIR, name)] + args, close_fds=False)
+[54.213s]   File "/usr/lib/python3.10/subprocess.py", line 347, in call
+[54.218s]     return p.wait(timeout=timeout)
+[54.219s]   File "/usr/lib/python3.10/subprocess.py", line 1209, in wait
+[54.219s] gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/all] Interrupt
+[54.219s]     return self._wait(timeout=timeout)
+[54.220s] gmake: *** [Makefile:146: all] Interrupt
+[54.220s]   File "/usr/lib/python3.10/subprocess.py", line 1959, in _wait
+[54.220s]     (pid, sts) = self._try_wait(0)
+[54.221s]   File "/usr/lib/python3.10/subprocess.py", line 1917, in _try_wait
+[54.221s]     (pid, sts) = os.waitpid(self.pid, wait_flags)
+[54.222s] KeyboardInterrupt
+[54.289s] Invoked command in '/home/mihkel/School/ros-packages/nav2_ws/build/nav_2d_msgs' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ros-packages/nav2_ws/build/nav_2d_msgs -- -j12 -l12

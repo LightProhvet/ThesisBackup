@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/mihkel/School/ThesisPractical/librealsense/build/CMakeFiles/libcurl"
+		},
+		{
+			"file" : "/home/mihkel/School/ThesisPractical/librealsense/build/CMakeFiles/libcurl.rule"
+		},
+		{
+			"file" : "/home/mihkel/School/ThesisPractical/librealsense/build/CMakeFiles/libcurl-complete.rule"
+		},
+		{
+			"file" : "/home/mihkel/School/ThesisPractical/librealsense/build/libcurl/src/libcurl-stamp/libcurl-build.rule"
+		},
+		{
+			"file" : "/home/mihkel/School/ThesisPractical/librealsense/build/libcurl/src/libcurl-stamp/libcurl-configure.rule"
+		},
+		{
+			"file" : "/home/mihkel/School/ThesisPractical/librealsense/build/libcurl/src/libcurl-stamp/libcurl-download.rule"
+		},
+		{
+			"file" : "/home/mihkel/School/ThesisPractical/librealsense/build/libcurl/src/libcurl-stamp/libcurl-install.rule"
+		},
+		{
+			"file" : "/home/mihkel/School/ThesisPractical/librealsense/build/libcurl/src/libcurl-stamp/libcurl-mkdir.rule"
+		},
+		{
+			"file" : "/home/mihkel/School/ThesisPractical/librealsense/build/libcurl/src/libcurl-stamp/libcurl-patch.rule"
+		},
+		{
+			"file" : "/home/mihkel/School/ThesisPractical/librealsense/build/libcurl/src/libcurl-stamp/libcurl-test.rule"
+		},
+		{
+			"file" : "/home/mihkel/School/ThesisPractical/librealsense/build/libcurl/src/libcurl-stamp/libcurl-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"libcurl"
+		],
+		"name" : "libcurl"
+	}
+}

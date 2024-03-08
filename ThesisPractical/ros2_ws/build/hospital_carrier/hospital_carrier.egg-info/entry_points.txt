@@ -1,0 +1,17 @@
+[console_scripts]
+CoordinateNavigator = hospital_carrier.CoordinateNavigator:main
+DebugDisplay = hospital_carrier.DebugDisplay:main
+EncoderSim = hospital_carrier.EncoderSim:main
+Follower = hospital_carrier.Follower:main
+Localizer = hospital_carrier.Localizer:main
+MqttListener = hospital_carrier.MqttListener:main
+MqttOdomAndStatus = hospital_carrier.MqttOdomAndStatus:main
+MqttRemoteControl = hospital_carrier.MqttRemoteControl:main
+MqttVideoStreamer = hospital_carrier.MqttVideoStreamer:main
+OdomCalculator = hospital_carrier.OdomCalculator:main
+Odrives = hospital_carrier.Odrives:main
+OperationModeControl = hospital_carrier.OperationModeControl:main
+PS4Controller = hospital_carrier.PS4Controller:main
+PointcloudToPly = hospital_carrier.PointcloudToPly:main
+ReadAruco = hospital_carrier.ReadAruco:main
+

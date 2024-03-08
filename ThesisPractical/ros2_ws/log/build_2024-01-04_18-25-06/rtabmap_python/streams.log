@@ -1,0 +1,32 @@
+[1.445s] Invoking command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/rtabmap_python': /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/ros2_ws/src/rtabmap_ros/rtabmap_python -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_python
+[1.957s] -- The C compiler identification is GNU 11.4.0
+[2.322s] -- The CXX compiler identification is GNU 11.4.0
+[2.400s] -- Detecting C compiler ABI info
+[2.714s] -- Detecting C compiler ABI info - done
+[2.780s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.781s] -- Detecting C compile features
+[2.785s] -- Detecting C compile features - done
+[2.832s] -- Detecting CXX compiler ABI info
+[3.160s] -- Detecting CXX compiler ABI info - done
+[3.219s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.219s] -- Detecting CXX compile features
+[3.219s] -- Detecting CXX compile features - done
+[3.268s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[3.269s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[3.269s]   asked CMake to find a package configuration file provided by "catkin", but
+[3.270s]   CMake did not find one.
+[3.272s] 
+[3.273s]   Could not find a package configuration file provided by "catkin" with any
+[3.277s]   of the following names:
+[3.278s] 
+[3.280s]     catkinConfig.cmake
+[3.280s]     catkin-config.cmake
+[3.281s] 
+[3.284s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[3.285s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[3.285s]   provides a separate development package or SDK, be sure it has been
+[3.285s]   installed.
+[3.286s] 
+[3.287s] [0m
+[3.288s] -- Configuring incomplete, errors occurred!
+[3.639s] Invoked command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/rtabmap_python' returned '1': /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/ros2_ws/src/rtabmap_ros/rtabmap_python -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_python

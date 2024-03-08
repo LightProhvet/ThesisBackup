@@ -1,0 +1,6 @@
+[ 16%] Built target gtest_main
+[ 33%] Built target DepthImageToLaserScan
+[ 50%] Built target gtest
+[ 66%] Built target depthimage_to_laserscan-test
+[ 83%] Built target DepthImageToLaserScanROS
+[100%] Built target depthimage_to_laserscan_node

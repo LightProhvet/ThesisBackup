@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/mihkel/School/ThesisPractical/myros_ws/build/nav2_plugin_tutorial/libnav2_plugin_tutorial_core.so" "TARGETS" "nav2_plugin_tutorial_core" "DESTINATION" "lib")

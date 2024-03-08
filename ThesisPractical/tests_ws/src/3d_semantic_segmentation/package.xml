@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+  <name>3d_semantic_segmentation</name>
+  <version>0.1.0</version>
+  <description>3D Semantic segmentation for costmaps</description>
+
+  <maintainer email="mihkel.marten@ruutli.net">Mihkel Marten Rüütli</maintainer>
+<!--TODO: GNU Licence?-->
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rclpy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <run_depend>rclpy</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+
+  <export>
+  </export>
+</package>

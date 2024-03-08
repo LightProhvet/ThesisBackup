@@ -1,0 +1,9 @@
+[  4%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/CommonDataSubscriber.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberScan.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberSensorData.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberOdom.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberStereo.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberRGB.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberRGBDX.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberDepth.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberRGBD.cpp.o[0m

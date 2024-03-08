@@ -1,0 +1,61 @@
+[  3%] [32mBuilding CXX object test/core/CMakeFiles/test_cartesian2.dir/test_cartesian2.cpp.o[0m
+[  7%] [32mBuilding CXX object test/core/CMakeFiles/test_so2.dir/test_so2.cpp.o[0m
+[ 14%] [32mBuilding CXX object test/core/CMakeFiles/test_rxso2.dir/test_rxso2.cpp.o[0m
+[ 14%] [32mBuilding CXX object test/core/CMakeFiles/test_sim2.dir/test_sim2.cpp.o[0m
+[ 17%] [32mBuilding CXX object test/core/CMakeFiles/test_se2.dir/test_se2.cpp.o[0m
+[ 21%] [32mBuilding CXX object test/core/CMakeFiles/test_cartesian3.dir/test_cartesian3.cpp.o[0m
+[ 25%] [32mBuilding CXX object test/core/CMakeFiles/test_so3.dir/test_so3.cpp.o[0m
+[ 32%] Built target test_common
+[ 35%] [32mBuilding CXX object test/core/CMakeFiles/test_se3.dir/test_se3.cpp.o[0m
+[ 39%] [32mBuilding CXX object test/core/CMakeFiles/test_rxso3.dir/test_rxso3.cpp.o[0m
+[ 50%] [32mBuilding CXX object test/core/CMakeFiles/test_sim3.dir/test_sim3.cpp.o[0m
+[ 50%] Built target test_velocities
+[ 53%] [32mBuilding CXX object test/core/CMakeFiles/test_geometry.dir/test_geometry.cpp.o[0m
+[ 57%] [32mBuilding CXX object examples/CMakeFiles/HelloSO3.dir/HelloSO3.cpp.o[0m
+[ 60%] [32m[1mLinking CXX executable HelloSO3[0m
+[ 60%] Built target HelloSO3
+gmake[2]: *** [test/core/CMakeFiles/test_rxso3.dir/build.make:76: test/core/CMakeFiles/test_rxso3.dir/test_rxso3.cpp.o] Interrupt
+gmake[2]: *** [test/core/CMakeFiles/test_sim2.dir/build.make:76: test/core/CMakeFiles/test_sim2.dir/test_sim2.cpp.o] Interrupt
+gmake[2]: *** [test/core/CMakeFiles/test_se3.dir/build.make:76: test/core/CMakeFiles/test_se3.dir/test_se3.cpp.o] Interrupt
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:408: test/core/CMakeFiles/test_se3.dir/all] Interrupt
+Traceback (most recent call last):
+gmake[2]: *** [test/core/CMakeFiles/test_rxso2.dir/build.make:76: test/core/CMakeFiles/test_rxso2.dir/test_rxso2.cpp.o] Interrupt
+gmake[2]: *** [test/core/CMakeFiles/test_geometry.dir/build.make:76: test/core/CMakeFiles/test_geometry.dir/test_geometry.cpp.o] Interrupt
+gmake[2]: *** [test/core/CMakeFiles/test_so3.dir/build.make:76: test/core/CMakeFiles/test_so3.dir/test_so3.cpp.o] Interrupt
+gmake[2]: *** [test/core/CMakeFiles/test_sim3.dir/build.make:76: test/core/CMakeFiles/test_sim3.dir/test_sim3.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:330: test/core/CMakeFiles/test_rxso2.dir/all] Interrupt
+  File "/home/mihkel/.local/bin/cmake", line 8, in <module>
+    sys.exit(cmake())
+gmake[1]: *** [CMakeFiles/Makefile2:382: test/core/CMakeFiles/test_so3.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:434: test/core/CMakeFiles/test_rxso3.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:460: test/core/CMakeFiles/test_sim3.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:512: test/core/CMakeFiles/test_geometry.dir/all] Interrupt
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [test/core/CMakeFiles/test_se2.dir/build.make:76: test/core/CMakeFiles/test_se2.dir/test_se2.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:304: test/core/CMakeFiles/test_se2.dir/all] Interrupt
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** wait: No child processes.  Stop.
+  File "/home/mihkel/.local/lib/python3.10/site-packages/cmake/__init__.py", line 47, in cmake
+gmake[2]: *** [test/core/CMakeFiles/test_so2.dir/build.make:76: test/core/CMakeFiles/test_so2.dir/test_so2.cpp.o] Interrupt
+    raise SystemExit(_program('cmake', sys.argv[1:]))
+gmake[1]: *** [CMakeFiles/Makefile2:226: test/core/CMakeFiles/test_cartesian2.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:278: test/core/CMakeFiles/test_so2.dir/all] Interrupt
+  File "/home/mihkel/.local/lib/python3.10/site-packages/cmake/__init__.py", line 43, in _program
+    return subprocess.call([os.path.join(CMAKE_BIN_DIR, name)] + args, close_fds=False)
+  File "/usr/lib/python3.10/subprocess.py", line 347, in call
+gmake[1]: *** [CMakeFiles/Makefile2:252: test/core/CMakeFiles/test_cartesian3.dir/all] Error 2
+gmake[1]: *** wait: No child processes.  Stop.
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** wait: No child processes.  Stop.
+gmake: *** [Makefile:146: all] Error 2
+    return p.wait(timeout=timeout)
+  File "/usr/lib/python3.10/subprocess.py", line 1209, in wait
+    return self._wait(timeout=timeout)
+  File "/usr/lib/python3.10/subprocess.py", line 1959, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/usr/lib/python3.10/subprocess.py", line 1917, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt

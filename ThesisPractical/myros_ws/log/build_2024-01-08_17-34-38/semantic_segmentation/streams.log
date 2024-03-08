@@ -1,0 +1,92 @@
+[4.283s] Invoking command in '/home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation': PYTHONPATH=/home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/prefix_override:/home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build
+[5.939s] running develop
+[6.933s] Removing /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages/semantic-segmentation.egg-link (link to .)
+[7.023s] Invoked command in '/home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation' returned '0': PYTHONPATH=/home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/prefix_override:/home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build
+[7.035s] Invoking command in '/home/mihkel/School/ThesisPractical/myros_ws/src/semantic_segmentation': PYTHONPATH=/home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/prefix_override:/home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/semantic_segmentation build --build-base /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build install --record /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/install.log --single-version-externally-managed
+[8.245s] running egg_info
+[8.247s] writing ../../build/semantic_segmentation/semantic_segmentation.egg-info/PKG-INFO
+[8.255s] writing dependency_links to ../../build/semantic_segmentation/semantic_segmentation.egg-info/dependency_links.txt
+[8.256s] writing entry points to ../../build/semantic_segmentation/semantic_segmentation.egg-info/entry_points.txt
+[8.256s] writing requirements to ../../build/semantic_segmentation/semantic_segmentation.egg-info/requires.txt
+[8.260s] writing top-level names to ../../build/semantic_segmentation/semantic_segmentation.egg-info/top_level.txt
+[8.268s] reading manifest file '../../build/semantic_segmentation/semantic_segmentation.egg-info/SOURCES.txt'
+[8.269s] reading manifest template 'MANIFEST.in'
+[8.270s] adding license file 'LICENSE.txt'
+[8.272s] writing manifest file '../../build/semantic_segmentation/semantic_segmentation.egg-info/SOURCES.txt'
+[8.273s] running build
+[8.273s] running build_py
+[8.274s] creating /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build
+[8.274s] creating /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build/lib
+[8.275s] creating /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build/lib/models
+[8.275s] copying models/__init__.py -> /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build/lib/models
+[8.275s] creating /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build/lib/semantic_segmentation
+[8.276s] copying semantic_segmentation/segmentation_node.py -> /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build/lib/semantic_segmentation
+[8.276s] copying semantic_segmentation/cv_bridge.py -> /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build/lib/semantic_segmentation
+[8.276s] copying semantic_segmentation/__init__.py -> /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build/lib/semantic_segmentation
+[8.276s] copying semantic_segmentation/cv_resize.py -> /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build/lib/semantic_segmentation
+[8.277s] creating /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build/lib/models/mnv2_dm05_voc
+[8.277s] copying models/mnv2_dm05_voc/__init__.py -> /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build/lib/models/mnv2_dm05_voc
+[8.277s] copying models/mnv2_dm05_voc/cv_resize.py -> /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build/lib/models/mnv2_dm05_voc
+[8.278s] creating /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build/lib/models/mnv2_coco2017_driving_513
+[8.278s] copying models/mnv2_coco2017_driving_513/__init__.py -> /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build/lib/models/mnv2_coco2017_driving_513
+[8.279s] creating /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build/lib/models/mnv2_bdd100k_driveable_513
+[8.280s] copying models/mnv2_bdd100k_driveable_513/__init__.py -> /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build/lib/models/mnv2_bdd100k_driveable_513
+[8.281s] creating /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build/lib/models/deeplabv3_test
+[8.281s] copying models/deeplabv3_test/__init__.py -> /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build/lib/models/deeplabv3_test
+[8.282s] creating /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build/lib/models/espnetv2_bdd100k_driveable
+[8.282s] copying models/espnetv2_bdd100k_driveable/__init__.py -> /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build/lib/models/espnetv2_bdd100k_driveable
+[8.283s] copying models/espnetv2_bdd100k_driveable/cv_resize.py -> /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build/lib/models/espnetv2_bdd100k_driveable
+[8.283s] creating /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build/lib/models/espnetv2_bdd100k_driveable/cnn
+[8.284s] copying models/espnetv2_bdd100k_driveable/cnn/cnn_utils.py -> /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build/lib/models/espnetv2_bdd100k_driveable/cnn
+[8.284s] copying models/espnetv2_bdd100k_driveable/cnn/Model.py -> /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build/lib/models/espnetv2_bdd100k_driveable/cnn
+[8.285s] copying models/espnetv2_bdd100k_driveable/cnn/__init__.py -> /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build/lib/models/espnetv2_bdd100k_driveable/cnn
+[8.285s] copying models/espnetv2_bdd100k_driveable/cnn/SegmentationModel.py -> /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build/lib/models/espnetv2_bdd100k_driveable/cnn
+[8.288s] running install
+[8.289s] running install_lib
+[8.293s] creating /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages/models
+[8.294s] creating /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages/models/mnv2_dm05_voc
+[8.294s] copying /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build/lib/models/mnv2_dm05_voc/__init__.py -> /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages/models/mnv2_dm05_voc
+[8.294s] copying /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build/lib/models/mnv2_dm05_voc/cv_resize.py -> /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages/models/mnv2_dm05_voc
+[8.295s] creating /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages/models/mnv2_coco2017_driving_513
+[8.296s] copying /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build/lib/models/mnv2_coco2017_driving_513/__init__.py -> /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages/models/mnv2_coco2017_driving_513
+[8.296s] creating /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages/models/mnv2_bdd100k_driveable_513
+[8.296s] copying /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build/lib/models/mnv2_bdd100k_driveable_513/__init__.py -> /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages/models/mnv2_bdd100k_driveable_513
+[8.297s] creating /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages/models/deeplabv3_test
+[8.297s] copying /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build/lib/models/deeplabv3_test/__init__.py -> /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages/models/deeplabv3_test
+[8.298s] creating /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages/models/espnetv2_bdd100k_driveable
+[8.298s] creating /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages/models/espnetv2_bdd100k_driveable/cnn
+[8.298s] copying /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build/lib/models/espnetv2_bdd100k_driveable/cnn/cnn_utils.py -> /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages/models/espnetv2_bdd100k_driveable/cnn
+[8.299s] copying /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build/lib/models/espnetv2_bdd100k_driveable/cnn/Model.py -> /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages/models/espnetv2_bdd100k_driveable/cnn
+[8.299s] copying /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build/lib/models/espnetv2_bdd100k_driveable/cnn/__init__.py -> /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages/models/espnetv2_bdd100k_driveable/cnn
+[8.299s] copying /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build/lib/models/espnetv2_bdd100k_driveable/cnn/SegmentationModel.py -> /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages/models/espnetv2_bdd100k_driveable/cnn
+[8.300s] copying /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build/lib/models/espnetv2_bdd100k_driveable/__init__.py -> /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages/models/espnetv2_bdd100k_driveable
+[8.300s] copying /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build/lib/models/espnetv2_bdd100k_driveable/cv_resize.py -> /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages/models/espnetv2_bdd100k_driveable
+[8.300s] copying /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build/lib/models/__init__.py -> /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages/models
+[8.301s] creating /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages/semantic_segmentation
+[8.301s] copying /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build/lib/semantic_segmentation/segmentation_node.py -> /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages/semantic_segmentation
+[8.302s] copying /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build/lib/semantic_segmentation/cv_bridge.py -> /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages/semantic_segmentation
+[8.302s] copying /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build/lib/semantic_segmentation/__init__.py -> /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages/semantic_segmentation
+[8.302s] copying /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build/lib/semantic_segmentation/cv_resize.py -> /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages/semantic_segmentation
+[8.304s] byte-compiling /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages/models/mnv2_dm05_voc/__init__.py to __init__.cpython-310.pyc
+[8.307s] byte-compiling /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages/models/mnv2_dm05_voc/cv_resize.py to cv_resize.cpython-310.pyc
+[8.308s] byte-compiling /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages/models/mnv2_coco2017_driving_513/__init__.py to __init__.cpython-310.pyc
+[8.310s] byte-compiling /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages/models/mnv2_bdd100k_driveable_513/__init__.py to __init__.cpython-310.pyc
+[8.313s] byte-compiling /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages/models/deeplabv3_test/__init__.py to __init__.cpython-310.pyc
+[8.315s] byte-compiling /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages/models/espnetv2_bdd100k_driveable/cnn/cnn_utils.py to cnn_utils.cpython-310.pyc
+[8.319s] byte-compiling /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages/models/espnetv2_bdd100k_driveable/cnn/Model.py to Model.cpython-310.pyc
+[8.326s] byte-compiling /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages/models/espnetv2_bdd100k_driveable/cnn/__init__.py to __init__.cpython-310.pyc
+[8.327s] byte-compiling /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages/models/espnetv2_bdd100k_driveable/cnn/SegmentationModel.py to SegmentationModel.cpython-310.pyc
+[8.329s] byte-compiling /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages/models/espnetv2_bdd100k_driveable/__init__.py to __init__.cpython-310.pyc
+[8.332s] byte-compiling /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages/models/espnetv2_bdd100k_driveable/cv_resize.py to cv_resize.cpython-310.pyc
+[8.333s] byte-compiling /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages/models/__init__.py to __init__.cpython-310.pyc
+[8.334s] byte-compiling /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages/semantic_segmentation/segmentation_node.py to segmentation_node.cpython-310.pyc
+[8.336s] byte-compiling /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages/semantic_segmentation/cv_bridge.py to cv_bridge.cpython-310.pyc
+[8.338s] byte-compiling /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages/semantic_segmentation/__init__.py to __init__.cpython-310.pyc
+[8.338s] byte-compiling /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages/semantic_segmentation/cv_resize.py to cv_resize.cpython-310.pyc
+[8.339s] running install_data
+[8.342s] running install_egg_info
+[8.349s] Copying ../../build/semantic_segmentation/semantic_segmentation.egg-info to /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages/semantic_segmentation-0.1.0-py3.10.egg-info
+[8.352s] running install_scripts
+[8.443s] Installing segmentation script to /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/semantic_segmentation
+[8.446s] writing list of installed files to '/home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/install.log'
+[8.525s] Invoked command in '/home/mihkel/School/ThesisPractical/myros_ws/src/semantic_segmentation' returned '0': PYTHONPATH=/home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/prefix_override:/home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/semantic_segmentation build --build-base /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build install --record /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/install.log --single-version-externally-managed

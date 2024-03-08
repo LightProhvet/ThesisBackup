@@ -1,0 +1,106 @@
+[1.938s] Invoking command in '/home/mihkel/School/ThesisPractical/myros_ws/build/nav2_dynamic_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ThesisPractical/myros_ws/build/nav2_dynamic_msgs -- -j12 -l12
+[7.041s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.044s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.046s] [  5%] Built target ament_cmake_python_copy_nav2_dynamic_msgs
+[7.049s] [  5%] Built target nav2_dynamic_msgs__cpp
+[7.051s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.052s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.055s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.057s] running egg_info
+[7.057s] creating nav2_dynamic_msgs.egg-info
+[7.059s] [ 15%] [32mBuilding C object CMakeFiles/nav2_dynamic_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_dynamic_msgs/msg/detail/obstacle__functions.c.o[0m
+[7.061s] [ 17%] [32mBuilding C object CMakeFiles/nav2_dynamic_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_dynamic_msgs/msg/detail/obstacle_array__functions.c.o[0m
+[7.064s] writing nav2_dynamic_msgs.egg-info/PKG-INFO
+[7.065s] writing dependency_links to nav2_dynamic_msgs.egg-info/dependency_links.txt
+[7.067s] writing top-level names to nav2_dynamic_msgs.egg-info/top_level.txt
+[7.067s] writing manifest file 'nav2_dynamic_msgs.egg-info/SOURCES.txt'
+[7.069s] [ 20%] [32m[1mLinking C shared library libnav2_dynamic_msgs__rosidl_generator_c.so[0m
+[7.072s] [ 20%] Built target nav2_dynamic_msgs__rosidl_generator_c
+[7.075s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.077s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[7.077s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.079s] reading manifest file 'nav2_dynamic_msgs.egg-info/SOURCES.txt'
+[7.082s] writing manifest file 'nav2_dynamic_msgs.egg-info/SOURCES.txt'
+[7.087s] [ 28%] Built target ament_cmake_python_build_nav2_dynamic_msgs_egg
+[7.089s] [ 30%] [32mBuilding CXX object CMakeFiles/nav2_dynamic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_dynamic_msgs/msg/obstacle__type_support.cpp.o[0m
+[7.089s] [ 33%] [32mBuilding CXX object CMakeFiles/nav2_dynamic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_dynamic_msgs/msg/obstacle_array__type_support.cpp.o[0m
+[7.090s] [ 35%] [32mBuilding CXX object CMakeFiles/nav2_dynamic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_dynamic_msgs/msg/detail/obstacle__type_support.cpp.o[0m
+[7.090s] [ 38%] [32mBuilding CXX object CMakeFiles/nav2_dynamic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_dynamic_msgs/msg/detail/obstacle_array__type_support.cpp.o[0m
+[7.091s] [ 41%] [32mBuilding CXX object CMakeFiles/nav2_dynamic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_dynamic_msgs/msg/detail/dds_fastrtps/obstacle__type_support.cpp.o[0m
+[7.091s] [ 43%] [32mBuilding CXX object CMakeFiles/nav2_dynamic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_dynamic_msgs/msg/detail/dds_fastrtps/obstacle_array__type_support.cpp.o[0m
+[7.092s] [ 46%] [32mBuilding CXX object CMakeFiles/nav2_dynamic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_dynamic_msgs/msg/obstacle__type_support.cpp.o[0m
+[7.092s] [ 48%] [32mBuilding CXX object CMakeFiles/nav2_dynamic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_dynamic_msgs/msg/obstacle_array__type_support.cpp.o[0m
+[7.093s] [ 51%] [32m[1mLinking CXX shared library libnav2_dynamic_msgs__rosidl_typesupport_c.so[0m
+[7.093s] [ 51%] Built target nav2_dynamic_msgs__rosidl_typesupport_c
+[7.094s] [ 53%] [32mBuilding C object CMakeFiles/nav2_dynamic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_dynamic_msgs/msg/detail/obstacle__type_support.c.o[0m
+[7.094s] [ 56%] [32mBuilding C object CMakeFiles/nav2_dynamic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_dynamic_msgs/msg/detail/obstacle_array__type_support.c.o[0m
+[7.095s] [ 58%] [32mBuilding CXX object CMakeFiles/nav2_dynamic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_dynamic_msgs/msg/detail/obstacle__type_support_c.cpp.o[0m
+[7.095s] [ 61%] [32mBuilding CXX object CMakeFiles/nav2_dynamic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_dynamic_msgs/msg/detail/obstacle_array__type_support_c.cpp.o[0m
+[7.096s] [ 64%] [32m[1mLinking C shared library libnav2_dynamic_msgs__rosidl_typesupport_introspection_c.so[0m
+[7.096s] [ 64%] Built target nav2_dynamic_msgs__rosidl_typesupport_introspection_c
+[7.097s] [ 66%] [32m[1mLinking CXX shared library libnav2_dynamic_msgs__rosidl_typesupport_cpp.so[0m
+[7.097s] [ 66%] Built target nav2_dynamic_msgs__rosidl_typesupport_cpp
+[7.098s] [ 69%] [32m[1mLinking CXX shared library libnav2_dynamic_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[7.098s] [ 69%] Built target nav2_dynamic_msgs__rosidl_typesupport_introspection_cpp
+[7.099s] [ 71%] [32m[1mLinking CXX shared library libnav2_dynamic_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.099s] [ 71%] Built target nav2_dynamic_msgs__rosidl_typesupport_fastrtps_cpp
+[7.100s] [ 74%] [32m[1mLinking CXX shared library libnav2_dynamic_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[7.292s] [ 74%] Built target nav2_dynamic_msgs__rosidl_typesupport_fastrtps_c
+[7.332s] [ 74%] Built target nav2_dynamic_msgs
+[7.381s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.261s] Traceback (most recent call last):
+[8.261s]   File "/usr/lib/python3/dist-packages/lark/visitors.py", line 107, in _call_userfunc
+[8.276s] Traceback (most recent call last):
+[8.277s]   File "/home/mihkel/.local/bin/cmake", line 8, in <module>
+[8.280s]     sys.exit(cmake())
+[8.281s]   File "/home/mihkel/.local/lib/python3.10/site-packages/cmake/__init__.py", line 47, in cmake
+[8.286s]     f = getattr(self, tree.data)
+[8.287s] AttributeError: 'ValidateSymbols' object has no attribute 'pattern'
+[8.287s]     raise SystemExit(_program('cmake', sys.argv[1:]))
+[8.288s] 
+[8.288s] During handling of the above exception, another exception occurred:
+[8.289s] 
+[8.289s] Traceback (most recent call last):
+[8.290s]   File "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py", line 40, in <module>
+[8.290s]   File "/home/mihkel/.local/lib/python3.10/site-packages/cmake/__init__.py", line 43, in _program
+[8.291s]     return subprocess.call([os.path.join(CMAKE_BIN_DIR, name)] + args, close_fds=False)
+[8.291s]   File "/usr/lib/python3.10/subprocess.py", line 347, in call
+[8.292s]     return p.wait(timeout=timeout)
+[8.292s]   File "/usr/lib/python3.10/subprocess.py", line 1209, in wait
+[8.308s]     sys.exit(main())
+[8.308s]   File "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py", line 36, in main
+[8.309s]     generate_py(args.generator_arguments_file, args.typesupport_impls.split(';'))
+[8.309s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/generate_py_impl.py", line 61, in generate_py
+[8.316s]     return self._wait(timeout=timeout)
+[8.316s]   File "/usr/lib/python3.10/subprocess.py", line 1959, in _wait
+[8.330s]     generated_files = generate_files(generator_arguments_file, mapping)
+[8.331s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 74, in generate_files
+[8.331s]     idl_file = parse_idl_file(locator)
+[8.332s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 64, in parse_idl_file
+[8.332s]     (pid, sts) = self._try_wait(0)
+[8.333s]   File "/usr/lib/python3.10/subprocess.py", line 1917, in _try_wait
+[8.334s]     content = parse_idl_string(string, png_file=png_file)
+[8.334s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 72, in parse_idl_string
+[8.348s]     (pid, sts) = os.waitpid(self.pid, wait_flags)
+[8.348s] KeyboardInterrupt
+[8.349s]     tree = get_ast_from_idl_string(idl_string)
+[8.349s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 88, in get_ast_from_idl_string
+[8.350s]     _parser = Lark(grammar, start='specification', maybe_placeholders=False)
+[8.350s]   File "/usr/lib/python3/dist-packages/lark/lark.py", line 383, in __init__
+[8.355s]     self.terminals, self.rules, self.ignore_tokens = self.grammar.compile(self.options.start, terminals_to_keep)
+[8.355s]   File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 734, in compile
+[8.359s]     tree = transformer.transform(rule_tree)
+[8.359s]   File "/usr/lib/python3/dist-packages/lark/visitors.py", line 252, in transform
+[8.360s]     tree = t.transform(tree)
+[8.361s]   File "/usr/lib/python3/dist-packages/lark/visitors.py", line 272, in transform
+[8.364s]     subtree.children = list(self._transform_children(subtree.children))
+[8.365s]   File "/usr/lib/python3/dist-packages/lark/visitors.py", line 138, in _transform_children
+[8.365s]     res = self._transform_tree(c)
+[8.366s]   File "/usr/lib/python3/dist-packages/lark/visitors.py", line 268, in _transform_tree
+[8.366s]     return self._call_userfunc(tree)
+[8.367s]   File "/usr/lib/python3/dist-packages/lark/visitors.py", line 107, in _call_userfunc
+[8.367s]     f = getattr(self, tree.data)
+[8.368s] KeyboardInterrupt
+[8.385s] gmake[2]: *** [/home/mihkel/School/ThesisPractical/myros_ws/build/nav2_dynamic_msgs/nav2_dynamic_msgs__py/CMakeFiles/nav2_dynamic_msgs__py.dir/build.make:184: rosidl_generator_py/nav2_dynamic_msgs/_nav2_dynamic_msgs_s.ep.rosidl_typesupport_fastrtps_c.c] Interrupt
+[8.386s] gmake[1]: *** [CMakeFiles/Makefile2:590: nav2_dynamic_msgs__py/CMakeFiles/nav2_dynamic_msgs__py.dir/all] Interrupt
+[8.387s] gmake: *** [Makefile:146: all] Interrupt

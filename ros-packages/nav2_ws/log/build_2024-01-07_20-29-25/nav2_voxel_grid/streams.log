@@ -1,0 +1,43 @@
+[0.359s] Invoking command in '/home/mihkel/School/ros-packages/nav2_ws/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/opt/ros/humble PYTHONPATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ros-packages/nav2_ws/build/nav2_voxel_grid -- -j12 -l12
+[0.590s] [ 10%] [32mBuilding CXX object CMakeFiles/voxel_grid.dir/src/voxel_grid.cpp.o[0m
+[0.593s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.595s] [ 30%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[5.135s] [ 40%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[5.206s] [ 40%] Built target gtest_main
+[17.795s] [ 50%] [32m[1mLinking CXX shared library libvoxel_grid.so[0m
+[18.367s] [ 50%] Built target voxel_grid
+[43.330s] [ 60%] [32m[1mLinking CXX static library libgtest.a[0m
+[43.378s] [ 60%] Built target gtest
+[43.400s] [ 70%] [32mBuilding CXX object test/CMakeFiles/voxel_grid_tests.dir/voxel_grid_tests.cpp.o[0m
+[43.400s] [ 80%] [32mBuilding CXX object test/CMakeFiles/voxel_grid_bresenham_3d.dir/voxel_grid_bresenham_3d.cpp.o[0m
+[54.199s] [ 90%] [32m[1mLinking CXX executable voxel_grid_bresenham_3d[0m
+[54.395s] [100%] [32m[1mLinking CXX executable voxel_grid_tests[0m
+[54.471s] [100%] Built target voxel_grid_bresenham_3d
+[54.661s] [100%] Built target voxel_grid_tests
+[54.686s] Invoked command in '/home/mihkel/School/ros-packages/nav2_ws/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/opt/ros/humble PYTHONPATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ros-packages/nav2_ws/build/nav2_voxel_grid -- -j12 -l12
+[54.824s] Invoking command in '/home/mihkel/School/ros-packages/nav2_ws/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/opt/ros/humble PYTHONPATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/mihkel/.local/bin/cmake --install /home/mihkel/School/ros-packages/nav2_ws/build/nav2_voxel_grid
+[54.906s] -- Install configuration: "Release"
+[54.908s] -- Execute custom install script
+[54.909s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid/lib/libvoxel_grid.so
+[54.918s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid/include/nav2_voxel_grid/voxel_grid.hpp
+[54.926s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.sh
+[54.933s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.dsv
+[54.940s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid/share/ament_index/resource_index/package_run_dependencies/nav2_voxel_grid
+[54.948s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid/share/ament_index/resource_index/parent_prefix_path/nav2_voxel_grid
+[54.955s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.sh
+[54.962s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.dsv
+[54.969s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.sh
+[54.977s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.dsv
+[54.984s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.bash
+[54.991s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.sh
+[54.998s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.zsh
+[55.004s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.dsv
+[55.011s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/package.dsv
+[55.019s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid/share/ament_index/resource_index/packages/nav2_voxel_grid
+[55.026s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_dependencies-extras.cmake
+[55.033s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_include_directories-extras.cmake
+[55.040s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_libraries-extras.cmake
+[55.047s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig.cmake
+[55.054s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig-version.cmake
+[55.061s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/package.xml
+[55.085s] Invoked command in '/home/mihkel/School/ros-packages/nav2_ws/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/opt/ros/humble PYTHONPATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/mihkel/.local/bin/cmake --install /home/mihkel/School/ros-packages/nav2_ws/build/nav2_voxel_grid

@@ -1,0 +1,1 @@
+Invoking command in '/home/mihkel/School/ThesisPractical/myros_ws/build/nav2_dynamic_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ThesisPractical/myros_ws/build/nav2_dynamic_msgs -- -j12 -l12

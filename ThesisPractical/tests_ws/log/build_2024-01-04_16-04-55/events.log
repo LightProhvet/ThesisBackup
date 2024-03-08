@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.001178] (-) JobUnselected: {'identifier': 'deep_nav_layers'}
+[0.001318] (-) JobUnselected: {'identifier': 'semantic_segmentation'}
+[0.002157] (-) EventReactorShutdown: {}

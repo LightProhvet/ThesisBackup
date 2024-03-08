@@ -1,0 +1,62 @@
+[8.805s] Invoking command in '/home/mihkel/School/ThesisPractical/myros_ws/src/yolov8_ros/yolov8_ros': PYTHONPATH=/home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_ros/prefix_override:/home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/yolov8_ros build --build-base /home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_ros/build install --record /home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_ros/install.log --single-version-externally-managed
+[10.006s] running egg_info
+[10.008s] creating ../../../build/yolov8_ros/yolov8_ros.egg-info
+[10.093s] writing ../../../build/yolov8_ros/yolov8_ros.egg-info/PKG-INFO
+[10.095s] writing dependency_links to ../../../build/yolov8_ros/yolov8_ros.egg-info/dependency_links.txt
+[10.095s] writing entry points to ../../../build/yolov8_ros/yolov8_ros.egg-info/entry_points.txt
+[10.096s] writing requirements to ../../../build/yolov8_ros/yolov8_ros.egg-info/requires.txt
+[10.097s] writing top-level names to ../../../build/yolov8_ros/yolov8_ros.egg-info/top_level.txt
+[10.097s] writing manifest file '../../../build/yolov8_ros/yolov8_ros.egg-info/SOURCES.txt'
+[10.370s] reading manifest file '../../../build/yolov8_ros/yolov8_ros.egg-info/SOURCES.txt'
+[10.372s] writing manifest file '../../../build/yolov8_ros/yolov8_ros.egg-info/SOURCES.txt'
+[10.373s] running build
+[10.374s] running build_py
+[10.375s] creating /home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_ros/build
+[10.376s] creating /home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_ros/build/lib
+[10.376s] creating /home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_ros/build/lib/yolov8_ros
+[10.376s] copying yolov8_ros/detect_3d_node.py -> /home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_ros/build/lib/yolov8_ros
+[10.377s] copying yolov8_ros/yolov8_node.py -> /home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_ros/build/lib/yolov8_ros
+[10.377s] copying yolov8_ros/tracking_node.py -> /home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_ros/build/lib/yolov8_ros
+[10.378s] copying yolov8_ros/__init__.py -> /home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_ros/build/lib/yolov8_ros
+[10.378s] copying yolov8_ros/debug_node.py -> /home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_ros/build/lib/yolov8_ros
+[10.378s] running install
+[10.379s] /home/mihkel/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[10.379s] !!
+[10.379s] 
+[10.380s]         ********************************************************************************
+[10.380s]         Please avoid running ``setup.py`` directly.
+[10.380s]         Instead, use pypa/build, pypa/installer or other
+[10.380s]         standards-based tools.
+[10.381s] 
+[10.381s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[10.381s]         ********************************************************************************
+[10.381s] 
+[10.382s] !!
+[10.382s]   self.initialize_options()
+[10.399s] running install_lib
+[10.494s] creating /home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros
+[10.495s] copying /home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_ros/build/lib/yolov8_ros/detect_3d_node.py -> /home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros
+[10.495s] copying /home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_ros/build/lib/yolov8_ros/yolov8_node.py -> /home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros
+[10.496s] copying /home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_ros/build/lib/yolov8_ros/tracking_node.py -> /home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros
+[10.496s] copying /home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_ros/build/lib/yolov8_ros/__init__.py -> /home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros
+[10.496s] copying /home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_ros/build/lib/yolov8_ros/debug_node.py -> /home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros
+[10.498s] byte-compiling /home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros/detect_3d_node.py to detect_3d_node.cpython-310.pyc
+[10.505s] byte-compiling /home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros/yolov8_node.py to yolov8_node.cpython-310.pyc
+[10.509s] byte-compiling /home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros/tracking_node.py to tracking_node.cpython-310.pyc
+[10.514s] byte-compiling /home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros/__init__.py to __init__.cpython-310.pyc
+[10.515s] byte-compiling /home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros/debug_node.py to debug_node.cpython-310.pyc
+[10.517s] running install_data
+[10.605s] creating /home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_ros/share/ament_index
+[10.605s] creating /home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_ros/share/ament_index/resource_index
+[10.606s] creating /home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_ros/share/ament_index/resource_index/packages
+[10.606s] copying resource/yolov8_ros -> /home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_ros/share/ament_index/resource_index/packages
+[10.606s] copying package.xml -> /home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_ros/share/yolov8_ros
+[10.607s] running install_egg_info
+[10.693s] Copying ../../../build/yolov8_ros/yolov8_ros.egg-info to /home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros-0.0.0-py3.10.egg-info
+[10.696s] running install_scripts
+[11.431s] Installing debug_node script to /home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_ros/lib/yolov8_ros
+[11.432s] Installing detect_3d_node script to /home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_ros/lib/yolov8_ros
+[11.432s] Installing tracking_node script to /home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_ros/lib/yolov8_ros
+[11.433s] Installing yolov8_node script to /home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_ros/lib/yolov8_ros
+[11.434s] writing list of installed files to '/home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_ros/install.log'
+[11.516s] Invoked command in '/home/mihkel/School/ThesisPractical/myros_ws/src/yolov8_ros/yolov8_ros' returned '0': PYTHONPATH=/home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_ros/prefix_override:/home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/yolov8_ros build --build-base /home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_ros/build install --record /home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_ros/install.log --single-version-externally-managed

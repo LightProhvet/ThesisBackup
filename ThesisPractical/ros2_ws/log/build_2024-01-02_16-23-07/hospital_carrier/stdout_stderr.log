@@ -1,0 +1,160 @@
+running egg_info
+creating ../../build/hospital_carrier/hospital_carrier.egg-info
+writing ../../build/hospital_carrier/hospital_carrier.egg-info/PKG-INFO
+writing dependency_links to ../../build/hospital_carrier/hospital_carrier.egg-info/dependency_links.txt
+writing entry points to ../../build/hospital_carrier/hospital_carrier.egg-info/entry_points.txt
+writing requirements to ../../build/hospital_carrier/hospital_carrier.egg-info/requires.txt
+writing top-level names to ../../build/hospital_carrier/hospital_carrier.egg-info/top_level.txt
+writing manifest file '../../build/hospital_carrier/hospital_carrier.egg-info/SOURCES.txt'
+reading manifest file '../../build/hospital_carrier/hospital_carrier.egg-info/SOURCES.txt'
+writing manifest file '../../build/hospital_carrier/hospital_carrier.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build
+creating /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib
+creating /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier
+copying hospital_carrier/Controllers.py -> /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier
+copying hospital_carrier/EncoderSim.py -> /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier
+copying hospital_carrier/ObjDetectionExample.py -> /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier
+copying hospital_carrier/PS4Controller.py -> /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier
+copying hospital_carrier/MqttVideoStreamer.py -> /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier
+copying hospital_carrier/Odrives.py -> /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier
+copying hospital_carrier/MqttListener.py -> /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier
+copying hospital_carrier/odrives_calibrate.py -> /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier
+copying hospital_carrier/ObstacleAvoidanceHelpers.py -> /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier
+copying hospital_carrier/ReadQR.py -> /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier
+copying hospital_carrier/odrive_axes_of.py -> /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier
+copying hospital_carrier/open3d_ros_helper.py -> /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier
+copying hospital_carrier/ColorPicker.py -> /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier
+copying hospital_carrier/odrive_connection.py -> /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier
+copying hospital_carrier/Localizer.py -> /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier
+copying hospital_carrier/odrive_errors.py -> /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier
+copying hospital_carrier/omniwheel_velocity_calc.py -> /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier
+copying hospital_carrier/PointcloudToPly.py -> /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier
+copying hospital_carrier/CoordinateNavigator.py -> /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier
+copying hospital_carrier/ReadAruco.py -> /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier
+copying hospital_carrier/MqttOdomAndStatus.py -> /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier
+copying hospital_carrier/OperationModeControl.py -> /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier
+copying hospital_carrier/DebugDisplay.py -> /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier
+copying hospital_carrier/__init__.py -> /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier
+copying hospital_carrier/OdomCalculator.py -> /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier
+copying hospital_carrier/watchdog.py -> /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier
+copying hospital_carrier/odrive_uart.py -> /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier
+copying hospital_carrier/MqttRemoteControl.py -> /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier
+copying hospital_carrier/Follower.py -> /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier
+copying hospital_carrier/odrives_config.py -> /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier
+copying hospital_carrier/odrives_connect.py -> /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier
+running install
+running install_lib
+creating /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier
+copying /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier/Controllers.py -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier
+copying /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier/EncoderSim.py -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier
+copying /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier/ObjDetectionExample.py -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier
+copying /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier/PS4Controller.py -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier
+copying /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier/MqttVideoStreamer.py -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier
+copying /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier/Odrives.py -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier
+copying /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier/MqttListener.py -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier
+copying /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier/odrives_calibrate.py -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier
+copying /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier/ObstacleAvoidanceHelpers.py -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier
+copying /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier/ReadQR.py -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier
+copying /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier/odrive_axes_of.py -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier
+copying /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier/open3d_ros_helper.py -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier
+copying /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier/ColorPicker.py -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier
+copying /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier/odrive_connection.py -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier
+copying /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier/Localizer.py -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier
+copying /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier/odrive_errors.py -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier
+copying /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier/omniwheel_velocity_calc.py -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier
+copying /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier/PointcloudToPly.py -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier
+copying /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier/CoordinateNavigator.py -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier
+copying /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier/ReadAruco.py -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier
+copying /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier/MqttOdomAndStatus.py -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier
+copying /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier/OperationModeControl.py -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier
+copying /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier/DebugDisplay.py -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier
+copying /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier/__init__.py -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier
+copying /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier/OdomCalculator.py -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier
+copying /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier/watchdog.py -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier
+copying /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier/odrive_uart.py -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier
+copying /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier/MqttRemoteControl.py -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier
+copying /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier/Follower.py -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier
+copying /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier/odrives_config.py -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier
+copying /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build/lib/hospital_carrier/odrives_connect.py -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier
+byte-compiling /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier/Controllers.py to Controllers.cpython-310.pyc
+byte-compiling /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier/EncoderSim.py to EncoderSim.cpython-310.pyc
+byte-compiling /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier/ObjDetectionExample.py to ObjDetectionExample.cpython-310.pyc
+byte-compiling /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier/PS4Controller.py to PS4Controller.cpython-310.pyc
+byte-compiling /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier/MqttVideoStreamer.py to MqttVideoStreamer.cpython-310.pyc
+byte-compiling /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier/Odrives.py to Odrives.cpython-310.pyc
+byte-compiling /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier/MqttListener.py to MqttListener.cpython-310.pyc
+byte-compiling /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier/odrives_calibrate.py to odrives_calibrate.cpython-310.pyc
+byte-compiling /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier/ObstacleAvoidanceHelpers.py to ObstacleAvoidanceHelpers.cpython-310.pyc
+byte-compiling /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier/ReadQR.py to ReadQR.cpython-310.pyc
+byte-compiling /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier/odrive_axes_of.py to odrive_axes_of.cpython-310.pyc
+byte-compiling /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier/open3d_ros_helper.py to open3d_ros_helper.cpython-310.pyc
+byte-compiling /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier/ColorPicker.py to ColorPicker.cpython-310.pyc
+byte-compiling /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier/odrive_connection.py to odrive_connection.cpython-310.pyc
+byte-compiling /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier/Localizer.py to Localizer.cpython-310.pyc
+byte-compiling /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier/odrive_errors.py to odrive_errors.cpython-310.pyc
+byte-compiling /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier/omniwheel_velocity_calc.py to omniwheel_velocity_calc.cpython-310.pyc
+byte-compiling /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier/PointcloudToPly.py to PointcloudToPly.cpython-310.pyc
+byte-compiling /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier/CoordinateNavigator.py to CoordinateNavigator.cpython-310.pyc
+byte-compiling /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier/ReadAruco.py to ReadAruco.cpython-310.pyc
+byte-compiling /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier/MqttOdomAndStatus.py to MqttOdomAndStatus.cpython-310.pyc
+byte-compiling /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier/OperationModeControl.py to OperationModeControl.cpython-310.pyc
+byte-compiling /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier/DebugDisplay.py to DebugDisplay.cpython-310.pyc
+byte-compiling /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier/OdomCalculator.py to OdomCalculator.cpython-310.pyc
+byte-compiling /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier/watchdog.py to watchdog.cpython-310.pyc
+byte-compiling /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier/odrive_uart.py to odrive_uart.cpython-310.pyc
+byte-compiling /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier/MqttRemoteControl.py to MqttRemoteControl.cpython-310.pyc
+byte-compiling /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier/Follower.py to Follower.cpython-310.pyc
+byte-compiling /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier/odrives_config.py to odrives_config.cpython-310.pyc
+byte-compiling /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier/odrives_connect.py to odrives_connect.cpython-310.pyc
+running install_data
+creating /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/share/ament_index
+creating /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/share/ament_index/resource_index
+creating /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/share/ament_index/resource_index/packages
+copying resource/hospital_carrier -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/share/ament_index/resource_index/packages
+copying package.xml -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/share/hospital_carrier
+creating /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/share/hospital_carrier/launch
+copying launch/segment.launch -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/share/hospital_carrier/launch
+copying launch/hospital_robot.launch -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/share/hospital_carrier/launch
+copying launch/drive.launch -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/share/hospital_carrier/launch
+copying launch/mapping.launch -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/share/hospital_carrier/launch
+copying launch/realsense_d435i_color.launch.py -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/share/hospital_carrier/launch
+creating /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/share/hospital_carrier/config
+copying config/robotConfig.yaml -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/share/hospital_carrier/config
+copying config/nav2_params.yaml -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/share/hospital_carrier/config
+copying config/apriltag_settings.yaml -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/share/hospital_carrier/config
+copying config/mapper_params_online_async.yaml -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/share/hospital_carrier/config
+copying config/calibration_realSense.yaml -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/share/hospital_carrier/config
+creating /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/share/hospital_carrier/urdf
+copying urdf/robot_base.gazebo.xacro -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/share/hospital_carrier/urdf
+copying urdf/omni_wheel.urdf.xacro -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/share/hospital_carrier/urdf
+copying urdf/robot_base.urdf.xacro -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/share/hospital_carrier/urdf
+copying urdf/robot.urdf.xacro -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/share/hospital_carrier/urdf
+creating /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/share/hospital_carrier/meshes
+copying meshes/omni_wheel_2.dae -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/share/hospital_carrier/meshes
+copying meshes/omni_wheel_1.dae -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/share/hospital_carrier/meshes
+copying meshes/robot_base.dae -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/share/hospital_carrier/meshes
+creating /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/share/hospital_carrier/models
+copying models/mapmos.ckpt -> /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/share/hospital_carrier/models
+creating /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/share/hospital_carrier/data
+running install_egg_info
+Copying ../../build/hospital_carrier/hospital_carrier.egg-info to /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages/hospital_carrier-0.0.0-py3.10.egg-info
+running install_scripts
+Installing CoordinateNavigator script to /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/hospital_carrier
+Installing DebugDisplay script to /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/hospital_carrier
+Installing EncoderSim script to /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/hospital_carrier
+Installing Follower script to /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/hospital_carrier
+Installing Localizer script to /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/hospital_carrier
+Installing MqttListener script to /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/hospital_carrier
+Installing MqttOdomAndStatus script to /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/hospital_carrier
+Installing MqttRemoteControl script to /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/hospital_carrier
+Installing MqttVideoStreamer script to /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/hospital_carrier
+Installing OdomCalculator script to /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/hospital_carrier
+Installing Odrives script to /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/hospital_carrier
+Installing OperationModeControl script to /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/hospital_carrier
+Installing PS4Controller script to /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/hospital_carrier
+Installing PointcloudToPly script to /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/hospital_carrier
+Installing ReadAruco script to /home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/hospital_carrier
+writing list of installed files to '/home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/install.log'

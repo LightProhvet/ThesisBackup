@@ -1,0 +1,24 @@
+[1.372s] Invoking command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/robot_ros2_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ThesisPractical/ros2_ws/build/robot_ros2_msgs -- -j12 -l12
+[1.756s] [  1%] Built target robot_ros2_msgs__cpp
+[1.763s] [  1%] Built target ament_cmake_python_copy_robot_ros2_msgs
+[1.787s] [ 12%] Built target robot_ros2_msgs__rosidl_generator_c
+[1.988s] [ 23%] Built target robot_ros2_msgs__rosidl_typesupport_fastrtps_c
+[2.019s] [ 34%] Built target robot_ros2_msgs__rosidl_typesupport_fastrtps_cpp
+[2.071s] [ 45%] Built target robot_ros2_msgs__rosidl_typesupport_cpp
+[2.078s] [ 56%] Built target robot_ros2_msgs__rosidl_typesupport_introspection_c
+[2.086s] [ 67%] Built target robot_ros2_msgs__rosidl_typesupport_c
+[2.113s] [ 78%] Built target robot_ros2_msgs__rosidl_typesupport_introspection_cpp
+[2.389s] [ 78%] Built target robot_ros2_msgs
+[2.620s] [ 80%] Built target robot_ros2_msgs__py
+[2.888s] [ 89%] Built target robot_ros2_msgs__rosidl_generator_py
+[3.067s] [ 92%] Built target robot_ros2_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.124s] [ 96%] Built target robot_ros2_msgs__rosidl_typesupport_c__pyext
+[3.147s] [100%] Built target robot_ros2_msgs__rosidl_typesupport_introspection_c__pyext
+[4.201s] running egg_info
+[4.201s] writing robot_ros2_msgs.egg-info/PKG-INFO
+[4.202s] writing dependency_links to robot_ros2_msgs.egg-info/dependency_links.txt
+[4.207s] writing top-level names to robot_ros2_msgs.egg-info/top_level.txt
+[4.218s] reading manifest file 'robot_ros2_msgs.egg-info/SOURCES.txt'
+[4.221s] writing manifest file 'robot_ros2_msgs.egg-info/SOURCES.txt'
+[4.383s] [100%] Built target ament_cmake_python_build_robot_ros2_msgs_egg
+[5.594s] Invoked command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/robot_ros2_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ThesisPractical/ros2_ws/build/robot_ros2_msgs -- -j12 -l12

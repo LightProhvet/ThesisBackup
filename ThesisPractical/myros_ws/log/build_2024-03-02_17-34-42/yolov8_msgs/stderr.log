@@ -1,0 +1,144 @@
+Traceback (most recent call last):
+  File "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 38, in <module>
+gmake[2]: *** Deleting file 'rosidl_generator_cpp/yolov8_msgs/msg/point2_d.hpp'
+gmake[2]: *** Deleting file 'rosidl_generator_c/yolov8_msgs/msg/point2_d.h'
+    sys.exit(main())
+  File "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 34, in main
+Traceback (most recent call last):
+  File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 38, in <module>
+    generate_c(args.generator_arguments_file)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_c/__init__.py", line 37, in generate_c
+    sys.exit(main())
+  File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 34, in main
+    generate_cpp(args.generator_arguments_file)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py", line 38, in generate_cpp
+Traceback (most recent call last):
+  File "/home/mihkel/.local/bin/cmake", line 8, in <module>
+    sys.exit(cmake())
+  File "/home/mihkel/.local/lib/python3.10/site-packages/cmake/__init__.py", line 47, in cmake
+    return generate_files(
+    raise SystemExit(_program('cmake', sys.argv[1:]))
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 87, in generate_files
+  File "/home/mihkel/.local/lib/python3.10/site-packages/cmake/__init__.py", line 43, in _program
+    return subprocess.call([os.path.join(CMAKE_BIN_DIR, name)] + args, close_fds=False)
+  File "/usr/lib/python3.10/subprocess.py", line 347, in call
+    expand_template(
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 149, in expand_template
+    return generate_files(
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 74, in generate_files
+    interpreter.string(template_content, template_path, locals=data)
+  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+    idl_file = parse_idl_file(locator)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 64, in parse_idl_file
+    return p.wait(timeout=timeout)
+  File "/usr/lib/python3.10/subprocess.py", line 1209, in wait
+    return self._wait(timeout=timeout)
+  File "/usr/lib/python3.10/subprocess.py", line 1959, in _wait
+    content = parse_idl_string(string, png_file=png_file)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 72, in parse_idl_string
+    self.safe(scanner, True, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+    tree = get_ast_from_idl_string(idl_string)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 89, in get_ast_from_idl_string
+    return _parser.parse(idl_string)
+  File "/usr/lib/python3/dist-packages/lark/lark.py", line 619, in parse
+    (pid, sts) = self._try_wait(0)
+  File "/usr/lib/python3.10/subprocess.py", line 1917, in _try_wait
+    return self.parser.parse(text, start=start, on_error=on_error)
+  File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 99, in parse
+    self.parse(scanner, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse
+    return self.parser.parse(stream, chosen_start, **kw)
+  File "/usr/lib/python3/dist-packages/lark/parsers/earley.py", line 266, in parse
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 927, in read_text
+    return self._path.joinpath(filename).read_text(encoding='utf-8')
+  File "/usr/lib/python3.10/pathlib.py", line 1134, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+  File "/usr/lib/python3.10/pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/ros/humble/local/lib/python3.10/dist-packages/nav_2d_msgs-1.1.12-py3.10.egg-info/entry_points.txt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_msgs/ament_cmake_python/yolov8_msgs/setup.py", line 4, in <module>
+    setup(
+  File "/home/mihkel/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 103, in setup
+    return distutils.core.setup(**attrs)
+  File "/home/mihkel/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 147, in setup
+    _setup_distribution = dist = klass(attrs)
+  File "/home/mihkel/.local/lib/python3.10/site-packages/setuptools/dist.py", line 303, in __init__
+    _Distribution.__init__(self, dist_attrs)
+  File "/home/mihkel/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 283, in __init__
+    self.finalize_options()
+  File "/home/mihkel/.local/lib/python3.10/site-packages/setuptools/dist.py", line 654, in finalize_options
+    ep(self)
+  File "/home/mihkel/.local/lib/python3.10/site-packages/setuptools/dist.py", line 671, in _finalize_setup_keywords
+    for ep in metadata.entry_points(group='distutils.setup_keywords'):
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 1021, in entry_points
+    return SelectableGroups.load(eps).select(**params)
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 459, in load
+    ordered = sorted(eps, key=by_group)
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 1019, in <genexpr>
+    dist.entry_points for dist in unique(distributions())
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 631, in entry_points
+    return EntryPoints._from_text_for(self.read_text('entry_points.txt'), self)
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 927, in read_text
+    return self._path.joinpath(filename).read_text(encoding='utf-8')
+KeyboardInterrupt
+    token.run(self, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 1547, in run
+    to_scan = self._parse(lexer, columns, to_scan, start_symbol)
+  File "/usr/lib/python3/dist-packages/lark/parsers/xearley.py", line 144, in _parse
+    self.subrun(info[0][1], interpreter, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun
+    self.predict_and_complete(i, to_scan, columns, transitives)
+  File "/usr/lib/python3/dist-packages/lark/parsers/earley.py", line 124, in predict_and_complete
+    new_item = originator.advance()
+  File "/usr/lib/python3/dist-packages/lark/parsers/earley_common.py", line 26, in advance
+    return Item(self.rule, self.ptr + 1, self.start)
+    token.run(interpreter, locals)
+  File "/usr/lib/python3/dist-packages/lark/parsers/earley_common.py", line 23, in __init__
+  File "/usr/lib/python3/dist-packages/em.py", line 1425, in run
+    self._hash = hash((self.s, self.start))
+KeyboardInterrupt
+    interpreter.execute(self.code, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 2596, in execute
+    _exec(statements, self.globals, locals)
+  File "<string>", line 2, in <module>
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 198, in _expand_template
+    interpreter.string(content, str(template_path), kwargs)
+  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+    self.safe(scanner, True, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+    self.parse(scanner, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 2417, in parse
+    token = scanner.one()
+  File "/usr/lib/python3/dist-packages/em.py", line 1984, in one
+    token.scan(self)
+  File "/usr/lib/python3/dist-packages/em.py", line 1421, in scan
+    i = scanner.complex('{', '}', 0)
+  File "/usr/lib/python3/dist-packages/em.py", line 1893, in complex
+    newQuote = self.check(i, quote)
+  File "/usr/lib/python3/dist-packages/em.py", line 1766, in check
+    if self[i] in '\'\"':
+  File "/usr/lib/python3/dist-packages/em.py", line 1682, in __getitem__
+    def __getitem__(self, index):
+KeyboardInterrupt
+Exception ignored in: <function Interpreter.__del__ at 0x7fadf5f6cee0>
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__
+  File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown
+  File "/usr/lib/python3/dist-packages/em.py", line 2647, in finalize
+  File "/usr/lib/python3/dist-packages/em.py", line 2200, in push
+AttributeError: '_io.TextIOWrapper' object has no attribute 'push'
+gmake[2]: *** [CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/build.make:159: rosidl_generator_c/yolov8_msgs/msg/point2_d.h] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/yolov8_msgs__cpp.dir/build.make:207: rosidl_generator_cpp/yolov8_msgs/msg/point2_d.hpp] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:317: CMakeFiles/yolov8_msgs__cpp.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/ament_cmake_python_build_yolov8_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_yolov8_msgs_egg] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_yolov8_msgs_egg.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

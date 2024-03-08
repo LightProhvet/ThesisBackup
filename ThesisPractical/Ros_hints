@@ -1,0 +1,27 @@
+colcon build (arguments:)
+--packages-up-to - build packages you want
+--packages-select  - for single package
+--symlink-install - automatic sync of noncompilable code
+--event-handlers console_direct+ - show whole log in console
+
+(interface possibilities)
+https://docs.ros.org/en/humble/Concepts/Basic/About-Interfaces.html
+
+(manage ros objects)
+rqt
+
+
+(visualize topics)
+rqt_graph
+
+ros2 run rqt_console rqt_console
+
+ros2 bag record $topic_name
+ros2 bag record -o subset $topic_name1 $topic_name2
+
+(example pkg creation:)
+ros2 pkg create --build-type ament_cmake --license Apache-2.0 <package_name> --dependencies rclpy 
+
+(find whether package_name is sufficient for depends: (<distro>/distribution.yaml)
+https://github.com/ros/rosdistro
+

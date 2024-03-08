@@ -1,0 +1,42 @@
+[0.630s] Invoking command in '/home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_bringup': AMENT_PREFIX_PATH=/home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_ros:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_ros/lib/python3.10/site-packages:${PYTHONPATH} /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/myros_ws/src/yolov8_ros/yolov8_bringup -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_bringup
+[0.886s] -- The C compiler identification is GNU 11.4.0
+[1.076s] -- The CXX compiler identification is GNU 11.4.0
+[1.132s] -- Detecting C compiler ABI info
+[1.316s] -- Detecting C compiler ABI info - done
+[1.359s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.360s] -- Detecting C compile features
+[1.362s] -- Detecting C compile features - done
+[1.389s] -- Detecting CXX compiler ABI info
+[1.613s] -- Detecting CXX compiler ABI info - done
+[1.660s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.661s] -- Detecting CXX compile features
+[1.663s] -- Detecting CXX compile features - done
+[1.681s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.637s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[6.226s] -- Configuring done (5.5s)
+[6.236s] -- Generating done (0.0s)
+[6.239s] -- Build files have been written to: /home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_bringup
+[6.269s] Invoked command in '/home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_bringup' returned '0': AMENT_PREFIX_PATH=/home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_ros:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_ros/lib/python3.10/site-packages:${PYTHONPATH} /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/myros_ws/src/yolov8_ros/yolov8_bringup -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_bringup
+[6.274s] Invoking command in '/home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_bringup': AMENT_PREFIX_PATH=/home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_ros:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_ros/lib/python3.10/site-packages:${PYTHONPATH} /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_bringup -- -j12 -l12
+[6.421s] Invoked command in '/home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_bringup' returned '0': AMENT_PREFIX_PATH=/home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_ros:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_ros/lib/python3.10/site-packages:${PYTHONPATH} /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_bringup -- -j12 -l12
+[6.572s] Invoking command in '/home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_bringup': AMENT_PREFIX_PATH=/home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_ros:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_ros/lib/python3.10/site-packages:${PYTHONPATH} /home/mihkel/.local/bin/cmake --install /home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_bringup
+[6.669s] -- Install configuration: ""
+[6.670s] -- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_bringup/share/yolov8_bringup//launch
+[6.670s] -- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_bringup/share/yolov8_bringup//launch/yolov8_3d.launch.py
+[6.671s] -- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_bringup/share/yolov8_bringup//launch/yolov8.launch.py
+[6.672s] -- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_bringup/share/ament_index/resource_index/package_run_dependencies/yolov8_bringup
+[6.672s] -- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_bringup/share/ament_index/resource_index/parent_prefix_path/yolov8_bringup
+[6.673s] -- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_bringup/share/yolov8_bringup/environment/ament_prefix_path.sh
+[6.673s] -- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_bringup/share/yolov8_bringup/environment/ament_prefix_path.dsv
+[6.674s] -- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_bringup/share/yolov8_bringup/environment/path.sh
+[6.674s] -- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_bringup/share/yolov8_bringup/environment/path.dsv
+[6.675s] -- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_bringup/share/yolov8_bringup/local_setup.bash
+[6.675s] -- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_bringup/share/yolov8_bringup/local_setup.sh
+[6.676s] -- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_bringup/share/yolov8_bringup/local_setup.zsh
+[6.676s] -- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_bringup/share/yolov8_bringup/local_setup.dsv
+[6.676s] -- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_bringup/share/yolov8_bringup/package.dsv
+[6.677s] -- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_bringup/share/ament_index/resource_index/packages/yolov8_bringup
+[6.677s] -- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_bringup/share/yolov8_bringup/cmake/yolov8_bringupConfig.cmake
+[6.678s] -- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_bringup/share/yolov8_bringup/cmake/yolov8_bringupConfig-version.cmake
+[6.678s] -- Installing: /home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_bringup/share/yolov8_bringup/package.xml
+[6.697s] Invoked command in '/home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_bringup' returned '0': AMENT_PREFIX_PATH=/home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_ros:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_ros/lib/python3.10/site-packages:${PYTHONPATH} /home/mihkel/.local/bin/cmake --install /home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_bringup

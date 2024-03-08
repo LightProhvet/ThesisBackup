@@ -1,0 +1,185 @@
+[0.270s] Invoking command in '/home/mihkel/School/ros-packages/nav2_ws/build/nav2_util': AMENT_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:/opt/ros/humble LD_LIBRARY_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bond/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/smclib/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/mihkel/.local/bin/cmake /home/mihkel/School/ros-packages/nav2_ws/src/navigation2/nav2_util -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util
+[0.479s] -- The C compiler identification is GNU 11.4.0
+[0.623s] -- The CXX compiler identification is GNU 11.4.0
+[0.663s] -- Detecting C compiler ABI info
+[0.812s] -- Detecting C compiler ABI info - done
+[0.849s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.850s] -- Detecting C compile features
+[0.852s] -- Detecting C compile features - done
+[0.879s] -- Detecting CXX compiler ABI info
+[1.070s] -- Detecting CXX compiler ABI info - done
+[1.107s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.108s] -- Detecting CXX compile features
+[1.110s] -- Detecting CXX compile features - done
+[1.118s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.783s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[4.994s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.089s] -- Found nav2_common: 1.1.12 (/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/share/nav2_common/cmake)
+[5.091s] -- Found nav2_msgs: 1.1.12 (/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[5.229s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.250s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.284s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.341s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.423s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.108s] -- Found tf2_ros: 0.25.5 (/opt/ros/humble/share/tf2_ros/cmake)
+[7.619s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.629s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.937s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.030s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.186s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.223s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.384s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.387s] -- Found Threads: TRUE  
+[9.722s] -- Found tf2_geometry_msgs: 0.25.5 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[9.778s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[9.783s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[9.784s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[9.822s] -- Found lifecycle_msgs: 1.2.1 (/opt/ros/humble/share/lifecycle_msgs/cmake)
+[9.904s] -- Found rclcpp_lifecycle: 16.0.7 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[9.981s] -- Found bondcpp: 4.0.0 (/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/share/bondcpp/cmake)
+[10.273s] -- Setting build type to Release as none was specified.
+[10.429s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: program_options 
+[10.440s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.447s] -- Found ament_cmake_pytest: 1.3.6 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[10.455s] -- Found launch_testing_ament_cmake: 1.0.4 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[10.462s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[10.463s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[10.463s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[10.463s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[10.464s]   the cmake_policy command to set the policy and suppress this warning.
+[10.464s] 
+[10.464s] Call Stack (most recent call first):
+[10.464s]   /opt/ros/humble/share/launch_testing_ament_cmake/cmake/launch_testing_ament_cmake-extras.cmake:18 (find_package)
+[10.464s]   /opt/ros/humble/share/launch_testing_ament_cmake/cmake/launch_testing_ament_cmakeConfig.cmake:41 (include)
+[10.465s]   CMakeLists.txt:52 (find_package)
+[10.465s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[10.465s] [0m
+[10.555s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[10.556s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[10.556s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[10.557s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[10.557s]   the cmake_policy command to set the policy and suppress this warning.
+[10.557s] 
+[10.557s] Call Stack (most recent call first):
+[10.557s]   /opt/ros/humble/share/launch_testing_ament_cmake/cmake/launch_testing_ament_cmake-extras.cmake:18 (find_package)
+[10.557s]   /opt/ros/humble/share/launch_testing_ament_cmake/cmake/launch_testing_ament_cmakeConfig.cmake:41 (include)
+[10.558s]   CMakeLists.txt:52 (find_package)
+[10.558s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[10.558s] [0m
+[10.575s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[10.576s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[10.576s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[10.576s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[10.669s] -- Found PythonExtra: .so  
+[11.392s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[11.505s] -- Added test 'copyright' to check source files copyright and LICENSE
+[11.512s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.513s] -- Configured cppcheck include dirs: /home/mihkel/School/ros-packages/nav2_ws/src/navigation2/nav2_util/include
+[11.513s] -- Configured cppcheck exclude dirs and/or files: 
+[11.518s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[11.518s] -- Configured cpplint exclude dirs and/or files: 
+[11.521s] -- Added test 'lint_cmake' to check CMake code style
+[11.527s] -- Added test 'uncrustify' to check C / C++ code style
+[11.527s] -- Configured uncrustify additional arguments: 
+[11.529s] -- Added test 'xmllint' to check XML markup files
+[11.540s] -- Configuring done (11.2s)
+[11.979s] -- Generating done (0.4s)
+[11.988s] -- Build files have been written to: /home/mihkel/School/ros-packages/nav2_ws/build/nav2_util
+[12.038s] Invoked command in '/home/mihkel/School/ros-packages/nav2_ws/build/nav2_util' returned '0': AMENT_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:/opt/ros/humble LD_LIBRARY_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bond/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/smclib/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/mihkel/.local/bin/cmake /home/mihkel/School/ros-packages/nav2_ws/src/navigation2/nav2_util -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util
+[12.042s] Invoking command in '/home/mihkel/School/ros-packages/nav2_ws/build/nav2_util': AMENT_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:/opt/ros/humble LD_LIBRARY_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bond/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/smclib/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ros-packages/nav2_ws/build/nav2_util -- -j12 -l12
+[12.185s] [  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[12.185s] [  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[12.188s] [  7%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/costmap.cpp.o[0m
+[12.189s] [ 10%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/node_utils.cpp.o[0m
+[12.190s] [ 13%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_service_client.cpp.o[0m
+[12.191s] [ 15%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/string_utils.cpp.o[0m
+[12.192s] [ 18%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_utils.cpp.o[0m
+[12.192s] [ 21%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_node.cpp.o[0m
+[12.194s] [ 23%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/robot_utils.cpp.o[0m
+[12.196s] [ 26%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/node_thread.cpp.o[0m
+[12.197s] [ 28%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/odometry_utils.cpp.o[0m
+[17.362s] [ 31%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[17.432s] [ 31%] Built target gtest_main
+[44.878s] [ 34%] [32m[1mLinking CXX static library libgtest.a[0m
+[44.930s] [ 34%] Built target gtest
+[44.953s] [ 36%] [32mBuilding CXX object test/CMakeFiles/test_execution_timer.dir/test_execution_timer.cpp.o[0m
+[50.774s] [ 39%] [32m[1mLinking CXX executable test_execution_timer[0m
+[51.133s] [ 39%] Built target test_execution_timer
+[54.969s] [ 42%] [32m[1mLinking CXX shared library libnav2_util_core.so[0m
+[55.759s] [ 42%] Built target nav2_util_core
+[55.798s] [ 44%] [32mBuilding CXX object test/CMakeFiles/test_node_utils.dir/test_node_utils.cpp.o[0m
+[55.800s] [ 50%] [32mBuilding CXX object test/CMakeFiles/test_string_utils.dir/test_string_utils.cpp.o[0m
+[55.800s] [ 50%] [32mBuilding CXX object test/CMakeFiles/test_service_client.dir/test_service_client.cpp.o[0m
+[55.803s] [ 52%] [32mBuilding CXX object src/CMakeFiles/lifecycle_bringup.dir/lifecycle_bringup_commandline.cpp.o[0m
+[55.805s] [ 57%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_utils.dir/test_lifecycle_utils.cpp.o[0m
+[55.805s] [ 57%] [32mBuilding CXX object test/CMakeFiles/test_actions.dir/test_actions.cpp.o[0m
+[55.809s] [ 60%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_node.dir/test_lifecycle_node.cpp.o[0m
+[55.813s] [ 63%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_cli_node.dir/test_lifecycle_cli_node.cpp.o[0m
+[55.816s] [ 65%] [32mBuilding CXX object test/CMakeFiles/test_odometry_utils.dir/test_odometry_utils.cpp.o[0m
+[55.819s] [ 68%] [32mBuilding CXX object test/CMakeFiles/test_geometry_utils.dir/test_geometry_utils.cpp.o[0m
+[55.820s] [ 71%] [32mBuilding CXX object test/CMakeFiles/test_robot_utils.dir/test_robot_utils.cpp.o[0m
+[63.887s] [ 73%] [32m[1mLinking CXX executable test_string_utils[0m
+[64.830s] [ 73%] Built target test_string_utils
+[72.236s] [ 76%] [32m[1mLinking CXX executable lifecycle_bringup[0m
+[73.025s] [ 76%] Built target lifecycle_bringup
+[76.887s] [ 78%] [32m[1mLinking CXX executable test_lifecycle_utils[0m
+[77.137s] [ 81%] [32m[1mLinking CXX executable test_geometry_utils[0m
+[77.492s] [ 84%] [32m[1mLinking CXX executable test_lifecycle_cli_node[0m
+[77.601s] [ 84%] Built target test_lifecycle_utils
+[78.082s] [ 86%] [32m[1mLinking CXX executable test_robot_utils[0m
+[78.395s] [ 86%] Built target test_geometry_utils
+[78.407s] [ 86%] Built target test_lifecycle_cli_node
+[78.428s] [ 89%] [32m[1mLinking CXX executable test_lifecycle_node[0m
+[78.892s] [ 89%] Built target test_robot_utils
+[79.196s] [ 89%] Built target test_lifecycle_node
+[80.975s] [ 92%] [32m[1mLinking CXX executable test_node_utils[0m
+[81.620s] [ 92%] Built target test_node_utils
+[86.210s] [ 94%] [32m[1mLinking CXX executable test_odometry_utils[0m
+[86.999s] [ 94%] Built target test_odometry_utils
+[122.431s] [ 97%] [32m[1mLinking CXX executable test_service_client[0m
+[123.138s] [ 97%] Built target test_service_client
+[137.428s] [100%] [32m[1mLinking CXX executable test_actions[0m
+[138.321s] [100%] Built target test_actions
+[138.496s] Invoked command in '/home/mihkel/School/ros-packages/nav2_ws/build/nav2_util' returned '0': AMENT_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:/opt/ros/humble LD_LIBRARY_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bond/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/smclib/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ros-packages/nav2_ws/build/nav2_util -- -j12 -l12
+[138.686s] Invoking command in '/home/mihkel/School/ros-packages/nav2_ws/build/nav2_util': AMENT_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:/opt/ros/humble LD_LIBRARY_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bond/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/smclib/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/mihkel/.local/bin/cmake --install /home/mihkel/School/ros-packages/nav2_ws/build/nav2_util
+[138.792s] -- Install configuration: "Release"
+[138.794s] -- Execute custom install script
+[138.796s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/lib/libnav2_util_core.so
+[138.806s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/lib/nav2_util/lifecycle_bringup
+[138.817s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/include//nav2_util/clear_entirely_costmap_service_client.hpp
+[138.826s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/include//nav2_util/costmap.hpp
+[138.835s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/include//nav2_util/execution_timer.hpp
+[138.845s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/include//nav2_util/geometry_utils.hpp
+[138.854s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/include//nav2_util/lifecycle_node.hpp
+[138.863s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/include//nav2_util/lifecycle_service_client.hpp
+[138.872s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/include//nav2_util/lifecycle_utils.hpp
+[138.881s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/include//nav2_util/line_iterator.hpp
+[138.891s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/include//nav2_util/node_thread.hpp
+[138.900s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/include//nav2_util/node_utils.hpp
+[138.909s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/include//nav2_util/occ_grid_values.hpp
+[138.918s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/include//nav2_util/odometry_utils.hpp
+[138.928s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/include//nav2_util/robot_utils.hpp
+[138.937s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/include//nav2_util/service_client.hpp
+[138.946s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/include//nav2_util/simple_action_server.hpp
+[138.957s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/include//nav2_util/string_utils.hpp
+[138.967s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/share/nav2_util/environment/library_path.sh
+[138.977s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/share/nav2_util/environment/library_path.dsv
+[138.987s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/share/ament_index/resource_index/package_run_dependencies/nav2_util
+[138.996s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/share/ament_index/resource_index/parent_prefix_path/nav2_util
+[139.006s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/share/nav2_util/environment/ament_prefix_path.sh
+[139.015s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/share/nav2_util/environment/ament_prefix_path.dsv
+[139.024s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/share/nav2_util/environment/path.sh
+[139.032s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/share/nav2_util/environment/path.dsv
+[139.041s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/share/nav2_util/local_setup.bash
+[139.051s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/share/nav2_util/local_setup.sh
+[139.062s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/share/nav2_util/local_setup.zsh
+[139.075s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/share/nav2_util/local_setup.dsv
+[139.088s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/share/nav2_util/package.dsv
+[139.099s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/share/ament_index/resource_index/packages/nav2_util
+[139.110s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_include_directories-extras.cmake
+[139.121s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_libraries-extras.cmake
+[139.132s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_dependencies-extras.cmake
+[139.144s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/share/nav2_util/cmake/nav2_utilConfig.cmake
+[139.155s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/share/nav2_util/cmake/nav2_utilConfig-version.cmake
+[139.165s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/share/nav2_util/package.xml
+[139.207s] Invoked command in '/home/mihkel/School/ros-packages/nav2_ws/build/nav2_util' returned '0': AMENT_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:/opt/ros/humble LD_LIBRARY_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bond/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/smclib/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/mihkel/.local/bin/cmake --install /home/mihkel/School/ros-packages/nav2_ws/build/nav2_util

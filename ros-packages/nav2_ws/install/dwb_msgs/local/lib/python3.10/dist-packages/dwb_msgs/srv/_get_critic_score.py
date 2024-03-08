@@ -1,0 +1,1 @@
+/home/mihkel/School/ros-packages/nav2_ws/build/dwb_msgs/rosidl_generator_py/dwb_msgs/srv/_get_critic_score.py

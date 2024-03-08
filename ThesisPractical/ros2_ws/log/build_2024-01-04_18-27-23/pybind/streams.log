@@ -1,0 +1,8 @@
+[0.928s] Invoking command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/pybind': CMAKE_PREFIX_PATH=/home/mihkel/School/ThesisPractical/ros2_ws/install/tsl-robin-map /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/src/mapmos/pybind -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/ros2_ws/install/pybind
+[1.211s] [31mCMake Error at CMakeLists.txt:24 (project):
+[1.211s]   project with VERSION, DESCRIPTION or HOMEPAGE_URL must use LANGUAGES before
+[1.212s]   language names.
+[1.212s] 
+[1.213s] [0m
+[1.213s] -- Configuring incomplete, errors occurred!
+[2.258s] Invoked command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/pybind' returned '1': CMAKE_PREFIX_PATH=/home/mihkel/School/ThesisPractical/ros2_ws/install/tsl-robin-map /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/src/mapmos/pybind -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/ros2_ws/install/pybind

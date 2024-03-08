@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfw.a CMakeFiles/fw.dir/empty.c.o CMakeFiles/fw.dir/D4XX_FW_Image.c.o CMakeFiles/fw.dir/SR3XX_FW_Image.c.o CMakeFiles/fw.dir/L51X_FW_Image.c.o
+/usr/bin/ranlib libfw.a

@@ -1,0 +1,311 @@
+[0.199s] Invoking command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/robot_ros2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_python:/home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier:/opt/ros/humble /usr/bin/cmake /home/mihkel/School/ThesisPractical/ros2_ws/src/robot-ros2-messages -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs
+[0.313s] -- The C compiler identification is GNU 11.4.0
+[0.432s] -- The CXX compiler identification is GNU 11.4.0
+[0.448s] -- Detecting C compiler ABI info
+[0.592s] -- Detecting C compiler ABI info - done
+[0.611s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.612s] -- Detecting C compile features
+[0.613s] -- Detecting C compile features - done
+[0.620s] -- Detecting CXX compiler ABI info
+[0.788s] -- Detecting CXX compiler ABI info - done
+[0.807s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.807s] -- Detecting CXX compile features
+[0.809s] -- Detecting CXX compile features - done
+[0.825s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.243s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.454s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.463s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.480s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.583s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.669s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.725s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.012s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.808s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.438s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.239s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.300s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.304s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.364s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.365s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.365s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.365s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.414s] -- Found PythonExtra: .so  
+[4.580s] -- Added test 'lint_cmake' to check CMake code style
+[4.587s] -- Added test 'xmllint' to check XML markup files
+[4.600s] -- Configuring done
+[4.688s] -- Generating done
+[4.694s] -- Build files have been written to: /home/mihkel/School/ThesisPractical/ros2_ws/build/robot_ros2_msgs
+[4.711s] Invoked command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/robot_ros2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_python:/home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier:/opt/ros/humble /usr/bin/cmake /home/mihkel/School/ThesisPractical/ros2_ws/src/robot-ros2-messages -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs
+[4.716s] Invoking command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/robot_ros2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_python:/home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier:/opt/ros/humble /usr/bin/cmake --build /home/mihkel/School/ThesisPractical/ros2_ws/build/robot_ros2_msgs -- -j12 -l12
+[4.799s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.825s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.845s] [  3%] Built target ament_cmake_python_copy_robot_ros2_msgs
+[5.750s] running egg_info
+[5.752s] creating robot_ros2_msgs.egg-info
+[5.752s] writing robot_ros2_msgs.egg-info/PKG-INFO
+[5.753s] writing dependency_links to robot_ros2_msgs.egg-info/dependency_links.txt
+[5.753s] writing top-level names to robot_ros2_msgs.egg-info/top_level.txt
+[5.754s] writing manifest file 'robot_ros2_msgs.egg-info/SOURCES.txt'
+[5.760s] reading manifest file 'robot_ros2_msgs.egg-info/SOURCES.txt'
+[5.761s] writing manifest file 'robot_ros2_msgs.egg-info/SOURCES.txt'
+[5.826s] [  3%] Built target ament_cmake_python_build_robot_ros2_msgs_egg
+[6.101s] [  3%] Built target robot_ros2_msgs__cpp
+[6.137s] [  5%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.137s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.137s] [  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.276s] [ 10%] [32mBuilding C object CMakeFiles/robot_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/robot_ros2_msgs/msg/detail/encoders__functions.c.o[0m
+[6.277s] [ 12%] [32mBuilding C object CMakeFiles/robot_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/robot_ros2_msgs/msg/detail/int_list__functions.c.o[0m
+[6.278s] [ 14%] [32mBuilding C object CMakeFiles/robot_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/robot_ros2_msgs/msg/detail/previous_and_next_point__functions.c.o[0m
+[6.279s] [ 16%] [32mBuilding C object CMakeFiles/robot_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/robot_ros2_msgs/msg/detail/tag__functions.c.o[0m
+[6.489s] [ 18%] [32m[1mLinking C shared library librobot_ros2_msgs__rosidl_generator_c.so[0m
+[6.589s] [ 18%] Built target robot_ros2_msgs__rosidl_generator_c
+[6.616s] [ 20%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.616s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.617s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[7.351s] [ 25%] [32mBuilding CXX object CMakeFiles/robot_ros2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_ros2_msgs/msg/encoders__type_support.cpp.o[0m
+[7.363s] [ 27%] [32mBuilding CXX object CMakeFiles/robot_ros2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_ros2_msgs/msg/int_list__type_support.cpp.o[0m
+[7.364s] [ 30%] [32mBuilding CXX object CMakeFiles/robot_ros2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_ros2_msgs/msg/previous_and_next_point__type_support.cpp.o[0m
+[7.364s] [ 30%] [32mBuilding CXX object CMakeFiles/robot_ros2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_ros2_msgs/msg/tag__type_support.cpp.o[0m
+[7.408s] [ 32%] [32mBuilding CXX object CMakeFiles/robot_ros2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_ros2_msgs/msg/detail/previous_and_next_point__type_support.cpp.o[0m
+[7.408s] [ 34%] [32mBuilding CXX object CMakeFiles/robot_ros2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_ros2_msgs/msg/detail/encoders__type_support.cpp.o[0m
+[7.409s] [ 36%] [32mBuilding CXX object CMakeFiles/robot_ros2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_ros2_msgs/msg/detail/int_list__type_support.cpp.o[0m
+[7.410s] [ 38%] [32mBuilding CXX object CMakeFiles/robot_ros2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_ros2_msgs/msg/detail/tag__type_support.cpp.o[0m
+[7.758s] [ 40%] [32mBuilding CXX object CMakeFiles/robot_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_ros2_msgs/msg/detail/dds_fastrtps/encoders__type_support.cpp.o[0m
+[7.984s] [ 41%] [32mBuilding CXX object CMakeFiles/robot_ros2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_ros2_msgs/msg/encoders__type_support.cpp.o[0m
+[8.189s] [ 43%] [32mBuilding CXX object CMakeFiles/robot_ros2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_ros2_msgs/msg/int_list__type_support.cpp.o[0m
+[8.329s] [ 45%] [32mBuilding CXX object CMakeFiles/robot_ros2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_ros2_msgs/msg/previous_and_next_point__type_support.cpp.o[0m
+[8.464s] [ 47%] [32mBuilding CXX object CMakeFiles/robot_ros2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_ros2_msgs/msg/tag__type_support.cpp.o[0m
+[8.493s] [ 49%] [32mBuilding C object CMakeFiles/robot_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ros2_msgs/msg/detail/encoders__type_support.c.o[0m
+[8.529s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_ros2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_ros2_msgs/msg/detail/encoders__type_support_c.cpp.o[0m
+[8.604s] [ 52%] [32m[1mLinking CXX shared library librobot_ros2_msgs__rosidl_typesupport_c.so[0m
+[8.706s] [ 54%] [32mBuilding C object CMakeFiles/robot_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ros2_msgs/msg/detail/int_list__type_support.c.o[0m
+[8.757s] [ 56%] [32mBuilding CXX object CMakeFiles/robot_ros2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_ros2_msgs/msg/detail/int_list__type_support_c.cpp.o[0m
+[8.780s] [ 58%] [32mBuilding C object CMakeFiles/robot_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ros2_msgs/msg/detail/previous_and_next_point__type_support.c.o[0m
+[8.788s] [ 60%] [32mBuilding CXX object CMakeFiles/robot_ros2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_ros2_msgs/msg/detail/previous_and_next_point__type_support_c.cpp.o[0m
+[8.797s] [ 61%] [32m[1mLinking CXX shared library librobot_ros2_msgs__rosidl_typesupport_cpp.so[0m
+[8.870s] [ 63%] [32mBuilding C object CMakeFiles/robot_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ros2_msgs/msg/detail/tag__type_support.c.o[0m
+[8.876s] [ 63%] Built target robot_ros2_msgs__rosidl_typesupport_c
+[8.914s] [ 65%] [32mBuilding CXX object CMakeFiles/robot_ros2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_ros2_msgs/msg/detail/tag__type_support_c.cpp.o[0m
+[8.921s] [ 67%] [32mBuilding CXX object CMakeFiles/robot_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_ros2_msgs/msg/detail/dds_fastrtps/int_list__type_support.cpp.o[0m
+[9.008s] [ 67%] Built target robot_ros2_msgs__rosidl_typesupport_cpp
+[9.035s] [ 69%] [32m[1mLinking C shared library librobot_ros2_msgs__rosidl_typesupport_introspection_c.so[0m
+[9.049s] [ 70%] [32mBuilding CXX object CMakeFiles/robot_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_ros2_msgs/msg/detail/dds_fastrtps/previous_and_next_point__type_support.cpp.o[0m
+[9.243s] [ 70%] Built target robot_ros2_msgs__rosidl_typesupport_introspection_c
+[9.286s] [ 72%] [32mBuilding CXX object CMakeFiles/robot_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_ros2_msgs/msg/detail/dds_fastrtps/tag__type_support.cpp.o[0m
+[9.480s] [ 74%] [32m[1mLinking CXX shared library librobot_ros2_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[9.725s] [ 74%] Built target robot_ros2_msgs__rosidl_typesupport_introspection_cpp
+[10.372s] [ 76%] [32m[1mLinking CXX shared library librobot_ros2_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[10.611s] [ 76%] Built target robot_ros2_msgs__rosidl_typesupport_fastrtps_c
+[10.806s] [ 78%] [32m[1mLinking CXX shared library librobot_ros2_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[10.957s] [ 78%] Built target robot_ros2_msgs__rosidl_typesupport_fastrtps_cpp
+[10.999s] [ 78%] Built target robot_ros2_msgs
+[11.042s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[12.590s] [ 80%] Built target robot_ros2_msgs__py
+[12.638s] [ 81%] [32mBuilding C object CMakeFiles/robot_ros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/robot_ros2_msgs/msg/_int_list_s.c.o[0m
+[12.639s] [ 85%] [32mBuilding C object CMakeFiles/robot_ros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/robot_ros2_msgs/msg/_previous_and_next_point_s.c.o[0m
+[12.639s] [ 85%] [32mBuilding C object CMakeFiles/robot_ros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/robot_ros2_msgs/msg/_encoders_s.c.o[0m
+[12.639s] [ 87%] [32mBuilding C object CMakeFiles/robot_ros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/robot_ros2_msgs/msg/_tag_s.c.o[0m
+[12.954s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/robot_ros2_msgs/librobot_ros2_msgs__rosidl_generator_py.so[0m
+[13.048s] [ 89%] Built target robot_ros2_msgs__rosidl_generator_py
+[13.094s] [ 92%] [32mBuilding C object CMakeFiles/robot_ros2_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robot_ros2_msgs/_robot_ros2_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[13.094s] [ 92%] [32mBuilding C object CMakeFiles/robot_ros2_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robot_ros2_msgs/_robot_ros2_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[13.095s] [ 94%] [32mBuilding C object CMakeFiles/robot_ros2_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robot_ros2_msgs/_robot_ros2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[13.371s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/robot_ros2_msgs/robot_ros2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.371s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/robot_ros2_msgs/robot_ros2_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.372s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robot_ros2_msgs/robot_ros2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.477s] [100%] Built target robot_ros2_msgs__rosidl_typesupport_introspection_c__pyext
+[13.477s] [100%] Built target robot_ros2_msgs__rosidl_typesupport_c__pyext
+[13.478s] [100%] Built target robot_ros2_msgs__rosidl_typesupport_fastrtps_c__pyext
+[13.505s] Invoked command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/robot_ros2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_python:/home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier:/opt/ros/humble /usr/bin/cmake --build /home/mihkel/School/ThesisPractical/ros2_ws/build/robot_ros2_msgs -- -j12 -l12
+[13.755s] Invoking command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/robot_ros2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_python:/home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier:/opt/ros/humble /usr/bin/cmake --install /home/mihkel/School/ThesisPractical/ros2_ws/build/robot_ros2_msgs
+[13.771s] -- Install configuration: ""
+[13.772s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/ament_index/resource_index/rosidl_interfaces/robot_ros2_msgs
+[13.772s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs
+[13.772s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg
+[13.773s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/int_list.h
+[13.773s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/rosidl_generator_c__visibility_control.h
+[13.773s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail
+[13.773s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/tag__type_support.h
+[13.774s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/previous_and_next_point__type_support.h
+[13.774s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/tag__struct.h
+[13.774s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/int_list__functions.c
+[13.775s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/int_list__functions.h
+[13.775s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/tag__functions.h
+[13.775s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/previous_and_next_point__struct.h
+[13.775s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/previous_and_next_point__functions.h
+[13.776s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/encoders__struct.h
+[13.776s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/previous_and_next_point__functions.c
+[13.776s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/encoders__functions.h
+[13.776s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/int_list__type_support.h
+[13.777s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/encoders__type_support.h
+[13.777s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/encoders__functions.c
+[13.777s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/int_list__struct.h
+[13.777s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/tag__functions.c
+[13.778s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/previous_and_next_point.h
+[13.778s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/tag.h
+[13.778s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/encoders.h
+[13.778s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/environment/library_path.sh
+[13.779s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/environment/library_path.dsv
+[13.779s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/lib/librobot_ros2_msgs__rosidl_generator_c.so
+[13.779s] -- Set runtime path of "/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/lib/librobot_ros2_msgs__rosidl_generator_c.so" to ""
+[13.779s] -- Up-to-date: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs
+[13.780s] -- Up-to-date: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg
+[13.780s] -- Up-to-date: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail
+[13.780s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/encoders__rosidl_typesupport_fastrtps_c.h
+[13.780s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/previous_and_next_point__rosidl_typesupport_fastrtps_c.h
+[13.781s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/tag__rosidl_typesupport_fastrtps_c.h
+[13.781s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/int_list__rosidl_typesupport_fastrtps_c.h
+[13.781s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[13.781s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/lib/librobot_ros2_msgs__rosidl_typesupport_fastrtps_c.so
+[13.782s] -- Set runtime path of "/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/lib/librobot_ros2_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[13.782s] -- Up-to-date: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs
+[13.782s] -- Up-to-date: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg
+[13.782s] -- Up-to-date: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail
+[13.783s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/tag__type_support.c
+[13.783s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/previous_and_next_point__type_support.c
+[13.783s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/encoders__rosidl_typesupport_introspection_c.h
+[13.783s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/tag__rosidl_typesupport_introspection_c.h
+[13.783s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/previous_and_next_point__rosidl_typesupport_introspection_c.h
+[13.784s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/encoders__type_support.c
+[13.784s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/int_list__rosidl_typesupport_introspection_c.h
+[13.784s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/int_list__type_support.c
+[13.784s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[13.785s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/lib/librobot_ros2_msgs__rosidl_typesupport_introspection_c.so
+[13.785s] -- Set runtime path of "/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/lib/librobot_ros2_msgs__rosidl_typesupport_introspection_c.so" to ""
+[13.785s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/lib/librobot_ros2_msgs__rosidl_typesupport_c.so
+[13.785s] -- Set runtime path of "/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/lib/librobot_ros2_msgs__rosidl_typesupport_c.so" to ""
+[13.786s] -- Up-to-date: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs
+[13.786s] -- Up-to-date: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg
+[13.786s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/int_list.hpp
+[13.786s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/encoders.hpp
+[13.787s] -- Up-to-date: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail
+[13.787s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/tag__builder.hpp
+[13.787s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/previous_and_next_point__builder.hpp
+[13.787s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/previous_and_next_point__struct.hpp
+[13.788s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/int_list__struct.hpp
+[13.788s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/int_list__builder.hpp
+[13.788s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/int_list__traits.hpp
+[13.789s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/encoders__builder.hpp
+[13.789s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/encoders__struct.hpp
+[13.789s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/tag__struct.hpp
+[13.789s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/encoders__traits.hpp
+[13.789s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/previous_and_next_point__traits.hpp
+[13.790s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/tag__traits.hpp
+[13.790s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/previous_and_next_point.hpp
+[13.790s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/tag.hpp
+[13.790s] -- Up-to-date: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs
+[13.790s] -- Up-to-date: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg
+[13.791s] -- Up-to-date: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail
+[13.791s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/dds_fastrtps
+[13.791s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/previous_and_next_point__rosidl_typesupport_fastrtps_cpp.hpp
+[13.791s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/int_list__rosidl_typesupport_fastrtps_cpp.hpp
+[13.792s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/tag__rosidl_typesupport_fastrtps_cpp.hpp
+[13.792s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/encoders__rosidl_typesupport_fastrtps_cpp.hpp
+[13.792s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[13.792s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/lib/librobot_ros2_msgs__rosidl_typesupport_fastrtps_cpp.so
+[13.793s] -- Set runtime path of "/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/lib/librobot_ros2_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[13.793s] -- Up-to-date: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs
+[13.793s] -- Up-to-date: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg
+[13.793s] -- Up-to-date: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail
+[13.793s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/encoders__rosidl_typesupport_introspection_cpp.hpp
+[13.794s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/encoders__type_support.cpp
+[13.794s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/tag__type_support.cpp
+[13.794s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/previous_and_next_point__type_support.cpp
+[13.794s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/int_list__rosidl_typesupport_introspection_cpp.hpp
+[13.795s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/previous_and_next_point__rosidl_typesupport_introspection_cpp.hpp
+[13.795s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/tag__rosidl_typesupport_introspection_cpp.hpp
+[13.795s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/include/robot_ros2_msgs/robot_ros2_msgs/msg/detail/int_list__type_support.cpp
+[13.795s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/lib/librobot_ros2_msgs__rosidl_typesupport_introspection_cpp.so
+[13.795s] -- Set runtime path of "/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/lib/librobot_ros2_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[13.796s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/lib/librobot_ros2_msgs__rosidl_typesupport_cpp.so
+[13.796s] -- Set runtime path of "/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/lib/librobot_ros2_msgs__rosidl_typesupport_cpp.so" to ""
+[13.796s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/environment/pythonpath.sh
+[13.796s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/environment/pythonpath.dsv
+[13.797s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/local/lib/python3.10/dist-packages/robot_ros2_msgs-0.0.0-py3.10.egg-info
+[13.797s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/local/lib/python3.10/dist-packages/robot_ros2_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[13.797s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/local/lib/python3.10/dist-packages/robot_ros2_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[13.797s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/local/lib/python3.10/dist-packages/robot_ros2_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[13.797s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/local/lib/python3.10/dist-packages/robot_ros2_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[13.798s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/local/lib/python3.10/dist-packages/robot_ros2_msgs
+[13.798s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/local/lib/python3.10/dist-packages/robot_ros2_msgs/_robot_ros2_msgs_s.ep.rosidl_typesupport_c.c
+[13.798s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/local/lib/python3.10/dist-packages/robot_ros2_msgs/_robot_ros2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[13.799s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/local/lib/python3.10/dist-packages/robot_ros2_msgs/_robot_ros2_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[13.799s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/local/lib/python3.10/dist-packages/robot_ros2_msgs/robot_ros2_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[13.799s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/local/lib/python3.10/dist-packages/robot_ros2_msgs/robot_ros2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[13.799s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/local/lib/python3.10/dist-packages/robot_ros2_msgs/__init__.py
+[13.799s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/local/lib/python3.10/dist-packages/robot_ros2_msgs/librobot_ros2_msgs__rosidl_generator_py.so
+[13.800s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/local/lib/python3.10/dist-packages/robot_ros2_msgs/robot_ros2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[13.800s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/local/lib/python3.10/dist-packages/robot_ros2_msgs/msg
+[13.800s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/local/lib/python3.10/dist-packages/robot_ros2_msgs/msg/_previous_and_next_point_s.c
+[13.800s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/local/lib/python3.10/dist-packages/robot_ros2_msgs/msg/_encoders_s.c
+[13.800s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/local/lib/python3.10/dist-packages/robot_ros2_msgs/msg/_tag_s.c
+[13.801s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/local/lib/python3.10/dist-packages/robot_ros2_msgs/msg/_previous_and_next_point.py
+[13.801s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/local/lib/python3.10/dist-packages/robot_ros2_msgs/msg/_int_list.py
+[13.801s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/local/lib/python3.10/dist-packages/robot_ros2_msgs/msg/_tag.py
+[13.801s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/local/lib/python3.10/dist-packages/robot_ros2_msgs/msg/_int_list_s.c
+[13.801s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/local/lib/python3.10/dist-packages/robot_ros2_msgs/msg/__init__.py
+[13.801s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/local/lib/python3.10/dist-packages/robot_ros2_msgs/msg/_encoders.py
+[13.890s] Listing '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/local/lib/python3.10/dist-packages/robot_ros2_msgs'...
+[13.890s] Compiling '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/local/lib/python3.10/dist-packages/robot_ros2_msgs/__init__.py'...
+[13.890s] Listing '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/local/lib/python3.10/dist-packages/robot_ros2_msgs/msg'...
+[13.890s] Compiling '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/local/lib/python3.10/dist-packages/robot_ros2_msgs/msg/__init__.py'...
+[13.890s] Compiling '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/local/lib/python3.10/dist-packages/robot_ros2_msgs/msg/_encoders.py'...
+[13.890s] Compiling '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/local/lib/python3.10/dist-packages/robot_ros2_msgs/msg/_int_list.py'...
+[13.891s] Compiling '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/local/lib/python3.10/dist-packages/robot_ros2_msgs/msg/_previous_and_next_point.py'...
+[13.891s] Compiling '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/local/lib/python3.10/dist-packages/robot_ros2_msgs/msg/_tag.py'...
+[13.899s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/local/lib/python3.10/dist-packages/robot_ros2_msgs/robot_ros2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[13.900s] -- Set runtime path of "/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/local/lib/python3.10/dist-packages/robot_ros2_msgs/robot_ros2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[13.900s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/local/lib/python3.10/dist-packages/robot_ros2_msgs/robot_ros2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[13.901s] -- Set runtime path of "/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/local/lib/python3.10/dist-packages/robot_ros2_msgs/robot_ros2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[13.901s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/local/lib/python3.10/dist-packages/robot_ros2_msgs/robot_ros2_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[13.902s] -- Set runtime path of "/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/local/lib/python3.10/dist-packages/robot_ros2_msgs/robot_ros2_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[13.902s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/lib/librobot_ros2_msgs__rosidl_generator_py.so
+[13.903s] -- Set runtime path of "/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/lib/librobot_ros2_msgs__rosidl_generator_py.so" to ""
+[13.903s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/msg/Encoders.idl
+[13.903s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/msg/IntList.idl
+[13.903s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/msg/PreviousAndNextPoint.idl
+[13.904s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/msg/Tag.idl
+[13.904s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/msg/Encoders.msg
+[13.904s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/msg/IntList.msg
+[13.904s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/msg/PreviousAndNextPoint.msg
+[13.905s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/msg/Tag.msg
+[13.905s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/ament_index/resource_index/package_run_dependencies/robot_ros2_msgs
+[13.905s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/ament_index/resource_index/parent_prefix_path/robot_ros2_msgs
+[13.905s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/environment/ament_prefix_path.sh
+[13.906s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/environment/ament_prefix_path.dsv
+[13.906s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/environment/path.sh
+[13.906s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/environment/path.dsv
+[13.906s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/local_setup.bash
+[13.907s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/local_setup.sh
+[13.907s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/local_setup.zsh
+[13.907s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/local_setup.dsv
+[13.907s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/package.dsv
+[13.908s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/ament_index/resource_index/packages/robot_ros2_msgs
+[13.908s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/cmake/export_robot_ros2_msgs__rosidl_generator_cExport.cmake
+[13.908s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/cmake/export_robot_ros2_msgs__rosidl_generator_cExport-noconfig.cmake
+[13.909s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/cmake/export_robot_ros2_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[13.909s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/cmake/export_robot_ros2_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[13.909s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/cmake/robot_ros2_msgs__rosidl_typesupport_introspection_cExport.cmake
+[13.910s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/cmake/robot_ros2_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[13.910s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/cmake/robot_ros2_msgs__rosidl_typesupport_cExport.cmake
+[13.910s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/cmake/robot_ros2_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[13.910s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/cmake/export_robot_ros2_msgs__rosidl_generator_cppExport.cmake
+[13.911s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/cmake/export_robot_ros2_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[13.911s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/cmake/export_robot_ros2_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[13.911s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/cmake/robot_ros2_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[13.911s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/cmake/robot_ros2_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[13.912s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/cmake/robot_ros2_msgs__rosidl_typesupport_cppExport.cmake
+[13.912s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/cmake/robot_ros2_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[13.912s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/cmake/export_robot_ros2_msgs__rosidl_generator_pyExport.cmake
+[13.913s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/cmake/export_robot_ros2_msgs__rosidl_generator_pyExport-noconfig.cmake
+[13.913s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/cmake/rosidl_cmake-extras.cmake
+[13.913s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.913s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.914s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[13.914s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[13.914s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[13.914s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[13.915s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/cmake/robot_ros2_msgsConfig.cmake
+[13.915s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/cmake/robot_ros2_msgsConfig-version.cmake
+[13.915s] -- Installing: /home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/package.xml
+[13.919s] Invoked command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/robot_ros2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_python:/home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier:/opt/ros/humble /usr/bin/cmake --install /home/mihkel/School/ThesisPractical/ros2_ws/build/robot_ros2_msgs

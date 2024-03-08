@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<launch>
+
+
+<!-- RealSense Camera parameters. View all possible configurable parameters in config/cameraparams.txt  -->
+    <arg name="enable_sync"                         default="true" />
+    <arg name="enable_gyro"                         default="true" />
+    <arg name="enable_accel"                        default="true" />
+    <arg name="unite_imu_method"                    default="1" />
+    <arg name="pointcloud.enable"                   default="true" /> 
+    <arg name="model"                               default="$(find-pkg-share hospital_carrier)/urdf/robot.urdf.xacro" />
+
+  <group>
+    <include file="$(find-pkg-share realsense2_camera)/launch/rs_launch.py">
+        <arg name="enable_sync"  value="$(var enable_sync)" />
+        <arg name="enable_gyro"  value="$(var enable_gyro)" />
+        <arg name="enable_accel"  value="$(var enable_accel)" />
+        <arg name="unite_imu_method"  value="$(var unite_imu_method)" />
+    </include>
+  </group>
+
+  <group>
+    <push-ros-namespace namespace="hospital_carrier"/>
+      <node name="PointcloudToPly" pkg="hospital_carrier" exec="PointcloudToPly" output="screen" respawn="true">
+      	<param name="model_path" value="$(find-pkg-share hospital_carrier)/models/mapmos.ckpt" />
+        <param name="output_path" value="$(find-pkg-share hospital_carrier)/data/output.ply" />
+        <param name="data_dir" value="$(find-pkg-share hospital_carrier)/data" />
+      </node>
+  </group> 
+</launch>

@@ -1,0 +1,6 @@
+[31mCMake Error at CMakeLists.txt:24 (project):
+  project with VERSION, DESCRIPTION or HOMEPAGE_URL must use LANGUAGES before
+  language names.
+
+[0m
+-- Configuring incomplete, errors occurred!

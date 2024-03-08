@@ -1,0 +1,142 @@
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found image_transport: 3.1.7 (/opt/ros/humble/share/image_transport/cmake)
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found rclcpp_components: 16.0.7 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found rtabmap_conversions: 0.21.3 (/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions/share/rtabmap_conversions/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:146 (find_package):
+  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  CMake variable EIGEN_ROOT is set to:
+
+    /usr/include/eigen3
+
+  For compatibility, find_package is ignoring the variable, but code in a
+  .cmake module might still use it.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:299 (find_eigen)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+  /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)
+  /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/rtabmap-0.21/RTABMapConfig.cmake:7 (find_dependency)
+  /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions/share/rtabmap_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions/share/rtabmap_conversions/cmake/rtabmap_conversionsConfig.cmake:41 (include)
+  CMakeLists.txt:10 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:44 (find_package):
+  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  CMake variable FLANN_ROOT is set to:
+
+    /usr
+
+  For compatibility, find_package is ignoring the variable, but code in a
+  .cmake module might still use it.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:256 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:301 (find_flann)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+  /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)
+  /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/rtabmap-0.21/RTABMapConfig.cmake:7 (find_dependency)
+  /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions/share/rtabmap_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions/share/rtabmap_conversions/cmake/rtabmap_conversionsConfig.cmake:41 (include)
+  CMakeLists.txt:10 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+-- Found Qhull version 8.0.2
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Found diagnostic_updater: 3.1.2 (/opt/ros/humble/share/diagnostic_updater/cmake)
+-- RTABMAP_SYNC_MULTI_RGBD = OFF
+-- RTABMAP_SYNC_USER_DATA  = OFF
+-- Configuring done (14.4s)
+-- Generating done (0.5s)
+-- Build files have been written to: /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap_sync
+[  4%] [32mBuilding CXX object CMakeFiles/rtabmap_sync_plugins.dir/src/nodelets/rgbdx_sync.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberDepth.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/rtabmap_sync_plugins.dir/src/nodelets/rgbd_sync.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/rtabmap_sync_plugins.dir/src/nodelets/stereo_sync.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberStereo.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/rtabmap_sync_plugins.dir/src/nodelets/rgb_sync.cpp.o[0m
+[ 30%] [32m[1mLinking CXX shared library librtabmap_sync_plugins.so[0m
+[ 30%] Built target rtabmap_sync_plugins
+[ 34%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberRGB.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberRGBD.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberRGBDX.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberScan.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberOdom.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberSensorData.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/rtabmap_rgbd_sync.dir/src/RGBDSyncNode.cpp.o[0m
+[ 65%] [32m[1mLinking CXX executable rgbd_sync[0m
+[ 65%] Built target rtabmap_rgbd_sync
+[ 69%] [32mBuilding CXX object CMakeFiles/rtabmap_rgbdx_sync.dir/src/RGBDXSyncNode.cpp.o[0m
+[ 73%] [32m[1mLinking CXX executable rgbdx_sync[0m
+[ 73%] Built target rtabmap_rgbdx_sync
+[ 78%] [32mBuilding CXX object CMakeFiles/rtabmap_stereo_sync.dir/src/StereoSyncNode.cpp.o[0m
+[ 82%] [32m[1mLinking CXX shared library librtabmap_sync.so[0m
+[ 86%] Built target rtabmap_sync
+[ 91%] [32mBuilding CXX object CMakeFiles/rtabmap_rgb_sync.dir/src/RGBSyncNode.cpp.o[0m
+[ 95%] [32m[1mLinking CXX executable stereo_sync[0m
+[ 95%] Built target rtabmap_stereo_sync
+[100%] [32m[1mLinking CXX executable rgb_sync[0m
+[100%] Built target rtabmap_rgb_sync
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/share/rtabmap_sync/environment/library_path.sh
+-- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/share/rtabmap_sync/environment/library_path.dsv
+-- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/lib/rtabmap_sync/rgbd_sync
+-- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/lib/rtabmap_sync/rgbdx_sync
+-- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/lib/rtabmap_sync/stereo_sync
+-- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/lib/rtabmap_sync/rgb_sync
+-- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/share/ament_index/resource_index/package_run_dependencies/rtabmap_sync
+-- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/share/ament_index/resource_index/parent_prefix_path/rtabmap_sync
+-- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/share/rtabmap_sync/environment/ament_prefix_path.sh
+-- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/share/rtabmap_sync/environment/ament_prefix_path.dsv
+-- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/share/rtabmap_sync/environment/path.sh
+-- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/share/rtabmap_sync/environment/path.dsv
+-- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/share/rtabmap_sync/local_setup.bash
+-- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/share/rtabmap_sync/local_setup.sh
+-- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/share/rtabmap_sync/local_setup.zsh
+-- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/share/rtabmap_sync/local_setup.dsv
+-- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/share/rtabmap_sync/package.dsv
+-- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/share/ament_index/resource_index/packages/rtabmap_sync
+-- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/share/ament_index/resource_index/rclcpp_components/rtabmap_sync
+-- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/extra_configs.cmake
+-- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncConfig.cmake
+-- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncConfig-version.cmake
+-- Symlinking: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/share/rtabmap_sync/package.xml
+-- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/lib/librtabmap_sync.so
+-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/lib/librtabmap_sync.so" to ""
+-- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/lib/librtabmap_sync_plugins.so
+-- Set non-toolchain portion of runtime path of "/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/lib/librtabmap_sync_plugins.so" to ""
+-- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/include
+-- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/include/rtabmap_sync
+-- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/include/rtabmap_sync/CommonDataSubscriber.h
+-- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/include/rtabmap_sync/visibility.h
+-- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/include/rtabmap_sync/GetTopicName.h
+-- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/include/rtabmap_sync/SyncDiagnostic.h
+-- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/include/rtabmap_sync/CommonDataSubscriberDefines.h
+-- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncExport.cmake
+-- Installing: /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncExport-release.cmake

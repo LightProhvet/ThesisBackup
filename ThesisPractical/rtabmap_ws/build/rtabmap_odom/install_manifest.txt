@@ -1,0 +1,6 @@
+/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/lib/librtabmap_odom.so
+/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/lib/librtabmap_odom_plugins.so
+/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/include/rtabmap_odom/visibility.h
+/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/include/rtabmap_odom/OdometryROS.h
+/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/share/rtabmap_odom/cmake/rtabmap_odomExport.cmake
+/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/share/rtabmap_odom/cmake/rtabmap_odomExport-release.cmake

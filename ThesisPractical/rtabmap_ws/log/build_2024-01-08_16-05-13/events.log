@@ -1,0 +1,501 @@
+[0.000000] (-) TimerEvent: {}
+[0.000311] (rtabmap) JobQueued: {'identifier': 'rtabmap', 'dependencies': OrderedDict()}
+[0.000397] (rtabmap_msgs) JobQueued: {'identifier': 'rtabmap_msgs', 'dependencies': OrderedDict()}
+[0.000457] (rtabmap_python) JobQueued: {'identifier': 'rtabmap_python', 'dependencies': OrderedDict()}
+[0.000509] (rtabmap_conversions) JobQueued: {'identifier': 'rtabmap_conversions', 'dependencies': OrderedDict([('rtabmap', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap'), ('rtabmap_msgs', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs')])}
+[0.000576] (rtabmap_rviz_plugins) JobQueued: {'identifier': 'rtabmap_rviz_plugins', 'dependencies': OrderedDict([('rtabmap', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap'), ('rtabmap_msgs', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs'), ('rtabmap_conversions', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions')])}
+[0.000786] (rtabmap_sync) JobQueued: {'identifier': 'rtabmap_sync', 'dependencies': OrderedDict([('rtabmap', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap'), ('rtabmap_msgs', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs'), ('rtabmap_conversions', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions')])}
+[0.001072] (rtabmap_util) JobQueued: {'identifier': 'rtabmap_util', 'dependencies': OrderedDict([('rtabmap', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap'), ('rtabmap_msgs', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs'), ('rtabmap_conversions', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions')])}
+[0.001328] (rtabmap_odom) JobQueued: {'identifier': 'rtabmap_odom', 'dependencies': OrderedDict([('rtabmap', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap'), ('rtabmap_msgs', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs'), ('rtabmap_conversions', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions'), ('rtabmap_sync', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync'), ('rtabmap_util', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_util')])}
+[0.001540] (rtabmap_slam) JobQueued: {'identifier': 'rtabmap_slam', 'dependencies': OrderedDict([('rtabmap', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap'), ('rtabmap_msgs', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs'), ('rtabmap_conversions', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions'), ('rtabmap_sync', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync'), ('rtabmap_util', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_util')])}
+[0.001616] (rtabmap_viz) JobQueued: {'identifier': 'rtabmap_viz', 'dependencies': OrderedDict([('rtabmap', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap'), ('rtabmap_msgs', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs'), ('rtabmap_conversions', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions'), ('rtabmap_sync', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync')])}
+[0.001676] (rtabmap_demos) JobQueued: {'identifier': 'rtabmap_demos', 'dependencies': OrderedDict([('rtabmap', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap'), ('rtabmap_msgs', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs'), ('rtabmap_conversions', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions'), ('rtabmap_rviz_plugins', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_rviz_plugins'), ('rtabmap_sync', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync'), ('rtabmap_util', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_util'), ('rtabmap_odom', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom'), ('rtabmap_slam', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_slam'), ('rtabmap_viz', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_viz')])}
+[0.001772] (rtabmap_examples) JobQueued: {'identifier': 'rtabmap_examples', 'dependencies': OrderedDict([('rtabmap', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap'), ('rtabmap_msgs', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs'), ('rtabmap_conversions', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions'), ('rtabmap_rviz_plugins', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_rviz_plugins'), ('rtabmap_sync', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync'), ('rtabmap_util', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_util'), ('rtabmap_odom', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom'), ('rtabmap_slam', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_slam'), ('rtabmap_viz', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_viz')])}
+[0.001905] (rtabmap_launch) JobQueued: {'identifier': 'rtabmap_launch', 'dependencies': OrderedDict([('rtabmap', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap'), ('rtabmap_msgs', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs'), ('rtabmap_conversions', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions'), ('rtabmap_rviz_plugins', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_rviz_plugins'), ('rtabmap_sync', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync'), ('rtabmap_util', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_util'), ('rtabmap_odom', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom'), ('rtabmap_slam', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_slam'), ('rtabmap_viz', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_viz')])}
+[0.001984] (rtabmap_ros) JobQueued: {'identifier': 'rtabmap_ros', 'dependencies': OrderedDict([('rtabmap', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap'), ('rtabmap_msgs', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs'), ('rtabmap_python', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_python'), ('rtabmap_conversions', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions'), ('rtabmap_rviz_plugins', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_rviz_plugins'), ('rtabmap_sync', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync'), ('rtabmap_util', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_util'), ('rtabmap_odom', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom'), ('rtabmap_slam', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_slam'), ('rtabmap_viz', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_viz'), ('rtabmap_demos', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_demos'), ('rtabmap_examples', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_examples'), ('rtabmap_launch', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_launch')])}
+[0.002283] (rtabmap) JobStarted: {'identifier': 'rtabmap'}
+[0.098529] (-) TimerEvent: {}
+[0.199248] (-) TimerEvent: {}
+[0.290333] (rtabmap_msgs) JobStarted: {'identifier': 'rtabmap_msgs'}
+[0.299524] (-) TimerEvent: {}
+[0.400700] (-) TimerEvent: {}
+[0.503862] (-) TimerEvent: {}
+[0.588929] (rtabmap_python) JobStarted: {'identifier': 'rtabmap_python'}
+[0.604078] (-) TimerEvent: {}
+[0.705661] (-) TimerEvent: {}
+[0.806508] (-) TimerEvent: {}
+[0.907230] (-) TimerEvent: {}
+[0.963415] (rtabmap) JobProgress: {'identifier': 'rtabmap', 'progress': 'cmake'}
+[0.968484] (rtabmap) Command: {'cmd': ['/home/mihkel/.local/bin/cmake', '/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap', '-DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap'], 'cwd': '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mihkel'), ('LC_TIME', 'et_EE.UTF-8'), ('ROS_PACKAGE_PATH', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/share'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_slam/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_util/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_rviz_plugins/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mihkel'), ('OLDPWD', '/home/mihkel/School/ThesisPractical'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'et_EE.UTF-8'), ('SYSTEMD_EXEC_PID', '5259'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mihkel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/lib/pkgconfig:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mihkel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin:/opt/ros/humble/bin:/home/mihkel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mihkel-XPS-15-9500:@/tmp/.ICE-unix/3600,unix/mihkel-XPS-15-9500:/tmp/.ICE-unix/3600'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'et_EE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7b3feb4d_d24e_4798_b047_1ec2b4c3a8fe'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'et_EE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TPQUG2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_ros:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_launch:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_examples:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_demos:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_viz:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_slam:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_util:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_rviz_plugins:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_python:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'et_EE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'et_EE.UTF-8'), ('LC_IDENTIFICATION', 'et_EE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap_python:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_python/lib/python3.10/site-packages:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'et_EE.UTF-8'), ('LC_PAPER', 'et_EE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_ros:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_launch:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_examples:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_demos:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_viz:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_slam:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_util:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_rviz_plugins:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_python:/opt/ros/humble:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap')]), 'shell': False}
+[0.975799] (rtabmap_msgs) JobProgress: {'identifier': 'rtabmap_msgs', 'progress': 'cmake'}
+[0.978989] (rtabmap_msgs) Command: {'cmd': ['/home/mihkel/.local/bin/cmake', '/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap_ros/rtabmap_msgs', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCATKIN_SYMLINK_INSTALL=ON', '-DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs'], 'cwd': '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mihkel'), ('LC_TIME', 'et_EE.UTF-8'), ('ROS_PACKAGE_PATH', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/share'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_slam/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_util/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_rviz_plugins/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mihkel'), ('OLDPWD', '/home/mihkel/School/ThesisPractical'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'et_EE.UTF-8'), ('SYSTEMD_EXEC_PID', '5259'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mihkel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/lib/pkgconfig:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mihkel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin:/opt/ros/humble/bin:/home/mihkel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mihkel-XPS-15-9500:@/tmp/.ICE-unix/3600,unix/mihkel-XPS-15-9500:/tmp/.ICE-unix/3600'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'et_EE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7b3feb4d_d24e_4798_b047_1ec2b4c3a8fe'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'et_EE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TPQUG2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_ros:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_launch:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_examples:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_demos:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_viz:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_slam:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_util:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_rviz_plugins:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_python:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'et_EE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'et_EE.UTF-8'), ('LC_IDENTIFICATION', 'et_EE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap_python:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_python/lib/python3.10/site-packages:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'et_EE.UTF-8'), ('LC_PAPER', 'et_EE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_ros:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_launch:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_examples:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_demos:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_viz:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_slam:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_util:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_rviz_plugins:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap')]), 'shell': False}
+[1.007393] (-) TimerEvent: {}
+[1.091846] (rtabmap) StdoutLine: {'line': b'-- MOBILE_BUILD=OFF\n'}
+[1.092439] (rtabmap) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:88 (EXEC_PROGRAM):\n'}
+[1.092706] (rtabmap) StderrLine: {'line': b'  Policy CMP0153 is not set: The exec_program command should not be called.\n'}
+[1.092919] (rtabmap) StderrLine: {'line': b'  Run "cmake --help-policy CMP0153" for policy details.  Use the cmake_policy\n'}
+[1.093118] (rtabmap) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.093310] (rtabmap) StderrLine: {'line': b'\n'}
+[1.093500] (rtabmap) StderrLine: {'line': b'  Use execute_process() instead.\n'}
+[1.093722] (rtabmap) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.094000] (rtabmap) StderrLine: {'line': b'\x1b[0m\n'}
+[1.095563] (rtabmap_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.096620] (rtabmap_msgs) StdoutLine: {'line': b'-- Found ament_cmake_core: 1.3.6 (/opt/ros/humble/share/ament_cmake_core/cmake)\n'}
+[1.107523] (-) TimerEvent: {}
+[1.164701] (rtabmap) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:146 (find_package):\n'}
+[1.165248] (rtabmap) StderrLine: {'line': b'  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n'}
+[1.165638] (rtabmap) StderrLine: {'line': b'  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the\n'}
+[1.166004] (rtabmap) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[1.166357] (rtabmap) StderrLine: {'line': b'\n'}
+[1.166706] (rtabmap) StderrLine: {'line': b'  CMake variable EIGEN_ROOT is set to:\n'}
+[1.167060] (rtabmap) StderrLine: {'line': b'\n'}
+[1.167418] (rtabmap) StderrLine: {'line': b'    /usr/include/eigen3\n'}
+[1.167777] (rtabmap) StderrLine: {'line': b'\n'}
+[1.168114] (rtabmap) StderrLine: {'line': b'  For compatibility, find_package is ignoring the variable, but code in a\n'}
+[1.168502] (rtabmap) StderrLine: {'line': b'  .cmake module might still use it.\n'}
+[1.168861] (rtabmap) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.169206] (rtabmap) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:299 (find_eigen)\n'}
+[1.169550] (rtabmap) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)\n'}
+[1.169893] (rtabmap) StderrLine: {'line': b'  CMakeLists.txt:235 (FIND_PACKAGE)\n'}
+[1.170233] (rtabmap) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.170563] (rtabmap) StderrLine: {'line': b'\x1b[0m\n'}
+[1.183567] (rtabmap) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.207699] (-) TimerEvent: {}
+[1.270266] (rtabmap) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.307865] (-) TimerEvent: {}
+[1.408603] (-) TimerEvent: {}
+[1.509293] (-) TimerEvent: {}
+[1.609981] (-) TimerEvent: {}
+[1.710630] (-) TimerEvent: {}
+[1.811289] (-) TimerEvent: {}
+[1.911993] (-) TimerEvent: {}
+[2.012694] (-) TimerEvent: {}
+[2.055483] (rtabmap_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.069115] (rtabmap_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.112854] (-) TimerEvent: {}
+[2.213533] (-) TimerEvent: {}
+[2.230342] (rtabmap_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.313689] (-) TimerEvent: {}
+[2.364971] (rtabmap_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[2.413872] (-) TimerEvent: {}
+[2.514484] (-) TimerEvent: {}
+[2.615214] (-) TimerEvent: {}
+[2.716139] (-) TimerEvent: {}
+[2.816849] (-) TimerEvent: {}
+[2.917519] (-) TimerEvent: {}
+[2.920451] (rtabmap_msgs) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.017670] (-) TimerEvent: {}
+[3.036169] (rtabmap) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[3.039518] (rtabmap) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:44 (find_package):\n'}
+[3.039890] (rtabmap) StderrLine: {'line': b'  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n'}
+[3.040172] (rtabmap) StderrLine: {'line': b'  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the\n'}
+[3.040464] (rtabmap) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[3.040691] (rtabmap) StderrLine: {'line': b'\n'}
+[3.040913] (rtabmap) StderrLine: {'line': b'  CMake variable FLANN_ROOT is set to:\n'}
+[3.041268] (rtabmap) StderrLine: {'line': b'\n'}
+[3.041499] (rtabmap) StderrLine: {'line': b'    /usr\n'}
+[3.041720] (rtabmap) StderrLine: {'line': b'\n'}
+[3.041934] (rtabmap) StderrLine: {'line': b'  For compatibility, find_package is ignoring the variable, but code in a\n'}
+[3.042152] (rtabmap) StderrLine: {'line': b'  .cmake module might still use it.\n'}
+[3.042401] (rtabmap) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.042618] (rtabmap) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:256 (find_package)\n'}
+[3.042834] (rtabmap) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:301 (find_flann)\n'}
+[3.043047] (rtabmap) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)\n'}
+[3.043258] (rtabmap) StderrLine: {'line': b'  CMakeLists.txt:235 (FIND_PACKAGE)\n'}
+[3.043500] (rtabmap) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[3.043713] (rtabmap) StderrLine: {'line': b'\x1b[0m\n'}
+[3.117828] (-) TimerEvent: {}
+[3.143206] (rtabmap) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[3.159389] (rtabmap) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[3.217952] (-) TimerEvent: {}
+[3.318509] (-) TimerEvent: {}
+[3.368104] (rtabmap_msgs) StdoutLine: {'line': b'-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[3.418675] (-) TimerEvent: {}
+[3.519389] (-) TimerEvent: {}
+[3.620161] (-) TimerEvent: {}
+[3.720842] (-) TimerEvent: {}
+[3.821625] (-) TimerEvent: {}
+[3.922222] (-) TimerEvent: {}
+[4.022919] (-) TimerEvent: {}
+[4.123675] (-) TimerEvent: {}
+[4.224362] (-) TimerEvent: {}
+[4.324968] (-) TimerEvent: {}
+[4.425622] (-) TimerEvent: {}
+[4.526348] (-) TimerEvent: {}
+[4.627051] (-) TimerEvent: {}
+[4.727754] (-) TimerEvent: {}
+[4.828442] (-) TimerEvent: {}
+[4.870753] (rtabmap_python) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap_python/build', '--no-deps', 'install_data'], 'cwd': '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap_python', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mihkel', 'LC_TIME': 'et_EE.UTF-8', 'ROS_PACKAGE_PATH': '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/share', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_slam/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_util/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_rviz_plugins/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/mihkel', 'OLDPWD': '/home/mihkel/School/ThesisPractical', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'et_EE.UTF-8', 'SYSTEMD_EXEC_PID': '5259', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/mihkel/School/ThesisPractical/rtabmap_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mihkel', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/lib/pkgconfig:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mihkel', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin:/opt/ros/humble/bin:/home/mihkel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mihkel-XPS-15-9500:@/tmp/.ICE-unix/3600,unix/mihkel-XPS-15-9500:/tmp/.ICE-unix/3600', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'et_EE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7b3feb4d_d24e_4798_b047_1ec2b4c3a8fe', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'et_EE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TPQUG2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_ros:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_launch:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_examples:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_demos:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_viz:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_slam:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_util:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_rviz_plugins:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_python:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'et_EE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'et_EE.UTF-8', 'LC_IDENTIFICATION': 'et_EE.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap_python', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap_python/prefix_override:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_python/lib/python3.10/site-packages:/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap_python:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_python/lib/python3.10/site-packages:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'et_EE.UTF-8', 'LC_PAPER': 'et_EE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_ros:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_launch:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_examples:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_demos:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_viz:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_slam:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_util:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_rviz_plugins:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap'}, 'shell': False}
+[4.928617] (-) TimerEvent: {}
+[5.029331] (-) TimerEvent: {}
+[5.130071] (-) TimerEvent: {}
+[5.230794] (-) TimerEvent: {}
+[5.331415] (-) TimerEvent: {}
+[5.432070] (-) TimerEvent: {}
+[5.532772] (-) TimerEvent: {}
+[5.633333] (-) TimerEvent: {}
+[5.733968] (-) TimerEvent: {}
+[5.834641] (-) TimerEvent: {}
+[5.935364] (-) TimerEvent: {}
+[6.036057] (-) TimerEvent: {}
+[6.136731] (-) TimerEvent: {}
+[6.237439] (-) TimerEvent: {}
+[6.338152] (-) TimerEvent: {}
+[6.438858] (-) TimerEvent: {}
+[6.457698] (rtabmap_python) StdoutLine: {'line': b'running develop\n'}
+[6.539046] (-) TimerEvent: {}
+[6.639713] (-) TimerEvent: {}
+[6.740303] (-) TimerEvent: {}
+[6.840909] (-) TimerEvent: {}
+[6.941474] (-) TimerEvent: {}
+[7.042161] (-) TimerEvent: {}
+[7.142737] (-) TimerEvent: {}
+[7.161544] (rtabmap) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[7.224897] (rtabmap_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[7.242921] (-) TimerEvent: {}
+[7.343490] (-) TimerEvent: {}
+[7.444162] (-) TimerEvent: {}
+[7.493442] (rtabmap_python) StdoutLine: {'line': b'running egg_info\n'}
+[7.494331] (rtabmap_python) StdoutLine: {'line': b'writing rtabmap_python.egg-info/PKG-INFO\n'}
+[7.494936] (rtabmap_python) StdoutLine: {'line': b'writing dependency_links to rtabmap_python.egg-info/dependency_links.txt\n'}
+[7.495513] (rtabmap_python) StdoutLine: {'line': b'writing entry points to rtabmap_python.egg-info/entry_points.txt\n'}
+[7.495978] (rtabmap_python) StdoutLine: {'line': b'writing requirements to rtabmap_python.egg-info/requires.txt\n'}
+[7.496281] (rtabmap_python) StdoutLine: {'line': b'writing top-level names to rtabmap_python.egg-info/top_level.txt\n'}
+[7.502612] (rtabmap_python) StdoutLine: {'line': b"reading manifest file 'rtabmap_python.egg-info/SOURCES.txt'\n"}
+[7.505127] (rtabmap_python) StdoutLine: {'line': b"writing manifest file 'rtabmap_python.egg-info/SOURCES.txt'\n"}
+[7.544320] (-) TimerEvent: {}
+[7.641265] (rtabmap_python) StdoutLine: {'line': b'running build_ext\n'}
+[7.641974] (rtabmap_python) StdoutLine: {'line': b'Creating /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_python/lib/python3.10/site-packages/rtabmap-python.egg-link (link to .)\n'}
+[7.644443] (-) TimerEvent: {}
+[7.645175] (rtabmap_python) StdoutLine: {'line': b'\n'}
+[7.645532] (rtabmap_python) StdoutLine: {'line': b'Installed /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap_python\n'}
+[7.645826] (rtabmap_python) StdoutLine: {'line': b'running install_data\n'}
+[7.744609] (-) TimerEvent: {}
+[7.757282] (rtabmap_python) CommandEnded: {'returncode': 0}
+[7.845029] (-) TimerEvent: {}
+[7.945943] (-) TimerEvent: {}
+[8.046983] (-) TimerEvent: {}
+[8.147649] (-) TimerEvent: {}
+[8.187870] (rtabmap_python) JobEnded: {'identifier': 'rtabmap_python', 'rc': 0}
+[8.247847] (-) TimerEvent: {}
+[8.348575] (-) TimerEvent: {}
+[8.449153] (-) TimerEvent: {}
+[8.483804] (rtabmap) StdoutLine: {'line': b'-- PCL definitions don\'t contain "-march=native", make sure all libraries using Eigen are also compiled without that flag to avoid some segmentation faults (with gdb referring to some Eigen functions).\n'}
+[8.523267] (rtabmap) StdoutLine: {'line': b'-- Found Sqlite3: /usr/include /usr/lib/x86_64-linux-gnu/libsqlite3.so\n'}
+[8.535940] (rtabmap) StdoutLine: {'line': b'-- Found OpenMP: /usr/lib/gcc/x86_64-linux-gnu/11/libgomp.so;/usr/lib/x86_64-linux-gnu/libpthread.a\n'}
+[8.536661] (rtabmap) StdoutLine: {'line': b'-- Add PCL_OMP to definitions\n'}
+[8.537081] (rtabmap) StdoutLine: {'line': b'-- Found OpenCV: /usr/include/opencv4\n'}
+[8.537480] (rtabmap) StdoutLine: {'line': b'-- Found PCL: /usr/include/pcl-1.12;/usr/include/eigen3;/usr/include;/usr/include/ni\n'}
+[8.537915] (rtabmap) StdoutLine: {'line': b'-- Found ZLIB: /usr/include\n'}
+[8.549300] (-) TimerEvent: {}
+[8.613883] (rtabmap) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX \n'}
+[8.649487] (-) TimerEvent: {}
+[8.750183] (-) TimerEvent: {}
+[8.850908] (-) TimerEvent: {}
+[8.951713] (-) TimerEvent: {}
+[9.052411] (-) TimerEvent: {}
+[9.153106] (-) TimerEvent: {}
+[9.253653] (-) TimerEvent: {}
+[9.354214] (-) TimerEvent: {}
+[9.454897] (-) TimerEvent: {}
+[9.555556] (-) TimerEvent: {}
+[9.656259] (-) TimerEvent: {}
+[9.756814] (-) TimerEvent: {}
+[9.857400] (-) TimerEvent: {}
+[9.957953] (-) TimerEvent: {}
+[9.996268] (rtabmap_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.058089] (-) TimerEvent: {}
+[10.158633] (-) TimerEvent: {}
+[10.259180] (-) TimerEvent: {}
+[10.359732] (-) TimerEvent: {}
+[10.460405] (-) TimerEvent: {}
+[10.561041] (-) TimerEvent: {}
+[10.661570] (-) TimerEvent: {}
+[10.762190] (-) TimerEvent: {}
+[10.862724] (-) TimerEvent: {}
+[10.918380] (rtabmap) StdoutLine: {'line': b'-- VTK>=9 detected, will use VTK_QT_VERSION=5 for Qt version.\n'}
+[10.933728] (rtabmap) StdoutLine: {'line': b'-- VTK_RENDERING_BACKEND=\n'}
+[10.962920] (-) TimerEvent: {}
+[10.971654] (rtabmap) StdoutLine: {'line': b'-- Found Freenect: /usr/include\n'}
+[11.063070] (-) TimerEvent: {}
+[11.074782] (rtabmap) StdoutLine: {'line': b'-- Found OpenNI2: /usr/include/openni2\n'}
+[11.075489] (rtabmap) StdoutLine: {'line': b'-- Found DC1394: /usr/include/dc1394\n'}
+[11.087612] (rtabmap) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[11.096085] (rtabmap) StdoutLine: {'line': b'-- Found g2o (targets)\n'}
+[11.096645] (rtabmap) StdoutLine: {'line': b'-- g2o include dir: /opt/ros/humble/include\n'}
+[11.097224] (rtabmap) StdoutLine: {'line': b'-- Latest g2o factory version detected with shared ptr (factory file: /opt/ros/humble/include/g2o/core/factory.h).\n'}
+[11.163230] (-) TimerEvent: {}
+[11.187265] (rtabmap) StdoutLine: {'line': b'-- GTSAM include directory:  /opt/ros/humble/lib/cmake/GTSAM/../../../include\n'}
+[11.230211] (rtabmap) StdoutLine: {'line': b'-- FlyCapture2_INCLUDE_DIR=FlyCapture2_INCLUDE_DIR-NOTFOUND\n'}
+[11.230768] (rtabmap) StdoutLine: {'line': b'-- FlyCapture2_LIBRARY=FlyCapture2_LIBRARY-NOTFOUND\n'}
+[11.232540] (rtabmap) StdoutLine: {'line': b'-- Triclops_INCLUDE_DIR=Triclops_INCLUDE_DIR-NOTFOUND\n'}
+[11.232982] (rtabmap) StdoutLine: {'line': b'-- Triclops_LIBRARY=Triclops_LIBRARY-NOTFOUND\n'}
+[11.233336] (rtabmap) StdoutLine: {'line': b'-- FlyCaptureBridge_LIBRARY=FlyCaptureBridge_LIBRARY-NOTFOUND\n'}
+[11.256887] (rtabmap) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time \n'}
+[11.263381] (-) TimerEvent: {}
+[11.282191] (rtabmap) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time chrono \n'}
+[11.290717] (rtabmap) StdoutLine: {'line': b'-- Found libpointmatcher: /opt/ros/humble/include;/usr/include/eigen3\n'}
+[11.310804] (rtabmap) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time \n'}
+[11.338994] (rtabmap) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time chrono timer serialization \n'}
+[11.363542] (-) TimerEvent: {}
+[11.420599] (rtabmap) StdoutLine: {'line': b'-- Found RealSense2: \n'}
+[11.459363] (rtabmap) StdoutLine: {'line': b'-- Found octomap 1.9.8: /opt/ros/humble/include\n'}
+[11.463656] (-) TimerEvent: {}
+[11.564138] (-) TimerEvent: {}
+[11.664801] (-) TimerEvent: {}
+[11.721649] (rtabmap) StdoutLine: {'line': b'-- Found grid_map_core 2.0.0: /opt/ros/humble/include;/usr/include/eigen3\n'}
+[11.731788] (rtabmap) StdoutLine: {'line': b'-- Architecture: x86_64\n'}
+[11.764998] (-) TimerEvent: {}
+[11.793383] (rtabmap) StdoutLine: {'line': b'-- Found Pthreads\n'}
+[11.865172] (-) TimerEvent: {}
+[11.965846] (-) TimerEvent: {}
+[12.066482] (-) TimerEvent: {}
+[12.086426] (rtabmap) StdoutLine: {'line': b'-- --------------------------------------------\n'}
+[12.086965] (rtabmap) StdoutLine: {'line': b'-- Info :\n'}
+[12.087341] (rtabmap) StdoutLine: {'line': b'--   RTAB-Map Version =     0.21.3\n'}
+[12.088439] (rtabmap) StdoutLine: {'line': b'--   CMAKE_VERSION =        3.28.1\n'}
+[12.088806] (rtabmap) StdoutLine: {'line': b'--   CMAKE_INSTALL_PREFIX = /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap\n'}
+[12.089144] (rtabmap) StdoutLine: {'line': b'--   CMAKE_BUILD_TYPE =     Release\n'}
+[12.089641] (rtabmap) StdoutLine: {'line': b'--   CMAKE_INSTALL_LIBDIR = lib\n'}
+[12.089995] (rtabmap) StdoutLine: {'line': b'--   BUILD_APP =            ON\n'}
+[12.090310] (rtabmap) StdoutLine: {'line': b'--   BUILD_TOOLS =          ON\n'}
+[12.090611] (rtabmap) StdoutLine: {'line': b'--   BUILD_EXAMPLES =       ON\n'}
+[12.090913] (rtabmap) StdoutLine: {'line': b'--   BUILD_SHARED_LIBS =    ON\n'}
+[12.091282] (rtabmap) StdoutLine: {'line': b'--   CMAKE_CXX_FLAGS =  -fmessage-length=0 -fopenmp -std=c++17\n'}
+[12.091574] (rtabmap) StdoutLine: {'line': b'--   FLANN_KDTREE_MEM_OPT = OFF\n'}
+[12.091870] (rtabmap) StdoutLine: {'line': b'--   PCL_DEFINITIONS = -DDISABLE_OPENNI2;-DDISABLE_PCAP;-DDISABLE_PNG\n'}
+[12.092154] (rtabmap) StdoutLine: {'line': b'--   PCL_VERSION = 1.12.1\n'}
+[12.092555] (rtabmap) StdoutLine: {'line': b'-- \n'}
+[12.092900] (rtabmap) StdoutLine: {'line': b"-- Optional dependencies ('*' affects some default parameters) :\n"}
+[12.093208] (rtabmap) StdoutLine: {'line': b'--  *With OpenCV 4.5.4 xfeatures2d = NO, nonfree = NO (License: Apache 2)\n'}
+[12.093512] (rtabmap) StdoutLine: {'line': b'--   With Qt 5.15.3            = YES (License: Open Source or Commercial)\n'}
+[12.093838] (rtabmap) StdoutLine: {'line': b'--   With VTK 9.1              = YES (License: BSD)\n'}
+[12.094191] (rtabmap) StdoutLine: {'line': b'--   With external SQLite3     = YES (License: Public Domain)\n'}
+[12.094505] (rtabmap) StdoutLine: {'line': b'--   With ORB OcTree           = YES (License: GPLv3)\n'}
+[12.094811] (rtabmap) StdoutLine: {'line': b'--   With SupertPoint          = NO (WITH_TORCH=OFF)\n'}
+[12.095146] (rtabmap) StdoutLine: {'line': b'--   With Python3              = NO (WITH_PYTHON=OFF)\n'}
+[12.095474] (rtabmap) StdoutLine: {'line': b'--   With Madgwick             = YES (License: GPL)\n'}
+[12.095774] (rtabmap) StdoutLine: {'line': b'--   With FastCV               = NO (FastCV not found)\n'}
+[12.096078] (rtabmap) StdoutLine: {'line': b'--   With PDAL                 = NO (PDAL not found)\n'}
+[12.096452] (rtabmap) StdoutLine: {'line': b'-- \n'}
+[12.096801] (rtabmap) StdoutLine: {'line': b'--  Solvers:\n'}
+[12.097110] (rtabmap) StdoutLine: {'line': b'--   With TORO                 = YES (License: Creative Commons [Attribution-NonCommercial-ShareAlike])\n'}
+[12.097417] (rtabmap) StdoutLine: {'line': b'--  *With g2o 1.0.0            = YES (License: BSD)\n'}
+[12.097714] (rtabmap) StdoutLine: {'line': b'--  *With GTSAM 4.2.0          = YES (License: BSD)\n'}
+[12.098027] (rtabmap) StdoutLine: {'line': b'--  *With Ceres                = NO (WITH_CERES=OFF)\n'}
+[12.098356] (rtabmap) StdoutLine: {'line': b'--   With MRPT                 = NO (MRPT not found)\n'}
+[12.098654] (rtabmap) StdoutLine: {'line': b'--   With VERTIGO              = YES (License: GPLv3)\n'}
+[12.098947] (rtabmap) StdoutLine: {'line': b'--   With cvsba                = NO (WITH_CVSBA=OFF)\n'}
+[12.099281] (rtabmap) StdoutLine: {'line': b'--  *With libpointmatcher 1.3.1 = YES (License: BSD)\n'}
+[12.099575] (rtabmap) StdoutLine: {'line': b'--   With CCCoreLib            = NO (WITH_CCCORELIB=OFF)\n'}
+[12.099852] (rtabmap) StdoutLine: {'line': b'--   With Open3D               = NO (WITH_OPEN3D=OFF)\n'}
+[12.100125] (rtabmap) StdoutLine: {'line': b'--   With OpenGV               = NO (OpenGV not found)\n'}
+[12.100455] (rtabmap) StdoutLine: {'line': b'-- \n'}
+[12.100778] (rtabmap) StdoutLine: {'line': b'--  Reconstruction Approaches:\n'}
+[12.101082] (rtabmap) StdoutLine: {'line': b'--   With OctoMap 1.9.8        = YES (License: BSD)\n'}
+[12.101505] (rtabmap) StdoutLine: {'line': b'--   With GridMap 2.0.0        = YES (License: BSD)\n'}
+[12.101859] (rtabmap) StdoutLine: {'line': b'--   With CPUTSDF              = NO (WITH_CPUTSDF=OFF)\n'}
+[12.102177] (rtabmap) StdoutLine: {'line': b'--   With OpenChisel           = NO (WITH_OPENCHISEL=OFF)\n'}
+[12.102481] (rtabmap) StdoutLine: {'line': b'--   With AliceVision          = NO (WITH_ALICE_VISION=OFF)\n'}
+[12.102781] (rtabmap) StdoutLine: {'line': b'-- \n'}
+[12.103083] (rtabmap) StdoutLine: {'line': b'--  Camera Drivers:\n'}
+[12.103418] (rtabmap) StdoutLine: {'line': b'--   With Freenect             = YES (License: Apache v2 and/or GPLv2)\n'}
+[12.103723] (rtabmap) StdoutLine: {'line': b'--   With OpenNI2              = YES (License: Apache v2)\n'}
+[12.104018] (rtabmap) StdoutLine: {'line': b'--   With Freenect2            = NO (libfreenect2 not found)\n'}
+[12.104387] (rtabmap) StdoutLine: {'line': b'--   With Kinect for Windows 2 = NO (Kinect for Windows 2 SDK not found)\n'}
+[12.104711] (rtabmap) StdoutLine: {'line': b'--   With Kinect for Azure     = NO (Kinect for Azure SDK not found)\n'}
+[12.104996] (rtabmap) StdoutLine: {'line': b'--   With dc1394               = YES (License: LGPL)\n'}
+[12.105275] (rtabmap) StdoutLine: {'line': b'--   With FlyCapture2/Triclops = NO (Point Grey SDK not found)\n'}
+[12.105554] (rtabmap) StdoutLine: {'line': b'--   With ZED                  = NO (ZED sdk and/or cuda not found)\n'}
+[12.105860] (rtabmap) StdoutLine: {'line': b'--   With ZEDOC                = NO (ZED Open Capture not found)\n'}
+[12.106150] (rtabmap) StdoutLine: {'line': b'--   With RealSense            = NO (librealsense not found)\n'}
+[12.106426] (rtabmap) StdoutLine: {'line': b'--   With RealSense2 2.54.1    = YES (License: Apache-2)\n'}
+[12.106700] (rtabmap) StdoutLine: {'line': b'--   With MyntEyeS             = NO (mynteye s sdk not found)\n'}
+[12.107021] (rtabmap) StdoutLine: {'line': b'--   With DepthAI              = NO (WITH_DEPTHAI=OFF)\n'}
+[12.107334] (rtabmap) StdoutLine: {'line': b'-- \n'}
+[12.107635] (rtabmap) StdoutLine: {'line': b'--  Odometry Approaches:\n'}
+[12.107933] (rtabmap) StdoutLine: {'line': b'--   With loam_velodyne        = NO (WITH_LOAM=OFF)\n'}
+[12.108258] (rtabmap) StdoutLine: {'line': b'--   With floam                = NO (WITH_FLOAM=OFF)\n'}
+[12.108614] (rtabmap) StdoutLine: {'line': b'--   With libfovis             = NO (WITH_FOVIS=OFF)\n'}
+[12.108951] (rtabmap) StdoutLine: {'line': b'--   With libviso2             = NO (WITH_VISO2=OFF)\n'}
+[12.109270] (rtabmap) StdoutLine: {'line': b'--   With dvo_core             = NO (WITH_DVO=OFF)\n'}
+[12.109605] (rtabmap) StdoutLine: {'line': b'--   With okvis                = NO (WITH_OKVIS=OFF)\n'}
+[12.109931] (rtabmap) StdoutLine: {'line': b'--   With msckf_vio            = NO (WITH_MSCKF_VIO=OFF)\n'}
+[12.110232] (rtabmap) StdoutLine: {'line': b'--   With VINS-Fusion          = NO (WITH_VINS=OFF)\n'}
+[12.110531] (rtabmap) StdoutLine: {'line': b'--   With OpenVINS             = NO (WITH_OPENVINS=OFF)\n'}
+[12.110828] (rtabmap) StdoutLine: {'line': b'--   With ORB_SLAM             = NO (WITH_ORB_SLAM=OFF)\n'}
+[12.111154] (rtabmap) StdoutLine: {'line': b'-- Show all options with: cmake -LA | grep WITH_\n'}
+[12.111462] (rtabmap) StdoutLine: {'line': b'-- --------------------------------------------\n'}
+[12.111758] (rtabmap) StdoutLine: {'line': b'-- Configuring done (11.0s)\n'}
+[12.166638] (-) TimerEvent: {}
+[12.267281] (-) TimerEvent: {}
+[12.367846] (-) TimerEvent: {}
+[12.468395] (-) TimerEvent: {}
+[12.569032] (-) TimerEvent: {}
+[12.669608] (-) TimerEvent: {}
+[12.770238] (-) TimerEvent: {}
+[12.870847] (-) TimerEvent: {}
+[12.971364] (-) TimerEvent: {}
+[13.071906] (-) TimerEvent: {}
+[13.172455] (-) TimerEvent: {}
+[13.273023] (-) TimerEvent: {}
+[13.373567] (-) TimerEvent: {}
+[13.419422] (rtabmap_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[13.433288] (rtabmap_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):\n'}
+[13.433762] (rtabmap_msgs) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[13.434031] (rtabmap_msgs) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[13.434271] (rtabmap_msgs) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[13.434502] (rtabmap_msgs) StderrLine: {'line': b'\n'}
+[13.434728] (rtabmap_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[13.434952] (rtabmap_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[13.435171] (rtabmap_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[13.435388] (rtabmap_msgs) StderrLine: {'line': b'  CMakeLists.txt:66 (rosidl_generate_interfaces)\n'}
+[13.435603] (rtabmap_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[13.435818] (rtabmap_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[13.473696] (-) TimerEvent: {}
+[13.548256] (rtabmap_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[13.550078] (rtabmap_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):\n'}
+[13.550460] (rtabmap_msgs) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[13.550718] (rtabmap_msgs) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[13.550953] (rtabmap_msgs) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[13.551182] (rtabmap_msgs) StderrLine: {'line': b'\n'}
+[13.551409] (rtabmap_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[13.551633] (rtabmap_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[13.551855] (rtabmap_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[13.552120] (rtabmap_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[13.552391] (rtabmap_msgs) StderrLine: {'line': b'  CMakeLists.txt:66 (rosidl_generate_interfaces)\n'}
+[13.552661] (rtabmap_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[13.552887] (rtabmap_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[13.573869] (-) TimerEvent: {}
+[13.663506] (rtabmap_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):\n'}
+[13.664131] (rtabmap_msgs) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[13.664597] (rtabmap_msgs) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[13.665009] (rtabmap_msgs) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[13.665409] (rtabmap_msgs) StderrLine: {'line': b'\n'}
+[13.665806] (rtabmap_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[13.666177] (rtabmap_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[13.666445] (rtabmap_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[13.666688] (rtabmap_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[13.666941] (rtabmap_msgs) StderrLine: {'line': b'  CMakeLists.txt:66 (rosidl_generate_interfaces)\n'}
+[13.667166] (rtabmap_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[13.667387] (rtabmap_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[13.673108] (rtabmap_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[13.673488] (rtabmap_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[13.673752] (rtabmap_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[13.673990] (-) TimerEvent: {}
+[13.704810] (rtabmap) StdoutLine: {'line': b'-- Generating done (1.3s)\n'}
+[13.740646] (rtabmap) StdoutLine: {'line': b'-- Build files have been written to: /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap\n'}
+[13.774168] (-) TimerEvent: {}
+[13.856190] (rtabmap) CommandEnded: {'returncode': 0}
+[13.858792] (rtabmap) JobProgress: {'identifier': 'rtabmap', 'progress': 'build'}
+[13.862279] (rtabmap) Command: {'cmd': ['/home/mihkel/.local/bin/cmake', '--build', '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap', '--', '-j12', '-l12'], 'cwd': '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mihkel'), ('LC_TIME', 'et_EE.UTF-8'), ('ROS_PACKAGE_PATH', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/share'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_slam/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_util/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_rviz_plugins/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mihkel'), ('OLDPWD', '/home/mihkel/School/ThesisPractical'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'et_EE.UTF-8'), ('SYSTEMD_EXEC_PID', '5259'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mihkel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/lib/pkgconfig:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mihkel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin:/opt/ros/humble/bin:/home/mihkel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mihkel-XPS-15-9500:@/tmp/.ICE-unix/3600,unix/mihkel-XPS-15-9500:/tmp/.ICE-unix/3600'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'et_EE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7b3feb4d_d24e_4798_b047_1ec2b4c3a8fe'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'et_EE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TPQUG2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_ros:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_launch:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_examples:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_demos:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_viz:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_slam:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_util:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_rviz_plugins:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_python:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'et_EE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'et_EE.UTF-8'), ('LC_IDENTIFICATION', 'et_EE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap_python:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_python/lib/python3.10/site-packages:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'et_EE.UTF-8'), ('LC_PAPER', 'et_EE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_ros:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_launch:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_examples:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_demos:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_viz:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_slam:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_util:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_rviz_plugins:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_python:/opt/ros/humble:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap')]), 'shell': False}
+[13.874330] (-) TimerEvent: {}
+[13.974888] (-) TimerEvent: {}
+[14.042032] (rtabmap_msgs) StdoutLine: {'line': b'-- Configuring done (13.0s)\n'}
+[14.075072] (-) TimerEvent: {}
+[14.075700] (rtabmap) StdoutLine: {'line': b'[  5%] Built target rtabmap_utilite\n'}
+[14.116106] (rtabmap) StdoutLine: {'line': b'[  6%] Built target res_tool\n'}
+[14.175299] (-) TimerEvent: {}
+[14.275902] (-) TimerEvent: {}
+[14.376570] (-) TimerEvent: {}
+[14.477164] (-) TimerEvent: {}
+[14.542439] (rtabmap_msgs) StdoutLine: {'line': b'-- Generating done (0.4s)\n'}
+[14.560125] (rtabmap_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap_msgs\n'}
+[14.577333] (-) TimerEvent: {}
+[14.605281] (rtabmap_msgs) CommandEnded: {'returncode': 0}
+[14.607421] (rtabmap_msgs) JobProgress: {'identifier': 'rtabmap_msgs', 'progress': 'build'}
+[14.609762] (rtabmap_msgs) Command: {'cmd': ['/home/mihkel/.local/bin/cmake', '--build', '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap_msgs', '--', '-j12', '-l12'], 'cwd': '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mihkel'), ('LC_TIME', 'et_EE.UTF-8'), ('ROS_PACKAGE_PATH', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/share'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_slam/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_util/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_rviz_plugins/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/lib:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mihkel'), ('OLDPWD', '/home/mihkel/School/ThesisPractical'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'et_EE.UTF-8'), ('SYSTEMD_EXEC_PID', '5259'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mihkel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/lib/pkgconfig:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mihkel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/bin:/opt/ros/humble/bin:/home/mihkel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mihkel-XPS-15-9500:@/tmp/.ICE-unix/3600,unix/mihkel-XPS-15-9500:/tmp/.ICE-unix/3600'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'et_EE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7b3feb4d_d24e_4798_b047_1ec2b4c3a8fe'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'et_EE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TPQUG2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_ros:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_launch:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_examples:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_demos:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_viz:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_slam:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_util:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_rviz_plugins:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_python:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'et_EE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'et_EE.UTF-8'), ('LC_IDENTIFICATION', 'et_EE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap_python:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_python/lib/python3.10/site-packages:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'et_EE.UTF-8'), ('LC_PAPER', 'et_EE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_ros:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_launch:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_examples:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_demos:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_viz:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_slam:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_util:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_rviz_plugins:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap')]), 'shell': False}
+[14.677494] (-) TimerEvent: {}
+[14.778091] (-) TimerEvent: {}
+[14.878857] (-) TimerEvent: {}
+[14.894579] (rtabmap_msgs) StdoutLine: {'line': b'[  0%] Built target rtabmap_msgs__cpp\n'}
+[14.936324] (rtabmap_msgs) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_copy_rtabmap_msgs\n'}
+[14.979051] (-) TimerEvent: {}
+[15.009063] (rtabmap_msgs) StdoutLine: {'line': b'[ 12%] Built target rtabmap_msgs__rosidl_generator_c\n'}
+[15.079243] (-) TimerEvent: {}
+[15.142111] (rtabmap_msgs) StdoutLine: {'line': b'[ 25%] Built target rtabmap_msgs__rosidl_typesupport_c\n'}
+[15.159975] (rtabmap_msgs) StdoutLine: {'line': b'[ 37%] Built target rtabmap_msgs__rosidl_typesupport_cpp\n'}
+[15.172678] (rtabmap_msgs) StdoutLine: {'line': b'[ 50%] Built target rtabmap_msgs__rosidl_typesupport_introspection_cpp\n'}
+[15.179400] (-) TimerEvent: {}
+[15.183300] (rtabmap_msgs) StdoutLine: {'line': b'[ 63%] Built target rtabmap_msgs__rosidl_typesupport_introspection_c\n'}
+[15.192198] (rtabmap_msgs) StdoutLine: {'line': b'[ 75%] Built target rtabmap_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[15.279578] (-) TimerEvent: {}
+[15.309050] (rtabmap_msgs) StdoutLine: {'line': b'[ 88%] Built target rtabmap_msgs__rosidl_typesupport_fastrtps_c\n'}
+[15.341550] (rtabmap_msgs) StdoutLine: {'line': b'[ 88%] Built target rtabmap_msgs\n'}
+[15.379751] (-) TimerEvent: {}
+[15.381709] (rtabmap_msgs) StdoutLine: {'line': b'[ 88%] Built target rtabmap_msgs__py\n'}
+[15.479922] (-) TimerEvent: {}
+[15.577936] (rtabmap_msgs) StdoutLine: {'line': b'[100%] Built target rtabmap_msgs__rosidl_generator_py\n'}
+[15.580067] (-) TimerEvent: {}
+[15.632616] (rtabmap_msgs) StdoutLine: {'line': b'[100%] Built target rtabmap_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[15.633424] (rtabmap_msgs) StdoutLine: {'line': b'[100%] Built target rtabmap_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[15.633930] (rtabmap_msgs) StdoutLine: {'line': b'[100%] Built target rtabmap_msgs__rosidl_typesupport_c__pyext\n'}
+[15.680264] (-) TimerEvent: {}
+[15.780950] (-) TimerEvent: {}
+[15.855913] (rtabmap) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraFreenect.cpp.o\x1b[0m\n'}
+[15.881122] (-) TimerEvent: {}
+[15.900769] (rtabmap) StderrLine: {'line': b"gmake[2]: *** No rule to make target '/usr/lib/x86_64-linux-gnu/libfreenect.so', needed by 'bin/librtabmap_core.so.0.21.3'.  Stop.\n"}
+[15.901327] (rtabmap) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[15.981316] (-) TimerEvent: {}
+[16.082020] (-) TimerEvent: {}
+[16.182696] (-) TimerEvent: {}
+[16.283228] (-) TimerEvent: {}
+[16.383762] (-) TimerEvent: {}
+[16.455517] (rtabmap_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[16.457913] (rtabmap_msgs) StdoutLine: {'line': b'writing rtabmap_msgs.egg-info/PKG-INFO\n'}
+[16.458569] (rtabmap_msgs) StdoutLine: {'line': b'writing dependency_links to rtabmap_msgs.egg-info/dependency_links.txt\n'}
+[16.461850] (rtabmap_msgs) StdoutLine: {'line': b'writing top-level names to rtabmap_msgs.egg-info/top_level.txt\n'}
+[16.471309] (rtabmap_msgs) StdoutLine: {'line': b"reading manifest file 'rtabmap_msgs.egg-info/SOURCES.txt'\n"}
+[16.475509] (rtabmap_msgs) StdoutLine: {'line': b"writing manifest file 'rtabmap_msgs.egg-info/SOURCES.txt'\n"}
+[16.483958] (-) TimerEvent: {}
+[16.550534] (rtabmap_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_rtabmap_msgs_egg\n'}
+[16.581648] (rtabmap_msgs) CommandEnded: {'returncode': 0}
+[16.584695] (-) TimerEvent: {}
+[16.685634] (-) TimerEvent: {}
+[16.786228] (-) TimerEvent: {}
+[16.886777] (-) TimerEvent: {}
+[16.987365] (-) TimerEvent: {}
+[17.087927] (-) TimerEvent: {}
+[17.172014] (rtabmap) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/corelib/src/camera/CameraFreenect.cpp:34:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Klibfreenect.h: No such file or directory\n'}
+[17.172530] (rtabmap) StderrLine: {'line': b'   34 | #include \x1b[01;31m\x1b[K<libfreenect.h>\x1b[m\x1b[K\n'}
+[17.172796] (rtabmap) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.173034] (rtabmap) StderrLine: {'line': b'compilation terminated.\n'}
+[17.185625] (rtabmap) StderrLine: {'line': b'gmake[2]: *** [corelib/src/CMakeFiles/rtabmap_core.dir/build.make:258: corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraFreenect.cpp.o] Error 1\n'}
+[17.187468] (rtabmap) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:861: corelib/src/CMakeFiles/rtabmap_core.dir/all] Error 2\n'}
+[17.188093] (rtabmap) StderrLine: {'line': b'gmake: *** [Makefile:156: all] Error 2\n'}
+[17.188406] (-) TimerEvent: {}
+[17.208491] (rtabmap) CommandEnded: {'returncode': 2}
+[17.288585] (-) TimerEvent: {}
+[17.389282] (-) TimerEvent: {}
+[17.489971] (-) TimerEvent: {}
+[17.592957] (-) TimerEvent: {}
+[17.693515] (-) TimerEvent: {}
+[17.794955] (-) TimerEvent: {}
+[17.895597] (-) TimerEvent: {}
+[17.996285] (-) TimerEvent: {}
+[18.096936] (-) TimerEvent: {}
+[18.197968] (-) TimerEvent: {}
+[18.297096] (rtabmap) JobEnded: {'identifier': 'rtabmap', 'rc': 2}
+[18.299262] (-) TimerEvent: {}
+[18.399755] (-) TimerEvent: {}
+[18.500664] (-) TimerEvent: {}
+[18.601230] (-) TimerEvent: {}
+[18.701859] (-) TimerEvent: {}
+[18.802409] (-) TimerEvent: {}
+[18.903152] (-) TimerEvent: {}
+[19.003680] (-) TimerEvent: {}
+[19.104493] (-) TimerEvent: {}
+[19.205205] (-) TimerEvent: {}
+[19.290561] (rtabmap_msgs) JobEnded: {'identifier': 'rtabmap_msgs', 'rc': 'SIGINT'}
+[19.302304] (rtabmap_conversions) JobSkipped: {'identifier': 'rtabmap_conversions'}
+[19.302595] (rtabmap_rviz_plugins) JobSkipped: {'identifier': 'rtabmap_rviz_plugins'}
+[19.302703] (rtabmap_sync) JobSkipped: {'identifier': 'rtabmap_sync'}
+[19.302776] (rtabmap_util) JobSkipped: {'identifier': 'rtabmap_util'}
+[19.302840] (rtabmap_odom) JobSkipped: {'identifier': 'rtabmap_odom'}
+[19.302902] (rtabmap_slam) JobSkipped: {'identifier': 'rtabmap_slam'}
+[19.302962] (rtabmap_viz) JobSkipped: {'identifier': 'rtabmap_viz'}
+[19.303022] (rtabmap_demos) JobSkipped: {'identifier': 'rtabmap_demos'}
+[19.303081] (rtabmap_examples) JobSkipped: {'identifier': 'rtabmap_examples'}
+[19.303144] (rtabmap_launch) JobSkipped: {'identifier': 'rtabmap_launch'}
+[19.303206] (rtabmap_ros) JobSkipped: {'identifier': 'rtabmap_ros'}
+[19.303271] (-) EventReactorShutdown: {}

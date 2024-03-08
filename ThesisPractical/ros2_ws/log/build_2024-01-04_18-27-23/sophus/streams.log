@@ -1,0 +1,62 @@
+[0.696s] Invoking command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/sophus': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ThesisPractical/ros2_ws/build/sophus -- -j12 -l12
+[0.883s] [  3%] [32mBuilding CXX object test/core/CMakeFiles/test_cartesian2.dir/test_cartesian2.cpp.o[0m
+[0.888s] [  7%] [32mBuilding CXX object test/core/CMakeFiles/test_so2.dir/test_so2.cpp.o[0m
+[0.891s] [ 14%] [32mBuilding CXX object test/core/CMakeFiles/test_rxso2.dir/test_rxso2.cpp.o[0m
+[0.892s] [ 14%] [32mBuilding CXX object test/core/CMakeFiles/test_sim2.dir/test_sim2.cpp.o[0m
+[0.897s] [ 17%] [32mBuilding CXX object test/core/CMakeFiles/test_se2.dir/test_se2.cpp.o[0m
+[0.905s] [ 21%] [32mBuilding CXX object test/core/CMakeFiles/test_cartesian3.dir/test_cartesian3.cpp.o[0m
+[0.932s] [ 25%] [32mBuilding CXX object test/core/CMakeFiles/test_so3.dir/test_so3.cpp.o[0m
+[0.947s] [ 32%] Built target test_common
+[0.956s] [ 35%] [32mBuilding CXX object test/core/CMakeFiles/test_se3.dir/test_se3.cpp.o[0m
+[0.999s] [ 39%] [32mBuilding CXX object test/core/CMakeFiles/test_rxso3.dir/test_rxso3.cpp.o[0m
+[1.081s] [ 50%] [32mBuilding CXX object test/core/CMakeFiles/test_sim3.dir/test_sim3.cpp.o[0m
+[1.083s] [ 50%] Built target test_velocities
+[1.090s] [ 53%] [32mBuilding CXX object test/core/CMakeFiles/test_geometry.dir/test_geometry.cpp.o[0m
+[1.162s] [ 57%] [32mBuilding CXX object examples/CMakeFiles/HelloSO3.dir/HelloSO3.cpp.o[0m
+[19.187s] [ 60%] [32m[1mLinking CXX executable HelloSO3[0m
+[19.538s] [ 60%] Built target HelloSO3
+[19.703s] gmake[2]: *** [test/core/CMakeFiles/test_rxso3.dir/build.make:76: test/core/CMakeFiles/test_rxso3.dir/test_rxso3.cpp.o] Interrupt
+[19.709s] gmake[2]: *** [test/core/CMakeFiles/test_sim2.dir/build.make:76: test/core/CMakeFiles/test_sim2.dir/test_sim2.cpp.o] Interrupt
+[19.709s] gmake[2]: *** [test/core/CMakeFiles/test_se3.dir/build.make:76: test/core/CMakeFiles/test_se3.dir/test_se3.cpp.o] Interrupt
+[19.710s] gmake[2]: *** wait: No child processes.  Stop.
+[19.710s] gmake[2]: *** wait: No child processes.  Stop.
+[19.710s] gmake[1]: *** [CMakeFiles/Makefile2:408: test/core/CMakeFiles/test_se3.dir/all] Interrupt
+[19.711s] Traceback (most recent call last):
+[19.711s] gmake[2]: *** [test/core/CMakeFiles/test_rxso2.dir/build.make:76: test/core/CMakeFiles/test_rxso2.dir/test_rxso2.cpp.o] Interrupt
+[19.711s] gmake[2]: *** [test/core/CMakeFiles/test_geometry.dir/build.make:76: test/core/CMakeFiles/test_geometry.dir/test_geometry.cpp.o] Interrupt
+[19.711s] gmake[2]: *** [test/core/CMakeFiles/test_so3.dir/build.make:76: test/core/CMakeFiles/test_so3.dir/test_so3.cpp.o] Interrupt
+[19.712s] gmake[2]: *** [test/core/CMakeFiles/test_sim3.dir/build.make:76: test/core/CMakeFiles/test_sim3.dir/test_sim3.cpp.o] Interrupt
+[19.712s] gmake[1]: *** [CMakeFiles/Makefile2:330: test/core/CMakeFiles/test_rxso2.dir/all] Interrupt
+[19.712s]   File "/home/mihkel/.local/bin/cmake", line 8, in <module>
+[19.713s]     sys.exit(cmake())
+[19.713s] gmake[1]: *** [CMakeFiles/Makefile2:382: test/core/CMakeFiles/test_so3.dir/all] Interrupt
+[19.713s] gmake[1]: *** [CMakeFiles/Makefile2:434: test/core/CMakeFiles/test_rxso3.dir/all] Interrupt
+[19.713s] gmake[1]: *** [CMakeFiles/Makefile2:460: test/core/CMakeFiles/test_sim3.dir/all] Interrupt
+[19.714s] gmake[1]: *** [CMakeFiles/Makefile2:512: test/core/CMakeFiles/test_geometry.dir/all] Interrupt
+[19.714s] gmake[2]: *** Waiting for unfinished jobs....
+[19.714s] gmake[2]: *** [test/core/CMakeFiles/test_se2.dir/build.make:76: test/core/CMakeFiles/test_se2.dir/test_se2.cpp.o] Interrupt
+[19.720s] gmake[1]: *** [CMakeFiles/Makefile2:304: test/core/CMakeFiles/test_se2.dir/all] Interrupt
+[19.720s] gmake[2]: *** Waiting for unfinished jobs....
+[19.720s] gmake[2]: *** wait: No child processes.  Stop.
+[19.721s] gmake[2]: *** wait: No child processes.  Stop.
+[19.721s]   File "/home/mihkel/.local/lib/python3.10/site-packages/cmake/__init__.py", line 47, in cmake
+[19.721s] gmake[2]: *** [test/core/CMakeFiles/test_so2.dir/build.make:76: test/core/CMakeFiles/test_so2.dir/test_so2.cpp.o] Interrupt
+[19.721s]     raise SystemExit(_program('cmake', sys.argv[1:]))
+[19.726s] gmake[1]: *** [CMakeFiles/Makefile2:226: test/core/CMakeFiles/test_cartesian2.dir/all] Error 2
+[19.727s] gmake[1]: *** [CMakeFiles/Makefile2:278: test/core/CMakeFiles/test_so2.dir/all] Interrupt
+[19.727s]   File "/home/mihkel/.local/lib/python3.10/site-packages/cmake/__init__.py", line 43, in _program
+[19.727s]     return subprocess.call([os.path.join(CMAKE_BIN_DIR, name)] + args, close_fds=False)
+[19.728s]   File "/usr/lib/python3.10/subprocess.py", line 347, in call
+[19.728s] gmake[1]: *** [CMakeFiles/Makefile2:252: test/core/CMakeFiles/test_cartesian3.dir/all] Error 2
+[19.728s] gmake[1]: *** wait: No child processes.  Stop.
+[19.728s] gmake[1]: *** Waiting for unfinished jobs....
+[19.729s] gmake[1]: *** wait: No child processes.  Stop.
+[19.729s] gmake: *** [Makefile:146: all] Error 2
+[19.729s]     return p.wait(timeout=timeout)
+[19.729s]   File "/usr/lib/python3.10/subprocess.py", line 1209, in wait
+[19.730s]     return self._wait(timeout=timeout)
+[19.730s]   File "/usr/lib/python3.10/subprocess.py", line 1959, in _wait
+[19.730s]     (pid, sts) = self._try_wait(0)
+[19.730s]   File "/usr/lib/python3.10/subprocess.py", line 1917, in _try_wait
+[19.731s]     (pid, sts) = os.waitpid(self.pid, wait_flags)
+[19.731s] KeyboardInterrupt

@@ -1,0 +1,14 @@
+# Target labels
+ libcurl
+# Source files and their labels
+/home/mihkel/School/ThesisPractical/librealsense/build/CMakeFiles/libcurl
+/home/mihkel/School/ThesisPractical/librealsense/build/CMakeFiles/libcurl.rule
+/home/mihkel/School/ThesisPractical/librealsense/build/CMakeFiles/libcurl-complete.rule
+/home/mihkel/School/ThesisPractical/librealsense/build/libcurl/src/libcurl-stamp/libcurl-build.rule
+/home/mihkel/School/ThesisPractical/librealsense/build/libcurl/src/libcurl-stamp/libcurl-configure.rule
+/home/mihkel/School/ThesisPractical/librealsense/build/libcurl/src/libcurl-stamp/libcurl-download.rule
+/home/mihkel/School/ThesisPractical/librealsense/build/libcurl/src/libcurl-stamp/libcurl-install.rule
+/home/mihkel/School/ThesisPractical/librealsense/build/libcurl/src/libcurl-stamp/libcurl-mkdir.rule
+/home/mihkel/School/ThesisPractical/librealsense/build/libcurl/src/libcurl-stamp/libcurl-patch.rule
+/home/mihkel/School/ThesisPractical/librealsense/build/libcurl/src/libcurl-stamp/libcurl-test.rule
+/home/mihkel/School/ThesisPractical/librealsense/build/libcurl/src/libcurl-stamp/libcurl-update.rule

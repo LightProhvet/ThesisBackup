@@ -1,0 +1,10 @@
+-I/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap_ros/rtabmap_rviz_plugins/include
+-I/opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE
+-DROS_PACKAGE_NAME="rtabmap_rviz_plugins"
+-DDISABLE_PCAP
+-DDISABLE_PNG
+-DEIGEN_FUNCTORS_PLUGIN="grid_map_core/eigen_plugins/FunctorsPlugin.hpp"
+-DEIGEN_DENSEBASE_PLUGIN="grid_map_core/eigen_plugins/DenseBasePlugin.hpp"
+-o
+/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap_rviz_plugins/include/rtabmap_rviz_plugins/moc_InfoDisplay.cpp
+/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap_ros/rtabmap_rviz_plugins/include/rtabmap_rviz_plugins/InfoDisplay.h

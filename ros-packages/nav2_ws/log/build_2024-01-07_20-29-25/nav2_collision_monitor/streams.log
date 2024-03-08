@@ -1,0 +1,128 @@
+[0.351s] Invoking command in '/home/mihkel/School/ros-packages/nav2_ws/build/nav2_collision_monitor': AMENT_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:/opt/ros/humble LD_LIBRARY_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bond/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/smclib/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/mihkel/.local/bin/cmake /home/mihkel/School/ros-packages/nav2_ws/src/navigation2/nav2_collision_monitor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_collision_monitor
+[0.604s] -- The C compiler identification is GNU 11.4.0
+[0.790s] -- The CXX compiler identification is GNU 11.4.0
+[0.839s] -- Detecting C compiler ABI info
+[1.028s] -- Detecting C compiler ABI info - done
+[1.072s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.073s] -- Detecting C compile features
+[1.075s] -- Detecting C compile features - done
+[1.104s] -- Detecting CXX compiler ABI info
+[1.333s] -- Detecting CXX compiler ABI info - done
+[1.381s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.382s] -- Detecting CXX compile features
+[1.384s] -- Detecting CXX compile features - done
+[1.395s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.543s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[5.791s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.920s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[6.128s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.154s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.197s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.268s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.374s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.734s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.747s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.169s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.301s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.506s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.552s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.747s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.751s] -- Found Threads: TRUE  
+[8.525s] -- Found rclcpp_components: 16.0.7 (/opt/ros/humble/share/rclcpp_components/cmake)
+[8.859s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[9.465s] -- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)
+[9.507s] -- Found tf2_ros: 0.25.5 (/opt/ros/humble/share/tf2_ros/cmake)
+[10.743s] -- Found tf2_geometry_msgs: 0.25.5 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[10.809s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[10.815s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[10.816s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[10.859s] -- Found nav2_common: 1.1.12 (/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/share/nav2_common/cmake)
+[10.861s] -- Found nav2_util: 1.1.12 (/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/share/nav2_util/cmake)
+[13.377s] -- Found nav2_costmap_2d: 1.1.12 (/home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake)
+[18.378s] -- Setting build type to Release as none was specified.
+[34.775s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[35.131s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[67.299s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[67.302s] -- Configured cppcheck include dirs: /home/mihkel/School/ros-packages/nav2_ws/src/navigation2/nav2_collision_monitor/include
+[67.303s] -- Configured cppcheck exclude dirs and/or files: 
+[67.305s] -- Added test 'flake8' to check Python code syntax and style conventions
+[67.307s] -- Added test 'lint_cmake' to check CMake code style
+[67.310s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[67.316s] -- Added test 'uncrustify' to check C / C++ code style
+[67.316s] -- Configured uncrustify additional arguments: 
+[67.318s] -- Added test 'xmllint' to check XML markup files
+[67.331s] -- Configuring done (66.9s)
+[68.129s] -- Generating done (0.6s)
+[68.139s] -- Build files have been written to: /home/mihkel/School/ros-packages/nav2_ws/build/nav2_collision_monitor
+[68.195s] Invoked command in '/home/mihkel/School/ros-packages/nav2_ws/build/nav2_collision_monitor' returned '0': AMENT_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:/opt/ros/humble LD_LIBRARY_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bond/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/smclib/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/mihkel/.local/bin/cmake /home/mihkel/School/ros-packages/nav2_ws/src/navigation2/nav2_collision_monitor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_collision_monitor
+[68.202s] Invoking command in '/home/mihkel/School/ros-packages/nav2_ws/build/nav2_collision_monitor': AMENT_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:/opt/ros/humble LD_LIBRARY_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bond/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/smclib/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ros-packages/nav2_ws/build/nav2_collision_monitor -- -j12 -l12
+[68.373s] [  4%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[68.373s] [  8%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[68.377s] [ 13%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/collision_monitor_node.cpp.o[0m
+[68.378s] [ 17%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/polygon.cpp.o[0m
+[68.379s] [ 21%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/circle.cpp.o[0m
+[68.381s] [ 26%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/source.cpp.o[0m
+[68.381s] [ 30%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/scan.cpp.o[0m
+[68.382s] [ 34%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/pointcloud.cpp.o[0m
+[68.383s] [ 39%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/range.cpp.o[0m
+[68.384s] [ 43%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/kinematics.cpp.o[0m
+[73.825s] [ 47%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[73.897s] [ 47%] Built target gtest_main
+[99.050s] [ 52%] [32m[1mLinking CXX static library libgtest.a[0m
+[99.117s] [ 52%] Built target gtest
+[116.107s] [ 56%] [32m[1mLinking CXX shared library libcollision_monitor_core.so[0m
+[117.452s] [ 56%] Built target collision_monitor_core
+[117.487s] [ 60%] [32mBuilding CXX object CMakeFiles/collision_monitor.dir/src/main.cpp.o[0m
+[117.489s] [ 65%] [32mBuilding CXX object test/CMakeFiles/kinematics_test.dir/kinematics_test.cpp.o[0m
+[117.489s] [ 69%] [32mBuilding CXX object test/CMakeFiles/sources_test.dir/sources_test.cpp.o[0m
+[117.490s] [ 73%] [32mBuilding CXX object test/CMakeFiles/polygons_test.dir/polygons_test.cpp.o[0m
+[117.490s] [ 78%] [32mBuilding CXX object test/CMakeFiles/collision_monitor_node_test.dir/collision_monitor_node_test.cpp.o[0m
+[130.213s] [ 82%] [32m[1mLinking CXX executable kinematics_test[0m
+[131.231s] [ 86%] [32m[1mLinking CXX executable collision_monitor[0m
+[131.549s] [ 86%] Built target kinematics_test
+[132.157s] [ 86%] Built target collision_monitor
+[152.364s] [ 91%] [32m[1mLinking CXX executable sources_test[0m
+[153.855s] [ 91%] Built target sources_test
+[166.326s] [ 95%] [32m[1mLinking CXX executable polygons_test[0m
+[167.841s] [ 95%] Built target polygons_test
+[179.464s] [100%] [32m[1mLinking CXX executable collision_monitor_node_test[0m
+[181.056s] [100%] Built target collision_monitor_node_test
+[181.085s] Invoked command in '/home/mihkel/School/ros-packages/nav2_ws/build/nav2_collision_monitor' returned '0': AMENT_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:/opt/ros/humble LD_LIBRARY_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bond/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/smclib/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ros-packages/nav2_ws/build/nav2_collision_monitor -- -j12 -l12
+[181.307s] Invoking command in '/home/mihkel/School/ros-packages/nav2_ws/build/nav2_collision_monitor': AMENT_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:/opt/ros/humble LD_LIBRARY_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bond/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/smclib/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/mihkel/.local/bin/cmake --install /home/mihkel/School/ros-packages/nav2_ws/build/nav2_collision_monitor
+[181.406s] -- Install configuration: "Release"
+[181.408s] -- Execute custom install script
+[181.409s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_collision_monitor/lib/libcollision_monitor_core.so
+[181.419s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_collision_monitor/lib/nav2_collision_monitor/collision_monitor
+[181.430s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/circle.hpp
+[181.438s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/collision_monitor_node.hpp
+[181.447s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/kinematics.hpp
+[181.456s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/pointcloud.hpp
+[181.465s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/polygon.hpp
+[181.473s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/range.hpp
+[181.482s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/scan.hpp
+[181.491s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/source.hpp
+[181.500s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/types.hpp
+[181.510s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/launch/collision_monitor_node.launch.py
+[181.520s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/params/collision_monitor_params.yaml
+[181.529s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/library_path.sh
+[181.538s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/library_path.dsv
+[181.548s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_collision_monitor/share/ament_index/resource_index/package_run_dependencies/nav2_collision_monitor
+[181.557s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_collision_monitor/share/ament_index/resource_index/parent_prefix_path/nav2_collision_monitor
+[181.566s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/ament_prefix_path.sh
+[181.574s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/ament_prefix_path.dsv
+[181.583s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/path.sh
+[181.592s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/path.dsv
+[181.602s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/local_setup.bash
+[181.611s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/local_setup.sh
+[181.621s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/local_setup.zsh
+[181.630s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/local_setup.dsv
+[181.639s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/package.dsv
+[181.649s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_collision_monitor/share/ament_index/resource_index/packages/nav2_collision_monitor
+[181.657s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_collision_monitor/share/ament_index/resource_index/rclcpp_components/nav2_collision_monitor
+[181.667s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/ament_cmake_export_include_directories-extras.cmake
+[181.675s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/ament_cmake_export_libraries-extras.cmake
+[181.684s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/ament_cmake_export_dependencies-extras.cmake
+[181.694s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/nav2_collision_monitorConfig.cmake
+[181.703s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/nav2_collision_monitorConfig-version.cmake
+[181.712s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/package.xml
+[181.743s] Invoked command in '/home/mihkel/School/ros-packages/nav2_ws/build/nav2_collision_monitor' returned '0': AMENT_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:/opt/ros/humble LD_LIBRARY_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_costmap_2d/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_voxel_grid/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bond/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/smclib/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/mihkel/.local/bin/cmake --install /home/mihkel/School/ros-packages/nav2_ws/build/nav2_collision_monitor

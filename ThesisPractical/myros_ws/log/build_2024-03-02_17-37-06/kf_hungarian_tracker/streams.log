@@ -1,0 +1,72 @@
+[5.091s] Invoking command in '/home/mihkel/School/ThesisPractical/myros_ws/src/navigation2_dynamic/kf_hungarian_tracker': AMENT_PREFIX_PATH=/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs LD_LIBRARY_PATH=/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mihkel/School/ThesisPractical/myros_ws/build/kf_hungarian_tracker/prefix_override:/home/mihkel/School/ThesisPractical/myros_ws/install/kf_hungarian_tracker/lib/python3.10/site-packages:/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/kf_hungarian_tracker build --build-base /home/mihkel/School/ThesisPractical/myros_ws/build/kf_hungarian_tracker/build install --record /home/mihkel/School/ThesisPractical/myros_ws/build/kf_hungarian_tracker/install.log --install-scripts $base/lib/kf_hungarian_tracker --single-version-externally-managed
+[5.580s] /home/mihkel/.local/lib/python3.10/site-packages/setuptools/dist.py:472: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[5.581s] !!
+[5.581s] 
+[5.581s]         ********************************************************************************
+[5.581s]         Usage of dash-separated 'script-dir' will not be supported in future
+[5.582s]         versions. Please use the underscore name 'script_dir' instead.
+[5.582s] 
+[5.582s]         By 2024-Sep-26, you need to update your project and remove deprecated calls
+[5.582s]         or your builds will no longer be supported.
+[5.583s] 
+[5.583s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[5.583s]         ********************************************************************************
+[5.583s] 
+[5.584s] !!
+[5.584s]   opt = self.warn_dash_deprecation(opt, section)
+[6.255s] running egg_info
+[6.256s] creating ../../../build/kf_hungarian_tracker/kf_hungarian_tracker.egg-info
+[6.351s] writing ../../../build/kf_hungarian_tracker/kf_hungarian_tracker.egg-info/PKG-INFO
+[6.352s] writing dependency_links to ../../../build/kf_hungarian_tracker/kf_hungarian_tracker.egg-info/dependency_links.txt
+[6.353s] writing entry points to ../../../build/kf_hungarian_tracker/kf_hungarian_tracker.egg-info/entry_points.txt
+[6.353s] writing requirements to ../../../build/kf_hungarian_tracker/kf_hungarian_tracker.egg-info/requires.txt
+[6.354s] writing top-level names to ../../../build/kf_hungarian_tracker/kf_hungarian_tracker.egg-info/top_level.txt
+[6.355s] writing manifest file '../../../build/kf_hungarian_tracker/kf_hungarian_tracker.egg-info/SOURCES.txt'
+[6.640s] reading manifest file '../../../build/kf_hungarian_tracker/kf_hungarian_tracker.egg-info/SOURCES.txt'
+[6.644s] writing manifest file '../../../build/kf_hungarian_tracker/kf_hungarian_tracker.egg-info/SOURCES.txt'
+[6.645s] running build
+[6.645s] running build_py
+[6.646s] creating /home/mihkel/School/ThesisPractical/myros_ws/build/kf_hungarian_tracker/build
+[6.647s] creating /home/mihkel/School/ThesisPractical/myros_ws/build/kf_hungarian_tracker/build/lib
+[6.647s] creating /home/mihkel/School/ThesisPractical/myros_ws/build/kf_hungarian_tracker/build/lib/kf_hungarian_tracker
+[6.649s] copying kf_hungarian_tracker/kf_hungarian_node.py -> /home/mihkel/School/ThesisPractical/myros_ws/build/kf_hungarian_tracker/build/lib/kf_hungarian_tracker
+[6.649s] copying kf_hungarian_tracker/obstacle_class.py -> /home/mihkel/School/ThesisPractical/myros_ws/build/kf_hungarian_tracker/build/lib/kf_hungarian_tracker
+[6.650s] copying kf_hungarian_tracker/__init__.py -> /home/mihkel/School/ThesisPractical/myros_ws/build/kf_hungarian_tracker/build/lib/kf_hungarian_tracker
+[6.651s] running install
+[6.652s] /home/mihkel/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[6.652s] !!
+[6.653s] 
+[6.653s]         ********************************************************************************
+[6.654s]         Please avoid running ``setup.py`` directly.
+[6.654s]         Instead, use pypa/build, pypa/installer or other
+[6.654s]         standards-based tools.
+[6.655s] 
+[6.655s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[6.656s]         ********************************************************************************
+[6.656s] 
+[6.657s] !!
+[6.657s]   self.initialize_options()
+[6.669s] running install_lib
+[6.765s] creating /home/mihkel/School/ThesisPractical/myros_ws/install/kf_hungarian_tracker/lib/python3.10/site-packages/kf_hungarian_tracker
+[6.766s] copying /home/mihkel/School/ThesisPractical/myros_ws/build/kf_hungarian_tracker/build/lib/kf_hungarian_tracker/kf_hungarian_node.py -> /home/mihkel/School/ThesisPractical/myros_ws/install/kf_hungarian_tracker/lib/python3.10/site-packages/kf_hungarian_tracker
+[6.766s] copying /home/mihkel/School/ThesisPractical/myros_ws/build/kf_hungarian_tracker/build/lib/kf_hungarian_tracker/obstacle_class.py -> /home/mihkel/School/ThesisPractical/myros_ws/install/kf_hungarian_tracker/lib/python3.10/site-packages/kf_hungarian_tracker
+[6.766s] copying /home/mihkel/School/ThesisPractical/myros_ws/build/kf_hungarian_tracker/build/lib/kf_hungarian_tracker/__init__.py -> /home/mihkel/School/ThesisPractical/myros_ws/install/kf_hungarian_tracker/lib/python3.10/site-packages/kf_hungarian_tracker
+[6.768s] byte-compiling /home/mihkel/School/ThesisPractical/myros_ws/install/kf_hungarian_tracker/lib/python3.10/site-packages/kf_hungarian_tracker/kf_hungarian_node.py to kf_hungarian_node.cpython-310.pyc
+[6.775s] byte-compiling /home/mihkel/School/ThesisPractical/myros_ws/install/kf_hungarian_tracker/lib/python3.10/site-packages/kf_hungarian_tracker/obstacle_class.py to obstacle_class.cpython-310.pyc
+[6.778s] byte-compiling /home/mihkel/School/ThesisPractical/myros_ws/install/kf_hungarian_tracker/lib/python3.10/site-packages/kf_hungarian_tracker/__init__.py to __init__.cpython-310.pyc
+[6.778s] running install_data
+[6.873s] creating /home/mihkel/School/ThesisPractical/myros_ws/install/kf_hungarian_tracker/share/ament_index
+[6.873s] creating /home/mihkel/School/ThesisPractical/myros_ws/install/kf_hungarian_tracker/share/ament_index/resource_index
+[6.874s] creating /home/mihkel/School/ThesisPractical/myros_ws/install/kf_hungarian_tracker/share/ament_index/resource_index/packages
+[6.874s] copying resource/kf_hungarian_tracker -> /home/mihkel/School/ThesisPractical/myros_ws/install/kf_hungarian_tracker/share/ament_index/resource_index/packages
+[6.875s] copying package.xml -> /home/mihkel/School/ThesisPractical/myros_ws/install/kf_hungarian_tracker/share/kf_hungarian_tracker
+[6.875s] creating /home/mihkel/School/ThesisPractical/myros_ws/install/kf_hungarian_tracker/share/kf_hungarian_tracker/config
+[6.875s] copying config/kf_hungarian.yaml -> /home/mihkel/School/ThesisPractical/myros_ws/install/kf_hungarian_tracker/share/kf_hungarian_tracker/config
+[6.876s] creating /home/mihkel/School/ThesisPractical/myros_ws/install/kf_hungarian_tracker/share/kf_hungarian_tracker/launch
+[6.876s] copying launch/kf_hungarian.launch.py -> /home/mihkel/School/ThesisPractical/myros_ws/install/kf_hungarian_tracker/share/kf_hungarian_tracker/launch
+[6.876s] running install_egg_info
+[6.974s] Copying ../../../build/kf_hungarian_tracker/kf_hungarian_tracker.egg-info to /home/mihkel/School/ThesisPractical/myros_ws/install/kf_hungarian_tracker/lib/python3.10/site-packages/kf_hungarian_tracker-0.0.1-py3.10.egg-info
+[6.978s] running install_scripts
+[7.761s] Installing kf_hungarian_node script to /home/mihkel/School/ThesisPractical/myros_ws/install/kf_hungarian_tracker/lib/kf_hungarian_tracker
+[7.762s] writing list of installed files to '/home/mihkel/School/ThesisPractical/myros_ws/build/kf_hungarian_tracker/install.log'
+[7.848s] Invoked command in '/home/mihkel/School/ThesisPractical/myros_ws/src/navigation2_dynamic/kf_hungarian_tracker' returned '0': AMENT_PREFIX_PATH=/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs LD_LIBRARY_PATH=/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mihkel/School/ThesisPractical/myros_ws/build/kf_hungarian_tracker/prefix_override:/home/mihkel/School/ThesisPractical/myros_ws/install/kf_hungarian_tracker/lib/python3.10/site-packages:/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/kf_hungarian_tracker build --build-base /home/mihkel/School/ThesisPractical/myros_ws/build/kf_hungarian_tracker/build install --record /home/mihkel/School/ThesisPractical/myros_ws/build/kf_hungarian_tracker/install.log --install-scripts $base/lib/kf_hungarian_tracker --single-version-externally-managed

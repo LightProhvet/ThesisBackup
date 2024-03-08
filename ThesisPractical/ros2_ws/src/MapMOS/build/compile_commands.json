@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/build",
+  "command": "/usr/bin/c++ -DSOPHUS_USE_BASIC_LOGGING=1 -Dmapmos_pybind_EXPORTS -isystem /usr/include/python3.10 -isystem /home/mihkel/.local/lib/python3.10/site-packages/pybind11/include -isystem /usr/include/eigen3 -isystem /home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/build/_deps/tessil-src/include -isystem /home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/build/_deps/sophus-src -O3 -DNDEBUG -fPIC -fvisibility=hidden -flto -fno-fat-lto-objects -o CMakeFiles/mapmos_pybind.dir/mapmos_pybind.cpp.o -c /home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/src/mapmos/pybind/mapmos_pybind.cpp",
+  "file": "/home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/src/mapmos/pybind/mapmos_pybind.cpp",
+  "output": "CMakeFiles/mapmos_pybind.dir/mapmos_pybind.cpp.o"
+},
+{
+  "directory": "/home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/build",
+  "command": "/usr/bin/c++ -DSOPHUS_USE_BASIC_LOGGING=1 -Dmapmos_pybind_EXPORTS -isystem /usr/include/python3.10 -isystem /home/mihkel/.local/lib/python3.10/site-packages/pybind11/include -isystem /usr/include/eigen3 -isystem /home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/build/_deps/tessil-src/include -isystem /home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/build/_deps/sophus-src -O3 -DNDEBUG -fPIC -fvisibility=hidden -flto -fno-fat-lto-objects -o CMakeFiles/mapmos_pybind.dir/VoxelHashMap.cpp.o -c /home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/src/mapmos/pybind/VoxelHashMap.cpp",
+  "file": "/home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/src/mapmos/pybind/VoxelHashMap.cpp",
+  "output": "CMakeFiles/mapmos_pybind.dir/VoxelHashMap.cpp.o"
+},
+{
+  "directory": "/home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/build",
+  "command": "/usr/bin/c++ -DSOPHUS_USE_BASIC_LOGGING=1 -Dmapmos_pybind_EXPORTS -isystem /usr/include/python3.10 -isystem /home/mihkel/.local/lib/python3.10/site-packages/pybind11/include -isystem /usr/include/eigen3 -isystem /home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/build/_deps/tessil-src/include -isystem /home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/build/_deps/sophus-src -O3 -DNDEBUG -fPIC -fvisibility=hidden -flto -fno-fat-lto-objects -o CMakeFiles/mapmos_pybind.dir/Registration.cpp.o -c /home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/src/mapmos/pybind/Registration.cpp",
+  "file": "/home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/src/mapmos/pybind/Registration.cpp",
+  "output": "CMakeFiles/mapmos_pybind.dir/Registration.cpp.o"
+}
+]

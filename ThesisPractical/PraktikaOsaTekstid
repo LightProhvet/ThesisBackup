@@ -1,0 +1,7 @@
+ros - ros2 integreerimine.
+
+Mitmed olemasolevad lahendused olid ros1-s. Lisaks aegunud tarkvarale (nt rospy üleminek rclpy peale) on paljudes ros1 lahendustes kasutatud ka aegunud praktikaid. Üks selline oli teemade (topic) määramine parameetrite asemel. Tänapäeval eelistatakse ümberkaardistamist tundmatute teemadega tegelemiseks. (https://answers.ros.org/question/342777/is-it-correct-to-set-topic-names-from-parameters/)
+
+Ros2 arhitektuur on aga samuti muutunud (siia oleks vaja viidet täpsemale), ning mõned kontseptsioonid ei toiminud uues arhitektuuris üldse. (rate, sleep, globaalsed parameetrid[https://docs.ros.org/en/humble/How-To-Guides/Migrating-from-ROS1/Migrating-Launch-Files.html, https://docs.ros.org/en/humble/Concepts/Basic/About-Parameters.html]) 	
+
+Djikstra algoritm (ja alternatiivid, nt Star(?) algoritm?), Nav2 ülesehitus, Monoliitilised ja kihilised kulukaardid [https://vimeo.com/106994708] 

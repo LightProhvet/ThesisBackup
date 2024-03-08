@@ -1,0 +1,45 @@
+[0.296s] Invoking command in '/home/mihkel/School/ros-packages/nav2_ws/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ros-packages/nav2_ws/build/nav2_common -- -j12 -l12
+[0.440s] Built target ament_cmake_python_symlink_nav2_common
+[1.861s] running egg_info
+[1.863s] writing nav2_common.egg-info/PKG-INFO
+[1.864s] writing dependency_links to nav2_common.egg-info/dependency_links.txt
+[1.867s] writing top-level names to nav2_common.egg-info/top_level.txt
+[1.875s] reading manifest file 'nav2_common.egg-info/SOURCES.txt'
+[1.878s] writing manifest file 'nav2_common.egg-info/SOURCES.txt'
+[1.952s] Built target ament_cmake_python_build_nav2_common_egg
+[1.982s] Invoked command in '/home/mihkel/School/ros-packages/nav2_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ros-packages/nav2_ws/build/nav2_common -- -j12 -l12
+[2.131s] Invoking command in '/home/mihkel/School/ros-packages/nav2_ws/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --install /home/mihkel/School/ros-packages/nav2_ws/build/nav2_common
+[2.230s] -- Install configuration: ""
+[2.232s] -- Execute custom install script
+[2.233s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/share/nav2_common/environment/pythonpath.sh
+[2.233s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/share/nav2_common/environment/pythonpath.dsv
+[2.235s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.12-py3.10.egg-info/PKG-INFO
+[2.236s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.12-py3.10.egg-info/SOURCES.txt
+[2.236s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.12-py3.10.egg-info/dependency_links.txt
+[2.237s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.12-py3.10.egg-info/top_level.txt
+[2.238s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/__init__.py
+[2.239s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/__init__.py
+[2.239s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/has_node_params.py
+[2.240s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/parse_multirobot_pose.py
+[2.240s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/replace_string.py
+[2.240s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/rewritten_yaml.py
+[2.241s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/share/ament_index/resource_index/package_run_dependencies/nav2_common
+[2.241s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/share/ament_index/resource_index/parent_prefix_path/nav2_common
+[2.242s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/share/nav2_common/environment/ament_prefix_path.sh
+[2.244s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/share/nav2_common/environment/ament_prefix_path.dsv
+[2.244s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/share/nav2_common/environment/path.sh
+[2.244s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/share/nav2_common/environment/path.dsv
+[2.245s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/share/nav2_common/local_setup.bash
+[2.245s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/share/nav2_common/local_setup.sh
+[2.246s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/share/nav2_common/local_setup.zsh
+[2.246s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/share/nav2_common/local_setup.dsv
+[2.247s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/share/nav2_common/package.dsv
+[2.256s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/share/ament_index/resource_index/packages/nav2_common
+[2.257s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/share/nav2_common/cmake/nav2_common-extras.cmake
+[2.258s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig.cmake
+[2.258s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig-version.cmake
+[2.259s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/share/nav2_common/package.xml
+[2.260s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/share/nav2_common/cmake/nav2_package.cmake
+[2.396s] Listing '/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common'...
+[2.397s] Listing '/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch'...
+[2.688s] Invoked command in '/home/mihkel/School/ros-packages/nav2_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --install /home/mihkel/School/ros-packages/nav2_ws/build/nav2_common

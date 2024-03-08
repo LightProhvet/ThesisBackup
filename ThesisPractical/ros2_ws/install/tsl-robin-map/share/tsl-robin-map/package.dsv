@@ -1,0 +1,3 @@
+source;share/tsl-robin-map/hook/cmake_prefix_path.ps1
+source;share/tsl-robin-map/hook/cmake_prefix_path.dsv
+source;share/tsl-robin-map/hook/cmake_prefix_path.sh

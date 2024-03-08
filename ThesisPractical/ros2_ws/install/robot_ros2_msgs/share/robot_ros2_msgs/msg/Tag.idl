@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robot_ros2_msgs/msg/Tag.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "std_msgs/msg/Header.idl"
+
+module robot_ros2_msgs {
+  module msg {
+    struct Tag {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "distance to the next tag")
+      float distance;
+
+      @verbatim (language="comment", text=
+        "pose of the tag in world frame")
+      geometry_msgs::msg::Pose pose;
+
+      @verbatim (language="comment", text=
+        "specifies the floor at which tag is located")
+      int16 floor;
+
+      @verbatim (language="comment", text=
+        "number that specifies tag")
+      int16 id;
+    };
+  };
+};

@@ -1,0 +1,56 @@
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/lark/visitors.py", line 107, in _call_userfunc
+Traceback (most recent call last):
+  File "/home/mihkel/.local/bin/cmake", line 8, in <module>
+    sys.exit(cmake())
+  File "/home/mihkel/.local/lib/python3.10/site-packages/cmake/__init__.py", line 47, in cmake
+    f = getattr(self, tree.data)
+AttributeError: 'ValidateSymbols' object has no attribute 'pattern'
+    raise SystemExit(_program('cmake', sys.argv[1:]))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py", line 40, in <module>
+  File "/home/mihkel/.local/lib/python3.10/site-packages/cmake/__init__.py", line 43, in _program
+    return subprocess.call([os.path.join(CMAKE_BIN_DIR, name)] + args, close_fds=False)
+  File "/usr/lib/python3.10/subprocess.py", line 347, in call
+    return p.wait(timeout=timeout)
+  File "/usr/lib/python3.10/subprocess.py", line 1209, in wait
+    sys.exit(main())
+  File "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py", line 36, in main
+    generate_py(args.generator_arguments_file, args.typesupport_impls.split(';'))
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/generate_py_impl.py", line 61, in generate_py
+    return self._wait(timeout=timeout)
+  File "/usr/lib/python3.10/subprocess.py", line 1959, in _wait
+    generated_files = generate_files(generator_arguments_file, mapping)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 74, in generate_files
+    idl_file = parse_idl_file(locator)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 64, in parse_idl_file
+    (pid, sts) = self._try_wait(0)
+  File "/usr/lib/python3.10/subprocess.py", line 1917, in _try_wait
+    content = parse_idl_string(string, png_file=png_file)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 72, in parse_idl_string
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt
+    tree = get_ast_from_idl_string(idl_string)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 88, in get_ast_from_idl_string
+    _parser = Lark(grammar, start='specification', maybe_placeholders=False)
+  File "/usr/lib/python3/dist-packages/lark/lark.py", line 383, in __init__
+    self.terminals, self.rules, self.ignore_tokens = self.grammar.compile(self.options.start, terminals_to_keep)
+  File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 734, in compile
+    tree = transformer.transform(rule_tree)
+  File "/usr/lib/python3/dist-packages/lark/visitors.py", line 252, in transform
+    tree = t.transform(tree)
+  File "/usr/lib/python3/dist-packages/lark/visitors.py", line 272, in transform
+    subtree.children = list(self._transform_children(subtree.children))
+  File "/usr/lib/python3/dist-packages/lark/visitors.py", line 138, in _transform_children
+    res = self._transform_tree(c)
+  File "/usr/lib/python3/dist-packages/lark/visitors.py", line 268, in _transform_tree
+    return self._call_userfunc(tree)
+  File "/usr/lib/python3/dist-packages/lark/visitors.py", line 107, in _call_userfunc
+    f = getattr(self, tree.data)
+KeyboardInterrupt
+gmake[2]: *** [/home/mihkel/School/ThesisPractical/myros_ws/build/nav2_dynamic_msgs/nav2_dynamic_msgs__py/CMakeFiles/nav2_dynamic_msgs__py.dir/build.make:184: rosidl_generator_py/nav2_dynamic_msgs/_nav2_dynamic_msgs_s.ep.rosidl_typesupport_fastrtps_c.c] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:590: nav2_dynamic_msgs__py/CMakeFiles/nav2_dynamic_msgs__py.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

@@ -1,0 +1,5 @@
+[0.520s] Invoking command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/sophus-populate': /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/build/_deps/sophus-subbuild -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/ros2_ws/install/sophus-populate
+[0.753s] -- Configuring done (0.1s)
+[0.763s] -- Generating done (0.0s)
+[0.784s] -- Build files have been written to: /home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/build/_deps/sophus-subbuild
+[0.827s] Invoked command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/sophus-populate' returned '0': /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/build/_deps/sophus-subbuild -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/ros2_ws/install/sophus-populate

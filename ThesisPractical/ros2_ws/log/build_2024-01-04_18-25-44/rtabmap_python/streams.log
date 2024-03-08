@@ -1,0 +1,20 @@
+[1.353s] Invoking command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/rtabmap_python': /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/ros2_ws/src/rtabmap_ros/rtabmap_python -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_python
+[1.557s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[1.557s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.557s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.558s]   CMake did not find one.
+[1.558s] 
+[1.559s]   Could not find a package configuration file provided by "catkin" with any
+[1.566s]   of the following names:
+[1.567s] 
+[1.567s]     catkinConfig.cmake
+[1.567s]     catkin-config.cmake
+[1.568s] 
+[1.568s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.569s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.569s]   provides a separate development package or SDK, be sure it has been
+[1.569s]   installed.
+[1.570s] 
+[1.570s] [0m
+[1.571s] -- Configuring incomplete, errors occurred!
+[1.600s] Invoked command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/rtabmap_python' returned '1': /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/ros2_ws/src/rtabmap_ros/rtabmap_python -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_python

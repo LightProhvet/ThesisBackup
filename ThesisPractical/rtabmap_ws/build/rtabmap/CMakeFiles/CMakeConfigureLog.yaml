@@ -1,0 +1,1486 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:3 (PROJECT)"
+    message: |
+      The system is: Linux - 6.2.0-39-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (PROJECT)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/3.28.1/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (PROJECT)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/3.28.1/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (PROJECT)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-3Jk6ZE"
+      binary: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-3Jk6ZE"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-3Jk6ZE'
+        
+        Run Build Command(s): /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8781d/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_8781d.dir/build.make CMakeFiles/cmTC_8781d.dir/build
+        gmake[1]: Entering directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-3Jk6ZE'
+        Building C object CMakeFiles/cmTC_8781d.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_8781d.dir/CMakeCCompilerABI.c.o -c /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8781d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8781d.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_8781d.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccthWyMm.s
+        GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-linux-gnu/11/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 50eaa2331df977b8016186198deb2d18
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8781d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8781d.dir/'
+         as -v --64 -o CMakeFiles/cmTC_8781d.dir/CMakeCCompilerABI.c.o /tmp/ccthWyMm.s
+        GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8781d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8781d.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_8781d
+        /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8781d.dir/link.txt --verbose=1
+        /usr/bin/cc  -v CMakeFiles/cmTC_8781d.dir/CMakeCCompilerABI.c.o -o cmTC_8781d 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8781d' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8781d.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8wjKnP.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8781d /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_8781d.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8781d' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8781d.'
+        gmake[1]: Leaving directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-3Jk6ZE'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (PROJECT)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (PROJECT)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-3Jk6ZE']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8781d/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_8781d.dir/build.make CMakeFiles/cmTC_8781d.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-3Jk6ZE']
+        ignore line: [Building C object CMakeFiles/cmTC_8781d.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_8781d.dir/CMakeCCompilerABI.c.o -c /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8781d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8781d.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_8781d.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccthWyMm.s]
+        ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 50eaa2331df977b8016186198deb2d18]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8781d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8781d.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_8781d.dir/CMakeCCompilerABI.c.o /tmp/ccthWyMm.s]
+        ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8781d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8781d.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_8781d]
+        ignore line: [/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8781d.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_8781d.dir/CMakeCCompilerABI.c.o -o cmTC_8781d ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8781d' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8781d.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8wjKnP.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8781d /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_8781d.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc8wjKnP.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_8781d] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+          arg [CMakeFiles/cmTC_8781d.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (PROJECT)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-Lx2ary"
+      binary: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-Lx2ary"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-Lx2ary'
+        
+        Run Build Command(s): /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2ead7/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_2ead7.dir/build.make CMakeFiles/cmTC_2ead7.dir/build
+        gmake[1]: Entering directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-Lx2ary'
+        Building CXX object CMakeFiles/cmTC_2ead7.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_2ead7.dir/CMakeCXXCompilerABI.cpp.o -c /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2ead7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2ead7.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_2ead7.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccxXzBI7.s
+        GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/11
+         /usr/include/x86_64-linux-gnu/c++/11
+         /usr/include/c++/11/backward
+         /usr/lib/gcc/x86_64-linux-gnu/11/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2ead7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2ead7.dir/'
+         as -v --64 -o CMakeFiles/cmTC_2ead7.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccxXzBI7.s
+        GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2ead7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2ead7.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_2ead7
+        /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ead7.dir/link.txt --verbose=1
+        /usr/bin/c++  -v CMakeFiles/cmTC_2ead7.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2ead7 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2ead7' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2ead7.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc36v8MN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2ead7 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_2ead7.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2ead7' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2ead7.'
+        gmake[1]: Leaving directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-Lx2ary'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (PROJECT)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/11]
+          add: [/usr/include/x86_64-linux-gnu/c++/11]
+          add: [/usr/include/c++/11/backward]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/11] ==> [/usr/include/c++/11]
+        collapse include dir [/usr/include/x86_64-linux-gnu/c++/11] ==> [/usr/include/x86_64-linux-gnu/c++/11]
+        collapse include dir [/usr/include/c++/11/backward] ==> [/usr/include/c++/11/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/11;/usr/include/x86_64-linux-gnu/c++/11;/usr/include/c++/11/backward;/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (PROJECT)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-Lx2ary']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2ead7/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_2ead7.dir/build.make CMakeFiles/cmTC_2ead7.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-Lx2ary']
+        ignore line: [Building CXX object CMakeFiles/cmTC_2ead7.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_2ead7.dir/CMakeCXXCompilerABI.cpp.o -c /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2ead7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2ead7.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_2ead7.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccxXzBI7.s]
+        ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/11]
+        ignore line: [ /usr/include/x86_64-linux-gnu/c++/11]
+        ignore line: [ /usr/include/c++/11/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2ead7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2ead7.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_2ead7.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccxXzBI7.s]
+        ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2ead7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2ead7.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_2ead7]
+        ignore line: [/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ead7.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_2ead7.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2ead7 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2ead7' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2ead7.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc36v8MN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2ead7 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_2ead7.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc36v8MN.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_2ead7] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+          arg [CMakeFiles/cmTC_2ead7.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:162 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "CMakeLists.txt:235 (FIND_PACKAGE)"
+    directories:
+      source: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-TfVxnh"
+      binary: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-TfVxnh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -fmessage-length=0"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/cmake_modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-TfVxnh'
+        
+        Run Build Command(s): /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_03aeb/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_03aeb.dir/build.make CMakeFiles/cmTC_03aeb.dir/build
+        gmake[1]: Entering directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-TfVxnh'
+        Building C object CMakeFiles/cmTC_03aeb.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -fmessage-length=0  -o CMakeFiles/cmTC_03aeb.dir/src.c.o -c /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-TfVxnh/src.c
+        Linking C executable cmTC_03aeb
+        /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03aeb.dir/link.txt --verbose=1
+        /usr/bin/cc  -fmessage-length=0  CMakeFiles/cmTC_03aeb.dir/src.c.o -o cmTC_03aeb 
+        gmake[1]: Leaving directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-TfVxnh'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "CMakeLists.txt:235 (FIND_PACKAGE)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-25uVpJ"
+      binary: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-25uVpJ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -fmessage-length=0"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/cmake_modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-25uVpJ'
+        
+        Run Build Command(s): /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_450fc/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_450fc.dir/build.make CMakeFiles/cmTC_450fc.dir/build
+        gmake[1]: Entering directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-25uVpJ'
+        Building C object CMakeFiles/cmTC_450fc.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -fmessage-length=0  -o CMakeFiles/cmTC_450fc.dir/test_mpi.c.o -c /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-25uVpJ/test_mpi.c
+        Linking C executable cmTC_450fc
+        /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_450fc.dir/link.txt --verbose=1
+        /usr/bin/cc  -fmessage-length=0  -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_450fc.dir/test_mpi.c.o -o cmTC_450fc  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-25uVpJ'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/FindX11.cmake:682 (check_library_exists)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:1149 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "CMakeLists.txt:235 (FIND_PACKAGE)"
+    directories:
+      source: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-iXPIYn"
+      binary: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-iXPIYn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -fmessage-length=0"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/cmake_modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "X11_LIB_X11_SOLO"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-iXPIYn'
+        
+        Run Build Command(s): /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_39e29/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_39e29.dir/build.make CMakeFiles/cmTC_39e29.dir/build
+        gmake[1]: Entering directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-iXPIYn'
+        Building C object CMakeFiles/cmTC_39e29.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -fmessage-length=0 -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_39e29.dir/CheckFunctionExists.c.o -c /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-iXPIYn/CheckFunctionExists.c
+        Linking C executable cmTC_39e29
+        /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39e29.dir/link.txt --verbose=1
+        /usr/bin/cc  -fmessage-length=0 -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_39e29.dir/CheckFunctionExists.c.o -o cmTC_39e29  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+        gmake[1]: Leaving directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-iXPIYn'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/FindX11.cmake:697 (check_function_exists)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:1149 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "CMakeLists.txt:235 (FIND_PACKAGE)"
+    directories:
+      source: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-InV3h8"
+      binary: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-InV3h8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -fmessage-length=0"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/cmake_modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_GETHOSTBYNAME"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-InV3h8'
+        
+        Run Build Command(s): /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_fa5f3/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_fa5f3.dir/build.make CMakeFiles/cmTC_fa5f3.dir/build
+        gmake[1]: Entering directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-InV3h8'
+        Building C object CMakeFiles/cmTC_fa5f3.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -fmessage-length=0 -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_fa5f3.dir/CheckFunctionExists.c.o -c /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-InV3h8/CheckFunctionExists.c
+        Linking C executable cmTC_fa5f3
+        /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa5f3.dir/link.txt --verbose=1
+        /usr/bin/cc  -fmessage-length=0 -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_fa5f3.dir/CheckFunctionExists.c.o -o cmTC_fa5f3 
+        gmake[1]: Leaving directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-InV3h8'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/FindX11.cmake:711 (check_function_exists)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:1149 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "CMakeLists.txt:235 (FIND_PACKAGE)"
+    directories:
+      source: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-bA0reg"
+      binary: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-bA0reg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -fmessage-length=0"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/cmake_modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_CONNECT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-bA0reg'
+        
+        Run Build Command(s): /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_11453/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_11453.dir/build.make CMakeFiles/cmTC_11453.dir/build
+        gmake[1]: Entering directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-bA0reg'
+        Building C object CMakeFiles/cmTC_11453.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -fmessage-length=0 -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_11453.dir/CheckFunctionExists.c.o -c /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-bA0reg/CheckFunctionExists.c
+        Linking C executable cmTC_11453
+        /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11453.dir/link.txt --verbose=1
+        /usr/bin/cc  -fmessage-length=0 -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_11453.dir/CheckFunctionExists.c.o -o cmTC_11453 
+        gmake[1]: Leaving directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-bA0reg'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/FindX11.cmake:720 (check_function_exists)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:1149 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "CMakeLists.txt:235 (FIND_PACKAGE)"
+    directories:
+      source: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-fE4QQO"
+      binary: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-fE4QQO"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -fmessage-length=0"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/cmake_modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_REMOVE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-fE4QQO'
+        
+        Run Build Command(s): /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_277ff/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_277ff.dir/build.make CMakeFiles/cmTC_277ff.dir/build
+        gmake[1]: Entering directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-fE4QQO'
+        Building C object CMakeFiles/cmTC_277ff.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -fmessage-length=0 -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_277ff.dir/CheckFunctionExists.c.o -c /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-fE4QQO/CheckFunctionExists.c
+        Linking C executable cmTC_277ff
+        /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_277ff.dir/link.txt --verbose=1
+        /usr/bin/cc  -fmessage-length=0 -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_277ff.dir/CheckFunctionExists.c.o -o cmTC_277ff 
+        gmake[1]: Leaving directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-fE4QQO'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/FindX11.cmake:729 (check_function_exists)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:1149 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "CMakeLists.txt:235 (FIND_PACKAGE)"
+    directories:
+      source: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-97FGnV"
+      binary: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-97FGnV"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -fmessage-length=0"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/cmake_modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_SHMAT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-97FGnV'
+        
+        Run Build Command(s): /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9dbb3/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9dbb3.dir/build.make CMakeFiles/cmTC_9dbb3.dir/build
+        gmake[1]: Entering directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-97FGnV'
+        Building C object CMakeFiles/cmTC_9dbb3.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -fmessage-length=0 -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_9dbb3.dir/CheckFunctionExists.c.o -c /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-97FGnV/CheckFunctionExists.c
+        Linking C executable cmTC_9dbb3
+        /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9dbb3.dir/link.txt --verbose=1
+        /usr/bin/cc  -fmessage-length=0 -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_9dbb3.dir/CheckFunctionExists.c.o -o cmTC_9dbb3 
+        gmake[1]: Leaving directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-97FGnV'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/FindX11.cmake:739 (check_library_exists)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:1149 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "CMakeLists.txt:235 (FIND_PACKAGE)"
+    directories:
+      source: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-YJBfB9"
+      binary: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-YJBfB9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -fmessage-length=0"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/cmake_modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-YJBfB9'
+        
+        Run Build Command(s): /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9aa16/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9aa16.dir/build.make CMakeFiles/cmTC_9aa16.dir/build
+        gmake[1]: Entering directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-YJBfB9'
+        Building C object CMakeFiles/cmTC_9aa16.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -fmessage-length=0 -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_9aa16.dir/CheckFunctionExists.c.o -c /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-YJBfB9/CheckFunctionExists.c
+        Linking C executable cmTC_9aa16
+        /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9aa16.dir/link.txt --verbose=1
+        /usr/bin/cc  -fmessage-length=0 -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_9aa16.dir/CheckFunctionExists.c.o -o cmTC_9aa16  -lICE 
+        gmake[1]: Leaving directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-YJBfB9'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenMP.cmake:206 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenMP.cmake:451 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:268 (find_package)"
+    directories:
+      source: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeTmp"
+      binary: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -fmessage-length=0"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/cmake_modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a9dc2/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a9dc2.dir/build.make CMakeFiles/cmTC_a9dc2.dir/build
+        gmake[1]: Entering directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_a9dc2.dir/OpenMPTryFlag.c.o
+        /usr/bin/cc   -fmessage-length=0 -fopenmp -v -o CMakeFiles/cmTC_a9dc2.dir/OpenMPTryFlag.c.o -c /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+        COLLECT_GCC_OPTIONS='-fmessage-length=0' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_a9dc2.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_a9dc2.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu -D_REENTRANT /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpdir CMakeFiles/cmTC_a9dc2.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fmessage-length=0 -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cchQyY8g.s
+        GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-linux-gnu/11/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 50eaa2331df977b8016186198deb2d18
+        COLLECT_GCC_OPTIONS='-fmessage-length=0' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_a9dc2.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_a9dc2.dir/'
+         as -v --64 -o CMakeFiles/cmTC_a9dc2.dir/OpenMPTryFlag.c.o /tmp/cchQyY8g.s
+        GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-fmessage-length=0' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_a9dc2.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_a9dc2.dir/OpenMPTryFlag.c.'
+        Linking C executable cmTC_a9dc2
+        /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9dc2.dir/link.txt --verbose=1
+        /usr/bin/cc  -fmessage-length=0 -fopenmp -v CMakeFiles/cmTC_a9dc2.dir/OpenMPTryFlag.c.o -o cmTC_a9dc2  -v 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        Reading specs from /usr/lib/gcc/x86_64-linux-gnu/11/libgomp.spec
+        COLLECT_GCC_OPTIONS='-fmessage-length=0' '-fopenmp' '-v' '-o' 'cmTC_a9dc2' '-v' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_a9dc2.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqvubWk.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a9dc2 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/11/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_a9dc2.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/11/crtoffloadend.o
+        COLLECT_GCC_OPTIONS='-fmessage-length=0' '-fopenmp' '-v' '-o' 'cmTC_a9dc2' '-v' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_a9dc2.'
+        gmake[1]: Leaving directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenMP.cmake:206 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenMP.cmake:451 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:268 (find_package)"
+    directories:
+      source: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeTmp"
+      binary: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fmessage-length=0"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/cmake_modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_86908/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_86908.dir/build.make CMakeFiles/cmTC_86908.dir/build
+        gmake[1]: Entering directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_86908.dir/OpenMPTryFlag.cpp.o
+        /usr/bin/c++   -fmessage-length=0 -fopenmp -v -o CMakeFiles/cmTC_86908.dir/OpenMPTryFlag.cpp.o -c /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+        COLLECT_GCC_OPTIONS='-fmessage-length=0' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_86908.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_86908.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles/cmTC_86908.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fmessage-length=0 -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccAMsrcA.s
+        GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/11
+         /usr/include/x86_64-linux-gnu/c++/11
+         /usr/include/c++/11/backward
+         /usr/lib/gcc/x86_64-linux-gnu/11/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f
+        COLLECT_GCC_OPTIONS='-fmessage-length=0' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_86908.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_86908.dir/'
+         as -v --64 -o CMakeFiles/cmTC_86908.dir/OpenMPTryFlag.cpp.o /tmp/ccAMsrcA.s
+        GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-fmessage-length=0' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_86908.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_86908.dir/OpenMPTryFlag.cpp.'
+        Linking CXX executable cmTC_86908
+        /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86908.dir/link.txt --verbose=1
+        /usr/bin/c++  -fmessage-length=0 -fopenmp -v CMakeFiles/cmTC_86908.dir/OpenMPTryFlag.cpp.o -o cmTC_86908  -v 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        Reading specs from /usr/lib/gcc/x86_64-linux-gnu/11/libgomp.spec
+        COLLECT_GCC_OPTIONS='-fmessage-length=0' '-fopenmp' '-v' '-o' 'cmTC_86908' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_86908.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccuVngup.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_86908 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/11/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_86908.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/11/crtoffloadend.o
+        COLLECT_GCC_OPTIONS='-fmessage-length=0' '-fopenmp' '-v' '-o' 'cmTC_86908' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_86908.'
+        gmake[1]: Leaving directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenMP.cmake:386 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenMP.cmake:514 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:268 (find_package)"
+    directories:
+      source: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeTmp"
+      binary: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -fmessage-length=0"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/cmake_modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e8058/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e8058.dir/build.make CMakeFiles/cmTC_e8058.dir/build
+        gmake[1]: Entering directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_e8058.dir/OpenMPCheckVersion.c.o
+        /usr/bin/cc   -fmessage-length=0 -fopenmp -o CMakeFiles/cmTC_e8058.dir/OpenMPCheckVersion.c.o -c /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+        Linking C executable cmTC_e8058
+        /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8058.dir/link.txt --verbose=1
+        /usr/bin/cc  -fmessage-length=0 -fopenmp CMakeFiles/cmTC_e8058.dir/OpenMPCheckVersion.c.o -o cmTC_e8058 
+        gmake[1]: Leaving directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenMP.cmake:386 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenMP.cmake:514 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:268 (find_package)"
+    directories:
+      source: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeTmp"
+      binary: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fmessage-length=0"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/cmake_modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7613c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_7613c.dir/build.make CMakeFiles/cmTC_7613c.dir/build
+        gmake[1]: Entering directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_7613c.dir/OpenMPCheckVersion.cpp.o
+        /usr/bin/c++   -fmessage-length=0 -fopenmp -o CMakeFiles/cmTC_7613c.dir/OpenMPCheckVersion.cpp.o -c /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp
+        Linking CXX executable cmTC_7613c
+        /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7613c.dir/link.txt --verbose=1
+        /usr/bin/c++  -fmessage-length=0 -fopenmp CMakeFiles/cmTC_7613c.dir/OpenMPCheckVersion.cpp.o -o cmTC_7613c 
+        gmake[1]: Leaving directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:295 (FIND_PACKAGE)"
+    directories:
+      source: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -fmessage-length=0 -fopenmp"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/cmake_modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_70ab0/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_70ab0.dir/build.make CMakeFiles/cmTC_70ab0.dir/build
+        gmake[1]: Entering directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_70ab0.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc   -fmessage-length=0 -fopenmp  -o CMakeFiles/cmTC_70ab0.dir/cmake_hdf5_test.c.o -c /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_70ab0.dir/build.make:78: CMakeFiles/cmTC_70ab0.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_70ab0/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:793 (CHECK_CXX_COMPILER_FLAG)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_CXX17"
+    directories:
+      source: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-Q69D9q"
+      binary: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-Q69D9q"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fmessage-length=0 -fopenmp"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/cmake_modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_CXX17"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-Q69D9q'
+        
+        Run Build Command(s): /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_087be/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_087be.dir/build.make CMakeFiles/cmTC_087be.dir/build
+        gmake[1]: Entering directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-Q69D9q'
+        Building CXX object CMakeFiles/cmTC_087be.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_SUPPORTS_CXX17  -fmessage-length=0 -fopenmp    -std=c++17 -o CMakeFiles/cmTC_087be.dir/src.cxx.o -c /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-Q69D9q/src.cxx
+        Linking CXX executable cmTC_087be
+        /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_087be.dir/link.txt --verbose=1
+        /usr/bin/c++  -fmessage-length=0 -fopenmp  CMakeFiles/cmTC_087be.dir/src.cxx.o -o cmTC_087be 
+        gmake[1]: Leaving directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-Q69D9q'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/CheckCompilerFlag.cmake:52 (cmake_check_compiler_flag)"
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/GenerateExportHeader.cmake:238 (check_compiler_flag)"
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/GenerateExportHeader.cmake:419 (_test_compiler_hidden_visibility)"
+      - "utilite/src/CMakeLists.txt:19 (generate_export_header)"
+    checks:
+      - "Performing Test COMPILER_HAS_HIDDEN_VISIBILITY"
+    directories:
+      source: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-IPKerF"
+      binary: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-IPKerF"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fmessage-length=0 -fopenmp -std=c++17"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/cmake_modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "COMPILER_HAS_HIDDEN_VISIBILITY"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-IPKerF'
+        
+        Run Build Command(s): /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_387ae/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_387ae.dir/build.make CMakeFiles/cmTC_387ae.dir/build
+        gmake[1]: Entering directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-IPKerF'
+        Building CXX object CMakeFiles/cmTC_387ae.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_HAS_HIDDEN_VISIBILITY  -fmessage-length=0 -fopenmp -std=c++17  -std=gnu++17   -fvisibility=hidden -o CMakeFiles/cmTC_387ae.dir/src.cxx.o -c /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-IPKerF/src.cxx
+        Linking CXX executable cmTC_387ae
+        /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_387ae.dir/link.txt --verbose=1
+        /usr/bin/c++  -fmessage-length=0 -fopenmp -std=c++17  CMakeFiles/cmTC_387ae.dir/src.cxx.o -o cmTC_387ae 
+        gmake[1]: Leaving directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-IPKerF'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/CheckCompilerFlag.cmake:52 (cmake_check_compiler_flag)"
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/GenerateExportHeader.cmake:239 (check_compiler_flag)"
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/GenerateExportHeader.cmake:419 (_test_compiler_hidden_visibility)"
+      - "utilite/src/CMakeLists.txt:19 (generate_export_header)"
+    checks:
+      - "Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY"
+    directories:
+      source: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-8V1PNz"
+      binary: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-8V1PNz"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fmessage-length=0 -fopenmp -std=c++17"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/cmake_modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "COMPILER_HAS_HIDDEN_INLINE_VISIBILITY"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-8V1PNz'
+        
+        Run Build Command(s): /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_02232/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_02232.dir/build.make CMakeFiles/cmTC_02232.dir/build
+        gmake[1]: Entering directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-8V1PNz'
+        Building CXX object CMakeFiles/cmTC_02232.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY  -fmessage-length=0 -fopenmp -std=c++17  -std=gnu++17   -fvisibility-inlines-hidden -o CMakeFiles/cmTC_02232.dir/src.cxx.o -c /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-8V1PNz/src.cxx
+        Linking CXX executable cmTC_02232
+        /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02232.dir/link.txt --verbose=1
+        /usr/bin/c++  -fmessage-length=0 -fopenmp -std=c++17  CMakeFiles/cmTC_02232.dir/src.cxx.o -o cmTC_02232 
+        gmake[1]: Leaving directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-8V1PNz'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/CheckSourceCompiles.cmake:77 (cmake_check_source_compiles)"
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/GenerateExportHeader.cmake:206 (check_source_compiles)"
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/GenerateExportHeader.cmake:263 (_check_cxx_compiler_attribute)"
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/GenerateExportHeader.cmake:420 (_test_compiler_has_deprecated)"
+      - "utilite/src/CMakeLists.txt:19 (generate_export_header)"
+    checks:
+      - "Performing Test COMPILER_HAS_DEPRECATED_ATTR"
+    directories:
+      source: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-0NzGsT"
+      binary: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-0NzGsT"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fmessage-length=0 -fopenmp -std=c++17"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/cmake_modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "COMPILER_HAS_DEPRECATED_ATTR"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-0NzGsT'
+        
+        Run Build Command(s): /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a2ced/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a2ced.dir/build.make CMakeFiles/cmTC_a2ced.dir/build
+        gmake[1]: Entering directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-0NzGsT'
+        Building CXX object CMakeFiles/cmTC_a2ced.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_HAS_DEPRECATED_ATTR  -fmessage-length=0 -fopenmp -std=c++17  -std=gnu++17 -o CMakeFiles/cmTC_a2ced.dir/src.cxx.o -c /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-0NzGsT/src.cxx
+        /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-0NzGsT/src.cxx: In function ‘int main()’:
+        /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-0NzGsT/src.cxx:2:33: warning: ‘int somefunc()’ is deprecated [-Wdeprecated-declarations]
+            2 |     int main() { return somefunc();}
+              |                         ~~~~~~~~^~
+        /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-0NzGsT/src.cxx:1:37: note: declared here
+            1 | __attribute__((__deprecated__)) int somefunc() { return 0; }
+              |                                     ^~~~~~~~
+        Linking CXX executable cmTC_a2ced
+        /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2ced.dir/link.txt --verbose=1
+        /usr/bin/c++  -fmessage-length=0 -fopenmp -std=c++17  CMakeFiles/cmTC_a2ced.dir/src.cxx.o -o cmTC_a2ced 
+        gmake[1]: Leaving directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-0NzGsT'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "CMakeLists.txt:235 (FIND_PACKAGE)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-wn9M1X"
+      binary: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-wn9M1X"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -fmessage-length=0"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/cmake_modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-wn9M1X'
+        
+        Run Build Command(s): /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_034f0/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_034f0.dir/build.make CMakeFiles/cmTC_034f0.dir/build
+        gmake[1]: Entering directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-wn9M1X'
+        Building C object CMakeFiles/cmTC_034f0.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -fmessage-length=0  -o CMakeFiles/cmTC_034f0.dir/test_mpi.c.o -c /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-wn9M1X/test_mpi.c
+        Linking C executable cmTC_034f0
+        /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_034f0.dir/link.txt --verbose=1
+        /usr/bin/cc  -fmessage-length=0  -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_034f0.dir/test_mpi.c.o -o cmTC_034f0  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-wn9M1X'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:295 (FIND_PACKAGE)"
+    directories:
+      source: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -fmessage-length=0 -fopenmp"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/cmake_modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b7f99/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b7f99.dir/build.make CMakeFiles/cmTC_b7f99.dir/build
+        gmake[1]: Entering directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_b7f99.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc   -fmessage-length=0 -fopenmp  -o CMakeFiles/cmTC_b7f99.dir/cmake_hdf5_test.c.o -c /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_b7f99.dir/build.make:78: CMakeFiles/cmTC_b7f99.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_b7f99/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "CMakeLists.txt:235 (FIND_PACKAGE)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-zVBYSg"
+      binary: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-zVBYSg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -fmessage-length=0"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/cmake_modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-zVBYSg'
+        
+        Run Build Command(s): /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2308e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_2308e.dir/build.make CMakeFiles/cmTC_2308e.dir/build
+        gmake[1]: Entering directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-zVBYSg'
+        Building C object CMakeFiles/cmTC_2308e.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -fmessage-length=0  -o CMakeFiles/cmTC_2308e.dir/test_mpi.c.o -c /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-zVBYSg/test_mpi.c
+        Linking C executable cmTC_2308e
+        /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2308e.dir/link.txt --verbose=1
+        /usr/bin/cc  -fmessage-length=0  -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_2308e.dir/test_mpi.c.o -o cmTC_2308e  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-zVBYSg'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:295 (FIND_PACKAGE)"
+    directories:
+      source: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -fmessage-length=0 -fopenmp"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/cmake_modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e1ac2/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e1ac2.dir/build.make CMakeFiles/cmTC_e1ac2.dir/build
+        gmake[1]: Entering directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_e1ac2.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc   -fmessage-length=0 -fopenmp  -o CMakeFiles/cmTC_e1ac2.dir/cmake_hdf5_test.c.o -c /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_e1ac2.dir/build.make:78: CMakeFiles/cmTC_e1ac2.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_e1ac2/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "CMakeLists.txt:235 (FIND_PACKAGE)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-wmM9DR"
+      binary: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-wmM9DR"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -fmessage-length=0"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/cmake_modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-wmM9DR'
+        
+        Run Build Command(s): /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_732de/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_732de.dir/build.make CMakeFiles/cmTC_732de.dir/build
+        gmake[1]: Entering directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-wmM9DR'
+        Building C object CMakeFiles/cmTC_732de.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -fmessage-length=0  -o CMakeFiles/cmTC_732de.dir/test_mpi.c.o -c /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-wmM9DR/test_mpi.c
+        Linking C executable cmTC_732de
+        /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_732de.dir/link.txt --verbose=1
+        /usr/bin/cc  -fmessage-length=0  -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_732de.dir/test_mpi.c.o -o cmTC_732de  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/CMakeScratch/TryCompile-wmM9DR'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:295 (FIND_PACKAGE)"
+    directories:
+      source: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -fmessage-length=0 -fopenmp"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/cmake_modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_dd583/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_dd583.dir/build.make CMakeFiles/cmTC_dd583.dir/build
+        gmake[1]: Entering directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_dd583.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc   -fmessage-length=0 -fopenmp  -o CMakeFiles/cmTC_dd583.dir/cmake_hdf5_test.c.o -c /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_dd583.dir/build.make:78: CMakeFiles/cmTC_dd583.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_dd583/fast] Error 2
+        
+      exitCode: 2
+...

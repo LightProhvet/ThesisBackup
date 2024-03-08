@@ -1,0 +1,280 @@
+[3.173s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[3.173s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fae6e5d88e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fae6e5da6b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fae6e5da6b0>>)
+[3.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.292s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mihkel/School/ThesisPractical/ros2_ws'
+[3.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.317s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.318s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.318s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.318s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.318s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.318s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.319s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.319s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.319s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan) by extensions ['ignore', 'ignore_ament_install']
+[3.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan) by extension 'ignore'
+[3.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan) by extension 'ignore_ament_install'
+[3.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan) by extensions ['colcon_pkg']
+[3.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan) by extension 'colcon_pkg'
+[3.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan) by extensions ['colcon_meta']
+[3.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan) by extension 'colcon_meta'
+[3.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan) by extensions ['ros']
+[3.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan) by extension 'ros'
+[3.327s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthimage_to_laserscan' with type 'ros.ament_cmake' and name 'depthimage_to_laserscan'
+[3.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-ros2-messages) by extensions ['ignore', 'ignore_ament_install']
+[3.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-ros2-messages) by extension 'ignore'
+[3.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-ros2-messages) by extension 'ignore_ament_install'
+[3.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-ros2-messages) by extensions ['colcon_pkg']
+[3.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-ros2-messages) by extension 'colcon_pkg'
+[3.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-ros2-messages) by extensions ['colcon_meta']
+[3.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-ros2-messages) by extension 'colcon_meta'
+[3.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-ros2-messages) by extensions ['ros']
+[3.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot-ros2-messages) by extension 'ros'
+[3.330s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot-ros2-messages' with type 'ros.ament_cmake' and name 'robot_ros2_msgs'
+[3.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_ros2) by extensions ['ignore', 'ignore_ament_install']
+[3.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_ros2) by extension 'ignore'
+[3.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_ros2) by extension 'ignore_ament_install'
+[3.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_ros2) by extensions ['colcon_pkg']
+[3.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_ros2) by extension 'colcon_pkg'
+[3.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_ros2) by extensions ['colcon_meta']
+[3.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_ros2) by extension 'colcon_meta'
+[3.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_ros2) by extensions ['ros']
+[3.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_ros2) by extension 'ros'
+[3.334s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_ros2' with type 'ros.ament_python' and name 'hospital_carrier'
+[3.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.586s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.586s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.670s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/mihkel/School/ThesisPractical/ros2_ws/install
+[3.731s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 377 installed packages in /opt/ros/humble
+[3.736s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.947s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'depthimage_to_laserscan' is in: /home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan, /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding depthimage_to_laserscan
+
+This may be promoted to an error in a future release of colcon-override-check.
+[3.990s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'cmake_args' from command line to 'None'
+[3.990s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'cmake_target' from command line to 'None'
+[3.990s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.990s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'cmake_clean_cache' from command line to 'False'
+[3.990s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'cmake_clean_first' from command line to 'False'
+[3.990s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'cmake_force_configure' from command line to 'False'
+[3.990s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'ament_cmake_args' from command line to 'None'
+[3.990s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'catkin_cmake_args' from command line to 'None'
+[3.990s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.990s] DEBUG:colcon.colcon_core.verb:Building package 'depthimage_to_laserscan' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mihkel/School/ThesisPractical/ros2_ws/build/depthimage_to_laserscan', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan', 'merge_install': False, 'path': '/home/mihkel/School/ThesisPractical/ros2_ws/src/depthimage_to_laserscan', 'symlink_install': False, 'test_result_base': None}
+[4.033s] Level 5:colcon.colcon_core.verb:set package 'robot_ros2_msgs' build argument 'cmake_args' from command line to 'None'
+[4.033s] Level 5:colcon.colcon_core.verb:set package 'robot_ros2_msgs' build argument 'cmake_target' from command line to 'None'
+[4.034s] Level 5:colcon.colcon_core.verb:set package 'robot_ros2_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.034s] Level 5:colcon.colcon_core.verb:set package 'robot_ros2_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[4.034s] Level 5:colcon.colcon_core.verb:set package 'robot_ros2_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[4.034s] Level 5:colcon.colcon_core.verb:set package 'robot_ros2_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[4.034s] Level 5:colcon.colcon_core.verb:set package 'robot_ros2_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[4.034s] Level 5:colcon.colcon_core.verb:set package 'robot_ros2_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[4.034s] Level 5:colcon.colcon_core.verb:set package 'robot_ros2_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.034s] DEBUG:colcon.colcon_core.verb:Building package 'robot_ros2_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mihkel/School/ThesisPractical/ros2_ws/build/robot_ros2_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs', 'merge_install': False, 'path': '/home/mihkel/School/ThesisPractical/ros2_ws/src/robot-ros2-messages', 'symlink_install': False, 'test_result_base': None}
+[4.075s] Level 5:colcon.colcon_core.verb:set package 'hospital_carrier' build argument 'cmake_args' from command line to 'None'
+[4.075s] Level 5:colcon.colcon_core.verb:set package 'hospital_carrier' build argument 'cmake_target' from command line to 'None'
+[4.075s] Level 5:colcon.colcon_core.verb:set package 'hospital_carrier' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.075s] Level 5:colcon.colcon_core.verb:set package 'hospital_carrier' build argument 'cmake_clean_cache' from command line to 'False'
+[4.075s] Level 5:colcon.colcon_core.verb:set package 'hospital_carrier' build argument 'cmake_clean_first' from command line to 'False'
+[4.075s] Level 5:colcon.colcon_core.verb:set package 'hospital_carrier' build argument 'cmake_force_configure' from command line to 'False'
+[4.075s] Level 5:colcon.colcon_core.verb:set package 'hospital_carrier' build argument 'ament_cmake_args' from command line to 'None'
+[4.075s] Level 5:colcon.colcon_core.verb:set package 'hospital_carrier' build argument 'catkin_cmake_args' from command line to 'None'
+[4.075s] Level 5:colcon.colcon_core.verb:set package 'hospital_carrier' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.076s] DEBUG:colcon.colcon_core.verb:Building package 'hospital_carrier' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier', 'merge_install': False, 'path': '/home/mihkel/School/ThesisPractical/ros2_ws/src/robot_ros2', 'symlink_install': False, 'test_result_base': None}
+[4.116s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.158s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.158s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mihkel/School/ThesisPractical/ros2_ws/src/robot-ros2-messages' with build type 'ament_cmake'
+[4.159s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mihkel/School/ThesisPractical/ros2_ws/src/robot-ros2-messages'
+[4.204s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.205s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.205s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.335s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mihkel/School/ThesisPractical/ros2_ws/src/depthimage_to_laserscan' with build type 'ament_cmake'
+[4.335s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mihkel/School/ThesisPractical/ros2_ws/src/depthimage_to_laserscan'
+[4.380s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.380s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.521s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/robot_ros2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier:/opt/ros/humble /usr/bin/cmake --build /home/mihkel/School/ThesisPractical/ros2_ws/build/robot_ros2_msgs -- -j12 -l12
+[4.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/depthimage_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier:/opt/ros/humble /usr/bin/cmake --build /home/mihkel/School/ThesisPractical/ros2_ws/build/depthimage_to_laserscan -- -j12 -l12
+[4.830s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/depthimage_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier:/opt/ros/humble /usr/bin/cmake --build /home/mihkel/School/ThesisPractical/ros2_ws/build/depthimage_to_laserscan -- -j12 -l12
+[4.941s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/depthimage_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier:/opt/ros/humble /usr/bin/cmake --install /home/mihkel/School/ThesisPractical/ros2_ws/build/depthimage_to_laserscan
+[4.970s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthimage_to_laserscan)
+[4.979s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/depthimage_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier:/opt/ros/humble /usr/bin/cmake --install /home/mihkel/School/ThesisPractical/ros2_ws/build/depthimage_to_laserscan
+[5.039s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan' for CMake module files
+[5.041s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan' for CMake config files
+[5.041s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthimage_to_laserscan', 'cmake_prefix_path')
+[5.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/cmake_prefix_path.ps1'
+[5.098s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/cmake_prefix_path.dsv'
+[5.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/cmake_prefix_path.sh'
+[5.101s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/lib'
+[5.102s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthimage_to_laserscan', 'ld_library_path_lib')
+[5.157s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/ld_library_path_lib.ps1'
+[5.158s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/ld_library_path_lib.dsv'
+[5.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/ld_library_path_lib.sh'
+[5.159s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/bin'
+[5.160s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/lib/pkgconfig/depthimage_to_laserscan.pc'
+[5.160s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/lib/python3.10/site-packages'
+[5.161s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/bin'
+[5.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.ps1'
+[5.218s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.dsv'
+[5.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.sh'
+[5.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.bash'
+[5.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.zsh'
+[5.225s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/share/colcon-core/packages/depthimage_to_laserscan)
+[5.372s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthimage_to_laserscan)
+[5.430s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan' for CMake module files
+[5.431s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan' for CMake config files
+[5.432s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthimage_to_laserscan', 'cmake_prefix_path')
+[5.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/cmake_prefix_path.ps1'
+[5.489s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/cmake_prefix_path.dsv'
+[5.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/cmake_prefix_path.sh'
+[5.491s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/lib'
+[5.492s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthimage_to_laserscan', 'ld_library_path_lib')
+[5.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/ld_library_path_lib.ps1'
+[5.552s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/ld_library_path_lib.dsv'
+[5.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/ld_library_path_lib.sh'
+[5.554s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/bin'
+[5.554s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/lib/pkgconfig/depthimage_to_laserscan.pc'
+[5.555s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/lib/python3.10/site-packages'
+[5.556s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/bin'
+[5.616s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.ps1'
+[5.617s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.dsv'
+[5.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.sh'
+[5.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.bash'
+[5.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.zsh'
+[5.622s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mihkel/School/ThesisPractical/ros2_ws/install/depthimage_to_laserscan/share/colcon-core/packages/depthimage_to_laserscan)
+[5.758s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/robot_ros2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier:/opt/ros/humble /usr/bin/cmake --build /home/mihkel/School/ThesisPractical/ros2_ws/build/robot_ros2_msgs -- -j12 -l12
+[6.001s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/robot_ros2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier:/opt/ros/humble /usr/bin/cmake --install /home/mihkel/School/ThesisPractical/ros2_ws/build/robot_ros2_msgs
+[6.146s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_ros2_msgs)
+[6.149s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/robot_ros2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier:/opt/ros/humble /usr/bin/cmake --install /home/mihkel/School/ThesisPractical/ros2_ws/build/robot_ros2_msgs
+[6.201s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs' for CMake module files
+[6.203s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs' for CMake config files
+[6.204s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_ros2_msgs', 'cmake_prefix_path')
+[6.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/hook/cmake_prefix_path.ps1'
+[6.258s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/hook/cmake_prefix_path.dsv'
+[6.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/hook/cmake_prefix_path.sh'
+[6.260s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/lib'
+[6.261s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_ros2_msgs', 'ld_library_path_lib')
+[6.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/hook/ld_library_path_lib.ps1'
+[6.315s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/hook/ld_library_path_lib.dsv'
+[6.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/hook/ld_library_path_lib.sh'
+[6.316s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/bin'
+[6.317s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/lib/pkgconfig/robot_ros2_msgs.pc'
+[6.317s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/lib/python3.10/site-packages'
+[6.318s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/bin'
+[6.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/package.ps1'
+[6.372s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/package.dsv'
+[6.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/package.sh'
+[6.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/package.bash'
+[6.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/package.zsh'
+[6.376s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/colcon-core/packages/robot_ros2_msgs)
+[6.668s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_ros2_msgs)
+[6.722s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs' for CMake module files
+[6.724s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs' for CMake config files
+[6.725s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_ros2_msgs', 'cmake_prefix_path')
+[6.779s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/hook/cmake_prefix_path.ps1'
+[6.780s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/hook/cmake_prefix_path.dsv'
+[6.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/hook/cmake_prefix_path.sh'
+[6.783s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/lib'
+[6.783s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_ros2_msgs', 'ld_library_path_lib')
+[6.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/hook/ld_library_path_lib.ps1'
+[6.841s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/hook/ld_library_path_lib.dsv'
+[6.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/hook/ld_library_path_lib.sh'
+[6.843s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/bin'
+[6.843s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/lib/pkgconfig/robot_ros2_msgs.pc'
+[6.844s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/lib/python3.10/site-packages'
+[6.844s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/bin'
+[6.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/package.ps1'
+[6.902s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/package.dsv'
+[6.904s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/package.sh'
+[6.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/package.bash'
+[6.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/robot_ros2_msgs/package.zsh'
+[6.907s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs/share/colcon-core/packages/robot_ros2_msgs)
+[6.908s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mihkel/School/ThesisPractical/ros2_ws/src/robot_ros2' with build type 'ament_python'
+[6.908s] Level 1:colcon.colcon_core.shell:create_environment_hook('hospital_carrier', 'ament_prefix_path')
+[6.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/share/hospital_carrier/hook/ament_prefix_path.ps1'
+[6.971s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/share/hospital_carrier/hook/ament_prefix_path.dsv'
+[6.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/share/hospital_carrier/hook/ament_prefix_path.sh'
+[7.033s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.033s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.965s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mihkel/School/ThesisPractical/ros2_ws/src/robot_ros2'
+[8.016s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.016s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mihkel/School/ThesisPractical/ros2_ws/src/robot_ros2': PYTHONPATH=/home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/prefix_override:/home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/hospital_carrier build --build-base /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build install --record /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/install.log --single-version-externally-managed
+[9.804s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mihkel/School/ThesisPractical/ros2_ws/src/robot_ros2' returned '0': PYTHONPATH=/home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/prefix_override:/home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/hospital_carrier build --build-base /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/build install --record /home/mihkel/School/ThesisPractical/ros2_ws/build/hospital_carrier/install.log --single-version-externally-managed
+[9.855s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier' for CMake module files
+[9.856s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier' for CMake config files
+[9.857s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib'
+[9.857s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/bin'
+[9.858s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/pkgconfig/hospital_carrier.pc'
+[9.858s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/lib/python3.10/site-packages'
+[9.858s] Level 1:colcon.colcon_core.shell:create_environment_hook('hospital_carrier', 'pythonpath')
+[9.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/share/hospital_carrier/hook/pythonpath.ps1'
+[9.904s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/share/hospital_carrier/hook/pythonpath.dsv'
+[9.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/share/hospital_carrier/hook/pythonpath.sh'
+[9.906s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/bin'
+[9.906s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hospital_carrier)
+[9.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/share/hospital_carrier/package.ps1'
+[9.952s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/share/hospital_carrier/package.dsv'
+[9.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/share/hospital_carrier/package.sh'
+[9.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/share/hospital_carrier/package.bash'
+[9.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/share/hospital_carrier/package.zsh'
+[9.955s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier/share/colcon-core/packages/hospital_carrier)
+[9.956s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.956s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.956s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.957s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.010s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.011s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.011s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.036s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.083s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mihkel/School/ThesisPractical/ros2_ws/install/local_setup.ps1'
+[10.085s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mihkel/School/ThesisPractical/ros2_ws/install/_local_setup_util_ps1.py'
+[10.088s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mihkel/School/ThesisPractical/ros2_ws/install/setup.ps1'
+[10.134s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mihkel/School/ThesisPractical/ros2_ws/install/local_setup.sh'
+[10.135s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mihkel/School/ThesisPractical/ros2_ws/install/_local_setup_util_sh.py'
+[10.136s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mihkel/School/ThesisPractical/ros2_ws/install/setup.sh'
+[10.181s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mihkel/School/ThesisPractical/ros2_ws/install/local_setup.bash'
+[10.182s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mihkel/School/ThesisPractical/ros2_ws/install/setup.bash'
+[10.245s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mihkel/School/ThesisPractical/ros2_ws/install/local_setup.zsh'
+[10.246s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mihkel/School/ThesisPractical/ros2_ws/install/setup.zsh'

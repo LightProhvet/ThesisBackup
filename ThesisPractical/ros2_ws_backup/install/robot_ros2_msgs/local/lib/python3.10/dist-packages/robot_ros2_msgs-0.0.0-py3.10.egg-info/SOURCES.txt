@@ -1,0 +1,11 @@
+setup.py
+robot_ros2_msgs/__init__.py
+robot_ros2_msgs.egg-info/PKG-INFO
+robot_ros2_msgs.egg-info/SOURCES.txt
+robot_ros2_msgs.egg-info/dependency_links.txt
+robot_ros2_msgs.egg-info/top_level.txt
+robot_ros2_msgs/msg/__init__.py
+robot_ros2_msgs/msg/_encoders.py
+robot_ros2_msgs/msg/_int_list.py
+robot_ros2_msgs/msg/_previous_and_next_point.py
+robot_ros2_msgs/msg/_tag.py

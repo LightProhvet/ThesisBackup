@@ -1,0 +1,463 @@
+[0.000000] (-) TimerEvent: {}
+[0.000241] (deep_nav_layers) JobQueued: {'identifier': 'deep_nav_layers', 'dependencies': OrderedDict()}
+[0.000312] (nav2_dynamic_msgs) JobQueued: {'identifier': 'nav2_dynamic_msgs', 'dependencies': OrderedDict()}
+[0.000360] (py_srvcli) JobQueued: {'identifier': 'py_srvcli', 'dependencies': OrderedDict()}
+[0.000667] (semantic_segmentation) JobQueued: {'identifier': 'semantic_segmentation', 'dependencies': OrderedDict()}
+[0.000740] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.000824] (yolov8_msgs) JobQueued: {'identifier': 'yolov8_msgs', 'dependencies': OrderedDict()}
+[0.001079] (yolov8_ros) JobQueued: {'identifier': 'yolov8_ros', 'dependencies': OrderedDict()}
+[0.001314] (kf_hungarian_tracker) JobQueued: {'identifier': 'kf_hungarian_tracker', 'dependencies': OrderedDict([('nav2_dynamic_msgs', '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs')])}
+[0.001796] (yolov8_bringup) JobQueued: {'identifier': 'yolov8_bringup', 'dependencies': OrderedDict([('yolov8_ros', '/home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_ros')])}
+[0.001899] (nav2_dynamic_msgs) JobStarted: {'identifier': 'nav2_dynamic_msgs'}
+[0.099218] (-) TimerEvent: {}
+[0.199482] (yolov8_ros) JobStarted: {'identifier': 'yolov8_ros'}
+[0.200015] (-) TimerEvent: {}
+[0.300711] (-) TimerEvent: {}
+[0.401539] (-) TimerEvent: {}
+[0.445474] (deep_nav_layers) JobStarted: {'identifier': 'deep_nav_layers'}
+[0.501895] (-) TimerEvent: {}
+[0.603676] (-) TimerEvent: {}
+[0.645604] (py_srvcli) JobStarted: {'identifier': 'py_srvcli'}
+[0.703866] (-) TimerEvent: {}
+[0.804395] (-) TimerEvent: {}
+[0.905112] (-) TimerEvent: {}
+[0.910716] (semantic_segmentation) JobStarted: {'identifier': 'semantic_segmentation'}
+[1.006033] (-) TimerEvent: {}
+[1.106838] (-) TimerEvent: {}
+[1.201314] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[1.207126] (-) TimerEvent: {}
+[1.308478] (-) TimerEvent: {}
+[1.412776] (-) TimerEvent: {}
+[1.421879] (yolov8_msgs) JobStarted: {'identifier': 'yolov8_msgs'}
+[1.513630] (-) TimerEvent: {}
+[1.614954] (-) TimerEvent: {}
+[1.653101] (nav2_dynamic_msgs) JobProgress: {'identifier': 'nav2_dynamic_msgs', 'progress': 'cmake'}
+[1.654194] (nav2_dynamic_msgs) Command: {'cmd': ['/home/mihkel/.local/bin/cmake', '/home/mihkel/School/ThesisPractical/myros_ws/src/navigation2_dynamic/nav2_dynamic_msgs', '-DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs'], 'cwd': '/home/mihkel/School/ThesisPractical/myros_ws/build/nav2_dynamic_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mihkel'), ('LC_TIME', 'et_EE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mihkel'), ('OLDPWD', '/home/mihkel/School/ThesisPractical/myros_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'et_EE.UTF-8'), ('SYSTEMD_EXEC_PID', '4143'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mihkel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mihkel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mihkel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mihkel-XPS-15-9500:@/tmp/.ICE-unix/3843,unix/mihkel-XPS-15-9500:/tmp/.ICE-unix/3843'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'et_EE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/770f14d6_b918_44ff_8a3a_6f3096424a1c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'et_EE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KOINJ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'et_EE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'et_EE.UTF-8'), ('LC_IDENTIFICATION', 'et_EE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mihkel/School/ThesisPractical/myros_ws/build/nav2_dynamic_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'et_EE.UTF-8'), ('LC_PAPER', 'et_EE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.715123] (-) TimerEvent: {}
+[1.815719] (-) TimerEvent: {}
+[1.916371] (-) TimerEvent: {}
+[2.016937] (-) TimerEvent: {}
+[2.117536] (-) TimerEvent: {}
+[2.218108] (-) TimerEvent: {}
+[2.318697] (-) TimerEvent: {}
+[2.419289] (-) TimerEvent: {}
+[2.520019] (-) TimerEvent: {}
+[2.621110] (-) TimerEvent: {}
+[2.721709] (-) TimerEvent: {}
+[2.820936] (deep_nav_layers) JobProgress: {'identifier': 'deep_nav_layers', 'progress': 'cmake'}
+[2.823219] (deep_nav_layers) Command: {'cmd': ['/home/mihkel/.local/bin/cmake', '/home/mihkel/School/ThesisPractical/myros_ws/src/deep_nav_layers', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/myros_ws/install/deep_nav_layers'], 'cwd': '/home/mihkel/School/ThesisPractical/myros_ws/build/deep_nav_layers', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mihkel'), ('LC_TIME', 'et_EE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mihkel'), ('OLDPWD', '/home/mihkel/School/ThesisPractical/myros_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'et_EE.UTF-8'), ('SYSTEMD_EXEC_PID', '4143'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mihkel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mihkel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mihkel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mihkel-XPS-15-9500:@/tmp/.ICE-unix/3843,unix/mihkel-XPS-15-9500:/tmp/.ICE-unix/3843'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'et_EE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/770f14d6_b918_44ff_8a3a_6f3096424a1c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'et_EE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KOINJ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'et_EE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'et_EE.UTF-8'), ('LC_IDENTIFICATION', 'et_EE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mihkel/School/ThesisPractical/myros_ws/build/deep_nav_layers'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'et_EE.UTF-8'), ('LC_PAPER', 'et_EE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[2.828603] (-) TimerEvent: {}
+[2.929104] (-) TimerEvent: {}
+[3.029746] (-) TimerEvent: {}
+[3.130375] (-) TimerEvent: {}
+[3.231219] (-) TimerEvent: {}
+[3.331881] (-) TimerEvent: {}
+[3.432505] (-) TimerEvent: {}
+[3.533146] (-) TimerEvent: {}
+[3.633948] (-) TimerEvent: {}
+[3.734586] (-) TimerEvent: {}
+[3.835260] (-) TimerEvent: {}
+[3.936461] (-) TimerEvent: {}
+[4.037329] (-) TimerEvent: {}
+[4.141111] (-) TimerEvent: {}
+[4.241929] (-) TimerEvent: {}
+[4.342834] (-) TimerEvent: {}
+[4.443714] (-) TimerEvent: {}
+[4.544361] (-) TimerEvent: {}
+[4.645007] (-) TimerEvent: {}
+[4.745655] (-) TimerEvent: {}
+[4.846299] (-) TimerEvent: {}
+[4.946965] (-) TimerEvent: {}
+[5.047607] (-) TimerEvent: {}
+[5.148260] (-) TimerEvent: {}
+[5.249120] (-) TimerEvent: {}
+[5.349768] (-) TimerEvent: {}
+[5.450536] (-) TimerEvent: {}
+[5.511485] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[5.516530] (tutorial_interfaces) Command: {'cmd': ['/home/mihkel/.local/bin/cmake', '/home/mihkel/School/ThesisPractical/myros_ws/src/a_semantic_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/myros_ws/install/tutorial_interfaces'], 'cwd': '/home/mihkel/School/ThesisPractical/myros_ws/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mihkel'), ('LC_TIME', 'et_EE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mihkel'), ('OLDPWD', '/home/mihkel/School/ThesisPractical/myros_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'et_EE.UTF-8'), ('SYSTEMD_EXEC_PID', '4143'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mihkel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mihkel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mihkel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mihkel-XPS-15-9500:@/tmp/.ICE-unix/3843,unix/mihkel-XPS-15-9500:/tmp/.ICE-unix/3843'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'et_EE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/770f14d6_b918_44ff_8a3a_6f3096424a1c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'et_EE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KOINJ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'et_EE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'et_EE.UTF-8'), ('LC_IDENTIFICATION', 'et_EE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mihkel/School/ThesisPractical/myros_ws/build/tutorial_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'et_EE.UTF-8'), ('LC_PAPER', 'et_EE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.523932] (yolov8_msgs) JobProgress: {'identifier': 'yolov8_msgs', 'progress': 'cmake'}
+[5.524619] (yolov8_msgs) Command: {'cmd': ['/home/mihkel/.local/bin/cmake', '/home/mihkel/School/ThesisPractical/myros_ws/src/yolov8_ros/yolov8_msgs', '-DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_msgs'], 'cwd': '/home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mihkel'), ('LC_TIME', 'et_EE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mihkel'), ('OLDPWD', '/home/mihkel/School/ThesisPractical/myros_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'et_EE.UTF-8'), ('SYSTEMD_EXEC_PID', '4143'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mihkel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mihkel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mihkel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mihkel-XPS-15-9500:@/tmp/.ICE-unix/3843,unix/mihkel-XPS-15-9500:/tmp/.ICE-unix/3843'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'et_EE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/770f14d6_b918_44ff_8a3a_6f3096424a1c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'et_EE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KOINJ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'et_EE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'et_EE.UTF-8'), ('LC_IDENTIFICATION', 'et_EE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'et_EE.UTF-8'), ('LC_PAPER', 'et_EE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.534186] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[5.536247] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[5.536884] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.537174] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.537615] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.539362] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.539638] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.539977] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.540290] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.540556] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.540937] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.541199] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.541450] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[5.541706] (deep_nav_layers) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[5.542756] (deep_nav_layers) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[5.543070] (deep_nav_layers) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.543330] (deep_nav_layers) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.543584] (deep_nav_layers) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.543838] (deep_nav_layers) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.544354] (deep_nav_layers) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.545378] (deep_nav_layers) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.545674] (deep_nav_layers) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.545941] (deep_nav_layers) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.546225] (deep_nav_layers) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.546534] (deep_nav_layers) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.546788] (deep_nav_layers) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[5.547090] (deep_nav_layers) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[5.548927] (deep_nav_layers) StderrLine: {'line': b'  Compatibility with CMake < 3.5 will be removed from a future version of\n'}
+[5.552006] (-) TimerEvent: {}
+[5.552477] (deep_nav_layers) StderrLine: {'line': b'  CMake.\n'}
+[5.553231] (deep_nav_layers) StderrLine: {'line': b'\n'}
+[5.554372] (deep_nav_layers) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[5.554660] (deep_nav_layers) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[5.554924] (deep_nav_layers) StderrLine: {'line': b'\n'}
+[5.555178] (deep_nav_layers) StderrLine: {'line': b'\x1b[0m\n'}
+[5.555423] (deep_nav_layers) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:10 (find_package):\n'}
+[5.555667] (deep_nav_layers) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[5.555916] (deep_nav_layers) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[5.556194] (deep_nav_layers) StderrLine: {'line': b'  CMake did not find one.\n'}
+[5.557518] (deep_nav_layers) StderrLine: {'line': b'\n'}
+[5.557821] (deep_nav_layers) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[5.558080] (deep_nav_layers) StderrLine: {'line': b'  of the following names:\n'}
+[5.558330] (deep_nav_layers) StderrLine: {'line': b'\n'}
+[5.558838] (deep_nav_layers) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[5.559355] (deep_nav_layers) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[5.560922] (deep_nav_layers) StderrLine: {'line': b'\n'}
+[5.561448] (deep_nav_layers) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[5.563353] (deep_nav_layers) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[5.565647] (deep_nav_layers) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[5.566794] (deep_nav_layers) StderrLine: {'line': b'  installed.\n'}
+[5.567337] (deep_nav_layers) StderrLine: {'line': b'\n'}
+[5.568313] (deep_nav_layers) StderrLine: {'line': b'\x1b[0m\n'}
+[5.569703] (deep_nav_layers) CommandEnded: {'returncode': 1}
+[5.652629] (-) TimerEvent: {}
+[5.753314] (-) TimerEvent: {}
+[5.792806] (tutorial_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[5.798949] (yolov8_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[5.854019] (-) TimerEvent: {}
+[5.955769] (-) TimerEvent: {}
+[5.987753] (tutorial_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[6.001831] (yolov8_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[6.041996] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.049265] (yolov8_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.057881] (-) TimerEvent: {}
+[6.061667] (deep_nav_layers) JobEnded: {'identifier': 'deep_nav_layers', 'rc': 1}
+[6.158028] (-) TimerEvent: {}
+[6.255961] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.258212] (-) TimerEvent: {}
+[6.264764] (yolov8_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.306285] (tutorial_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[6.307367] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.309058] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.337281] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.344572] (yolov8_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[6.346312] (yolov8_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.349141] (yolov8_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.358389] (-) TimerEvent: {}
+[6.380933] (yolov8_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.458612] (-) TimerEvent: {}
+[6.559493] (-) TimerEvent: {}
+[6.580281] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.626607] (yolov8_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.629889] (tutorial_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.631109] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.633642] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.642619] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[6.659658] (-) TimerEvent: {}
+[6.703614] (yolov8_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.705627] (yolov8_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.709128] (yolov8_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.723724] (yolov8_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[6.759834] (-) TimerEvent: {}
+[6.795172] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[6.860014] (-) TimerEvent: {}
+[6.960910] (-) TimerEvent: {}
+[7.061766] (-) TimerEvent: {}
+[7.162603] (-) TimerEvent: {}
+[7.235582] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[7.262773] (-) TimerEvent: {}
+[7.363609] (-) TimerEvent: {}
+[7.464481] (-) TimerEvent: {}
+[7.502809] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[7.529465] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[7.564652] (-) TimerEvent: {}
+[7.573816] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[7.649386] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.664811] (-) TimerEvent: {}
+[7.752136] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.764985] (-) TimerEvent: {}
+[7.865816] (-) TimerEvent: {}
+[7.966636] (-) TimerEvent: {}
+[8.067473] (-) TimerEvent: {}
+[8.123105] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[8.137121] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[8.167646] (-) TimerEvent: {}
+[8.268520] (-) TimerEvent: {}
+[8.369330] (-) TimerEvent: {}
+[8.470142] (-) TimerEvent: {}
+[8.559519] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[8.570275] (-) TimerEvent: {}
+[8.671077] (-) TimerEvent: {}
+[8.686807] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[8.771251] (-) TimerEvent: {}
+[8.872128] (-) TimerEvent: {}
+[8.928205] (semantic_segmentation) JobEnded: {'identifier': 'semantic_segmentation', 'rc': 'SIGINT'}
+[8.939303] (nav2_dynamic_msgs) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.972313] (-) TimerEvent: {}
+[8.990077] (yolov8_ros) JobEnded: {'identifier': 'yolov8_ros', 'rc': 'SIGINT'}
+[8.995516] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[9.072528] (-) TimerEvent: {}
+[9.119613] (py_srvcli) JobEnded: {'identifier': 'py_srvcli', 'rc': 'SIGINT'}
+[9.172716] (-) TimerEvent: {}
+[9.204205] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[9.208508] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.272862] (-) TimerEvent: {}
+[9.373445] (-) TimerEvent: {}
+[9.474207] (-) TimerEvent: {}
+[9.574803] (-) TimerEvent: {}
+[9.675415] (-) TimerEvent: {}
+[9.776025] (-) TimerEvent: {}
+[9.876679] (-) TimerEvent: {}
+[9.977347] (-) TimerEvent: {}
+[10.032380] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[10.077527] (-) TimerEvent: {}
+[10.081526] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[10.177726] (-) TimerEvent: {}
+[10.278521] (-) TimerEvent: {}
+[10.379308] (-) TimerEvent: {}
+[10.479953] (-) TimerEvent: {}
+[10.580779] (-) TimerEvent: {}
+[10.681516] (-) TimerEvent: {}
+[10.713957] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Found unique_identifier_msgs: 2.2.1 (/opt/ros/humble/share/unique_identifier_msgs/cmake)\n'}
+[10.781698] (-) TimerEvent: {}
+[10.783704] (tutorial_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[10.805648] (yolov8_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[10.881878] (-) TimerEvent: {}
+[10.982408] (-) TimerEvent: {}
+[11.082954] (-) TimerEvent: {}
+[11.123495] (tutorial_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[11.143857] (yolov8_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[11.155101] (yolov8_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[11.182782] (yolov8_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[11.183197] (-) TimerEvent: {}
+[11.274920] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[11.283377] (-) TimerEvent: {}
+[11.295042] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[11.329101] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[11.349090] (yolov8_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.383543] (-) TimerEvent: {}
+[11.386838] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[11.469637] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.483702] (-) TimerEvent: {}
+[11.502540] (yolov8_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[11.583883] (-) TimerEvent: {}
+[11.684411] (-) TimerEvent: {}
+[11.783497] (yolov8_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[11.784500] (-) TimerEvent: {}
+[11.884975] (-) TimerEvent: {}
+[11.971205] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[11.985143] (-) TimerEvent: {}
+[12.007414] (tutorial_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):\n'}
+[12.007907] (tutorial_interfaces) StderrLine: {'line': b"  rosidl_generate_interfaces() the passed file 'msg/Num.msg' doesn't exist\n"}
+[12.008405] (tutorial_interfaces) StderrLine: {'line': b'  relative to the CMAKE_CURRENT_SOURCE_DIR\n'}
+[12.008754] (tutorial_interfaces) StderrLine: {'line': b"  '/home/mihkel/School/ThesisPractical/myros_ws/src/a_semantic_interfaces'\n"}
+[12.009064] (tutorial_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[12.009391] (tutorial_interfaces) StderrLine: {'line': b'  CMakeLists.txt:13 (rosidl_generate_interfaces)\n'}
+[12.009633] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[12.009902] (tutorial_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[12.010126] (tutorial_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[12.045713] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 'SIGINT'}
+[12.085356] (-) TimerEvent: {}
+[12.185947] (-) TimerEvent: {}
+[12.286567] (-) TimerEvent: {}
+[12.387165] (-) TimerEvent: {}
+[12.487726] (-) TimerEvent: {}
+[12.588271] (-) TimerEvent: {}
+[12.688917] (-) TimerEvent: {}
+[12.789659] (-) TimerEvent: {}
+[12.890393] (-) TimerEvent: {}
+[12.916694] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[12.990562] (-) TimerEvent: {}
+[13.091245] (-) TimerEvent: {}
+[13.191811] (-) TimerEvent: {}
+[13.292420] (-) TimerEvent: {}
+[13.393189] (-) TimerEvent: {}
+[13.493728] (-) TimerEvent: {}
+[13.594315] (-) TimerEvent: {}
+[13.694916] (-) TimerEvent: {}
+[13.795527] (-) TimerEvent: {}
+[13.896058] (-) TimerEvent: {}
+[13.996625] (-) TimerEvent: {}
+[14.097210] (-) TimerEvent: {}
+[14.197797] (-) TimerEvent: {}
+[14.205882] (yolov8_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[14.297995] (-) TimerEvent: {}
+[14.398606] (-) TimerEvent: {}
+[14.499198] (-) TimerEvent: {}
+[14.599790] (-) TimerEvent: {}
+[14.700436] (-) TimerEvent: {}
+[14.801051] (-) TimerEvent: {}
+[14.901658] (-) TimerEvent: {}
+[15.002259] (-) TimerEvent: {}
+[15.102860] (-) TimerEvent: {}
+[15.203444] (-) TimerEvent: {}
+[15.304017] (-) TimerEvent: {}
+[15.404794] (-) TimerEvent: {}
+[15.505379] (-) TimerEvent: {}
+[15.606168] (-) TimerEvent: {}
+[15.706757] (-) TimerEvent: {}
+[15.807348] (-) TimerEvent: {}
+[15.908010] (-) TimerEvent: {}
+[16.008620] (-) TimerEvent: {}
+[16.109210] (-) TimerEvent: {}
+[16.209786] (-) TimerEvent: {}
+[16.310530] (-) TimerEvent: {}
+[16.411141] (-) TimerEvent: {}
+[16.511755] (-) TimerEvent: {}
+[16.612377] (-) TimerEvent: {}
+[16.688497] (yolov8_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[16.712508] (-) TimerEvent: {}
+[16.813106] (-) TimerEvent: {}
+[16.913714] (-) TimerEvent: {}
+[17.014472] (-) TimerEvent: {}
+[17.115069] (-) TimerEvent: {}
+[17.215670] (-) TimerEvent: {}
+[17.316278] (-) TimerEvent: {}
+[17.325524] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[17.416451] (-) TimerEvent: {}
+[17.517081] (-) TimerEvent: {}
+[17.617687] (-) TimerEvent: {}
+[17.718250] (-) TimerEvent: {}
+[17.818866] (-) TimerEvent: {}
+[17.919480] (-) TimerEvent: {}
+[18.020096] (-) TimerEvent: {}
+[18.120728] (-) TimerEvent: {}
+[18.221349] (-) TimerEvent: {}
+[18.321964] (-) TimerEvent: {}
+[18.422580] (-) TimerEvent: {}
+[18.523141] (-) TimerEvent: {}
+[18.623760] (-) TimerEvent: {}
+[18.724371] (-) TimerEvent: {}
+[18.824978] (-) TimerEvent: {}
+[18.925621] (-) TimerEvent: {}
+[19.026227] (-) TimerEvent: {}
+[19.104058] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[19.119540] (nav2_dynamic_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):\n'}
+[19.120002] (nav2_dynamic_msgs) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[19.120335] (nav2_dynamic_msgs) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[19.120592] (nav2_dynamic_msgs) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[19.120830] (nav2_dynamic_msgs) StderrLine: {'line': b'\n'}
+[19.121066] (nav2_dynamic_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[19.121303] (nav2_dynamic_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[19.121541] (nav2_dynamic_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[19.121774] (nav2_dynamic_msgs) StderrLine: {'line': b'  CMakeLists.txt:30 (rosidl_generate_interfaces)\n'}
+[19.122007] (nav2_dynamic_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[19.122239] (nav2_dynamic_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[19.126402] (-) TimerEvent: {}
+[19.226971] (-) TimerEvent: {}
+[19.229059] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[19.243262] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[19.245338] (nav2_dynamic_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):\n'}
+[19.245726] (nav2_dynamic_msgs) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[19.246028] (nav2_dynamic_msgs) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[19.246305] (nav2_dynamic_msgs) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[19.246558] (nav2_dynamic_msgs) StderrLine: {'line': b'\n'}
+[19.246800] (nav2_dynamic_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[19.247042] (nav2_dynamic_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[19.247284] (nav2_dynamic_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[19.247522] (nav2_dynamic_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[19.247755] (nav2_dynamic_msgs) StderrLine: {'line': b'  CMakeLists.txt:30 (rosidl_generate_interfaces)\n'}
+[19.247991] (nav2_dynamic_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[19.248262] (nav2_dynamic_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[19.327169] (-) TimerEvent: {}
+[19.353427] (nav2_dynamic_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):\n'}
+[19.353906] (nav2_dynamic_msgs) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[19.354181] (nav2_dynamic_msgs) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[19.354431] (nav2_dynamic_msgs) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[19.354675] (nav2_dynamic_msgs) StderrLine: {'line': b'\n'}
+[19.354951] (nav2_dynamic_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[19.355417] (nav2_dynamic_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[19.355887] (nav2_dynamic_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[19.356435] (nav2_dynamic_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[19.356885] (nav2_dynamic_msgs) StderrLine: {'line': b'  CMakeLists.txt:30 (rosidl_generate_interfaces)\n'}
+[19.357314] (nav2_dynamic_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[19.357695] (nav2_dynamic_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[19.379603] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[19.380295] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[19.380702] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[19.380975] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[19.427362] (-) TimerEvent: {}
+[19.490927] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[19.527557] (-) TimerEvent: {}
+[19.628185] (-) TimerEvent: {}
+[19.728732] (-) TimerEvent: {}
+[19.829333] (-) TimerEvent: {}
+[19.907728] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[19.929517] (-) TimerEvent: {}
+[19.935763] (yolov8_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[19.943822] (yolov8_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):\n'}
+[19.944300] (yolov8_msgs) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[19.944584] (yolov8_msgs) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[19.944842] (yolov8_msgs) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[19.945090] (yolov8_msgs) StderrLine: {'line': b'\n'}
+[19.945335] (yolov8_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[19.945575] (yolov8_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[19.945817] (yolov8_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[19.946054] (yolov8_msgs) StderrLine: {'line': b'  CMakeLists.txt:10 (rosidl_generate_interfaces)\n'}
+[19.946291] (yolov8_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[19.946527] (yolov8_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[20.004576] (nav2_dynamic_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[20.011221] (nav2_dynamic_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[20.015313] (nav2_dynamic_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[20.026268] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Configuring done (18.3s)\n'}
+[20.029692] (-) TimerEvent: {}
+[20.054968] (yolov8_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[20.061294] (yolov8_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[20.062906] (yolov8_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):\n'}
+[20.063291] (yolov8_msgs) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[20.063560] (yolov8_msgs) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[20.063859] (yolov8_msgs) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[20.064107] (yolov8_msgs) StderrLine: {'line': b'\n'}
+[20.064392] (yolov8_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[20.064634] (yolov8_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[20.064873] (yolov8_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[20.065112] (yolov8_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[20.065349] (yolov8_msgs) StderrLine: {'line': b'  CMakeLists.txt:10 (rosidl_generate_interfaces)\n'}
+[20.065583] (yolov8_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[20.065819] (yolov8_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[20.129893] (-) TimerEvent: {}
+[20.172264] (yolov8_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):\n'}
+[20.172799] (yolov8_msgs) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[20.173089] (yolov8_msgs) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[20.173347] (yolov8_msgs) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[20.173596] (yolov8_msgs) StderrLine: {'line': b'\n'}
+[20.173877] (yolov8_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[20.174124] (yolov8_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[20.174364] (yolov8_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[20.174602] (yolov8_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[20.174865] (yolov8_msgs) StderrLine: {'line': b'  CMakeLists.txt:10 (rosidl_generate_interfaces)\n'}
+[20.175106] (yolov8_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[20.175341] (yolov8_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[20.194359] (yolov8_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[20.195059] (yolov8_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[20.195395] (yolov8_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[20.195671] (yolov8_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[20.208380] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[20.220747] (nav2_dynamic_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/mihkel/School/ThesisPractical/myros_ws/build/nav2_dynamic_msgs\n'}
+[20.230057] (-) TimerEvent: {}
+[20.274692] (nav2_dynamic_msgs) JobEnded: {'identifier': 'nav2_dynamic_msgs', 'rc': 'SIGINT'}
+[20.306712] (yolov8_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[20.330230] (-) TimerEvent: {}
+[20.430774] (-) TimerEvent: {}
+[20.531357] (-) TimerEvent: {}
+[20.631953] (-) TimerEvent: {}
+[20.646611] (yolov8_msgs) StdoutLine: {'line': b'-- Configuring done (15.0s)\n'}
+[20.732135] (-) TimerEvent: {}
+[20.832728] (-) TimerEvent: {}
+[20.877949] (yolov8_msgs) StdoutLine: {'line': b'-- Generating done (0.2s)\n'}
+[20.889799] (yolov8_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_msgs\n'}
+[20.923105] (yolov8_msgs) JobEnded: {'identifier': 'yolov8_msgs', 'rc': 'SIGINT'}
+[20.932943] (-) TimerEvent: {}
+[20.934575] (kf_hungarian_tracker) JobSkipped: {'identifier': 'kf_hungarian_tracker'}
+[20.935009] (yolov8_bringup) JobSkipped: {'identifier': 'yolov8_bringup'}
+[20.935223] (-) EventReactorShutdown: {}

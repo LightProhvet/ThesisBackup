@@ -1,0 +1,2 @@
+[console_scripts]
+segmentation = semantic_segmentation.segmentation_node:main

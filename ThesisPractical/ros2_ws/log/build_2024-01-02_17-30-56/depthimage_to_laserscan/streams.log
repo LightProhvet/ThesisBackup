@@ -1,0 +1,5 @@
+[0.250s] Invoking command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/depthimage_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier:/opt/ros/humble /usr/bin/cmake --build /home/mihkel/School/ThesisPractical/ros2_ws/build/depthimage_to_laserscan -- -j12 -l12
+[0.291s] [0mCMake Error: The source directory "/home/mihkel/School/ThesisPractical/ros2_ws/depthimage_to_laserscan" does not exist.
+[0.291s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.293s] gmake: *** [Makefile:418: cmake_check_build_system] Error 1
+[0.297s] Invoked command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/depthimage_to_laserscan' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mihkel/School/ThesisPractical/ros2_ws/install/hospital_carrier:/opt/ros/humble /usr/bin/cmake --build /home/mihkel/School/ThesisPractical/ros2_ws/build/depthimage_to_laserscan -- -j12 -l12

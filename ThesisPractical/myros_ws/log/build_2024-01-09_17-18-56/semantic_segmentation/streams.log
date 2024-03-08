@@ -1,0 +1,17 @@
+[5.677s] Invoking command in '/home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation': PYTHONPATH=/home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/prefix_override:/home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build --no-deps install_data
+[7.638s] running develop
+[8.897s] running egg_info
+[8.898s] writing semantic_segmentation.egg-info/PKG-INFO
+[8.899s] writing dependency_links to semantic_segmentation.egg-info/dependency_links.txt
+[8.900s] writing entry points to semantic_segmentation.egg-info/entry_points.txt
+[8.901s] writing requirements to semantic_segmentation.egg-info/requires.txt
+[8.901s] writing top-level names to semantic_segmentation.egg-info/top_level.txt
+[8.915s] reading manifest file 'semantic_segmentation.egg-info/SOURCES.txt'
+[8.921s] writing manifest file 'semantic_segmentation.egg-info/SOURCES.txt'
+[9.127s] running build_ext
+[9.128s] Creating /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages/semantic-segmentation.egg-link (link to .)
+[9.131s] Installing segmentation script to /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/semantic_segmentation
+[9.133s] 
+[9.133s] Installed /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation
+[9.133s] running install_data
+[9.303s] Invoked command in '/home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation' returned '0': PYTHONPATH=/home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/prefix_override:/home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build --no-deps install_data

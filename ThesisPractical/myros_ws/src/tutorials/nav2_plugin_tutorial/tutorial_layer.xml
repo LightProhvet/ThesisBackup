@@ -1,0 +1,5 @@
+<library path="nav2_plugin_tutorial_core">
+    <class name="nav2_plugin_tutorial::TutorialLayer" type="nav2_plugin_tutorial::TutorialLayer" base_class_type="nav2_costmap_2d::Layer">
+        <description>Example plugin of Mihkel Marten's making.</description>
+    </class>
+</library>

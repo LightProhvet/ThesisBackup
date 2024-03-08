@@ -1,0 +1,1 @@
+/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap_ros/rtabmap_examples/launch/vlp16.launch.py

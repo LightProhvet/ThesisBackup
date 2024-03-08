@@ -1,0 +1,41 @@
+[0.249s] Invoking command in '/home/mihkel/School/ros-packages/nav2_ws/build/smclib': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ros-packages/nav2_ws/build/smclib -- -j12 -l12
+[0.374s] Built target ament_cmake_python_symlink_smclib
+[1.667s] running egg_info
+[1.669s] writing smclib.egg-info/PKG-INFO
+[1.670s] writing dependency_links to smclib.egg-info/dependency_links.txt
+[1.673s] writing top-level names to smclib.egg-info/top_level.txt
+[1.679s] reading manifest file 'smclib.egg-info/SOURCES.txt'
+[1.682s] writing manifest file 'smclib.egg-info/SOURCES.txt'
+[1.758s] Built target ament_cmake_python_build_smclib_egg
+[1.785s] Invoked command in '/home/mihkel/School/ros-packages/nav2_ws/build/smclib' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ros-packages/nav2_ws/build/smclib -- -j12 -l12
+[2.031s] Invoking command in '/home/mihkel/School/ros-packages/nav2_ws/build/smclib': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --install /home/mihkel/School/ros-packages/nav2_ws/build/smclib
+[2.114s] -- Install configuration: ""
+[2.116s] -- Execute custom install script
+[2.118s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/smclib/include/smclib/statemap.hpp
+[2.118s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/smclib/share/smclib/environment/pythonpath.sh
+[2.119s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/smclib/share/smclib/environment/pythonpath.dsv
+[2.120s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/smclib/local/lib/python3.10/dist-packages/smclib-4.0.0-py3.10.egg-info/PKG-INFO
+[2.121s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/smclib/local/lib/python3.10/dist-packages/smclib-4.0.0-py3.10.egg-info/SOURCES.txt
+[2.121s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/smclib/local/lib/python3.10/dist-packages/smclib-4.0.0-py3.10.egg-info/dependency_links.txt
+[2.121s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/smclib/local/lib/python3.10/dist-packages/smclib-4.0.0-py3.10.egg-info/top_level.txt
+[2.122s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/smclib/local/lib/python3.10/dist-packages/smclib/__init__.py
+[2.123s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/smclib/local/lib/python3.10/dist-packages/smclib/statemap.py
+[2.123s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/smclib/share/ament_index/resource_index/package_run_dependencies/smclib
+[2.124s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/smclib/share/ament_index/resource_index/parent_prefix_path/smclib
+[2.125s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/smclib/share/smclib/environment/ament_prefix_path.sh
+[2.125s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/smclib/share/smclib/environment/ament_prefix_path.dsv
+[2.126s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/smclib/share/smclib/environment/path.sh
+[2.126s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/smclib/share/smclib/environment/path.dsv
+[2.127s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/smclib/share/smclib/local_setup.bash
+[2.127s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/smclib/share/smclib/local_setup.sh
+[2.128s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/smclib/share/smclib/local_setup.zsh
+[2.129s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/smclib/share/smclib/local_setup.dsv
+[2.129s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/smclib/share/smclib/package.dsv
+[2.137s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/smclib/share/ament_index/resource_index/packages/smclib
+[2.138s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/smclib/share/smclib/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.139s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/smclib/share/smclib/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.139s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/smclib/share/smclib/cmake/smclibConfig.cmake
+[2.139s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/smclib/share/smclib/cmake/smclibConfig-version.cmake
+[2.140s] -- Up-to-date symlink: /home/mihkel/School/ros-packages/nav2_ws/install/smclib/share/smclib/package.xml
+[2.255s] Listing '/home/mihkel/School/ros-packages/nav2_ws/install/smclib/local/lib/python3.10/dist-packages/smclib'...
+[2.289s] Invoked command in '/home/mihkel/School/ros-packages/nav2_ws/build/smclib' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --install /home/mihkel/School/ros-packages/nav2_ws/build/smclib

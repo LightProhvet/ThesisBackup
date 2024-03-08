@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: semantic_segmentation
+Version: 0.1.0
+Summary: Semantic segmentation
+Maintainer: dheera
+Maintainer-email: dheera@dheera.net
+License: BSD
+License-File: LICENSE.txt
+Requires-Dist: setuptools
+Requires-Dist: numpy
+Requires-Dist: tensorflow

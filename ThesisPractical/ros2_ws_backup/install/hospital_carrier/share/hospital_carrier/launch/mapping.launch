@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<launch>
+
+
+<!-- RealSense Camera configurable parameters  -->
+    <arg name="enable_sync"       default="true" />
+    <arg name="enable_gyro"       default="true" />
+    <arg name="enable_accel"      default="true" />
+    <arg name="unite_imu_method"  default="1" />
+
+    <group>
+    <!--
+    <push-ros-namespace namespace="$(var camera)"/> -->
+        <include file="$(find-pkg-share realsense2_camera)/launch/rs_launch.py">
+            <arg name="enable_sync"  value="$(var enable_sync)" />
+            <arg name="enable_gyro"  value="$(var enable_gyro)" />
+            <arg name="enable_accel"  value="$(var enable_accel)" />
+            <arg name="unite_imu_method"  value="$(var unite_imu_method)" />
+        </include>
+    </group>
+
+    <group> 
+        <include file="$(find-pkg-share hospital_carrier)/launch/realsense_d435i_color.launch.py">
+        </include>
+    </group>
+
+    <!-- launch rviz -->    
+    <node name="rviz2" pkg="rviz2" exec="rviz2" output="screen"> 
+    </node>
+    
+    <!-- Launch apriltag node for marker detection -->    
+    <node name="apriltag_node" pkg="apriltag_ros" exec="apriltag_node" output="screen">
+        <param from="$(find-pkg-share hospital_carrier)/config/apriltag_settings.yaml"/>
+    </node>
+
+    <group>
+    <!-- Convert depth data from realsense camera to laserscan required for SLAM -->
+    <include file="$(find-pkg-share depthimage_to_laserscan)/launch/depthimage_to_laserscan-launch.py">
+    </include>
+    </group>
+
+    <group>
+    <push-ros-namespace namespace="hospital_carrier"/>
+
+		<!-- these params need to be used as letuments to node, so they are here not in robotConfig.yaml -->
+		<arg name="camera_mounting_angle" default="90.0"/><!--camera center's angle from vertical downwards line-->
+		<arg name="camera_mounting_height" default="0.34"/><!--camera height from floor, in m-->
+		<arg name="camera_mounting_forward_from_base_center" default="0.350"/><!--relative to COM in [mm]-->
+
+        <!--Insert quaternion of camera rotation in base_footprint frame-->
+        
+		<node name="camera_link_broadcaster" pkg="tf2_ros" exec="static_transform_publisher"
+		    args="$(var camera_mounting_forward_from_base_center) 0 $(var camera_mounting_height)
+		    0.0 0.0 0.0
+		    base_link camera_link" />
+        
+<!-- 	    <node name="Odrives" pkg="hospital_carrier" exec="Odrives" output="screen" respawn="true"> -->
+<!--             <param from="$(find-pkg-share hospital_carrier)/config/robotConfig.yaml"/> -->
+<!--         </node> -->
+
+	    <node name="OperationModeControl" pkg="hospital_carrier" exec="OperationModeControl" output="screen" respawn="true">
+	        <param name="simulation" value="False" />
+	        <param name="test_without_driving" value="True" />
+            <param from="$(find-pkg-share hospital_carrier)/config/robotConfig.yaml"/>
+	        <!--Use true only when odrives are not part of the launch.-->
+	    </node>
+	    
+<!-- 	    <node name="PS4Controller" pkg="hospital_carrier" exec="PS4Controller" output="screen" respawn="true"> -->
+<!--             <param from="$(find-pkg-share hospital_carrier)/config/robotConfig.yaml"/> -->
+<!--         </node> -->
+
+</group>
+
+</launch>
+

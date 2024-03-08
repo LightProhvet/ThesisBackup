@@ -1,0 +1,42 @@
+[7.607s] Invoking command in '/home/mihkel/School/ros-packages/nav2_ws/build/nav2_simple_commander': AMENT_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs LD_LIBRARY_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mihkel/School/ros-packages/nav2_ws/build/nav2_simple_commander/prefix_override:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mihkel/School/ros-packages/nav2_ws/build/nav2_simple_commander/build --no-deps install_data
+[10.277s] running develop
+[12.072s] running egg_info
+[12.073s] creating nav2_simple_commander.egg-info
+[12.074s] writing nav2_simple_commander.egg-info/PKG-INFO
+[12.074s] writing dependency_links to nav2_simple_commander.egg-info/dependency_links.txt
+[12.075s] writing entry points to nav2_simple_commander.egg-info/entry_points.txt
+[12.076s] writing requirements to nav2_simple_commander.egg-info/requires.txt
+[12.076s] writing top-level names to nav2_simple_commander.egg-info/top_level.txt
+[12.077s] writing manifest file 'nav2_simple_commander.egg-info/SOURCES.txt'
+[12.093s] reading manifest file 'nav2_simple_commander.egg-info/SOURCES.txt'
+[12.096s] writing manifest file 'nav2_simple_commander.egg-info/SOURCES.txt'
+[12.262s] running build_ext
+[12.263s] Creating /home/mihkel/School/ros-packages/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2-simple-commander.egg-link (link to .)
+[12.267s] Installing demo_inspection script to /home/mihkel/School/ros-packages/nav2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[12.268s] Installing demo_picking script to /home/mihkel/School/ros-packages/nav2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[12.268s] Installing demo_recoveries script to /home/mihkel/School/ros-packages/nav2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[12.269s] Installing demo_security script to /home/mihkel/School/ros-packages/nav2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[12.269s] Installing example_assisted_teleop script to /home/mihkel/School/ros-packages/nav2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[12.271s] Installing example_follow_path script to /home/mihkel/School/ros-packages/nav2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[12.271s] Installing example_nav_through_poses script to /home/mihkel/School/ros-packages/nav2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[12.273s] Installing example_nav_to_pose script to /home/mihkel/School/ros-packages/nav2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[12.274s] Installing example_waypoint_follower script to /home/mihkel/School/ros-packages/nav2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[12.275s] 
+[12.275s] Installed /home/mihkel/School/ros-packages/nav2_ws/build/nav2_simple_commander
+[12.276s] running install_data
+[12.276s] creating /home/mihkel/School/ros-packages/nav2_ws/install/nav2_simple_commander/share/ament_index
+[12.276s] creating /home/mihkel/School/ros-packages/nav2_ws/install/nav2_simple_commander/share/ament_index/resource_index
+[12.277s] creating /home/mihkel/School/ros-packages/nav2_ws/install/nav2_simple_commander/share/ament_index/resource_index/packages
+[12.278s] copying resource/nav2_simple_commander -> /home/mihkel/School/ros-packages/nav2_ws/install/nav2_simple_commander/share/ament_index/resource_index/packages
+[12.278s] copying package.xml -> /home/mihkel/School/ros-packages/nav2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[12.278s] copying launch/picking_demo_launch.py -> /home/mihkel/School/ros-packages/nav2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[12.283s] copying launch/warehouse.world -> /home/mihkel/School/ros-packages/nav2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[12.284s] copying launch/assisted_teleop_example_launch.py -> /home/mihkel/School/ros-packages/nav2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[12.285s] copying launch/nav_to_pose_example_launch.py -> /home/mihkel/School/ros-packages/nav2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[12.285s] copying launch/nav_through_poses_example_launch.py -> /home/mihkel/School/ros-packages/nav2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[12.286s] copying launch/follow_path_example_launch.py -> /home/mihkel/School/ros-packages/nav2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[12.287s] copying launch/security_demo_launch.py -> /home/mihkel/School/ros-packages/nav2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[12.288s] copying launch/recoveries_example_launch.py -> /home/mihkel/School/ros-packages/nav2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[12.288s] copying launch/inspection_demo_launch.py -> /home/mihkel/School/ros-packages/nav2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[12.289s] copying launch/waypoint_follower_example_launch.py -> /home/mihkel/School/ros-packages/nav2_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[12.461s] Invoked command in '/home/mihkel/School/ros-packages/nav2_ws/build/nav2_simple_commander' returned '0': AMENT_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs LD_LIBRARY_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mihkel/School/ros-packages/nav2_ws/build/nav2_simple_commander/prefix_override:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mihkel/School/ros-packages/nav2_ws/build/nav2_simple_commander/build --no-deps install_data

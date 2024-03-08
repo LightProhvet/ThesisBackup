@@ -1,0 +1,25 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/robot_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ros2_msgs/msg/detail/encoders__type_support.c.o"
+  "CMakeFiles/robot_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ros2_msgs/msg/detail/encoders__type_support.c.o.d"
+  "CMakeFiles/robot_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ros2_msgs/msg/detail/int_list__type_support.c.o"
+  "CMakeFiles/robot_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ros2_msgs/msg/detail/int_list__type_support.c.o.d"
+  "CMakeFiles/robot_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ros2_msgs/msg/detail/previous_and_next_point__type_support.c.o"
+  "CMakeFiles/robot_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ros2_msgs/msg/detail/previous_and_next_point__type_support.c.o.d"
+  "CMakeFiles/robot_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ros2_msgs/msg/detail/tag__type_support.c.o"
+  "CMakeFiles/robot_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ros2_msgs/msg/detail/tag__type_support.c.o.d"
+  "librobot_ros2_msgs__rosidl_typesupport_introspection_c.pdb"
+  "librobot_ros2_msgs__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/robot_ros2_msgs/msg/detail/encoders__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/robot_ros2_msgs/msg/detail/encoders__type_support.c"
+  "rosidl_typesupport_introspection_c/robot_ros2_msgs/msg/detail/int_list__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/robot_ros2_msgs/msg/detail/int_list__type_support.c"
+  "rosidl_typesupport_introspection_c/robot_ros2_msgs/msg/detail/previous_and_next_point__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/robot_ros2_msgs/msg/detail/previous_and_next_point__type_support.c"
+  "rosidl_typesupport_introspection_c/robot_ros2_msgs/msg/detail/tag__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/robot_ros2_msgs/msg/detail/tag__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/robot_ros2_msgs__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

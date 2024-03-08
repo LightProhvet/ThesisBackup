@@ -1,0 +1,17 @@
+/home/mihkel/School/ThesisPractical/librealsense/build/libcurl/libcurl_install/lib/libcurl.a
+/home/mihkel/School/ThesisPractical/librealsense/build/libcurl/libcurl_install/bin/curl-config
+/home/mihkel/School/ThesisPractical/librealsense/build/libcurl/libcurl_install/lib/pkgconfig/libcurl.pc
+/home/mihkel/School/ThesisPractical/librealsense/build/libcurl/libcurl_install/include/curl/curlver.h
+/home/mihkel/School/ThesisPractical/librealsense/build/libcurl/libcurl_install/include/curl/mprintf.h
+/home/mihkel/School/ThesisPractical/librealsense/build/libcurl/libcurl_install/include/curl/easy.h
+/home/mihkel/School/ThesisPractical/librealsense/build/libcurl/libcurl_install/include/curl/stdcheaders.h
+/home/mihkel/School/ThesisPractical/librealsense/build/libcurl/libcurl_install/include/curl/options.h
+/home/mihkel/School/ThesisPractical/librealsense/build/libcurl/libcurl_install/include/curl/multi.h
+/home/mihkel/School/ThesisPractical/librealsense/build/libcurl/libcurl_install/include/curl/typecheck-gcc.h
+/home/mihkel/School/ThesisPractical/librealsense/build/libcurl/libcurl_install/include/curl/curl.h
+/home/mihkel/School/ThesisPractical/librealsense/build/libcurl/libcurl_install/include/curl/system.h
+/home/mihkel/School/ThesisPractical/librealsense/build/libcurl/libcurl_install/include/curl/urlapi.h
+/home/mihkel/School/ThesisPractical/librealsense/build/libcurl/libcurl_install/lib/cmake/CURL/CURLTargets.cmake
+/home/mihkel/School/ThesisPractical/librealsense/build/libcurl/libcurl_install/lib/cmake/CURL/CURLTargets-release.cmake
+/home/mihkel/School/ThesisPractical/librealsense/build/libcurl/libcurl_install/lib/cmake/CURL/CURLConfigVersion.cmake
+/home/mihkel/School/ThesisPractical/librealsense/build/libcurl/libcurl_install/lib/cmake/CURL/CURLConfig.cmake

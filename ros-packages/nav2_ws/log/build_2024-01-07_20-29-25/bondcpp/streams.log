@@ -1,0 +1,84 @@
+[0.946s] Invoking command in '/home/mihkel/School/ros-packages/nav2_ws/build/bondcpp': AMENT_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/bond:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/bond:/opt/ros/humble LD_LIBRARY_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/bond/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mihkel/School/ros-packages/nav2_ws/install/smclib/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/mihkel/.local/bin/cmake /home/mihkel/School/ros-packages/nav2_ws/src/ros/bond_core/bondcpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp
+[1.184s] -- The C compiler identification is GNU 11.4.0
+[1.370s] -- The CXX compiler identification is GNU 11.4.0
+[1.418s] -- Detecting C compiler ABI info
+[1.614s] -- Detecting C compiler ABI info - done
+[1.657s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.658s] -- Detecting C compile features
+[1.659s] -- Detecting C compile features - done
+[1.686s] -- Detecting CXX compiler ABI info
+[1.906s] -- Detecting CXX compiler ABI info - done
+[1.950s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.952s] -- Detecting CXX compile features
+[1.954s] -- Detecting CXX compile features - done
+[1.963s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.958s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[6.193s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.296s] -- Found bond: 4.0.0 (/home/mihkel/School/ros-packages/nav2_ws/install/bond/share/bond/cmake)
+[6.463s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.491s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.531s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.598s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.697s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.250s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[7.527s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.538s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.891s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.999s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.189s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.231s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.422s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.426s] -- Found Threads: TRUE  
+[9.046s] -- Found rclcpp_lifecycle: 16.0.7 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[9.242s] -- Found smclib: 4.0.0 (/home/mihkel/School/ros-packages/nav2_ws/install/smclib/share/smclib/cmake)
+[9.269s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[9.272s] -- Checking for module 'uuid'
+[9.307s] --   Found uuid, version 2.37.2
+[9.410s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.750s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.751s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/mihkel/School/ros-packages/nav2_ws/src/ros/bond_core/bondcpp/include>
+[9.751s] -- Configured cppcheck exclude dirs and/or files: 
+[9.754s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[9.755s] -- Configured cpplint exclude dirs and/or files: 
+[9.757s] -- Added test 'lint_cmake' to check CMake code style
+[9.761s] -- Added test 'uncrustify' to check C / C++ code style
+[9.762s] -- Configured uncrustify additional arguments: 
+[9.764s] -- Added test 'xmllint' to check XML markup files
+[9.773s] -- Configuring done (8.7s)
+[9.820s] -- Generating done (0.0s)
+[9.827s] -- Build files have been written to: /home/mihkel/School/ros-packages/nav2_ws/build/bondcpp
+[9.879s] Invoked command in '/home/mihkel/School/ros-packages/nav2_ws/build/bondcpp' returned '0': AMENT_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/bond:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/bond:/opt/ros/humble LD_LIBRARY_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/bond/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mihkel/School/ros-packages/nav2_ws/install/smclib/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/mihkel/.local/bin/cmake /home/mihkel/School/ros-packages/nav2_ws/src/ros/bond_core/bondcpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp
+[9.883s] Invoking command in '/home/mihkel/School/ros-packages/nav2_ws/build/bondcpp': AMENT_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/bond:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/bond:/opt/ros/humble LD_LIBRARY_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/bond/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mihkel/School/ros-packages/nav2_ws/install/smclib/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ros-packages/nav2_ws/build/bondcpp -- -j12 -l12
+[10.041s] [ 33%] [32mBuilding CXX object CMakeFiles/bondcpp.dir/src/bond.cpp.o[0m
+[10.042s] [ 66%] [32mBuilding CXX object CMakeFiles/bondcpp.dir/src/BondSM_sm.cpp.o[0m
+[41.883s] [100%] [32m[1mLinking CXX shared library libbondcpp.so[0m
+[43.667s] [100%] Built target bondcpp
+[43.695s] Invoked command in '/home/mihkel/School/ros-packages/nav2_ws/build/bondcpp' returned '0': AMENT_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/bond:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/bond:/opt/ros/humble LD_LIBRARY_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/bond/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mihkel/School/ros-packages/nav2_ws/install/smclib/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ros-packages/nav2_ws/build/bondcpp -- -j12 -l12
+[43.856s] Invoking command in '/home/mihkel/School/ros-packages/nav2_ws/build/bondcpp': AMENT_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/bond:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/bond:/opt/ros/humble LD_LIBRARY_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/bond/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mihkel/School/ros-packages/nav2_ws/install/smclib/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/mihkel/.local/bin/cmake --install /home/mihkel/School/ros-packages/nav2_ws/build/bondcpp
+[43.948s] -- Install configuration: ""
+[43.950s] -- Execute custom install script
+[43.951s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/lib/libbondcpp.so
+[43.961s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/include/bondcpp/BondSM_sm.hpp
+[43.968s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/include/bondcpp/bond.hpp
+[43.977s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/include/bondcpp/visibility_control.hpp
+[43.984s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/share/bondcpp/environment/library_path.sh
+[43.992s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/share/bondcpp/environment/library_path.dsv
+[44.001s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/share/ament_index/resource_index/package_run_dependencies/bondcpp
+[44.010s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/share/ament_index/resource_index/parent_prefix_path/bondcpp
+[44.018s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/share/bondcpp/environment/ament_prefix_path.sh
+[44.027s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/share/bondcpp/environment/ament_prefix_path.dsv
+[44.036s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/share/bondcpp/environment/path.sh
+[44.045s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/share/bondcpp/environment/path.dsv
+[44.053s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/share/bondcpp/local_setup.bash
+[44.061s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/share/bondcpp/local_setup.sh
+[44.070s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/share/bondcpp/local_setup.zsh
+[44.078s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/share/bondcpp/local_setup.dsv
+[44.087s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/share/bondcpp/package.dsv
+[44.096s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/share/ament_index/resource_index/packages/bondcpp
+[44.104s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/share/bondcpp/cmake/ament_cmake_export_dependencies-extras.cmake
+[44.112s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/share/bondcpp/cmake/ament_cmake_export_include_directories-extras.cmake
+[44.121s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/share/bondcpp/cmake/ament_cmake_export_libraries-extras.cmake
+[44.129s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/share/bondcpp/cmake/bondcppConfig.cmake
+[44.137s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/share/bondcpp/cmake/bondcppConfig-version.cmake
+[44.146s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/share/bondcpp/package.xml
+[44.174s] Invoked command in '/home/mihkel/School/ros-packages/nav2_ws/build/bondcpp' returned '0': AMENT_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/bond:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/bond:/opt/ros/humble LD_LIBRARY_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/bond/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mihkel/School/ros-packages/nav2_ws/install/smclib/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/mihkel/.local/bin/cmake --install /home/mihkel/School/ros-packages/nav2_ws/build/bondcpp

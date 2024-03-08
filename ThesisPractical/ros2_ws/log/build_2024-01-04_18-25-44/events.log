@@ -1,0 +1,761 @@
+[0.000000] (-) TimerEvent: {}
+[0.000572] (depthimage_to_laserscan) JobQueued: {'identifier': 'depthimage_to_laserscan', 'dependencies': OrderedDict()}
+[0.000757] (robot_ros2_msgs) JobQueued: {'identifier': 'robot_ros2_msgs', 'dependencies': OrderedDict()}
+[0.001140] (rtabmap_costmap_plugins) JobQueued: {'identifier': 'rtabmap_costmap_plugins', 'dependencies': OrderedDict()}
+[0.001256] (rtabmap_msgs) JobQueued: {'identifier': 'rtabmap_msgs', 'dependencies': OrderedDict()}
+[0.001433] (rtabmap_python) JobQueued: {'identifier': 'rtabmap_python', 'dependencies': OrderedDict()}
+[0.001805] (sophus) JobQueued: {'identifier': 'sophus', 'dependencies': OrderedDict()}
+[0.001918] (sophus-populate) JobQueued: {'identifier': 'sophus-populate', 'dependencies': OrderedDict()}
+[0.002020] (tessil-populate) JobQueued: {'identifier': 'tessil-populate', 'dependencies': OrderedDict()}
+[0.002126] (tsl-robin-map) JobQueued: {'identifier': 'tsl-robin-map', 'dependencies': OrderedDict()}
+[0.002593] (hospital_carrier) JobQueued: {'identifier': 'hospital_carrier', 'dependencies': OrderedDict([('robot_ros2_msgs', '/home/mihkel/School/ThesisPractical/ros2_ws/install/robot_ros2_msgs')])}
+[0.002881] (pybind) JobQueued: {'identifier': 'pybind', 'dependencies': OrderedDict([('tsl-robin-map', '/home/mihkel/School/ThesisPractical/ros2_ws/install/tsl-robin-map')])}
+[0.002969] (rtabmap_conversions) JobQueued: {'identifier': 'rtabmap_conversions', 'dependencies': OrderedDict([('rtabmap_msgs', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_msgs')])}
+[0.003125] (rtabmap_rviz_plugins) JobQueued: {'identifier': 'rtabmap_rviz_plugins', 'dependencies': OrderedDict([('rtabmap_msgs', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_msgs'), ('rtabmap_conversions', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_conversions')])}
+[0.003203] (rtabmap_sync) JobQueued: {'identifier': 'rtabmap_sync', 'dependencies': OrderedDict([('rtabmap_msgs', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_msgs'), ('rtabmap_conversions', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_conversions')])}
+[0.003466] (rtabmap_util) JobQueued: {'identifier': 'rtabmap_util', 'dependencies': OrderedDict([('rtabmap_msgs', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_msgs'), ('rtabmap_conversions', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_conversions')])}
+[0.003833] (rtabmap_odom) JobQueued: {'identifier': 'rtabmap_odom', 'dependencies': OrderedDict([('rtabmap_msgs', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_msgs'), ('rtabmap_conversions', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_conversions'), ('rtabmap_sync', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_sync'), ('rtabmap_util', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_util')])}
+[0.004167] (rtabmap_slam) JobQueued: {'identifier': 'rtabmap_slam', 'dependencies': OrderedDict([('rtabmap_msgs', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_msgs'), ('rtabmap_conversions', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_conversions'), ('rtabmap_sync', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_sync'), ('rtabmap_util', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_util')])}
+[0.004418] (rtabmap_viz) JobQueued: {'identifier': 'rtabmap_viz', 'dependencies': OrderedDict([('rtabmap_msgs', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_msgs'), ('rtabmap_conversions', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_conversions'), ('rtabmap_sync', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_sync')])}
+[0.004504] (rtabmap_launch) JobQueued: {'identifier': 'rtabmap_launch', 'dependencies': OrderedDict([('rtabmap_costmap_plugins', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_costmap_plugins'), ('rtabmap_msgs', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_msgs'), ('rtabmap_conversions', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_conversions'), ('rtabmap_rviz_plugins', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_rviz_plugins'), ('rtabmap_sync', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_sync'), ('rtabmap_util', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_util'), ('rtabmap_odom', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_odom'), ('rtabmap_slam', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_slam'), ('rtabmap_viz', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_viz')])}
+[0.004699] (rtabmap_demos) JobQueued: {'identifier': 'rtabmap_demos', 'dependencies': OrderedDict([('rtabmap_costmap_plugins', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_costmap_plugins'), ('rtabmap_msgs', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_msgs'), ('rtabmap_conversions', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_conversions'), ('rtabmap_rviz_plugins', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_rviz_plugins'), ('rtabmap_sync', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_sync'), ('rtabmap_util', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_util'), ('rtabmap_odom', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_odom'), ('rtabmap_slam', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_slam'), ('rtabmap_viz', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_viz'), ('rtabmap_launch', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_launch')])}
+[0.005026] (rtabmap_examples) JobQueued: {'identifier': 'rtabmap_examples', 'dependencies': OrderedDict([('rtabmap_costmap_plugins', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_costmap_plugins'), ('rtabmap_msgs', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_msgs'), ('rtabmap_conversions', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_conversions'), ('rtabmap_rviz_plugins', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_rviz_plugins'), ('rtabmap_sync', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_sync'), ('rtabmap_util', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_util'), ('rtabmap_odom', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_odom'), ('rtabmap_slam', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_slam'), ('rtabmap_viz', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_viz'), ('rtabmap_launch', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_launch'), ('rtabmap_demos', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_demos')])}
+[0.005137] (rtabmap_legacy) JobQueued: {'identifier': 'rtabmap_legacy', 'dependencies': OrderedDict([('rtabmap_costmap_plugins', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_costmap_plugins'), ('rtabmap_msgs', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_msgs'), ('rtabmap_conversions', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_conversions'), ('rtabmap_rviz_plugins', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_rviz_plugins'), ('rtabmap_sync', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_sync'), ('rtabmap_util', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_util'), ('rtabmap_odom', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_odom'), ('rtabmap_slam', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_slam'), ('rtabmap_viz', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_viz'), ('rtabmap_launch', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_launch'), ('rtabmap_demos', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_demos')])}
+[0.005261] (rtabmap_ros) JobQueued: {'identifier': 'rtabmap_ros', 'dependencies': OrderedDict([('rtabmap_costmap_plugins', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_costmap_plugins'), ('rtabmap_msgs', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_msgs'), ('rtabmap_python', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_python'), ('rtabmap_conversions', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_conversions'), ('rtabmap_rviz_plugins', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_rviz_plugins'), ('rtabmap_sync', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_sync'), ('rtabmap_util', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_util'), ('rtabmap_odom', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_odom'), ('rtabmap_slam', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_slam'), ('rtabmap_viz', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_viz'), ('rtabmap_launch', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_launch'), ('rtabmap_demos', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_demos'), ('rtabmap_examples', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_examples'), ('rtabmap_legacy', '/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_legacy')])}
+[0.005587] (rtabmap_msgs) JobStarted: {'identifier': 'rtabmap_msgs'}
+[0.097212] (-) TimerEvent: {}
+[0.198146] (-) TimerEvent: {}
+[0.274380] (rtabmap_costmap_plugins) JobStarted: {'identifier': 'rtabmap_costmap_plugins'}
+[0.298691] (-) TimerEvent: {}
+[0.400322] (-) TimerEvent: {}
+[0.501018] (-) TimerEvent: {}
+[0.504617] (robot_ros2_msgs) JobStarted: {'identifier': 'robot_ros2_msgs'}
+[0.601223] (-) TimerEvent: {}
+[0.703763] (-) TimerEvent: {}
+[0.724547] (rtabmap_python) JobStarted: {'identifier': 'rtabmap_python'}
+[0.804024] (-) TimerEvent: {}
+[0.904614] (-) TimerEvent: {}
+[0.931828] (tsl-robin-map) JobStarted: {'identifier': 'tsl-robin-map'}
+[1.004872] (-) TimerEvent: {}
+[1.105657] (-) TimerEvent: {}
+[1.145523] (depthimage_to_laserscan) JobStarted: {'identifier': 'depthimage_to_laserscan'}
+[1.205866] (-) TimerEvent: {}
+[1.307287] (-) TimerEvent: {}
+[1.358549] (sophus) JobStarted: {'identifier': 'sophus'}
+[1.407432] (-) TimerEvent: {}
+[1.515178] (-) TimerEvent: {}
+[1.599800] (sophus-populate) JobStarted: {'identifier': 'sophus-populate'}
+[1.615563] (-) TimerEvent: {}
+[1.716816] (-) TimerEvent: {}
+[1.813584] (tessil-populate) JobStarted: {'identifier': 'tessil-populate'}
+[1.816988] (-) TimerEvent: {}
+[1.919289] (-) TimerEvent: {}
+[2.019888] (-) TimerEvent: {}
+[2.037520] (rtabmap_msgs) JobProgress: {'identifier': 'rtabmap_msgs', 'progress': 'cmake'}
+[2.038965] (rtabmap_msgs) Command: {'cmd': ['/home/mihkel/.local/bin/cmake', '/home/mihkel/School/ThesisPractical/ros2_ws/src/rtabmap_ros/rtabmap_msgs', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_msgs'], 'cwd': '/home/mihkel/School/ThesisPractical/ros2_ws/build/rtabmap_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mihkel'), ('LC_TIME', 'et_EE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mihkel'), ('OLDPWD', '/home/mihkel/School/ThesisPractical/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'et_EE.UTF-8'), ('SYSTEMD_EXEC_PID', '4591'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mihkel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mihkel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mihkel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mihkel-XPS-15-9500:@/tmp/.ICE-unix/3644,unix/mihkel-XPS-15-9500:/tmp/.ICE-unix/3644'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'et_EE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c4fc4402_0b05_4e1f_88a8_5d89c6289695'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'et_EE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0NO8G2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'et_EE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'et_EE.UTF-8'), ('LC_IDENTIFICATION', 'et_EE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mihkel/School/ThesisPractical/ros2_ws/build/rtabmap_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'et_EE.UTF-8'), ('LC_PAPER', 'et_EE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[2.047067] (rtabmap_costmap_plugins) JobProgress: {'identifier': 'rtabmap_costmap_plugins', 'progress': 'cmake'}
+[2.048783] (rtabmap_costmap_plugins) Command: {'cmd': ['/home/mihkel/.local/bin/cmake', '/home/mihkel/School/ThesisPractical/ros2_ws/src/rtabmap_ros/rtabmap_costmap_plugins', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_costmap_plugins'], 'cwd': '/home/mihkel/School/ThesisPractical/ros2_ws/build/rtabmap_costmap_plugins', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mihkel'), ('LC_TIME', 'et_EE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mihkel'), ('OLDPWD', '/home/mihkel/School/ThesisPractical/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'et_EE.UTF-8'), ('SYSTEMD_EXEC_PID', '4591'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mihkel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mihkel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mihkel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mihkel-XPS-15-9500:@/tmp/.ICE-unix/3644,unix/mihkel-XPS-15-9500:/tmp/.ICE-unix/3644'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'et_EE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c4fc4402_0b05_4e1f_88a8_5d89c6289695'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'et_EE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0NO8G2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'et_EE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'et_EE.UTF-8'), ('LC_IDENTIFICATION', 'et_EE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mihkel/School/ThesisPractical/ros2_ws/build/rtabmap_costmap_plugins'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'et_EE.UTF-8'), ('LC_PAPER', 'et_EE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[2.056774] (robot_ros2_msgs) JobProgress: {'identifier': 'robot_ros2_msgs', 'progress': 'cmake'}
+[2.058265] (robot_ros2_msgs) JobProgress: {'identifier': 'robot_ros2_msgs', 'progress': 'build'}
+[2.061829] (robot_ros2_msgs) Command: {'cmd': ['/home/mihkel/.local/bin/cmake', '--build', '/home/mihkel/School/ThesisPractical/ros2_ws/build/robot_ros2_msgs', '--', '-j12', '-l12'], 'cwd': '/home/mihkel/School/ThesisPractical/ros2_ws/build/robot_ros2_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mihkel'), ('LC_TIME', 'et_EE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mihkel'), ('OLDPWD', '/home/mihkel/School/ThesisPractical/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'et_EE.UTF-8'), ('SYSTEMD_EXEC_PID', '4591'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mihkel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mihkel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mihkel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mihkel-XPS-15-9500:@/tmp/.ICE-unix/3644,unix/mihkel-XPS-15-9500:/tmp/.ICE-unix/3644'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'et_EE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c4fc4402_0b05_4e1f_88a8_5d89c6289695'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'et_EE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0NO8G2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'et_EE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'et_EE.UTF-8'), ('LC_IDENTIFICATION', 'et_EE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mihkel/School/ThesisPractical/ros2_ws/build/robot_ros2_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'et_EE.UTF-8'), ('LC_PAPER', 'et_EE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.068953] (rtabmap_python) JobProgress: {'identifier': 'rtabmap_python', 'progress': 'cmake'}
+[2.070688] (rtabmap_python) Command: {'cmd': ['/home/mihkel/.local/bin/cmake', '/home/mihkel/School/ThesisPractical/ros2_ws/src/rtabmap_ros/rtabmap_python', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_python'], 'cwd': '/home/mihkel/School/ThesisPractical/ros2_ws/build/rtabmap_python', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mihkel'), ('LC_TIME', 'et_EE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mihkel'), ('OLDPWD', '/home/mihkel/School/ThesisPractical/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'et_EE.UTF-8'), ('SYSTEMD_EXEC_PID', '4591'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mihkel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mihkel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mihkel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mihkel-XPS-15-9500:@/tmp/.ICE-unix/3644,unix/mihkel-XPS-15-9500:/tmp/.ICE-unix/3644'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'et_EE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c4fc4402_0b05_4e1f_88a8_5d89c6289695'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'et_EE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0NO8G2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'et_EE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'et_EE.UTF-8'), ('LC_IDENTIFICATION', 'et_EE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mihkel/School/ThesisPractical/ros2_ws/build/rtabmap_python'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'et_EE.UTF-8'), ('LC_PAPER', 'et_EE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[2.078044] (tsl-robin-map) JobProgress: {'identifier': 'tsl-robin-map', 'progress': 'cmake'}
+[2.079002] (tsl-robin-map) JobProgress: {'identifier': 'tsl-robin-map', 'progress': 'build'}
+[2.080224] (tsl-robin-map) Command: {'cmd': ['/home/mihkel/.local/bin/cmake', '--build', '/home/mihkel/School/ThesisPractical/ros2_ws/build/tsl-robin-map', '--', '-j12', '-l12'], 'cwd': '/home/mihkel/School/ThesisPractical/ros2_ws/build/tsl-robin-map', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mihkel'), ('LC_TIME', 'et_EE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mihkel'), ('OLDPWD', '/home/mihkel/School/ThesisPractical/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'et_EE.UTF-8'), ('SYSTEMD_EXEC_PID', '4591'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mihkel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mihkel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mihkel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mihkel-XPS-15-9500:@/tmp/.ICE-unix/3644,unix/mihkel-XPS-15-9500:/tmp/.ICE-unix/3644'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'et_EE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c4fc4402_0b05_4e1f_88a8_5d89c6289695'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'et_EE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0NO8G2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'et_EE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'et_EE.UTF-8'), ('LC_IDENTIFICATION', 'et_EE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mihkel/School/ThesisPractical/ros2_ws/build/tsl-robin-map'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'et_EE.UTF-8'), ('LC_PAPER', 'et_EE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[2.087717] (depthimage_to_laserscan) JobProgress: {'identifier': 'depthimage_to_laserscan', 'progress': 'cmake'}
+[2.089597] (depthimage_to_laserscan) JobProgress: {'identifier': 'depthimage_to_laserscan', 'progress': 'build'}
+[2.092424] (depthimage_to_laserscan) Command: {'cmd': ['/home/mihkel/.local/bin/cmake', '--build', '/home/mihkel/School/ThesisPractical/ros2_ws/build/depthimage_to_laserscan', '--', '-j12', '-l12'], 'cwd': '/home/mihkel/School/ThesisPractical/ros2_ws/build/depthimage_to_laserscan', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mihkel'), ('LC_TIME', 'et_EE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mihkel'), ('OLDPWD', '/home/mihkel/School/ThesisPractical/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'et_EE.UTF-8'), ('SYSTEMD_EXEC_PID', '4591'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mihkel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mihkel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mihkel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mihkel-XPS-15-9500:@/tmp/.ICE-unix/3644,unix/mihkel-XPS-15-9500:/tmp/.ICE-unix/3644'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'et_EE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c4fc4402_0b05_4e1f_88a8_5d89c6289695'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'et_EE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0NO8G2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'et_EE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'et_EE.UTF-8'), ('LC_IDENTIFICATION', 'et_EE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mihkel/School/ThesisPractical/ros2_ws/build/depthimage_to_laserscan'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'et_EE.UTF-8'), ('LC_PAPER', 'et_EE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.099225] (sophus) JobProgress: {'identifier': 'sophus', 'progress': 'cmake'}
+[2.101364] (sophus) JobProgress: {'identifier': 'sophus', 'progress': 'build'}
+[2.103033] (sophus) Command: {'cmd': ['/home/mihkel/.local/bin/cmake', '--build', '/home/mihkel/School/ThesisPractical/ros2_ws/build/sophus', '--', '-j12', '-l12'], 'cwd': '/home/mihkel/School/ThesisPractical/ros2_ws/build/sophus', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mihkel'), ('LC_TIME', 'et_EE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mihkel'), ('OLDPWD', '/home/mihkel/School/ThesisPractical/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'et_EE.UTF-8'), ('SYSTEMD_EXEC_PID', '4591'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mihkel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mihkel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mihkel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mihkel-XPS-15-9500:@/tmp/.ICE-unix/3644,unix/mihkel-XPS-15-9500:/tmp/.ICE-unix/3644'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'et_EE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c4fc4402_0b05_4e1f_88a8_5d89c6289695'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'et_EE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0NO8G2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'et_EE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'et_EE.UTF-8'), ('LC_IDENTIFICATION', 'et_EE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mihkel/School/ThesisPractical/ros2_ws/build/sophus'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'et_EE.UTF-8'), ('LC_PAPER', 'et_EE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.112704] (sophus-populate) JobProgress: {'identifier': 'sophus-populate', 'progress': 'cmake'}
+[2.115791] (sophus-populate) Command: {'cmd': ['/home/mihkel/.local/bin/cmake', '/home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/build/_deps/sophus-subbuild', '-DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/ros2_ws/install/sophus-populate'], 'cwd': '/home/mihkel/School/ThesisPractical/ros2_ws/build/sophus-populate', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mihkel'), ('LC_TIME', 'et_EE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mihkel'), ('OLDPWD', '/home/mihkel/School/ThesisPractical/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'et_EE.UTF-8'), ('SYSTEMD_EXEC_PID', '4591'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mihkel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mihkel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mihkel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mihkel-XPS-15-9500:@/tmp/.ICE-unix/3644,unix/mihkel-XPS-15-9500:/tmp/.ICE-unix/3644'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'et_EE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c4fc4402_0b05_4e1f_88a8_5d89c6289695'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'et_EE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0NO8G2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'et_EE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'et_EE.UTF-8'), ('LC_IDENTIFICATION', 'et_EE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mihkel/School/ThesisPractical/ros2_ws/build/sophus-populate'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'et_EE.UTF-8'), ('LC_PAPER', 'et_EE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[2.121522] (-) TimerEvent: {}
+[2.122324] (tessil-populate) JobProgress: {'identifier': 'tessil-populate', 'progress': 'cmake'}
+[2.124567] (tessil-populate) Command: {'cmd': ['/home/mihkel/.local/bin/cmake', '/home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/build/_deps/tessil-subbuild', '-DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/ros2_ws/install/tessil-populate'], 'cwd': '/home/mihkel/School/ThesisPractical/ros2_ws/build/tessil-populate', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mihkel'), ('LC_TIME', 'et_EE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mihkel'), ('OLDPWD', '/home/mihkel/School/ThesisPractical/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'et_EE.UTF-8'), ('SYSTEMD_EXEC_PID', '4591'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mihkel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mihkel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mihkel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mihkel-XPS-15-9500:@/tmp/.ICE-unix/3644,unix/mihkel-XPS-15-9500:/tmp/.ICE-unix/3644'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'et_EE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c4fc4402_0b05_4e1f_88a8_5d89c6289695'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'et_EE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0NO8G2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'et_EE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'et_EE.UTF-8'), ('LC_IDENTIFICATION', 'et_EE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mihkel/School/ThesisPractical/ros2_ws/build/tessil-populate'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'et_EE.UTF-8'), ('LC_PAPER', 'et_EE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[2.221701] (-) TimerEvent: {}
+[2.242313] (rtabmap_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:8 (find_package):\n'}
+[2.243020] (rtabmap_msgs) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[2.243432] (rtabmap_msgs) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[2.243764] (rtabmap_msgs) StderrLine: {'line': b'  CMake did not find one.\n'}
+[2.244093] (rtabmap_msgs) StderrLine: {'line': b'\n'}
+[2.244428] (rtabmap_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[2.244788] (rtabmap_msgs) StderrLine: {'line': b'  of the following names:\n'}
+[2.245120] (rtabmap_msgs) StderrLine: {'line': b'\n'}
+[2.245467] (rtabmap_msgs) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[2.245831] (rtabmap_msgs) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[2.246249] (rtabmap_msgs) StderrLine: {'line': b'\n'}
+[2.246619] (rtabmap_msgs) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[2.246980] (rtabmap_msgs) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[2.247323] (rtabmap_msgs) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[2.247641] (rtabmap_msgs) StderrLine: {'line': b'  installed.\n'}
+[2.247965] (rtabmap_msgs) StderrLine: {'line': b'\n'}
+[2.248293] (rtabmap_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[2.248765] (rtabmap_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.255738] (rtabmap_costmap_plugins) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:8 (find_package):\n'}
+[2.256530] (rtabmap_costmap_plugins) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[2.256987] (rtabmap_costmap_plugins) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[2.257368] (rtabmap_costmap_plugins) StderrLine: {'line': b'  CMake did not find one.\n'}
+[2.257745] (rtabmap_costmap_plugins) StderrLine: {'line': b'\n'}
+[2.258219] (rtabmap_costmap_plugins) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[2.258609] (rtabmap_costmap_plugins) StderrLine: {'line': b'  of the following names:\n'}
+[2.258939] (rtabmap_costmap_plugins) StderrLine: {'line': b'\n'}
+[2.259239] (rtabmap_costmap_plugins) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[2.259530] (rtabmap_costmap_plugins) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[2.259820] (rtabmap_costmap_plugins) StderrLine: {'line': b'\n'}
+[2.260108] (rtabmap_costmap_plugins) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[2.260402] (rtabmap_costmap_plugins) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[2.260693] (rtabmap_costmap_plugins) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[2.260984] (rtabmap_costmap_plugins) StderrLine: {'line': b'  installed.\n'}
+[2.261275] (rtabmap_costmap_plugins) StderrLine: {'line': b'\n'}
+[2.261564] (rtabmap_costmap_plugins) StderrLine: {'line': b'\x1b[0m\n'}
+[2.261868] (rtabmap_costmap_plugins) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.267437] (rtabmap_msgs) CommandEnded: {'returncode': 1}
+[2.280694] (rtabmap_python) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:4 (find_package):\n'}
+[2.281350] (rtabmap_python) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[2.281725] (rtabmap_python) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[2.282148] (rtabmap_python) StderrLine: {'line': b'  CMake did not find one.\n'}
+[2.282514] (rtabmap_python) StderrLine: {'line': b'\n'}
+[2.282860] (rtabmap_python) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[2.286113] (rtabmap_python) StderrLine: {'line': b'  of the following names:\n'}
+[2.290852] (rtabmap_python) StderrLine: {'line': b'\n'}
+[2.291349] (rtabmap_python) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[2.291768] (rtabmap_python) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[2.292180] (rtabmap_python) StderrLine: {'line': b'\n'}
+[2.292571] (rtabmap_python) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[2.292966] (rtabmap_python) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[2.293381] (rtabmap_python) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[2.293753] (rtabmap_python) StderrLine: {'line': b'  installed.\n'}
+[2.294200] (rtabmap_python) StderrLine: {'line': b'\n'}
+[2.294620] (rtabmap_python) StderrLine: {'line': b'\x1b[0m\n'}
+[2.295043] (rtabmap_python) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.295507] (tsl-robin-map) CommandEnded: {'returncode': 0}
+[2.306921] (rtabmap_costmap_plugins) CommandEnded: {'returncode': 1}
+[2.322417] (rtabmap_python) CommandEnded: {'returncode': 1}
+[2.325642] (-) TimerEvent: {}
+[2.341210] (sophus) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object test/core/CMakeFiles/test_cartesian2.dir/test_cartesian2.cpp.o\x1b[0m\n'}
+[2.353637] (sophus-populate) StdoutLine: {'line': b'-- Configuring done (0.1s)\n'}
+[2.363267] (sophus-populate) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.364080] (robot_ros2_msgs) StdoutLine: {'line': b'[  1%] Built target robot_ros2_msgs__cpp\n'}
+[2.365737] (sophus) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object test/core/CMakeFiles/test_cartesian3.dir/test_cartesian3.cpp.o\x1b[0m\n'}
+[2.384763] (sophus-populate) StdoutLine: {'line': b'-- Build files have been written to: /home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/build/_deps/sophus-subbuild\n'}
+[2.389125] (tessil-populate) StdoutLine: {'line': b'-- Configuring done (0.1s)\n'}
+[2.393140] (sophus) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object test/core/CMakeFiles/test_common.dir/test_common.cpp.o\x1b[0m\n'}
+[2.396267] (sophus) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object test/core/CMakeFiles/test_so2.dir/test_so2.cpp.o\x1b[0m\n'}
+[2.406074] (tessil-populate) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.408033] (sophus) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object test/core/CMakeFiles/test_se2.dir/test_se2.cpp.o\x1b[0m\n'}
+[2.425281] (tessil-populate) StdoutLine: {'line': b'-- Build files have been written to: /home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/build/_deps/tessil-subbuild\n'}
+[2.425845] (-) TimerEvent: {}
+[2.427573] (sophus-populate) CommandEnded: {'returncode': 0}
+[2.429832] (sophus-populate) JobEnded: {'identifier': 'sophus-populate', 'rc': 0}
+[2.439484] (sophus) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object test/core/CMakeFiles/test_rxso2.dir/test_rxso2.cpp.o\x1b[0m\n'}
+[2.449834] (robot_ros2_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_robot_ros2_msgs\n'}
+[2.478740] (tessil-populate) CommandEnded: {'returncode': 0}
+[2.481338] (tessil-populate) JobEnded: {'identifier': 'tessil-populate', 'rc': 0}
+[2.502467] (sophus) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object test/core/CMakeFiles/test_rxso3.dir/test_rxso3.cpp.o\x1b[0m\n'}
+[2.506394] (sophus) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object test/core/CMakeFiles/test_se3.dir/test_se3.cpp.o\x1b[0m\n'}
+[2.507034] (depthimage_to_laserscan) StdoutLine: {'line': b'[ 16%] Built target gtest_main\n'}
+[2.521837] (sophus) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object test/core/CMakeFiles/test_so3.dir/test_so3.cpp.o\x1b[0m\n'}
+[2.522655] (robot_ros2_msgs) StdoutLine: {'line': b'[ 12%] Built target robot_ros2_msgs__rosidl_typesupport_cpp\n'}
+[2.526338] (-) TimerEvent: {}
+[2.531643] (robot_ros2_msgs) StdoutLine: {'line': b'[ 23%] Built target robot_ros2_msgs__rosidl_generator_c\n'}
+[2.537469] (sophus) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object test/core/CMakeFiles/test_sim3.dir/test_sim3.cpp.o\x1b[0m\n'}
+[2.561412] (depthimage_to_laserscan) StdoutLine: {'line': b'[ 33%] Built target DepthImageToLaserScan\n'}
+[2.562108] (sophus) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object test/core/CMakeFiles/test_sim2.dir/test_sim2.cpp.o\x1b[0m\n'}
+[2.583563] (depthimage_to_laserscan) StdoutLine: {'line': b'[ 50%] Built target gtest\n'}
+[2.613207] (sophus) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object test/core/CMakeFiles/test_velocities.dir/test_velocities.cpp.o\x1b[0m\n'}
+[2.628611] (-) TimerEvent: {}
+[2.653891] (robot_ros2_msgs) StdoutLine: {'line': b'[ 34%] Built target robot_ros2_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[2.726809] (robot_ros2_msgs) StdoutLine: {'line': b'[ 45%] Built target robot_ros2_msgs__rosidl_typesupport_introspection_cpp\n'}
+[2.728724] (-) TimerEvent: {}
+[2.833498] (-) TimerEvent: {}
+[2.840265] (robot_ros2_msgs) StdoutLine: {'line': b'[ 56%] Built target robot_ros2_msgs__rosidl_typesupport_fastrtps_c\n'}
+[2.857521] (robot_ros2_msgs) StdoutLine: {'line': b'[ 67%] Built target robot_ros2_msgs__rosidl_typesupport_c\n'}
+[2.881105] (depthimage_to_laserscan) StdoutLine: {'line': b'[ 66%] Built target depthimage_to_laserscan-test\n'}
+[2.916540] (robot_ros2_msgs) StdoutLine: {'line': b'[ 78%] Built target robot_ros2_msgs__rosidl_typesupport_introspection_c\n'}
+[2.935528] (depthimage_to_laserscan) StdoutLine: {'line': b'[ 83%] Built target DepthImageToLaserScanROS\n'}
+[2.936097] (-) TimerEvent: {}
+[2.955227] (rtabmap_msgs) JobEnded: {'identifier': 'rtabmap_msgs', 'rc': 1}
+[2.981306] (tsl-robin-map) JobEnded: {'identifier': 'tsl-robin-map', 'rc': 'SIGINT'}
+[2.982706] (rtabmap_costmap_plugins) JobEnded: {'identifier': 'rtabmap_costmap_plugins', 'rc': 'SIGINT'}
+[2.983864] (rtabmap_python) JobEnded: {'identifier': 'rtabmap_python', 'rc': 'SIGINT'}
+[3.023709] (robot_ros2_msgs) StdoutLine: {'line': b'[ 78%] Built target robot_ros2_msgs\n'}
+[3.036286] (-) TimerEvent: {}
+[3.058406] (depthimage_to_laserscan) StdoutLine: {'line': b'[100%] Built target depthimage_to_laserscan_node\n'}
+[3.110113] (robot_ros2_msgs) StdoutLine: {'line': b'[ 80%] Built target robot_ros2_msgs__py\n'}
+[3.125404] (depthimage_to_laserscan) JobEnded: {'identifier': 'depthimage_to_laserscan', 'rc': 'SIGINT'}
+[3.136427] (-) TimerEvent: {}
+[3.193511] (robot_ros2_msgs) StdoutLine: {'line': b'[ 89%] Built target robot_ros2_msgs__rosidl_generator_py\n'}
+[3.236621] (-) TimerEvent: {}
+[3.336576] (robot_ros2_msgs) StdoutLine: {'line': b'[ 92%] Built target robot_ros2_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.337132] (-) TimerEvent: {}
+[3.372603] (robot_ros2_msgs) StdoutLine: {'line': b'[ 96%] Built target robot_ros2_msgs__rosidl_typesupport_c__pyext\n'}
+[3.403421] (robot_ros2_msgs) StdoutLine: {'line': b'[100%] Built target robot_ros2_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[3.438073] (-) TimerEvent: {}
+[3.540855] (-) TimerEvent: {}
+[3.642016] (-) TimerEvent: {}
+[3.743131] (-) TimerEvent: {}
+[3.844351] (-) TimerEvent: {}
+[3.945262] (-) TimerEvent: {}
+[4.047175] (-) TimerEvent: {}
+[4.147886] (-) TimerEvent: {}
+[4.248647] (-) TimerEvent: {}
+[4.349415] (-) TimerEvent: {}
+[4.450408] (-) TimerEvent: {}
+[4.551336] (-) TimerEvent: {}
+[4.652468] (-) TimerEvent: {}
+[4.755975] (-) TimerEvent: {}
+[4.856962] (-) TimerEvent: {}
+[4.957896] (-) TimerEvent: {}
+[5.058857] (-) TimerEvent: {}
+[5.159847] (-) TimerEvent: {}
+[5.169801] (robot_ros2_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[5.180593] (robot_ros2_msgs) StdoutLine: {'line': b'writing robot_ros2_msgs.egg-info/PKG-INFO\n'}
+[5.181647] (robot_ros2_msgs) StdoutLine: {'line': b'writing dependency_links to robot_ros2_msgs.egg-info/dependency_links.txt\n'}
+[5.187839] (robot_ros2_msgs) StdoutLine: {'line': b'writing top-level names to robot_ros2_msgs.egg-info/top_level.txt\n'}
+[5.197942] (robot_ros2_msgs) StdoutLine: {'line': b"reading manifest file 'robot_ros2_msgs.egg-info/SOURCES.txt'\n"}
+[5.201552] (robot_ros2_msgs) StdoutLine: {'line': b"writing manifest file 'robot_ros2_msgs.egg-info/SOURCES.txt'\n"}
+[5.260030] (-) TimerEvent: {}
+[5.361105] (-) TimerEvent: {}
+[5.462291] (-) TimerEvent: {}
+[5.488694] (robot_ros2_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_robot_ros2_msgs_egg\n'}
+[5.562467] (-) TimerEvent: {}
+[5.626195] (robot_ros2_msgs) JobEnded: {'identifier': 'robot_ros2_msgs', 'rc': 'SIGINT'}
+[5.662665] (-) TimerEvent: {}
+[5.763433] (-) TimerEvent: {}
+[5.864354] (-) TimerEvent: {}
+[5.965292] (-) TimerEvent: {}
+[6.066429] (-) TimerEvent: {}
+[6.167330] (-) TimerEvent: {}
+[6.268423] (-) TimerEvent: {}
+[6.369148] (-) TimerEvent: {}
+[6.469867] (-) TimerEvent: {}
+[6.570587] (-) TimerEvent: {}
+[6.671309] (-) TimerEvent: {}
+[6.772028] (-) TimerEvent: {}
+[6.872724] (-) TimerEvent: {}
+[6.973449] (-) TimerEvent: {}
+[7.074228] (-) TimerEvent: {}
+[7.174966] (-) TimerEvent: {}
+[7.276080] (-) TimerEvent: {}
+[7.377133] (-) TimerEvent: {}
+[7.478377] (-) TimerEvent: {}
+[7.579395] (-) TimerEvent: {}
+[7.680439] (-) TimerEvent: {}
+[7.781305] (-) TimerEvent: {}
+[7.882552] (-) TimerEvent: {}
+[7.983668] (-) TimerEvent: {}
+[8.084828] (-) TimerEvent: {}
+[8.186083] (-) TimerEvent: {}
+[8.287278] (-) TimerEvent: {}
+[8.388299] (-) TimerEvent: {}
+[8.489107] (-) TimerEvent: {}
+[8.590237] (-) TimerEvent: {}
+[8.691015] (-) TimerEvent: {}
+[8.791813] (-) TimerEvent: {}
+[8.892590] (-) TimerEvent: {}
+[8.994775] (-) TimerEvent: {}
+[9.096197] (-) TimerEvent: {}
+[9.198145] (-) TimerEvent: {}
+[9.298971] (-) TimerEvent: {}
+[9.399762] (-) TimerEvent: {}
+[9.500535] (-) TimerEvent: {}
+[9.601471] (-) TimerEvent: {}
+[9.702736] (-) TimerEvent: {}
+[9.803478] (-) TimerEvent: {}
+[9.904442] (-) TimerEvent: {}
+[10.005389] (-) TimerEvent: {}
+[10.106318] (-) TimerEvent: {}
+[10.207286] (-) TimerEvent: {}
+[10.308074] (-) TimerEvent: {}
+[10.408855] (-) TimerEvent: {}
+[10.509635] (-) TimerEvent: {}
+[10.610446] (-) TimerEvent: {}
+[10.711231] (-) TimerEvent: {}
+[10.812029] (-) TimerEvent: {}
+[10.912970] (-) TimerEvent: {}
+[11.014041] (-) TimerEvent: {}
+[11.115059] (-) TimerEvent: {}
+[11.216102] (-) TimerEvent: {}
+[11.317257] (-) TimerEvent: {}
+[11.418525] (-) TimerEvent: {}
+[11.519698] (-) TimerEvent: {}
+[11.620695] (-) TimerEvent: {}
+[11.721634] (-) TimerEvent: {}
+[11.822736] (-) TimerEvent: {}
+[11.923953] (-) TimerEvent: {}
+[12.024773] (-) TimerEvent: {}
+[12.125576] (-) TimerEvent: {}
+[12.226784] (-) TimerEvent: {}
+[12.327876] (-) TimerEvent: {}
+[12.428694] (-) TimerEvent: {}
+[12.537333] (-) TimerEvent: {}
+[12.638107] (-) TimerEvent: {}
+[12.738894] (-) TimerEvent: {}
+[12.839670] (-) TimerEvent: {}
+[12.940444] (-) TimerEvent: {}
+[13.041449] (-) TimerEvent: {}
+[13.142401] (-) TimerEvent: {}
+[13.243179] (-) TimerEvent: {}
+[13.343946] (-) TimerEvent: {}
+[13.444746] (-) TimerEvent: {}
+[13.545537] (-) TimerEvent: {}
+[13.646654] (-) TimerEvent: {}
+[13.747853] (-) TimerEvent: {}
+[13.848586] (-) TimerEvent: {}
+[13.949402] (-) TimerEvent: {}
+[14.050237] (-) TimerEvent: {}
+[14.151043] (-) TimerEvent: {}
+[14.252111] (-) TimerEvent: {}
+[14.352928] (-) TimerEvent: {}
+[14.454912] (-) TimerEvent: {}
+[14.555687] (-) TimerEvent: {}
+[14.656474] (-) TimerEvent: {}
+[14.757260] (-) TimerEvent: {}
+[14.858078] (-) TimerEvent: {}
+[14.958944] (-) TimerEvent: {}
+[15.059734] (-) TimerEvent: {}
+[15.160991] (-) TimerEvent: {}
+[15.262310] (-) TimerEvent: {}
+[15.363514] (-) TimerEvent: {}
+[15.465024] (-) TimerEvent: {}
+[15.565828] (-) TimerEvent: {}
+[15.667044] (-) TimerEvent: {}
+[15.768385] (-) TimerEvent: {}
+[15.869943] (-) TimerEvent: {}
+[15.971343] (-) TimerEvent: {}
+[16.072470] (-) TimerEvent: {}
+[16.173276] (-) TimerEvent: {}
+[16.274104] (-) TimerEvent: {}
+[16.374889] (-) TimerEvent: {}
+[16.475649] (-) TimerEvent: {}
+[16.576447] (-) TimerEvent: {}
+[16.677594] (-) TimerEvent: {}
+[16.778382] (-) TimerEvent: {}
+[16.879203] (-) TimerEvent: {}
+[16.980077] (-) TimerEvent: {}
+[17.080957] (-) TimerEvent: {}
+[17.182039] (-) TimerEvent: {}
+[17.283207] (-) TimerEvent: {}
+[17.384262] (-) TimerEvent: {}
+[17.485646] (-) TimerEvent: {}
+[17.586833] (-) TimerEvent: {}
+[17.688746] (-) TimerEvent: {}
+[17.790749] (-) TimerEvent: {}
+[17.892586] (-) TimerEvent: {}
+[17.998141] (-) TimerEvent: {}
+[18.098959] (-) TimerEvent: {}
+[18.199751] (-) TimerEvent: {}
+[18.300799] (-) TimerEvent: {}
+[18.402104] (-) TimerEvent: {}
+[18.502876] (-) TimerEvent: {}
+[18.603797] (-) TimerEvent: {}
+[18.704909] (-) TimerEvent: {}
+[18.806124] (-) TimerEvent: {}
+[18.907281] (-) TimerEvent: {}
+[19.008595] (-) TimerEvent: {}
+[19.109872] (-) TimerEvent: {}
+[19.210965] (-) TimerEvent: {}
+[19.312336] (-) TimerEvent: {}
+[19.413146] (-) TimerEvent: {}
+[19.513979] (-) TimerEvent: {}
+[19.614816] (-) TimerEvent: {}
+[19.715630] (-) TimerEvent: {}
+[19.816770] (-) TimerEvent: {}
+[19.918024] (-) TimerEvent: {}
+[20.019258] (-) TimerEvent: {}
+[20.120475] (-) TimerEvent: {}
+[20.221918] (-) TimerEvent: {}
+[20.322880] (-) TimerEvent: {}
+[20.424223] (-) TimerEvent: {}
+[20.525518] (-) TimerEvent: {}
+[20.626776] (-) TimerEvent: {}
+[20.727972] (-) TimerEvent: {}
+[20.829231] (-) TimerEvent: {}
+[20.930486] (-) TimerEvent: {}
+[21.031705] (-) TimerEvent: {}
+[21.132984] (-) TimerEvent: {}
+[21.233970] (-) TimerEvent: {}
+[21.336192] (-) TimerEvent: {}
+[21.438033] (-) TimerEvent: {}
+[21.539011] (-) TimerEvent: {}
+[21.640188] (-) TimerEvent: {}
+[21.741192] (-) TimerEvent: {}
+[21.842402] (-) TimerEvent: {}
+[21.943577] (-) TimerEvent: {}
+[22.044762] (-) TimerEvent: {}
+[22.145736] (-) TimerEvent: {}
+[22.246931] (-) TimerEvent: {}
+[22.347922] (-) TimerEvent: {}
+[22.449605] (-) TimerEvent: {}
+[22.550426] (-) TimerEvent: {}
+[22.652739] (-) TimerEvent: {}
+[22.753549] (-) TimerEvent: {}
+[22.854380] (-) TimerEvent: {}
+[22.955347] (-) TimerEvent: {}
+[23.057579] (-) TimerEvent: {}
+[23.158575] (-) TimerEvent: {}
+[23.259397] (-) TimerEvent: {}
+[23.360214] (-) TimerEvent: {}
+[23.461030] (-) TimerEvent: {}
+[23.562013] (-) TimerEvent: {}
+[23.667194] (-) TimerEvent: {}
+[23.768190] (-) TimerEvent: {}
+[23.869009] (-) TimerEvent: {}
+[23.969803] (-) TimerEvent: {}
+[24.070630] (-) TimerEvent: {}
+[24.171836] (-) TimerEvent: {}
+[24.275077] (-) TimerEvent: {}
+[24.375916] (-) TimerEvent: {}
+[24.476711] (-) TimerEvent: {}
+[24.577540] (-) TimerEvent: {}
+[24.678393] (-) TimerEvent: {}
+[24.779446] (-) TimerEvent: {}
+[24.881229] (-) TimerEvent: {}
+[24.982236] (-) TimerEvent: {}
+[25.083270] (-) TimerEvent: {}
+[25.184268] (-) TimerEvent: {}
+[25.285265] (-) TimerEvent: {}
+[25.386320] (-) TimerEvent: {}
+[25.488030] (-) TimerEvent: {}
+[25.588848] (-) TimerEvent: {}
+[25.689662] (-) TimerEvent: {}
+[25.790504] (-) TimerEvent: {}
+[25.891324] (-) TimerEvent: {}
+[25.992067] (-) TimerEvent: {}
+[26.094732] (-) TimerEvent: {}
+[26.203514] (-) TimerEvent: {}
+[26.304686] (-) TimerEvent: {}
+[26.405783] (-) TimerEvent: {}
+[26.507072] (-) TimerEvent: {}
+[26.609082] (-) TimerEvent: {}
+[26.710235] (-) TimerEvent: {}
+[26.811303] (-) TimerEvent: {}
+[26.912210] (-) TimerEvent: {}
+[27.013154] (-) TimerEvent: {}
+[27.114130] (-) TimerEvent: {}
+[27.216407] (-) TimerEvent: {}
+[27.318493] (-) TimerEvent: {}
+[27.419712] (-) TimerEvent: {}
+[27.521097] (-) TimerEvent: {}
+[27.622120] (-) TimerEvent: {}
+[27.723160] (-) TimerEvent: {}
+[27.824136] (-) TimerEvent: {}
+[27.925175] (-) TimerEvent: {}
+[28.026303] (-) TimerEvent: {}
+[28.127578] (-) TimerEvent: {}
+[28.229238] (-) TimerEvent: {}
+[28.330037] (-) TimerEvent: {}
+[28.430826] (-) TimerEvent: {}
+[28.531671] (-) TimerEvent: {}
+[28.632642] (-) TimerEvent: {}
+[28.733582] (-) TimerEvent: {}
+[28.834679] (-) TimerEvent: {}
+[28.935732] (-) TimerEvent: {}
+[29.036783] (-) TimerEvent: {}
+[29.137760] (-) TimerEvent: {}
+[29.238628] (-) TimerEvent: {}
+[29.339389] (-) TimerEvent: {}
+[29.440524] (-) TimerEvent: {}
+[29.541711] (-) TimerEvent: {}
+[29.642978] (-) TimerEvent: {}
+[29.743842] (-) TimerEvent: {}
+[29.844693] (-) TimerEvent: {}
+[29.945612] (-) TimerEvent: {}
+[30.046421] (-) TimerEvent: {}
+[30.147520] (-) TimerEvent: {}
+[30.250019] (-) TimerEvent: {}
+[30.351245] (-) TimerEvent: {}
+[30.452530] (-) TimerEvent: {}
+[30.553525] (-) TimerEvent: {}
+[30.654499] (-) TimerEvent: {}
+[30.755490] (-) TimerEvent: {}
+[30.856474] (-) TimerEvent: {}
+[30.957447] (-) TimerEvent: {}
+[31.058297] (-) TimerEvent: {}
+[31.159105] (-) TimerEvent: {}
+[31.259872] (-) TimerEvent: {}
+[31.360946] (-) TimerEvent: {}
+[31.461802] (-) TimerEvent: {}
+[31.563096] (-) TimerEvent: {}
+[31.670107] (-) TimerEvent: {}
+[31.771339] (-) TimerEvent: {}
+[31.872526] (-) TimerEvent: {}
+[31.978201] (-) TimerEvent: {}
+[32.079096] (-) TimerEvent: {}
+[32.180301] (-) TimerEvent: {}
+[32.281131] (-) TimerEvent: {}
+[32.382179] (-) TimerEvent: {}
+[32.483016] (-) TimerEvent: {}
+[32.583845] (-) TimerEvent: {}
+[32.684892] (-) TimerEvent: {}
+[32.792804] (-) TimerEvent: {}
+[32.893699] (-) TimerEvent: {}
+[32.994934] (-) TimerEvent: {}
+[33.096046] (-) TimerEvent: {}
+[33.197287] (-) TimerEvent: {}
+[33.298314] (-) TimerEvent: {}
+[33.399384] (-) TimerEvent: {}
+[33.500233] (-) TimerEvent: {}
+[33.601093] (-) TimerEvent: {}
+[33.701917] (-) TimerEvent: {}
+[33.802724] (-) TimerEvent: {}
+[33.903529] (-) TimerEvent: {}
+[34.004563] (-) TimerEvent: {}
+[34.105549] (-) TimerEvent: {}
+[34.206726] (-) TimerEvent: {}
+[34.307849] (-) TimerEvent: {}
+[34.408599] (-) TimerEvent: {}
+[34.509407] (-) TimerEvent: {}
+[34.610622] (-) TimerEvent: {}
+[34.711386] (-) TimerEvent: {}
+[34.812409] (-) TimerEvent: {}
+[34.913463] (-) TimerEvent: {}
+[35.014543] (-) TimerEvent: {}
+[35.115512] (-) TimerEvent: {}
+[35.216527] (-) TimerEvent: {}
+[35.317289] (-) TimerEvent: {}
+[35.418407] (-) TimerEvent: {}
+[35.519398] (-) TimerEvent: {}
+[35.620226] (-) TimerEvent: {}
+[35.721063] (-) TimerEvent: {}
+[35.821892] (-) TimerEvent: {}
+[35.922725] (-) TimerEvent: {}
+[36.023516] (-) TimerEvent: {}
+[36.124354] (-) TimerEvent: {}
+[36.225183] (-) TimerEvent: {}
+[36.326029] (-) TimerEvent: {}
+[36.426784] (-) TimerEvent: {}
+[36.527523] (-) TimerEvent: {}
+[36.628260] (-) TimerEvent: {}
+[36.728997] (-) TimerEvent: {}
+[36.829741] (-) TimerEvent: {}
+[36.930996] (-) TimerEvent: {}
+[37.031977] (-) TimerEvent: {}
+[37.132920] (-) TimerEvent: {}
+[37.234008] (-) TimerEvent: {}
+[37.334816] (-) TimerEvent: {}
+[37.435668] (-) TimerEvent: {}
+[37.536502] (-) TimerEvent: {}
+[37.637420] (-) TimerEvent: {}
+[37.738196] (-) TimerEvent: {}
+[37.839043] (-) TimerEvent: {}
+[37.939877] (-) TimerEvent: {}
+[38.040699] (-) TimerEvent: {}
+[38.141531] (-) TimerEvent: {}
+[38.242388] (-) TimerEvent: {}
+[38.343199] (-) TimerEvent: {}
+[38.444066] (-) TimerEvent: {}
+[38.545034] (-) TimerEvent: {}
+[38.645789] (-) TimerEvent: {}
+[38.746599] (-) TimerEvent: {}
+[38.847685] (-) TimerEvent: {}
+[38.948459] (-) TimerEvent: {}
+[39.049262] (-) TimerEvent: {}
+[39.150028] (-) TimerEvent: {}
+[39.250827] (-) TimerEvent: {}
+[39.351615] (-) TimerEvent: {}
+[39.452440] (-) TimerEvent: {}
+[39.553665] (-) TimerEvent: {}
+[39.654655] (-) TimerEvent: {}
+[39.755605] (-) TimerEvent: {}
+[39.856664] (-) TimerEvent: {}
+[39.957584] (-) TimerEvent: {}
+[40.058628] (-) TimerEvent: {}
+[40.159792] (-) TimerEvent: {}
+[40.261051] (-) TimerEvent: {}
+[40.361887] (-) TimerEvent: {}
+[40.463723] (-) TimerEvent: {}
+[40.566631] (-) TimerEvent: {}
+[40.667473] (-) TimerEvent: {}
+[40.768307] (-) TimerEvent: {}
+[40.869373] (-) TimerEvent: {}
+[40.971098] (-) TimerEvent: {}
+[41.072621] (-) TimerEvent: {}
+[41.173833] (-) TimerEvent: {}
+[41.278110] (-) TimerEvent: {}
+[41.379231] (-) TimerEvent: {}
+[41.480404] (-) TimerEvent: {}
+[41.581407] (-) TimerEvent: {}
+[41.682344] (-) TimerEvent: {}
+[41.783310] (-) TimerEvent: {}
+[41.884337] (-) TimerEvent: {}
+[41.899180] (sophus) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX executable test_velocities\x1b[0m\n'}
+[41.984518] (-) TimerEvent: {}
+[42.085319] (-) TimerEvent: {}
+[42.186498] (-) TimerEvent: {}
+[42.287738] (-) TimerEvent: {}
+[42.388946] (-) TimerEvent: {}
+[42.490346] (-) TimerEvent: {}
+[42.591643] (-) TimerEvent: {}
+[42.651576] (sophus) StdoutLine: {'line': b'[ 46%] Built target test_velocities\n'}
+[42.692093] (-) TimerEvent: {}
+[42.779489] (sophus) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object test/core/CMakeFiles/test_geometry.dir/test_geometry.cpp.o\x1b[0m\n'}
+[42.792947] (-) TimerEvent: {}
+[42.894494] (-) TimerEvent: {}
+[42.995429] (-) TimerEvent: {}
+[43.096247] (-) TimerEvent: {}
+[43.197033] (-) TimerEvent: {}
+[43.297881] (-) TimerEvent: {}
+[43.399214] (-) TimerEvent: {}
+[43.500239] (-) TimerEvent: {}
+[43.601491] (-) TimerEvent: {}
+[43.702361] (-) TimerEvent: {}
+[43.803537] (-) TimerEvent: {}
+[43.904910] (-) TimerEvent: {}
+[44.006303] (-) TimerEvent: {}
+[44.107536] (-) TimerEvent: {}
+[44.214641] (-) TimerEvent: {}
+[44.316848] (-) TimerEvent: {}
+[44.417856] (-) TimerEvent: {}
+[44.519272] (-) TimerEvent: {}
+[44.620496] (-) TimerEvent: {}
+[44.721883] (-) TimerEvent: {}
+[44.823138] (-) TimerEvent: {}
+[44.924335] (-) TimerEvent: {}
+[45.029047] (-) TimerEvent: {}
+[45.129870] (-) TimerEvent: {}
+[45.231229] (-) TimerEvent: {}
+[45.332432] (-) TimerEvent: {}
+[45.433734] (-) TimerEvent: {}
+[45.534934] (-) TimerEvent: {}
+[45.635756] (-) TimerEvent: {}
+[45.737026] (-) TimerEvent: {}
+[45.839813] (-) TimerEvent: {}
+[45.944042] (-) TimerEvent: {}
+[46.045274] (-) TimerEvent: {}
+[46.148441] (-) TimerEvent: {}
+[46.249250] (-) TimerEvent: {}
+[46.350315] (-) TimerEvent: {}
+[46.451135] (-) TimerEvent: {}
+[46.552012] (-) TimerEvent: {}
+[46.653084] (-) TimerEvent: {}
+[46.753901] (-) TimerEvent: {}
+[46.854754] (-) TimerEvent: {}
+[46.955896] (-) TimerEvent: {}
+[47.056960] (-) TimerEvent: {}
+[47.158119] (-) TimerEvent: {}
+[47.259231] (-) TimerEvent: {}
+[47.360522] (-) TimerEvent: {}
+[47.461623] (-) TimerEvent: {}
+[47.562486] (-) TimerEvent: {}
+[47.663515] (-) TimerEvent: {}
+[47.764390] (-) TimerEvent: {}
+[47.865309] (-) TimerEvent: {}
+[47.966066] (-) TimerEvent: {}
+[48.066835] (-) TimerEvent: {}
+[48.167926] (-) TimerEvent: {}
+[48.269336] (-) TimerEvent: {}
+[48.370336] (-) TimerEvent: {}
+[48.471191] (-) TimerEvent: {}
+[48.572159] (-) TimerEvent: {}
+[48.673348] (-) TimerEvent: {}
+[48.782110] (-) TimerEvent: {}
+[48.882979] (-) TimerEvent: {}
+[48.983795] (-) TimerEvent: {}
+[49.092466] (-) TimerEvent: {}
+[49.193302] (-) TimerEvent: {}
+[49.294142] (-) TimerEvent: {}
+[49.395003] (-) TimerEvent: {}
+[49.495813] (-) TimerEvent: {}
+[49.596639] (-) TimerEvent: {}
+[49.697399] (-) TimerEvent: {}
+[49.798174] (-) TimerEvent: {}
+[49.899017] (-) TimerEvent: {}
+[49.999879] (-) TimerEvent: {}
+[50.100764] (-) TimerEvent: {}
+[50.201716] (-) TimerEvent: {}
+[50.302701] (-) TimerEvent: {}
+[50.403510] (-) TimerEvent: {}
+[50.504380] (-) TimerEvent: {}
+[50.605210] (-) TimerEvent: {}
+[50.706171] (-) TimerEvent: {}
+[50.809615] (-) TimerEvent: {}
+[50.910676] (-) TimerEvent: {}
+[51.011538] (-) TimerEvent: {}
+[51.112483] (-) TimerEvent: {}
+[51.137610] (sophus) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX executable test_common\x1b[0m\n'}
+[51.212679] (-) TimerEvent: {}
+[51.313795] (-) TimerEvent: {}
+[51.414715] (-) TimerEvent: {}
+[51.515554] (-) TimerEvent: {}
+[51.616759] (-) TimerEvent: {}
+[51.718596] (-) TimerEvent: {}
+[51.819939] (-) TimerEvent: {}
+[51.855652] (sophus) StdoutLine: {'line': b'[ 53%] Built target test_common\n'}
+[51.920112] (-) TimerEvent: {}
+[52.021359] (-) TimerEvent: {}
+[52.122400] (-) TimerEvent: {}
+[52.223269] (-) TimerEvent: {}
+[52.324104] (-) TimerEvent: {}
+[52.424904] (-) TimerEvent: {}
+[52.525925] (-) TimerEvent: {}
+[52.627002] (-) TimerEvent: {}
+[52.728079] (-) TimerEvent: {}
+[52.829141] (-) TimerEvent: {}
+[52.930303] (-) TimerEvent: {}
+[53.031142] (-) TimerEvent: {}
+[53.132421] (-) TimerEvent: {}
+[53.233480] (-) TimerEvent: {}
+[53.303219] (sophus) StderrLine: {'line': b'gmake[2]: *** [test/core/CMakeFiles/test_sim3.dir/build.make:76: test/core/CMakeFiles/test_sim3.dir/test_sim3.cpp.o] Interrupt\n'}
+[53.308112] (sophus) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[53.308690] (sophus) StderrLine: {'line': b'  File "/home/mihkel/.local/bin/cmake", line 8, in <module>\n'}
+[53.309074] (sophus) StderrLine: {'line': b'    sys.exit(cmake())\n'}
+[53.309409] (sophus) StderrLine: {'line': b'  File "/home/mihkel/.local/lib/python3.10/site-packages/cmake/__init__.py", line 47, in cmake\n'}
+[53.309727] (sophus) StderrLine: {'line': b"    raise SystemExit(_program('cmake', sys.argv[1:]))\n"}
+[53.310060] (sophus) StderrLine: {'line': b'  File "/home/mihkel/.local/lib/python3.10/site-packages/cmake/__init__.py", line 43, in _program\n'}
+[53.310440] (sophus) StderrLine: {'line': b'    return subprocess.call([os.path.join(CMAKE_BIN_DIR, name)] + args, close_fds=False)\n'}
+[53.310802] (sophus) StderrLine: {'line': b'  File "/usr/lib/python3.10/subprocess.py", line 347, in call\n'}
+[53.311156] (sophus) StderrLine: {'line': b'    return p.wait(timeout=timeout)\n'}
+[53.311522] (sophus) StderrLine: {'line': b'  File "/usr/lib/python3.10/subprocess.py", line 1209, in wait\n'}
+[53.311845] (sophus) StderrLine: {'line': b'    return self._wait(timeout=timeout)\n'}
+[53.312156] (sophus) StderrLine: {'line': b'  File "/usr/lib/python3.10/subprocess.py", line 1959, in _wait\n'}
+[53.312502] (sophus) StderrLine: {'line': b'    (pid, sts) = self._try_wait(0)\n'}
+[53.312811] (sophus) StderrLine: {'line': b'  File "/usr/lib/python3.10/subprocess.py", line 1917, in _try_wait\n'}
+[53.316275] (sophus) StderrLine: {'line': b'    (pid, sts) = os.waitpid(self.pid, wait_flags)\n'}
+[53.316944] (sophus) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[53.318689] (sophus) StderrLine: {'line': b'gmake[2]: *** [test/core/CMakeFiles/test_se3.dir/build.make:76: test/core/CMakeFiles/test_se3.dir/test_se3.cpp.o] Interrupt\n'}
+[53.319118] (sophus) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:408: test/core/CMakeFiles/test_se3.dir/all] Interrupt\n'}
+[53.319493] (sophus) StderrLine: {'line': b'gmake[2]: *** [test/core/CMakeFiles/test_rxso3.dir/build.make:76: test/core/CMakeFiles/test_rxso3.dir/test_rxso3.cpp.o] Interrupt\n'}
+[53.319863] (sophus) StderrLine: {'line': b'gmake[2]: *** [test/core/CMakeFiles/test_rxso2.dir/build.make:76: test/core/CMakeFiles/test_rxso2.dir/test_rxso2.cpp.o] Interrupt\n'}
+[53.320239] (sophus) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:434: test/core/CMakeFiles/test_rxso3.dir/all] Interrupt\n'}
+[53.330272] (sophus) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:330: test/core/CMakeFiles/test_rxso2.dir/all] Interrupt\n'}
+[53.330645] (sophus) StderrLine: {'line': b'gmake[2]: *** [test/core/CMakeFiles/test_sim2.dir/build.make:76: test/core/CMakeFiles/test_sim2.dir/test_sim2.cpp.o] Interrupt\n'}
+[53.330948] (sophus) StderrLine: {'line': b'gmake[2]: *** [test/core/CMakeFiles/test_so2.dir/build.make:76: test/core/CMakeFiles/test_so2.dir/test_so2.cpp.o] Interrupt\n'}
+[53.331253] (sophus) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:356: test/core/CMakeFiles/test_sim2.dir/all] Interrupt\n'}
+[53.331523] (sophus) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:278: test/core/CMakeFiles/test_so2.dir/all] Interrupt\n'}
+[53.331823] (sophus) StderrLine: {'line': b'gmake[2]: *** [test/core/CMakeFiles/test_cartesian3.dir/build.make:76: test/core/CMakeFiles/test_cartesian3.dir/test_cartesian3.cpp.o] Interrupt\n'}
+[53.332114] (sophus) StderrLine: {'line': b'gmake[2]: *** [test/core/CMakeFiles/test_cartesian2.dir/build.make:76: test/core/CMakeFiles/test_cartesian2.dir/test_cartesian2.cpp.o] Interrupt\n'}
+[53.332451] (sophus) StderrLine: {'line': b'gmake[2]: *** [test/core/CMakeFiles/test_se2.dir/build.make:76: test/core/CMakeFiles/test_se2.dir/test_se2.cpp.o] Interrupt\n'}
+[53.332753] (sophus) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:252: test/core/CMakeFiles/test_cartesian3.dir/all] Interrupt\n'}
+[53.333042] (sophus) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:226: test/core/CMakeFiles/test_cartesian2.dir/all] Interrupt\n'}
+[53.333359] (sophus) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:304: test/core/CMakeFiles/test_se2.dir/all] Interrupt\n'}
+[53.333706] (-) TimerEvent: {}
+[53.334129] (sophus) StderrLine: {'line': b'gmake[2]: *** [test/core/CMakeFiles/test_so3.dir/build.make:76: test/core/CMakeFiles/test_so3.dir/test_so3.cpp.o] Interrupt\n'}
+[53.334513] (sophus) StderrLine: {'line': b'gmake[2]: *** [test/core/CMakeFiles/test_geometry.dir/build.make:76: test/core/CMakeFiles/test_geometry.dir/test_geometry.cpp.o] Interrupt\n'}
+[53.334836] (sophus) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:382: test/core/CMakeFiles/test_so3.dir/all] Interrupt\n'}
+[53.335149] (sophus) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:512: test/core/CMakeFiles/test_geometry.dir/all] Interrupt\n'}
+[53.335462] (sophus) StderrLine: {'line': b'gmake[1]: *** wait: No child processes.  Stop.\n'}
+[53.335749] (sophus) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[53.336037] (sophus) StderrLine: {'line': b'gmake[1]: *** wait: No child processes.  Stop.\n'}
+[53.336321] (sophus) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[53.434337] (-) TimerEvent: {}
+[53.535194] (-) TimerEvent: {}
+[53.635973] (-) TimerEvent: {}
+[53.640058] (sophus) JobEnded: {'identifier': 'sophus', 'rc': 'SIGINT'}
+[53.651302] (hospital_carrier) JobSkipped: {'identifier': 'hospital_carrier'}
+[53.651715] (pybind) JobSkipped: {'identifier': 'pybind'}
+[53.651917] (rtabmap_conversions) JobSkipped: {'identifier': 'rtabmap_conversions'}
+[53.652030] (rtabmap_rviz_plugins) JobSkipped: {'identifier': 'rtabmap_rviz_plugins'}
+[53.652123] (rtabmap_sync) JobSkipped: {'identifier': 'rtabmap_sync'}
+[53.652202] (rtabmap_util) JobSkipped: {'identifier': 'rtabmap_util'}
+[53.652277] (rtabmap_odom) JobSkipped: {'identifier': 'rtabmap_odom'}
+[53.652361] (rtabmap_slam) JobSkipped: {'identifier': 'rtabmap_slam'}
+[53.652552] (rtabmap_viz) JobSkipped: {'identifier': 'rtabmap_viz'}
+[53.652713] (rtabmap_launch) JobSkipped: {'identifier': 'rtabmap_launch'}
+[53.652853] (rtabmap_demos) JobSkipped: {'identifier': 'rtabmap_demos'}
+[53.653048] (rtabmap_examples) JobSkipped: {'identifier': 'rtabmap_examples'}
+[53.653128] (rtabmap_legacy) JobSkipped: {'identifier': 'rtabmap_legacy'}
+[53.653302] (rtabmap_ros) JobSkipped: {'identifier': 'rtabmap_ros'}
+[53.653630] (-) EventReactorShutdown: {}

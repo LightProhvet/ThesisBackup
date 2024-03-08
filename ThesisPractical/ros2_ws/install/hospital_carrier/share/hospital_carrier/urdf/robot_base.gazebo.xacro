@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+	<gazebo reference="robot_base_link">
+		<visual name="robot_color">
+			<material>
+				<ambient>0.9 0.9 0.9 1</ambient>
+				<diffuse>0.9 0.9 0.9 1</diffuse>
+				<specular>0.1 0.1 0.1 1</specular>
+				<emissive>0 0 0 0</emissive>
+			</material>
+		</visual>
+	</gazebo>
+
+	<gazebo reference="camera">
+		<visual name="camera_color">
+			<material>
+				<ambient>0 0 1 1</ambient>
+				<diffuse>0 0 1 1</diffuse>
+				<specular>0.1 0.1 0.1 1</specular>
+				<emissive>0 0 0 0</emissive>
+			</material>
+		</visual>
+	</gazebo>
+
+
+	<xacro:macro name="omni_steering" params="">
+	<gazebo>
+		<plugin name="omni_steering" filename="libgazebo_ros_planar_move.so">
+			<commandTopic>cmd_vel</commandTopic>
+			<odometryTopic>odom</odometryTopic>
+			<odometryFrame>odom</odometryFrame>
+			<odometryRate>50.0</odometryRate>
+			<robotBaseFrame>base_footprint</robotBaseFrame>
+			<publishTF>true</publishTF>
+		</plugin>
+
+
+	</gazebo>
+
+	<gazebo reference="camera">
+		<sensor name="camera" type="depth">
+			<update_rate>20</update_rate>
+			<camera>
+				<horizontal_fov>0.9569537081714711</horizontal_fov>
+				<image>
+				<width>640</width>
+				<height>480</height>
+				<format>R8G8B8</format>
+				</image>
+				<clip>
+				<near>0.05</near>
+				<far>3</far>
+				</clip>
+			</camera>
+			<plugin name="camera_controller" filename="libgazebo_ros_openni_kinect.so">
+				<baseline>0.2</baseline>
+				<alwaysOn>true</alwaysOn>
+				<updateRate>1.0</updateRate>
+				<cameraName>camera_ir</cameraName>
+				<imageTopicName>/camera/color/image_raw</imageTopicName>
+				<cameraInfoTopicName>/camera/color/camera_info</cameraInfoTopicName>
+				<depthImageTopicName>/camera/depth/image_raw</depthImageTopicName>
+				<depthImageInfoTopicName>/camera/depth/camera_info</depthImageInfoTopicName>
+				<pointCloudTopicName>/camera/depth/points</pointCloudTopicName>
+				<frameName>camera</frameName>
+				<pointCloudCutoff>0.5</pointCloudCutoff>
+				<pointCloudCutoffMax>3.0</pointCloudCutoffMax>
+				<distortionK1>0.0613387696</distortionK1>
+				<distortionK2>0.609682391</distortionK2>
+				<distortionK3>0.00210977884</distortionK3>
+				<distortionT1>-0.00273325</distortionT1>
+				<distortionT2>-2.4108485</distortionT2>
+				<CxPrime>0</CxPrime>
+				<Cx>328.04051969</Cx>
+				<Cy>246.52665033</Cy>
+				<focalLength>616.954778</focalLength>
+				<hackBaseline>0</hackBaseline>
+			</plugin>
+		</sensor>
+	</gazebo>
+
+</xacro:macro>
+
+</robot>

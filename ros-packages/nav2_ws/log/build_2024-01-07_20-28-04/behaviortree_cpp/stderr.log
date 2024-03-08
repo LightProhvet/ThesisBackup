@@ -1,0 +1,29 @@
+gmake[2]: *** [CMakeFiles/behaviortree_cpp.dir/build.make:216: CMakeFiles/behaviortree_cpp.dir/src/script_parser.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/behaviortree_cpp.dir/build.make:132: CMakeFiles/behaviortree_cpp.dir/src/bt_factory.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/behaviortree_cpp.dir/build.make:244: CMakeFiles/behaviortree_cpp.dir/src/xml_parsing.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/behaviortree_cpp.dir/build.make:398: CMakeFiles/behaviortree_cpp.dir/src/controls/parallel_node.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/behaviortree_cpp.dir/build.make:412: CMakeFiles/behaviortree_cpp.dir/src/controls/parallel_all_node.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/behaviortree_cpp.dir/build.make:426: CMakeFiles/behaviortree_cpp.dir/src/controls/reactive_sequence.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/behaviortree_cpp.dir/build.make:440: CMakeFiles/behaviortree_cpp.dir/src/controls/reactive_fallback.cpp.o] Interrupt
+gmake[2]: *** [gtest/CMakeFiles/gtest.dir/build.make:76: gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:491: gtest/CMakeFiles/gtest.dir/all] Interrupt
+gmake[1]: *** wait: No child processes.  Stop.
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** wait: No child processes.  Stop.
+gmake: *** [Makefile:146: all] Error 2
+Traceback (most recent call last):
+  File "/home/mihkel/.local/bin/cmake", line 8, in <module>
+    sys.exit(cmake())
+  File "/home/mihkel/.local/lib/python3.10/site-packages/cmake/__init__.py", line 47, in cmake
+    raise SystemExit(_program('cmake', sys.argv[1:]))
+  File "/home/mihkel/.local/lib/python3.10/site-packages/cmake/__init__.py", line 43, in _program
+    return subprocess.call([os.path.join(CMAKE_BIN_DIR, name)] + args, close_fds=False)
+  File "/usr/lib/python3.10/subprocess.py", line 347, in call
+    return p.wait(timeout=timeout)
+  File "/usr/lib/python3.10/subprocess.py", line 1209, in wait
+    return self._wait(timeout=timeout)
+  File "/usr/lib/python3.10/subprocess.py", line 1959, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/usr/lib/python3.10/subprocess.py", line 1917, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt

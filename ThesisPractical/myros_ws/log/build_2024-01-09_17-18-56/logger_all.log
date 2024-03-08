@@ -1,0 +1,228 @@
+[5.979s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[5.979s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fd8333e6950>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fd8333e4190>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fd8333e4190>>)
+[6.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[6.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[6.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[6.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[6.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[6.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[6.249s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mihkel/School/ThesisPractical/myros_ws'
+[6.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[6.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[6.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[6.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[6.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[6.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[6.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[6.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[6.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[6.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[6.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[6.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[6.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[6.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[6.296s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[6.296s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[6.297s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[6.297s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[6.297s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[6.298s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[6.298s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[6.298s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[6.299s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[6.299s] Level 1:colcon.colcon_core.package_identification:_identify(params) by extensions ['ignore', 'ignore_ament_install']
+[6.299s] Level 1:colcon.colcon_core.package_identification:_identify(params) by extension 'ignore'
+[6.299s] Level 1:colcon.colcon_core.package_identification:_identify(params) by extension 'ignore_ament_install'
+[6.300s] Level 1:colcon.colcon_core.package_identification:_identify(params) by extensions ['colcon_pkg']
+[6.300s] Level 1:colcon.colcon_core.package_identification:_identify(params) by extension 'colcon_pkg'
+[6.300s] Level 1:colcon.colcon_core.package_identification:_identify(params) by extensions ['colcon_meta']
+[6.300s] Level 1:colcon.colcon_core.package_identification:_identify(params) by extension 'colcon_meta'
+[6.300s] Level 1:colcon.colcon_core.package_identification:_identify(params) by extensions ['ros']
+[6.301s] Level 1:colcon.colcon_core.package_identification:_identify(params) by extension 'ros'
+[6.301s] Level 1:colcon.colcon_core.package_identification:_identify(params) by extensions ['cmake', 'python']
+[6.301s] Level 1:colcon.colcon_core.package_identification:_identify(params) by extension 'cmake'
+[6.301s] Level 1:colcon.colcon_core.package_identification:_identify(params) by extension 'python'
+[6.301s] Level 1:colcon.colcon_core.package_identification:_identify(params) by extensions ['python_setup_py']
+[6.302s] Level 1:colcon.colcon_core.package_identification:_identify(params) by extension 'python_setup_py'
+[6.302s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[6.302s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[6.302s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[6.303s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[6.303s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[6.303s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[6.303s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[6.303s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[6.304s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[6.304s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[6.304s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[6.304s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[6.304s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[6.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[6.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/costmap_python_plugin) by extensions ['ignore', 'ignore_ament_install']
+[6.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/costmap_python_plugin) by extension 'ignore'
+[6.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/costmap_python_plugin) ignored
+[6.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugin_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[6.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugin_tutorial) by extension 'ignore'
+[6.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugin_tutorial) by extension 'ignore_ament_install'
+[6.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugin_tutorial) by extensions ['colcon_pkg']
+[6.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugin_tutorial) by extension 'colcon_pkg'
+[6.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugin_tutorial) by extensions ['colcon_meta']
+[6.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugin_tutorial) by extension 'colcon_meta'
+[6.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugin_tutorial) by extensions ['ros']
+[6.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_plugin_tutorial) by extension 'ros'
+[6.319s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav2_plugin_tutorial' with type 'ros.ament_cmake' and name 'nav2_plugin_tutorial'
+[6.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation2_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[6.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation2_tutorials) by extension 'ignore'
+[6.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation2_tutorials) ignored
+[6.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_segmentation) by extensions ['ignore', 'ignore_ament_install']
+[6.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_segmentation) by extension 'ignore'
+[6.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_segmentation) by extension 'ignore_ament_install'
+[6.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_segmentation) by extensions ['colcon_pkg']
+[6.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_segmentation) by extension 'colcon_pkg'
+[6.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_segmentation) by extensions ['colcon_meta']
+[6.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_segmentation) by extension 'colcon_meta'
+[6.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_segmentation) by extensions ['ros']
+[6.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_segmentation) by extension 'ros'
+[6.324s] DEBUG:colcon.colcon_core.package_identification:Package 'src/semantic_segmentation' with type 'ros.ament_python' and name 'semantic_segmentation'
+[6.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorials) by extensions ['ignore', 'ignore_ament_install']
+[6.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorials) by extension 'ignore'
+[6.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorials) ignored
+[6.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[6.326s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[6.326s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[6.326s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[6.326s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[6.920s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[6.920s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[7.107s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 397 installed packages in /opt/ros/humble
+[7.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[7.606s] Level 5:colcon.colcon_core.verb:set package 'nav2_plugin_tutorial' build argument 'cmake_args' from command line to 'None'
+[7.606s] Level 5:colcon.colcon_core.verb:set package 'nav2_plugin_tutorial' build argument 'cmake_target' from command line to 'None'
+[7.606s] Level 5:colcon.colcon_core.verb:set package 'nav2_plugin_tutorial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.606s] Level 5:colcon.colcon_core.verb:set package 'nav2_plugin_tutorial' build argument 'cmake_clean_cache' from command line to 'False'
+[7.606s] Level 5:colcon.colcon_core.verb:set package 'nav2_plugin_tutorial' build argument 'cmake_clean_first' from command line to 'False'
+[7.606s] Level 5:colcon.colcon_core.verb:set package 'nav2_plugin_tutorial' build argument 'cmake_force_configure' from command line to 'False'
+[7.606s] Level 5:colcon.colcon_core.verb:set package 'nav2_plugin_tutorial' build argument 'ament_cmake_args' from command line to 'None'
+[7.607s] Level 5:colcon.colcon_core.verb:set package 'nav2_plugin_tutorial' build argument 'catkin_cmake_args' from command line to 'None'
+[7.607s] Level 5:colcon.colcon_core.verb:set package 'nav2_plugin_tutorial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.607s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_plugin_tutorial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mihkel/School/ThesisPractical/myros_ws/build/nav2_plugin_tutorial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial', 'merge_install': False, 'path': '/home/mihkel/School/ThesisPractical/myros_ws/src/nav2_plugin_tutorial', 'symlink_install': True, 'test_result_base': None}
+[7.692s] Level 5:colcon.colcon_core.verb:set package 'semantic_segmentation' build argument 'cmake_args' from command line to 'None'
+[7.692s] Level 5:colcon.colcon_core.verb:set package 'semantic_segmentation' build argument 'cmake_target' from command line to 'None'
+[7.692s] Level 5:colcon.colcon_core.verb:set package 'semantic_segmentation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.692s] Level 5:colcon.colcon_core.verb:set package 'semantic_segmentation' build argument 'cmake_clean_cache' from command line to 'False'
+[7.692s] Level 5:colcon.colcon_core.verb:set package 'semantic_segmentation' build argument 'cmake_clean_first' from command line to 'False'
+[7.692s] Level 5:colcon.colcon_core.verb:set package 'semantic_segmentation' build argument 'cmake_force_configure' from command line to 'False'
+[7.692s] Level 5:colcon.colcon_core.verb:set package 'semantic_segmentation' build argument 'ament_cmake_args' from command line to 'None'
+[7.692s] Level 5:colcon.colcon_core.verb:set package 'semantic_segmentation' build argument 'catkin_cmake_args' from command line to 'None'
+[7.693s] Level 5:colcon.colcon_core.verb:set package 'semantic_segmentation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.693s] DEBUG:colcon.colcon_core.verb:Building package 'semantic_segmentation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation', 'merge_install': False, 'path': '/home/mihkel/School/ThesisPractical/myros_ws/src/semantic_segmentation', 'symlink_install': True, 'test_result_base': None}
+[7.785s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[7.879s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[7.879s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mihkel/School/ThesisPractical/myros_ws/src/nav2_plugin_tutorial' with build type 'ament_cmake'
+[7.881s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mihkel/School/ThesisPractical/myros_ws/src/nav2_plugin_tutorial'
+[7.994s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[7.994s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.994s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.189s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mihkel/School/ThesisPractical/myros_ws/src/semantic_segmentation' with build type 'ament_python'
+[8.190s] Level 1:colcon.colcon_core.shell:create_environment_hook('semantic_segmentation', 'ament_prefix_path')
+[8.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/share/semantic_segmentation/hook/ament_prefix_path.ps1'
+[8.278s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/share/semantic_segmentation/hook/ament_prefix_path.dsv'
+[8.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/share/semantic_segmentation/hook/ament_prefix_path.sh'
+[8.369s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.369s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mihkel/School/ThesisPractical/myros_ws/build/nav2_plugin_tutorial': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ThesisPractical/myros_ws/build/nav2_plugin_tutorial -- -j12 -l12
+[10.568s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mihkel/School/ThesisPractical/myros_ws/src/semantic_segmentation'
+[10.693s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.694s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.957s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mihkel/School/ThesisPractical/myros_ws/build/nav2_plugin_tutorial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ThesisPractical/myros_ws/build/nav2_plugin_tutorial -- -j12 -l12
+[11.301s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mihkel/School/ThesisPractical/myros_ws/build/nav2_plugin_tutorial': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --install /home/mihkel/School/ThesisPractical/myros_ws/build/nav2_plugin_tutorial
+[11.477s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_plugin_tutorial)
+[11.479s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mihkel/School/ThesisPractical/myros_ws/build/nav2_plugin_tutorial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --install /home/mihkel/School/ThesisPractical/myros_ws/build/nav2_plugin_tutorial
+[11.623s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial' for CMake module files
+[11.626s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial' for CMake config files
+[11.627s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_plugin_tutorial', 'cmake_prefix_path')
+[11.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/share/nav2_plugin_tutorial/hook/cmake_prefix_path.ps1'
+[11.758s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/share/nav2_plugin_tutorial/hook/cmake_prefix_path.dsv'
+[11.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/share/nav2_plugin_tutorial/hook/cmake_prefix_path.sh'
+[11.762s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/lib'
+[11.763s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_plugin_tutorial', 'ld_library_path_lib')
+[11.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/share/nav2_plugin_tutorial/hook/ld_library_path_lib.ps1'
+[11.877s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/share/nav2_plugin_tutorial/hook/ld_library_path_lib.dsv'
+[11.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/share/nav2_plugin_tutorial/hook/ld_library_path_lib.sh'
+[11.880s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/bin'
+[11.881s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/lib/pkgconfig/nav2_plugin_tutorial.pc'
+[11.882s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/lib/python3.10/site-packages'
+[11.883s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/bin'
+[12.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/share/nav2_plugin_tutorial/package.ps1'
+[12.012s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/share/nav2_plugin_tutorial/package.dsv'
+[12.014s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/share/nav2_plugin_tutorial/package.sh'
+[12.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/share/nav2_plugin_tutorial/package.bash'
+[12.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/share/nav2_plugin_tutorial/package.zsh'
+[12.024s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/share/colcon-core/packages/nav2_plugin_tutorial)
+[12.364s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_plugin_tutorial)
+[12.538s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial' for CMake module files
+[12.540s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial' for CMake config files
+[12.541s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_plugin_tutorial', 'cmake_prefix_path')
+[12.676s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/share/nav2_plugin_tutorial/hook/cmake_prefix_path.ps1'
+[12.678s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/share/nav2_plugin_tutorial/hook/cmake_prefix_path.dsv'
+[12.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/share/nav2_plugin_tutorial/hook/cmake_prefix_path.sh'
+[12.681s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/lib'
+[12.682s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_plugin_tutorial', 'ld_library_path_lib')
+[12.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/share/nav2_plugin_tutorial/hook/ld_library_path_lib.ps1'
+[12.810s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/share/nav2_plugin_tutorial/hook/ld_library_path_lib.dsv'
+[12.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/share/nav2_plugin_tutorial/hook/ld_library_path_lib.sh'
+[12.812s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/bin'
+[12.813s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/lib/pkgconfig/nav2_plugin_tutorial.pc'
+[12.813s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/lib/python3.10/site-packages'
+[12.814s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/bin'
+[12.945s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/share/nav2_plugin_tutorial/package.ps1'
+[12.948s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/share/nav2_plugin_tutorial/package.dsv'
+[12.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/share/nav2_plugin_tutorial/package.sh'
+[12.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/share/nav2_plugin_tutorial/package.bash'
+[12.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/share/nav2_plugin_tutorial/package.zsh'
+[12.960s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/share/colcon-core/packages/nav2_plugin_tutorial)
+[13.856s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/share/ament_index/resource_index/packages/semantic_segmentation
+[13.856s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/share/semantic_segmentation/package.xml
+[13.857s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/semantic_segmentation/segmentation
+[13.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation': PYTHONPATH=/home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/prefix_override:/home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build --no-deps install_data
+[17.492s] Level 1:colcon.colcon_core.shell:create_environment_hook('semantic_segmentation', 'pythonpath_develop')
+[17.494s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation' returned '0': PYTHONPATH=/home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/prefix_override:/home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build --no-deps install_data
+[17.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/share/semantic_segmentation/hook/pythonpath_develop.ps1'
+[17.597s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/share/semantic_segmentation/hook/pythonpath_develop.dsv'
+[17.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/share/semantic_segmentation/hook/pythonpath_develop.sh'
+[17.696s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation' for CMake module files
+[17.698s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation' for CMake config files
+[17.699s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib'
+[17.699s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/bin'
+[17.700s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/pkgconfig/semantic_segmentation.pc'
+[17.701s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages'
+[17.701s] Level 1:colcon.colcon_core.shell:create_environment_hook('semantic_segmentation', 'pythonpath')
+[17.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/share/semantic_segmentation/hook/pythonpath.ps1'
+[17.797s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/share/semantic_segmentation/hook/pythonpath.dsv'
+[17.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/share/semantic_segmentation/hook/pythonpath.sh'
+[17.799s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/bin'
+[17.800s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(semantic_segmentation)
+[17.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/share/semantic_segmentation/package.ps1'
+[17.893s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/share/semantic_segmentation/package.dsv'
+[17.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/share/semantic_segmentation/package.sh'
+[17.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/share/semantic_segmentation/package.bash'
+[17.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/share/semantic_segmentation/package.zsh'
+[17.898s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/share/colcon-core/packages/semantic_segmentation)
+[17.899s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[17.899s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[17.900s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[17.900s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[18.009s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[18.009s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[18.010s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[18.051s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[18.169s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mihkel/School/ThesisPractical/myros_ws/install/local_setup.ps1'
+[18.181s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mihkel/School/ThesisPractical/myros_ws/install/_local_setup_util_ps1.py'
+[18.188s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mihkel/School/ThesisPractical/myros_ws/install/setup.ps1'
+[18.300s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mihkel/School/ThesisPractical/myros_ws/install/local_setup.sh'
+[18.302s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mihkel/School/ThesisPractical/myros_ws/install/_local_setup_util_sh.py'
+[18.303s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mihkel/School/ThesisPractical/myros_ws/install/setup.sh'
+[18.428s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mihkel/School/ThesisPractical/myros_ws/install/local_setup.bash'
+[18.430s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mihkel/School/ThesisPractical/myros_ws/install/setup.bash'
+[18.550s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mihkel/School/ThesisPractical/myros_ws/install/local_setup.zsh'
+[18.552s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mihkel/School/ThesisPractical/myros_ws/install/setup.zsh'

@@ -1,0 +1,21 @@
+<launch>
+	<group>
+    <push-ros-namespace namespace="hospital_carrier"/>
+        
+	    <node name="Odrives" pkg="hospital_carrier" exec="Odrives" output="screen" respawn="true">
+            <param from="$(find-pkg-share hospital_carrier)/config/robotConfig.yaml"/>
+        </node>
+
+	    <node name="OperationModeControl" pkg="hospital_carrier" exec="OperationModeControl" output="screen" respawn="true">
+	        <param name="simulation" value="False" />
+	        <param name="test_without_driving" value="False" />
+            <param from="$(find-pkg-share hospital_carrier)/config/robotConfig.yaml"/>
+	        <!--Use true only when odrives are not part of the launch.-->
+	    </node>
+	    
+	    <node name="PS4Controller" pkg="hospital_carrier" exec="PS4Controller" output="screen" respawn="true">
+            <param from="$(find-pkg-share hospital_carrier)/config/robotConfig.yaml"/>
+        </node>
+        
+    </group>
+</launch>

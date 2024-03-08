@@ -1,0 +1,106 @@
+[0.622s] Invoking command in '/home/mihkel/School/ros-packages/nav2_ws/build/cv_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake /home/mihkel/School/ros-packages/nav2_ws/src/ros-perception/vision_opencv/cv_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ros-packages/nav2_ws/install/cv_bridge
+[0.871s] -- The C compiler identification is GNU 11.4.0
+[1.119s] -- The CXX compiler identification is GNU 11.4.0
+[1.168s] -- Detecting C compiler ABI info
+[1.373s] -- Detecting C compiler ABI info - done
+[1.410s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.411s] -- Detecting C compile features
+[1.414s] -- Detecting C compile features - done
+[1.441s] -- Detecting CXX compiler ABI info
+[1.674s] -- Detecting CXX compiler ABI info - done
+[1.737s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.738s] -- Detecting CXX compile features
+[1.741s] -- Detecting CXX compile features - done
+[1.751s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[7.005s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[7.661s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[13.234s] -- Found Python3: /usr/include/python3.10 (found version "3.10.12") found components: Development NumPy Interpreter Development.Module Development.Embed 
+[13.537s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: python310 
+[13.578s] -- Found rcpputils: 2.4.1 (/opt/ros/humble/share/rcpputils/cmake)
+[13.760s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[14.075s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[14.154s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[14.224s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[14.348s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[14.631s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[19.346s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[19.922s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[19.930s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[20.638s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[20.640s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[21.341s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[21.390s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[22.362s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[22.398s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[23.048s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[23.049s] -- Found Threads: TRUE  
+[36.993s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake:79 (message):
+[36.994s]   The Python module 'pytest' was not found, pytests cannot be run.  On Linux,
+[36.994s]   install the 'python3-pytest' package.  On other platforms, install 'pytest'
+[36.995s]   using pip.
+[36.995s] Call Stack (most recent call first):
+[36.995s]   test/CMakeLists.txt:31 (ament_add_pytest_test)
+[36.996s] 
+[36.996s] [0m
+[46.141s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake:79 (message):
+[46.145s]   The Python module 'pytest' was not found, pytests cannot be run.  On Linux,
+[46.146s]   install the 'python3-pytest' package.  On other platforms, install 'pytest'
+[46.146s]   using pip.
+[46.146s] Call Stack (most recent call first):
+[46.147s]   test/CMakeLists.txt:32 (ament_add_pytest_test)
+[46.147s] 
+[46.147s] [0m
+[53.430s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake:79 (message):
+[53.431s]   The Python module 'pytest' was not found, pytests cannot be run.  On Linux,
+[53.436s]   install the 'python3-pytest' package.  On other platforms, install 'pytest'
+[53.437s]   using pip.
+[53.437s] Call Stack (most recent call first):
+[53.438s]   test/CMakeLists.txt:33 (ament_add_pytest_test)
+[53.438s] 
+[53.439s] [0m
+[54.027s] Traceback (most recent call last):
+[54.027s]   File "/home/mihkel/.local/bin/cmake", line 8, in <module>
+[54.099s]     sys.exit(cmake())
+[54.101s]   File "/home/mihkel/.local/lib/python3.10/site-packages/cmake/__init__.py", line 47, in cmake
+[54.101s]     raise SystemExit(_program('cmake', sys.argv[1:]))
+[54.102s]   File "/home/mihkel/.local/lib/python3.10/site-packages/cmake/__init__.py", line 43, in _program
+[54.102s]     return subprocess.call([os.path.join(CMAKE_BIN_DIR, name)] + args, close_fds=False)
+[54.103s]   File "/usr/lib/python3.10/subprocess.py", line 347, in call
+[54.103s]     return p.wait(timeout=timeout)
+[54.103s]   File "/usr/lib/python3.10/subprocess.py", line 1209, in wait
+[54.104s]     return self._wait(timeout=timeout)
+[54.105s]   File "/usr/lib/python3.10/subprocess.py", line 1959, in _wait
+[54.105s]     (pid, sts) = self._try_wait(0)
+[54.106s]   File "/usr/lib/python3.10/subprocess.py", line 1917, in _try_wait
+[54.106s]     (pid, sts) = os.waitpid(self.pid, wait_flags)
+[54.106s] KeyboardInterrupt
+[54.128s] Invoked command in '/home/mihkel/School/ros-packages/nav2_ws/build/cv_bridge' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake /home/mihkel/School/ros-packages/nav2_ws/src/ros-perception/vision_opencv/cv_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ros-packages/nav2_ws/install/cv_bridge
+[54.130s] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 75, in execute
+    loop.run_until_complete(future)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 1871, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/usr/lib/python3.10/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 59, in build
+    rc = await extension.build(
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 87, in build
+    rc = await self._reconfigure(args, env)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 182, in _reconfigure
+    buildfile = get_buildfile(cmake_cache)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 114, in get_buildfile
+    if 'Visual Studio' in generator:
+TypeError: argument of type 'NoneType' is not iterable

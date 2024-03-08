@@ -1,0 +1,9 @@
+{
+  "package_name": "robot_ros2_msgs",
+  "non_idl_tuples": [
+    "/home/mihkel/School/ThesisPractical/ros2_ws/src/robot-ros2-messages:msg/Encoders.msg",
+    "/home/mihkel/School/ThesisPractical/ros2_ws/src/robot-ros2-messages:msg/IntList.msg",
+    "/home/mihkel/School/ThesisPractical/ros2_ws/src/robot-ros2-messages:msg/PreviousAndNextPoint.msg",
+    "/home/mihkel/School/ThesisPractical/ros2_ws/src/robot-ros2-messages:msg/Tag.msg"
+  ]
+}

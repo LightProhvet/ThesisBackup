@@ -1,0 +1,4 @@
+Invoking command in '/home/mihkel/School/ros-packages/nav2_ws/build/bond': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ros-packages/nav2_ws/build/bond -- -j12 -l12
+Invoked command in '/home/mihkel/School/ros-packages/nav2_ws/build/bond' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ros-packages/nav2_ws/build/bond -- -j12 -l12
+Invoking command in '/home/mihkel/School/ros-packages/nav2_ws/build/bond': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --install /home/mihkel/School/ros-packages/nav2_ws/build/bond
+Invoked command in '/home/mihkel/School/ros-packages/nav2_ws/build/bond' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --install /home/mihkel/School/ros-packages/nav2_ws/build/bond

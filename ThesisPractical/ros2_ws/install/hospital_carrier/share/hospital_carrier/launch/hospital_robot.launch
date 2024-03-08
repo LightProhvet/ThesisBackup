@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<launch>
+
+
+<!-- RealSense Camera parameters. View all possible configurable parameters in config/cameraparams.txt  -->
+    <arg name="enable_sync"                         default="true" />
+    <arg name="enable_gyro"                         default="true" />
+    <arg name="enable_accel"                        default="true" />
+    <arg name="unite_imu_method"                    default="1" />
+
+    <arg name="model"                               default="$(find-pkg-share hospital_carrier)/urdf/robot.urdf.xacro" />
+
+  <group>
+  <!--
+  <push-ros-namespace namespace="$(var camera)"/> -->
+    <include file="$(find-pkg-share realsense2_camera)/launch/rs_launch.py">
+        <arg name="enable_sync"  value="$(var enable_sync)" />
+        <arg name="enable_gyro"  value="$(var enable_gyro)" />
+        <arg name="enable_accel"  value="$(var enable_accel)" />
+        <arg name="unite_imu_method"  value="$(var unite_imu_method)" />
+    </include>
+  </group>
+
+    <group> 
+        <include file="$(find-pkg-share hospital_carrier)/launch/realsense_d435i_color.launch.py">
+        </include>
+    </group>
+
+    <!-- launch rviz -->    
+    <node name="rviz2" pkg="rviz2" exec="rviz2" output="screen"> 
+    </node>
+    
+    <!-- Launch apriltag node for marker detection -->    
+    <node name="apriltag_node" pkg="apriltag_ros" exec="apriltag_node" output="screen">
+        <param from="$(find-pkg-share hospital_carrier)/config/apriltag_settings.yaml"/>
+    </node>
+
+    <group>
+    <!-- Convert depth data from realsense camera to laserscan required for SLAM -->
+    <include file="$(find-pkg-share depthimage_to_laserscan)/launch/depthimage_to_laserscan-launch.py">
+    </include>
+    </group>
+
+	<group>
+    <push-ros-namespace namespace="hospital_carrier"/>
+
+		<!-- these params need to be used as letuments to node, so they are here not in robotConfig.yaml -->
+		<arg name="camera_mounting_angle" default="24.2"/><!--camera center's angle from vertical downwards line-->
+		<arg name="camera_mounting_height" default="1.51"/><!--camera height from floor, in m-->
+		<arg name="camera_mounting_forward_from_base_center" default="0.2225"/><!--relative to COM in [mm]-->
+
+        <!--Insert quaternion of camera rotation in base_footprint frame-->
+        
+		<node name="camera_link_broadcaster" pkg="tf2_ros" exec="static_transform_publisher"
+		    args="$(var camera_mounting_forward_from_base_center) 0 $(var camera_mounting_height)
+		    0.691 -0.691 0.148 -0.148
+		    base_link camera_link" />
+
+	    <node name="Odrives" pkg="hospital_carrier" exec="Odrives" output="screen" respawn="true">
+            <param from="$(find-pkg-share hospital_carrier)/config/robotConfig.yaml"/>
+        </node>
+
+	    <node name="OperationModeControl" pkg="hospital_carrier" exec="OperationModeControl" output="screen" respawn="true">
+	        <param name="simulation" value="False" />
+	        <param name="test_without_driving" value="False" />
+            <param from="$(find-pkg-share hospital_carrier)/config/robotConfig.yaml"/>
+	        <!--Use true only when odrives are not part of the launch.-->
+	    </node>
+	    
+	    <node name="PS4Controller" pkg="hospital_carrier" exec="PS4Controller" output="screen" respawn="true">
+            <param from="$(find-pkg-share hospital_carrier)/config/robotConfig.yaml"/>
+        </node>
+
+	    <!-- 
+	    THIS IP ONLY OUTSITE PERHRobot network 
+	    <arg name="mqtt_host" default="193.40.252.128" /> --> 
+	    <arg name="mqtt_host" default="perh.tti" />
+        <arg name="mqtt_port" default="5005" />
+        <arg name="mqtt_username" default="test2" />
+        <arg name="mqtt_password" default="aarobottest2" />
+        <arg name="mqtt_video_stream_topic" default="camera_color_image_raw" />
+        <arg name="mqtt_ca_file" default="/home/robot/catkin_ws/ca.pem" />
+
+        <arg name="mqtt_listen_topic_remotecontrol" default="robot/aatest/rawcmd" />
+        <arg name="mqtt_listen_topic_destination" default="robot/aatest/cmd" />
+        <node name="MqttListener" pkg="hospital_carrier" exec="MqttListener" output="screen" respawn="false">
+            <param name="host" value="$(var mqtt_host)"/>
+            <param name="port" value="$(var mqtt_port)"/>
+            <param name="username" value="$(var mqtt_username)"/>
+            <param name="password" value="$(var mqtt_password)"/>
+            <param name="listen_topic_remotecontrol" value="$(var mqtt_listen_topic_remotecontrol)"/>
+            <param name="listen_topic_destination" value="$(var mqtt_listen_topic_destination)"/>
+            <param name="ca_file" value="$(var mqtt_ca_file)"/>
+        </node>
+
+        <node name="MqttRemoteControl" pkg="hospital_carrier" exec="MqttRemoteControl" output="screen" respawn="true">	    </node>
+
+        <!--
+
+        <node name="MqttVideoStreamer" pkg="hospital_carrier" exec="MqttVideoStreamer" output="screen" respawn="true">
+            <param name="host" value="$(var mqtt_host)"/>
+            <param name="port" value="$(var mqtt_port)"/>
+            <param name="username" value="$(var mqtt_username)"/>
+            <param name="password" value="$(var mqtt_password)"/>
+            <param name="produce_topic" value="$(var mqtt_video_stream_topic)"/>
+            <param name="ca_file" value="$(var mqtt_ca_file)"/>
+        </node> -->
+
+        <arg name="mqtt_odom_topic" default="odom" />
+        <arg name="mqtt_status_ready_topic" default="/robot/aatest/route/rc-ready" />
+        <arg name="mqtt_status_start_topic" default="/robot/aatest/route/start" />
+        <arg name="mqtt_status_finish_topic" default="/robot/aatest/route/finish" />
+        <node name="MqttOdomAndStatus" pkg="hospital_carrier" exec="MqttOdomAndStatus" output="screen" respawn="true">
+            <param name="host" value="$(var mqtt_host)"/>
+            <param name="port" value="$(var mqtt_port)"/>
+            <param name="username" value="$(var mqtt_username)"/>
+            <param name="password" value="$(var mqtt_password)"/>
+            <param name="odom_topic" value="$(var mqtt_odom_topic)"/>
+            <param name="ready_topic" value="$(var mqtt_status_ready_topic)"/>
+            <param name="start_topic" value="$(var mqtt_status_start_topic)"/>
+            <param name="finish_topic" value="$(var mqtt_status_finish_topic)"/>
+            <param name="ca_file" value="$(var mqtt_ca_file)"/>
+        </node>
+        
+
+
+
+
+	</group>
+
+</launch>
+

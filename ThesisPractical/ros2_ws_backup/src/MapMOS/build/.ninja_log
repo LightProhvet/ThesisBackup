@@ -1,0 +1,5 @@
+# ninja log v5
+0	2263	1704216141535902605	CMakeFiles/mapmos_pybind.dir/VoxelHashMap.cpp.o	1df928383cc6f4a4
+1	5274	1704216144547898656	CMakeFiles/mapmos_pybind.dir/Registration.cpp.o	1d90538007da8d1b
+0	5804	1704216145075897967	CMakeFiles/mapmos_pybind.dir/mapmos_pybind.cpp.o	1547bd7bddd8d4b1
+5804	11159	1704216150431891013	mapmos_pybind.cpython-310-x86_64-linux-gnu.so	c10c271c1d270b64

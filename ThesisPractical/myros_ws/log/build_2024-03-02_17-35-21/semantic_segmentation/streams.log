@@ -1,0 +1,28 @@
+[9.202s] Invoking command in '/home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation': PYTHONPATH=/home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/prefix_override:/home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build
+[11.094s] running develop
+[11.097s] /home/mihkel/.local/lib/python3.10/site-packages/setuptools/command/develop.py:39: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[11.097s] !!
+[11.097s] 
+[11.098s]         ********************************************************************************
+[11.098s]         Please avoid running ``setup.py`` and ``easy_install``.
+[11.099s]         Instead, use pypa/build, pypa/installer or other
+[11.099s]         standards-based tools.
+[11.100s] 
+[11.100s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[11.100s]         ********************************************************************************
+[11.101s] 
+[11.101s] !!
+[11.102s]   easy_install.initialize_options(self)
+[11.287s] /home/mihkel/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[11.287s] !!
+[11.287s] 
+[11.288s]         ********************************************************************************
+[11.288s]         Please avoid running ``setup.py`` directly.
+[11.289s]         Instead, use pypa/build, pypa/installer or other
+[11.289s]         standards-based tools.
+[11.289s] 
+[11.290s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[11.290s]         ********************************************************************************
+[11.291s] 
+[11.291s] !!
+[11.291s]   self.initialize_options()

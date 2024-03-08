@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robot_ros2_msgs/msg/IntList.msg
+// generated code does not contain a copyright notice
+
+
+module robot_ros2_msgs {
+  module msg {
+    struct IntList {
+      sequence<int32> data;
+    };
+  };
+};

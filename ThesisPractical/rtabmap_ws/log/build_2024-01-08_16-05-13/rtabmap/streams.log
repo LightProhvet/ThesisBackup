@@ -1,0 +1,178 @@
+[0.973s] Invoking command in '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap': CMAKE_PREFIX_PATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_ros:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_launch:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_examples:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_demos:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_viz:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_slam:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_util:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_rviz_plugins:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_python:/opt/ros/humble:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap
+[1.090s] -- MOBILE_BUILD=OFF
+[1.090s] [33mCMake Warning (dev) at CMakeLists.txt:88 (EXEC_PROGRAM):
+[1.091s]   Policy CMP0153 is not set: The exec_program command should not be called.
+[1.091s]   Run "cmake --help-policy CMP0153" for policy details.  Use the cmake_policy
+[1.091s]   command to set the policy and suppress this warning.
+[1.091s] 
+[1.091s]   Use execute_process() instead.
+[1.092s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.092s] [0m
+[1.163s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:146 (find_package):
+[1.163s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[1.164s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[1.164s]   cmake_policy command to set the policy and suppress this warning.
+[1.164s] 
+[1.165s]   CMake variable EIGEN_ROOT is set to:
+[1.165s] 
+[1.165s]     /usr/include/eigen3
+[1.166s] 
+[1.166s]   For compatibility, find_package is ignoring the variable, but code in a
+[1.166s]   .cmake module might still use it.
+[1.167s] Call Stack (most recent call first):
+[1.167s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:299 (find_eigen)
+[1.167s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[1.168s]   CMakeLists.txt:235 (FIND_PACKAGE)
+[1.168s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.168s] [0m
+[1.182s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.268s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.034s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.037s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:44 (find_package):
+[3.038s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[3.038s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[3.038s]   cmake_policy command to set the policy and suppress this warning.
+[3.039s] 
+[3.039s]   CMake variable FLANN_ROOT is set to:
+[3.039s] 
+[3.039s]     /usr
+[3.040s] 
+[3.040s]   For compatibility, find_package is ignoring the variable, but code in a
+[3.040s]   .cmake module might still use it.
+[3.040s] Call Stack (most recent call first):
+[3.040s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:256 (find_package)
+[3.041s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:301 (find_flann)
+[3.041s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[3.041s]   CMakeLists.txt:235 (FIND_PACKAGE)
+[3.041s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.042s] [0m
+[3.141s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[3.157s] -- Found Qhull version 8.0.2
+[7.160s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.482s] -- PCL definitions don't contain "-march=native", make sure all libraries using Eigen are also compiled without that flag to avoid some segmentation faults (with gdb referring to some Eigen functions).
+[8.521s] -- Found Sqlite3: /usr/include /usr/lib/x86_64-linux-gnu/libsqlite3.so
+[8.534s] -- Found OpenMP: /usr/lib/gcc/x86_64-linux-gnu/11/libgomp.so;/usr/lib/x86_64-linux-gnu/libpthread.a
+[8.535s] -- Add PCL_OMP to definitions
+[8.535s] -- Found OpenCV: /usr/include/opencv4
+[8.535s] -- Found PCL: /usr/include/pcl-1.12;/usr/include/eigen3;/usr/include;/usr/include/ni
+[8.536s] -- Found ZLIB: /usr/include
+[8.612s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[10.916s] -- VTK>=9 detected, will use VTK_QT_VERSION=5 for Qt version.
+[10.932s] -- VTK_RENDERING_BACKEND=
+[10.970s] -- Found Freenect: /usr/include
+[11.073s] -- Found OpenNI2: /usr/include/openni2
+[11.073s] -- Found DC1394: /usr/include/dc1394
+[11.086s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[11.094s] -- Found g2o (targets)
+[11.095s] -- g2o include dir: /opt/ros/humble/include
+[11.095s] -- Latest g2o factory version detected with shared ptr (factory file: /opt/ros/humble/include/g2o/core/factory.h).
+[11.185s] -- GTSAM include directory:  /opt/ros/humble/lib/cmake/GTSAM/../../../include
+[11.228s] -- FlyCapture2_INCLUDE_DIR=FlyCapture2_INCLUDE_DIR-NOTFOUND
+[11.229s] -- FlyCapture2_LIBRARY=FlyCapture2_LIBRARY-NOTFOUND
+[11.231s] -- Triclops_INCLUDE_DIR=Triclops_INCLUDE_DIR-NOTFOUND
+[11.231s] -- Triclops_LIBRARY=Triclops_LIBRARY-NOTFOUND
+[11.231s] -- FlyCaptureBridge_LIBRARY=FlyCaptureBridge_LIBRARY-NOTFOUND
+[11.255s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time 
+[11.280s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time chrono 
+[11.289s] -- Found libpointmatcher: /opt/ros/humble/include;/usr/include/eigen3
+[11.309s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time 
+[11.337s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time chrono timer serialization 
+[11.419s] -- Found RealSense2: 
+[11.457s] -- Found octomap 1.9.8: /opt/ros/humble/include
+[11.720s] -- Found grid_map_core 2.0.0: /opt/ros/humble/include;/usr/include/eigen3
+[11.730s] -- Architecture: x86_64
+[11.791s] -- Found Pthreads
+[12.084s] -- --------------------------------------------
+[12.085s] -- Info :
+[12.086s] --   RTAB-Map Version =     0.21.3
+[12.086s] --   CMAKE_VERSION =        3.28.1
+[12.087s] --   CMAKE_INSTALL_PREFIX = /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap
+[12.087s] --   CMAKE_BUILD_TYPE =     Release
+[12.088s] --   CMAKE_INSTALL_LIBDIR = lib
+[12.088s] --   BUILD_APP =            ON
+[12.088s] --   BUILD_TOOLS =          ON
+[12.089s] --   BUILD_EXAMPLES =       ON
+[12.089s] --   BUILD_SHARED_LIBS =    ON
+[12.089s] --   CMAKE_CXX_FLAGS =  -fmessage-length=0 -fopenmp -std=c++17
+[12.089s] --   FLANN_KDTREE_MEM_OPT = OFF
+[12.090s] --   PCL_DEFINITIONS = -DDISABLE_OPENNI2;-DDISABLE_PCAP;-DDISABLE_PNG
+[12.090s] --   PCL_VERSION = 1.12.1
+[12.090s] -- 
+[12.091s] -- Optional dependencies ('*' affects some default parameters) :
+[12.091s] --  *With OpenCV 4.5.4 xfeatures2d = NO, nonfree = NO (License: Apache 2)
+[12.091s] --   With Qt 5.15.3            = YES (License: Open Source or Commercial)
+[12.092s] --   With VTK 9.1              = YES (License: BSD)
+[12.092s] --   With external SQLite3     = YES (License: Public Domain)
+[12.092s] --   With ORB OcTree           = YES (License: GPLv3)
+[12.093s] --   With SupertPoint          = NO (WITH_TORCH=OFF)
+[12.093s] --   With Python3              = NO (WITH_PYTHON=OFF)
+[12.093s] --   With Madgwick             = YES (License: GPL)
+[12.094s] --   With FastCV               = NO (FastCV not found)
+[12.094s] --   With PDAL                 = NO (PDAL not found)
+[12.094s] -- 
+[12.095s] --  Solvers:
+[12.095s] --   With TORO                 = YES (License: Creative Commons [Attribution-NonCommercial-ShareAlike])
+[12.095s] --  *With g2o 1.0.0            = YES (License: BSD)
+[12.096s] --  *With GTSAM 4.2.0          = YES (License: BSD)
+[12.096s] --  *With Ceres                = NO (WITH_CERES=OFF)
+[12.096s] --   With MRPT                 = NO (MRPT not found)
+[12.097s] --   With VERTIGO              = YES (License: GPLv3)
+[12.097s] --   With cvsba                = NO (WITH_CVSBA=OFF)
+[12.097s] --  *With libpointmatcher 1.3.1 = YES (License: BSD)
+[12.097s] --   With CCCoreLib            = NO (WITH_CCCORELIB=OFF)
+[12.098s] --   With Open3D               = NO (WITH_OPEN3D=OFF)
+[12.098s] --   With OpenGV               = NO (OpenGV not found)
+[12.098s] -- 
+[12.099s] --  Reconstruction Approaches:
+[12.099s] --   With OctoMap 1.9.8        = YES (License: BSD)
+[12.099s] --   With GridMap 2.0.0        = YES (License: BSD)
+[12.100s] --   With CPUTSDF              = NO (WITH_CPUTSDF=OFF)
+[12.100s] --   With OpenChisel           = NO (WITH_OPENCHISEL=OFF)
+[12.100s] --   With AliceVision          = NO (WITH_ALICE_VISION=OFF)
+[12.101s] -- 
+[12.101s] --  Camera Drivers:
+[12.101s] --   With Freenect             = YES (License: Apache v2 and/or GPLv2)
+[12.102s] --   With OpenNI2              = YES (License: Apache v2)
+[12.102s] --   With Freenect2            = NO (libfreenect2 not found)
+[12.102s] --   With Kinect for Windows 2 = NO (Kinect for Windows 2 SDK not found)
+[12.103s] --   With Kinect for Azure     = NO (Kinect for Azure SDK not found)
+[12.103s] --   With dc1394               = YES (License: LGPL)
+[12.103s] --   With FlyCapture2/Triclops = NO (Point Grey SDK not found)
+[12.103s] --   With ZED                  = NO (ZED sdk and/or cuda not found)
+[12.104s] --   With ZEDOC                = NO (ZED Open Capture not found)
+[12.104s] --   With RealSense            = NO (librealsense not found)
+[12.104s] --   With RealSense2 2.54.1    = YES (License: Apache-2)
+[12.105s] --   With MyntEyeS             = NO (mynteye s sdk not found)
+[12.105s] --   With DepthAI              = NO (WITH_DEPTHAI=OFF)
+[12.105s] -- 
+[12.106s] --  Odometry Approaches:
+[12.106s] --   With loam_velodyne        = NO (WITH_LOAM=OFF)
+[12.106s] --   With floam                = NO (WITH_FLOAM=OFF)
+[12.107s] --   With libfovis             = NO (WITH_FOVIS=OFF)
+[12.107s] --   With libviso2             = NO (WITH_VISO2=OFF)
+[12.107s] --   With dvo_core             = NO (WITH_DVO=OFF)
+[12.108s] --   With okvis                = NO (WITH_OKVIS=OFF)
+[12.108s] --   With msckf_vio            = NO (WITH_MSCKF_VIO=OFF)
+[12.108s] --   With VINS-Fusion          = NO (WITH_VINS=OFF)
+[12.108s] --   With OpenVINS             = NO (WITH_OPENVINS=OFF)
+[12.109s] --   With ORB_SLAM             = NO (WITH_ORB_SLAM=OFF)
+[12.109s] -- Show all options with: cmake -LA | grep WITH_
+[12.109s] -- --------------------------------------------
+[12.110s] -- Configuring done (11.0s)
+[13.703s] -- Generating done (1.3s)
+[13.739s] -- Build files have been written to: /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap
+[13.855s] Invoked command in '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap' returned '0': CMAKE_PREFIX_PATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_ros:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_launch:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_examples:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_demos:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_viz:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_slam:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_util:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_rviz_plugins:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_python:/opt/ros/humble:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap
+[13.862s] Invoking command in '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap': CMAKE_PREFIX_PATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_ros:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_launch:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_examples:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_demos:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_viz:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_slam:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_util:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_rviz_plugins:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_python:/opt/ros/humble:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap -- -j12 -l12
+[14.074s] [  5%] Built target rtabmap_utilite
+[14.114s] [  6%] Built target res_tool
+[15.854s] [  6%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraFreenect.cpp.o[0m
+[15.899s] gmake[2]: *** No rule to make target '/usr/lib/x86_64-linux-gnu/libfreenect.so', needed by 'bin/librtabmap_core.so.0.21.3'.  Stop.
+[15.899s] gmake[2]: *** Waiting for unfinished jobs....
+[17.170s] [01m[K/home/mihkel/School/ThesisPractical/rtabmap_ws/src/rtabmap/corelib/src/camera/CameraFreenect.cpp:34:10:[m[K [01;31m[Kfatal error: [m[Klibfreenect.h: No such file or directory
+[17.170s]    34 | #include [01;31m[K<libfreenect.h>[m[K
+[17.171s]       |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[17.171s] compilation terminated.
+[17.184s] gmake[2]: *** [corelib/src/CMakeFiles/rtabmap_core.dir/build.make:258: corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraFreenect.cpp.o] Error 1
+[17.185s] gmake[1]: *** [CMakeFiles/Makefile2:861: corelib/src/CMakeFiles/rtabmap_core.dir/all] Error 2
+[17.186s] gmake: *** [Makefile:156: all] Error 2
+[17.207s] Invoked command in '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap' returned '2': CMAKE_PREFIX_PATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_ros:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_launch:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_examples:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_demos:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_viz:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_slam:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_odom:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_util:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_sync:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_rviz_plugins:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_python:/opt/ros/humble:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_msgs:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap -- -j12 -l12

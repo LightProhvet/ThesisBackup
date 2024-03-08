@@ -1,0 +1,14 @@
+{
+  "package_name": "dwb_msgs",
+  "non_idl_tuples": [
+    "/home/mihkel/School/ros-packages/nav2_ws/src/navigation2/nav2_dwb_controller/dwb_msgs:msg/CriticScore.msg",
+    "/home/mihkel/School/ros-packages/nav2_ws/src/navigation2/nav2_dwb_controller/dwb_msgs:msg/LocalPlanEvaluation.msg",
+    "/home/mihkel/School/ros-packages/nav2_ws/src/navigation2/nav2_dwb_controller/dwb_msgs:msg/Trajectory2D.msg",
+    "/home/mihkel/School/ros-packages/nav2_ws/src/navigation2/nav2_dwb_controller/dwb_msgs:msg/TrajectoryScore.msg",
+    "/home/mihkel/School/ros-packages/nav2_ws/src/navigation2/nav2_dwb_controller/dwb_msgs:srv/DebugLocalPlan.srv",
+    "/home/mihkel/School/ros-packages/nav2_ws/src/navigation2/nav2_dwb_controller/dwb_msgs:srv/GenerateTrajectory.srv",
+    "/home/mihkel/School/ros-packages/nav2_ws/src/navigation2/nav2_dwb_controller/dwb_msgs:srv/GenerateTwists.srv",
+    "/home/mihkel/School/ros-packages/nav2_ws/src/navigation2/nav2_dwb_controller/dwb_msgs:srv/GetCriticScore.srv",
+    "/home/mihkel/School/ros-packages/nav2_ws/src/navigation2/nav2_dwb_controller/dwb_msgs:srv/ScoreTrajectory.srv"
+  ]
+}

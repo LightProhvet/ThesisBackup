@@ -1,0 +1,495 @@
+[0.334s] Invoking command in '/home/mihkel/School/ros-packages/nav2_ws/build/nav2_behavior_tree': AMENT_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:/opt/ros/humble LD_LIBRARY_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bond/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/smclib/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/mihkel/.local/bin/cmake /home/mihkel/School/ros-packages/nav2_ws/src/navigation2/nav2_behavior_tree -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree
+[0.676s] -- The CXX compiler identification is GNU 11.4.0
+[0.757s] -- Detecting CXX compiler ABI info
+[1.011s] -- Detecting CXX compiler ABI info - done
+[1.092s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.094s] -- Detecting CXX compile features
+[1.097s] -- Detecting CXX compile features - done
+[1.114s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.447s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[5.695s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.822s] -- Found nav2_common: 1.1.12 (/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/share/nav2_common/cmake)
+[5.829s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[6.022s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.047s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.088s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.152s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.246s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.566s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.578s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.942s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.055s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.261s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.315s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.562s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.566s] -- Found Threads: TRUE  
+[8.324s] -- Found rclcpp_action: 16.0.7 (/opt/ros/humble/share/rclcpp_action/cmake)
+[8.801s] -- Found rclcpp_lifecycle: 16.0.7 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[9.018s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[9.253s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[9.651s] -- Found nav2_msgs: 1.1.12 (/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[10.825s] -- Found tf2_ros: 0.25.5 (/opt/ros/humble/share/tf2_ros/cmake)
+[11.948s] -- Found tf2_geometry_msgs: 0.25.5 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[12.006s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[12.011s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[12.012s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[12.055s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[12.144s] -- Found nav2_util: 1.1.12 (/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/share/nav2_util/cmake)
+[13.032s] -- Setting build type to Release as none was specified.
+[119.208s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[119.828s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[119.951s] -- The C compiler identification is GNU 11.4.0
+[119.992s] -- Detecting C compiler ABI info
+[120.164s] -- Detecting C compiler ABI info - done
+[120.202s] -- Check for working C compiler: /usr/bin/cc - skipped
+[120.203s] -- Detecting C compile features
+[120.205s] -- Detecting C compile features - done
+[233.941s] -- Added test 'copyright' to check source files copyright and LICENSE
+[233.970s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[234.018s] -- Configured cppcheck include dirs: /home/mihkel/School/ros-packages/nav2_ws/src/navigation2/nav2_behavior_tree/include
+[234.019s] -- Configured cppcheck exclude dirs and/or files: 
+[234.038s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[234.038s] -- Configured cpplint exclude dirs and/or files: 
+[234.047s] -- Added test 'lint_cmake' to check CMake code style
+[234.069s] -- Added test 'uncrustify' to check C / C++ code style
+[234.069s] -- Configured uncrustify additional arguments: 
+[234.073s] -- Added test 'xmllint' to check XML markup files
+[234.087s] -- Configuring done (233.7s)
+[241.844s] -- Generating done (5.8s)
+[241.879s] -- Build files have been written to: /home/mihkel/School/ros-packages/nav2_ws/build/nav2_behavior_tree
+[241.989s] Invoked command in '/home/mihkel/School/ros-packages/nav2_ws/build/nav2_behavior_tree' returned '0': AMENT_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:/opt/ros/humble LD_LIBRARY_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bond/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/smclib/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/mihkel/.local/bin/cmake /home/mihkel/School/ros-packages/nav2_ws/src/navigation2/nav2_behavior_tree -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree
+[242.003s] Invoking command in '/home/mihkel/School/ros-packages/nav2_ws/build/nav2_behavior_tree': AMENT_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:/opt/ros/humble LD_LIBRARY_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bond/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/smclib/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ros-packages/nav2_ws/build/nav2_behavior_tree -- -j12 -l12
+[242.205s] [  1%] [32mBuilding CXX object CMakeFiles/nav2_behavior_tree.dir/src/behavior_tree_engine.cpp.o[0m
+[242.205s] [  3%] [32mBuilding CXX object CMakeFiles/nav2_compute_path_to_pose_action_bt_node.dir/plugins/action/compute_path_to_pose_action.cpp.o[0m
+[242.207s] [  2%] [32mBuilding CXX object CMakeFiles/nav2_controller_cancel_bt_node.dir/plugins/action/controller_cancel_node.cpp.o[0m
+[242.207s] [  4%] [32mBuilding CXX object CMakeFiles/nav2_compute_path_through_poses_action_bt_node.dir/plugins/action/compute_path_through_poses_action.cpp.o[0m
+[242.209s] [  5%] [32mBuilding CXX object CMakeFiles/nav2_spin_cancel_bt_node.dir/plugins/action/spin_cancel_node.cpp.o[0m
+[242.209s] [  6%] [32mBuilding CXX object CMakeFiles/nav2_back_up_cancel_bt_node.dir/plugins/action/back_up_cancel_node.cpp.o[0m
+[242.211s] [  7%] [32mBuilding CXX object CMakeFiles/nav2_wait_cancel_bt_node.dir/plugins/action/wait_cancel_node.cpp.o[0m
+[242.212s] [  8%] [32mBuilding CXX object CMakeFiles/nav2_assisted_teleop_cancel_bt_node.dir/plugins/action/assisted_teleop_cancel_node.cpp.o[0m
+[242.228s] [  9%] [32mBuilding CXX object CMakeFiles/nav2_back_up_action_bt_node.dir/plugins/action/back_up_action.cpp.o[0m
+[242.231s] [ 10%] [32mBuilding CXX object CMakeFiles/nav2_drive_on_heading_cancel_bt_node.dir/plugins/action/drive_on_heading_cancel_node.cpp.o[0m
+[242.232s] [ 11%] [32mBuilding CXX object CMakeFiles/nav2_smooth_path_action_bt_node.dir/plugins/action/smooth_path_action.cpp.o[0m
+[242.235s] [ 12%] [32mBuilding CXX object CMakeFiles/nav2_follow_path_action_bt_node.dir/plugins/action/follow_path_action.cpp.o[0m
+[269.216s] [ 12%] [32m[1mLinking CXX shared library libnav2_behavior_tree.so[0m
+[271.100s] [ 12%] Built target nav2_behavior_tree
+[271.338s] [ 13%] [32mBuilding CXX object CMakeFiles/nav2_drive_on_heading_bt_node.dir/plugins/action/drive_on_heading_action.cpp.o[0m
+[277.781s] [ 13%] [32m[1mLinking CXX shared library libnav2_assisted_teleop_cancel_bt_node.so[0m
+[278.001s] [ 13%] [32m[1mLinking CXX shared library libnav2_controller_cancel_bt_node.so[0m
+[278.047s] [ 13%] [32m[1mLinking CXX shared library libnav2_back_up_cancel_bt_node.so[0m
+[279.042s] [ 13%] Built target nav2_assisted_teleop_cancel_bt_node
+[279.187s] [ 13%] Built target nav2_controller_cancel_bt_node
+[279.285s] [ 14%] [32mBuilding CXX object CMakeFiles/nav2_spin_action_bt_node.dir/plugins/action/spin_action.cpp.o[0m
+[279.414s] [ 15%] [32mBuilding CXX object CMakeFiles/nav2_wait_action_bt_node.dir/plugins/action/wait_action.cpp.o[0m
+[279.501s] [ 15%] [32m[1mLinking CXX shared library libnav2_spin_cancel_bt_node.so[0m
+[279.536s] [ 15%] Built target nav2_back_up_cancel_bt_node
+[279.646s] [ 16%] [32mBuilding CXX object CMakeFiles/nav2_assisted_teleop_action_bt_node.dir/plugins/action/assisted_teleop_action.cpp.o[0m
+[279.649s] [ 16%] [32m[1mLinking CXX shared library libnav2_wait_cancel_bt_node.so[0m
+[280.779s] [ 16%] Built target nav2_wait_cancel_bt_node
+[280.802s] [ 16%] Built target nav2_spin_cancel_bt_node
+[281.012s] [ 17%] [32mBuilding CXX object CMakeFiles/nav2_clear_costmap_service_bt_node.dir/plugins/action/clear_costmap_service.cpp.o[0m
+[281.180s] [ 18%] [32mBuilding CXX object CMakeFiles/nav2_is_stuck_condition_bt_node.dir/plugins/condition/is_stuck_condition.cpp.o[0m
+[281.640s] [ 18%] [32m[1mLinking CXX shared library libnav2_drive_on_heading_cancel_bt_node.so[0m
+[283.010s] [ 18%] Built target nav2_drive_on_heading_cancel_bt_node
+[283.232s] [ 19%] [32mBuilding CXX object CMakeFiles/nav2_transform_available_condition_bt_node.dir/plugins/condition/transform_available_condition.cpp.o[0m
+[287.786s] [ 19%] [32m[1mLinking CXX shared library libnav2_back_up_action_bt_node.so[0m
+[288.837s] [ 19%] Built target nav2_back_up_action_bt_node
+[289.000s] [ 20%] [32mBuilding CXX object CMakeFiles/nav2_goal_reached_condition_bt_node.dir/plugins/condition/goal_reached_condition.cpp.o[0m
+[289.754s] [ 20%] [32m[1mLinking CXX shared library libnav2_follow_path_action_bt_node.so[0m
+[290.300s] [ 20%] [32m[1mLinking CXX shared library libnav2_compute_path_to_pose_action_bt_node.so[0m
+[291.107s] [ 20%] Built target nav2_follow_path_action_bt_node
+[291.263s] [ 21%] [32mBuilding CXX object CMakeFiles/nav2_globally_updated_goal_condition_bt_node.dir/plugins/condition/globally_updated_goal_condition.cpp.o[0m
+[291.332s] [ 21%] Built target nav2_compute_path_to_pose_action_bt_node
+[291.492s] [ 22%] [32mBuilding CXX object CMakeFiles/nav2_goal_updated_condition_bt_node.dir/plugins/condition/goal_updated_condition.cpp.o[0m
+[292.233s] [ 22%] [32m[1mLinking CXX shared library libnav2_smooth_path_action_bt_node.so[0m
+[292.379s] [ 22%] [32m[1mLinking CXX shared library libnav2_compute_path_through_poses_action_bt_node.so[0m
+[293.356s] [ 22%] Built target nav2_smooth_path_action_bt_node
+[293.520s] [ 23%] [32mBuilding CXX object CMakeFiles/nav2_is_path_valid_condition_bt_node.dir/plugins/condition/is_path_valid_condition.cpp.o[0m
+[293.826s] [ 23%] Built target nav2_compute_path_through_poses_action_bt_node
+[293.991s] [ 24%] [32mBuilding CXX object CMakeFiles/nav2_time_expired_condition_bt_node.dir/plugins/condition/time_expired_condition.cpp.o[0m
+[306.220s] [ 24%] [32m[1mLinking CXX shared library libnav2_goal_updated_condition_bt_node.so[0m
+[307.156s] [ 24%] Built target nav2_goal_updated_condition_bt_node
+[314.535s] [ 24%] [32m[1mLinking CXX shared library libnav2_transform_available_condition_bt_node.so[0m
+[315.347s] [ 24%] Built target nav2_transform_available_condition_bt_node
+[317.871s] [ 24%] [32m[1mLinking CXX shared library libnav2_drive_on_heading_bt_node.so[0m
+[318.830s] [ 24%] Built target nav2_drive_on_heading_bt_node
+[319.471s] [ 24%] [32m[1mLinking CXX shared library libnav2_globally_updated_goal_condition_bt_node.so[0m
+[320.185s] [ 24%] Built target nav2_globally_updated_goal_condition_bt_node
+[320.955s] [ 24%] [32m[1mLinking CXX shared library libnav2_goal_reached_condition_bt_node.so[0m
+[321.618s] [ 24%] Built target nav2_goal_reached_condition_bt_node
+[321.677s] [ 24%] [32m[1mLinking CXX shared library libnav2_time_expired_condition_bt_node.so[0m
+[322.286s] [ 24%] Built target nav2_time_expired_condition_bt_node
+[322.485s] [ 24%] [32m[1mLinking CXX shared library libnav2_spin_action_bt_node.so[0m
+[323.077s] [ 24%] Built target nav2_spin_action_bt_node
+[323.490s] [ 24%] [32m[1mLinking CXX shared library libnav2_is_path_valid_condition_bt_node.so[0m
+[323.533s] [ 24%] [32m[1mLinking CXX shared library libnav2_wait_action_bt_node.so[0m
+[323.536s] [ 24%] [32m[1mLinking CXX shared library libnav2_assisted_teleop_action_bt_node.so[0m
+[324.067s] [ 24%] Built target nav2_is_path_valid_condition_bt_node
+[324.131s] [ 24%] Built target nav2_wait_action_bt_node
+[324.146s] [ 24%] Built target nav2_assisted_teleop_action_bt_node
+[325.729s] [ 24%] [32m[1mLinking CXX shared library libnav2_clear_costmap_service_bt_node.so[0m
+[326.274s] [ 24%] Built target nav2_clear_costmap_service_bt_node
+[330.318s] [ 26%] [32mBuilding CXX object CMakeFiles/nav2_speed_controller_bt_node.dir/plugins/decorator/speed_controller.cpp.o[0m
+[330.318s] [ 26%] [32mBuilding CXX object CMakeFiles/nav2_truncate_path_local_action_bt_node.dir/plugins/action/truncate_path_local_action.cpp.o[0m
+[330.319s] [ 27%] [32mBuilding CXX object CMakeFiles/nav2_distance_controller_bt_node.dir/plugins/decorator/distance_controller.cpp.o[0m
+[330.319s] [ 28%] [32mBuilding CXX object CMakeFiles/nav2_truncate_path_action_bt_node.dir/plugins/action/truncate_path_action.cpp.o[0m
+[331.346s] [ 29%] [32mBuilding CXX object CMakeFiles/nav2_is_battery_low_condition_bt_node.dir/plugins/condition/is_battery_low_condition.cpp.o[0m
+[331.350s] [ 30%] [32mBuilding CXX object CMakeFiles/nav2_reinitialize_global_localization_service_bt_node.dir/plugins/action/reinitialize_global_localization_service.cpp.o[0m
+[331.351s] [ 31%] [32mBuilding CXX object CMakeFiles/nav2_rate_controller_bt_node.dir/plugins/decorator/rate_controller.cpp.o[0m
+[332.392s] [ 32%] [32mBuilding CXX object CMakeFiles/nav2_distance_traveled_condition_bt_node.dir/plugins/condition/distance_traveled_condition.cpp.o[0m
+[332.404s] [ 33%] [32mBuilding CXX object CMakeFiles/nav2_is_battery_charging_condition_bt_node.dir/plugins/condition/is_battery_charging_condition.cpp.o[0m
+[332.405s] [ 34%] [32mBuilding CXX object CMakeFiles/nav2_initial_pose_received_condition_bt_node.dir/plugins/condition/initial_pose_received_condition.cpp.o[0m
+[333.556s] [ 35%] [32mBuilding CXX object CMakeFiles/nav2_path_expiring_timer_condition.dir/plugins/condition/path_expiring_timer_condition.cpp.o[0m
+[341.562s] [ 35%] [32m[1mLinking CXX shared library libnav2_is_stuck_condition_bt_node.so[0m
+[342.985s] [ 35%] Built target nav2_is_stuck_condition_bt_node
+[343.025s] [ 35%] [32m[1mLinking CXX shared library libnav2_initial_pose_received_condition_bt_node.so[0m
+[343.162s] [ 36%] [32mBuilding CXX object CMakeFiles/nav2_goal_updater_node_bt_node.dir/plugins/decorator/goal_updater_node.cpp.o[0m
+[343.484s] [ 36%] [32m[1mLinking CXX shared library libnav2_rate_controller_bt_node.so[0m
+[343.874s] [ 36%] Built target nav2_initial_pose_received_condition_bt_node
+[344.067s] [ 37%] [32mBuilding CXX object CMakeFiles/nav2_path_longer_on_approach_bt_node.dir/plugins/decorator/path_longer_on_approach.cpp.o[0m
+[344.781s] [ 37%] Built target nav2_rate_controller_bt_node
+[360.745s] [ 37%] [32m[1mLinking CXX shared library libnav2_truncate_path_action_bt_node.so[0m
+[362.644s] [ 37%] Built target nav2_truncate_path_action_bt_node
+[366.210s] [ 37%] [32m[1mLinking CXX shared library libnav2_distance_controller_bt_node.so[0m
+[366.678s] [ 37%] [32m[1mLinking CXX shared library libnav2_truncate_path_local_action_bt_node.so[0m
+[366.829s] [ 37%] [32m[1mLinking CXX shared library libnav2_reinitialize_global_localization_service_bt_node.so[0m
+[367.146s] [ 37%] [32m[1mLinking CXX shared library libnav2_speed_controller_bt_node.so[0m
+[367.179s] [ 37%] Built target nav2_distance_controller_bt_node
+[367.667s] [ 37%] Built target nav2_reinitialize_global_localization_service_bt_node
+[367.698s] [ 37%] Built target nav2_truncate_path_local_action_bt_node
+[367.715s] [ 37%] [32m[1mLinking CXX shared library libnav2_path_expiring_timer_condition.so[0m
+[367.924s] [ 37%] [32m[1mLinking CXX shared library libnav2_distance_traveled_condition_bt_node.so[0m
+[368.039s] [ 37%] Built target nav2_speed_controller_bt_node
+[368.332s] [ 37%] Built target nav2_path_expiring_timer_condition
+[368.590s] [ 37%] Built target nav2_distance_traveled_condition_bt_node
+[374.301s] [ 37%] [32m[1mLinking CXX shared library libnav2_path_longer_on_approach_bt_node.so[0m
+[374.785s] [ 37%] Built target nav2_path_longer_on_approach_bt_node
+[379.825s] [ 38%] [32mBuilding CXX object CMakeFiles/nav2_planner_selector_bt_node.dir/plugins/action/planner_selector_node.cpp.o[0m
+[379.829s] [ 39%] [32mBuilding CXX object CMakeFiles/nav2_single_trigger_bt_node.dir/plugins/decorator/single_trigger_node.cpp.o[0m
+[379.833s] [ 40%] [32mBuilding CXX object CMakeFiles/nav2_controller_selector_bt_node.dir/plugins/action/controller_selector_node.cpp.o[0m
+[380.876s] [ 42%] [32mBuilding CXX object CMakeFiles/nav2_round_robin_node_bt_node.dir/plugins/control/round_robin_node.cpp.o[0m
+[380.877s] [ 42%] [32mBuilding CXX object CMakeFiles/nav2_pipeline_sequence_bt_node.dir/plugins/control/pipeline_sequence.cpp.o[0m
+[380.908s] [ 43%] [32mBuilding CXX object CMakeFiles/nav2_remove_passed_goals_action_bt_node.dir/plugins/action/remove_passed_goals_action.cpp.o[0m
+[380.910s] [ 44%] [32mBuilding CXX object CMakeFiles/nav2_navigate_through_poses_action_bt_node.dir/plugins/action/navigate_through_poses_action.cpp.o[0m
+[381.979s] [ 45%] [32mBuilding CXX object CMakeFiles/nav2_navigate_to_pose_action_bt_node.dir/plugins/action/navigate_to_pose_action.cpp.o[0m
+[382.042s] [ 46%] [32mBuilding CXX object CMakeFiles/nav2_recovery_node_bt_node.dir/plugins/control/recovery_node.cpp.o[0m
+[389.372s] [ 46%] [32m[1mLinking CXX shared library libnav2_single_trigger_bt_node.so[0m
+[390.159s] [ 46%] Built target nav2_single_trigger_bt_node
+[390.233s] [ 46%] [32m[1mLinking CXX shared library libnav2_round_robin_node_bt_node.so[0m
+[391.030s] [ 46%] [32m[1mLinking CXX shared library libnav2_pipeline_sequence_bt_node.so[0m
+[391.137s] [ 46%] Built target nav2_round_robin_node_bt_node
+[391.934s] [ 46%] Built target nav2_pipeline_sequence_bt_node
+[394.865s] [ 46%] [32m[1mLinking CXX shared library libnav2_is_battery_charging_condition_bt_node.so[0m
+[396.077s] [ 46%] [32m[1mLinking CXX shared library libnav2_is_battery_low_condition_bt_node.so[0m
+[396.408s] [ 46%] Built target nav2_is_battery_charging_condition_bt_node
+[397.313s] [ 46%] Built target nav2_is_battery_low_condition_bt_node
+[397.321s] [ 46%] [32m[1mLinking CXX shared library libnav2_recovery_node_bt_node.so[0m
+[398.009s] [ 46%] Built target nav2_recovery_node_bt_node
+[404.131s] [ 46%] [32m[1mLinking CXX shared library libnav2_goal_updater_node_bt_node.so[0m
+[405.240s] [ 46%] Built target nav2_goal_updater_node_bt_node
+[410.475s] [ 46%] [32m[1mLinking CXX shared library libnav2_remove_passed_goals_action_bt_node.so[0m
+[411.124s] [ 46%] Built target nav2_remove_passed_goals_action_bt_node
+[411.158s] [ 46%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[415.706s] [ 46%] [32m[1mLinking CXX shared library libnav2_navigate_to_pose_action_bt_node.so[0m
+[416.676s] [ 46%] Built target nav2_navigate_to_pose_action_bt_node
+[416.722s] [ 47%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[416.740s] [ 48%] [32mBuilding CXX object CMakeFiles/nav2_goal_checker_selector_bt_node.dir/plugins/action/goal_checker_selector_node.cpp.o[0m
+[416.742s] [ 49%] [32mBuilding CXX object CMakeFiles/nav2_goal_updated_controller_bt_node.dir/plugins/decorator/goal_updated_controller.cpp.o[0m
+[417.552s] [ 49%] [32m[1mLinking CXX shared library libnav2_navigate_through_poses_action_bt_node.so[0m
+[418.620s] [ 49%] Built target nav2_navigate_through_poses_action_bt_node
+[418.744s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_smoother_selector_bt_node.dir/plugins/action/smoother_selector_node.cpp.o[0m
+[422.881s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[422.959s] [ 50%] Built target gtest_main
+[437.971s] [ 50%] [32m[1mLinking CXX shared library libnav2_controller_selector_bt_node.so[0m
+[439.081s] [ 50%] Built target nav2_controller_selector_bt_node
+[440.492s] [ 50%] [32m[1mLinking CXX shared library libnav2_goal_updated_controller_bt_node.so[0m
+[440.942s] [ 50%] Built target nav2_goal_updated_controller_bt_node
+[441.785s] [ 50%] [32m[1mLinking CXX shared library libnav2_planner_selector_bt_node.so[0m
+[442.532s] [ 50%] Built target nav2_planner_selector_bt_node
+[448.022s] [ 50%] [32m[1mLinking CXX static library libgtest.a[0m
+[448.097s] [ 50%] Built target gtest
+[448.139s] [ 50%] [32mBuilding CXX object test/CMakeFiles/test_bt_conversions.dir/test_bt_conversions.cpp.o[0m
+[448.148s] [ 50%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_time_expired.dir/test_time_expired.cpp.o[0m
+[448.148s] [ 50%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_distance_traveled.dir/test_distance_traveled.cpp.o[0m
+[449.181s] [ 50%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_is_stuck.dir/test_is_stuck.cpp.o[0m
+[449.226s] [ 50%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_transform_available.dir/test_transform_available.cpp.o[0m
+[450.224s] [ 50%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_globally_updated_goal.dir/test_globally_updated_goal.cpp.o[0m
+[450.263s] [ 50%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_initial_pose_received.dir/test_initial_pose_received.cpp.o[0m
+[451.396s] [ 50%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_goal_reached.dir/test_goal_reached.cpp.o[0m
+[451.416s] [ 50%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_goal_updated.dir/test_goal_updated.cpp.o[0m
+[452.536s] [ 50%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_path_expiring_timer.dir/test_path_expiring_timer.cpp.o[0m
+[473.735s] [ 50%] [32m[1mLinking CXX shared library libnav2_goal_checker_selector_bt_node.so[0m
+[474.306s] [ 51%] [32m[1mLinking CXX executable test_bt_conversions[0m
+[475.955s] [ 51%] Built target nav2_goal_checker_selector_bt_node
+[476.322s] [ 51%] Built target test_bt_conversions
+[479.383s] [ 51%] [32m[1mLinking CXX shared library libnav2_smoother_selector_bt_node.so[0m
+[480.551s] [ 51%] Built target nav2_smoother_selector_bt_node
+[490.830s] [ 52%] [32m[1mLinking CXX executable test_condition_distance_traveled[0m
+[490.886s] [ 53%] [32m[1mLinking CXX executable test_condition_time_expired[0m
+[491.025s] [ 54%] [32m[1mLinking CXX executable test_condition_initial_pose_received[0m
+[492.446s] [ 55%] [32m[1mLinking CXX executable test_condition_transform_available[0m
+[492.500s] [ 55%] Built target test_condition_distance_traveled
+[492.512s] [ 55%] Built target test_condition_initial_pose_received
+[492.833s] [ 55%] Built target test_condition_time_expired
+[493.196s] [ 56%] [32m[1mLinking CXX executable test_condition_globally_updated_goal[0m
+[493.621s] [ 56%] Built target test_condition_transform_available
+[494.483s] [ 56%] Built target test_condition_globally_updated_goal
+[494.780s] [ 57%] [32m[1mLinking CXX executable test_condition_goal_updated[0m
+[495.485s] [ 58%] [32m[1mLinking CXX executable test_condition_goal_reached[0m
+[495.555s] [ 59%] [32m[1mLinking CXX executable test_condition_path_expiring_timer[0m
+[495.589s] [ 59%] Built target test_condition_goal_updated
+[496.335s] [ 59%] Built target test_condition_goal_reached
+[496.453s] [ 59%] Built target test_condition_path_expiring_timer
+[497.265s] [ 60%] [32m[1mLinking CXX executable test_condition_is_stuck[0m
+[498.246s] [ 60%] Built target test_condition_is_stuck
+[498.295s] [ 60%] [32mBuilding CXX object test/plugins/control/CMakeFiles/test_control_recovery_node.dir/test_recovery_node.cpp.o[0m
+[500.308s] [ 60%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_decorator_path_longer_on_approach.dir/test_path_longer_on_approach.cpp.o[0m
+[500.308s] [ 60%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_updated_controller.cpp.o[0m
+[500.317s] [ 60%] [32mBuilding CXX object test/plugins/control/CMakeFiles/test_control_pipeline_sequence.dir/test_pipeline_sequence.cpp.o[0m
+[501.348s] [ 60%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_single_trigger_node.dir/test_single_trigger_node.cpp.o[0m
+[501.354s] [ 60%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_goal_updater_node.dir/test_goal_updater_node.cpp.o[0m
+[502.390s] [ 60%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_decorator_rate_controller.dir/test_rate_controller.cpp.o[0m
+[502.390s] [ 60%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_decorator_speed_controller.dir/test_speed_controller.cpp.o[0m
+[503.453s] [ 60%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_decorator_distance_controller.dir/test_distance_controller.cpp.o[0m
+[503.616s] [ 60%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_is_path_valid.dir/test_is_path_valid.cpp.o[0m
+[504.808s] [ 60%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_is_battery_low.dir/test_is_battery_low.cpp.o[0m
+[504.840s] [ 60%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_is_battery_charging.dir/test_is_battery_charging.cpp.o[0m
+[585.132s] [ 61%] [32m[1mLinking CXX executable test_decorator_path_longer_on_approach[0m
+[587.204s] [ 61%] Built target test_decorator_path_longer_on_approach
+[587.440s] [ 62%] [32m[1mLinking CXX executable test_control_recovery_node[0m
+[588.823s] [ 63%] [32m[1mLinking CXX executable test_control_pipeline_sequence[0m
+[589.247s] [ 63%] Built target test_control_recovery_node
+[590.215s] [ 63%] Built target test_control_pipeline_sequence
+[590.411s] [ 64%] [32m[1mLinking CXX executable test_decorator_rate_controller[0m
+[591.368s] [ 65%] [32m[1mLinking CXX executable test_single_trigger_node[0m
+[591.469s] [ 66%] [32m[1mLinking CXX executable test_goal_updated_controller[0m
+[591.622s] [ 66%] Built target test_decorator_rate_controller
+[591.710s] [ 67%] [32m[1mLinking CXX executable test_goal_updater_node[0m
+[592.605s] [ 68%] [32m[1mLinking CXX executable test_condition_is_path_valid[0m
+[592.677s] [ 68%] Built target test_single_trigger_node
+[592.877s] [ 68%] Built target test_goal_updated_controller
+[592.938s] [ 68%] Built target test_goal_updater_node
+[593.444s] [ 69%] [32m[1mLinking CXX executable test_decorator_distance_controller[0m
+[593.487s] [ 69%] Built target test_condition_is_path_valid
+[594.366s] [ 69%] Built target test_decorator_distance_controller
+[595.953s] [ 70%] [32m[1mLinking CXX executable test_condition_is_battery_low[0m
+[596.095s] [ 71%] [32m[1mLinking CXX executable test_condition_is_battery_charging[0m
+[596.461s] [ 72%] [32m[1mLinking CXX executable test_decorator_speed_controller[0m
+[596.744s] [ 72%] Built target test_condition_is_battery_low
+[596.884s] [ 72%] Built target test_condition_is_battery_charging
+[597.386s] [ 72%] Built target test_decorator_speed_controller
+[597.427s] [ 72%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_back_up_cancel_action.dir/test_back_up_cancel_node.cpp.o[0m
+[623.275s] [ 73%] [32m[1mLinking CXX executable test_action_back_up_cancel_action[0m
+[624.011s] [ 73%] Built target test_action_back_up_cancel_action
+[624.043s] [ 73%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_assisted_teleop_cancel_action.dir/test_assisted_teleop_cancel_node.cpp.o[0m
+[649.868s] [ 74%] [32m[1mLinking CXX executable test_action_assisted_teleop_cancel_action[0m
+[650.597s] [ 74%] Built target test_action_assisted_teleop_cancel_action
+[650.633s] [ 74%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_drive_on_heading_cancel_action.dir/test_drive_on_heading_cancel_node.cpp.o[0m
+[677.371s] [ 75%] [32m[1mLinking CXX executable test_action_drive_on_heading_cancel_action[0m
+[678.130s] [ 75%] Built target test_action_drive_on_heading_cancel_action
+[678.163s] [ 75%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_clear_costmap_service.dir/test_clear_costmap_service.cpp.o[0m
+[685.196s] [ 75%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_spin_cancel_action.dir/test_spin_cancel_node.cpp.o[0m
+[685.196s] [ 75%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_reinitialize_global_localization_service.dir/test_reinitialize_global_localization_service.cpp.o[0m
+[686.229s] [ 75%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_wait_cancel_action.dir/test_wait_cancel_node.cpp.o[0m
+[687.269s] [ 75%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_controller_cancel_action.dir/test_controller_cancel_node.cpp.o[0m
+[687.270s] [ 75%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_assisted_teleop_action.dir/test_assisted_teleop_action.cpp.o[0m
+[688.308s] [ 75%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_wait_action.dir/test_wait_action.cpp.o[0m
+[689.347s] [ 75%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_drive_on_heading.dir/test_drive_on_heading_action.cpp.o[0m
+[689.349s] [ 75%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_back_up_action.dir/test_back_up_action.cpp.o[0m
+[690.420s] [ 75%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_spin_action.dir/test_spin_action.cpp.o[0m
+[691.452s] [ 75%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_bt_action_node.dir/test_bt_action_node.cpp.o[0m
+[691.489s] [ 75%] [32mBuilding CXX object test/plugins/control/CMakeFiles/test_control_round_robin_node.dir/test_round_robin_node.cpp.o[0m
+[720.681s] [ 76%] [32m[1mLinking CXX executable test_action_reinitialize_global_localization_service[0m
+[721.981s] [ 76%] Built target test_action_reinitialize_global_localization_service
+[723.723s] [ 77%] [32m[1mLinking CXX executable test_action_clear_costmap_service[0m
+[725.152s] [ 77%] Built target test_action_clear_costmap_service
+[732.480s] [ 78%] [32m[1mLinking CXX executable test_action_wait_cancel_action[0m
+[732.541s] [ 79%] [32m[1mLinking CXX executable test_action_spin_cancel_action[0m
+[733.682s] [ 79%] Built target test_action_wait_cancel_action
+[733.812s] [ 79%] Built target test_action_spin_cancel_action
+[735.516s] [ 80%] [32m[1mLinking CXX executable test_action_spin_action[0m
+[736.140s] [ 81%] [32m[1mLinking CXX executable test_action_controller_cancel_action[0m
+[736.731s] [ 81%] Built target test_action_spin_action
+[736.803s] [ 82%] [32m[1mLinking CXX executable test_action_back_up_action[0m
+[737.080s] [ 83%] [32m[1mLinking CXX executable test_action_wait_action[0m
+[737.103s] [ 83%] Built target test_action_controller_cancel_action
+[737.256s] [ 84%] [32m[1mLinking CXX executable test_control_round_robin_node[0m
+[737.293s] [ 85%] [32m[1mLinking CXX executable test_action_assisted_teleop_action[0m
+[737.908s] [ 85%] Built target test_action_wait_action
+[737.954s] [ 85%] Built target test_action_back_up_action
+[738.094s] [ 86%] [32m[1mLinking CXX executable test_action_drive_on_heading[0m
+[738.127s] [ 86%] Built target test_action_assisted_teleop_action
+[738.454s] [ 86%] Built target test_control_round_robin_node
+[738.892s] [ 86%] Built target test_action_drive_on_heading
+[739.926s] [ 86%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_planner_selector_node.dir/test_planner_selector_node.cpp.o[0m
+[739.926s] [ 86%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_controller_selector_node.dir/test_controller_selector_node.cpp.o[0m
+[740.955s] [ 86%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_remove_passed_goals_action.dir/test_remove_passed_goals_action.cpp.o[0m
+[741.986s] [ 86%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_truncate_path_local_action.dir/test_truncate_path_local_action.cpp.o[0m
+[741.999s] [ 86%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_truncate_path_action.dir/test_truncate_path_action.cpp.o[0m
+[743.034s] [ 86%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_navigate_through_poses_action.dir/test_navigate_through_poses_action.cpp.o[0m
+[744.075s] [ 86%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_navigate_to_pose_action.dir/test_navigate_to_pose_action.cpp.o[0m
+[744.081s] [ 86%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_follow_path_action.dir/test_follow_path_action.cpp.o[0m
+[744.832s] [ 87%] [32m[1mLinking CXX executable test_bt_action_node[0m
+[745.196s] [ 87%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_smooth_path_action.dir/test_smooth_path_action.cpp.o[0m
+[746.117s] [ 87%] Built target test_bt_action_node
+[746.154s] [ 87%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_compute_path_through_poses_action.dir/test_compute_path_through_poses_action.cpp.o[0m
+[746.187s] [ 87%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_compute_path_to_pose_action.dir/test_compute_path_to_pose_action.cpp.o[0m
+[746.208s] [ 87%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_smoother_selector_node.dir/test_smoother_selector_node.cpp.o[0m
+[781.144s] [ 88%] [32m[1mLinking CXX executable test_truncate_path_action[0m
+[782.828s] [ 88%] Built target test_truncate_path_action
+[783.475s] [ 89%] [32m[1mLinking CXX executable test_planner_selector_node[0m
+[784.690s] [ 89%] Built target test_planner_selector_node
+[786.264s] [ 90%] [32m[1mLinking CXX executable test_controller_selector_node[0m
+[787.327s] [ 90%] Built target test_controller_selector_node
+[787.640s] [ 91%] [32m[1mLinking CXX executable test_remove_passed_goals_action[0m
+[789.137s] [ 91%] Built target test_remove_passed_goals_action
+[789.452s] [ 92%] [32m[1mLinking CXX executable test_action_navigate_to_pose_action[0m
+[789.839s] [ 93%] [32m[1mLinking CXX executable test_smoother_selector_node[0m
+[789.932s] [ 94%] [32m[1mLinking CXX executable test_action_navigate_through_poses_action[0m
+[790.285s] [ 94%] Built target test_action_navigate_to_pose_action
+[790.797s] [ 94%] Built target test_action_navigate_through_poses_action
+[791.055s] [ 94%] Built target test_smoother_selector_node
+[792.611s] [ 95%] [32m[1mLinking CXX executable test_action_smooth_path_action[0m
+[793.351s] [ 96%] [32m[1mLinking CXX executable test_action_follow_path_action[0m
+[793.363s] [ 96%] Built target test_action_smooth_path_action
+[794.114s] [ 96%] Built target test_action_follow_path_action
+[794.860s] [ 97%] [32m[1mLinking CXX executable test_action_compute_path_through_poses_action[0m
+[794.879s] [ 98%] [32m[1mLinking CXX executable test_action_compute_path_to_pose_action[0m
+[795.616s] [ 98%] Built target test_action_compute_path_through_poses_action
+[795.631s] [ 98%] Built target test_action_compute_path_to_pose_action
+[795.653s] [ 98%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_goal_checker_selector_node.dir/test_goal_checker_selector_node.cpp.o[0m
+[796.436s] [ 99%] [32m[1mLinking CXX executable test_truncate_path_local_action[0m
+[797.301s] [ 99%] Built target test_truncate_path_local_action
+[817.633s] [100%] [32m[1mLinking CXX executable test_goal_checker_selector_node[0m
+[818.221s] [100%] Built target test_goal_checker_selector_node
+[818.315s] Invoked command in '/home/mihkel/School/ros-packages/nav2_ws/build/nav2_behavior_tree' returned '0': AMENT_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:/opt/ros/humble LD_LIBRARY_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bond/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/smclib/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ros-packages/nav2_ws/build/nav2_behavior_tree -- -j12 -l12
+[818.796s] Invoking command in '/home/mihkel/School/ros-packages/nav2_ws/build/nav2_behavior_tree': AMENT_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:/opt/ros/humble LD_LIBRARY_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bond/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/smclib/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/mihkel/.local/bin/cmake --install /home/mihkel/School/ros-packages/nav2_ws/build/nav2_behavior_tree
+[818.887s] -- Install configuration: "Release"
+[818.889s] -- Execute custom install script
+[818.891s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_behavior_tree.so
+[818.898s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_compute_path_to_pose_action_bt_node.so
+[818.904s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_compute_path_through_poses_action_bt_node.so
+[818.911s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_controller_cancel_bt_node.so
+[818.917s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_wait_cancel_bt_node.so
+[818.923s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_spin_cancel_bt_node.so
+[818.929s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_back_up_cancel_bt_node.so
+[818.936s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_assisted_teleop_cancel_bt_node.so
+[818.942s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_drive_on_heading_cancel_bt_node.so
+[818.949s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_smooth_path_action_bt_node.so
+[818.955s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_follow_path_action_bt_node.so
+[818.962s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_back_up_action_bt_node.so
+[818.969s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_drive_on_heading_bt_node.so
+[818.976s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_spin_action_bt_node.so
+[818.983s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_wait_action_bt_node.so
+[818.989s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_assisted_teleop_action_bt_node.so
+[818.996s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_clear_costmap_service_bt_node.so
+[819.003s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_is_stuck_condition_bt_node.so
+[819.009s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_transform_available_condition_bt_node.so
+[819.015s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_goal_reached_condition_bt_node.so
+[819.022s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_globally_updated_goal_condition_bt_node.so
+[819.028s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_goal_updated_condition_bt_node.so
+[819.034s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_is_path_valid_condition_bt_node.so
+[819.041s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_time_expired_condition_bt_node.so
+[819.049s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_path_expiring_timer_condition.so
+[819.056s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_distance_traveled_condition_bt_node.so
+[819.062s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_initial_pose_received_condition_bt_node.so
+[819.069s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_is_battery_charging_condition_bt_node.so
+[819.076s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_is_battery_low_condition_bt_node.so
+[819.082s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_reinitialize_global_localization_service_bt_node.so
+[819.088s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_rate_controller_bt_node.so
+[819.094s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_distance_controller_bt_node.so
+[819.100s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_speed_controller_bt_node.so
+[819.107s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_truncate_path_action_bt_node.so
+[819.113s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_truncate_path_local_action_bt_node.so
+[819.119s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_goal_updater_node_bt_node.so
+[819.126s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_path_longer_on_approach_bt_node.so
+[819.132s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_recovery_node_bt_node.so
+[819.138s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_navigate_to_pose_action_bt_node.so
+[819.145s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_navigate_through_poses_action_bt_node.so
+[819.151s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_remove_passed_goals_action_bt_node.so
+[819.157s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_pipeline_sequence_bt_node.so
+[819.164s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_round_robin_node_bt_node.so
+[819.170s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_single_trigger_bt_node.so
+[819.176s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_planner_selector_bt_node.so
+[819.182s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_controller_selector_bt_node.so
+[819.189s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_smoother_selector_bt_node.so
+[819.195s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_goal_checker_selector_bt_node.so
+[819.202s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/lib/libnav2_goal_updated_controller_bt_node.so
+[819.219s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/behavior_tree_engine.hpp
+[819.225s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_node.hpp
+[819.232s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_server.hpp
+[819.238s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_server_impl.hpp
+[819.244s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_cancel_action_node.hpp
+[819.250s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_conversions.hpp
+[819.257s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_service_node.hpp
+[819.263s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/assisted_teleop_action.hpp
+[819.269s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/assisted_teleop_cancel_node.hpp
+[819.276s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/back_up_action.hpp
+[819.282s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/back_up_cancel_node.hpp
+[819.289s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/clear_costmap_service.hpp
+[819.295s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/compute_path_through_poses_action.hpp
+[819.302s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/compute_path_to_pose_action.hpp
+[819.309s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/controller_cancel_node.hpp
+[819.316s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/controller_selector_node.hpp
+[819.322s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/drive_on_heading_action.hpp
+[819.329s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/drive_on_heading_cancel_node.hpp
+[819.336s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/follow_path_action.hpp
+[819.343s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/goal_checker_selector_node.hpp
+[819.349s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/navigate_through_poses_action.hpp
+[819.357s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/navigate_to_pose_action.hpp
+[819.363s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/planner_selector_node.hpp
+[819.370s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/reinitialize_global_localization_service.hpp
+[819.376s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/remove_passed_goals_action.hpp
+[819.382s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/smooth_path_action.hpp
+[819.388s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/smoother_selector_node.hpp
+[819.394s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/spin_action.hpp
+[819.401s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/spin_cancel_node.hpp
+[819.407s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/truncate_path_action.hpp
+[819.414s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/truncate_path_local_action.hpp
+[819.420s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/wait_action.hpp
+[819.426s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/wait_cancel_node.hpp
+[819.433s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/distance_traveled_condition.hpp
+[819.439s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/globally_updated_goal_condition.hpp
+[819.445s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/goal_reached_condition.hpp
+[819.451s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/goal_updated_condition.hpp
+[819.458s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/initial_pose_received_condition.hpp
+[819.465s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_battery_charging_condition.hpp
+[819.471s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_battery_low_condition.hpp
+[819.478s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_path_valid_condition.hpp
+[819.485s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_stuck_condition.hpp
+[819.491s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/path_expiring_timer_condition.hpp
+[819.498s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/time_expired_condition.hpp
+[819.504s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/transform_available_condition.hpp
+[819.510s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/pipeline_sequence.hpp
+[819.517s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/recovery_node.hpp
+[819.523s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/round_robin_node.hpp
+[819.530s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/distance_controller.hpp
+[819.536s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/goal_updated_controller.hpp
+[819.542s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/goal_updater_node.hpp
+[819.548s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/path_longer_on_approach.hpp
+[819.554s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/rate_controller.hpp
+[819.560s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/single_trigger_node.hpp
+[819.566s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/speed_controller.hpp
+[819.572s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/ros_topic_logger.hpp
+[819.579s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/nav2_tree_nodes.xml
+[819.593s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/library_path.sh
+[819.600s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/library_path.dsv
+[819.607s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/share/ament_index/resource_index/package_run_dependencies/nav2_behavior_tree
+[819.613s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/share/ament_index/resource_index/parent_prefix_path/nav2_behavior_tree
+[819.620s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/ament_prefix_path.sh
+[819.626s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/ament_prefix_path.dsv
+[819.633s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/path.sh
+[819.639s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/path.dsv
+[819.645s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.bash
+[819.651s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.sh
+[819.658s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.zsh
+[819.664s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.dsv
+[819.670s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/package.dsv
+[819.677s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/share/ament_index/resource_index/packages/nav2_behavior_tree
+[819.683s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_include_directories-extras.cmake
+[819.690s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_libraries-extras.cmake
+[819.696s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_dependencies-extras.cmake
+[819.703s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeConfig.cmake
+[819.709s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeConfig-version.cmake
+[819.716s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/package.xml
+[819.739s] Invoked command in '/home/mihkel/School/ros-packages/nav2_ws/build/nav2_behavior_tree' returned '0': AMENT_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp:/home/mihkel/School/ros-packages/nav2_ws/install/smclib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common:/home/mihkel/School/ros-packages/nav2_ws/install/bond:/opt/ros/humble LD_LIBRARY_PATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_util/lib:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bondcpp/lib:/home/mihkel/School/ros-packages/nav2_ws/install/bond/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mihkel/School/ros-packages/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/smclib/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:/home/mihkel/School/ros-packages/nav2_ws/install/bond/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/mihkel/.local/bin/cmake --install /home/mihkel/School/ros-packages/nav2_ws/build/nav2_behavior_tree

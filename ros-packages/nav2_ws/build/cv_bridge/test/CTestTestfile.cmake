@@ -1,0 +1,9 @@
+# CMake generated Testfile for 
+# Source directory: /home/mihkel/School/ros-packages/nav2_ws/src/ros-perception/vision_opencv/cv_bridge/test
+# Build directory: /home/mihkel/School/ros-packages/nav2_ws/build/cv_bridge/test
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(cv_bridge-utest "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/mihkel/School/ros-packages/nav2_ws/build/cv_bridge/test_results/cv_bridge/cv_bridge-utest.gtest.xml" "--package-name" "cv_bridge" "--output-file" "/home/mihkel/School/ros-packages/nav2_ws/build/cv_bridge/ament_cmake_gtest/cv_bridge-utest.txt" "--append-env" "LD_LIBRARY_PATH=/home/mihkel/School/ros-packages/nav2_ws/build/cv_bridge/src" "--command" "/home/mihkel/School/ros-packages/nav2_ws/build/cv_bridge/test/cv_bridge-utest" "--gtest_output=xml:/home/mihkel/School/ros-packages/nav2_ws/build/cv_bridge/test_results/cv_bridge/cv_bridge-utest.gtest.xml")
+set_tests_properties(cv_bridge-utest PROPERTIES  LABELS "gtest" REQUIRED_FILES "/home/mihkel/School/ros-packages/nav2_ws/build/cv_bridge/test/cv_bridge-utest" TIMEOUT "60" WORKING_DIRECTORY "/home/mihkel/School/ros-packages/nav2_ws/build/cv_bridge/test" _BACKTRACE_TRIPLES "/opt/ros/humble/share/ament_cmake_test/cmake/ament_add_test.cmake;125;add_test;/opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_test.cmake;86;ament_add_test;/opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake;93;ament_add_gtest_test;/home/mihkel/School/ros-packages/nav2_ws/src/ros-perception/vision_opencv/cv_bridge/test/CMakeLists.txt;16;ament_add_gtest;/home/mihkel/School/ros-packages/nav2_ws/src/ros-perception/vision_opencv/cv_bridge/test/CMakeLists.txt;0;")
+subdirs("../gtest")

@@ -1,0 +1,16 @@
+[3.807s] Invoking command in '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap_python': PYTHONPATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap_python/prefix_override:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap_python/build --no-deps install_data
+[5.173s] running develop
+[6.009s] running egg_info
+[6.010s] writing rtabmap_python.egg-info/PKG-INFO
+[6.018s] writing dependency_links to rtabmap_python.egg-info/dependency_links.txt
+[6.018s] writing entry points to rtabmap_python.egg-info/entry_points.txt
+[6.019s] writing requirements to rtabmap_python.egg-info/requires.txt
+[6.020s] writing top-level names to rtabmap_python.egg-info/top_level.txt
+[6.026s] reading manifest file 'rtabmap_python.egg-info/SOURCES.txt'
+[6.029s] writing manifest file 'rtabmap_python.egg-info/SOURCES.txt'
+[6.033s] running build_ext
+[6.034s] Creating /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_python/lib/python3.10/site-packages/rtabmap-python.egg-link (link to .)
+[6.037s] 
+[6.038s] Installed /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap_python
+[6.038s] running install_data
+[6.132s] Invoked command in '/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap_python' returned '0': PYTHONPATH=/home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap_python/prefix_override:/home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mihkel/School/ThesisPractical/rtabmap_ws/build/rtabmap_python/build --no-deps install_data

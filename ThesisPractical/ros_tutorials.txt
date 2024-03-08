@@ -1,0 +1,26 @@
+NOT DONE:
+1) https://roboticsbackend.com/ros2-rclcpp-parameter-callback/
+2) https://docs.ros.org/en/rolling/Concepts.html 
+mingid on tegelikult tehtud sealt.
+3) Tutorialidest jäid siin pooleli:
+https://docs.ros.org/en/foxy/Tutorials/Beginner-Client-Libraries/Using-Parameters-In-A-Class-CPP.html
+
+4) Executor: https://docs.ros2.org/dashing/api/rclcpp/classrclcpp_1_1executor_1_1Executor.html
+
+
+DONE:
+1) Nav2: 
+https://navigation.ros.org/getting_started/index.html
+Aga sealt saab edasi minna... näiteks: 
+https://navigation.ros.org/concepts/index.html#action-server
+või 
+https://navigation.ros.org/setup_guides/transformation/setup_transforms.html
+
+JUST REFERENCE:
+
+1) Migration: https://docs.ros.org/en/foxy/The-ROS2-Project/Contributing/Migration-Guide.html
+
+2) timers: https://github.com/ros2/rclpy/blob/75c51c945d6029bea61571ced43c1d1b9c3c6703/rclpy/test/test_rate.py
+https://answers.ros.org/question/358343/rate-and-sleep-function-in-rclpy-library-for-ros2/
+
+3)

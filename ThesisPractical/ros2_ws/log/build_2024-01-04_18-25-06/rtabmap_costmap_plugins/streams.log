@@ -1,0 +1,32 @@
+[1.878s] Invoking command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/rtabmap_costmap_plugins': /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/ros2_ws/src/rtabmap_ros/rtabmap_costmap_plugins -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_costmap_plugins
+[2.345s] -- The C compiler identification is GNU 11.4.0
+[2.733s] -- The CXX compiler identification is GNU 11.4.0
+[2.807s] -- Detecting C compiler ABI info
+[3.092s] -- Detecting C compiler ABI info - done
+[3.166s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.168s] -- Detecting C compile features
+[3.169s] -- Detecting C compile features - done
+[3.204s] -- Detecting CXX compiler ABI info
+[3.522s] -- Detecting CXX compiler ABI info - done
+[3.571s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.576s] -- Detecting CXX compile features
+[3.579s] -- Detecting CXX compile features - done
+[3.642s] [31mCMake Error at CMakeLists.txt:8 (find_package):
+[3.643s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[3.645s]   asked CMake to find a package configuration file provided by "catkin", but
+[3.646s]   CMake did not find one.
+[3.648s] 
+[3.651s]   Could not find a package configuration file provided by "catkin" with any
+[3.651s]   of the following names:
+[3.652s] 
+[3.655s]     catkinConfig.cmake
+[3.655s]     catkin-config.cmake
+[3.657s] 
+[3.658s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[3.658s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[3.661s]   provides a separate development package or SDK, be sure it has been
+[3.668s]   installed.
+[3.669s] 
+[3.670s] [0m
+[3.673s] -- Configuring incomplete, errors occurred!
+[4.092s] Invoked command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/rtabmap_costmap_plugins' returned '1': /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/ros2_ws/src/rtabmap_ros/rtabmap_costmap_plugins -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/ros2_ws/install/rtabmap_costmap_plugins

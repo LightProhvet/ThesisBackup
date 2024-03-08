@@ -1,0 +1,152 @@
+[0.000000] (-) TimerEvent: {}
+[0.001935] (nav2_plugin_tutorial) JobQueued: {'identifier': 'nav2_plugin_tutorial', 'dependencies': OrderedDict()}
+[0.002824] (semantic_segmentation) JobQueued: {'identifier': 'semantic_segmentation', 'dependencies': OrderedDict()}
+[0.002958] (nav2_plugin_tutorial) JobStarted: {'identifier': 'nav2_plugin_tutorial'}
+[0.100463] (-) TimerEvent: {}
+[0.202882] (-) TimerEvent: {}
+[0.303408] (-) TimerEvent: {}
+[0.311603] (semantic_segmentation) JobStarted: {'identifier': 'semantic_segmentation'}
+[0.403942] (-) TimerEvent: {}
+[0.504799] (-) TimerEvent: {}
+[0.605456] (-) TimerEvent: {}
+[0.679420] (nav2_plugin_tutorial) JobProgress: {'identifier': 'nav2_plugin_tutorial', 'progress': 'cmake'}
+[0.683338] (nav2_plugin_tutorial) JobProgress: {'identifier': 'nav2_plugin_tutorial', 'progress': 'build'}
+[0.685572] (nav2_plugin_tutorial) Command: {'cmd': ['/home/mihkel/.local/bin/cmake', '--build', '/home/mihkel/School/ThesisPractical/myros_ws/build/nav2_plugin_tutorial', '--', '-j12', '-l12'], 'cwd': '/home/mihkel/School/ThesisPractical/myros_ws/build/nav2_plugin_tutorial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mihkel'), ('LC_TIME', 'et_EE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mihkel'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'et_EE.UTF-8'), ('SYSTEMD_EXEC_PID', '6726'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mihkel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mihkel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mihkel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mihkel-XPS-15-9500:@/tmp/.ICE-unix/3642,unix/mihkel-XPS-15-9500:/tmp/.ICE-unix/3642'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'et_EE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c5516963_d8e6_4a9f_980c_56b41d36b000'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'et_EE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UIYUG2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.126'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'et_EE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'et_EE.UTF-8'), ('LC_IDENTIFICATION', 'et_EE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mihkel/School/ThesisPractical/myros_ws/build/nav2_plugin_tutorial'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'et_EE.UTF-8'), ('LC_PAPER', 'et_EE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.705620] (-) TimerEvent: {}
+[0.806297] (-) TimerEvent: {}
+[0.906852] (-) TimerEvent: {}
+[0.957139] (nav2_plugin_tutorial) StdoutLine: {'line': b'[100%] Built target nav2_plugin_tutorial_core\n'}
+[1.007033] (-) TimerEvent: {}
+[1.107655] (-) TimerEvent: {}
+[1.208236] (-) TimerEvent: {}
+[1.308848] (-) TimerEvent: {}
+[1.409484] (-) TimerEvent: {}
+[1.510221] (-) TimerEvent: {}
+[1.611115] (-) TimerEvent: {}
+[1.711900] (-) TimerEvent: {}
+[1.812731] (-) TimerEvent: {}
+[1.913515] (-) TimerEvent: {}
+[2.014293] (-) TimerEvent: {}
+[2.115020] (-) TimerEvent: {}
+[2.215616] (-) TimerEvent: {}
+[2.316365] (-) TimerEvent: {}
+[2.417265] (-) TimerEvent: {}
+[2.518269] (-) TimerEvent: {}
+[2.619203] (-) TimerEvent: {}
+[2.720394] (-) TimerEvent: {}
+[2.821551] (-) TimerEvent: {}
+[2.923374] (-) TimerEvent: {}
+[3.024442] (-) TimerEvent: {}
+[3.076773] (nav2_plugin_tutorial) CommandEnded: {'returncode': 0}
+[3.124626] (-) TimerEvent: {}
+[3.225341] (-) TimerEvent: {}
+[3.251698] (nav2_plugin_tutorial) JobProgress: {'identifier': 'nav2_plugin_tutorial', 'progress': 'install'}
+[3.325538] (-) TimerEvent: {}
+[3.417481] (nav2_plugin_tutorial) Command: {'cmd': ['/home/mihkel/.local/bin/cmake', '--install', '/home/mihkel/School/ThesisPractical/myros_ws/build/nav2_plugin_tutorial'], 'cwd': '/home/mihkel/School/ThesisPractical/myros_ws/build/nav2_plugin_tutorial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mihkel'), ('LC_TIME', 'et_EE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mihkel'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'et_EE.UTF-8'), ('SYSTEMD_EXEC_PID', '6726'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mihkel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mihkel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mihkel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mihkel-XPS-15-9500:@/tmp/.ICE-unix/3642,unix/mihkel-XPS-15-9500:/tmp/.ICE-unix/3642'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'et_EE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c5516963_d8e6_4a9f_980c_56b41d36b000'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'et_EE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UIYUG2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.126'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'et_EE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'et_EE.UTF-8'), ('LC_IDENTIFICATION', 'et_EE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mihkel/School/ThesisPractical/myros_ws/build/nav2_plugin_tutorial'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'et_EE.UTF-8'), ('LC_PAPER', 'et_EE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.425702] (-) TimerEvent: {}
+[3.526457] (-) TimerEvent: {}
+[3.541147] (nav2_plugin_tutorial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.544377] (nav2_plugin_tutorial) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.546289] (nav2_plugin_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/lib/libnav2_plugin_tutorial_core.so\n'}
+[3.547442] (nav2_plugin_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/share/nav2_plugin_tutorial//tutorial_layer.xml\n'}
+[3.548684] (nav2_plugin_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/share/ament_index/resource_index/package_run_dependencies/nav2_plugin_tutorial\n'}
+[3.549716] (nav2_plugin_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/share/ament_index/resource_index/parent_prefix_path/nav2_plugin_tutorial\n'}
+[3.550698] (nav2_plugin_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/share/nav2_plugin_tutorial/environment/ament_prefix_path.sh\n'}
+[3.551611] (nav2_plugin_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/share/nav2_plugin_tutorial/environment/ament_prefix_path.dsv\n'}
+[3.552599] (nav2_plugin_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/share/nav2_plugin_tutorial/environment/path.sh\n'}
+[3.553480] (nav2_plugin_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/share/nav2_plugin_tutorial/environment/path.dsv\n'}
+[3.554228] (nav2_plugin_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/share/nav2_plugin_tutorial/local_setup.bash\n'}
+[3.554973] (nav2_plugin_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/share/nav2_plugin_tutorial/local_setup.sh\n'}
+[3.555822] (nav2_plugin_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/share/nav2_plugin_tutorial/local_setup.zsh\n'}
+[3.556627] (nav2_plugin_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/share/nav2_plugin_tutorial/local_setup.dsv\n'}
+[3.557294] (nav2_plugin_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/share/nav2_plugin_tutorial/package.dsv\n'}
+[3.567751] (nav2_plugin_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/share/ament_index/resource_index/packages/nav2_plugin_tutorial\n'}
+[3.568941] (nav2_plugin_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/nav2_plugin_tutorial\n'}
+[3.569888] (nav2_plugin_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/share/nav2_plugin_tutorial/cmake/nav2_plugin_tutorialConfig.cmake\n'}
+[3.570654] (nav2_plugin_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/share/nav2_plugin_tutorial/cmake/nav2_plugin_tutorialConfig-version.cmake\n'}
+[3.571518] (nav2_plugin_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mihkel/School/ThesisPractical/myros_ws/install/nav2_plugin_tutorial/share/nav2_plugin_tutorial/package.xml\n'}
+[3.599052] (nav2_plugin_tutorial) CommandEnded: {'returncode': 0}
+[3.627547] (-) TimerEvent: {}
+[3.729626] (-) TimerEvent: {}
+[3.832624] (-) TimerEvent: {}
+[3.933523] (-) TimerEvent: {}
+[4.035211] (-) TimerEvent: {}
+[4.136681] (-) TimerEvent: {}
+[4.240121] (-) TimerEvent: {}
+[4.341209] (-) TimerEvent: {}
+[4.442664] (-) TimerEvent: {}
+[4.543707] (-) TimerEvent: {}
+[4.645323] (-) TimerEvent: {}
+[4.747572] (-) TimerEvent: {}
+[4.849008] (-) TimerEvent: {}
+[4.950125] (-) TimerEvent: {}
+[5.051231] (-) TimerEvent: {}
+[5.083518] (nav2_plugin_tutorial) JobEnded: {'identifier': 'nav2_plugin_tutorial', 'rc': 0}
+[5.151431] (-) TimerEvent: {}
+[5.252251] (-) TimerEvent: {}
+[5.352974] (-) TimerEvent: {}
+[5.453705] (-) TimerEvent: {}
+[5.554424] (-) TimerEvent: {}
+[5.655146] (-) TimerEvent: {}
+[5.755837] (-) TimerEvent: {}
+[5.856550] (-) TimerEvent: {}
+[5.957229] (-) TimerEvent: {}
+[5.983200] (semantic_segmentation) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/build', '--no-deps', 'install_data'], 'cwd': '/home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mihkel', 'LC_TIME': 'et_EE.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/mihkel', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'et_EE.UTF-8', 'SYSTEMD_EXEC_PID': '6726', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mihkel', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mihkel', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/mihkel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mihkel-XPS-15-9500:@/tmp/.ICE-unix/3642,unix/mihkel-XPS-15-9500:/tmp/.ICE-unix/3642', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'et_EE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c5516963_d8e6_4a9f_980c_56b41d36b000', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'et_EE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.UIYUG2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.126', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'et_EE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'et_EE.UTF-8', 'LC_IDENTIFICATION': 'et_EE.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation/prefix_override:/home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'et_EE.UTF-8', 'LC_PAPER': 'et_EE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[6.057414] (-) TimerEvent: {}
+[6.158121] (-) TimerEvent: {}
+[6.258715] (-) TimerEvent: {}
+[6.359456] (-) TimerEvent: {}
+[6.460084] (-) TimerEvent: {}
+[6.560690] (-) TimerEvent: {}
+[6.661271] (-) TimerEvent: {}
+[6.761875] (-) TimerEvent: {}
+[6.862452] (-) TimerEvent: {}
+[6.963060] (-) TimerEvent: {}
+[7.063673] (-) TimerEvent: {}
+[7.164370] (-) TimerEvent: {}
+[7.265026] (-) TimerEvent: {}
+[7.365767] (-) TimerEvent: {}
+[7.466486] (-) TimerEvent: {}
+[7.567167] (-) TimerEvent: {}
+[7.667861] (-) TimerEvent: {}
+[7.768562] (-) TimerEvent: {}
+[7.869304] (-) TimerEvent: {}
+[7.949760] (semantic_segmentation) StdoutLine: {'line': b'running develop\n'}
+[7.969498] (-) TimerEvent: {}
+[8.070306] (-) TimerEvent: {}
+[8.171012] (-) TimerEvent: {}
+[8.271739] (-) TimerEvent: {}
+[8.372703] (-) TimerEvent: {}
+[8.473404] (-) TimerEvent: {}
+[8.574129] (-) TimerEvent: {}
+[8.674870] (-) TimerEvent: {}
+[8.776589] (-) TimerEvent: {}
+[8.877336] (-) TimerEvent: {}
+[8.978092] (-) TimerEvent: {}
+[9.078774] (-) TimerEvent: {}
+[9.179357] (-) TimerEvent: {}
+[9.208795] (semantic_segmentation) StdoutLine: {'line': b'running egg_info\n'}
+[9.210051] (semantic_segmentation) StdoutLine: {'line': b'writing semantic_segmentation.egg-info/PKG-INFO\n'}
+[9.211038] (semantic_segmentation) StdoutLine: {'line': b'writing dependency_links to semantic_segmentation.egg-info/dependency_links.txt\n'}
+[9.211751] (semantic_segmentation) StdoutLine: {'line': b'writing entry points to semantic_segmentation.egg-info/entry_points.txt\n'}
+[9.212543] (semantic_segmentation) StdoutLine: {'line': b'writing requirements to semantic_segmentation.egg-info/requires.txt\n'}
+[9.213164] (semantic_segmentation) StdoutLine: {'line': b'writing top-level names to semantic_segmentation.egg-info/top_level.txt\n'}
+[9.227101] (semantic_segmentation) StdoutLine: {'line': b"reading manifest file 'semantic_segmentation.egg-info/SOURCES.txt'\n"}
+[9.232442] (semantic_segmentation) StdoutLine: {'line': b"writing manifest file 'semantic_segmentation.egg-info/SOURCES.txt'\n"}
+[9.279698] (-) TimerEvent: {}
+[9.380605] (-) TimerEvent: {}
+[9.438983] (semantic_segmentation) StdoutLine: {'line': b'running build_ext\n'}
+[9.440004] (semantic_segmentation) StdoutLine: {'line': b'Creating /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/python3.10/site-packages/semantic-segmentation.egg-link (link to .)\n'}
+[9.443030] (semantic_segmentation) StdoutLine: {'line': b'Installing segmentation script to /home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/lib/semantic_segmentation\n'}
+[9.444231] (semantic_segmentation) StdoutLine: {'line': b'\n'}
+[9.444993] (semantic_segmentation) StdoutLine: {'line': b'Installed /home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation\n'}
+[9.445355] (semantic_segmentation) StdoutLine: {'line': b'running install_data\n'}
+[9.481031] (-) TimerEvent: {}
+[9.581813] (-) TimerEvent: {}
+[9.614262] (semantic_segmentation) CommandEnded: {'returncode': 0}
+[9.682318] (-) TimerEvent: {}
+[9.783126] (-) TimerEvent: {}
+[9.883922] (-) TimerEvent: {}
+[9.985796] (-) TimerEvent: {}
+[10.021052] (semantic_segmentation) JobEnded: {'identifier': 'semantic_segmentation', 'rc': 0}
+[10.022937] (-) EventReactorShutdown: {}

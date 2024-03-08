@@ -1,0 +1,2 @@
+Invoking command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/tsl-robin-map': /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ThesisPractical/ros2_ws/build/tsl-robin-map -- -j12 -l12
+Invoked command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/tsl-robin-map' returned '0': /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ThesisPractical/ros2_ws/build/tsl-robin-map -- -j12 -l12

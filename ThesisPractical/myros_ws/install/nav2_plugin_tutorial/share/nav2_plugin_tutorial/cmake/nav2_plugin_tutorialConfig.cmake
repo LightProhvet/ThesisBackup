@@ -1,0 +1,1 @@
+/home/mihkel/School/ThesisPractical/myros_ws/build/nav2_plugin_tutorial/ament_cmake_core/nav2_plugin_tutorialConfig.cmake

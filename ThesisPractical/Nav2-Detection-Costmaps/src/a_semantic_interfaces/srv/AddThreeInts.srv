@@ -1,0 +1,6 @@
+std_msgs/Header header
+nav_msgs/OccupancyGrid old_semantic_cost_map
+---
+float32[] semantic_data
+nav_msgs/OccupancyGrid semantic_cost_map  # https://github.com/ros2/common_interfaces/blob/rolling/nav_msgs/msg/OccupancyGrid.msg
+bool success

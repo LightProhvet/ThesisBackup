@@ -1,0 +1,16 @@
+[  3%] [32mBuilding CXX object test/core/CMakeFiles/test_cartesian2.dir/test_cartesian2.cpp.o[0m
+[  7%] [32mBuilding CXX object test/core/CMakeFiles/test_so2.dir/test_so2.cpp.o[0m
+[ 14%] [32mBuilding CXX object test/core/CMakeFiles/test_rxso2.dir/test_rxso2.cpp.o[0m
+[ 14%] [32mBuilding CXX object test/core/CMakeFiles/test_sim2.dir/test_sim2.cpp.o[0m
+[ 17%] [32mBuilding CXX object test/core/CMakeFiles/test_se2.dir/test_se2.cpp.o[0m
+[ 21%] [32mBuilding CXX object test/core/CMakeFiles/test_cartesian3.dir/test_cartesian3.cpp.o[0m
+[ 25%] [32mBuilding CXX object test/core/CMakeFiles/test_so3.dir/test_so3.cpp.o[0m
+[ 32%] Built target test_common
+[ 35%] [32mBuilding CXX object test/core/CMakeFiles/test_se3.dir/test_se3.cpp.o[0m
+[ 39%] [32mBuilding CXX object test/core/CMakeFiles/test_rxso3.dir/test_rxso3.cpp.o[0m
+[ 50%] [32mBuilding CXX object test/core/CMakeFiles/test_sim3.dir/test_sim3.cpp.o[0m
+[ 50%] Built target test_velocities
+[ 53%] [32mBuilding CXX object test/core/CMakeFiles/test_geometry.dir/test_geometry.cpp.o[0m
+[ 57%] [32mBuilding CXX object examples/CMakeFiles/HelloSO3.dir/HelloSO3.cpp.o[0m
+[ 60%] [32m[1mLinking CXX executable HelloSO3[0m
+[ 60%] Built target HelloSO3

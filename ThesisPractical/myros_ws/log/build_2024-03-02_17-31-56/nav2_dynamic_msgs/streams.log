@@ -1,0 +1,84 @@
+[1.653s] Invoking command in '/home/mihkel/School/ThesisPractical/myros_ws/build/nav2_dynamic_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/myros_ws/src/navigation2_dynamic/nav2_dynamic_msgs -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs
+[5.533s] -- The C compiler identification is GNU 11.4.0
+[5.534s] -- The CXX compiler identification is GNU 11.4.0
+[5.535s] -- Detecting C compiler ABI info
+[5.535s] -- Detecting C compiler ABI info - done
+[5.537s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.538s] -- Detecting C compile features
+[5.538s] -- Detecting C compile features - done
+[5.538s] -- Detecting CXX compiler ABI info
+[5.538s] -- Detecting CXX compiler ABI info - done
+[5.539s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.539s] -- Detecting CXX compile features
+[5.539s] -- Detecting CXX compile features - done
+[5.540s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.794s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[7.234s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[7.501s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[7.528s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.572s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.648s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.751s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.122s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.136s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.558s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.685s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.938s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.994s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.203s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.207s] -- Found Threads: TRUE  
+[10.031s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[10.080s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[10.712s] -- Found unique_identifier_msgs: 2.2.1 (/opt/ros/humble/share/unique_identifier_msgs/cmake)
+[12.915s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[17.324s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[19.102s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[19.118s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[19.118s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[19.118s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[19.119s]   the cmake_policy command to set the policy and suppress this warning.
+[19.119s] 
+[19.119s] Call Stack (most recent call first):
+[19.119s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[19.120s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[19.120s]   CMakeLists.txt:30 (rosidl_generate_interfaces)
+[19.120s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[19.120s] [0m
+[19.227s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[19.242s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[19.244s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[19.244s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[19.244s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[19.244s]   the cmake_policy command to set the policy and suppress this warning.
+[19.245s] 
+[19.245s] Call Stack (most recent call first):
+[19.245s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[19.245s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[19.246s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[19.246s]   CMakeLists.txt:30 (rosidl_generate_interfaces)
+[19.246s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[19.246s] [0m
+[19.352s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[19.352s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[19.352s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[19.353s]   the cmake_policy command to set the policy and suppress this warning.
+[19.353s] 
+[19.353s] Call Stack (most recent call first):
+[19.354s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[19.354s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[19.355s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[19.355s]   CMakeLists.txt:30 (rosidl_generate_interfaces)
+[19.356s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[19.356s] [0m
+[19.378s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[19.379s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[19.379s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[19.379s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[19.489s] -- Found PythonExtra: .so  
+[19.906s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[20.003s] -- Added test 'copyright' to check source files copyright and LICENSE
+[20.009s] -- Added test 'lint_cmake' to check CMake code style
+[20.014s] -- Added test 'xmllint' to check XML markup files
+[20.025s] -- Configuring done (18.3s)
+[20.207s] -- Generating done (0.1s)
+[20.219s] -- Build files have been written to: /home/mihkel/School/ThesisPractical/myros_ws/build/nav2_dynamic_msgs

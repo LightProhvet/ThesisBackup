@@ -1,0 +1,5 @@
+[0.323s] Invoking command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/tessil-populate': /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/build/_deps/tessil-subbuild -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/ros2_ws/install/tessil-populate
+[0.723s] -- Configuring done (0.1s)
+[0.724s] -- Generating done (0.0s)
+[0.724s] -- Build files have been written to: /home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/build/_deps/tessil-subbuild
+[0.749s] Invoked command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/tessil-populate' returned '0': /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/build/_deps/tessil-subbuild -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/ros2_ws/install/tessil-populate

@@ -1,0 +1,15 @@
+general segmentation for ros: 
+https://github.com/dheera/ros-semantic-segmentation
+
+rudimentary segmentation layer for costmap:
+https://github.com/NVIDIA-AI-IOT/deep_nav_layers/wiki/Segmentation-Layer
+(it was referenced here: https://answers.ros.org/question/332477/how-should-i-add-semantic-segmentation-data-to-my-costmap/)
+
+
+
+
+lihtsalt ägedad asjad:
+topicute visualiseerimine terminalis: 
+https://github.com/dheera/rosshow
+punktipilvede visualiseerimine(vist ei tööta enam)
+https://github.com/heremaps/pptk

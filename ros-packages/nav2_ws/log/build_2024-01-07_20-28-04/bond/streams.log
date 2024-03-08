@@ -1,0 +1,137 @@
+[1.357s] Invoking command in '/home/mihkel/School/ros-packages/nav2_ws/build/bond': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake /home/mihkel/School/ros-packages/nav2_ws/src/ros/bond_core/bond -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ros-packages/nav2_ws/install/bond
+[1.633s] -- The C compiler identification is GNU 11.4.0
+[1.850s] -- The CXX compiler identification is GNU 11.4.0
+[1.900s] -- Detecting C compiler ABI info
+[2.088s] -- Detecting C compiler ABI info - done
+[2.129s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.130s] -- Detecting C compile features
+[2.132s] -- Detecting C compile features - done
+[2.166s] -- Detecting CXX compiler ABI info
+[2.393s] -- Detecting CXX compiler ABI info - done
+[2.447s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.448s] -- Detecting CXX compile features
+[2.449s] -- Detecting CXX compile features - done
+[2.457s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[8.776s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[9.377s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[9.640s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[9.978s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[10.017s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[10.118s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[10.293s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.509s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.763s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[10.923s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[17.100s] -- Found ament_cmake_cppcheck: 0.12.9 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[17.122s] -- Found ament_cmake_cpplint: 0.12.9 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[17.143s] -- Found ament_cmake_uncrustify: 0.12.9 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[17.177s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[29.824s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[34.487s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[34.542s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[34.543s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[34.543s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[34.544s]   the cmake_policy command to set the policy and suppress this warning.
+[34.544s] 
+[34.544s] Call Stack (most recent call first):
+[34.545s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[34.545s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[34.546s]   CMakeLists.txt:18 (rosidl_generate_interfaces)
+[34.546s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[34.547s] [0m
+[34.807s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[34.835s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[34.839s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[34.840s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[34.841s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[34.842s]   the cmake_policy command to set the policy and suppress this warning.
+[34.842s] 
+[34.843s] Call Stack (most recent call first):
+[34.844s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[34.848s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[34.849s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[34.849s]   CMakeLists.txt:18 (rosidl_generate_interfaces)
+[34.850s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[34.850s] [0m
+[35.170s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[35.170s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[35.171s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[35.172s]   the cmake_policy command to set the policy and suppress this warning.
+[35.173s] 
+[35.173s] Call Stack (most recent call first):
+[35.174s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[35.175s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[35.176s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[35.176s]   CMakeLists.txt:18 (rosidl_generate_interfaces)
+[35.177s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[35.178s] [0m
+[35.238s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[35.240s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[35.241s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[35.241s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[35.740s] -- Found PythonExtra: .so  
+[36.714s] -- Found ament_cmake_flake8: 0.12.9 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[36.754s] -- Found ament_cmake_pep257: 0.12.9 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[36.791s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[37.015s] -- Added test 'copyright' to check source files copyright and LICENSE
+[37.020s] -- Added test 'lint_cmake' to check CMake code style
+[37.024s] -- Added test 'xmllint' to check XML markup files
+[37.063s] -- Configuring done (35.6s)
+[37.562s] -- Generating done (0.4s)
+[37.610s] -- Build files have been written to: /home/mihkel/School/ros-packages/nav2_ws/build/bond
+[37.716s] Invoked command in '/home/mihkel/School/ros-packages/nav2_ws/build/bond' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake /home/mihkel/School/ros-packages/nav2_ws/src/ros/bond_core/bond -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ros-packages/nav2_ws/install/bond
+[37.719s] Invoking command in '/home/mihkel/School/ros-packages/nav2_ws/build/bond': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ros-packages/nav2_ws/build/bond -- -j12 -l12
+[38.244s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[38.322s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[38.387s] [  5%] Built target ament_cmake_python_symlink_bond
+[42.423s] [  5%] Built target bond__cpp
+[42.497s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[42.505s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[42.507s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[42.593s] running egg_info
+[42.610s] creating bond.egg-info
+[42.612s] writing bond.egg-info/PKG-INFO
+[42.614s] writing dependency_links to bond.egg-info/dependency_links.txt
+[42.620s] writing top-level names to bond.egg-info/top_level.txt
+[42.622s] writing manifest file 'bond.egg-info/SOURCES.txt'
+[42.643s] reading manifest file 'bond.egg-info/SOURCES.txt'
+[42.648s] writing manifest file 'bond.egg-info/SOURCES.txt'
+[42.910s] [ 12%] Built target ament_cmake_python_build_bond_egg
+[43.291s] [ 15%] [32mBuilding C object CMakeFiles/bond__rosidl_generator_c.dir/rosidl_generator_c/bond/msg/detail/constants__functions.c.o[0m
+[43.327s] [ 17%] [32mBuilding C object CMakeFiles/bond__rosidl_generator_c.dir/rosidl_generator_c/bond/msg/detail/status__functions.c.o[0m
+[43.862s] [ 20%] [32m[1mLinking C shared library libbond__rosidl_generator_c.so[0m
+[44.191s] [ 20%] Built target bond__rosidl_generator_c
+[44.278s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[46.057s] [ 25%] [32mBuilding CXX object CMakeFiles/bond__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bond/msg/detail/dds_fastrtps/constants__type_support.cpp.o[0m
+[46.081s] [ 28%] [32mBuilding CXX object CMakeFiles/bond__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bond/msg/detail/dds_fastrtps/status__type_support.cpp.o[0m
+[46.506s] [ 30%] [32mBuilding CXX object CMakeFiles/bond__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bond/msg/detail/constants__type_support.cpp.o[0m
+[46.520s] [ 33%] [32mBuilding CXX object CMakeFiles/bond__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bond/msg/detail/status__type_support.cpp.o[0m
+[46.779s] [ 35%] [32mBuilding CXX object CMakeFiles/bond__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bond/msg/constants__type_support.cpp.o[0m
+[46.850s] [ 38%] [32mBuilding CXX object CMakeFiles/bond__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bond/msg/status__type_support.cpp.o[0m
+[48.724s] [ 41%] [32mBuilding CXX object CMakeFiles/bond__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bond/msg/detail/constants__type_support_c.cpp.o[0m
+[50.481s] [ 43%] [32m[1mLinking CXX shared library libbond__rosidl_typesupport_cpp.so[0m
+[50.775s] [ 46%] [32m[1mLinking CXX shared library libbond__rosidl_typesupport_introspection_cpp.so[0m
+[50.855s] [ 46%] Built target bond__rosidl_typesupport_cpp
+[51.386s] [ 46%] Built target bond__rosidl_typesupport_introspection_cpp
+[51.687s] [ 48%] [32m[1mLinking CXX shared library libbond__rosidl_typesupport_fastrtps_cpp.so[0m
+[52.171s] [ 48%] Built target bond__rosidl_typesupport_fastrtps_cpp
+[52.364s] [ 51%] [32mBuilding CXX object CMakeFiles/bond__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bond/msg/detail/status__type_support_c.cpp.o[0m
+[54.787s] gmake[2]: *** [CMakeFiles/bond__rosidl_typesupport_fastrtps_c.dir/build.make:177: libbond__rosidl_typesupport_fastrtps_c.so] Interrupt
+[54.793s] Traceback (most recent call last):
+[54.794s]   File "/home/mihkel/.local/bin/cmake", line 8, in <module>
+[54.794s]     sys.exit(cmake())
+[54.795s]   File "/home/mihkel/.local/lib/python3.10/site-packages/cmake/__init__.py", line 47, in cmake
+[54.798s]     raise SystemExit(_program('cmake', sys.argv[1:]))
+[54.798s] gmake[1]: *** [CMakeFiles/Makefile2:239: CMakeFiles/bond__rosidl_typesupport_fastrtps_c.dir/all] Interrupt
+[54.799s]   File "/home/mihkel/.local/lib/python3.10/site-packages/cmake/__init__.py", line 43, in _program
+[54.799s]     return subprocess.call([os.path.join(CMAKE_BIN_DIR, name)] + args, close_fds=False)
+[54.799s]   File "/usr/lib/python3.10/subprocess.py", line 347, in call
+[54.800s] gmake: *** [Makefile:146: all] Interrupt
+[54.801s]     return p.wait(timeout=timeout)
+[54.801s]   File "/usr/lib/python3.10/subprocess.py", line 1209, in wait
+[54.802s]     return self._wait(timeout=timeout)
+[54.802s]   File "/usr/lib/python3.10/subprocess.py", line 1959, in _wait
+[54.804s]     (pid, sts) = self._try_wait(0)
+[54.804s]   File "/usr/lib/python3.10/subprocess.py", line 1917, in _try_wait
+[54.873s]     (pid, sts) = os.waitpid(self.pid, wait_flags)
+[54.874s] KeyboardInterrupt

@@ -1,0 +1,55 @@
+[0.582s] Invoking command in '/home/mihkel/School/ros-packages/nav2_ws/build/image_geometry': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ros-packages/nav2_ws/build/image_geometry -- -j12 -l12
+[0.750s] [  0%] Built target ament_cmake_python_symlink_image_geometry
+[0.759s] [ 22%] Built target gtest_main
+[0.771s] [ 44%] Built target gtest
+[0.777s] [ 77%] Built target image_geometry
+[0.818s] [ 88%] [32mBuilding CXX object CMakeFiles/image_geometry-utest.dir/test/utest.cpp.o[0m
+[2.603s] running egg_info
+[2.606s] writing image_geometry.egg-info/PKG-INFO
+[2.606s] writing dependency_links to image_geometry.egg-info/dependency_links.txt
+[2.609s] writing top-level names to image_geometry.egg-info/top_level.txt
+[2.617s] reading manifest file 'image_geometry.egg-info/SOURCES.txt'
+[2.620s] writing manifest file 'image_geometry.egg-info/SOURCES.txt'
+[2.722s] [ 88%] Built target ament_cmake_python_build_image_geometry_egg
+[6.588s] [100%] [32m[1mLinking CXX executable image_geometry-utest[0m
+[7.136s] [100%] Built target image_geometry-utest
+[7.170s] Invoked command in '/home/mihkel/School/ros-packages/nav2_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ros-packages/nav2_ws/build/image_geometry -- -j12 -l12
+[7.378s] Invoking command in '/home/mihkel/School/ros-packages/nav2_ws/build/image_geometry': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --install /home/mihkel/School/ros-packages/nav2_ws/build/image_geometry
+[7.508s] -- Install configuration: ""
+[7.511s] -- Execute custom install script
+[7.512s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/image_geometry/share/image_geometry/environment/pythonpath.sh
+[7.523s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/image_geometry/share/image_geometry/environment/pythonpath.dsv
+[7.536s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry-3.2.1-py3.10.egg-info/PKG-INFO
+[7.548s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry-3.2.1-py3.10.egg-info/SOURCES.txt
+[7.557s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry-3.2.1-py3.10.egg-info/dependency_links.txt
+[7.568s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry-3.2.1-py3.10.egg-info/top_level.txt
+[7.580s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry/__init__.py
+[7.589s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry/cameramodels.py
+[7.600s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/image_geometry/include/image_geometry/image_geometry/pinhole_camera_model.h
+[7.608s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/image_geometry/include/image_geometry/image_geometry/stereo_camera_model.h
+[7.616s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/image_geometry/include/image_geometry/image_geometry/visibility_control.hpp
+[7.624s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/image_geometry/share/ament_index/resource_index/package_run_dependencies/image_geometry
+[7.633s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/image_geometry/share/ament_index/resource_index/parent_prefix_path/image_geometry
+[7.642s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/image_geometry/share/image_geometry/environment/ament_prefix_path.sh
+[7.650s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/image_geometry/share/image_geometry/environment/ament_prefix_path.dsv
+[7.661s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/image_geometry/share/image_geometry/environment/path.sh
+[7.670s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/image_geometry/share/image_geometry/environment/path.dsv
+[7.678s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/image_geometry/share/image_geometry/local_setup.bash
+[7.687s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/image_geometry/share/image_geometry/local_setup.sh
+[7.695s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/image_geometry/share/image_geometry/local_setup.zsh
+[7.704s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/image_geometry/share/image_geometry/local_setup.dsv
+[7.712s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/image_geometry/share/image_geometry/package.dsv
+[7.721s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/image_geometry/share/ament_index/resource_index/packages/image_geometry
+[7.730s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_targets-extras.cmake
+[7.739s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.748s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/image_geometry/share/image_geometry/cmake/image_geometryConfig.cmake
+[7.757s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/image_geometry/share/image_geometry/cmake/image_geometryConfig-version.cmake
+[7.766s] -- Symlinking: /home/mihkel/School/ros-packages/nav2_ws/install/image_geometry/share/image_geometry/package.xml
+[7.915s] Listing '/home/mihkel/School/ros-packages/nav2_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry'...
+[7.915s] Compiling '/home/mihkel/School/ros-packages/nav2_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry/__init__.py'...
+[7.916s] Compiling '/home/mihkel/School/ros-packages/nav2_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry/cameramodels.py'...
+[7.934s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/image_geometry/lib/libimage_geometry.so
+[7.937s] -- Set non-toolchain portion of runtime path of "/home/mihkel/School/ros-packages/nav2_ws/install/image_geometry/lib/libimage_geometry.so" to ""
+[7.937s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/image_geometry/share/image_geometry/cmake/export_image_geometryExport.cmake
+[7.938s] -- Installing: /home/mihkel/School/ros-packages/nav2_ws/install/image_geometry/share/image_geometry/cmake/export_image_geometryExport-noconfig.cmake
+[7.965s] Invoked command in '/home/mihkel/School/ros-packages/nav2_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake --install /home/mihkel/School/ros-packages/nav2_ws/build/image_geometry

@@ -1,0 +1,75 @@
+[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:146 (find_package):
+  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  CMake variable EIGEN_ROOT is set to:
+
+    /usr/include/eigen3
+
+  For compatibility, find_package is ignoring the variable, but code in a
+  .cmake module might still use it.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:299 (find_eigen)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+  /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)
+  /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/rtabmap-0.21/RTABMapConfig.cmake:7 (find_dependency)
+  /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions/share/rtabmap_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions/share/rtabmap_conversions/cmake/rtabmap_conversionsConfig.cmake:41 (include)
+  CMakeLists.txt:18 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:44 (find_package):
+  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  CMake variable FLANN_ROOT is set to:
+
+    /usr
+
+  For compatibility, find_package is ignoring the variable, but code in a
+  .cmake module might still use it.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:256 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:301 (find_flann)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+  /home/mihkel/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)
+  /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap/lib/rtabmap-0.21/RTABMapConfig.cmake:7 (find_dependency)
+  /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions/share/rtabmap_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/mihkel/School/ThesisPractical/rtabmap_ws/install/rtabmap_conversions/share/rtabmap_conversions/cmake/rtabmap_conversionsConfig.cmake:41 (include)
+  CMakeLists.txt:18 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_use_modules is not part of the official API, and might be removed in Qt
+  6.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:431 (_qt5_warn_deprecated)
+  CMakeLists.txt:85 (QT5_USE_MODULES)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+Traceback (most recent call last):
+  File "/home/mihkel/.local/bin/cmake", line 8, in <module>
+    sys.exit(cmake())
+  File "/home/mihkel/.local/lib/python3.10/site-packages/cmake/__init__.py", line 47, in cmake
+gmake[2]: *** [CMakeFiles/rtabmap_rviz_plugins.dir/build.make:88: CMakeFiles/rtabmap_rviz_plugins.dir/src/MapCloudDisplay.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/rtabmap_rviz_plugins.dir/build.make:102: CMakeFiles/rtabmap_rviz_plugins.dir/src/MapGraphDisplay.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/rtabmap_rviz_plugins.dir/build.make:116: CMakeFiles/rtabmap_rviz_plugins.dir/src/InfoDisplay.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/rtabmap_rviz_plugins.dir/build.make:158: CMakeFiles/rtabmap_rviz_plugins.dir/include/rtabmap_rviz_plugins/moc_InfoDisplay.cpp.o] Interrupt
+    raise SystemExit(_program('cmake', sys.argv[1:]))
+  File "/home/mihkel/.local/lib/python3.10/site-packages/cmake/__init__.py", line 43, in _program
+gmake[2]: *** [CMakeFiles/rtabmap_rviz_plugins.dir/build.make:144: CMakeFiles/rtabmap_rviz_plugins.dir/include/rtabmap_rviz_plugins/moc_MapGraphDisplay.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/rtabmap_rviz_plugins.dir/build.make:130: CMakeFiles/rtabmap_rviz_plugins.dir/include/rtabmap_rviz_plugins/moc_MapCloudDisplay.cpp.o] Interrupt
+    return subprocess.call([os.path.join(CMAKE_BIN_DIR, name)] + args, close_fds=False)
+  File "/usr/lib/python3.10/subprocess.py", line 347, in call
+    return p.wait(timeout=timeout)
+  File "/usr/lib/python3.10/subprocess.py", line 1209, in wait
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rtabmap_rviz_plugins.dir/all] Interrupt
+    return self._wait(timeout=timeout)
+  File "/usr/lib/python3.10/subprocess.py", line 1959, in _wait
+gmake: *** [Makefile:146: all] Interrupt
+    (pid, sts) = self._try_wait(0)
+  File "/usr/lib/python3.10/subprocess.py", line 1917, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt

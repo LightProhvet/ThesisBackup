@@ -1,0 +1,21 @@
+[1.240s] Invoking command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/tsl-robin-map': /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/build/_deps/tessil-src -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/ros2_ws/install/tsl-robin-map
+[1.376s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[1.377s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[1.377s]   CMake.
+[1.378s] 
+[1.378s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[1.378s]   CMake that the project does not need compatibility with older versions.
+[1.379s] 
+[1.379s] [0m
+[1.834s] -- The CXX compiler identification is GNU 11.4.0
+[1.974s] -- Detecting CXX compiler ABI info
+[2.334s] -- Detecting CXX compiler ABI info - done
+[2.433s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.436s] -- Detecting CXX compile features
+[2.440s] -- Detecting CXX compile features - done
+[2.466s] -- Configuring done (1.1s)
+[2.472s] -- Generating done (0.0s)
+[2.474s] -- Build files have been written to: /home/mihkel/School/ThesisPractical/ros2_ws/build/tsl-robin-map
+[2.577s] Invoked command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/tsl-robin-map' returned '0': /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/ros2_ws/src/MapMOS/build/_deps/tessil-src -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/ros2_ws/install/tsl-robin-map
+[2.581s] Invoking command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/tsl-robin-map': /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ThesisPractical/ros2_ws/build/tsl-robin-map -- -j12 -l12
+[3.421s] Invoked command in '/home/mihkel/School/ThesisPractical/ros2_ws/build/tsl-robin-map' returned '0': /home/mihkel/.local/bin/cmake --build /home/mihkel/School/ThesisPractical/ros2_ws/build/tsl-robin-map -- -j12 -l12

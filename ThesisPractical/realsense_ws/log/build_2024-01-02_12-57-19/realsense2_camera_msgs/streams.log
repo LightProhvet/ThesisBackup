@@ -1,0 +1,33 @@
+[0.078s] Invoking command in '/home/mihkel/School/ThesisPractical/realsense_ws/build/realsense2_camera_msgs': /usr/bin/cmake /home/mihkel/School/ThesisPractical/realsense_ws/src/realsense-ros/realsense2_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/realsense_ws/install/realsense2_camera_msgs
+[0.195s] -- The C compiler identification is GNU 11.4.0
+[0.325s] -- The CXX compiler identification is GNU 11.4.0
+[0.343s] -- Detecting C compiler ABI info
+[0.498s] -- Detecting C compiler ABI info - done
+[0.521s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.522s] -- Detecting C compile features
+[0.523s] -- Detecting C compile features - done
+[0.531s] -- Detecting CXX compiler ABI info
+[0.708s] -- Detecting CXX compiler ABI info - done
+[0.733s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.733s] -- Detecting CXX compile features
+[0.735s] -- Detecting CXX compile features - done
+[0.759s] [31mCMake Error at CMakeLists.txt:27 (find_package):
+[0.759s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.760s]   has asked CMake to find a package configuration file provided by
+[0.760s]   "ament_cmake", but CMake did not find one.
+[0.760s] 
+[0.760s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.760s]   any of the following names:
+[0.760s] 
+[0.761s]     ament_cmakeConfig.cmake
+[0.761s]     ament_cmake-config.cmake
+[0.761s] 
+[0.761s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.761s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.762s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.762s]   has been installed.
+[0.762s] 
+[0.762s] [0m
+[0.762s] -- Configuring incomplete, errors occurred!
+[0.762s] See also "/home/mihkel/School/ThesisPractical/realsense_ws/build/realsense2_camera_msgs/CMakeFiles/CMakeOutput.log".
+[0.766s] Invoked command in '/home/mihkel/School/ThesisPractical/realsense_ws/build/realsense2_camera_msgs' returned '1': /usr/bin/cmake /home/mihkel/School/ThesisPractical/realsense_ws/src/realsense-ros/realsense2_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/realsense_ws/install/realsense2_camera_msgs

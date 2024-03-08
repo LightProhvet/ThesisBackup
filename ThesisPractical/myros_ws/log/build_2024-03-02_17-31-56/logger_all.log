@@ -1,0 +1,382 @@
+[4.092s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[4.092s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fea7876f550>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fea7876e8c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fea7876e8c0>>)
+[4.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.265s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mihkel/School/ThesisPractical/myros_ws'
+[4.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.299s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.299s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.299s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.300s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.300s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.300s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.300s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.300s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.300s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.301s] Level 1:colcon.colcon_core.package_identification:_identify(params) by extensions ['ignore', 'ignore_ament_install']
+[4.301s] Level 1:colcon.colcon_core.package_identification:_identify(params) by extension 'ignore'
+[4.301s] Level 1:colcon.colcon_core.package_identification:_identify(params) by extension 'ignore_ament_install'
+[4.301s] Level 1:colcon.colcon_core.package_identification:_identify(params) by extensions ['colcon_pkg']
+[4.301s] Level 1:colcon.colcon_core.package_identification:_identify(params) by extension 'colcon_pkg'
+[4.301s] Level 1:colcon.colcon_core.package_identification:_identify(params) by extensions ['colcon_meta']
+[4.301s] Level 1:colcon.colcon_core.package_identification:_identify(params) by extension 'colcon_meta'
+[4.301s] Level 1:colcon.colcon_core.package_identification:_identify(params) by extensions ['ros']
+[4.302s] Level 1:colcon.colcon_core.package_identification:_identify(params) by extension 'ros'
+[4.302s] Level 1:colcon.colcon_core.package_identification:_identify(params) by extensions ['cmake', 'python']
+[4.302s] Level 1:colcon.colcon_core.package_identification:_identify(params) by extension 'cmake'
+[4.302s] Level 1:colcon.colcon_core.package_identification:_identify(params) by extension 'python'
+[4.302s] Level 1:colcon.colcon_core.package_identification:_identify(params) by extensions ['python_setup_py']
+[4.302s] Level 1:colcon.colcon_core.package_identification:_identify(params) by extension 'python_setup_py'
+[4.302s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.303s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.303s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.303s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.303s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.303s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.303s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.303s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.303s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.304s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.304s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.304s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.304s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.304s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/a_semantic_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[4.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/a_semantic_interfaces) by extension 'ignore'
+[4.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/a_semantic_interfaces) by extension 'ignore_ament_install'
+[4.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/a_semantic_interfaces) by extensions ['colcon_pkg']
+[4.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/a_semantic_interfaces) by extension 'colcon_pkg'
+[4.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/a_semantic_interfaces) by extensions ['colcon_meta']
+[4.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/a_semantic_interfaces) by extension 'colcon_meta'
+[4.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/a_semantic_interfaces) by extensions ['ros']
+[4.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/a_semantic_interfaces) by extension 'ros'
+[4.310s] DEBUG:colcon.colcon_core.package_identification:Package 'src/a_semantic_interfaces' with type 'ros.ament_cmake' and name 'tutorial_interfaces'
+[4.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/a_semantic_rules) by extensions ['ignore', 'ignore_ament_install']
+[4.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/a_semantic_rules) by extension 'ignore'
+[4.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/a_semantic_rules) by extension 'ignore_ament_install'
+[4.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/a_semantic_rules) by extensions ['colcon_pkg']
+[4.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/a_semantic_rules) by extension 'colcon_pkg'
+[4.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/a_semantic_rules) by extensions ['colcon_meta']
+[4.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/a_semantic_rules) by extension 'colcon_meta'
+[4.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/a_semantic_rules) by extensions ['ros']
+[4.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/a_semantic_rules) by extension 'ros'
+[4.313s] DEBUG:colcon.colcon_core.package_identification:Package 'src/a_semantic_rules' with type 'ros.ament_python' and name 'py_srvcli'
+[4.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/a_simple_costmap_plugin) by extensions ['ignore', 'ignore_ament_install']
+[4.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/a_simple_costmap_plugin) by extension 'ignore'
+[4.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/a_simple_costmap_plugin) ignored
+[4.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/deep_nav_layers) by extensions ['ignore', 'ignore_ament_install']
+[4.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/deep_nav_layers) by extension 'ignore'
+[4.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/deep_nav_layers) by extension 'ignore_ament_install'
+[4.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/deep_nav_layers) by extensions ['colcon_pkg']
+[4.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/deep_nav_layers) by extension 'colcon_pkg'
+[4.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/deep_nav_layers) by extensions ['colcon_meta']
+[4.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/deep_nav_layers) by extension 'colcon_meta'
+[4.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/deep_nav_layers) by extensions ['ros']
+[4.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/deep_nav_layers) by extension 'ros'
+[4.316s] DEBUG:colcon.colcon_core.package_identification:Package 'src/deep_nav_layers' with type 'ros.catkin' and name 'deep_nav_layers'
+[4.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation2_dynamic) by extensions ['ignore', 'ignore_ament_install']
+[4.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation2_dynamic) by extension 'ignore'
+[4.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation2_dynamic) by extension 'ignore_ament_install'
+[4.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation2_dynamic) by extensions ['colcon_pkg']
+[4.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation2_dynamic) by extension 'colcon_pkg'
+[4.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation2_dynamic) by extensions ['colcon_meta']
+[4.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation2_dynamic) by extension 'colcon_meta'
+[4.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation2_dynamic) by extensions ['ros']
+[4.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation2_dynamic) by extension 'ros'
+[4.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation2_dynamic) by extensions ['cmake', 'python']
+[4.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation2_dynamic) by extension 'cmake'
+[4.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation2_dynamic) by extension 'python'
+[4.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation2_dynamic) by extensions ['python_setup_py']
+[4.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation2_dynamic) by extension 'python_setup_py'
+[4.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation2_dynamic/kf_hungarian_tracker) by extensions ['ignore', 'ignore_ament_install']
+[4.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation2_dynamic/kf_hungarian_tracker) by extension 'ignore'
+[4.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation2_dynamic/kf_hungarian_tracker) by extension 'ignore_ament_install'
+[4.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation2_dynamic/kf_hungarian_tracker) by extensions ['colcon_pkg']
+[4.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation2_dynamic/kf_hungarian_tracker) by extension 'colcon_pkg'
+[4.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation2_dynamic/kf_hungarian_tracker) by extensions ['colcon_meta']
+[4.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation2_dynamic/kf_hungarian_tracker) by extension 'colcon_meta'
+[4.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation2_dynamic/kf_hungarian_tracker) by extensions ['ros']
+[4.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation2_dynamic/kf_hungarian_tracker) by extension 'ros'
+[4.320s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navigation2_dynamic/kf_hungarian_tracker' with type 'ros.ament_python' and name 'kf_hungarian_tracker'
+[4.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation2_dynamic/nav2_dynamic_msgs) by extensions ['ignore', 'ignore_ament_install']
+[4.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation2_dynamic/nav2_dynamic_msgs) by extension 'ignore'
+[4.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation2_dynamic/nav2_dynamic_msgs) by extension 'ignore_ament_install'
+[4.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation2_dynamic/nav2_dynamic_msgs) by extensions ['colcon_pkg']
+[4.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation2_dynamic/nav2_dynamic_msgs) by extension 'colcon_pkg'
+[4.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation2_dynamic/nav2_dynamic_msgs) by extensions ['colcon_meta']
+[4.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation2_dynamic/nav2_dynamic_msgs) by extension 'colcon_meta'
+[4.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation2_dynamic/nav2_dynamic_msgs) by extensions ['ros']
+[4.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation2_dynamic/nav2_dynamic_msgs) by extension 'ros'
+[4.322s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navigation2_dynamic/nav2_dynamic_msgs' with type 'ros.ament_cmake' and name 'nav2_dynamic_msgs'
+[4.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_segmentation) by extensions ['ignore', 'ignore_ament_install']
+[4.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_segmentation) by extension 'ignore'
+[4.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_segmentation) by extension 'ignore_ament_install'
+[4.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_segmentation) by extensions ['colcon_pkg']
+[4.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_segmentation) by extension 'colcon_pkg'
+[4.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_segmentation) by extensions ['colcon_meta']
+[4.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_segmentation) by extension 'colcon_meta'
+[4.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_segmentation) by extensions ['ros']
+[4.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_segmentation) by extension 'ros'
+[4.325s] DEBUG:colcon.colcon_core.package_identification:Package 'src/semantic_segmentation' with type 'ros.ament_python' and name 'semantic_segmentation'
+[4.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorials) by extensions ['ignore', 'ignore_ament_install']
+[4.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorials) by extension 'ignore'
+[4.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorials) ignored
+[4.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros) by extensions ['ignore', 'ignore_ament_install']
+[4.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros) by extension 'ignore'
+[4.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros) by extension 'ignore_ament_install'
+[4.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros) by extensions ['colcon_pkg']
+[4.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros) by extension 'colcon_pkg'
+[4.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros) by extensions ['colcon_meta']
+[4.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros) by extension 'colcon_meta'
+[4.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros) by extensions ['ros']
+[4.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros) by extension 'ros'
+[4.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros) by extensions ['cmake', 'python']
+[4.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros) by extension 'cmake'
+[4.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros) by extension 'python'
+[4.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros) by extensions ['python_setup_py']
+[4.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros) by extension 'python_setup_py'
+[4.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros/docs) by extensions ['ignore', 'ignore_ament_install']
+[4.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros/docs) by extension 'ignore'
+[4.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros/docs) by extension 'ignore_ament_install'
+[4.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros/docs) by extensions ['colcon_pkg']
+[4.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros/docs) by extension 'colcon_pkg'
+[4.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros/docs) by extensions ['colcon_meta']
+[4.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros/docs) by extension 'colcon_meta'
+[4.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros/docs) by extensions ['ros']
+[4.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros/docs) by extension 'ros'
+[4.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros/docs) by extensions ['cmake', 'python']
+[4.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros/docs) by extension 'cmake'
+[4.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros/docs) by extension 'python'
+[4.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros/docs) by extensions ['python_setup_py']
+[4.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros/docs) by extension 'python_setup_py'
+[4.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros/yolov8_bringup) by extensions ['ignore', 'ignore_ament_install']
+[4.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros/yolov8_bringup) by extension 'ignore'
+[4.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros/yolov8_bringup) by extension 'ignore_ament_install'
+[4.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros/yolov8_bringup) by extensions ['colcon_pkg']
+[4.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros/yolov8_bringup) by extension 'colcon_pkg'
+[4.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros/yolov8_bringup) by extensions ['colcon_meta']
+[4.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros/yolov8_bringup) by extension 'colcon_meta'
+[4.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros/yolov8_bringup) by extensions ['ros']
+[4.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros/yolov8_bringup) by extension 'ros'
+[4.331s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolov8_ros/yolov8_bringup' with type 'ros.ament_cmake' and name 'yolov8_bringup'
+[4.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros/yolov8_msgs) by extensions ['ignore', 'ignore_ament_install']
+[4.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros/yolov8_msgs) by extension 'ignore'
+[4.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros/yolov8_msgs) by extension 'ignore_ament_install'
+[4.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros/yolov8_msgs) by extensions ['colcon_pkg']
+[4.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros/yolov8_msgs) by extension 'colcon_pkg'
+[4.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros/yolov8_msgs) by extensions ['colcon_meta']
+[4.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros/yolov8_msgs) by extension 'colcon_meta'
+[4.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros/yolov8_msgs) by extensions ['ros']
+[4.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros/yolov8_msgs) by extension 'ros'
+[4.333s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolov8_ros/yolov8_msgs' with type 'ros.ament_cmake' and name 'yolov8_msgs'
+[4.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros/yolov8_ros) by extensions ['ignore', 'ignore_ament_install']
+[4.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros/yolov8_ros) by extension 'ignore'
+[4.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros/yolov8_ros) by extension 'ignore_ament_install'
+[4.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros/yolov8_ros) by extensions ['colcon_pkg']
+[4.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros/yolov8_ros) by extension 'colcon_pkg'
+[4.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros/yolov8_ros) by extensions ['colcon_meta']
+[4.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros/yolov8_ros) by extension 'colcon_meta'
+[4.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros/yolov8_ros) by extensions ['ros']
+[4.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_ros/yolov8_ros) by extension 'ros'
+[4.336s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolov8_ros/yolov8_ros' with type 'ros.ament_python' and name 'yolov8_ros'
+[4.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.658s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.658s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.767s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 397 installed packages in /opt/ros/humble
+[4.771s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.035s] Level 5:colcon.colcon_core.verb:set package 'deep_nav_layers' build argument 'cmake_args' from command line to 'None'
+[5.035s] Level 5:colcon.colcon_core.verb:set package 'deep_nav_layers' build argument 'cmake_target' from command line to 'None'
+[5.035s] Level 5:colcon.colcon_core.verb:set package 'deep_nav_layers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.035s] Level 5:colcon.colcon_core.verb:set package 'deep_nav_layers' build argument 'cmake_clean_cache' from command line to 'False'
+[5.035s] Level 5:colcon.colcon_core.verb:set package 'deep_nav_layers' build argument 'cmake_clean_first' from command line to 'False'
+[5.035s] Level 5:colcon.colcon_core.verb:set package 'deep_nav_layers' build argument 'cmake_force_configure' from command line to 'False'
+[5.035s] Level 5:colcon.colcon_core.verb:set package 'deep_nav_layers' build argument 'ament_cmake_args' from command line to 'None'
+[5.035s] Level 5:colcon.colcon_core.verb:set package 'deep_nav_layers' build argument 'catkin_cmake_args' from command line to 'None'
+[5.035s] Level 5:colcon.colcon_core.verb:set package 'deep_nav_layers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.035s] DEBUG:colcon.colcon_core.verb:Building package 'deep_nav_layers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mihkel/School/ThesisPractical/myros_ws/build/deep_nav_layers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mihkel/School/ThesisPractical/myros_ws/install/deep_nav_layers', 'merge_install': False, 'path': '/home/mihkel/School/ThesisPractical/myros_ws/src/deep_nav_layers', 'symlink_install': False, 'test_result_base': None}
+[5.087s] Level 5:colcon.colcon_core.verb:set package 'nav2_dynamic_msgs' build argument 'cmake_args' from command line to 'None'
+[5.088s] Level 5:colcon.colcon_core.verb:set package 'nav2_dynamic_msgs' build argument 'cmake_target' from command line to 'None'
+[5.088s] Level 5:colcon.colcon_core.verb:set package 'nav2_dynamic_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.088s] Level 5:colcon.colcon_core.verb:set package 'nav2_dynamic_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[5.088s] Level 5:colcon.colcon_core.verb:set package 'nav2_dynamic_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[5.088s] Level 5:colcon.colcon_core.verb:set package 'nav2_dynamic_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[5.088s] Level 5:colcon.colcon_core.verb:set package 'nav2_dynamic_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[5.088s] Level 5:colcon.colcon_core.verb:set package 'nav2_dynamic_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[5.088s] Level 5:colcon.colcon_core.verb:set package 'nav2_dynamic_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.088s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_dynamic_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mihkel/School/ThesisPractical/myros_ws/build/nav2_dynamic_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs', 'merge_install': False, 'path': '/home/mihkel/School/ThesisPractical/myros_ws/src/navigation2_dynamic/nav2_dynamic_msgs', 'symlink_install': False, 'test_result_base': None}
+[5.141s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_args' from command line to 'None'
+[5.141s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_target' from command line to 'None'
+[5.141s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.141s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_clean_cache' from command line to 'False'
+[5.141s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_clean_first' from command line to 'False'
+[5.141s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_force_configure' from command line to 'False'
+[5.141s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'ament_cmake_args' from command line to 'None'
+[5.141s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'catkin_cmake_args' from command line to 'None'
+[5.141s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.141s] DEBUG:colcon.colcon_core.verb:Building package 'py_srvcli' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mihkel/School/ThesisPractical/myros_ws/build/py_srvcli', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mihkel/School/ThesisPractical/myros_ws/install/py_srvcli', 'merge_install': False, 'path': '/home/mihkel/School/ThesisPractical/myros_ws/src/a_semantic_rules', 'symlink_install': False, 'test_result_base': None}
+[5.194s] Level 5:colcon.colcon_core.verb:set package 'semantic_segmentation' build argument 'cmake_args' from command line to 'None'
+[5.194s] Level 5:colcon.colcon_core.verb:set package 'semantic_segmentation' build argument 'cmake_target' from command line to 'None'
+[5.194s] Level 5:colcon.colcon_core.verb:set package 'semantic_segmentation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.194s] Level 5:colcon.colcon_core.verb:set package 'semantic_segmentation' build argument 'cmake_clean_cache' from command line to 'False'
+[5.194s] Level 5:colcon.colcon_core.verb:set package 'semantic_segmentation' build argument 'cmake_clean_first' from command line to 'False'
+[5.194s] Level 5:colcon.colcon_core.verb:set package 'semantic_segmentation' build argument 'cmake_force_configure' from command line to 'False'
+[5.194s] Level 5:colcon.colcon_core.verb:set package 'semantic_segmentation' build argument 'ament_cmake_args' from command line to 'None'
+[5.194s] Level 5:colcon.colcon_core.verb:set package 'semantic_segmentation' build argument 'catkin_cmake_args' from command line to 'None'
+[5.194s] Level 5:colcon.colcon_core.verb:set package 'semantic_segmentation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.194s] DEBUG:colcon.colcon_core.verb:Building package 'semantic_segmentation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mihkel/School/ThesisPractical/myros_ws/build/semantic_segmentation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation', 'merge_install': False, 'path': '/home/mihkel/School/ThesisPractical/myros_ws/src/semantic_segmentation', 'symlink_install': False, 'test_result_base': None}
+[5.246s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_args' from command line to 'None'
+[5.246s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_target' from command line to 'None'
+[5.246s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.246s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[5.246s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[5.246s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[5.246s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[5.246s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[5.247s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.247s] DEBUG:colcon.colcon_core.verb:Building package 'tutorial_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mihkel/School/ThesisPractical/myros_ws/build/tutorial_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mihkel/School/ThesisPractical/myros_ws/install/tutorial_interfaces', 'merge_install': False, 'path': '/home/mihkel/School/ThesisPractical/myros_ws/src/a_semantic_interfaces', 'symlink_install': False, 'test_result_base': None}
+[5.298s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_args' from command line to 'None'
+[5.299s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_target' from command line to 'None'
+[5.299s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.299s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[5.299s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[5.299s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[5.299s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[5.299s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[5.299s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.299s] DEBUG:colcon.colcon_core.verb:Building package 'yolov8_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_msgs', 'merge_install': False, 'path': '/home/mihkel/School/ThesisPractical/myros_ws/src/yolov8_ros/yolov8_msgs', 'symlink_install': False, 'test_result_base': None}
+[5.352s] Level 5:colcon.colcon_core.verb:set package 'yolov8_ros' build argument 'cmake_args' from command line to 'None'
+[5.352s] Level 5:colcon.colcon_core.verb:set package 'yolov8_ros' build argument 'cmake_target' from command line to 'None'
+[5.352s] Level 5:colcon.colcon_core.verb:set package 'yolov8_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.352s] Level 5:colcon.colcon_core.verb:set package 'yolov8_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[5.352s] Level 5:colcon.colcon_core.verb:set package 'yolov8_ros' build argument 'cmake_clean_first' from command line to 'False'
+[5.352s] Level 5:colcon.colcon_core.verb:set package 'yolov8_ros' build argument 'cmake_force_configure' from command line to 'False'
+[5.352s] Level 5:colcon.colcon_core.verb:set package 'yolov8_ros' build argument 'ament_cmake_args' from command line to 'None'
+[5.352s] Level 5:colcon.colcon_core.verb:set package 'yolov8_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[5.352s] Level 5:colcon.colcon_core.verb:set package 'yolov8_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.352s] DEBUG:colcon.colcon_core.verb:Building package 'yolov8_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_ros', 'merge_install': False, 'path': '/home/mihkel/School/ThesisPractical/myros_ws/src/yolov8_ros/yolov8_ros', 'symlink_install': False, 'test_result_base': None}
+[5.404s] Level 5:colcon.colcon_core.verb:set package 'kf_hungarian_tracker' build argument 'cmake_args' from command line to 'None'
+[5.404s] Level 5:colcon.colcon_core.verb:set package 'kf_hungarian_tracker' build argument 'cmake_target' from command line to 'None'
+[5.405s] Level 5:colcon.colcon_core.verb:set package 'kf_hungarian_tracker' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.405s] Level 5:colcon.colcon_core.verb:set package 'kf_hungarian_tracker' build argument 'cmake_clean_cache' from command line to 'False'
+[5.405s] Level 5:colcon.colcon_core.verb:set package 'kf_hungarian_tracker' build argument 'cmake_clean_first' from command line to 'False'
+[5.405s] Level 5:colcon.colcon_core.verb:set package 'kf_hungarian_tracker' build argument 'cmake_force_configure' from command line to 'False'
+[5.405s] Level 5:colcon.colcon_core.verb:set package 'kf_hungarian_tracker' build argument 'ament_cmake_args' from command line to 'None'
+[5.405s] Level 5:colcon.colcon_core.verb:set package 'kf_hungarian_tracker' build argument 'catkin_cmake_args' from command line to 'None'
+[5.405s] Level 5:colcon.colcon_core.verb:set package 'kf_hungarian_tracker' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.405s] DEBUG:colcon.colcon_core.verb:Building package 'kf_hungarian_tracker' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mihkel/School/ThesisPractical/myros_ws/build/kf_hungarian_tracker', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mihkel/School/ThesisPractical/myros_ws/install/kf_hungarian_tracker', 'merge_install': False, 'path': '/home/mihkel/School/ThesisPractical/myros_ws/src/navigation2_dynamic/kf_hungarian_tracker', 'symlink_install': False, 'test_result_base': None}
+[5.457s] Level 5:colcon.colcon_core.verb:set package 'yolov8_bringup' build argument 'cmake_args' from command line to 'None'
+[5.457s] Level 5:colcon.colcon_core.verb:set package 'yolov8_bringup' build argument 'cmake_target' from command line to 'None'
+[5.457s] Level 5:colcon.colcon_core.verb:set package 'yolov8_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.457s] Level 5:colcon.colcon_core.verb:set package 'yolov8_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[5.457s] Level 5:colcon.colcon_core.verb:set package 'yolov8_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[5.457s] Level 5:colcon.colcon_core.verb:set package 'yolov8_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[5.458s] Level 5:colcon.colcon_core.verb:set package 'yolov8_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[5.458s] Level 5:colcon.colcon_core.verb:set package 'yolov8_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[5.458s] Level 5:colcon.colcon_core.verb:set package 'yolov8_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.458s] DEBUG:colcon.colcon_core.verb:Building package 'yolov8_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_bringup', 'merge_install': False, 'path': '/home/mihkel/School/ThesisPractical/myros_ws/src/yolov8_ros/yolov8_bringup', 'symlink_install': False, 'test_result_base': None}
+[5.509s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.563s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.563s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mihkel/School/ThesisPractical/myros_ws/src/navigation2_dynamic/nav2_dynamic_msgs' with build type 'ament_cmake'
+[5.563s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mihkel/School/ThesisPractical/myros_ws/src/navigation2_dynamic/nav2_dynamic_msgs'
+[5.633s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.633s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.633s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.762s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mihkel/School/ThesisPractical/myros_ws/src/yolov8_ros/yolov8_ros' with build type 'ament_python'
+[5.762s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_ros', 'ament_prefix_path')
+[5.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_ros/share/yolov8_ros/hook/ament_prefix_path.ps1'
+[5.826s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_ros/share/yolov8_ros/hook/ament_prefix_path.dsv'
+[5.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_ros/share/yolov8_ros/hook/ament_prefix_path.sh'
+[5.888s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.888s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.008s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/mihkel/School/ThesisPractical/myros_ws/src/deep_nav_layers' with build type 'catkin'
+[6.008s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mihkel/School/ThesisPractical/myros_ws/src/deep_nav_layers'
+[6.073s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.073s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.208s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mihkel/School/ThesisPractical/myros_ws/src/a_semantic_rules' with build type 'ament_python'
+[6.209s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_srvcli', 'ament_prefix_path')
+[6.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/myros_ws/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.ps1'
+[6.276s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mihkel/School/ThesisPractical/myros_ws/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.dsv'
+[6.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/myros_ws/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.sh'
+[6.343s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.344s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.474s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mihkel/School/ThesisPractical/myros_ws/src/semantic_segmentation' with build type 'ament_python'
+[6.474s] Level 1:colcon.colcon_core.shell:create_environment_hook('semantic_segmentation', 'ament_prefix_path')
+[6.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/share/semantic_segmentation/hook/ament_prefix_path.ps1'
+[6.550s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/share/semantic_segmentation/hook/ament_prefix_path.dsv'
+[6.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihkel/School/ThesisPractical/myros_ws/install/semantic_segmentation/share/semantic_segmentation/hook/ament_prefix_path.sh'
+[6.624s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.625s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.765s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mihkel/School/ThesisPractical/myros_ws/src/a_semantic_interfaces' with build type 'ament_cmake'
+[6.765s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mihkel/School/ThesisPractical/myros_ws/src/a_semantic_interfaces'
+[6.837s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.837s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.985s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mihkel/School/ThesisPractical/myros_ws/src/yolov8_ros/yolov8_msgs' with build type 'ament_cmake'
+[6.985s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mihkel/School/ThesisPractical/myros_ws/src/yolov8_ros/yolov8_msgs'
+[7.060s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.060s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.219s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mihkel/School/ThesisPractical/myros_ws/build/nav2_dynamic_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/myros_ws/src/navigation2_dynamic/nav2_dynamic_msgs -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/myros_ws/install/nav2_dynamic_msgs
+[8.110s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mihkel/School/ThesisPractical/myros_ws/src/yolov8_ros/yolov8_ros'
+[8.208s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.209s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.392s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mihkel/School/ThesisPractical/myros_ws/build/deep_nav_layers': /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/myros_ws/src/deep_nav_layers -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/myros_ws/install/deep_nav_layers
+[9.418s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mihkel/School/ThesisPractical/myros_ws/src/a_semantic_rules'
+[9.514s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.515s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.776s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mihkel/School/ThesisPractical/myros_ws/src/semantic_segmentation'
+[10.875s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.875s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.087s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mihkel/School/ThesisPractical/myros_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/myros_ws/src/a_semantic_interfaces -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/myros_ws/install/tutorial_interfaces
+[11.097s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mihkel/School/ThesisPractical/myros_ws/build/yolov8_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/myros_ws/src/yolov8_ros/yolov8_msgs -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/myros_ws/install/yolov8_msgs
+[11.134s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mihkel/School/ThesisPractical/myros_ws/build/deep_nav_layers' returned '1': /home/mihkel/.local/bin/cmake /home/mihkel/School/ThesisPractical/myros_ws/src/deep_nav_layers -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/mihkel/School/ThesisPractical/myros_ws/install/deep_nav_layers
+[11.236s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(deep_nav_layers)
+[11.424s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/myros_ws/install/deep_nav_layers' for CMake module files
+[11.426s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/myros_ws/install/deep_nav_layers' for CMake config files
+[11.428s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/myros_ws/install/deep_nav_layers/bin'
+[11.428s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/myros_ws/install/deep_nav_layers/lib/pkgconfig/deep_nav_layers.pc'
+[11.429s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/myros_ws/install/deep_nav_layers/lib/python3.10/site-packages'
+[11.431s] Level 1:colcon.colcon_core.environment:checking '/home/mihkel/School/ThesisPractical/myros_ws/install/deep_nav_layers/bin'
+[11.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihkel/School/ThesisPractical/myros_ws/install/deep_nav_layers/share/deep_nav_layers/package.ps1'
+[11.607s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mihkel/School/ThesisPractical/myros_ws/install/deep_nav_layers/share/deep_nav_layers/package.dsv'
+[11.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihkel/School/ThesisPractical/myros_ws/install/deep_nav_layers/share/deep_nav_layers/package.sh'
+[11.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihkel/School/ThesisPractical/myros_ws/install/deep_nav_layers/share/deep_nav_layers/package.bash'
+[11.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihkel/School/ThesisPractical/myros_ws/install/deep_nav_layers/share/deep_nav_layers/package.zsh'
+[11.623s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mihkel/School/ThesisPractical/myros_ws/install/deep_nav_layers/share/colcon-core/packages/deep_nav_layers)
+[26.497s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[26.497s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[26.498s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[26.498s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[26.624s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[26.624s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[26.625s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[26.678s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[26.769s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mihkel/School/ThesisPractical/myros_ws/install/local_setup.ps1'
+[26.773s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mihkel/School/ThesisPractical/myros_ws/install/_local_setup_util_ps1.py'
+[26.777s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mihkel/School/ThesisPractical/myros_ws/install/setup.ps1'
+[26.871s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mihkel/School/ThesisPractical/myros_ws/install/local_setup.sh'
+[26.873s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mihkel/School/ThesisPractical/myros_ws/install/_local_setup_util_sh.py'
+[26.874s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mihkel/School/ThesisPractical/myros_ws/install/setup.sh'
+[26.967s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mihkel/School/ThesisPractical/myros_ws/install/local_setup.bash'
+[26.969s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mihkel/School/ThesisPractical/myros_ws/install/setup.bash'
+[27.061s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mihkel/School/ThesisPractical/myros_ws/install/local_setup.zsh'
+[27.063s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mihkel/School/ThesisPractical/myros_ws/install/setup.zsh'
